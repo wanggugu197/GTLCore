@@ -14,12 +14,14 @@
 	}]
 	quests: [
 		{
+			dependencies: ["133BC85B5D3EF1CB"]
 			description: [
 				"拿到青铜锭你就可以开始蒸汽时代了"
 				"鼓起勇气迈向格雷科技的第一个电压吧！"
 			]
 			icon_scale: 2.0d
 			id: "5F5F348E3A34827E"
+			progression_mode: "flexible"
 			rewards: [{
 				id: "41A3ACD4F54D9969"
 				item: "gtceu:cupronickel_credit"
