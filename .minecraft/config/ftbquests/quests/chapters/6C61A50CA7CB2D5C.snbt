@@ -356,7 +356,6 @@
 			tasks: [{
 				id: "38B3D54BA79B5655"
 				item: "gtceu:rp_1_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 15.0d
@@ -368,7 +367,6 @@
 			tasks: [{
 				id: "4AFDE648EB424D67"
 				item: "gtceu:liquid_oxygen_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 13.0d
@@ -380,7 +378,6 @@
 			tasks: [{
 				id: "560A66A757B837D8"
 				item: "gtceu:kerosene_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 14.0d
@@ -393,13 +390,11 @@
 				{
 					id: "46EDDE8B99914FD7"
 					item: "gtceu:coal_tar_bucket"
-					optional_task: true
 					type: "item"
 				}
 				{
 					id: "514363511A811AAA"
 					item: "gtceu:coke_dust"
-					optional_task: true
 					type: "item"
 				}
 			]
@@ -413,7 +408,6 @@
 			tasks: [{
 				id: "16752FF94443D990"
 				item: "gtceu:coal_gas_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 12.0d
@@ -526,7 +520,6 @@
 			tasks: [{
 				id: "3D5292F2889B4C26"
 				item: "gtceu:hydrazine_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 25.0d
@@ -541,7 +534,6 @@
 			tasks: [{
 				id: "1113D511CB4E0C7B"
 				item: "gtceu:hydrogen_peroxide_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 24.0d
@@ -553,7 +545,6 @@
 			tasks: [{
 				id: "52A3EA5288880E34"
 				item: "gtceu:anthracene_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 24.0d
@@ -565,7 +556,6 @@
 			tasks: [{
 				id: "5D55249FB2842404"
 				item: "gtceu:ethylanthrahydroquinone_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 23.0d
@@ -578,7 +568,6 @@
 			tasks: [{
 				id: "0C831FE92299304B"
 				item: "gtceu:ethylanthraquinone_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 22.0d
@@ -590,7 +579,6 @@
 			tasks: [{
 				id: "3C452C7920E689D1"
 				item: "gtceu:phthalic_anhydride_dust"
-				optional_task: true
 				type: "item"
 			}]
 			x: 21.0d
@@ -604,9 +592,8 @@
 			dependency_requirement: "one_completed"
 			id: "706B6132C6C42BAE"
 			tasks: [{
-				id: "4F3B4AB73159303F"
+				id: "2944650DDDA41EEF"
 				item: "gtceu:phthalic_acid_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 20.0d
@@ -618,7 +605,6 @@
 			tasks: [{
 				id: "713CDD966CF89ADF"
 				item: "gtceu:naphthalene_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 20.0d
@@ -630,7 +616,6 @@
 			tasks: [{
 				id: "184F0AF60546CBA4"
 				item: "gtceu:dimethylbenzene_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 20.0d
@@ -778,7 +763,6 @@
 			tasks: [{
 				id: "01B057C002B715FF"
 				item: "gtceu:monomethylhydrazine_bucket"
-				optional_task: true
 				type: "item"
 			}]
 			x: 36.0d
