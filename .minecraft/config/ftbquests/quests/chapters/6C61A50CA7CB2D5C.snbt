@@ -17,6 +17,7 @@
 	}
 	id: "6C61A50CA7CB2D5C"
 	order_index: 5
+	progression_mode: "flexible"
 	quest_links: [{
 		id: "7476D5287FB73239"
 		linked_quest: "335ED39019FC62E7"
@@ -148,7 +149,7 @@
 			dependencies: ["009E71EC51F5B0EF"]
 			id: "0D865B38481F3106"
 			rewards: [{
-				id: "29C4EDC665FC5FB6"
+				id: "2C144384C9580FD3"
 				item: {
 					Count: 1
 					id: "avaritia:infinity_bow"
@@ -352,54 +353,36 @@
 		{
 			dependencies: ["36EDAB1E6F9E8618"]
 			id: "3FBDEBFA58D0B01F"
-			tasks: [
-				{
-					id: "38B3D54BA79B5655"
-					item: "gtceu:rp_1_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "290ECF45289E9905"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "38B3D54BA79B5655"
+				item: "gtceu:rp_1_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 15.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["63C8DD19C6B76899"]
 			id: "509A4CEE0C308165"
-			tasks: [
-				{
-					id: "4AFDE648EB424D67"
-					item: "gtceu:liquid_oxygen_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0010D9422789330C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4AFDE648EB424D67"
+				item: "gtceu:liquid_oxygen_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 13.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E2549EFE6D9AA7B"]
 			id: "36EDAB1E6F9E8618"
-			tasks: [
-				{
-					id: "560A66A757B837D8"
-					item: "gtceu:kerosene_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0C2E89B247E0E85E"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "560A66A757B837D8"
+				item: "gtceu:kerosene_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 14.0d
 			y: 4.0d
 		}
@@ -419,10 +402,6 @@
 					optional_task: true
 					type: "item"
 				}
-				{
-					id: "412EC917430435D6"
-					type: "checkmark"
-				}
 			]
 			title: "煤焦油和焦煤粉"
 			x: 13.0d
@@ -431,18 +410,12 @@
 		{
 			dependencies: ["63C8DD19C6B76899"]
 			id: "34BED884F1A28343"
-			tasks: [
-				{
-					id: "16752FF94443D990"
-					item: "gtceu:coal_gas_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "55034866BAB8E55C"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "16752FF94443D990"
+				item: "gtceu:coal_gas_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 12.0d
 			y: 4.0d
 		}
@@ -550,18 +523,12 @@
 		{
 			dependencies: ["606199C34AD69974"]
 			id: "6A16D86A6B8963DC"
-			tasks: [
-				{
-					id: "3D5292F2889B4C26"
-					item: "gtceu:hydrazine_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "408E65A78F512D05"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "3D5292F2889B4C26"
+				item: "gtceu:hydrazine_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 25.0d
 			y: 4.0d
 		}
@@ -571,54 +538,36 @@
 				"26490ED393A09C12"
 			]
 			id: "606199C34AD69974"
-			tasks: [
-				{
-					id: "1113D511CB4E0C7B"
-					item: "gtceu:hydrogen_peroxide_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5971D89094BE2377"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "1113D511CB4E0C7B"
+				item: "gtceu:hydrogen_peroxide_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 24.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["123FD5A979F5750D"]
 			id: "50E554A0F172FEF4"
-			tasks: [
-				{
-					id: "52A3EA5288880E34"
-					item: "gtceu:anthracene_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1477EA302B7D2C87"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "52A3EA5288880E34"
+				item: "gtceu:anthracene_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 24.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["357F8943B37E231D"]
 			id: "26490ED393A09C12"
-			tasks: [
-				{
-					id: "5D55249FB2842404"
-					item: "gtceu:ethylanthrahydroquinone_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "40B7B5E346EE96BE"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5D55249FB2842404"
+				item: "gtceu:ethylanthrahydroquinone_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 23.0d
 			y: 4.0d
 		}
@@ -626,36 +575,24 @@
 			dependencies: ["589789F9FC81A557"]
 			description: ["这个是催化剂，再下下个反应中会还给你的，不需要做很多"]
 			id: "357F8943B37E231D"
-			tasks: [
-				{
-					id: "0C831FE92299304B"
-					item: "gtceu:ethylanthraquinone_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "08D8871D66256B70"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "0C831FE92299304B"
+				item: "gtceu:ethylanthraquinone_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 22.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["706B6132C6C42BAE"]
 			id: "589789F9FC81A557"
-			tasks: [
-				{
-					id: "3C452C7920E689D1"
-					item: "gtceu:phthalic_anhydride_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "58879157D53270F7"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "3C452C7920E689D1"
+				item: "gtceu:phthalic_anhydride_dust"
+				optional_task: true
+				type: "item"
+			}]
 			x: 21.0d
 			y: 4.0d
 		}
@@ -666,54 +603,36 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "706B6132C6C42BAE"
-			tasks: [
-				{
-					id: "4F3B4AB73159303F"
-					item: "gtceu:phthalic_acid_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5ED7461DEB480E59"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "4F3B4AB73159303F"
+				item: "gtceu:phthalic_acid_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 20.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["123FD5A979F5750D"]
 			id: "7B3D7412BEA6862A"
-			tasks: [
-				{
-					id: "713CDD966CF89ADF"
-					item: "gtceu:naphthalene_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5B062BEDA570EC35"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "713CDD966CF89ADF"
+				item: "gtceu:naphthalene_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 20.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["123FD5A979F5750D"]
 			id: "6C689993C9BCE006"
-			tasks: [
-				{
-					id: "184F0AF60546CBA4"
-					item: "gtceu:dimethylbenzene_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "62D498D596792A96"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "184F0AF60546CBA4"
+				item: "gtceu:dimethylbenzene_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 20.0d
 			y: 3.0d
 		}
@@ -856,18 +775,12 @@
 			dependencies: ["187BE1A67AF10798"]
 			hide_dependency_lines: true
 			id: "48E9439ABC35D129"
-			tasks: [
-				{
-					id: "01B057C002B715FF"
-					item: "gtceu:monomethylhydrazine_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "141E95011AA0739D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "01B057C002B715FF"
+				item: "gtceu:monomethylhydrazine_bucket"
+				optional_task: true
+				type: "item"
+			}]
 			x: 36.0d
 			y: 4.0d
 		}
@@ -910,48 +823,213 @@
 			id: "603ED43DD7A89BF3"
 			tasks: [
 				{
-					id: "734B4AC51FAF51DA"
-					item: "gtceu:raw_bauxite"
+					id: "01976BE91EA883EC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_plutonium"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_plutonium_ore"
+								}
+							]
+						}
+					}
+					title: "钚矿"
 					type: "item"
 				}
 				{
-					id: "5EA3102A28A00339"
-					item: "gtceu:raw_ilmenite"
+					id: "1E6030D3693A493A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_uraninite_ore"
+								}
+								{
+									Count: 1b
+									id: "gtceu:raw_uraninite"
+								}
+							]
+						}
+					}
+					title: "晶质铀矿"
 					type: "item"
 				}
 				{
-					id: "6E41CC1205203487"
-					item: "gtceu:raw_aluminium"
+					id: "576AC2B49B5813FE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_thorium"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_thorium_ore"
+								}
+							]
+						}
+					}
+					title: "钍矿"
 					type: "item"
 				}
 				{
-					id: "7BD806947FFC69BA"
-					item: "gtceu:raw_uraninite"
+					id: "033B5EF0112BBD0B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_bauxite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_bauxite_ore"
+								}
+							]
+						}
+					}
+					title: "铝土矿"
 					type: "item"
 				}
 				{
-					id: "7E6AB6B1F16EFB41"
-					item: "gtceu:raw_pitchblende"
+					id: "0DD8652ED4611F82"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_ilmenite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_ilmenite_ore"
+								}
+							]
+						}
+					}
+					title: "钛铁矿"
 					type: "item"
 				}
 				{
-					id: "2CE2A66C255AC323"
-					item: "gtceu:raw_thorium"
+					id: "00580E4B9A7736F8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_aluminium"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_aluminium_ore"
+								}
+							]
+						}
+					}
+					title: "铝矿"
 					type: "item"
 				}
 				{
-					id: "329C5B93ECCB6FE0"
-					item: "gtceu:raw_bastnasite"
+					id: "78E0B5C66AA92878"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_bastnasite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_bastnasite_ore"
+								}
+							]
+						}
+					}
+					title: "氟碳镧铈矿"
 					type: "item"
 				}
 				{
-					id: "6B80D3BC373D553B"
-					item: "gtceu:raw_monazite"
+					id: "3BAE348042726B7B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_monazite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_monazite_ore"
+								}
+							]
+						}
+					}
+					title: "独居石矿"
 					type: "item"
 				}
 				{
-					id: "0930EE8B3FE52194"
-					item: "gtceu:raw_neodymium"
+					id: "00947B8296FBC23A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_neodymium"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_neodymium_ore"
+								}
+							]
+						}
+					}
+					title: "钕矿"
+					type: "item"
+				}
+				{
+					id: "3B070CD20F3A821A"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_pitchblende"
+								}
+								{
+									Count: 1b
+									id: "gtceu:moon_stone_pitchblende_ore"
+								}
+							]
+						}
+					}
+					title: "沥青铀矿"
 					type: "item"
 				}
 			]
@@ -983,53 +1061,171 @@
 			id: "3D5E0BA1F8F013FC"
 			tasks: [
 				{
-					id: "7B362C2D0A3F2B34"
-					item: "gtceu:raw_scheelite"
+					id: "1029092368BA3B5F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_bornite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_bornite_ore"
+								}
+							]
+						}
+					}
+					title: "斑铜矿"
 					type: "item"
 				}
 				{
-					id: "5868448726EB5F85"
-					item: "gtceu:raw_tungstate"
+					id: "651B1346359D9C24"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_cooperite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_cooperite_ore"
+								}
+							]
+						}
+					}
+					title: "谢尔顿矿"
 					type: "item"
 				}
 				{
-					id: "4340E734E1FCE59F"
-					item: "gtceu:raw_lithium"
+					id: "0E4BCCC6335D68A2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_platinum"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_platinum_ore"
+								}
+							]
+						}
+					}
+					title: "铂矿"
 					type: "item"
 				}
 				{
-					id: "67BCA48FD653C9D5"
-					item: "gtceu:raw_cooperite"
+					id: "71FA8F536F7A39A2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_palladium"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_palladium_ore"
+								}
+							]
+						}
+					}
+					title: "钯矿"
 					type: "item"
 				}
 				{
-					id: "4F64CB1271C10AD6"
-					item: "gtceu:raw_bornite"
+					id: "13733668DC0218FF"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_scheelite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_scheelite_ore"
+								}
+							]
+						}
+					}
+					title: "白钨矿"
 					type: "item"
 				}
 				{
-					id: "36885808EF010639"
-					item: "gtceu:raw_platinum"
+					id: "714051B30D568497"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_tungstate"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_tungstate_ore"
+								}
+							]
+						}
+					}
+					title: "钨酸锂矿"
 					type: "item"
 				}
 				{
-					id: "2945D20FC740FB45"
-					item: "gtceu:raw_palladium"
+					id: "4A9A510C1742CD20"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_lithium"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_lithium_ore"
+								}
+							]
+						}
+					}
+					title: "锂矿"
 					type: "item"
 				}
 				{
-					id: "49159B1279181E8F"
-					item: "gtceu:raw_pyrochlore"
-					type: "item"
-				}
-				{
-					id: "41E24DC7270AF2D1"
-					item: "gtceu:raw_apatite"
-					type: "item"
-				}
-				{
-					id: "02C7ED74D08CBD20"
-					item: "gtceu:raw_tricalcium_phosphate"
+					id: "3451FB79D20A8C88"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_pyrochlore"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mars_stone_pyrochlore_ore"
+								}
+							]
+						}
+					}
+					title: "烧绿石矿"
 					type: "item"
 				}
 			]
@@ -1055,48 +1251,45 @@
 			id: "66BBE21B86B35170"
 			tasks: [
 				{
-					id: "053580F012F38F61"
-					item: "gtceu:raw_desh"
+					id: "2B4B6F94CCB63F3B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_desh"
+								}
+								{
+									Count: 1b
+									id: "gtceu:venus_stone_desh_ore"
+								}
+							]
+						}
+					}
+					title: "戴斯矿"
 					type: "item"
 				}
 				{
-					id: "0133550C8342EFE1"
-					item: "gtceu:raw_magnesite"
-					type: "item"
-				}
-				{
-					id: "576FEDA169E057F5"
-					item: "gtceu:raw_sulfur"
-					type: "item"
-				}
-				{
-					id: "61DF7F4FD46F331E"
-					item: "gtceu:raw_pyrite"
-					type: "item"
-				}
-				{
-					id: "34BAD952486803D1"
-					item: "gtceu:raw_sphalerite"
-					type: "item"
-				}
-				{
-					id: "23C0BD54CD211593"
-					item: "gtceu:raw_bentonite"
-					type: "item"
-				}
-				{
-					id: "589DD66CA5B99DFA"
-					item: "gtceu:raw_magnetite"
-					type: "item"
-				}
-				{
-					id: "2C3A195F85EA60B6"
-					item: "gtceu:raw_olivine"
-					type: "item"
-				}
-				{
-					id: "5157C46CB2B214A2"
-					item: "gtceu:raw_glauconite_sand"
+					id: "458ADD95B42BC9C2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_magnesite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:venus_stone_magnesite_ore"
+								}
+							]
+						}
+					}
+					title: "菱镁矿"
 					type: "item"
 				}
 			]
@@ -1109,38 +1302,45 @@
 			id: "755BA509E954B7DC"
 			tasks: [
 				{
-					id: "6428D6EEAEE1BA91"
-					item: "gtceu:raw_calorite"
+					id: "74535462F313F0B1"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_calorite"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mercury_stone_calorite_ore"
+								}
+							]
+						}
+					}
+					title: "耐热金属矿"
 					type: "item"
 				}
 				{
-					id: "478CD9D688916D24"
-					item: "gtceu:raw_cobalt"
-					type: "item"
-				}
-				{
-					id: "35C30A631D599917"
-					item: "gtceu:raw_magnesite"
-					type: "item"
-				}
-				{
-					id: "5DD0B8141CB6F828"
-					item: "gtceu:raw_garnierite"
-					type: "item"
-				}
-				{
-					id: "1127E4740231AECC"
-					item: "gtceu:raw_nickel"
-					type: "item"
-				}
-				{
-					id: "659704C6C7AD926D"
-					item: "gtceu:raw_cobaltite"
-					type: "item"
-				}
-				{
-					id: "7BC6862957021AA4"
-					item: "gtceu:raw_pentlandite"
+					id: "7EDE197A89AC1C36"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_cobalt"
+								}
+								{
+									Count: 1b
+									id: "gtceu:mercury_stone_cobalt_ore"
+								}
+							]
+						}
+					}
+					title: "钴矿"
 					type: "item"
 				}
 			]
@@ -1176,8 +1376,24 @@
 			dependencies: ["5010011959CF5337"]
 			id: "48DFA1EF82126177"
 			tasks: [{
-				id: "712CE912BBCC97FA"
-				item: "gtceu:raw_ostrum"
+				id: "0CCEB5AFDDEA25C4"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:raw_ostrum"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ceresstone_ostrum_ore"
+							}
+						]
+					}
+				}
+				title: "紫金矿"
 				type: "item"
 			}]
 			title: "谷神星的矿"
@@ -1537,18 +1753,66 @@
 			id: "793E9EC16B16BA5C"
 			tasks: [
 				{
-					id: "7A60CC225A62E827"
-					item: "gtceu:raw_naquadah"
+					id: "0070CCE1FB5D18C8"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_celestine"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iostone_celestine_ore"
+								}
+							]
+						}
+					}
+					title: "天青石矿"
 					type: "item"
 				}
 				{
-					id: "04B98AF7EBA6D607"
-					item: "gtceu:raw_celestine"
+					id: "0098469CB284FFD7"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_trona"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iostone_trona_ore"
+								}
+							]
+						}
+					}
+					title: "天然碱矿"
 					type: "item"
 				}
 				{
-					id: "59EB363E1AF4A068"
-					item: "gtceu:raw_trona"
+					id: "24F50C3C3A896118"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "gtceu:raw_naquadah"
+								}
+								{
+									Count: 1b
+									id: "gtceu:iostone_naquadah_ore"
+								}
+							]
+						}
+					}
+					title: "硅岩矿"
 					type: "item"
 				}
 			]
@@ -1584,8 +1848,24 @@
 			dependencies: ["761877FE2F5E2E2E"]
 			id: "5A5C5923DADD33E5"
 			tasks: [{
-				id: "31F911C5925689BB"
-				item: "gtceu:raw_zircon"
+				id: "3921D2F2D8D17F31"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "gtceu:raw_zircon"
+							}
+							{
+								Count: 1b
+								id: "gtceu:ganymedestone_zircon_ore"
+							}
+						]
+					}
+				}
+				title: "锆石矿"
 				type: "item"
 			}]
 			title: "木卫三的矿"
