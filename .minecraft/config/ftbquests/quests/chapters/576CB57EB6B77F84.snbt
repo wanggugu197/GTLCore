@@ -5,6 +5,96 @@
 	group: "24F4987B35ABEE82"
 	icon: "ad_astra:coal_generator"
 	id: "576CB57EB6B77F84"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:item/hv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/hv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/iv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/luv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/zpm_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uiv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/opv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uhv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/mv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/lv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.5d
+			y: -3.5d
+		}
+	]
 	order_index: 3
 	quest_links: [{
 		id: "36B7CB415A94ED0D"
@@ -13,16 +103,6 @@
 		y: -3.5d
 	}]
 	quests: [
-		{
-			id: "7577061AE4366606"
-			tasks: [{
-				id: "208E887FE1E45C23"
-				title: "LV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -3.5d
-		}
 		{
 			dependency_requirement: "one_completed"
 			description: ["推荐制作一个大型锅炉来生产用不完的蒸汽"]
@@ -70,16 +150,6 @@
 			y: -3.5d
 		}
 		{
-			id: "05C8B854877A8A7D"
-			tasks: [{
-				id: "503E4DDF1F1A68CC"
-				title: "MV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -2.0d
-		}
-		{
 			description: ["蒸汽还是很厉害"]
 			id: "18E1B2BB5CD96398"
 			tasks: [{
@@ -113,16 +183,6 @@
 			y: -2.0d
 		}
 		{
-			id: "6934C9C15FAAD00A"
-			tasks: [{
-				id: "2206076670EC76B3"
-				title: "HV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: -0.5d
-		}
-		{
 			description: ["蒸汽已经准备淘汰了"]
 			id: "67A3AFD69B00EC4C"
 			tasks: [{
@@ -154,16 +214,6 @@
 			}]
 			x: 0.5d
 			y: -0.5d
-		}
-		{
-			id: "62D8D7B8C9730557"
-			tasks: [{
-				id: "0CE1A9B25F5823C9"
-				title: "EV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 1.0d
 		}
 		{
 			description: [
@@ -206,16 +256,6 @@
 			}]
 			x: 0.5d
 			y: 1.0d
-		}
-		{
-			id: "5460CFE78B89DC30"
-			tasks: [{
-				id: "4B7E26D82AAFA0A5"
-				title: "IV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 2.5d
 		}
 		{
 			description: ["特大涡轮的发电量都非常巨大，即使是蒸汽也很强力，注意每一个转子都不能遮挡"]
@@ -273,16 +313,6 @@
 			y: 2.5d
 		}
 		{
-			id: "504BA5B399BFA571"
-			tasks: [{
-				id: "326C22F23137507B"
-				title: "LuV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 4.0d
-		}
-		{
 			description: ["还是很强力"]
 			id: "5960AA3D42E0F886"
 			tasks: [{
@@ -324,16 +354,6 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.5d
-		}
-		{
-			id: "1BD6F43D61ABF744"
-			tasks: [{
-				id: "1661853C8F3910C0"
-				title: "ZPM"
-				type: "checkmark"
-			}]
-			x: -4.5d
 			y: 5.5d
 		}
 		{
@@ -382,16 +402,6 @@
 			y: 5.5d
 		}
 		{
-			id: "44F827B28C513D5B"
-			tasks: [{
-				id: "513C7F42EA555C43"
-				title: "UV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 7.0d
-		}
-		{
 			description: ["最高MAX级别电力，非常强力"]
 			id: "24BBFCFCAFE0ECD5"
 			tasks: [{
@@ -412,16 +422,6 @@
 			}]
 			x: 5.0d
 			y: 1.0d
-		}
-		{
-			id: "4B33F47839538D7B"
-			tasks: [{
-				id: "5B512F241E6679D1"
-				title: "UHV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 8.5d
 		}
 		{
 			description: ["相比硅岩，更省燃料，最高256A MAX输出"]
@@ -446,16 +446,6 @@
 			y: 10.0d
 		}
 		{
-			id: "19C7474792787EE9"
-			tasks: [{
-				id: "2E8606C5E07D1D88"
-				title: "UIV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 10.0d
-		}
-		{
 			description: ["最高16384A MAX输出"]
 			id: "25F672CF48091CEC"
 			tasks: [{
@@ -465,16 +455,6 @@
 			}]
 			x: -2.5d
 			y: 10.0d
-		}
-		{
-			id: "31779C5096523FEF"
-			tasks: [{
-				id: "28E9E67B5567ABFB"
-				title: "OpV"
-				type: "checkmark"
-			}]
-			x: -4.5d
-			y: 11.5d
 		}
 		{
 			description: [""]

@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["溶解罐请注意配比，溶解罐尽量不要使用ME输入仓"]
+			description: ["溶解罐请注意配比，溶解罐尽量不要使用ME输入仓,可能会崩溃"]
 			icon_scale: 2.0d
 			id: "29D4D49428BF7FF4"
 			tasks: [

@@ -295,8 +295,24 @@
 					type: "dimension"
 				}
 				{
-					id: "560602E8EACC8B7A"
-					item: "ad_astra:moon_cobblestone"
+					id: "124662630C6379A2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ad_astra:moon_cobblestone"
+								}
+								{
+									Count: 1b
+									id: "ad_astra:moon_stone"
+								}
+							]
+						}
+					}
+					title: "月球"
 					type: "item"
 				}
 			]
@@ -439,8 +455,24 @@
 					type: "dimension"
 				}
 				{
-					id: "0AB08618956CA74F"
-					item: "ad_astra:mars_cobblestone"
+					id: "2CA8073F3F2556B3"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ad_astra:mars_cobblestone"
+								}
+								{
+									Count: 1b
+									id: "ad_astra:mars_stone"
+								}
+							]
+						}
+					}
+					title: "火星"
 					type: "item"
 				}
 			]
@@ -635,8 +667,24 @@
 					type: "dimension"
 				}
 				{
-					id: "78B145B588D4A27E"
-					item: "ad_astra:venus_cobblestone"
+					id: "720424C95B16C2BE"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ad_astra:venus_cobblestone"
+								}
+								{
+									Count: 1b
+									id: "ad_astra:venus_stone"
+								}
+							]
+						}
+					}
+					title: "金星"
 					type: "item"
 				}
 			]
@@ -657,8 +705,24 @@
 					type: "dimension"
 				}
 				{
-					id: "4F66F12F3196F92E"
-					item: "ad_astra:mercury_cobblestone"
+					id: "21E6EFC3085453E2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ad_astra:mercury_stone"
+								}
+								{
+									Count: 1b
+									id: "ad_astra:mercury_cobblestone"
+								}
+							]
+						}
+					}
+					title: "水星"
 					type: "item"
 				}
 			]
@@ -2026,8 +2090,24 @@
 					type: "dimension"
 				}
 				{
-					id: "3ED53E0C61B41595"
-					item: "ad_astra:glacio_cobblestone"
+					id: "7F68FCACC2FF48A4"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ad_astra:glacio_cobblestone"
+								}
+								{
+									Count: 1b
+									id: "ad_astra:glacio_stone"
+								}
+							]
+						}
+					}
+					title: "霜原星"
 					type: "item"
 				}
 			]
@@ -2115,6 +2195,7 @@
 			description: ["每个星球飞一次就够了"]
 			id: "21D8A596F5BE438E"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in ad_astra:moon run tp 0 200 0"
 				elevate_perms: true
@@ -2134,6 +2215,7 @@
 			dependencies: ["702471643821B0DE"]
 			id: "10BFE6FF4FE640CF"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in ad_astra:mars run tp 0 200 0"
 				elevate_perms: true
@@ -2153,6 +2235,7 @@
 			dependencies: ["602F48807D4A89A6"]
 			id: "07645AD74EFE2F30"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in ad_astra:venus run tp 0 200 0"
 				elevate_perms: true
@@ -2172,6 +2255,7 @@
 			dependencies: ["240EDC34562E580F"]
 			id: "78CA1579D445E245"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in ad_astra:mercury run tp 0 200 0"
 				elevate_perms: true
@@ -2191,6 +2275,7 @@
 			dependencies: ["5010011959CF5337"]
 			id: "5DDB65F09BF7CB42"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:ceres run tp 0 200 0"
 				elevate_perms: true
@@ -2210,6 +2295,7 @@
 			dependencies: ["73613E3EBEFFB326"]
 			id: "0605583CFB358CAA"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:io run tp 0 200 0"
 				elevate_perms: true
@@ -2229,6 +2315,7 @@
 			dependencies: ["761877FE2F5E2E2E"]
 			id: "523A8CBF30530A08"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:ganymede run tp 0 200 0"
 				elevate_perms: true
@@ -2248,6 +2335,7 @@
 			dependencies: ["61140578961B01A9"]
 			id: "03EB99A257E23BB0"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:pluto run tp 0 200 0"
 				elevate_perms: true
@@ -2267,6 +2355,7 @@
 			dependencies: ["22B38057B7705160"]
 			id: "5F4A69C996774D27"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:enceladus run tp 0 200 0"
 				elevate_perms: true
@@ -2286,6 +2375,7 @@
 			dependencies: ["7E8D49D03B9CF783"]
 			id: "42E7589D84B33100"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:titan run tp 0 200 0"
 				elevate_perms: true
@@ -2305,6 +2395,7 @@
 			dependencies: ["7796B2AE8F20C564"]
 			id: "49CD5A099F2C481D"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in kubejs:barnarda run tp 0 200 0"
 				elevate_perms: true
@@ -2324,6 +2415,7 @@
 			dependencies: ["25AA088531768F81"]
 			id: "308E80493652A74D"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in ad_astra:glacio run tp 0 200 0"
 				elevate_perms: true
@@ -2363,6 +2455,7 @@
 			dependencies: ["778546543F6413E7"]
 			id: "18316E48C29988B5"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in minecraft:the_nether run tp 0 100 0"
 				elevate_perms: true
@@ -2382,6 +2475,7 @@
 			dependencies: ["5E3EDA6C94CEC3C4"]
 			id: "1308E1F15E72F288"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in minecraft:the_end run tp 0 200 0"
 				elevate_perms: true
@@ -2428,6 +2522,7 @@
 			dependencies: ["3A48F268FB265977"]
 			id: "57BCF2B955E86FD0"
 			optional: true
+			progression_mode: "linear"
 			rewards: [{
 				command: "/execute in ad_astra:earth_orbit run tp 0 100 0"
 				elevate_perms: true

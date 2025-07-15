@@ -14,6 +14,7 @@
 	}]
 	quests: [
 		{
+			dependencies: ["133BC85B5D3EF1CB"]
 			description: [
 				"拿到青铜锭你就可以开始蒸汽时代了"
 				"鼓起勇气迈向格雷科技的第一个电压吧！"
@@ -99,10 +100,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5C936EF307594737"
-				"36A49197309D1F09"
-			]
+			dependencies: ["36A49197309D1F09"]
 			description: [
 				"你可以开始炼钢了"
 				"推荐尽快做&5超维度等泥土锻炉&r"
@@ -135,7 +133,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -152,7 +150,7 @@
 				item: "gtceu:lp_steam_compressor"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -161,6 +159,7 @@
 			icon: "gtceu:fireclay_dust"
 			id: "36A49197309D1F09"
 			rewards: [{
+				count: 2
 				id: "777E0B3B0A58DE1A"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
@@ -181,10 +180,15 @@
 					item: "gtceu:fireclay_dust"
 					type: "item"
 				}
+				{
+					id: "70C0AD6451675EDA"
+					item: "gtceu:compressed_fireclay"
+					type: "item"
+				}
 			]
 			title: "耐火黏土粉"
 			x: 5.0d
-			y: 0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C936EF307594737"]
@@ -669,7 +673,7 @@
 			}]
 			title: "你的第一块电路"
 			x: 6.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			id: "77A1011F608079C9"
