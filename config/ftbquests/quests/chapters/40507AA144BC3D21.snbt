@@ -6,12 +6,7 @@
 	icon: "gtceu:opv_electric_motor"
 	id: "40507AA144BC3D21"
 	order_index: 13
-	quest_links: [{
-		id: "14F40CE0FBA07270"
-		linked_quest: "00A227F06D7F109E"
-		x: -3.0d
-		y: -7.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -31,7 +26,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3E5EBC2B23A503C1"]
@@ -92,6 +87,7 @@
 			dependencies: [
 				"2880531AF7540B24"
 				"5A61ABB6E4917C6C"
+				"6477FF81781A9FC7"
 			]
 			icon_scale: 2.0d
 			id: "11A7CCFCEAB722F3"
@@ -100,8 +96,8 @@
 				item: "kubejs:hypercube"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -115,13 +111,15 @@
 				item: "kubejs:space_probe_mk3"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -7.0d
+			x: -13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"63998161D9D731E7"
 				"67EF7F1C6AE2A6C9"
+				"402B123A2EEC8E3B"
+				"697D33BB516A0785"
 			]
 			id: "736395E39993F727"
 			tasks: [{
@@ -129,13 +127,14 @@
 				item: "kubejs:hyperdimensional_drone"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: [
 				"736395E39993F727"
 				"771080AF846271E3"
+				"6AC9C2DEDE46A99D"
 			]
 			description: ["建议替换UXV及以后的电路"]
 			icon_scale: 2.0d
@@ -147,7 +146,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -163,13 +162,14 @@
 				item: "avaritia:eternal_singularity"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.0d
+			x: -5.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
 				"0A6C5B3C148A5743"
 				"622395061792FB5E"
+				"34609EBF66099F47"
 			]
 			id: "04420B8E0278D7AD"
 			tasks: [{
@@ -177,8 +177,8 @@
 				item: "gtceu:eternity_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -193,13 +193,14 @@
 				item: "kubejs:eternity_catalyst"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: 3.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["00A227F06D7F109E"]
 			icon_scale: 2.0d
 			id: "622395061792FB5E"
+			subtitle: "2112"
 			tasks: [{
 				id: "049F132CCC5B262C"
 				item: "kubejs:infinity_coil_block"
@@ -209,7 +210,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["30AEBB08CE6C88BA"]
+			dependencies: [
+				"30AEBB08CE6C88BA"
+				"697D33BB516A0785"
+			]
 			icon_scale: 2.0d
 			id: "2C3C46AC660CC54E"
 			tasks: [{
@@ -221,7 +225,10 @@
 			y: -5.0d
 		}
 		{
-			dependencies: ["2AFCDC0CA3205903"]
+			dependencies: [
+				"2AFCDC0CA3205903"
+				"53598E77317EAEB6"
+			]
 			icon: "gtceu:magnetohydrodynamicallyconstrainedstarmatter_bucket"
 			id: "30AEBB08CE6C88BA"
 			tasks: [{
@@ -239,12 +246,13 @@
 			id: "0610CD9378D8B0AD"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "可以把你最高级别的激光仓填满"
 			tasks: [{
 				id: "50D76B27937DC429"
 				item: "gtceu:annihilate_generator"
 				type: "item"
 			}]
-			x: -1.0d
+			x: -7.0d
 			y: -1.0d
 		}
 		{
@@ -291,7 +299,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -304,7 +312,7 @@
 				item: "kubejs:chaos_shard"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -13.0d
 			y: -7.0d
 		}
 		{
@@ -315,8 +323,8 @@
 				item: "gtceu:chaos_ingot"
 				type: "item"
 			}]
-			x: -9.0d
-			y: -5.0d
+			x: -11.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["77CADF4536151255"]
@@ -328,7 +336,7 @@
 				type: "checkmark"
 			}]
 			x: -11.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -347,14 +355,15 @@
 		}
 		{
 			dependencies: ["165C5D3656C33A89"]
+			icon: "gtceu:dimensionallytranscendentstellarcatalyst_bucket"
 			id: "3FBFE193579C28E3"
 			tasks: [{
-				id: "2F40321BC69FDF56"
-				item: "gtceu:dimensionallytranscendentstellarcatalyst_bucket"
-				type: "item"
+				id: "62B4B3F8B621B8B6"
+				type: "checkmark"
 			}]
-			x: -5.0d
-			y: -7.0d
+			title: "恒星超维度催化剂"
+			x: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["32186EFF7020D432"]
@@ -366,11 +375,14 @@
 				item: "kubejs:draconic_energy_core"
 				type: "item"
 			}]
-			x: 1.0d
+			x: -1.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["30AEBB08CE6C88BA"]
+			dependencies: [
+				"30AEBB08CE6C88BA"
+				"48BDFBDA897F3553"
+			]
 			id: "51D5E14423F35E6F"
 			tasks: [{
 				id: "3A41AFEDD43994E6"
@@ -379,6 +391,153 @@
 			}]
 			x: 5.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["402B123A2EEC8E3B"]
+			description: ["用于优化产线"]
+			icon_scale: 2.0d
+			id: "3CE5E9F78C13E1CD"
+			size: 1.0d
+			subtitle: "2112"
+			tasks: [{
+				id: "2B00AFF1F91085A4"
+				item: "kubejs:hypogen_coil_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"04420B8E0278D7AD"
+				"402B123A2EEC8E3B"
+			]
+			hide_dependent_lines: true
+			icon_scale: 2.0d
+			id: "355AB57EE5123594"
+			size: 1.0d
+			subtitle: "2112+780"
+			tasks: [{
+				id: "1B5C7A84F6A238FA"
+				item: "kubejs:eternity_coil_block"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"0A6C5B3C148A5743"
+				"30AEBB08CE6C88BA"
+			]
+			hide_dependent_lines: true
+			id: "1A37218D0F8BE570"
+			tasks: [{
+				id: "39E4F5145C784E3D"
+				item: "gtceu:shirabon_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2FFA8701DFA0C524"]
+			id: "402B123A2EEC8E3B"
+			tasks: [{
+				id: "39A3ABD526DFB005"
+				item: "gtceu:hypogen_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0A6C5B3C148A5743"]
+			hide_dependency_lines: true
+			id: "48BDFBDA897F3553"
+			tasks: [{
+				id: "6A67A9DAB4C12E30"
+				item: "kubejs:cosmic_singularity"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"355AB57EE5123594"
+				"1A37218D0F8BE570"
+			]
+			id: "63EE8AA3FC07B820"
+			tasks: [{
+				id: "4133DD68ED8BBCE7"
+				item: "gtceu:shirabon_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["77A53FAAC098F859"]
+			id: "2FFA8701DFA0C524"
+			tasks: [{
+				id: "2A41AFA139DC780A"
+				item: "gtceu:rhugnor_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3FBFE193579C28E3"]
+			hide_dependent_lines: true
+			icon: "gtceu:exciteddtsc_bucket"
+			id: "53598E77317EAEB6"
+			tasks: [{
+				id: "3AC5007EE51C1247"
+				type: "checkmark"
+			}]
+			title: "激发的恒星超维度催化剂"
+			x: -9.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["63EE8AA3FC07B820"]
+			id: "697D33BB516A0785"
+			tasks: [{
+				id: "0580E4A94F454C6E"
+				item: "kubejs:chaotic_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"29A581C935A339DD"
+				"74186877DB7DBE4D"
+			]
+			icon: "gtceu:exciteddtec_bucket"
+			id: "6477FF81781A9FC7"
+			tasks: [{
+				id: "4B6BEEAAADADE3E4"
+				type: "checkmark"
+			}]
+			title: "激发的异星超维度催化剂"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["365548266DF60F91"]
+			hide_dependency_lines: true
+			id: "6AC9C2DEDE46A99D"
+			tasks: [{
+				id: "007430593E92A4B7"
+				item: "kubejs:timepiece"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier13-OpV"]

@@ -345,11 +345,13 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["516498830339A0A9"]
 			description: [
 				"恭喜你完成了这个游戏，感谢你的游玩。"
 				""
 				"据说真正到达这里的寥寥无几。"
 			]
+			hide_dependency_lines: true
 			icon: "gtlcore:ultimate_tea"
 			id: "503A37C31E60684B"
 			invisible: true

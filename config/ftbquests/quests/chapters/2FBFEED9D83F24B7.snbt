@@ -150,6 +150,7 @@
 			]
 			icon_scale: 2.0d
 			id: "6C6A3B91957A0B7B"
+			size: 2.0d
 			tasks: [{
 				id: "06F01AC2F2AAFC1A"
 				item: "kubejs:cosmic_mainframe"
@@ -191,6 +192,7 @@
 				title: "uu物质"
 				type: "checkmark"
 			}]
+			title: "UU物质"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -200,7 +202,11 @@
 				"7819969E76A18F15"
 				"0FB0AFA8DD71B19F"
 			]
-			description: ["后续可以升级为天基宇宙探测器接收器，效率更高"]
+			description: [
+				"算力需求较大，建议过量供应"
+				""
+				"后续可以升级为天基宇宙探测器接收器，效率更高"
+			]
 			icon_scale: 2.0d
 			id: "74D84A4928FA0A35"
 			shape: "gear"
@@ -350,7 +356,7 @@
 		}
 		{
 			dependencies: ["6D6BE75CB79C7901"]
-			description: ["强力混合"]
+			description: ["搅拌机的激光版本，拥有无损超频，还有另一种重要用途"]
 			icon_scale: 2.0d
 			id: "29A581C935A339DD"
 			shape: "gear"
@@ -458,6 +464,7 @@
 			y: 4.0d
 		}
 		{
+			description: ["比较复杂"]
 			id: "5450D08C31AB23EF"
 			tasks: [{
 				id: "6282ECFD03A81811"
@@ -561,6 +568,7 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
+			description: ["用于高级晶圆切割"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6FE5409DB7A22427"
@@ -623,7 +631,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["流体加热器的激光版本"]
+			description: ["流体加热器的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
 			icon_scale: 2.0d
 			id: "3F99F904B7B94324"
 			size: 1.0d

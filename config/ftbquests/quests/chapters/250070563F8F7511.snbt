@@ -6,14 +6,7 @@
 	icon: "minecraft:grass_block"
 	id: "250070563F8F7511"
 	order_index: 0
-	quest_links: [{
-		id: "0EB64CB730FB2C62"
-		linked_quest: "5F5F348E3A34827E"
-		shape: "rsquare"
-		size: 1.5d
-		x: 7.5d
-		y: -2.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: [
@@ -33,7 +26,6 @@
 			icon: "minecraft:grass_block"
 			icon_scale: 2.0d
 			id: "075D368E91231337"
-			progression_mode: "flexible"
 			rewards: [{
 				id: "2CF9C7981E9F7DE5"
 				item: {
@@ -550,37 +542,25 @@
 		}
 		{
 			dependencies: ["2C6F506ADD78F277"]
-			description: [
-				"由铁粒烧制而成"
-				"锻铁是低碳的铁合金，比铁性能更好"
-			]
+			description: ["锻铁是低碳的铁合金，比铁性能更好"]
 			id: "52A0EE026A3D3A79"
 			rewards: [{
 				id: "11FB0702EB3F7E18"
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			tasks: [{
-				id: "6A8D888CC5D19528"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "gtceu:wrought_iron_nugget"
-							}
-							{
-								Count: 1b
-								id: "gtceu:wrought_iron_ingot"
-							}
-						]
-					}
+			tasks: [
+				{
+					id: "1172C9C38B0C9D97"
+					item: "gtceu:wrought_iron_nugget"
+					type: "item"
 				}
-				title: "锻铁"
-				type: "item"
-			}]
+				{
+					id: "11CC7209E677F77B"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+			]
 			title: "锻铁"
 			x: 2.2d
 			y: -1.0d
@@ -618,7 +598,6 @@
 			icon: "kubejs:warped_ender_pearl"
 			id: "72AFAC66A9EC5F1A"
 			optional: true
-			progression_mode: "flexible"
 			rewards: [{
 				id: "16D977A5C13DD6A2"
 				item: "kubejs:warped_ender_pearl"
@@ -636,9 +615,6 @@
 			dependencies: ["2C6F506ADD78F277"]
 			description: ["去小市场兑换宝物，注意钻石是非常耐烧，推荐给锅炉用"]
 			id: "2E6B876A85B30554"
-			optional: true
-			progression_mode: "flexible"
-			require_sequential_tasks: false
 			rewards: [{
 				id: "4C4D7911A44B42C2"
 				item: "gtceu:ancient_gold_coin"
@@ -680,7 +656,6 @@
 			description: ["使用铁砧升级"]
 			id: "0A047A198C30D7FD"
 			optional: true
-			progression_mode: "flexible"
 			rewards: [
 				{
 					id: "0E8E94B52A21BFCA"
@@ -705,7 +680,6 @@
 			dependencies: ["050FD340224F7AB6"]
 			description: ["在这里粗煤矿可以直接拿来当燃料用"]
 			id: "4C943E88E3926A9A"
-			progression_mode: "flexible"
 			rewards: [{
 				id: "3C50340F6A70A194"
 				item: "gtceu:copper_credit"
@@ -1064,7 +1038,6 @@
 			icon: "gtceu:coke_oven"
 			icon_scale: 2.0d
 			id: "12E605EC5CFDE71A"
-			progression_mode: "flexible"
 			rewards: [{
 				id: "11023544A8C72E30"
 				item: "gtceu:cupronickel_credit"
@@ -1089,7 +1062,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5F5F348E3A34827E"]
+			dependencies: ["4B6F43302E963F5E"]
 			description: ["有了青铜，你可以开始制作各种蒸汽驱动的机器了"]
 			icon: "gtceu:lp_steam_alloy_smelter"
 			icon_scale: 2.0d
@@ -1116,7 +1089,6 @@
 				"不能共用给多个焦炉"
 			]
 			id: "4E01FAE893654321"
-			progression_mode: "flexible"
 			rewards: [{
 				id: "21D31A1CAA1B89AD"
 				item: "gtceu:cupronickel_credit"
@@ -1157,7 +1129,6 @@
 			dependencies: ["2DC6C5D7DDA578F7"]
 			description: ["这是你需要收集的植物"]
 			id: "79D4AD9908A4578A"
-			progression_mode: "flexible"
 			rewards: [{
 				id: "2284459A885572C5"
 				item: "gtceu:copper_credit"
@@ -1180,7 +1151,7 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["5F5F348E3A34827E"]
+			dependencies: ["4B6F43302E963F5E"]
 			description: ["两个元件都可以放入ME驱动器中"]
 			icon: "gtlcore:infinite_cell_component"
 			id: "7198356C944E053A"
@@ -1277,7 +1248,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["5F5F348E3A34827E"]
+			dependencies: ["4B6F43302E963F5E"]
 			description: [
 				"✓上线"
 				"✓在机器上跳来跳去"
@@ -1312,7 +1283,6 @@
 			]
 			id: "206F4C123EC2550F"
 			optional: true
-			progression_mode: "flexible"
 			tasks: [{
 				id: "78133B00994EC9AC"
 				item: "pipez:wrench"
@@ -1330,7 +1300,6 @@
 			]
 			id: "1A124E85453923DF"
 			optional: true
-			progression_mode: "flexible"
 			tasks: [{
 				id: "10AA38DEE8B23298"
 				item: "gtmthings:advanced_terminal"
@@ -1348,7 +1317,7 @@
 				""
 				"必要的提示："
 				"这是什么！空岛模式！"
-				"如果你在世界创建的是时候选择了 &b空岛&r"
+				"如果你在世界创建的时候选择了 &b空岛&r"
 				"这个任务才是可以完成的"
 				"你需要在游戏菜单界面， 单击开启mod，"
 				"搜索gtlcore，点击配置，"
@@ -1386,49 +1355,42 @@
 			]
 			id: "75E8F87D6035DB24"
 			optional: true
-			progression_mode: "flexible"
 			rewards: [{
 				id: "0AFB0CC841A156B1"
 				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
 				type: "item"
 			}]
-			tasks: [{
-				id: "654825C35FB5EE9B"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "sophisticatedbackpacks:backpack"
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:chest"
-								tag: {
-									woodType: "oak"
-								}
-							}
-							{
-								Count: 1b
-								id: "sophisticatedstorage:barrel"
-								tag: {
-									woodType: "spruce"
-								}
-							}
-						]
-					}
+			tasks: [
+				{
+					id: "5921757C1C1F6183"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
 				}
-				title: "精妙存储"
-				type: "item"
-			}]
+				{
+					id: "68A7941991B1E028"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:barrel"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "6E5C66425A74A989"
+					item: {
+						Count: 1
+						id: "sophisticatedstorage:chest"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
 			title: "精妙系列"
 			x: -0.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["5F5F348E3A34827E"]
+			dependencies: ["4B6F43302E963F5E"]
 			description: ["方便穿行于线缆之间"]
 			id: "4DFDDE01DF6D6763"
 			optional: true
@@ -1445,7 +1407,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["5F5F348E3A34827E"]
+			dependencies: ["4B6F43302E963F5E"]
 			description: ["直接使用这些工具放置的无线能源/激光仓需要用闪存右键手动绑定无线电网，否则不会工作"]
 			id: "4B7B7EA38B836F96"
 			optional: true
@@ -1490,8 +1452,6 @@
 			dependencies: ["4AB25C15F0B05AA0"]
 			description: ["有可能导致崩溃"]
 			id: "1D93602C5835593F"
-			optional: true
-			progression_mode: "flexible"
 			size: 1.0d
 			tasks: [{
 				id: "7AB796D165A6C084"

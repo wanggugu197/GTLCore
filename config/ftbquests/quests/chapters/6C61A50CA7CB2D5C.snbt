@@ -1399,7 +1399,7 @@
 			dependencies: ["2BB52D1C09C418A9"]
 			description: [
 				"终于可以去下界了"
-				"在远古反应核相邻放金块，角落放绿宝石块，手持下界数据右键"
+				"在远古反应核相邻的四个位置放金块，角落的四个位置放绿宝石块，手持下界数据右键"
 			]
 			icon: "minecraft:nether_wart"
 			icon_scale: 2.0d
