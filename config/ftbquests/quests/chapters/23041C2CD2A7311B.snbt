@@ -20,8 +20,8 @@
 			linked_quest: "26607B94D873E07A"
 			shape: "rsquare"
 			size: 2.0d
-			x: 0.0d
-			y: -8.0d
+			x: 12.0d
+			y: -6.0d
 		}
 	]
 	quests: [
@@ -107,7 +107,7 @@
 				item: "gtceu:draconium_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -119,7 +119,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -132,8 +132,8 @@
 				item: "kubejs:contained_kerr_newmann_singularity"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -8.0d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["30C7E9FE04629708"]
@@ -143,8 +143,8 @@
 				item: "kubejs:contained_kerr_singularity"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -8.0d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -159,7 +159,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -167,6 +167,7 @@
 				"1E2191E5E31DC8B0"
 				"43CEF1808795ECAD"
 			]
+			hide_dependency_lines: true
 			id: "0E69D0896D0218E3"
 			tasks: [{
 				id: "3A838D5524A952C3"
@@ -174,7 +175,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5EEF654D4CD2168F"]
@@ -184,8 +185,8 @@
 				item: "kubejs:microwormhole_generator"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: 8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -203,7 +204,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -219,7 +220,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -236,7 +237,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F82F4BCC261723A"]
@@ -250,7 +251,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -8.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1433920A4DDCE2B5"]
@@ -305,14 +306,14 @@
 			]
 			icon_scale: 2.0d
 			id: "74186877DB7DBE4D"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "68FDD4F89178DC73"
 				item: "kubejs:quantum_chromodynamic_charge"
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -326,7 +327,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["64441B6414C20A57"]
@@ -337,7 +338,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["559836CC234447C0"]
@@ -349,7 +350,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1E2191E5E31DC8B0"]
@@ -360,7 +361,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["15A1DA0756AD0044"]
@@ -371,18 +372,19 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1433920A4DDCE2B5"]
+			hide_dependency_lines: true
 			id: "042FBA3AE7DE9957"
 			tasks: [{
 				id: "4DF8BA0CEEDEAE11"
 				item: "kubejs:contained_exotic_matter"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -425,11 +427,16 @@
 				type: "checkmark"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["6C6A3B91957A0B7B"]
+			dependencies: [
+				"6C6A3B91957A0B7B"
+				"01EE0F4156F0578B"
+				"43CEF1808795ECAD"
+			]
 			description: ["很贵的机器"]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "2A29DA4239E6BA44"
 			shape: "gear"
@@ -439,7 +446,7 @@
 				item: "gtceu:qft"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -465,7 +472,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -489,11 +496,13 @@
 				"1291AD37204E4960"
 				"38FFB6D2003C7EB4"
 			]
-			description: ["电路的顶点"]
+			description: ["超因果系列仅建议使用这个电路"]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "32186EFF7020D432"
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "电路的顶点"
 			tasks: [{
 				id: "27BE9064DAF5CCF3"
 				item: "kubejs:supracausal_mainframe"
@@ -539,7 +548,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["00A227F06D7F109E"]
@@ -593,18 +602,19 @@
 				item: "gtceu:cosmicneutronium_ingot"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
+			description: ["周期表之聚合"]
 			id: "01EE0F4156F0578B"
 			tasks: [{
 				id: "1CF19DFA270D37F3"
 				item: "gtceu:periodicium_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: 4.0d
 		}
 		{
@@ -638,8 +648,8 @@
 				item: "kubejs:awakened_core"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -0.5d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -653,11 +663,16 @@
 				item: "gtceu:draconiumawakened_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["108792B10FDEC848"]
+			dependencies: [
+				"108792B10FDEC848"
+				"4C667361F07F4243"
+			]
+			description: ["在2阶的基础上升级"]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "6C1AB68CC57D8670"
 			tasks: [{
@@ -666,7 +681,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["26607B94D873E07A"]
@@ -676,8 +691,27 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -8.0d
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6C1AB68CC57D8670"
+				"233C152024BACC4E"
+				"49ED5C32664DDF6C"
+			]
+			description: ["拥有无损超频"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "1E220C2F02E65FFC"
+			size: 1.0d
+			tasks: [{
+				id: "7AC30167CA6E2D12"
+				item: "gtceu:nano_core"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Tier12-UXV"]

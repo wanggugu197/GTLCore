@@ -30,7 +30,7 @@
 				"73C70C42B7EF5D4F"
 				"2719D88ECD353F24"
 			]
-			description: [""]
+			description: ["试试将现有最大无线能源覆盖板贴到刚做的机器外壳上"]
 			icon_scale: 2.0d
 			id: "6C4F1C87F08F38AC"
 			shape: "rsquare"
@@ -138,7 +138,6 @@
 		{
 			dependencies: [
 				"5E7F20C5F8530E1E"
-				"1385E89DD3FD663B"
 				"53EB6E99F976AF31"
 			]
 			icon_scale: 2.0d
@@ -219,15 +218,24 @@
 		}
 		{
 			dependencies: ["1FA9E56114BFABF5"]
+			description: ["主机放入输入总线中对应的机器人可增加并行数"]
+			icon: "gtceu:circuit_assembly_line"
 			icon_scale: 2.0d
 			id: "53EB6E99F976AF31"
 			shape: "rsquare"
 			size: 2.0d
-			tasks: [{
-				id: "2E802CA66A25BB20"
-				item: "gtceu:circuit_assembly_line"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E802CA66A25BB20"
+					item: "gtceu:circuit_assembly_line"
+					type: "item"
+				}
+				{
+					id: "02EE64DF10DA8AC6"
+					item: "kubejs:precision_circuit_assembly_robot_mk1"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 12.0d
 		}
@@ -259,7 +267,7 @@
 				item: "kubejs:bioware_processing_core"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 10.0d
 		}
 		{
@@ -282,7 +290,7 @@
 		}
 		{
 			dependencies: ["7A7C73D046390488"]
-			description: ["需要提供算力"]
+			description: [""]
 			icon_scale: 2.0d
 			id: "31EDE3D976DE5A33"
 			tasks: [{
@@ -308,6 +316,7 @@
 		}
 		{
 			dependencies: ["31EDE3D976DE5A33"]
+			description: ["可以使用库存总线共用"]
 			id: "6D83BAAC7DB34D51"
 			tasks: [{
 				id: "54ED6D9B82E6A10E"
@@ -399,7 +408,15 @@
 				"2802E34A99CE1D79"
 				"776563C5BA327495"
 			]
-			description: ["这是T8火箭，解锁巴纳德C"]
+			description: [
+				"这是T8火箭，解锁巴纳德C"
+				""
+				"需要持续提供算力，算力需求固定为128，不要使用可配置维护仓"
+				""
+				"随着电压的升高和动力模块的升级，电梯模块的效率会提升"
+				""
+				"点击启程时请离电梯主方块近一点，否则不会升空"
+			]
 			icon_scale: 2.0d
 			id: "7A7C73D046390488"
 			rewards: [
@@ -536,6 +553,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
+			description: ["0是无重力，100是强重力"]
 			icon_scale: 2.0d
 			id: "07A5A5AD37710056"
 			tasks: [{
@@ -548,6 +566,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
+			description: [""]
 			icon_scale: 2.0d
 			id: "7597D3F42E7E8515"
 			tasks: [{
@@ -563,7 +582,7 @@
 				"02F523E003E1C93D"
 				"035C470213E8B4DB"
 			]
-			description: ["优化你的产线"]
+			description: ["大幅度优化你的产线"]
 			icon_scale: 2.0d
 			id: "16C93F76F74CB8DB"
 			tasks: [{
@@ -580,7 +599,7 @@
 				"0A2D46609F5C3CAB"
 				"4F87B7DA47087F97"
 			]
-			description: ["电解机、电磁选矿机和两极磁化机的激光版本"]
+			description: ["电解机、电磁选矿机和两极磁化机的激光版本，拥有无损超频"]
 			icon_scale: 2.0d
 			id: "3565D2D5E0A2CEDF"
 			shape: "rsquare"
@@ -591,18 +610,6 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["后面的电路装配线要使用"]
-			id: "1385E89DD3FD663B"
-			tasks: [{
-				id: "68A5969FB9056BA3"
-				item: "kubejs:precision_circuit_assembly_robot_mk1"
-				type: "item"
-			}]
-			x: 10.0d
 			y: 12.0d
 		}
 		{
@@ -638,7 +645,7 @@
 				item: "gtceu:grade_8_purified_water_bucket"
 				type: "item"
 			}]
-			title: "净化水"
+			title: "8级净化水"
 			x: 12.0d
 			y: 8.0d
 		}
@@ -660,8 +667,10 @@
 		}
 		{
 			dependencies: ["7204F1B6BCC74F1C"]
+			description: ["如果无限盘内存有超过long上限的物品/流体，请不要在同一网络中放入拥有相同物品/流体的磁盘，否则对应的物品/流体在me网络中无法显示/被CPU调用"]
 			hide_dependency_lines: true
 			id: "2DA05E5BAEAFB88E"
+			subtitle: "无限的容量"
 			tasks: [
 				{
 					id: "105A19D975EC4EAA"
@@ -677,6 +686,26 @@
 			title: "无限磁盘"
 			x: 12.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["7204F1B6BCC74F1C"]
+			description: [
+				"你现在可以高效制作部件8件套了，还能省去数据库槽位"
+				""
+				"请注意装配线外壳的等级"
+				""
+				"主机正下方的八个方块都可以替换为输入总成（包括钨钢框架）"
+			]
+			icon_scale: 2.0d
+			id: "36A2AF68AE67C70A"
+			size: 1.0d
+			tasks: [{
+				id: "65C99D3D67D677D5"
+				item: "gtceu:component_assembly_line"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
 		}
 	]
 	subtitle: ["Tier8-UV"]

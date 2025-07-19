@@ -23,7 +23,7 @@
 	quests: [
 		{
 			dependencies: ["148A5C927A0DCED1"]
-			description: ["可以是最后一种搅拌机"]
+			description: ["可以是最后一种小搅拌机"]
 			hide_dependent_lines: true
 			id: "0526B4AC0CAF99A5"
 			tasks: [{
@@ -35,7 +35,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0526B4AC0CAF99A5"]
 			description: ["来了一堆锭"]
 			id: "4058D1416D94BABB"
 			tasks: [
@@ -80,7 +79,7 @@
 			icon_scale: 2.0d
 			id: "1F0956C3BD4745A1"
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [
 				{
 					id: "369FD15BD477C9E7"
@@ -103,7 +102,7 @@
 			icon: "gtceu:large_material_press"
 			icon_scale: 2.0d
 			id: "1FACFECB6C5962E3"
-			size: 2.0d
+			size: 1.0d
 			tasks: [
 				{
 					id: "2F1127262F7ACA6C"
@@ -473,15 +472,45 @@
 				"7F8C2ECC7CE2BF20"
 				"2CEEFDACE7B13D5A"
 			]
-			description: ["大容量数据存储，并且可以为多个装配线提供数据"]
+			description: [
+				"大容量数据存储，并且可以为多个装配线提供数据"
+				""
+				"还可以串联（使用多个光学数据仓室）"
+				""
+				"无线光学数据仓室可以一个源仓对多个靶仓"
+			]
+			icon: "gtceu:data_bank"
+			icon_scale: 2.0d
 			id: "5F0A175D6704A8D0"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				id: "488C1A3FC0D7CCB6"
-				item: "gtceu:data_bank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "488C1A3FC0D7CCB6"
+					item: "gtceu:data_bank"
+					type: "item"
+				}
+				{
+					id: "04C16CC58A3C2785"
+					item: "gtceu:data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "2133DF3F29F434FF"
+					item: "gtceu:data_receiver_hatch"
+					type: "item"
+				}
+				{
+					id: "6EC55BADEFB2B099"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "7EED6D6FA240A51E"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 8.0d
 		}
@@ -539,7 +568,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["用不完的蒸汽"]
+			description: ["可以作为裂变堆之前的过渡蒸汽生产"]
 			icon_scale: 2.0d
 			id: "5744F6172D4E112B"
 			optional: true
@@ -573,6 +602,18 @@
 				"0F22A8CE63F369CA"
 				"00E7CB7CD9296B1A"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_5_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 0L
+							Fluid: "minecraft:empty"
+						}]
+					}
+				}
+			}
 			icon_scale: 2.0d
 			id: "36F5A40D3976E512"
 			rewards: [{
@@ -608,7 +649,11 @@
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
-			description: ["高温用于发电，低温用于生产资源"]
+			description: [
+				"高温用于发电，低温用于生产资源"
+				""
+				"请仔细阅读主机文字描述"
+			]
 			icon_scale: 2.0d
 			id: "365298DB6520227A"
 			shape: "rsquare"
@@ -635,6 +680,21 @@
 				{
 					id: "742D2DB2293262B4"
 					item: "gtceu:me_stocking_input_hatch"
+					type: "item"
+				}
+				{
+					id: "732FAF58E2C94589"
+					item: "gtceu:tag_filter_me_stock_bus_part_machine"
+					type: "item"
+				}
+				{
+					id: "1460AC9FFF53296F"
+					item: "gtceu:me_dual_hatch_stock_part_machine"
+					type: "item"
+				}
+				{
+					id: "78F84C5A8E896B35"
+					item: "gtmthings:me_export_buffer"
 					type: "item"
 				}
 			]
@@ -734,7 +794,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["溶解罐请注意配比，溶解罐尽量不要使用ME输入仓"]
+			description: ["溶解罐请注意控制输入的流体比例"]
 			icon_scale: 2.0d
 			id: "29D4D49428BF7FF4"
 			tasks: [
@@ -768,6 +828,11 @@
 		}
 		{
 			dependencies: ["7F8C2ECC7CE2BF20"]
+			description: [
+				"0.2x用于加速机器，1.2x用于节省燃料，某些情况可以超频发电机"
+				""
+				"碘可以通过海带获取"
+			]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"
 			tasks: [{
@@ -781,7 +846,11 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["你的线缆得开始用更高级的橡胶和树脂了"]
+			description: [
+				"你的线缆得开始用更高级的橡胶和树脂了"
+				""
+				"建议统一使用同一种高级橡胶"
+			]
 			id: "7794BE986C48C92D"
 			tasks: [
 				{
@@ -805,6 +874,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["不能用于片状样板供应器"]
 			id: "32ECBFC902A439D4"
 			subtitle: "批量修改样板"
 			tasks: [{

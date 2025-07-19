@@ -285,7 +285,7 @@
 			]
 			title: "一些仓室"
 			x: 4.0d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -294,6 +294,7 @@
 				"7F9F473B8C508676"
 				"36E33432C72763C8"
 			]
+			description: ["可以被多个多方块结构共用"]
 			icon_scale: 2.0d
 			id: "20F6BF1EDC6EBDC1"
 			rewards: [{
@@ -317,7 +318,12 @@
 				"0332882DFA45B956"
 				"3DDFE62FF48A9135"
 			]
-			description: ["组装机是组装机，电路组装机是电路组装机，不要看错了"]
+			description: [
+				"&4&o&n组装机是组装机，电路组装机是电路组装机，不要看错了"
+				"&r&r&r&4&o&n组装机是组装机，电路组装机是电路组装机，不要看错了"
+				"&r&r&r&4&o&n组装机是组装机，电路组装机是电路组装机，不要看错了"
+				"&r&r&r"
+			]
 			id: "3E50EE376968519F"
 			rewards: [{
 				id: "2DF768F56128A868"
@@ -919,6 +925,7 @@
 			dependencies: [
 				"40C39645B1DE2488"
 				"0037D6BA6A4ABB72"
+				"06F767F4EFFD5DC6"
 			]
 			icon_scale: 2.0d
 			id: "033DE57F0D91698C"
@@ -927,7 +934,7 @@
 				item: "ae2:blank_pattern"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -1045,15 +1052,19 @@
 				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -4.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["033DE57F0D91698C"]
 			description: [
-				"有了无限的电路，只需在写样板时带上电路，你就可以方便的通过AE系统来控制你的机器电路设置，就算你打开阻挡模式电路也会被忽视。"
+				"建议仅在前期使用，后续编写样板时不要带上电路。"
 				""
-				"一共有33个，每个电路都是单独的，你需要做一些。"
+				"有了无限的电路，只需在写样板时带上电路，你就可以方便的通过AE系统来控制你的机器电路设置。"
+				""
+				"阻挡模式并不会检测机器内的电路状况。"
+				""
+				"一共有33个，每个电路都是单独的，但只需要做一个。"
 			]
 			id: "471C9A591D5CF776"
 			tasks: [{
@@ -1074,7 +1085,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
@@ -1153,7 +1164,11 @@
 		}
 		{
 			dependencies: ["4C591AA4F1D907C1"]
-			description: ["输入，输入，维护 ，动力"]
+			description: [
+				"输入，输出，维护 ，动力"
+				""
+				"发电机放入gui右下角，且最多堆叠16个"
+			]
 			id: "1486FC9F82B2E56E"
 			tasks: [{
 				id: "5EE2778F62F08653"
@@ -1165,7 +1180,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["注意没有流体隔离。"]
+			description: [""]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"
 			rewards: [
@@ -1205,6 +1220,16 @@
 			title: "总成"
 			x: -2.0d
 			y: -2.0d
+		}
+		{
+			id: "06F767F4EFFD5DC6"
+			tasks: [{
+				id: "6974E865CEFE1415"
+				item: "gtceu:glass_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

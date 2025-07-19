@@ -13,30 +13,30 @@
 			icon: "gtceu:yellow_limonite_ore"
 			id: "692F4312B3F73FAF"
 			size: 0.9d
-			subtitle: "铁、铜来源"
+			subtitle: "铁，铜来源"
 			tasks: [
 				{
-					id: "6BF52C2246A0844E"
-					item: "gtceu:raw_yellow_limonite"
-					type: "item"
-				}
-				{
-					id: "6CA526A4E36E2AA4"
-					item: "gtceu:raw_malachite"
-					type: "item"
-				}
-				{
-					id: "6749696D0F802C8E"
+					id: "5C43A8DCDB7B497C"
 					item: "gtceu:raw_goethite"
 					type: "item"
 				}
 				{
-					id: "322E7284449B296F"
+					id: "16DB53121FC7A35F"
+					item: "gtceu:raw_yellow_limonite"
+					type: "item"
+				}
+				{
+					id: "0981233B73506070"
 					item: "gtceu:raw_hematite"
 					type: "item"
 				}
+				{
+					id: "28B6A22A79E83139"
+					item: "gtceu:raw_malachite"
+					type: "item"
+				}
 			]
-			title: "褐铁矿"
+			title: "铁矿脉"
 			x: 1.5d
 			y: -3.7d
 		}
@@ -45,7 +45,7 @@
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
 			size: 0.9d
-			subtitle: "铁、金、钒来源"
+			subtitle: "铁，金，钒，来源"
 			tasks: [
 				{
 					id: "2814C224F95FA845"
@@ -63,7 +63,7 @@
 					type: "item"
 				}
 			]
-			title: "磁铁矿"
+			title: "磁铁矿脉"
 			x: 2.5d
 			y: -3.7d
 		}
@@ -76,7 +76,7 @@
 			icon: "gtceu:pyrite_ore"
 			id: "03FBBA4A693011A8"
 			size: 0.9d
-			subtitle: "铜、铁来源"
+			subtitle: "铜，铁来源"
 			tasks: [
 				{
 					id: "21D9BE0CDF8D20D0"
@@ -99,7 +99,7 @@
 					type: "item"
 				}
 			]
-			title: "黄铁矿"
+			title: "铜矿脉"
 			x: 3.5d
 			y: -3.5d
 		}
@@ -108,7 +108,7 @@
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
 			size: 0.9d
-			subtitle: "铜、锡来源"
+			subtitle: "铜，铁，锡，砷来源"
 			tasks: [
 				{
 					id: "21B8E250B773443C"
@@ -131,12 +131,12 @@
 					type: "item"
 				}
 			]
-			title: "黄铜矿"
+			title: "铜锡矿脉"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
-			description: ["一种纯银矿脉,对早期游戏非常有用."]
+			description: ["一种纯锡矿脉,对早期游戏非常有用."]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
 			size: 0.9d
@@ -153,7 +153,7 @@
 					type: "item"
 				}
 			]
-			title: "锡石"
+			title: "锡石矿脉"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -166,7 +166,7 @@
 			icon: "gtceu:cassiterite_sand_ore"
 			id: "41616C31D9C08648"
 			size: 0.9d
-			subtitle: "锡来源"
+			subtitle: "锡，镁来源"
 			tasks: [
 				{
 					id: "281CC5BB43AB6FBC"
@@ -189,7 +189,7 @@
 					type: "item"
 				}
 			]
-			title: "锡石沙"
+			title: "锡石榴石矿脉"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -198,13 +198,13 @@
 			icon: "minecraft:coal_ore"
 			id: "1E27C654E2F6FFF2"
 			size: 0.9d
-			subtitle: "污染源"
+			subtitle: "煤炭来源"
 			tasks: [{
-				id: "5FC26FB906B6F0A2"
-				item: "minecraft:coal"
+				id: "5B84B4265CDED2C1"
+				item: "gtceu:raw_coal"
 				type: "item"
 			}]
-			title: "煤炭"
+			title: "煤炭矿脉"
 			x: 5.5d
 			y: 0.0d
 		}
@@ -219,7 +219,7 @@
 			icon: "gtceu:graphite_ore"
 			id: "1B45DB5C85B68182"
 			size: 0.9d
-			subtitle: "钻石、碳来源"
+			subtitle: "石墨，钻石，煤炭来源"
 			tasks: [
 				{
 					id: "774FD60E5F9C5225"
@@ -232,12 +232,12 @@
 					type: "item"
 				}
 				{
-					id: "00FC22EEB40F9783"
-					item: "minecraft:coal"
+					id: "72945B8F8D65CDC9"
+					item: "gtceu:raw_coal"
 					type: "item"
 				}
 			]
-			title: "石墨"
+			title: "钻石矿脉"
 			x: 5.5d
 			y: 1.0d
 		}
@@ -250,7 +250,7 @@
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
 			size: 0.9d
-			subtitle: "盐、氯、锂、氟来源"
+			subtitle: "钾，钠，锂，氟来源"
 			tasks: [
 				{
 					id: "13B468D35939891B"
@@ -273,7 +273,7 @@
 					type: "item"
 				}
 			]
-			title: "云母"
+			title: "盐矿脉"
 			x: 5.0d
 			y: 2.0d
 		}
@@ -286,25 +286,30 @@
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
 			size: 0.9d
-			subtitle: "镁来源"
+			subtitle: "镁，铁来源"
 			tasks: [
 				{
-					id: "0428A9705DCDEBC2"
+					id: "58F760B7865A70E7"
 					item: "gtceu:raw_bentonite"
 					type: "item"
 				}
 				{
-					id: "1AEF16C083DB932C"
+					id: "2187C0C0273D7744"
+					item: "gtceu:raw_magnetite"
+					type: "item"
+				}
+				{
+					id: "560C7AAC5353FAF6"
 					item: "gtceu:raw_olivine"
 					type: "item"
 				}
 				{
-					id: "6AA7AF45E3FC02CE"
+					id: "5D40F6304F039349"
 					item: "gtceu:raw_glauconite_sand"
 					type: "item"
 				}
 			]
-			title: "橄榄石"
+			title: "橄榄石矿脉"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -340,7 +345,7 @@
 					type: "item"
 				}
 			]
-			title: "石榴石"
+			title: "石榴石矿脉"
 			x: 3.5d
 			y: 3.5d
 		}
@@ -353,7 +358,7 @@
 			icon: "gtceu:apatite_ore"
 			id: "70252B72F7728EFD"
 			size: 0.9d
-			subtitle: "钙、磷、铌来源"
+			subtitle: "钙，磷，氯来源"
 			tasks: [
 				{
 					id: "1091719F41C151CE"
@@ -365,13 +370,8 @@
 					item: "gtceu:raw_tricalcium_phosphate"
 					type: "item"
 				}
-				{
-					id: "03E0E4E97A8DF31E"
-					item: "gtceu:raw_pyrochlore"
-					type: "item"
-				}
 			]
-			title: "磷灰石"
+			title: "磷灰石矿脉"
 			x: 2.5d
 			y: 3.7d
 		}
@@ -380,7 +380,7 @@
 			icon: "minecraft:redstone_ore"
 			id: "2E5A71CED4B01657"
 			size: 0.9d
-			subtitle: "红石、红宝石、铬、汞来源"
+			subtitle: "红石，铝，铬，汞来源"
 			tasks: [
 				{
 					id: "2CE255679DBEF5D8"
@@ -398,7 +398,7 @@
 					type: "item"
 				}
 			]
-			title: "红石"
+			title: "红石矿脉"
 			x: 1.5d
 			y: 3.7d
 		}
@@ -434,7 +434,7 @@
 					type: "item"
 				}
 			]
-			title: "蓝宝石"
+			title: "蓝宝石矿脉"
 			x: 0.5d
 			y: 3.5d
 		}
@@ -453,7 +453,7 @@
 				item: "gtceu:raw_oilsands"
 				type: "item"
 			}]
-			title: "油砂"
+			title: "油砂矿脉"
 			x: -0.5d
 			y: 3.0d
 		}
@@ -469,40 +469,36 @@
 			subtitle: "润滑油来源"
 			tasks: [
 				{
-					id: "4E280784AE8DC125"
+					id: "742A8704F88BAA3C"
 					item: "gtceu:raw_soapstone"
 					type: "item"
 				}
 				{
-					id: "232376309055C021"
+					id: "620C772B82D991D3"
 					item: "gtceu:raw_talc"
 					type: "item"
 				}
 				{
-					id: "634BF4E9CE99821E"
+					id: "72DD6E229709EED5"
 					item: "gtceu:raw_glauconite_sand"
 					type: "item"
 				}
 				{
-					id: "73EFE59001EDA5CC"
+					id: "775FF22E8AC8DEC2"
 					item: "gtceu:raw_pentlandite"
 					type: "item"
 				}
 			]
-			title: "皂石"
+			title: "皂滑矿脉"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
-			description: [
-				"你知道蓝金石和方钠石可以替代青金石进行附魔吗？"
-				""
-				"方钠石是这里最有价值的矿石,尤其是在你达到&bMV&r时的电解配方非常有用."
-			]
+			description: ["方钠石是这里最有价值的矿石,尤其是在你达到&bMV&r时的电解配方非常有用."]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
 			size: 0.9d
-			subtitle: "青金石、铝、钠、氯来源"
+			subtitle: "青金石，钠，钙，铝，氯来源"
 			tasks: [
 				{
 					id: "3E903B26B6E0D98E"
@@ -525,7 +521,7 @@
 					type: "item"
 				}
 			]
-			title: "青金石"
+			title: "青金石矿脉"
 			x: -1.5d
 			y: 1.0d
 		}
@@ -538,7 +534,7 @@
 			icon: "gtceu:pyrolusite_ore"
 			id: "2C75A50B17AA9AF1"
 			size: 0.9d
-			subtitle: "锰来源"
+			subtitle: "锰，钽，钙来源"
 			tasks: [
 				{
 					id: "10FC904696261AF3"
@@ -561,7 +557,7 @@
 					type: "item"
 				}
 			]
-			title: "锰矿"
+			title: "锰矿脉"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -570,7 +566,7 @@
 			icon: "gtceu:galena_ore"
 			id: "14587AE142D84E12"
 			size: 0.9d
-			subtitle: "铅、银来源"
+			subtitle: "铅，银来源"
 			tasks: [
 				{
 					id: "4E3A072619DD0ADD"
@@ -588,16 +584,19 @@
 					type: "item"
 				}
 			]
-			title: "方铅矿"
+			title: "方铅矿脉"
 			x: -1.5d
 			y: -1.0d
 		}
 		{
-			description: ["这是你唯一可信赖的镍源."]
+			description: [
+				"这是你唯一可信赖的镍源."
+				"注意这个硅镁镍矿，其实只有镍和氧产物"
+			]
 			icon: "gtceu:nickel_ore"
 			id: "38C955F6CBDD95BD"
 			size: 0.9d
-			subtitle: "镍、钴来源"
+			subtitle: "镍，钴来源"
 			tasks: [
 				{
 					id: "2B48BE1948B21FA3"
@@ -620,7 +619,7 @@
 					type: "item"
 				}
 			]
-			title: "镍"
+			title: "镍矿脉"
 			x: -1.0d
 			y: -2.0d
 		}
@@ -629,7 +628,7 @@
 			icon: "gtceu:mica_ore"
 			id: "0B4BA438FE7F3640"
 			size: 0.9d
-			subtitle: "铝、氟来源"
+			subtitle: "铝，铯，氟来源"
 			tasks: [
 				{
 					id: "7296DE6280CBC6A1"
@@ -647,7 +646,7 @@
 					type: "item"
 				}
 			]
-			title: "云母"
+			title: "云母矿脉"
 			x: -0.5d
 			y: -3.0d
 		}
@@ -656,7 +655,7 @@
 			icon: "gtceu:granitic_mineral_sand_ore"
 			id: "5295C4AEFA8417F3"
 			size: 0.9d
-			subtitle: "铁来源"
+			subtitle: "铁，石膏来源"
 			tasks: [
 				{
 					id: "0A9878360139CD46"
@@ -679,7 +678,7 @@
 					type: "item"
 				}
 			]
-			title: "矿物沙"
+			title: "矿沙矿脉"
 			x: 0.5d
 			y: -3.5d
 		}
@@ -688,7 +687,7 @@
 			icon: "gtceu:netherrack_bastnasite_ore"
 			id: "2171AF09E76A5968"
 			size: 0.9d
-			subtitle: "稀土、钕、氟来源"
+			subtitle: "稀土，钕，氟来源"
 			tasks: [
 				{
 					id: "7628A17F2E48C5E7"
@@ -696,17 +695,17 @@
 					type: "item"
 				}
 				{
-					id: "20F2A4B11E2086CB"
-					item: "gtceu:raw_molybdenum"
+					id: "58035F336B84E40E"
+					item: "gtceu:raw_monazite"
 					type: "item"
 				}
 				{
-					id: "5233FC3D4022C248"
+					id: "0D29E41B8AE83A61"
 					item: "gtceu:raw_neodymium"
 					type: "item"
 				}
 			]
-			title: "独居石"
+			title: "独居石矿脉"
 			x: 7.4d
 			y: -3.2d
 		}
@@ -715,7 +714,7 @@
 			icon: "gtceu:netherrack_emerald_ore"
 			id: "594D84730913698A"
 			size: 0.9d
-			subtitle: "铍矿石、绿宝石的来源"
+			subtitle: "铍，绿宝石的来源"
 			tasks: [
 				{
 					id: "14C64BEBBC783475"
@@ -728,7 +727,7 @@
 					type: "item"
 				}
 			]
-			title: "绿宝石"
+			title: "铍矿脉"
 			x: 8.4d
 			y: -4.0d
 		}
@@ -764,7 +763,7 @@
 					type: "item"
 				}
 			]
-			title: "钼"
+			title: "钼矿脉"
 			x: 9.6d
 			y: -4.0d
 		}
@@ -777,7 +776,7 @@
 			icon: "gtceu:netherrack_certus_quartz_ore"
 			id: "517D50E748A129AB"
 			size: 0.9d
-			subtitle: "AE2、钡的来源"
+			subtitle: "AE2，钡的来源"
 			tasks: [
 				{
 					id: "753C65ED1CA407C7"
@@ -795,7 +794,7 @@
 					type: "item"
 				}
 			]
-			title: "赛特斯石英"
+			title: "赛特斯石英矿脉"
 			x: 10.6d
 			y: -3.2d
 		}
@@ -808,7 +807,7 @@
 			icon: "gtceu:netherrack_saltpeter_ore"
 			id: "1F572D638AAACA21"
 			size: 0.9d
-			subtitle: "钾、蓝色合金的来源"
+			subtitle: "钾，蓝色合金的来源"
 			tasks: [
 				{
 					id: "5483A769AEEA0FA0"
@@ -831,7 +830,7 @@
 					type: "item"
 				}
 			]
-			title: "硝石"
+			title: "硝石矿脉"
 			x: 11.0d
 			y: -2.0d
 		}
@@ -844,7 +843,7 @@
 			icon: "gtceu:netherrack_topaz_ore"
 			id: "37EC97FB0FC6C56D"
 			size: 0.9d
-			subtitle: "铜、氟化物的来源"
+			subtitle: "铜，铝，氟的来源"
 			tasks: [
 				{
 					id: "29303BBBF186EA1B"
@@ -867,7 +866,7 @@
 					type: "item"
 				}
 			]
-			title: "黄玉"
+			title: "黄玉矿脉"
 			x: 10.6d
 			y: -0.8d
 		}
@@ -880,7 +879,7 @@
 			icon: "gtceu:netherrack_tetrahedrite_ore"
 			id: "45B62B35180593EA"
 			size: 0.9d
-			subtitle: "铜、锑的来源"
+			subtitle: "铜，锑的来源"
 			tasks: [
 				{
 					id: "65BB3345F5602A55"
@@ -898,7 +897,7 @@
 					type: "item"
 				}
 			]
-			title: "黝铜"
+			title: "黝铜矿脉"
 			x: 9.6d
 			y: 0.0d
 		}
@@ -911,25 +910,30 @@
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
 			size: 0.9d
-			subtitle: "铁、金的来源"
+			subtitle: "铁，金的来源"
 			tasks: [
 				{
-					id: "0C549A9F07E02FA6"
+					id: "03B8D3B4B4C7BE83"
+					item: "gtceu:raw_goethite"
+					type: "item"
+				}
+				{
+					id: "41BD26055599D5E4"
 					item: "gtceu:raw_yellow_limonite"
 					type: "item"
 				}
 				{
-					id: "0EDAF96D2A679486"
-					item: "minecraft:raw_iron"
+					id: "054BDF1BA67B6172"
+					item: "gtceu:raw_hematite"
 					type: "item"
 				}
 				{
-					id: "673D33A59E428107"
+					id: "75C7A1DCF25258C6"
 					item: "minecraft:raw_gold"
 					type: "item"
 				}
 			]
-			title: "带状铁矿"
+			title: "带状铁矿脉"
 			x: 8.4d
 			y: 0.0d
 		}
@@ -942,7 +946,7 @@
 			icon: "gtceu:netherrack_sulfur_ore"
 			id: "030E299F75640977"
 			size: 0.9d
-			subtitle: "硫磺、铁、锌的来源"
+			subtitle: "硫磺，铁，锌的来源"
 			tasks: [
 				{
 					id: "022CC6EDF95C7696"
@@ -960,7 +964,7 @@
 					type: "item"
 				}
 			]
-			title: "硫磺"
+			title: "硫矿脉"
 			x: 7.4d
 			y: -0.8d
 		}
@@ -973,7 +977,7 @@
 			icon: "gtceu:netherrack_nether_quartz_ore"
 			id: "0269FCDE2628904A"
 			size: 0.9d
-			subtitle: "地狱石英、硅的来源"
+			subtitle: "下界石英，硅的来源"
 			tasks: [
 				{
 					id: "3ABB4181FEA31D22"
@@ -986,7 +990,7 @@
 					type: "item"
 				}
 			]
-			title: "石英"
+			title: "石英矿脉"
 			x: 7.0d
 			y: -2.0d
 		}
@@ -998,7 +1002,7 @@
 			]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "4FC668EF2BF294ED"
-			subtitle: "铁、钒、金、铬的来源"
+			subtitle: "铁，钒，金，铬的来源"
 			tasks: [
 				{
 					id: "221E6D04EBEC9DDE"
@@ -1021,7 +1025,7 @@
 					type: "item"
 				}
 			]
-			title: "磁铁矿"
+			title: "磁铁矿脉"
 			x: 8.0d
 			y: 1.5d
 		}
@@ -1046,7 +1050,7 @@
 					type: "item"
 				}
 			]
-			title: "硅岩"
+			title: "硅岩矿脉"
 			x: 10.0d
 			y: 1.5d
 		}
@@ -1081,7 +1085,7 @@
 					type: "item"
 				}
 			]
-			title: "谢尔顿"
+			title: "谢尔顿矿脉"
 			x: 8.0d
 			y: 4.5d
 		}
@@ -1093,7 +1097,7 @@
 			]
 			icon: "gtceu:endstone_scheelite_ore"
 			id: "5AA98D1298FD90BA"
-			subtitle: "钨、锂的来源"
+			subtitle: "钨，锂的来源"
 			tasks: [
 				{
 					id: "30446661E519BD77"
@@ -1111,7 +1115,7 @@
 					type: "item"
 				}
 			]
-			title: "白钨矿"
+			title: "白钨矿脉"
 			x: 10.0d
 			y: 4.5d
 		}
@@ -1123,7 +1127,7 @@
 			]
 			icon: "gtceu:endstone_bauxite_ore"
 			id: "40B40DF0D1295A90"
-			subtitle: "铝、钛、镓的来源"
+			subtitle: "铝，钛，镓的来源"
 			tasks: [
 				{
 					id: "165615C81FEAE3C3"
@@ -1141,7 +1145,7 @@
 					type: "item"
 				}
 			]
-			title: "铝土矿"
+			title: "铝土矿脉"
 			x: 7.0d
 			y: 3.0d
 		}
@@ -1149,7 +1153,7 @@
 			description: ["铀的唯一矿脉!"]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "5ED483A04095EFA3"
-			subtitle: "铀、钍、铅的来源"
+			subtitle: "铀，钍，铅的来源"
 			tasks: [
 				{
 					id: "6174FF347A1D09AE"
@@ -1162,7 +1166,7 @@
 					type: "item"
 				}
 			]
-			title: "铀矿石"
+			title: "沥青铀矿脉"
 			x: 11.0d
 			y: 3.0d
 		}

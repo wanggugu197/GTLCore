@@ -75,6 +75,7 @@
 				id: "533527A60F7C2024"
 				type: "dimension"
 			}]
+			title: "访问创造维度"
 			x: 7.0d
 			y: 0.5d
 		}
@@ -123,7 +124,7 @@
 				"470DDCCD8E017A4F"
 				"1EB9F1815EB656B0"
 			]
-			description: ["打开命令方块后获得的物品"]
+			description: ["打破命令方块后获得的物品"]
 			id: "48925ECBCC5D268D"
 			tasks: [{
 				id: "3DFC2C88970DA844"
@@ -137,7 +138,8 @@
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
 				"你可以放下和打破命令方块了，但还是不知道如何使用"
-				"只能放置在稳定核心上方"
+				""
+				"命令方块只能放置在稳定核心上方"
 			]
 			id: "34DB07A64CD1439C"
 			tasks: [{
@@ -184,6 +186,7 @@
 		}
 		{
 			dependencies: ["48925ECBCC5D268D"]
+			description: ["如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
 			tasks: [{
@@ -211,7 +214,7 @@
 				"338F629A694C7556"
 			]
 			description: [
-				"耗能固定为4A MAX"
+				"耗能固定为16A MAX"
 				"核心放入输入总线，方块放机器正中间"
 			]
 			icon_scale: 2.0d
@@ -289,6 +292,7 @@
 		}
 		{
 			dependencies: ["75CE99CD1614FB64"]
+			description: ["放入数据库中以获得所有研究数据"]
 			id: "31B4B834D5DD87DB"
 			subtitle: "毕业了"
 			tasks: [{
@@ -304,6 +308,7 @@
 				"2A19E7C6DC247B90"
 				"2D1F2793A396B322"
 			]
+			description: ["可以放入有源变压器中以让无线电网获得无穷的电力"]
 			id: "5F145D9019C4BC48"
 			subtitle: "毕业了"
 			tasks: [
@@ -359,7 +364,7 @@
 				type: "item"
 			}]
 			title: "终于，结束了"
-			x: 16.0d
+			x: 16.5d
 			y: 2.5d
 		}
 	]

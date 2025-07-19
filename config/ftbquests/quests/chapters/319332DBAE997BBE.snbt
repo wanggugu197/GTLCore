@@ -27,6 +27,12 @@
 			x: 4.0d
 			y: 2.0d
 		}
+		{
+			id: "7BACBBDE37935335"
+			linked_quest: "2AE3DE0BC3CD1D5B"
+			x: 2.0d
+			y: 10.0d
+		}
 	]
 	quests: [
 		{
@@ -54,12 +60,9 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"13BBF0FF3267BFDB"
-				"766D051A40AB5324"
-			]
+			dependencies: ["13BBF0FF3267BFDB"]
 			dependency_requirement: "one_completed"
-			description: ["看一看电磁选矿有惊喜"]
+			description: ["可以通过研磨或者电磁选矿获取粉"]
 			id: "0507FDF7BECE29AF"
 			tasks: [{
 				id: "39855610E9E80307"
@@ -119,7 +122,11 @@
 				"4BFA114E12BCB163"
 				"14396D30F281CE72"
 			]
-			description: ["聚变是将两种较轻的元素转化为较重的元素的过程。"]
+			description: [
+				"普通聚变堆不能升压，运行主机对应等级配方时不能超频"
+				""
+				"运行低于主机对应等级的配方时主机等级每高出配方等级一级，耗电翻倍，耗时减半"
+			]
 			icon_scale: 2.0d
 			id: "118FDF6D9F868002"
 			shape: "rsquare"
@@ -134,7 +141,7 @@
 		}
 		{
 			dependencies: ["118FDF6D9F868002"]
-			description: ["在有三钛线圈前不能直接烧制，靠聚变出的液态铕固化获得"]
+			description: ["可以靠聚变出的液态铕固化获得，也可以用电力高炉直接烧制"]
 			id: "52DF531AFB3A07CE"
 			tasks: [{
 				id: "102F17C54DB17FBD"
@@ -157,6 +164,7 @@
 		}
 		{
 			dependencies: ["4068B8F601B041D9"]
+			description: ["可以用于循环增产"]
 			id: "368ED4C1A9ADA4D2"
 			tasks: [{
 				id: "5D8F250C052776B6"
@@ -273,10 +281,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"7F8C2ECC7CE2BF20"
-				"43B8C2A0BAF74B2C"
-			]
+			dependencies: ["7F8C2ECC7CE2BF20"]
 			id: "00B9091E4824D78C"
 			tasks: [{
 				id: "20C4C63653ED3480"
@@ -300,7 +305,7 @@
 		}
 		{
 			dependencies: ["233CA36D529EC3FB"]
-			description: ["你可以不用制作小型组装机了"]
+			description: ["拥有无损超频，超频次数高的情况下强于大型组装厂"]
 			icon_scale: 2.0d
 			id: "2A0269009ABF1414"
 			shape: "rsquare"
@@ -359,53 +364,35 @@
 				"4ECACC2A6159D332"
 				"0B89B3108EB4A01F"
 			]
-			description: ["为设备运行提供算力，更多的算力需要升级组件或者使用交换机合并多个计算机算力"]
+			description: [
+				"为设备运行提供算力，更多的算力需要升级组件或者使用交换机合并多个计算机算力"
+				""
+				"请注意区分算力数据仓（传输算力）和光学数据仓（传输数据）"
+			]
+			icon: "gtceu:high_performance_computation_array"
 			icon_scale: 2.0d
 			id: "50FFFB0EBEDAE50B"
 			shape: "rsquare"
 			size: 1.0d
-			tasks: [{
-				id: "1E7BE63B3A0D93A8"
-				item: "gtceu:high_performance_computation_array"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E7BE63B3A0D93A8"
+					item: "gtceu:high_performance_computation_array"
+					type: "item"
+				}
+				{
+					id: "47DB4BF1F015DA2B"
+					item: "gtceu:computation_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "54575D8670C83558"
+					item: "gtceu:computation_receiver_hatch"
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 10.0d
-		}
-		{
-			dependencies: [
-				"4BFA114E12BCB163"
-				"6B71EE1A869ABCD5"
-				"7F8C2ECC7CE2BF20"
-			]
-			description: ["在有精密组装机之前你都得制作小型组装机"]
-			id: "43B8C2A0BAF74B2C"
-			tasks: [{
-				id: "77F6912E5D65A761"
-				item: "gtceu:luv_assembler"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["4BFA114E12BCB163"]
-			description: [
-				"可以输入/forge tps来查看游戏延迟，最好保证tps保持在20"
-				"以下事项会导致游戏卡顿"
-				"把所有东西都建在一个小空间里,这不会影响TPS,但会导致FPS下降"
-				"使用大量抽屉由于需要对每个抽屉进行迭代插入和提取,推荐改用AE存储"
-				"集中传输大量频道,推荐使用ME控制器来分散频道,尽量搭建子网络来减少主网络频道使用量"
-				"在网络中大量使用输入和输出总线.推荐使用ME接口"
-			]
-			id: "1866C18852956050"
-			tasks: [{
-				id: "075B9DA6F675FA75"
-				title: "如果你感到了卡顿"
-				type: "checkmark"
-			}]
-			x: 4.0d
-			y: 0.0d
 		}
 		{
 			id: "1F0C8D37619111BE"
@@ -494,8 +481,20 @@
 			]
 			description: [
 				"你应该已经开始采流体矿脉了，一定是吧"
-				"然后你就可以去地狱了"
+				"然后你就可以去末地了"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_6_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 0L
+							Fluid: "minecraft:empty"
+						}]
+					}
+				}
+			}
 			icon_scale: 2.0d
 			id: "67784DEB22D18308"
 			rewards: [{
@@ -537,8 +536,10 @@
 			description: [
 				"顶层输入，底层输出"
 				"其产物处理线路复杂请仔细查看"
+				"使用中子传感器控制中子动能"
 			]
 			hide_dependent_lines: true
+			icon: "gtceu:neutron_activator"
 			icon_scale: 2.0d
 			id: "766D051A40AB5324"
 			size: 2.0d
@@ -570,6 +571,7 @@
 				"概率会吞原料，样板，造成存档崩溃，造成电脑崩溃（我也不知道它怎么做到的）"
 			]
 			id: "4E6DCE7CDC74FC93"
+			subtitle: "怕别用，用别怕"
 			tasks: [
 				{
 					id: "5F868C0D5F467E1C"
@@ -582,7 +584,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -591,7 +593,7 @@
 				"艾萨线，这是一条新的矿物处理线。"
 				"产出铂处，稀土（部分），硅岩等一些稀有的粉"
 				"还有铊粉~~~"
-				"效率很高，你会喜欢的"
+				"效率一般，但是是必要的"
 			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
@@ -618,7 +620,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2588A0EF7F27DE5B"]
+			dependencies: [
+				"2588A0EF7F27DE5B"
+				"13BBF0FF3267BFDB"
+			]
 			icon_scale: 2.0d
 			id: "147A71CE5EEBC836"
 			tasks: [{
@@ -654,6 +659,7 @@
 		}
 		{
 			dependencies: ["298369255C8130F7"]
+			description: ["容量更大，处于数据库多方块结构中时可以放入数据模块"]
 			id: "0723418AF58675E7"
 			optional: true
 			tasks: [{
@@ -707,19 +713,19 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["67784DEB22D18308"]
-			description: [
-				"一手末影之眼，一手末地数据"
-				"以开启末地门"
-			]
-			id: "0278A150804C3710"
+			dependencies: ["52DF531AFB3A07CE"]
+			description: ["每个聚变堆都有对应的压缩版本，可以超频，拥有并行"]
+			icon_scale: 2.0d
+			id: "43A83C00715285B5"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
-				id: "14CD143A66B6DF60"
-				title: "末地"
-				type: "checkmark"
+				id: "379AB770F78942DD"
+				item: "gtceu:luv_compressed_fusion_reactor"
+				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 14.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier6-LuV"]

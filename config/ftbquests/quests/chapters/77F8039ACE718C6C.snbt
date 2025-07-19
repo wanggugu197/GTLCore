@@ -107,6 +107,7 @@
 				"你可以开始炼钢了"
 				"推荐尽快做&5超维度等泥土锻炉&r"
 			]
+			icon: "gtceu:primitive_blast_furnace"
 			icon_scale: 2.0d
 			id: "5CE50DDC960340D8"
 			rewards: [
@@ -184,7 +185,7 @@
 			]
 			title: "耐火黏土粉"
 			x: 5.0d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5C936EF307594737"]
@@ -268,6 +269,7 @@
 		{
 			dependencies: ["00579BDA1FA1BEC6"]
 			description: ["远古世界有一些有用的矿"]
+			icon: "kubejs:reactor_core"
 			id: "335ED39019FC62E7"
 			rewards: [
 				{
@@ -347,6 +349,7 @@
 				""
 				"当你在EV完成三阶火箭后你需要用它前往地狱"
 			]
+			icon: "kubejs:reactor_core"
 			icon_scale: 2.0d
 			id: "00579BDA1FA1BEC6"
 			rewards: [{
@@ -378,7 +381,7 @@
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
-			description: ["它可以讲三个锭锤成两个板，比手搓有更高的效率"]
+			description: ["它可以将三个锭锤成两个板，比手搓有更高的效率"]
 			hide_dependency_lines: true
 			id: "6525C9DE2A276238"
 			rewards: [{
@@ -483,7 +486,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5C936EF307594737"]
@@ -609,6 +612,7 @@
 				"5276CA8FA5262C9B"
 				"38CC43F7A6A39BB4"
 			]
+			description: ["不要忘了放输出仓"]
 			icon_scale: 2.0d
 			id: "2585418910B6798A"
 			rewards: [{
@@ -626,6 +630,7 @@
 		}
 		{
 			dependencies: ["7CB85061F0822830"]
+			description: ["可以共用"]
 			hide_dependent_lines: true
 			id: "38CC43F7A6A39BB4"
 			rewards: [{
@@ -633,6 +638,7 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
+			subtitle: "切勿堵塞出烟口"
 			tasks: [{
 				id: "6FF18125E551DB42"
 				item: "gtceu:lv_muffler_hatch"
@@ -669,7 +675,7 @@
 			}]
 			title: "你的第一块电路"
 			x: 6.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			id: "77A1011F608079C9"
@@ -684,7 +690,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
@@ -701,7 +707,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			id: "051710FFC9907807"
@@ -874,7 +880,7 @@
 		}
 		{
 			dependencies: ["5CE50DDC960340D8"]
-			description: ["瞬间获得产物"]
+			description: ["请确保输入总线和输出总线空间足够运作（不能使用蒸汽总线）"]
 			icon_scale: 2.0d
 			id: "0662E205D1783D31"
 			rewards: [
@@ -893,6 +899,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "瞬间获得产物"
 			tasks: [{
 				id: "2BE6A835D6EF790C"
 				item: "gtceu:dimensionally_transcendent_dirt_forge"
@@ -1019,6 +1026,7 @@
 				}
 			]
 			size: 1.0d
+			subtitle: "蒸汽研磨并不会有副产物"
 			tasks: [{
 				id: "6ACDB1E4B636D7F0"
 				title: "蒸汽多方块"
@@ -1030,12 +1038,14 @@
 		{
 			dependencies: ["12FE2B59FA86381C"]
 			description: ["激光物流的合成都被加强了，推荐使用这个模组来物流"]
+			icon: "laserio:laser_wrench"
 			id: "7B38A7C2643C6766"
 			rewards: [{
 				id: "42242771F67681FC"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
+			subtitle: "甚至可以跨纬度"
 			tasks: [
 				{
 					id: "1B1773B40FB9AB2F"
@@ -1052,7 +1062,14 @@
 					item: "laserio:laser_wrench"
 					type: "item"
 				}
+				{
+					id: "184937C5AEE643FD"
+					item: "laserio:laser_connector_advanced"
+					optional_task: true
+					type: "item"
+				}
 			]
+			title: "激光物流"
 			x: 12.0d
 			y: 2.0d
 		}
@@ -1265,6 +1282,27 @@
 			title: "这是垃圾桶"
 			x: 14.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["08B7D8F835DFE214"]
+			description: ["原始科技震撼人心"]
+			hide_dependency_lines: true
+			id: "205B11E482DDF464"
+			tasks: [
+				{
+					id: "08A0A7ABDCC61BFB"
+					item: "gtlcore:primitive_robot_arm"
+					type: "item"
+				}
+				{
+					id: "31170C895B9A9E5C"
+					item: "gtlcore:primitive_fluid_regulator"
+					type: "item"
+				}
+			]
+			title: "原始两件套"
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier0-ULV"]

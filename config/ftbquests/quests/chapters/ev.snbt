@@ -289,6 +289,11 @@
 		}
 		{
 			dependencies: ["4FD556B867463D30"]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_2_rocket"
+				tag: { }
+			}
 			icon_scale: 2.0d
 			id: "5CE474BD971D9A4B"
 			rewards: [{
@@ -434,6 +439,11 @@
 		{
 			dependencies: ["5B65662B72C369E7"]
 			description: [""]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_3_rocket"
+				tag: { }
+			}
 			icon_scale: 2.0d
 			id: "14D60DF010FF0396"
 			rewards: [
@@ -720,6 +730,11 @@
 				"51AA4887F2DC9747"
 				"0375D068023B13D7"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_4_rocket"
+				tag: { }
+			}
 			icon_scale: 2.0d
 			id: "0889DB18E2C68D67"
 			rewards: [{
@@ -836,6 +851,7 @@
 		}
 		{
 			dependencies: ["4C43D30FD9B89965"]
+			description: ["你可以开始制作64A能源仓了"]
 			icon_scale: 2.0d
 			id: "31C3D49708342998"
 			rewards: [{
@@ -1061,6 +1077,51 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			description: ["推荐把各种常用电路打包为通用电路板，方便以后修改样板"]
+			icon_scale: 2.0d
+			id: "5CC41E8E3F814DE9"
+			size: 1.0d
+			tasks: [{
+				id: "25776726EBFC683B"
+				item: "gtceu:ev_packer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E7344C133C99565"]
+			description: ["直接与ME网络互动"]
+			icon_scale: 2.0d
+			id: "733741C26C6BF5C3"
+			size: 1.0d
+			tasks: [
+				{
+					id: "734003F060FF3ACE"
+					item: "gtceu:me_input_bus"
+					type: "item"
+				}
+				{
+					id: "3D1B5C6F4C3F593F"
+					item: "gtceu:me_input_hatch"
+					type: "item"
+				}
+				{
+					id: "265ECFED68A86244"
+					item: "gtceu:me_output_bus"
+					type: "item"
+				}
+				{
+					id: "098290B5F13835AA"
+					item: "gtceu:me_output_hatch"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 5.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]

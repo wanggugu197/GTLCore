@@ -134,13 +134,21 @@
 				"009E71EC51F5B0EF"
 				"6911B25AA0545E24"
 			]
-			description: ["你需要64桶才能起飞"]
+			description: ["你一共需要32桶"]
+			icon: "gtceu:rocket_fuel_bucket"
 			id: "347CD713F71D41D0"
-			tasks: [{
-				id: "1C2CBCEB171603A4"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1C2CBCEB171603A4"
+					item: "gtceu:rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70234D4B599CF86C"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 2.0d
 		}
@@ -148,7 +156,7 @@
 			dependencies: ["009E71EC51F5B0EF"]
 			id: "0D865B38481F3106"
 			rewards: [{
-				id: "29C4EDC665FC5FB6"
+				id: "1ADAFE437AC0496C"
 				item: {
 					Count: 1
 					id: "avaritia:infinity_bow"
@@ -224,34 +232,58 @@
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
+			icon: "gtceu:methanol_bucket"
 			id: "5977502EB593EFF4"
-			tasks: [{
-				id: "13F88C17E0CB1F79"
-				item: "gtceu:methanol_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13F88C17E0CB1F79"
+					item: "gtceu:methanol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "035F93B52E153862"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
+			icon: "gtceu:ammonia_bucket"
 			id: "5246BC7D720ECE4A"
-			tasks: [{
-				id: "6625D07C32DDC7A0"
-				item: "gtceu:ammonia_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6625D07C32DDC7A0"
+					item: "gtceu:ammonia_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0CC686FD66C7C926"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
+			icon: "gtceu:hypochlorous_acid_bucket"
 			id: "77308962EE9DAA52"
-			tasks: [{
-				id: "1042F9FE861FDCFA"
-				item: "gtceu:hypochlorous_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1042F9FE861FDCFA"
+					item: "gtceu:hypochlorous_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22605D22FBD8AACF"
+					type: "checkmark"
+				}
+			]
 			x: 5.5d
 			y: 5.0d
 		}
@@ -261,12 +293,20 @@
 				"5246BC7D720ECE4A"
 				"77308962EE9DAA52"
 			]
+			icon: "gtceu:dimethylhydrazine_bucket"
 			id: "6911B25AA0545E24"
-			tasks: [{
-				id: "0900F3F6F8460BFF"
-				item: "gtceu:dimethylhydrazine_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0900F3F6F8460BFF"
+					item: "gtceu:dimethylhydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "424419617E47B39F"
+					type: "checkmark"
+				}
+			]
 			x: 7.0d
 			y: 4.0d
 		}
@@ -340,17 +380,26 @@
 				"509A4CEE0C308165"
 				"3FBDEBFA58D0B01F"
 			]
+			icon: "gtceu:rocket_fuel_rp_1_bucket"
 			id: "33BF09337B6A9E03"
-			tasks: [{
-				id: "573976A2941AAE9D"
-				item: "gtceu:rocket_fuel_rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "573976A2941AAE9D"
+					item: "gtceu:rocket_fuel_rp_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F6604A43714E7F7"
+					type: "checkmark"
+				}
+			]
 			x: 15.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["36EDAB1E6F9E8618"]
+			icon: "gtceu:rp_1_bucket"
 			id: "3FBDEBFA58D0B01F"
 			tasks: [
 				{
@@ -369,6 +418,7 @@
 		}
 		{
 			dependencies: ["63C8DD19C6B76899"]
+			icon: "gtceu:liquid_oxygen_bucket"
 			id: "509A4CEE0C308165"
 			tasks: [
 				{
@@ -387,6 +437,7 @@
 		}
 		{
 			dependencies: ["4E2549EFE6D9AA7B"]
+			icon: "gtceu:kerosene_bucket"
 			id: "36EDAB1E6F9E8618"
 			tasks: [
 				{
@@ -405,6 +456,7 @@
 		}
 		{
 			dependencies: ["34BED884F1A28343"]
+			icon: "gtceu:coal_tar_bucket"
 			id: "4E2549EFE6D9AA7B"
 			tasks: [
 				{
@@ -430,6 +482,7 @@
 		}
 		{
 			dependencies: ["63C8DD19C6B76899"]
+			icon: "gtceu:coal_gas_bucket"
 			id: "34BED884F1A28343"
 			tasks: [
 				{
@@ -538,17 +591,26 @@
 		{
 			dependencies: ["6A16D86A6B8963DC"]
 			dependency_requirement: "one_completed"
+			icon: "gtceu:dense_hydrazine_fuel_mixture_bucket"
 			id: "1C5997EE2E91844A"
-			tasks: [{
-				id: "3F3C3022BE3E94AF"
-				item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3F3C3022BE3E94AF"
+					item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B65E42C0FFEE9FA"
+					type: "checkmark"
+				}
+			]
 			x: 25.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["606199C34AD69974"]
+			icon: "gtceu:hydrazine_bucket"
 			id: "6A16D86A6B8963DC"
 			tasks: [
 				{
@@ -570,6 +632,7 @@
 				"50E554A0F172FEF4"
 				"26490ED393A09C12"
 			]
+			icon: "gtceu:hydrogen_peroxide_bucket"
 			id: "606199C34AD69974"
 			tasks: [
 				{
@@ -588,6 +651,7 @@
 		}
 		{
 			dependencies: ["123FD5A979F5750D"]
+			icon: "gtceu:anthracene_bucket"
 			id: "50E554A0F172FEF4"
 			tasks: [
 				{
@@ -606,6 +670,7 @@
 		}
 		{
 			dependencies: ["357F8943B37E231D"]
+			icon: "gtceu:ethylanthrahydroquinone_bucket"
 			id: "26490ED393A09C12"
 			tasks: [
 				{
@@ -625,6 +690,7 @@
 		{
 			dependencies: ["589789F9FC81A557"]
 			description: ["这个是催化剂，再下下个反应中会还给你的，不需要做很多"]
+			icon: "gtceu:ethylanthraquinone_bucket"
 			id: "357F8943B37E231D"
 			tasks: [
 				{
@@ -643,6 +709,7 @@
 		}
 		{
 			dependencies: ["706B6132C6C42BAE"]
+			icon: "gtceu:phthalic_anhydride_dust"
 			id: "589789F9FC81A557"
 			tasks: [
 				{
@@ -665,6 +732,7 @@
 				"6C689993C9BCE006"
 			]
 			dependency_requirement: "one_completed"
+			icon: "gtceu:phthalic_acid_bucket"
 			id: "706B6132C6C42BAE"
 			tasks: [
 				{
@@ -683,6 +751,7 @@
 		}
 		{
 			dependencies: ["123FD5A979F5750D"]
+			icon: "gtceu:naphthalene_bucket"
 			id: "7B3D7412BEA6862A"
 			tasks: [
 				{
@@ -701,6 +770,7 @@
 		}
 		{
 			dependencies: ["123FD5A979F5750D"]
+			icon: "gtceu:dimethylbenzene_bucket"
 			id: "6C689993C9BCE006"
 			tasks: [
 				{
@@ -843,18 +913,27 @@
 		}
 		{
 			dependencies: ["48E9439ABC35D129"]
+			icon: "gtceu:rocket_fuel_cn3h7o3_bucket"
 			id: "3CB4691B75D15158"
-			tasks: [{
-				id: "22A97D23795E4286"
-				item: "gtceu:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "22A97D23795E4286"
+					item: "gtceu:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "179AEBE8ACE4A37E"
+					type: "checkmark"
+				}
+			]
 			x: 36.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["187BE1A67AF10798"]
 			hide_dependency_lines: true
+			icon: "gtceu:monomethylhydrazine_bucket"
 			id: "48E9439ABC35D129"
 			tasks: [
 				{
@@ -907,52 +986,66 @@
 		}
 		{
 			dependencies: ["23C2F99FC949AF0A"]
+			icon: "gtceu:raw_aluminium"
 			id: "603ED43DD7A89BF3"
 			tasks: [
 				{
 					id: "734B4AC51FAF51DA"
 					item: "gtceu:raw_bauxite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5EA3102A28A00339"
 					item: "gtceu:raw_ilmenite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6E41CC1205203487"
 					item: "gtceu:raw_aluminium"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7BD806947FFC69BA"
 					item: "gtceu:raw_uraninite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7E6AB6B1F16EFB41"
 					item: "gtceu:raw_pitchblende"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2CE2A66C255AC323"
 					item: "gtceu:raw_thorium"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "329C5B93ECCB6FE0"
 					item: "gtceu:raw_bastnasite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6B80D3BC373D553B"
 					item: "gtceu:raw_monazite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0930EE8B3FE52194"
 					item: "gtceu:raw_neodymium"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "0D61C381FEC82EDE"
+					type: "checkmark"
 				}
 			]
 			title: "月球的矿"
@@ -961,17 +1054,24 @@
 		}
 		{
 			dependencies: ["23C2F99FC949AF0A"]
+			icon: "gtceu:helium_bucket"
 			id: "2E189BB17587F157"
 			tasks: [
 				{
 					id: "4F4581A6BBDA7AAE"
 					item: "gtceu:helium_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1E449DEB2B7B3063"
 					item: "gtceu:helium_3_bucket"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "377CE38CA340EFC1"
+					type: "checkmark"
 				}
 			]
 			title: "月球的流体矿脉"
@@ -980,57 +1080,72 @@
 		}
 		{
 			dependencies: ["702471643821B0DE"]
+			icon: "gtceu:raw_platinum"
 			id: "3D5E0BA1F8F013FC"
 			tasks: [
 				{
 					id: "7B362C2D0A3F2B34"
 					item: "gtceu:raw_scheelite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5868448726EB5F85"
 					item: "gtceu:raw_tungstate"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4340E734E1FCE59F"
 					item: "gtceu:raw_lithium"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "67BCA48FD653C9D5"
 					item: "gtceu:raw_cooperite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4F64CB1271C10AD6"
 					item: "gtceu:raw_bornite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "36885808EF010639"
 					item: "gtceu:raw_platinum"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2945D20FC740FB45"
 					item: "gtceu:raw_palladium"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "49159B1279181E8F"
 					item: "gtceu:raw_pyrochlore"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "41E24DC7270AF2D1"
 					item: "gtceu:raw_apatite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "02C7ED74D08CBD20"
 					item: "gtceu:raw_tricalcium_phosphate"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "2B583A50B1AB4413"
+					type: "checkmark"
 				}
 			]
 			title: "火星的矿"
@@ -1039,12 +1154,20 @@
 		}
 		{
 			dependencies: ["702471643821B0DE"]
+			icon: "gtceu:radon_bucket"
 			id: "457BA0CCBA39709A"
-			tasks: [{
-				id: "61D3F1750DE46B40"
-				item: "gtceu:radon_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "61D3F1750DE46B40"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E41E2B606F9ACC8"
+					type: "checkmark"
+				}
+			]
 			title: "火星的流体矿脉"
 			x: 17.0d
 			y: 4.0d
@@ -1052,52 +1175,66 @@
 		{
 			dependencies: ["602F48807D4A89A6"]
 			description: [""]
+			icon: "gtceu:raw_desh"
 			id: "66BBE21B86B35170"
 			tasks: [
 				{
 					id: "053580F012F38F61"
 					item: "gtceu:raw_desh"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0133550C8342EFE1"
 					item: "gtceu:raw_magnesite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "576FEDA169E057F5"
 					item: "gtceu:raw_sulfur"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "61DF7F4FD46F331E"
 					item: "gtceu:raw_pyrite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "34BAD952486803D1"
 					item: "gtceu:raw_sphalerite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "23C0BD54CD211593"
 					item: "gtceu:raw_bentonite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "589DD66CA5B99DFA"
 					item: "gtceu:raw_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2C3A195F85EA60B6"
 					item: "gtceu:raw_olivine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5157C46CB2B214A2"
 					item: "gtceu:raw_glauconite_sand"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "59954C6877E33733"
+					type: "checkmark"
 				}
 			]
 			title: "金星的矿"
@@ -1106,42 +1243,54 @@
 		}
 		{
 			dependencies: ["240EDC34562E580F"]
+			icon: "gtceu:raw_calorite"
 			id: "755BA509E954B7DC"
 			tasks: [
 				{
 					id: "6428D6EEAEE1BA91"
 					item: "gtceu:raw_calorite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "478CD9D688916D24"
 					item: "gtceu:raw_cobalt"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "35C30A631D599917"
 					item: "gtceu:raw_magnesite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5DD0B8141CB6F828"
 					item: "gtceu:raw_garnierite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1127E4740231AECC"
 					item: "gtceu:raw_nickel"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "659704C6C7AD926D"
 					item: "gtceu:raw_cobaltite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7BC6862957021AA4"
 					item: "gtceu:raw_pentlandite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "4E323938CC8734BE"
+					type: "checkmark"
 				}
 			]
 			title: "水星的矿"
@@ -1150,63 +1299,96 @@
 		}
 		{
 			dependencies: ["602F48807D4A89A6"]
+			icon: "gtceu:sulfuric_acid_bucket"
 			id: "01CE2C1DC8A32201"
-			tasks: [{
-				id: "17B5CE2CD59AA220"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17B5CE2CD59AA220"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50E63C6A0D127A93"
+					type: "checkmark"
+				}
+			]
 			title: "金星的流体矿脉"
 			x: 27.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["240EDC34562E580F"]
+			icon: "gtceu:deuterium_bucket"
 			id: "4384E49FECF0451D"
-			tasks: [{
-				id: "068685245F0512CB"
-				item: "gtceu:deuterium_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "068685245F0512CB"
+					item: "gtceu:deuterium_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1B1994F37B40D0AC"
+					type: "checkmark"
+				}
+			]
 			title: "水星的流体矿脉"
 			x: 28.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5010011959CF5337"]
+			icon: "gtceu:raw_ostrum"
 			id: "48DFA1EF82126177"
-			tasks: [{
-				id: "712CE912BBCC97FA"
-				item: "gtceu:raw_ostrum"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "712CE912BBCC97FA"
+					item: "gtceu:raw_ostrum"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "663A530923FFCBA1"
+					type: "checkmark"
+				}
+			]
 			title: "谷神星的矿"
 			x: 38.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5010011959CF5337"]
+			icon: "gtceu:neon_bucket"
 			id: "41BAD19014E33CB2"
 			tasks: [
 				{
 					id: "1C9DDA595033297C"
 					item: "gtceu:neon_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "17B2C5CD61139B40"
 					item: "gtceu:krypton_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0B78A22B254CF866"
 					item: "gtceu:radon_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "29F4B46653D2282E"
 					item: "gtceu:xenon_bucket"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "4B8D7269874796C5"
+					type: "checkmark"
 				}
 			]
 			title: "谷神星的流体矿脉"
@@ -1217,7 +1399,7 @@
 			dependencies: ["2BB52D1C09C418A9"]
 			description: [
 				"终于可以去下界了"
-				"使用远古反应核，相邻放金块角落放绿宝石块"
+				"在远古反应核相邻放金块，角落放绿宝石块，手持下界数据右键"
 			]
 			icon: "minecraft:nether_wart"
 			icon_scale: 2.0d
@@ -1329,12 +1511,20 @@
 		}
 		{
 			dependencies: ["5322AB6C014C301F"]
+			icon: "gtceu:rocket_fuel_h8n4c2o4_bucket"
 			id: "75A54472EEAF6BB0"
-			tasks: [{
-				id: "33C81AA0CA99EAF5"
-				item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33C81AA0CA99EAF5"
+					item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AE22FFD0FFB2C99"
+					type: "checkmark"
+				}
+			]
 			x: 11.0d
 			y: 10.0d
 		}
@@ -1427,12 +1617,20 @@
 		}
 		{
 			dependencies: ["7EE091FC5E255C22"]
+			icon: "ad_astra:cryo_fuel_bucket"
 			id: "191930A854469664"
-			tasks: [{
-				id: "22DB27707E826EAF"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "22DB27707E826EAF"
+					item: "ad_astra:cryo_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "760B492B106A27A0"
+					type: "checkmark"
+				}
+			]
 			x: 21.5d
 			y: 10.0d
 		}
@@ -1466,12 +1664,20 @@
 		}
 		{
 			dependencies: ["72ED3FB127914FD7"]
+			icon: "gtceu:stellar_energy_rocket_fuel_bucket"
 			id: "7B19818378510998"
-			tasks: [{
-				id: "3BEC6C89E3401479"
-				item: "gtceu:stellar_energy_rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3BEC6C89E3401479"
+					item: "gtceu:stellar_energy_rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F3CC112CFB8C8D7"
+					type: "checkmark"
+				}
+			]
 			x: 30.0d
 			y: 10.0d
 		}
@@ -1534,22 +1740,30 @@
 		}
 		{
 			dependencies: ["73613E3EBEFFB326"]
+			icon: "gtceu:raw_naquadah"
 			id: "793E9EC16B16BA5C"
 			tasks: [
 				{
 					id: "7A60CC225A62E827"
 					item: "gtceu:raw_naquadah"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "04B98AF7EBA6D607"
 					item: "gtceu:raw_celestine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "59EB363E1AF4A068"
 					item: "gtceu:raw_trona"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "0916921F52DD41A3"
+					type: "checkmark"
 				}
 			]
 			title: "木卫一的矿"
@@ -1558,36 +1772,60 @@
 		}
 		{
 			dependencies: ["73613E3EBEFFB326"]
+			icon: "gtceu:coal_gas_bucket"
 			id: "2A2DDCC3A347CCFC"
-			tasks: [{
-				id: "5E5086AB16E5F4B3"
-				item: "gtceu:coal_gas_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E5086AB16E5F4B3"
+					item: "gtceu:coal_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "295B37391447786E"
+					type: "checkmark"
+				}
+			]
 			title: "木卫一的流体矿脉"
 			x: 12.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["761877FE2F5E2E2E"]
+			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "20AD3C5F77D665FC"
-			tasks: [{
-				id: "77526A485334B9A0"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77526A485334B9A0"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4CF09507A2A6E859"
+					type: "checkmark"
+				}
+			]
 			title: "木卫三的流体矿脉"
 			x: 13.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["761877FE2F5E2E2E"]
+			icon: "gtceu:raw_zircon"
 			id: "5A5C5923DADD33E5"
-			tasks: [{
-				id: "31F911C5925689BB"
-				item: "gtceu:raw_zircon"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "31F911C5925689BB"
+					item: "gtceu:raw_zircon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2EB386859E1CFF3D"
+					type: "checkmark"
+				}
+			]
 			title: "木卫三的矿"
 			x: 13.5d
 			y: 10.0d
@@ -1659,8 +1897,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["61140578961B01A9"]
-			description: ["左手手持末地数据，右手末地之眼，各消耗一个点亮一次"]
+			dependencies: [
+				"61140578961B01A9"
+				"67784DEB22D18308"
+			]
+			description: ["找到原版要塞中的传送门，副手手持末地数据，主手手持末影之眼，各消耗一个点亮一个传送门框架"]
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
 			tasks: [{
@@ -1668,6 +1909,7 @@
 				item: "kubejs:end_data"
 				type: "item"
 			}]
+			title: "末地"
 			x: 26.0d
 			y: 8.0d
 		}
@@ -1695,29 +1937,44 @@
 		}
 		{
 			dependencies: ["61140578961B01A9"]
+			icon: "gtceu:nitric_acid_bucket"
 			id: "72053827D58EF156"
-			tasks: [{
-				id: "66BE265D649EB639"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66BE265D649EB639"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E9302DD8029EAE6"
+					type: "checkmark"
+				}
+			]
 			title: "冥王星的流体矿脉"
 			x: 23.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["22B38057B7705160"]
+			icon: "gtceu:fluorine_bucket"
 			id: "55918DAD44A0C882"
 			tasks: [
 				{
 					id: "663DF3FA4783DFB6"
 					item: "gtceu:chlorine_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "25D3E0C068BC8AFF"
 					item: "gtceu:fluorine_bucket"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "4E3C8A584E630220"
+					type: "checkmark"
 				}
 			]
 			title: "土卫二的流体矿脉"
@@ -1726,22 +1983,30 @@
 		}
 		{
 			dependencies: ["7E8D49D03B9CF783"]
+			icon: "gtceu:methane_bucket"
 			id: "68E3E08DF18CC2C5"
 			tasks: [
 				{
 					id: "58832CB953B7CBD2"
 					item: "gtceu:methane_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "44D33818118A4848"
 					item: "gtceu:benzene_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "19643D23DDE3A4A1"
 					item: "gtceu:charcoal_byproducts_bucket"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "00269BF684308060"
+					type: "checkmark"
 				}
 			]
 			title: "土卫六的流体矿脉"
@@ -1772,6 +2037,8 @@
 		}
 		{
 			dependencies: ["25AA088531768F81"]
+			description: ["霜原羊掉落"]
+			icon: "kubejs:glacio_spirit"
 			icon_scale: 2.0d
 			id: "76EA305BEB66FA42"
 			tasks: [{
@@ -1835,12 +2102,20 @@
 		}
 		{
 			dependencies: ["7796B2AE8F20C564"]
+			icon: "gtceu:unknowwater_bucket"
 			id: "34B06A20D5B71CC9"
-			tasks: [{
-				id: "7DC96849FFCF07D7"
-				item: "gtceu:unknowwater_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7DC96849FFCF07D7"
+					item: "gtceu:unknowwater_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0AC8EA50AE46B463"
+					type: "checkmark"
+				}
+			]
 			title: "巴纳德C的流体矿脉"
 			x: 38.0d
 			y: 10.0d

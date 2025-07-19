@@ -35,6 +35,7 @@
 				"5E9E2F25AE1EC731"
 			]
 			description: ["适合做生物研究"]
+			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
 			tasks: [
@@ -104,13 +105,19 @@
 		}
 		{
 			dependencies: ["04B1D03A3FE114F1"]
-			icon: "gtceu:bacteria_bucket"
+			description: [
+				"培养缸可以一直使用过滤器机器方块，无需升级"
+				""
+				"后续可以升级为微生物支配者，可以使用激光仓，拥有无损超频"
+			]
+			icon: "gtceu:large_incubator"
 			id: "503C03C654730F65"
 			tasks: [{
-				id: "67D7250ABEBDE5E2"
-				title: "细菌产线"
-				type: "checkmark"
+				id: "67472857F3F58EDA"
+				item: "gtceu:large_incubator"
+				type: "item"
 			}]
+			title: "细菌产线"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -279,11 +286,15 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["更长，更快，无需有序"]
+			description: [
+				"更长，更快，有并行，还能使用巨型输入总成！"
+				""
+				"（用输入总成替换输入仓）"
+			]
 			icon_scale: 2.0d
 			id: "172FC2F2B20CD187"
 			shape: "rsquare"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
 				id: "1F71F073D091459C"
 				item: "gtceu:advanced_assembly_line"
@@ -362,7 +373,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["OP"]
+			description: ["也叫小OP，后面还能制作更强力的大OP"]
 			id: "35C61EF7C0FBD32F"
 			shape: "rsquare"
 			size: 1.0d
@@ -371,12 +382,12 @@
 				item: "gtceu:integrated_ore_processor"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 15.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["输入石油，输出产物"]
+			description: ["输入石油和蒸汽，输出产物"]
 			id: "61838E13426B2B88"
 			shape: "rsquare"
 			size: 1.0d
@@ -394,6 +405,18 @@
 				"04B1D03A3FE114F1"
 			]
 			description: ["前往太阳系之外"]
+			icon: {
+				Count: 1
+				id: "ad_astra_rocketed:tier_7_rocket"
+				tag: {
+					BotariumData: {
+						StoredFluids: [{
+							Amount: 0L
+							Fluid: "minecraft:empty"
+						}]
+					}
+				}
+			}
 			icon_scale: 2.0d
 			id: "7FD1D1D8ED72D40C"
 			rewards: [{
@@ -433,6 +456,7 @@
 		}
 		{
 			dependencies: ["7FD1D1D8ED72D40C"]
+			description: ["使用培养缸增产"]
 			id: "079FEA1875012A69"
 			tasks: [{
 				count: 4L
@@ -470,6 +494,7 @@
 		}
 		{
 			dependencies: ["5E9E2F25AE1EC731"]
+			description: ["一个源仓可以对多个靶仓，反之不能"]
 			icon_scale: 2.0d
 			id: "6C24E5BA18FE8CF5"
 			tasks: [
@@ -561,8 +586,9 @@
 				"53D0B2B73387C7CE"
 				"042A0E98DC1084B3"
 			]
-			description: [" 磁共振电路！启动！"]
+			description: ["可以制作只需贴片且产量巨大的磁共振电路，你会喜欢的 "]
 			id: "0DC5BFACB3D4BC95"
+			subtitle: "磁共振电路！启动！"
 			tasks: [{
 				id: "4A9623D2D33B88B9"
 				item: "gtceu:magneto_resonatic_dust"
@@ -594,9 +620,34 @@
 		{
 			dependencies: ["0485D45408234C99"]
 			description: [
+				"工作需要用一个输入总线输入1号电路"
+				""
 				"这个时候你也可以做大型的"
 				""
-				"还有一个叫方块转换室和一个叫转换模拟卡的东西"
+				"方块放在多方块结构内部即可转换"
+				""
+				"还有一个叫方块总线和一个叫转换模拟卡的东西"
+				""
+				"在安装模拟卡的前提下，在方块总线内的方块也可以被转换"
+				""
+				"如果放入模拟卡不工作，请拆掉主机再放回去"
+				""
+				"{@pagebreak}"
+				"具体转换配方如下："
+				""
+				"草方块转换为苔藓块"
+				""
+				"苔藓块转换为幽匿块"
+				""
+				"橡木原木转换为绯红菌柄"
+				""
+				"白桦原木转换为诡异菌柄"
+				""
+				"钙块转换为骨块"
+				""
+				"骨块转换为精华方块"
+				""
+				"注入龙力的黑曜石转换为充能龙块"
 			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
@@ -655,6 +706,20 @@
 			}]
 			x: 6.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["0A2D46609F5C3CAB"]
+			description: ["不要和其他合成存储器混用（包括另一个MAX）"]
+			hide_dependency_lines: true
+			id: "31A1ECA11AC31A29"
+			subtitle: "无限的容量"
+			tasks: [{
+				id: "22A5A0569A6E914F"
+				item: "gtlcore:max_storage"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

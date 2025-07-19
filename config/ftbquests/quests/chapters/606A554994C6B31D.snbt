@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["4B6F43302E963F5E"]
 			id: "328D140CCF4FAEC6"
 			tasks: [{
 				id: "60C942F096955819"
@@ -188,7 +187,7 @@
 			id: "480654050D2AA365"
 			optional: true
 			rewards: [{
-				id: "580D3A12A204DE87"
+				id: "2C5322BB596BC734"
 				item: "gtceu:sticky_resin"
 				type: "item"
 			}]
@@ -198,7 +197,7 @@
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "树脂"
+			title: "黏性树脂"
 			x: 3.0d
 			y: -5.5d
 		}
@@ -1370,6 +1369,40 @@
 			title: "碎片世界采集器"
 			x: -6.0d
 			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["328D140CCF4FAEC6"]
+			hide_dependency_lines: true
+			icon: "gtceu:steam_machine_casing"
+			id: "5C28B39C5A5B7999"
+			optional: true
+			rewards: [{
+				count: 100
+				id: "2ACD5C025153D4EB"
+				item: "gtceu:steam_machine_casing"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "1443D3AD3C7FB145"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 100L
+					id: "3E83E62563BDFB52"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			title: "蒸汽机械方块*10"
+			x: 4.0d
+			y: -5.0d
 		}
 	]
 	title: "小市场"

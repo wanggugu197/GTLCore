@@ -9,8 +9,8 @@
 	quest_links: [{
 		id: "14F40CE0FBA07270"
 		linked_quest: "00A227F06D7F109E"
-		x: -5.0d
-		y: -5.0d
+		x: -3.0d
+		y: -7.0d
 	}]
 	quests: [
 		{
@@ -19,10 +19,12 @@
 				"0BF48314F3323108"
 				"32186EFF7020D432"
 			]
+			description: ["不超频时耗电量平均为1024A MAX"]
 			icon_scale: 2.0d
 			id: "3E5EBC2B23A503C1"
 			shape: "rsquare"
 			size: 2.0d
+			subtitle: "记得放爆弹"
 			tasks: [{
 				id: "75AE43EB6B5AC68F"
 				item: "gtceu:eye_of_harmony"
@@ -40,7 +42,7 @@
 				title: "时空"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -7.0d
 			y: -3.0d
 		}
 		{
@@ -55,8 +57,8 @@
 				item: "kubejs:spacetime_catalyst"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -5.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["3E5EBC2B23A503C1"]
@@ -75,6 +77,7 @@
 				"365548266DF60F91"
 				"45C3486A3F0EE7FB"
 				"11A7CCFCEAB722F3"
+				"622395061792FB5E"
 			]
 			id: "63998161D9D731E7"
 			tasks: [{
@@ -82,8 +85,8 @@
 				item: "gtceu:transcendentmetal_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -97,15 +100,15 @@
 				item: "kubejs:hypercube"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"74D84A4928FA0A35"
 				"5A61ABB6E4917C6C"
 			]
-			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以设可以计成这样，无需太阳帆"]
+			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以可以设计成这样，无需太阳帆"]
 			id: "77CADF4536151255"
 			tasks: [{
 				id: "53C4E2DE954FFFFC"
@@ -127,22 +130,23 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"736395E39993F727"
 				"771080AF846271E3"
 			]
-			description: ["可大批量生产"]
+			description: ["建议替换UXV及以后的电路"]
 			icon_scale: 2.0d
 			id: "414F9C645C799FAE"
+			subtitle: "可大批量生产"
 			tasks: [{
 				id: "47061FC3050F2DB2"
 				item: "kubejs:suprachronal_max"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: -5.0d
 		}
 		{
@@ -151,6 +155,7 @@
 				"2A29DA4239E6BA44"
 				"3FBFE193579C28E3"
 			]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "0A6C5B3C148A5743"
 			tasks: [{
@@ -158,7 +163,7 @@
 				item: "avaritia:eternal_singularity"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
@@ -172,7 +177,7 @@
 				item: "gtceu:eternity_ingot"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
@@ -180,6 +185,7 @@
 				"04420B8E0278D7AD"
 				"45C3486A3F0EE7FB"
 			]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "2AFCDC0CA3205903"
 			tasks: [{
@@ -187,8 +193,8 @@
 				item: "kubejs:eternity_catalyst"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["00A227F06D7F109E"]
@@ -199,7 +205,7 @@
 				item: "kubejs:infinity_coil_block"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: -5.0d
 		}
 		{
@@ -212,7 +218,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["2AFCDC0CA3205903"]
@@ -223,12 +229,12 @@
 				title: "磁流体约束恒星物质"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 3.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["11A7CCFCEAB722F3"]
-			description: ["可以把你的最高级别激光仓填满"]
+			description: ["最高67108864A MAX输出"]
 			icon_scale: 2.0d
 			id: "0610CD9378D8B0AD"
 			shape: "gear"
@@ -238,11 +244,12 @@
 				item: "gtceu:annihilate_generator"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -7.0d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["63998161D9D731E7"]
+			description: ["回想你在聚变三做了什么"]
 			hide_dependency_lines: false
 			icon_scale: 2.0d
 			id: "5A6EA61F3E61D086"
@@ -252,8 +259,8 @@
 				item: "gtceu:max_neutron_compressor"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -276,15 +283,15 @@
 		}
 		{
 			dependencies: ["414F9C645C799FAE"]
-			description: ["你也可以不用这个电路"]
+			description: [""]
 			id: "3F2335911E21E042"
 			tasks: [{
 				id: "331D93B6C432E57A"
 				item: "kubejs:dimension_creation_casing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -5.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -360,7 +367,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["30AEBB08CE6C88BA"]
@@ -370,8 +377,8 @@
 				item: "gtceu:cosmic_ingot"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 5.0d
+			y: -5.0d
 		}
 	]
 	subtitle: ["Tier13-OpV"]

@@ -78,7 +78,7 @@
 			}]
 			tasks: [{
 				id: "5401584827304E40"
-				item: "gtceu:polyethylene_plate"
+				item: "gtceu:polyethylene_bucket"
 				type: "item"
 			}]
 			x: 2.0d
@@ -718,7 +718,6 @@
 				"利用这个东西从虚空流体矿脉中采流体"
 				""
 				"探矿仪潜行右键可以查看流体矿脉"
-				"钻机只能安装一个能源仓"
 			]
 			hide_dependency_lines: true
 			id: "4AF1D57BE5C49B3E"
@@ -743,7 +742,7 @@
 				"关于并行，可以去提示章节查看"
 				""
 				"这台机器可以双仓升压！！！"
-				"电压等级需要匹配放入机器等级！！！"
+				"&n&o&4电压等级（配方电压）需要匹配放入机器等级！！！&r&r&r"
 			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d

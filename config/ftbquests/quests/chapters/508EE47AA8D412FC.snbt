@@ -638,7 +638,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["5D8BD23AA2113DC2"]
+			dependencies: ["01EE0F4156F0578B"]
 			description: ["这些只是现实存在的元素"]
 			icon: "gtceu:periodicium_ingot"
 			icon_scale: 2.0d
@@ -649,10 +649,11 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "2D19C3E7A2DB5A98"
-				title: "全元素搜集"
-				type: "checkmark"
+				id: "395F76F30EA18569"
+				item: "gtceu:periodicium_ingot"
+				type: "item"
 			}]
+			title: "全元素收集"
 			x: 1.5d
 			y: -1.0d
 		}

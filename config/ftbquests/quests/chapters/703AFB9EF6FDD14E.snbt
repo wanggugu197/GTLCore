@@ -66,6 +66,7 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
+			description: ["太阳能板只在主世界工作"]
 			id: "516AA655EF6CBBF0"
 			optional: true
 			rewards: [
@@ -111,6 +112,7 @@
 			hide: false
 			id: "72FB1A140FACFA76"
 			optional: true
+			subtitle: "最高1A ZPM功率"
 			tasks: [{
 				id: "3FF19BC6685E0941"
 				item: "gtceu:large_fragment_world_collection_machine"
@@ -121,6 +123,7 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
+			description: [""]
 			id: "2DD0AD4DDBA7BFD0"
 			optional: true
 			rewards: [{
@@ -128,6 +131,7 @@
 				item: "gtlcore:world_fragments_reactor"
 				type: "item"
 			}]
+			subtitle: "你不用去往其他维度挖掘矿物了"
 			tasks: [{
 				id: "059A7D5CE5C83430"
 				item: "gtlcore:world_fragments_reactor"
@@ -272,13 +276,14 @@
 		}
 		{
 			dependencies: ["7C24D5FD2C008BD4"]
+			description: ["你需要大量的采集器用于生产奇迹"]
 			hide: false
 			id: "5F403C7AE4B5486C"
 			optional: true
 			tasks: [{
-				count: 8L
+				count: 3L
 				id: "198616959D137813"
-				item: { Count: 8, id: "gtlcore:miracle_crystal" }
+				item: "gtlcore:miracle_crystal"
 				type: "item"
 			}]
 			x: 6.0d

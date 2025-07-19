@@ -134,6 +134,7 @@
 		}
 		{
 			dependencies: ["61049DA87C6DEFC6"]
+			description: ["可以从屠宰场获得烈焰棒，记得打开实体模式"]
 			id: "3E9C078C4BABAE3B"
 			rewards: [{
 				id: "45A95ECC52A47B8B"
@@ -183,6 +184,7 @@
 		{
 			dependencies: ["0243CEA5EE705EB0"]
 			dependency_requirement: "one_started"
+			description: ["每个电路系列的处理器（狭义）后续均可使用更高电压等级的配方高效制作"]
 			icon_scale: 2.0d
 			id: "3FCF807491579B94"
 			rewards: [{
@@ -318,6 +320,11 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: ["前往探索世界章节了解更多"]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
 			icon_scale: 2.0d
 			id: "0931ECBAAD9252C7"
 			rewards: [
@@ -384,7 +391,13 @@
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]
-			description: ["你需要给他四个HV输入总线，以及三个HV输出总线"]
+			description: [
+				"渔场可以获得一些有用的资源，不要忘记造了"
+				""
+				"你需要给他四个HV输入总线，以及三个HV输出总线从而达到最大效率"
+				""
+				"小提示：可以通过放冰再打破快速放置水"
+			]
 			icon_scale: 2.0d
 			id: "6F85AB2294DA3310"
 			rewards: [{
@@ -410,6 +423,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			size: 2.0d
 			tasks: [
 				{
 					id: "1A9ABA22BF878A3D"
@@ -451,7 +465,7 @@
 		}
 		{
 			dependencies: ["027197A71E630966"]
-			description: ["可以从空气中获得氦气和氩气都是烧制更高级金属的保护气"]
+			description: ["可以从空气中获得氦气和氩气，这些都是烧制更高级金属的保护气"]
 			id: "2610283E00EC04E4"
 			rewards: [{
 				id: "31410A08F07C9CC3"
@@ -834,6 +848,7 @@
 			dependencies: ["26FA6E064EF9FF5B"]
 			description: ["你可以开始用无线电了，这样就不用为怎么连电线而烦恼了"]
 			hide_dependency_lines: true
+			icon: "gtmthings:wireless_energy_monitor"
 			icon_scale: 2.0d
 			id: "29BB35C725BE7D96"
 			rewards: [{
@@ -860,11 +875,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: [
-				"有的人死了，可他又活了"
-				""
-				"请不要使用超净间"
-			]
+			description: ["请不要使用超净间，使用超净维护仓"]
 			id: "46C791B2130A833B"
 			optional: true
 			rewards: [

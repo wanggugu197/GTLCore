@@ -34,13 +34,13 @@
 			icon_scale: 2.0d
 			id: "67588B6F4C26CF4C"
 			shape: "gear"
-			size: 1.2d
+			size: 1.0d
 			tasks: [{
 				id: "2C5036E0D2E99E39"
 				item: "gtceu:mass_fabricator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -70,7 +70,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -101,8 +101,8 @@
 				item: "kubejs:cosmic_processing_core"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["28E91E5A98E3A8DD"]
@@ -114,8 +114,8 @@
 				item: "kubejs:cosmic_processor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["596E4662227F4E38"]
@@ -139,13 +139,14 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"37C0845F870CC835"
 				"02401278940CE1F3"
 				"559836CC234447C0"
+				"67673D8789AC1781"
 			]
 			icon_scale: 2.0d
 			id: "6C6A3B91957A0B7B"
@@ -155,7 +156,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6640D51725374A8F"]
@@ -178,7 +179,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
@@ -199,6 +200,7 @@
 				"7819969E76A18F15"
 				"0FB0AFA8DD71B19F"
 			]
+			description: ["后续可以升级为天基宇宙探测器接收器，效率更高"]
 			icon_scale: 2.0d
 			id: "74D84A4928FA0A35"
 			shape: "gear"
@@ -243,7 +245,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
@@ -271,7 +273,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -295,6 +297,7 @@
 				"56B7D65D914595DF"
 			]
 			description: ["夸克物质"]
+			hide_dependent_lines: true
 			id: "6D6BE75CB79C7901"
 			shape: "rsquare"
 			size: 1.0d
@@ -303,7 +306,7 @@
 				item: "gtceu:heavy_quark_degenerate_matter_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -327,7 +330,7 @@
 				title: "拟裂变等离子体"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -343,7 +346,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6D6BE75CB79C7901"]
@@ -357,7 +360,7 @@
 				item: "gtceu:dimensionally_transcendent_mixer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -390,7 +393,7 @@
 				item: "gtceu:flerovium_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -416,7 +419,7 @@
 				item: "kubejs:photocoated_hassium_wafer"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -452,7 +455,7 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			id: "5450D08C31AB23EF"
@@ -461,7 +464,7 @@
 				item: "kubejs:insulation_wire_assembly"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -475,7 +478,7 @@
 				type: "checkmark"
 			}]
 			x: 10.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
@@ -486,7 +489,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5FFDF6751BFBD4BF"]
@@ -505,7 +508,7 @@
 				}
 			]
 			x: 10.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
@@ -516,7 +519,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["606C81F449ABCE5B"]
@@ -529,7 +532,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2F82F4BCC261723A"]
@@ -566,8 +569,71 @@
 				item: "gtceu:grade_16_purified_water_bucket"
 				type: "item"
 			}]
+			title: "16级净化水"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["0855401586D73395"]
+			icon_scale: 2.0d
+			id: "515737DB7910465C"
+			size: 2.0d
+			tasks: [{
+				id: "6171AF6F3DD5C3DF"
+				item: "gtceu:star_ultimate_material_forge_factory"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "0855401586D73395"
+			tasks: [{
+				id: "6902E2DE8A1F90F0"
+				item: "kubejs:space_drone_mk5"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["515737DB7910465C"]
+			id: "67673D8789AC1781"
+			tasks: [{
+				id: "2268BE3EB165A96B"
+				item: "kubejs:proto_matter"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["579E0E5C2F043B13"]
+			description: ["中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"]
+			icon_scale: 2.0d
+			id: "664D8255A1960E9E"
+			size: 1.0d
+			tasks: [{
+				id: "228A3EC13A936F3B"
+				item: "gtceu:advanced_neutron_activator"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["39F73A63746EE6E8"]
+			description: ["流体加热器的激光版本"]
+			icon_scale: 2.0d
+			id: "3F99F904B7B94324"
+			size: 1.0d
+			tasks: [{
+				id: "2AC154F76B64844E"
+				item: "gtceu:mega_fluid_heater"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

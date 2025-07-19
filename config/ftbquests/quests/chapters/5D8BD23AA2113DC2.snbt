@@ -21,13 +21,22 @@
 	]
 	quests: [
 		{
+			icon: "gtceu:hydrogen_bucket"
 			id: "23E60BBE7A49F66E"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:hydrogen"
-				id: "3211D3C2975EE569"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:hydrogen"
+					id: "3211D3C2975EE569"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "64BD29568F7DCDDD"
+					item: "gtceu:hydrogen_bucket"
+					type: "item"
+				}
+			]
 			x: -6.5d
 			y: -4.0d
 		}
@@ -482,13 +491,22 @@
 			y: 3.5d
 		}
 		{
+			icon: "gtceu:nitrogen_bucket"
 			id: "3C39CB34F4926E03"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:nitrogen"
-				id: "26A99822470840E8"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:nitrogen"
+					id: "26A99822470840E8"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "51A046FB04873983"
+					item: "gtceu:nitrogen_bucket"
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: -2.5d
 		}
@@ -533,13 +551,22 @@
 			y: 3.5d
 		}
 		{
+			icon: "gtceu:oxygen_bucket"
 			id: "034D7244E46B496D"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:oxygen"
-				id: "760F96EEA1DC17BE"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:oxygen"
+					id: "760F96EEA1DC17BE"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "66EF743706B27328"
+					item: "gtceu:oxygen_bucket"
+					type: "item"
+				}
+			]
 			x: 16.0d
 			y: -2.5d
 		}
@@ -584,24 +611,42 @@
 			y: 3.5d
 		}
 		{
+			icon: "gtceu:fluorine_bucket"
 			id: "1BAB6994F7CDA875"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:fluorine"
-				id: "48DC0F87CEA35624"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:fluorine"
+					id: "48DC0F87CEA35624"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "3EEA84015A71A12C"
+					item: "gtceu:fluorine_bucket"
+					type: "item"
+				}
+			]
 			x: 17.5d
 			y: -2.5d
 		}
 		{
+			icon: "gtceu:nitrogen_bucket"
 			id: "36AD002B13FC8FF4"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:chlorine"
-				id: "141EBE8B1D3B916B"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:chlorine"
+					id: "141EBE8B1D3B916B"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "346DDA9127C03FDE"
+					item: "gtceu:nitrogen_bucket"
+					type: "item"
+				}
+			]
 			x: 17.5d
 			y: -1.0d
 		}
@@ -616,68 +661,122 @@
 			y: 2.0d
 		}
 		{
+			icon: "gtceu:helium_bucket"
 			id: "4475B95DD62610E3"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:helium"
-				id: "0CF844A737316F66"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:helium"
+					id: "0CF844A737316F66"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "5C60B4763C810ABF"
+					item: "gtceu:helium_bucket"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: -4.0d
 		}
 		{
+			icon: "gtceu:neon_bucket"
 			id: "0663F0E8A333D0B0"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:neon"
-				id: "53200DB214889121"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:neon"
+					id: "53200DB214889121"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "7389CFDC9E3B69F4"
+					item: "gtceu:neon_bucket"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: -2.5d
 		}
 		{
+			icon: "gtceu:argon_bucket"
 			id: "25AF3EE8AA0D911A"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:argon"
-				id: "706BF4BBA3B189AF"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:argon"
+					id: "706BF4BBA3B189AF"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "61C9958CE8334B8F"
+					item: "gtceu:argon_bucket"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: -1.0d
 		}
 		{
+			icon: "gtceu:krypton_bucket"
 			id: "20FC6A47343C6693"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:krypton"
-				id: "4A4774B7A4B6E74B"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:krypton"
+					id: "4A4774B7A4B6E74B"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "7E063AEADE4ED00A"
+					item: "gtceu:krypton_bucket"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 0.5d
 		}
 		{
+			icon: "gtceu:xenon_bucket"
 			id: "567280FEC8C193A3"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:xenon"
-				id: "6274E016C203865C"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:xenon"
+					id: "6274E016C203865C"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "7340DB47483DE4EE"
+					item: "gtceu:xenon_bucket"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 2.0d
 		}
 		{
+			icon: "gtceu:radon_bucket"
 			id: "2E5422B5D3EE5049"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:radon"
-				id: "4B35B1DCEA5142F0"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:radon"
+					id: "4B35B1DCEA5142F0"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "5E0DF2BFBD623745"
+					item: "gtceu:radon_bucket"
+					type: "item"
+				}
+			]
 			x: 19.0d
 			y: 3.5d
 		}
@@ -1022,13 +1121,22 @@
 			y: 2.0d
 		}
 		{
+			icon: "gtceu:mercury_bucket"
 			id: "75E298F072865214"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:mercury"
-				id: "52852C2048ED8346"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:mercury"
+					id: "52852C2048ED8346"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "68725133128E05C1"
+					item: "gtceu:mercury_bucket"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 3.5d
 		}
@@ -1173,13 +1281,22 @@
 			y: 8.5d
 		}
 		{
+			icon: "gtceu:bromine_bucket"
 			id: "052DDE864EDC3DDF"
-			tasks: [{
-				amount: 1000L
-				fluid: "gtceu:bromine"
-				id: "4A1C465CB0F334FE"
-				type: "fluid"
-			}]
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:bromine"
+					id: "4A1C465CB0F334FE"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "3A068D0F5FBD022C"
+					item: "gtceu:bromine_bucket"
+					type: "item"
+				}
+			]
 			x: 17.5d
 			y: 0.5d
 		}
