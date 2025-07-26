@@ -6,7 +6,12 @@
 	icon: "gtceu:mv_electric_motor"
 	id: "6AE49AAF3BDC94C1"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "4D82F79414331554"
+		linked_quest: "0037D6BA6A4ABB72"
+		x: 2.0d
+		y: 10.0d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -37,7 +42,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "12FCE0B44F0C1BC4"
 				item: "kubejs:ultimate_control_circuit"
@@ -48,17 +53,17 @@
 		}
 		{
 			dependencies: [
-				"6CB3D4A09CC0FC63"
 				"17E9AB180BA36353"
+				"0037D6BA6A4ABB72"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "2C75EB0628CB491A"
 			rewards: [{
 				id: "0164BB31168BC82E"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "04521EB6735C042B"
@@ -67,22 +72,6 @@
 			}]
 			x: 2.0d
 			y: 8.0d
-		}
-		{
-			description: ["处理石油或者用硫酸和乙醇反应获得"]
-			id: "6CB3D4A09CC0FC63"
-			rewards: [{
-				id: "45B5000FEE2FE807"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5401584827304E40"
-				item: "gtceu:polyethylene_bucket"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -159,7 +148,7 @@
 		}
 		{
 			dependencies: ["541275BC83188F74"]
-			description: ["铬粉来自与红宝石，锰来自于软锰矿"]
+			description: ["铬粉来自于红宝石，锰来自于软锰矿"]
 			id: "37E3699028B55610"
 			rewards: [{
 				id: "7596212455CD444B"
@@ -453,7 +442,7 @@
 					type: "item"
 				}
 			]
-			title: "传感器与发射器"
+			title: "MV传感器与发射器"
 			x: 10.0d
 			y: 10.0d
 		}
@@ -651,7 +640,8 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "7DEB147BF481A274"
 				item: "gtceu:kanthal_coil_block"
@@ -745,14 +735,14 @@
 				"&n&o&4电压等级（配方电压）需要匹配放入机器等级！！！&r&r&r"
 			]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "2F5CB842110A5DB2"
 			rewards: [{
 				id: "72C938CBB89284AC"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
@@ -776,6 +766,7 @@
 					type: "item"
 				}
 			]
+			title: "通用厂"
 			x: 14.0d
 			y: 2.0d
 		}
@@ -783,6 +774,7 @@
 			dependencies: ["17E9AB180BA36353"]
 			description: ["对蒸汽大机器进行升压和超频"]
 			hide_dependency_lines: true
+			icon_scale: 2.0d
 			id: "32960AFE43AFF989"
 			rewards: [{
 				id: "02BF2BCDFB71F2B8"
@@ -876,6 +868,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "71B4A10905B2A6BA"
 				item: "gtceu:mv_energy_input_hatch_4a"

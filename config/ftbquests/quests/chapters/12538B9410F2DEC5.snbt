@@ -38,6 +38,7 @@
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "42A2A3DE0D71F79C"
@@ -65,9 +66,9 @@
 				"5D980DBF92017008"
 			]
 			description: ["更进一步"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "77759D1FE48F958B"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "00D112DFCD012D77"
@@ -220,7 +221,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -237,7 +238,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -256,7 +257,7 @@
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["在下个阶段需要很多"]
+			description: ["在后面的阶段还会有用"]
 			icon_scale: 2.0d
 			id: "5D4131C48F9BAE46"
 			shape: "rsquare"
@@ -294,7 +295,7 @@
 			icon_scale: 2.0d
 			id: "172FC2F2B20CD187"
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "1F71F073D091459C"
 				item: "gtceu:advanced_assembly_line"
@@ -304,17 +305,17 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"38D23D186C444492"
-				"62D2B830A98424BB"
-			]
+			dependencies: ["62D2B830A98424BB"]
 			description: [
-				"一台计算机提供的算力是不够的，如果要合并算力就需要这台机器"
+				"一台计算机提供的算力可能不够，如果要合并算力就需要这台机器"
+				""
 				"在使用前确保计算机上安装了桥接组件"
+				""
+				"交换机间可以串联（使用多个算力仓室）"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "5E86110BBAEA92BA"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "1DF9E2E28B0FC970"
@@ -353,7 +354,7 @@
 				item: "gtceu:zpm_emitter"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -373,10 +374,11 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["也叫小OP，后面还能制作更强力的大OP"]
+			description: ["也叫小OP （Ore Processor），后面还能制作更强力的大OP"]
 			id: "35C61EF7C0FBD32F"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "一步到位"
 			tasks: [{
 				id: "64C7755B5517C918"
 				item: "gtceu:integrated_ore_processor"
@@ -391,6 +393,7 @@
 			id: "61838E13426B2B88"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "一步到位"
 			tasks: [{
 				id: "6FEB78AB1D5BDDCA"
 				item: "gtceu:petrochemical_plant"
@@ -481,9 +484,11 @@
 		}
 		{
 			dependencies: ["02F523E003E1C93D"]
-			description: ["大批量纳米机器人生产"]
+			description: ["只能使用激光仓"]
 			icon_scale: 2.0d
 			id: "3B098EA4601A7827"
+			shape: "rsquare"
+			subtitle: "大批量纳米蜂群生产"
 			tasks: [{
 				id: "429C36800C493E79"
 				item: "gtceu:nano_forge_1"
@@ -494,9 +499,11 @@
 		}
 		{
 			dependencies: ["5E9E2F25AE1EC731"]
-			description: ["一个源仓可以对多个靶仓，反之不能"]
+			description: [""]
 			icon_scale: 2.0d
 			id: "6C24E5BA18FE8CF5"
+			shape: "rsquare"
+			subtitle: "不用铺设光缆了"
 			tasks: [
 				{
 					id: "230E8001CE426D4F"
@@ -509,7 +516,7 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -537,6 +544,7 @@
 		}
 		{
 			dependencies: ["7EFC2C7FF6FFF1F7"]
+			hide_dependency_lines: true
 			id: "5C4B11CEA53D5B78"
 			tasks: [{
 				id: "4B5ADAE9ED77C366"
@@ -652,6 +660,7 @@
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "41201C74CC5F7B90"
+			shape: "rsquare"
 			tasks: [{
 				id: "569902AC45012A06"
 				item: "gtceu:block_conversion_room"
@@ -685,26 +694,24 @@
 		}
 		{
 			dependencies: ["62D2B830A98424BB"]
+			description: [""]
 			icon_scale: 2.0d
 			id: "41C7A298C421C65D"
-			tasks: [{
-				id: "113219BE64EFCAB0"
-				item: "gtceu:mega_blast_furnace"
-				type: "item"
-			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "113219BE64EFCAB0"
+					item: "gtceu:mega_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "070CBBD82AB7328A"
+					item: "gtceu:mega_alloy_blast_smelter"
+					type: "item"
+				}
+			]
+			title: "转底炉和巨型合金冶炼炉"
 			x: 8.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["62D2B830A98424BB"]
-			icon_scale: 2.0d
-			id: "237F6A0B77986D56"
-			tasks: [{
-				id: "2E4DE5399833ED46"
-				item: "gtceu:mega_alloy_blast_smelter"
-				type: "item"
-			}]
-			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -720,6 +727,22 @@
 			}]
 			x: 14.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["38D23D186C444492"]
+			description: ["使用电力直接聚爆，不再需要炸药"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "6A6895119CECF238"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "5F057510EFCAAEC7"
+				item: "gtceu:electric_implosion_compressor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

@@ -18,22 +18,30 @@
 				{
 					id: "5C43A8DCDB7B497C"
 					item: "gtceu:raw_goethite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "16DB53121FC7A35F"
 					item: "gtceu:raw_yellow_limonite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0981233B73506070"
 					item: "gtceu:raw_hematite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "28B6A22A79E83139"
 					item: "gtceu:raw_malachite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "00651C242180F43C"
+					type: "checkmark"
 				}
 			]
 			title: "铁矿脉"
@@ -50,17 +58,24 @@
 				{
 					id: "2814C224F95FA845"
 					item: "gtceu:raw_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2E5F8E8AC59E87CF"
 					item: "gtceu:raw_vanadium_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "15315A8A2513F7E4"
 					item: "minecraft:raw_gold"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "6C8140D9761AE909"
+					type: "checkmark"
 				}
 			]
 			title: "磁铁矿脉"
@@ -81,22 +96,30 @@
 				{
 					id: "21D9BE0CDF8D20D0"
 					item: "gtceu:raw_chalcopyrite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1915E87E03CA2995"
 					item: "minecraft:raw_iron"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "17AD746C72314452"
 					item: "gtceu:raw_pyrite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1EDF0D3646DB3983"
 					item: "minecraft:raw_copper"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "1D414CB5BDBCB30A"
+					type: "checkmark"
 				}
 			]
 			title: "铜矿脉"
@@ -113,22 +136,30 @@
 				{
 					id: "21B8E250B773443C"
 					item: "gtceu:raw_chalcopyrite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2C704F920F765D2D"
 					item: "gtceu:raw_zeolite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2AA6111227CF13B3"
 					item: "gtceu:raw_cassiterite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5EA6E475025D758C"
 					item: "gtceu:raw_realgar"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "63C2332D298DF3BE"
+					type: "checkmark"
 				}
 			]
 			title: "铜锡矿脉"
@@ -145,12 +176,18 @@
 				{
 					id: "46C302CBE74092FC"
 					item: "gtceu:raw_tin"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "55D733978CCBA87D"
 					item: "gtceu:raw_cassiterite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "777D56B7CE3E4E38"
+					type: "checkmark"
 				}
 			]
 			title: "锡石矿脉"
@@ -171,22 +208,30 @@
 				{
 					id: "281CC5BB43AB6FBC"
 					item: "gtceu:raw_cassiterite_sand"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0A0980AD4738EF96"
 					item: "gtceu:raw_garnet_sand"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "28AFE5A9181D76A7"
 					item: "gtceu:raw_asbestos"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3842A89827031CCB"
 					item: "gtceu:raw_diatomite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "63D3BE8AB68F5DA6"
+					type: "checkmark"
 				}
 			]
 			title: "锡石榴石矿脉"
@@ -199,11 +244,18 @@
 			id: "1E27C654E2F6FFF2"
 			size: 0.9d
 			subtitle: "煤炭来源"
-			tasks: [{
-				id: "5B84B4265CDED2C1"
-				item: "gtceu:raw_coal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B84B4265CDED2C1"
+					item: "gtceu:raw_coal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0589CAD102BB8048"
+					type: "checkmark"
+				}
+			]
 			title: "煤炭矿脉"
 			x: 5.85d
 			y: 0.0d
@@ -224,17 +276,24 @@
 				{
 					id: "774FD60E5F9C5225"
 					item: "gtceu:raw_graphite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2B74642C6B76656E"
 					item: "gtceu:raw_diamond"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "72945B8F8D65CDC9"
 					item: "gtceu:raw_coal"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "0AF11F5B098713E4"
+					type: "checkmark"
 				}
 			]
 			title: "钻石矿脉"
@@ -255,22 +314,30 @@
 				{
 					id: "13B468D35939891B"
 					item: "gtceu:raw_salt"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "37199835CDD92171"
 					item: "gtceu:raw_rock_salt"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1C5608B78BB94EF0"
 					item: "gtceu:raw_lepidolite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6D3D2CBF04EA7874"
 					item: "gtceu:raw_spodumene"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "33EF08046A8691C3"
+					type: "checkmark"
 				}
 			]
 			title: "盐矿脉"
@@ -291,22 +358,30 @@
 				{
 					id: "58F760B7865A70E7"
 					item: "gtceu:raw_bentonite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2187C0C0273D7744"
 					item: "gtceu:raw_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "560C7AAC5353FAF6"
 					item: "gtceu:raw_olivine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5D40F6304F039349"
 					item: "gtceu:raw_glauconite_sand"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7E91B4E8140AC752"
+					type: "checkmark"
 				}
 			]
 			title: "橄榄石矿脉"
@@ -327,22 +402,30 @@
 				{
 					id: "50787547A7F0A72E"
 					item: "gtceu:raw_red_garnet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "66ADB2741F652DFD"
 					item: "gtceu:raw_yellow_garnet"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3DB2F28F248E5030"
 					item: "gtceu:raw_amethyst"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "74912302B5E832B7"
 					item: "gtceu:raw_opal"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "5A9FC62632124000"
+					type: "checkmark"
 				}
 			]
 			title: "石榴石矿脉"
@@ -363,12 +446,18 @@
 				{
 					id: "1091719F41C151CE"
 					item: "gtceu:raw_apatite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "469D723F9710A9C1"
 					item: "gtceu:raw_tricalcium_phosphate"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "4B81E1DE0520A51A"
+					type: "checkmark"
 				}
 			]
 			title: "磷灰石矿脉"
@@ -385,17 +474,24 @@
 				{
 					id: "2CE255679DBEF5D8"
 					item: "gtceu:raw_redstone"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0E2985CCA3ADC16D"
 					item: "gtceu:raw_ruby"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "086C90A681E3DAC8"
 					item: "gtceu:raw_cinnabar"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "5B7028C461456FFA"
+					type: "checkmark"
 				}
 			]
 			title: "红石矿脉"
@@ -416,22 +512,30 @@
 				{
 					id: "1318A25CD8DF8CC8"
 					item: "gtceu:raw_almandine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4621A5772F8A1346"
 					item: "gtceu:raw_pyrope"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "74E7B27F19B5BB90"
 					item: "gtceu:raw_sapphire"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "597389A21B4802B9"
 					item: "gtceu:raw_green_sapphire"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "66456C9C235271F8"
+					type: "checkmark"
 				}
 			]
 			title: "蓝宝石矿脉"
@@ -447,12 +551,18 @@
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
 			size: 0.9d
-			subtitle: "美国梦来源"
-			tasks: [{
-				id: "301C4CD1E47E2D02"
-				item: "gtceu:raw_oilsands"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "301C4CD1E47E2D02"
+					item: "gtceu:raw_oilsands"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "795398E7D9C557F2"
+					type: "checkmark"
+				}
+			]
 			title: "油砂矿脉"
 			x: -0.5d
 			y: 3.0d
@@ -471,22 +581,30 @@
 				{
 					id: "742A8704F88BAA3C"
 					item: "gtceu:raw_soapstone"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "620C772B82D991D3"
 					item: "gtceu:raw_talc"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "72DD6E229709EED5"
 					item: "gtceu:raw_glauconite_sand"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "775FF22E8AC8DEC2"
 					item: "gtceu:raw_pentlandite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "4A5AF018791B7CAE"
+					type: "checkmark"
 				}
 			]
 			title: "皂滑矿脉"
@@ -503,22 +621,30 @@
 				{
 					id: "3E903B26B6E0D98E"
 					item: "gtceu:raw_lazurite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "32D7780756D44749"
 					item: "gtceu:raw_sodalite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "606762EB6B4E6B44"
 					item: "gtceu:raw_lapis"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2A1B5CB79B4824D2"
 					item: "gtceu:raw_calcite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "3697DB4E5A1F0637"
+					type: "checkmark"
 				}
 			]
 			title: "青金石矿脉"
@@ -527,7 +653,7 @@
 		}
 		{
 			description: [
-				"锰铁矿是你在这里的目的地.它可以直接冶炼成锰,而你将需要大量的锰来制造&6高压&r的物品."
+				"锰铁矿是你在这里的目的地.它可以直接冶炼成锰,而你将需要大量的锰来制造&6HV&r的物品."
 				""
 				"钽矿将最终变得非常有价值,借助它的铌副产品."
 			]
@@ -539,22 +665,30 @@
 				{
 					id: "10FC904696261AF3"
 					item: "gtceu:raw_grossular"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2AB5A89CE949A602"
 					item: "gtceu:raw_spessartine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6119F8F02D09746A"
 					item: "gtceu:raw_pyrolusite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "3C4F10C849D57CEE"
 					item: "gtceu:raw_tantalite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "37EB62C021F94417"
+					type: "checkmark"
 				}
 			]
 			title: "锰矿脉"
@@ -571,17 +705,24 @@
 				{
 					id: "4E3A072619DD0ADD"
 					item: "gtceu:raw_galena"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "630590BF96CFC43C"
 					item: "gtceu:raw_silver"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1F04EE0BC55BBC3D"
 					item: "gtceu:raw_lead"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "1902EE396F0CE5D8"
+					type: "checkmark"
 				}
 			]
 			title: "方铅矿脉"
@@ -601,22 +742,30 @@
 				{
 					id: "2B48BE1948B21FA3"
 					item: "gtceu:raw_garnierite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "7C7612EE2B7E4EC5"
 					item: "gtceu:raw_nickel"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "67E57FC9827B5092"
 					item: "gtceu:raw_cobaltite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "037ACF0F26406F6A"
 					item: "gtceu:raw_pentlandite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "034E1AEE3980C4EF"
+					type: "checkmark"
 				}
 			]
 			title: "镍矿脉"
@@ -633,17 +782,24 @@
 				{
 					id: "7296DE6280CBC6A1"
 					item: "gtceu:raw_kyanite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "74D148653E7A1B25"
 					item: "gtceu:raw_mica"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0091A8A8857BFCA3"
 					item: "gtceu:raw_pollucite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7B76B804A651310D"
+					type: "checkmark"
 				}
 			]
 			title: "云母矿脉"
@@ -660,22 +816,30 @@
 				{
 					id: "0A9878360139CD46"
 					item: "gtceu:raw_basaltic_mineral_sand"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4080824C57EFA2C2"
 					item: "gtceu:raw_granitic_mineral_sand"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "37B33325ED63458D"
 					item: "gtceu:raw_fullers_earth"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1399C23538D97FDE"
 					item: "gtceu:raw_gypsum"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "298CD601F31F6ACB"
+					type: "checkmark"
 				}
 			]
 			title: "矿沙矿脉"
@@ -692,17 +856,24 @@
 				{
 					id: "7628A17F2E48C5E7"
 					item: "gtceu:raw_bastnasite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "58035F336B84E40E"
 					item: "gtceu:raw_monazite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D29E41B8AE83A61"
 					item: "gtceu:raw_neodymium"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "5972448A08F743CD"
+					type: "checkmark"
 				}
 			]
 			title: "独居石矿脉"
@@ -719,12 +890,18 @@
 				{
 					id: "14C64BEBBC783475"
 					item: "gtceu:raw_beryllium"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2C9AE00CBFC47850"
 					item: "gtceu:raw_emerald"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "0962509F157C8D4B"
+					type: "checkmark"
 				}
 			]
 			title: "铍矿脉"
@@ -745,22 +922,30 @@
 				{
 					id: "382A7CC243D7042E"
 					item: "gtceu:raw_wulfenite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5C1C4E3F40124FC4"
 					item: "gtceu:raw_molybdenite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "38AF18FEEE493EB7"
 					item: "gtceu:raw_molybdenum"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "774C2E5939FE97B9"
 					item: "gtceu:raw_powellite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7A38D42695D9F80E"
+					type: "checkmark"
 				}
 			]
 			title: "钼矿脉"
@@ -769,7 +954,7 @@
 		}
 		{
 			description: [
-				"&b应用能源2&r中的进展需要 赛特斯石英 矿脉."
+				"&b应用能源2&r中的发展需要 赛特斯石英 矿脉."
 				""
 				"重晶石经电解制成钡,你将需要它来制造一些高级超导材料."
 			]
@@ -781,17 +966,24 @@
 				{
 					id: "753C65ED1CA407C7"
 					item: "gtceu:raw_quartzite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "67D3F0CB9F86C4B1"
 					item: "gtceu:raw_certus_quartz"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5E2B885CEDBB3612"
 					item: "gtceu:raw_barite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "085173E91A9756F2"
+					type: "checkmark"
 				}
 			]
 			title: "赛特斯石英矿脉"
@@ -800,7 +992,7 @@
 		}
 		{
 			description: [
-				"蓝石在&6高压&r进展中非常重要.离心机中它分离成了琥珀金(一种金和银的来源)和红石."
+				"蓝石在&6HV&r进展中非常重要.离心机中它分离成了琥珀金(一种金和银的来源)和红石."
 				""
 				"硝石在几个反应中使用"
 			]
@@ -812,22 +1004,30 @@
 				{
 					id: "5483A769AEEA0FA0"
 					item: "gtceu:raw_saltpeter"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "516DBCF047AE54F5"
 					item: "gtceu:raw_diatomite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "0D26545E6CC6046C"
 					item: "gtceu:raw_electrotine"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "35EEFC7F426C571D"
 					item: "gtceu:raw_alunite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "398AF0247A22067B"
+					type: "checkmark"
 				}
 			]
 			title: "硝石矿脉"
@@ -848,22 +1048,30 @@
 				{
 					id: "29303BBBF186EA1B"
 					item: "gtceu:raw_blue_topaz"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "73E7A603F86446FC"
 					item: "gtceu:raw_topaz"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "74FEBF511ED054F7"
 					item: "gtceu:raw_chalcocite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "78BC31A5EA9316A0"
 					item: "gtceu:raw_bornite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "273449D4A38AE18D"
+					type: "checkmark"
 				}
 			]
 			title: "黄玉矿脉"
@@ -884,17 +1092,24 @@
 				{
 					id: "65BB3345F5602A55"
 					item: "gtceu:raw_tetrahedrite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4253F5C16717E664"
 					item: "minecraft:raw_copper"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "30CFBE92202683E8"
 					item: "gtceu:raw_stibnite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "2A8F49E409B1DCDF"
+					type: "checkmark"
 				}
 			]
 			title: "黝铜矿脉"
@@ -915,22 +1130,30 @@
 				{
 					id: "03B8D3B4B4C7BE83"
 					item: "gtceu:raw_goethite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "41BD26055599D5E4"
 					item: "gtceu:raw_yellow_limonite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "054BDF1BA67B6172"
 					item: "gtceu:raw_hematite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "75C7A1DCF25258C6"
 					item: "minecraft:raw_gold"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "47554C1B13798344"
+					type: "checkmark"
 				}
 			]
 			title: "带状铁矿脉"
@@ -951,17 +1174,24 @@
 				{
 					id: "022CC6EDF95C7696"
 					item: "gtceu:raw_sulfur"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6F3BBA2545C154CD"
 					item: "gtceu:raw_pyrite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "61F9BD58FBB8804F"
 					item: "gtceu:raw_sphalerite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "2D6328F563752AD8"
+					type: "checkmark"
 				}
 			]
 			title: "硫矿脉"
@@ -982,12 +1212,18 @@
 				{
 					id: "3ABB4181FEA31D22"
 					item: "gtceu:raw_nether_quartz"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "152834A4F7A00AEC"
 					item: "gtceu:raw_quartzite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "5CA04E6A9D2AE6BA"
+					type: "checkmark"
 				}
 			]
 			title: "石英矿脉"
@@ -1007,22 +1243,30 @@
 				{
 					id: "221E6D04EBEC9DDE"
 					item: "gtceu:raw_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "595577EA15045970"
 					item: "gtceu:raw_vanadium_magnetite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "22990DDA1E1B862C"
 					item: "gtceu:raw_chromite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "48CBB7AE11A1F841"
 					item: "minecraft:raw_gold"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "3EC18589716A162E"
+					type: "checkmark"
 				}
 			]
 			title: "磁铁矿脉"
@@ -1042,12 +1286,18 @@
 				{
 					id: "310ED3BE9C7FD9E2"
 					item: "gtceu:raw_naquadah"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "21A34924E41D1BE6"
 					item: "gtceu:raw_plutonium"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "6253659FE68F61E0"
+					type: "checkmark"
 				}
 			]
 			title: "硅岩矿脉"
@@ -1056,7 +1306,7 @@
 		}
 		{
 			description: [
-				"铂开始在&5EV&r中看到使用."
+				"铂在&5EV&r开始使用."
 				""
 				"铂系金属在&1IV&r中成为必要条件,谢尔顿是启动加工的最佳矿石."
 			]
@@ -1067,22 +1317,30 @@
 				{
 					id: "4547E85950CB15E4"
 					item: "gtceu:raw_bornite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2779AA47A008FE68"
 					item: "gtceu:raw_cooperite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "41E8420E7558A052"
 					item: "gtceu:raw_platinum"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "1CE21684D9A3CB10"
 					item: "gtceu:raw_palladium"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "0969A4E60CC8B107"
+					type: "checkmark"
 				}
 			]
 			title: "谢尔顿矿脉"
@@ -1102,17 +1360,24 @@
 				{
 					id: "30446661E519BD77"
 					item: "gtceu:raw_scheelite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "05FE206449587AFC"
 					item: "gtceu:raw_tungstate"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "568AE4406565E837"
 					item: "gtceu:raw_lithium"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "5121C48C0BCC2405"
+					type: "checkmark"
 				}
 			]
 			title: "白钨矿脉"
@@ -1132,17 +1397,24 @@
 				{
 					id: "165615C81FEAE3C3"
 					item: "gtceu:raw_bauxite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "733D9A9B816EFA73"
 					item: "gtceu:raw_ilmenite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "62761B7C37615A6D"
 					item: "gtceu:raw_aluminium"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "24EC49ED0BDCD40B"
+					type: "checkmark"
 				}
 			]
 			title: "铝土矿脉"
@@ -1158,12 +1430,18 @@
 				{
 					id: "6174FF347A1D09AE"
 					item: "gtceu:raw_pitchblende"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "449DE0416421D8ED"
 					item: "gtceu:raw_uraninite"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "4A1308856F3B69EF"
+					type: "checkmark"
 				}
 			]
 			title: "沥青铀矿脉"

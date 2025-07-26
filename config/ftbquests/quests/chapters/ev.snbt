@@ -19,6 +19,12 @@
 			x: 0.0d
 			y: 8.0d
 		}
+		{
+			id: "6465917B9D5E0306"
+			linked_quest: "778546543F6413E7"
+			x: 12.0d
+			y: 0.0d
+		}
 	]
 	quests: [
 		{
@@ -206,7 +212,7 @@
 					type: "item"
 				}
 			]
-			title: "EV发射器与传感器"
+			title: "EV传感器与发射器"
 			x: 4.0d
 			y: 8.0d
 		}
@@ -546,14 +552,14 @@
 				"5B65662B72C369E7"
 				"1CF3B9952010D033"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "42129A63D97DDF28"
 			rewards: [{
 				id: "318C5EA24BC6F21D"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "5999E5B6C7681080"
@@ -607,7 +613,8 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "2BCD06157F405040"
 				item: "gtceu:rtm_alloy_coil_block"
@@ -622,13 +629,14 @@
 				"65D09ACC43B7AF20"
 				"4CFA7C2E9E272741"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "4C43D30FD9B89965"
 			rewards: [{
 				id: "492C6A47DC96FE4E"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "070B9F71E727217E"
@@ -765,16 +773,17 @@
 		{
 			dependencies: ["4DDFAAF4A8E0622A"]
 			description: [
-				"非常好的虚采，效率很高，但是需要做宝石浆液产线，可以大幅减少你下矿的时间（有超级连锁其实下矿时间不多）"
+				"非常好用的虚采，效率很高，但是需要做宝石浆液产线，可以大幅减少你下矿的时间（有超级连锁其实下矿时间不多）"
 				"你可以拖到下个电压甚至更后面"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "5CCD191A904B528A"
 			rewards: [{
 				id: "39100B470D76E9EE"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "05372C97F5667E15"
@@ -823,6 +832,7 @@
 			dependencies: ["0375D068023B13D7"]
 			icon_scale: 2.0d
 			id: "650980AB3D2A6AF6"
+			shape: "rsquare"
 			tasks: [{
 				id: "7D1205F365E0C204"
 				item: "gtceu:large_gas_collector"
@@ -846,6 +856,7 @@
 					type: "item"
 				}
 			]
+			title: "铂系处理原矿"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -859,6 +870,8 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
+			subtitle: "更高的功率"
 			tasks: [{
 				id: "149DD4976B28F863"
 				item: "gtmthings:ev_64a_wireless_energy_input_hatch"
@@ -913,6 +926,7 @@
 			dependencies: ["4DDFAAF4A8E0622A"]
 			icon_scale: 2.0d
 			id: "423E927A2EE3A956"
+			shape: "rsquare"
 			tasks: [{
 				id: "419403958F14AB71"
 				item: "ae2:creative_energy_cell"
@@ -986,23 +1000,6 @@
 			}]
 			x: 5.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["14D60DF010FF0396"]
-			description: [
-				"终于可以去下界了"
-				"使用远古反应核，相邻放金块角落放绿宝石块"
-				""
-				"去地狱干什么呢，挖点灵魂沙远古残骸"
-			]
-			id: "6C458862EEAB2F03"
-			tasks: [{
-				id: "0D5CEA70737F2D5B"
-				title: "地狱"
-				type: "checkmark"
-			}]
-			x: 12.0d
-			y: 0.0d
 		}
 		{
 			id: "4D14C432E11EC9AB"
@@ -1083,6 +1080,7 @@
 			description: ["推荐把各种常用电路打包为通用电路板，方便以后修改样板"]
 			icon_scale: 2.0d
 			id: "5CC41E8E3F814DE9"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "25776726EBFC683B"
@@ -1090,13 +1088,14 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: ["直接与ME网络互动"]
 			icon_scale: 2.0d
 			id: "733741C26C6BF5C3"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [
 				{
@@ -1119,9 +1118,15 @@
 					item: "gtceu:me_output_hatch"
 					type: "item"
 				}
+				{
+					id: "411A5087720A0916"
+					item: "gtmthings:me_export_buffer"
+					type: "item"
+				}
 			]
-			x: 9.0d
-			y: 5.0d
+			title: "ME仓室"
+			x: 4.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]

@@ -26,7 +26,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "47D6C464DF34C115"
 				item: "gtceu:bronze_ingot"
@@ -99,10 +99,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"5C936EF307594737"
-				"36A49197309D1F09"
-			]
+			dependencies: ["36A49197309D1F09"]
 			description: [
 				"你可以开始炼钢了"
 				"推荐尽快做&5超维度等泥土锻炉&r"
@@ -123,6 +120,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "6649B915F2C7704F"
@@ -136,7 +134,7 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -184,8 +182,8 @@
 				}
 			]
 			title: "耐火黏土粉"
-			x: 5.0d
-			y: 1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C936EF307594737"]
@@ -222,7 +220,7 @@
 				type: "item"
 			}]
 			title: "你的第一块钢锭"
-			x: 8.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -230,22 +228,22 @@
 				"02375F5D54E5F347"
 				"43DE0784E5D32B46"
 			]
-			description: ["用来制作电力机器，还可以用来制作仓"]
-			icon_scale: 2.0d
+			description: ["用来制作电力机器，还可以用来制作仓室，甚至可以储存电力！"]
+			icon_scale: 1.3d
 			id: "7CB85061F0822830"
 			rewards: [{
 				id: "0D14C938E01BD29D"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			shape: "circle"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "6500863B6A64DE2F"
 				item: "gtceu:lv_machine_hull"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -320,7 +318,7 @@
 				}
 			]
 			x: 8.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["30F031CD02425ED7"]
@@ -337,7 +335,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3D65D9712DFB63D9"]
@@ -377,7 +375,7 @@
 				}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
@@ -402,7 +400,7 @@
 				"6525C9DE2A276238"
 				"388BD32463FA905D"
 			]
-			description: ["前期钢产的很慢，要以尽可能高效的利用"]
+			description: ["前期钢产的很慢，要尽可能高效的利用"]
 			id: "02375F5D54E5F347"
 			rewards: [{
 				id: "1A0B2145C6BEAD5B"
@@ -414,7 +412,7 @@
 				item: "gtceu:steel_plate"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -447,8 +445,8 @@
 				item: "gtceu:glass_tube"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -456,6 +454,7 @@
 				"388BD32463FA905D"
 			]
 			description: ["你的第一颗ULV电路，你需要用它帮忙做更便宜的，做几个就够了"]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "5CD26DECB937FC71"
 			rewards: [{
@@ -468,8 +467,8 @@
 				item: "gtceu:vacuum_tube"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["30F031CD02425ED7"]
@@ -543,7 +542,7 @@
 			]
 			title: "来自远古世界的矿"
 			x: 10.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -561,7 +560,7 @@
 				item: "ae2:molecular_assembler"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -577,13 +576,14 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "6255EA9A7B4B58EC"
 				item: "gtceu:large_steam_circuit_assembler"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5F5F348E3A34827E"]
@@ -620,13 +620,14 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "5F47C1E28CF33F84"
 				item: "gtceu:large_steam_centrifuge"
 				type: "item"
 			}]
 			x: 12.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7CB85061F0822830"]
@@ -645,7 +646,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -674,7 +675,7 @@
 				type: "item"
 			}]
 			title: "你的第一块电路"
-			x: 6.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -690,7 +691,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
@@ -706,7 +707,7 @@
 				item: "gtceu:resistor"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -721,7 +722,7 @@
 				item: "gtceu:resin_circuit_board"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -755,7 +756,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -770,12 +771,13 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
+			size: 1.0d
 			tasks: [{
 				id: "344BB3250C20E4FB"
 				item: "kubejs:basic_control_circuit"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -791,15 +793,15 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			shape: "circle"
-			size: 2.0d
+			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "41CA550B62F920A6"
 				item: "kubejs:advanced_control_circuit"
 				type: "item"
 			}]
 			x: 8.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["12FE2B59FA86381C"]
@@ -826,7 +828,7 @@
 				type: "checkmark"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["553B2D61416792DC"]
@@ -848,13 +850,13 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "rsquare"
 			tasks: [{
 				id: "31B3E7B10BBA0EDD"
 				item: "gtceu:bronze_large_boiler"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 8.0d
 		}
 		{
@@ -880,8 +882,8 @@
 		}
 		{
 			dependencies: ["5CE50DDC960340D8"]
-			description: ["请确保输入总线和输出总线空间足够运作（不能使用蒸汽总线）"]
-			icon_scale: 2.0d
+			description: ["请确保输入总线和输出总线空间足够锻炉运作（不能使用蒸汽总线）"]
+			icon_scale: 1.3d
 			id: "0662E205D1783D31"
 			rewards: [
 				{
@@ -897,7 +899,7 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
+			shape: "hexagon"
 			size: 2.0d
 			subtitle: "瞬间获得产物"
 			tasks: [{
@@ -911,14 +913,14 @@
 		{
 			dependencies: ["1AB03D24332B722E"]
 			description: ["强力熔炉，蒸汽消耗也少"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "0532330B52D98469"
 			rewards: [{
 				id: "142C72A3F57D1D8C"
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			shape: "gear"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "5AC94C8C8DEF4A0E"
@@ -1025,6 +1027,7 @@
 					type: "item"
 				}
 			]
+			shape: "rsquare"
 			size: 1.0d
 			subtitle: "蒸汽研磨并不会有副产物"
 			tasks: [{
@@ -1070,7 +1073,7 @@
 				}
 			]
 			title: "激光物流"
-			x: 12.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -1097,8 +1100,8 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
@@ -1167,7 +1170,7 @@
 			}]
 			title: "划算的买卖"
 			x: 14.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: true
@@ -1281,13 +1284,14 @@
 			}]
 			title: "这是垃圾桶"
 			x: 14.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["08B7D8F835DFE214"]
-			description: ["原始科技震撼人心"]
+			description: ["{ \"text\": \"具体用法见<覆盖板>任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"]
 			hide_dependency_lines: true
 			id: "205B11E482DDF464"
+			subtitle: "原始科技，震撼人心"
 			tasks: [
 				{
 					id: "08A0A7ABDCC61BFB"

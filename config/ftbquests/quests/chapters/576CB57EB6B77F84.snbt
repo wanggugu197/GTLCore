@@ -115,7 +115,11 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: ["推荐制作一个大型锅炉来生产用不完的蒸汽"]
+			description: [
+				"推荐制作一个大型锅炉来生产用不完的蒸汽"
+				""
+				"你可以去找村民“借”一点水晶和魔法发电机"
+			]
 			id: "4C591AA4F1D907C1"
 			rewards: [
 				{
@@ -126,6 +130,11 @@
 				{
 					id: "3107B7FFED0C090D"
 					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					id: "5BAC40FA163F69AB"
+					item: "minecraft:obsidian"
 					type: "item"
 				}
 			]
@@ -260,22 +269,44 @@
 				"使用的是涡轮转子（带有耐久）而不是转子，注意区分"
 				"注意不要遮挡转子"
 				"不要在涡轮工作时拆卸转子"
+				"注意转子支架不能低于最低要求，否则会显示效率-1"
 			]
+			icon: "gtceu:steam_large_turbine"
 			id: "1B77B2C00B24906E"
 			subtitle: "这种涡轮在目前的性能不如小发电机"
-			tasks: [{
-				id: "72AF5205FE80B133"
-				item: "gtceu:steam_large_turbine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "72AF5205FE80B133"
+					item: "gtceu:steam_large_turbine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61C3FC93AC1BA34A"
+					item: {
+						Count: 1
+						id: "gtceu:turbine_rotor"
+						tag: {
+							GT.PartStats: {
+								Material: "gtceu:aluminium"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5071AB280AED0A9E"
+					type: "checkmark"
+				}
+			]
 			x: 3.5d
 			y: -0.5d
 		}
 		{
-			description: [
-				"内燃和燃气的区别开始显现"
-				"注意转子支架不能低最低要求，即EV，否则会显示效率-1"
-			]
+			dependencies: ["1B77B2C00B24906E"]
+			description: ["内燃和燃气的区别开始显现"]
+			hide_dependency_lines: true
 			id: "38918D31E5A969C1"
 			tasks: [{
 				id: "225A42BE61876F4A"
@@ -310,7 +341,10 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: ["特大涡轮的发电量都非常巨大，即使是蒸汽也很强力，注意每一个转子都不能遮挡"]
+			hide_dependency_lines: true
+			icon: "gtceu:steam_mega_turbine"
 			id: "6196565B3DE59BF1"
 			tasks: [{
 				id: "625BBCED62255415"
@@ -332,7 +366,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: ["非常强力"]
+			hide_dependency_lines: true
 			id: "1FF27C8CE8BD4041"
 			tasks: [{
 				id: "7A3302436045F131"
@@ -440,7 +476,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: ["比特大燃气更强力"]
+			hide_dependency_lines: true
 			id: "2CF58B9EF4F70090"
 			tasks: [{
 				id: "5ACF147740945167"
@@ -451,7 +489,9 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: ["用聚变出的等离子发电"]
+			hide_dependency_lines: true
 			id: "5E76606D0601E263"
 			tasks: [{
 				id: "3EE9E5A4C22EB8A5"
@@ -462,8 +502,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: [""]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			id: "48462EE64EA29340"
 			tasks: [{
 				id: "70FB2E5BE288D032"
@@ -495,7 +536,9 @@
 			y: 7.0d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: ["单方块火箭引擎的升级版，非常强力"]
+			hide_dependency_lines: true
 			id: "408C3C831B65D6F1"
 			tasks: [{
 				id: "32BCA52A82F7C585"
@@ -656,7 +699,9 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
 			description: ["搭配热交换机使用，可使用等离子或者裂变堆获得燃料"]
+			hide_dependency_lines: true
 			id: "749FFDD88305518C"
 			tasks: [{
 				id: "7EE83AF0AE0CD89E"
@@ -667,6 +712,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["1B77B2C00B24906E"]
+			hide_dependency_lines: true
 			id: "301FD6AEF56EDB77"
 			tasks: [{
 				id: "039203DBB3645A9D"
@@ -681,249 +728,446 @@
 				"此间蒸汽大道显化"
 				"世人皆可借此成仙"
 			]
+			icon: "gtceu:steam_bucket"
 			id: "410D898F86927828"
-			tasks: [{
-				id: "56F7A145321FEBD7"
-				item: "gtceu:steam_bucket"
-				type: "item"
-			}]
+			subtitle: "非常强大"
+			tasks: [
+				{
+					id: "56F7A145321FEBD7"
+					item: "gtceu:steam_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "350AC64C547729BB"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: -3.5d
 		}
 		{
+			icon: "gtceu:light_fuel_bucket"
 			id: "156A6119EF3FC8EC"
-			tasks: [{
-				id: "1E363439BE539298"
-				item: "gtceu:light_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1E363439BE539298"
+					item: "gtceu:light_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A13BF7D85E93418"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: -3.5d
 		}
 		{
+			icon: "gtceu:creosote_bucket"
 			id: "6D50B18D9A0BC34C"
-			tasks: [{
-				id: "09BEF0BEDE808368"
-				item: "gtceu:creosote_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "09BEF0BEDE808368"
+					item: "gtceu:creosote_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1F241444CEAE6169"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: -3.5d
 		}
 		{
+			icon: "gtceu:diesel_bucket"
 			id: "760B73534368A83F"
-			tasks: [{
-				id: "5FA9888C67929589"
-				item: "gtceu:diesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5FA9888C67929589"
+					item: "gtceu:diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7CF02AEC9B043495"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: -2.0d
 		}
 		{
+			icon: "gtceu:cetane_boosted_diesel_bucket"
 			id: "65AEB28E1E96F432"
-			tasks: [{
-				id: "33CE35F13E820052"
-				item: "gtceu:cetane_boosted_diesel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33CE35F13E820052"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A4166236F523866"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 1.0d
 		}
 		{
+			icon: "gtceu:high_octane_gasoline_bucket"
 			id: "0E36BD3F8C539335"
-			tasks: [{
-				id: "554E549A7BD4661E"
-				item: "gtceu:high_octane_gasoline_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "554E549A7BD4661E"
+					item: "gtceu:high_octane_gasoline_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47EC8931DDEF0240"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 2.5d
 		}
 		{
 			description: [""]
+			icon: "gtceu:supercritical_steam_bucket"
 			id: "19B859F1C3DBECC7"
-			tasks: [{
-				id: "2FC2DAC3F005A348"
-				item: "gtceu:supercritical_steam_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FC2DAC3F005A348"
+					item: "gtceu:supercritical_steam_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "64FDBA80800826A3"
+					type: "checkmark"
+				}
+			]
 			x: -6.5d
 			y: 4.0d
 		}
 		{
+			icon: "gtceu:benzene_bucket"
 			id: "3C210DB34841CFB8"
-			tasks: [{
-				id: "312A1A1C47D1F12E"
-				item: "gtceu:benzene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "312A1A1C47D1F12E"
+					item: "gtceu:benzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "606D09438366C716"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: -0.5d
 		}
 		{
+			icon: "gtceu:nitrobenzene_bucket"
 			id: "2C12B488156583DD"
-			tasks: [{
-				id: "3F0170C18F4F7688"
-				item: "gtceu:nitrobenzene_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3F0170C18F4F7688"
+					item: "gtceu:nitrobenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "650440B456BF8E8B"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 1.0d
 		}
 		{
+			description: ["这一列都是火箭燃料"]
+			icon: "gtceu:rocket_fuel_bucket"
 			id: "10FC17CA92F03449"
-			tasks: [{
-				id: "494ED57AD7C250C0"
-				item: "gtceu:rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "494ED57AD7C250C0"
+					item: "gtceu:rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "585CC0485C0589F1"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: -0.5d
 		}
 		{
+			icon: "gtceu:rocket_fuel_rp_1_bucket"
 			id: "0E05F0BA3F52580A"
-			tasks: [{
-				id: "6C126B5EB720870F"
-				item: "gtceu:rocket_fuel_rp_1_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6C126B5EB720870F"
+					item: "gtceu:rocket_fuel_rp_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "71D8DEAF052D515F"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 0.5d
 		}
 		{
+			icon: "gtceu:dense_hydrazine_fuel_mixture_bucket"
 			id: "61A73C512B97D72C"
-			tasks: [{
-				id: "0F9D2AB20E9900C5"
-				item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F9D2AB20E9900C5"
+					item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1DBC88C249F2492D"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 1.5d
 		}
 		{
+			icon: "gtceu:rocket_fuel_cn3h7o3_bucket"
 			id: "28442752729F3994"
-			tasks: [{
-				id: "782AAD532CF15E5D"
-				item: "gtceu:rocket_fuel_cn3h7o3_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "782AAD532CF15E5D"
+					item: "gtceu:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1025EB18ABD3D83A"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 2.5d
 		}
 		{
-			description: ["超级好用"]
+			description: ["发电机和太空电梯的好搭档"]
+			icon: "gtceu:rocket_fuel_h8n4c2o4_bucket"
 			id: "7F74D4ED0C9354C2"
-			tasks: [{
-				id: "35616BDE7144320C"
-				item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
-				type: "item"
-			}]
+			subtitle: "超级好用"
+			tasks: [
+				{
+					id: "35616BDE7144320C"
+					item: "gtceu:rocket_fuel_h8n4c2o4_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "273F7336141D55FF"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 3.5d
 		}
 		{
+			icon: "gtceu:stellar_energy_rocket_fuel_bucket"
 			id: "289178D99E660919"
-			tasks: [{
-				id: "752E958041DE96D7"
-				item: "gtceu:stellar_energy_rocket_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "752E958041DE96D7"
+					item: "gtceu:stellar_energy_rocket_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7474A7BFD4DA805A"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 5.5d
 		}
 		{
+			icon: "ad_astra:cryo_fuel_bucket"
 			id: "5EDB2873242F0712"
-			tasks: [{
-				id: "0828996A89029AEC"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0828996A89029AEC"
+					item: "ad_astra:cryo_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5CD0F786992C92F4"
+					type: "checkmark"
+				}
+			]
 			x: -11.0d
 			y: 4.5d
 		}
 		{
+			icon: "gtceu:naquadah_fuel_bucket"
 			id: "39C2B44EAE240C42"
-			tasks: [{
-				id: "7983F795CA030A71"
-				item: "gtceu:naquadah_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7983F795CA030A71"
+					item: "gtceu:naquadah_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6C4202A348C5A14E"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 2.5d
 		}
 		{
+			icon: "gtceu:enriched_naquadah_fuel_bucket"
 			id: "75C002EA5F45EB2B"
-			tasks: [{
-				id: "36B5B049C7D1DAA0"
-				item: "gtceu:enriched_naquadah_fuel_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "36B5B049C7D1DAA0"
+					item: "gtceu:enriched_naquadah_fuel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42D27AC3B07DC898"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 4.0d
 		}
 		{
+			icon: "gtceu:nitrogen_plasma_bucket"
 			id: "2B19FC33D419D5F3"
-			tasks: [{
-				id: "0BD570C9462116B0"
-				item: "gtceu:nitrogen_plasma_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0BD570C9462116B0"
+					item: "gtceu:nitrogen_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C9EC741796BC721"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 5.5d
 		}
 		{
+			icon: "gtceu:oxygen_plasma_bucket"
 			id: "329233F1C42FF850"
-			tasks: [{
-				id: "0E72A57937FEE43B"
-				item: "gtceu:oxygen_plasma_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E72A57937FEE43B"
+					item: "gtceu:oxygen_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2EAD8C25B74E35DE"
+					type: "checkmark"
+				}
+			]
 			x: -8.0d
 			y: 4.0d
 		}
 		{
+			icon: "gtceu:hyper_fuel_1_bucket"
 			id: "4C7F01C6BDC4C668"
-			tasks: [{
-				id: "06F85A701518B6F5"
-				item: "gtceu:hyper_fuel_1_bucket"
-				type: "item"
-			}]
+			subtitle: "一共有四种"
+			tasks: [
+				{
+					id: "06F85A701518B6F5"
+					item: "gtceu:hyper_fuel_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "66F121E5109BA065"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 8.5d
 		}
 		{
+			icon: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
 			id: "703B4E87BFB463A3"
-			tasks: [{
-				id: "5F10F9EBFF422F19"
-				item: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
-				type: "item"
-			}]
+			subtitle: "一共有两种"
+			tasks: [
+				{
+					id: "5F10F9EBFF422F19"
+					item: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "273B29350C7E04C2"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 10.0d
 		}
 		{
+			icon: "kubejs:neutronium_antimatter_fuel_rod"
 			id: "0371ECA23AB14C7F"
-			tasks: [{
-				id: "6ED166264A82E96F"
-				item: "kubejs:neutronium_antimatter_fuel_rod"
-				type: "item"
-			}]
+			subtitle: "一共有四种"
+			tasks: [
+				{
+					id: "6ED166264A82E96F"
+					item: "kubejs:neutronium_antimatter_fuel_rod"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E99C46A54215B20"
+					type: "checkmark"
+				}
+			]
 			x: -9.5d
 			y: 11.5d
 		}
 		{
+			icon: "kubejs:dyson_swarm_module"
 			id: "5E0E64D2C0CA912A"
 			tasks: [
 				{
 					id: "34B2083FD039EFE4"
 					item: "kubejs:dyson_swarm_module"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "6D898C0C4CAC1D20"
 					item: "kubejs:gelid_cryotheum_bucket"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "7BA617FD694A5732"
+					type: "checkmark"
 				}
 			]
 			x: -11.0d

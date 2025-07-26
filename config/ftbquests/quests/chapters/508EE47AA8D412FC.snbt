@@ -475,6 +475,18 @@
 			x: 15.0d
 			y: 20.0d
 		}
+		{
+			id: "234699BA7254DA39"
+			linked_quest: "3CE5E9F78C13E1CD"
+			x: -7.5d
+			y: 21.5d
+		}
+		{
+			id: "3B714695270DF04C"
+			linked_quest: "355AB57EE5123594"
+			x: -7.5d
+			y: 23.0d
+		}
 	]
 	quests: [
 		{
@@ -648,11 +660,23 @@
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
-			tasks: [{
-				id: "395F76F30EA18569"
-				item: "gtceu:periodicium_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "395F76F30EA18569"
+					item: "gtceu:periodicium_ingot"
+					type: "item"
+				}
+				{
+					id: "28F13C3EE2A4E1EE"
+					item: "gtceu:superheavy_l_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "23EF76A59ABE270E"
+					item: "gtceu:superheavy_h_alloy_ingot"
+					type: "item"
+				}
+			]
 			title: "全元素收集"
 			x: 1.5d
 			y: -1.0d
@@ -824,30 +848,6 @@
 			}]
 			x: 15.0d
 			y: 18.5d
-		}
-		{
-			dependencies: ["63998161D9D731E7"]
-			icon_scale: 2.0d
-			id: "72AA3760BC57075B"
-			tasks: [{
-				id: "7526DAE85B919AAB"
-				item: "kubejs:hypogen_coil_block"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 21.5d
-		}
-		{
-			dependencies: ["0A6C5B3C148A5743"]
-			icon_scale: 2.0d
-			id: "6530A2870217FD59"
-			tasks: [{
-				id: "17041C00044AA57F"
-				item: "kubejs:eternity_coil_block"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 23.0d
 		}
 	]
 	title: "进度"

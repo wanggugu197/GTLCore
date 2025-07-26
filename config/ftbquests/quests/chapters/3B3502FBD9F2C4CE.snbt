@@ -35,6 +35,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["38480A52A13DA157"]
 			description: ["来了一堆锭"]
 			id: "4058D1416D94BABB"
 			tasks: [
@@ -76,10 +77,10 @@
 				"几乎每种材料都可以在这台机器中生产,因此,如果您在查找搅拌机配方时遇到麻烦,请寻找熔融流体!"
 			]
 			icon: "gtceu:alloy_blast_smelter"
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "1F0956C3BD4745A1"
-			shape: "rsquare"
-			size: 1.0d
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [
 				{
 					id: "369FD15BD477C9E7"
@@ -100,9 +101,10 @@
 			dependencies: ["1F0956C3BD4745A1"]
 			description: ["现在可以制作单方块机器的大型版本，能更好的升压超频，同时支持并行"]
 			icon: "gtceu:large_material_press"
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "1FACFECB6C5962E3"
-			size: 1.0d
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [
 				{
 					id: "2F1127262F7ACA6C"
@@ -169,6 +171,8 @@
 			]
 			icon_scale: 2.0d
 			id: "7DCA0B7C9F3C3ACF"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "0D25CA72C05B394F"
 				item: "gtceu:hssg_coil_block"
@@ -230,6 +234,7 @@
 					type: "item"
 				}
 			]
+			title: "高级贴片"
 			x: 4.0d
 			y: 8.0d
 		}
@@ -343,6 +348,7 @@
 					type: "item"
 				}
 			]
+			title: "IV传感器与发射器"
 			x: 16.0d
 			y: 0.0d
 		}
@@ -358,9 +364,8 @@
 				"需要装配线数据来运行。"
 				"物品和流体无需有序输入"
 			]
-			icon_scale: 2.0d
 			id: "7F8C2ECC7CE2BF20"
-			shape: "rsquare"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "07456C679DEEEE04"
@@ -383,7 +388,7 @@
 		}
 		{
 			dependencies: ["027B25761BD830C8"]
-			description: ["不能使用2能源仓升压"]
+			description: ["不能使用两个能源仓升压"]
 			icon_scale: 2.0d
 			id: "30A0D221474FB44A"
 			shape: "rsquare"
@@ -477,7 +482,7 @@
 				""
 				"还可以串联（使用多个光学数据仓室）"
 				""
-				"无线光学数据仓室可以一个源仓对多个靶仓"
+				"光学数据仓室并不能被多方块结构共用"
 			]
 			icon: "gtceu:data_bank"
 			icon_scale: 2.0d
@@ -554,10 +559,11 @@
 		{
 			dependencies: ["0F22A8CE63F369CA"]
 			description: ["64并行高炉"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "52070757274DC2B4"
-			shape: "circle"
+			shape: "hexagon"
 			size: 2.0d
+			subtitle: "别忘了提供液态烈焰"
 			tasks: [{
 				id: "2C69C2E860BDFB1B"
 				item: "gtceu:blaze_blast_furnace"
@@ -654,9 +660,9 @@
 				""
 				"请仔细阅读主机文字描述"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "365298DB6520227A"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "2599970FD2D9C38B"
@@ -668,9 +674,10 @@
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
-			description: ["同步AE库存"]
+			description: ["同步ME网络库存"]
 			icon_scale: 2.0d
 			id: "5608182772E855EC"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "5165B2AF5BB3CD54"
@@ -692,12 +699,8 @@
 					item: "gtceu:me_dual_hatch_stock_part_machine"
 					type: "item"
 				}
-				{
-					id: "78F84C5A8E896B35"
-					item: "gtmthings:me_export_buffer"
-					type: "item"
-				}
 			]
+			title: "ME库存仓室"
 			x: 18.0d
 			y: 0.0d
 		}
@@ -771,9 +774,11 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: ["64并行冷冻机"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "4C4081C79D227D1F"
+			shape: "hexagon"
 			size: 2.0d
+			subtitle: "别忘了提供液态冰"
 			tasks: [{
 				id: "7066CF4FFEA3FD14"
 				item: "gtceu:cold_ice_freezer"
@@ -797,6 +802,7 @@
 			description: ["溶解罐请注意控制输入的流体比例"]
 			icon_scale: 2.0d
 			id: "29D4D49428BF7FF4"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "756B1B977B98059B"
@@ -816,8 +822,12 @@
 		{
 			dependencies: ["365298DB6520227A"]
 			description: ["将超临界钠钾合金转变为超临界蒸汽，用于给超临界蒸汽涡轮发电"]
+			icon_scale: 2.0d
 			id: "24CE67689DD540B7"
 			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "请确保冷却剂过量"
 			tasks: [{
 				id: "4B207AC62685A5B5"
 				item: "gtceu:heat_exchanger"
@@ -835,6 +845,7 @@
 			]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"
+			shape: "rsquare"
 			tasks: [{
 				id: "7D699FD179C16EB0"
 				item: "gtceu:auto_configuration_maintenance_hatch"

@@ -33,14 +33,14 @@
 		}
 		{
 			dependencies: ["74D9136DE32F9129"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "1EC6366E9611F2AD"
 			rewards: [{
 				id: "797DDD6D591D0FFA"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "0B078D6B5E8ADED5"
@@ -59,8 +59,8 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
-			size: 2.0d
+			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "6DF561795A593EDB"
 				item: "kubejs:ultima_control_circuit"
@@ -108,7 +108,7 @@
 					type: "item"
 				}
 			]
-			title: "HV发射器与传感器"
+			title: "HV传感器与发射器"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -166,7 +166,12 @@
 			y: 0.0d
 		}
 		{
-			description: ["用聚爆压缩机，不过用屠宰场更方便"]
+			dependencies: ["7902251D35786411"]
+			description: [
+				"固化液态末影珍珠为块，然后拆解末影珍珠块"
+				""
+				"还能使用屠宰场或者聚爆压缩机"
+			]
 			id: "6B416753B41DE9D3"
 			rewards: [{
 				id: "241C9174A4E2AE10"
@@ -231,6 +236,8 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
+			size: 2.0d
 			tasks: [{
 				id: "759C0F5C1FCC6D04"
 				item: "gtceu:micro_processor_computer"
@@ -268,6 +275,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "0106634910539280"
 				item: "gtceu:cleaning_maintenance_hatch"
@@ -402,9 +410,10 @@
 			id: "6F85AB2294DA3310"
 			rewards: [{
 				id: "02DA5E6725FF070A"
-				item: "gtceu:ancient_gold_coin"
+				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "0E4B176D3DF3D8F5"
 				item: "gtceu:fishing_ground"
@@ -415,14 +424,19 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["在EV的时候你就需要大量的奇奇怪怪的化工原料，现在不把石化生化联合产线搭好，后面EV会非常坐牢"]
-			icon_scale: 2.0d
+			description: [
+				"在EV的时候你就需要大量的奇奇怪怪的化工原料，现在不把石化生化联合产线搭好，后面EV会非常坐牢"
+				""
+				"蒸馏塔有且仅有底层可以使用输出总成，能够减少高度"
+			]
+			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
 			rewards: [{
 				id: "5BAC2973956359FC"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
@@ -447,13 +461,14 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "027197A71E630966"
 			rewards: [{
 				id: "32C398A7D50E0057"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "67020EF8AE962E62"
@@ -493,7 +508,7 @@
 				item: "gtceu:hv_assembler"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
@@ -501,20 +516,20 @@
 				"676D1982102F4E79"
 				"06F68B574AC84B7B"
 			]
-			icon_scale: 2.0d
 			id: "75DAAFAD21F1451C"
 			rewards: [{
 				id: "4BA99C2D7D2D3D75"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "14FEB5E23CFFB069"
 				item: "gtceu:hv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -530,7 +545,7 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -568,7 +583,7 @@
 				item: "gtceu:lpic_wafer"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -600,7 +615,7 @@
 				item: "gtceu:hv_chemical_bath"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -640,7 +655,7 @@
 				}
 			]
 			title: "贴片"
-			x: 2.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
@@ -663,7 +678,7 @@
 		}
 		{
 			dependencies: ["11186961491B1773"]
-			description: ["拥有无损超频，比通用混合厂强大。"]
+			description: ["实际上拥有无损超频，比通用混合厂强大。"]
 			icon_scale: 2.0d
 			id: "29450DC426C4E2D6"
 			rewards: [{
@@ -671,6 +686,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "42EC7CCD50B1D828"
 				item: "gtceu:large_chemical_reactor"
@@ -705,7 +721,8 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "25491710B97DE83B"
 				item: "gtceu:nichrome_coil_block"
@@ -785,6 +802,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "68B4BAC1D648029B"
 				item: "gtceu:hv_macerator"
@@ -819,6 +837,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			subtitle: "简易无限水"
 			tasks: [{
 				id: "3743494D34E98762"
 				item: "gtceu:infinite_water_cover"
@@ -836,6 +855,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [{
 				id: "456C48E25C1F5649"
 				item: "gtceu:implosion_compressor"
@@ -846,16 +866,17 @@
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]
-			description: ["你可以开始用无线电了，这样就不用为怎么连电线而烦恼了"]
+			description: ["你可以知道你的无线电网络的具体情况了"]
 			hide_dependency_lines: true
 			icon: "gtmthings:wireless_energy_monitor"
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "29BB35C725BE7D96"
 			rewards: [{
 				id: "1CEFD1341263DF3A"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
@@ -903,7 +924,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["玩具"]
+			description: ["可能是你的第一台跨配方并行机器"]
 			id: "0752A7F2C67CDF76"
 			tasks: [{
 				id: "44035FCFBB02978D"

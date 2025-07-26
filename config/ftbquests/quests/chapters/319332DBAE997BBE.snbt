@@ -51,6 +51,7 @@
 			dependencies: ["09F132EE8A88C872"]
 			icon_scale: 2.0d
 			id: "13BBF0FF3267BFDB"
+			shape: "rsquare"
 			tasks: [{
 				id: "78E1EA0D0D683394"
 				item: "gtceu:naquadah_coil_block"
@@ -76,7 +77,7 @@
 			dependencies: ["2BEF03C52636E165"]
 			description: ["ZPM阶段主要材料"]
 			id: "0485D45408234C99"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "373808445A507E87"
@@ -127,9 +128,9 @@
 				""
 				"运行低于主机对应等级的配方时主机等级每高出配方等级一级，耗电翻倍，耗时减半"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "118FDF6D9F868002"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "30F5A61CE755449F"
@@ -295,6 +296,7 @@
 			dependencies: ["2BEF03C52636E165"]
 			icon_scale: 2.0d
 			id: "23B23867F311BF51"
+			shape: "rsquare"
 			tasks: [{
 				id: "3CDD2D97C975A389"
 				item: "gtceu:trinium_coil_block"
@@ -305,7 +307,7 @@
 		}
 		{
 			dependencies: ["233CA36D529EC3FB"]
-			description: ["拥有无损超频，超频次数高的情况下强于大型组装厂"]
+			description: ["拥有无损超频，超频次数较多的情况下强于大型组装厂"]
 			icon_scale: 2.0d
 			id: "2A0269009ABF1414"
 			shape: "rsquare"
@@ -332,6 +334,7 @@
 		}
 		{
 			dependencies: ["2CEEFDACE7B13D5A"]
+			hide_dependency_lines: true
 			id: "4ECACC2A6159D332"
 			tasks: [{
 				id: "66F78A994427739B"
@@ -347,9 +350,9 @@
 				"0B89B3108EB4A01F"
 			]
 			description: ["需要计算机提供的算力"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "298369255C8130F7"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "223832A139BBC896"
@@ -367,7 +370,11 @@
 			description: [
 				"为设备运行提供算力，更多的算力需要升级组件或者使用交换机合并多个计算机算力"
 				""
-				"请注意区分算力数据仓（传输算力）和光学数据仓（传输数据）"
+				"算力没有缓存，要想持续稳定运行需要算力的配方请至少提供需求的两倍以上的算力"
+				""
+				"&o&l&c请注意区分算力数据仓（传输算力）和光学数据仓（传输数据）"
+				"&r"
+				"&r&r算力数据仓并不能被多方块结构共用"
 			]
 			icon: "gtceu:high_performance_computation_array"
 			icon_scale: 2.0d
@@ -542,7 +549,8 @@
 			icon: "gtceu:neutron_activator"
 			icon_scale: 2.0d
 			id: "766D051A40AB5324"
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [
 				{
 					id: "2033E704723D1C29"
@@ -593,11 +601,12 @@
 				"艾萨线，这是一条新的矿物处理线。"
 				"产出铂处，稀土（部分），硅岩等一些稀有的粉"
 				"还有铊粉~~~"
-				"效率一般，但是是必要的"
+				"效率一般，但是是必须的"
 			]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "5B73961795BE42EE"
+			shape: "rsquare"
 			tasks: [{
 				id: "4532FD760D4A8258"
 				item: "gtceu:isa_mill"
@@ -611,6 +620,7 @@
 			description: ["非常慢，但是这是必须的"]
 			icon_scale: 2.0d
 			id: "2588A0EF7F27DE5B"
+			shape: "rsquare"
 			tasks: [{
 				id: "6372AD4866BBD6B6"
 				item: "gtceu:flotation_cell_regulator"
@@ -622,10 +632,18 @@
 		{
 			dependencies: [
 				"2588A0EF7F27DE5B"
-				"13BBF0FF3267BFDB"
+				"4706F66FF46487F2"
+			]
+			description: [
+				"除了用于处理泡沫还能作为脱水机使用"
+				""
+				"作为脱水机使用时，使用温度超频机制，温度每提升900K，并行数×2"
+				""
+				"作为真空干燥机使用时，机制与电力高炉相同"
 			]
 			icon_scale: 2.0d
 			id: "147A71CE5EEBC836"
+			shape: "rsquare"
 			tasks: [{
 				id: "09A3EC272A7B5FF8"
 				item: "gtceu:vacuum_drying_furnace"
@@ -672,12 +690,14 @@
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
+			description: [""]
 			id: "2AA63D77B0E86D2E"
 			rewards: [{
 				id: "74F83E0CD43D15C7"
 				item: "avaritia:infinity_hoe"
 				type: "item"
 			}]
+			subtitle: "Man！"
 			tasks: [{
 				id: "07D2F38F2B6D6996"
 				item: "gtceu:fall_king_ingot"
@@ -691,6 +711,7 @@
 			description: ["奇妙科技"]
 			icon_scale: 2.0d
 			id: "12F9033C4C2B29EB"
+			shape: "rsquare"
 			tasks: [{
 				id: "3BC83ABCD0AD2F48"
 				item: "gtceu:wood_distillation"
@@ -701,9 +722,10 @@
 		}
 		{
 			dependencies: ["4BFA114E12BCB163"]
-			description: ["有并行的化学反应釜"]
+			description: ["有并行的化学反应釜，还能通过升级线圈从而提高效率"]
 			icon_scale: 2.0d
 			id: "4CDCF542F45205EB"
+			shape: "rsquare"
 			tasks: [{
 				id: "29BFCB27C5CDC79E"
 				item: "gtceu:chemical_plant"
@@ -714,7 +736,7 @@
 		}
 		{
 			dependencies: ["52DF531AFB3A07CE"]
-			description: ["每个聚变堆都有对应的压缩版本，可以超频，拥有并行"]
+			description: ["每个聚变堆都有对应的压缩版本，可以超频，拥有并行，还能使用激光仓！"]
 			icon_scale: 2.0d
 			id: "43A83C00715285B5"
 			shape: "rsquare"
@@ -725,6 +747,46 @@
 				type: "item"
 			}]
 			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27BA6EBA81622516"]
+			description: [
+				"相当于更大的能源仓和动力仓，注意激光仓室不能在多方块结构中取代能源仓和动力仓"
+				""
+				"最大功率可达到4194304A/当前电压"
+			]
+			icon_scale: 2.0d
+			id: "0E3F70831E273595"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "更高的功率"
+			tasks: [
+				{
+					id: "3B3E93B980B75406"
+					item: "gtceu:iv_256a_laser_target_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42CFF2261F20BBF7"
+					item: "gtceu:iv_256a_laser_source_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1452FD704A22332D"
+					item: "gtmthings:iv_256a_wireless_laser_target_hatch"
+					type: "item"
+				}
+				{
+					id: "2F38F936EFB11214"
+					item: "gtmthings:iv_256a_wireless_laser_source_hatch"
+					type: "item"
+				}
+			]
+			title: "激光仓室"
+			x: 4.0d
 			y: 0.0d
 		}
 	]

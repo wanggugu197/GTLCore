@@ -10,7 +10,7 @@
 		{
 			id: "57F5245E6B9E7B6C"
 			linked_quest: "6BB5ED6ECC43E30C"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			x: -2.0d
 			y: 0.0d
@@ -18,7 +18,7 @@
 		{
 			id: "4E0083FC60224675"
 			linked_quest: "23B418803D455368"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			x: -2.0d
 			y: -2.0d
@@ -30,11 +30,16 @@
 				"39F73A63746EE6E8"
 				"28E04C03DD2C0854"
 			]
-			description: ["高能机器"]
+			description: [
+				"能装载16个能源仓，还拥有无损超频"
+				""
+				"后续能升级为进阶质量发生器，更大，更强"
+			]
 			icon_scale: 2.0d
 			id: "67588B6F4C26CF4C"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.0d
+			subtitle: "高能机器"
 			tasks: [{
 				id: "2C5036E0D2E99E39"
 				item: "gtceu:mass_fabricator"
@@ -47,13 +52,14 @@
 			dependencies: ["6BB5ED6ECC43E30C"]
 			icon_scale: 2.0d
 			id: "0CCE2A9119B2B1C4"
+			shape: "rsquare"
 			tasks: [{
 				id: "59E90C6145AA300E"
 				item: "kubejs:naquadriatictaranium_coil_block"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -80,6 +86,7 @@
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "1F1FCB0CA5696FF1"
+			shape: "rsquare"
 			tasks: [{
 				id: "7064445D4522B0F9"
 				item: "kubejs:leptonic_charge"
@@ -150,6 +157,7 @@
 			]
 			icon_scale: 2.0d
 			id: "6C6A3B91957A0B7B"
+			shape: "diamond"
 			size: 2.0d
 			tasks: [{
 				id: "06F01AC2F2AAFC1A"
@@ -203,20 +211,20 @@
 				"0FB0AFA8DD71B19F"
 			]
 			description: [
-				"算力需求较大，建议过量供应"
+				"算力需求较大"
 				""
-				"后续可以升级为天基宇宙探测器接收器，效率更高"
+				"后续可以升级为天基宇宙探测器接收器，效率更高，算力需求更少"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "74D84A4928FA0A35"
-			shape: "gear"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "2C8FACD2B8237591"
 				item: "gtceu:space_probe_surface_reception"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
@@ -235,10 +243,11 @@
 			dependencies: ["1DAE3D00F91134F0"]
 			description: ["可以代替恒星锻炉"]
 			icon: "gtceu:dimensionally_transcendent_plasma_forge"
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "2880531AF7540B24"
-			shape: "gear"
+			shape: "hexagon"
 			size: 2.0d
+			subtitle: "非常吵"
 			tasks: [
 				{
 					id: "2CA90B99536E4896"
@@ -359,7 +368,7 @@
 			description: ["搅拌机的激光版本，拥有无损超频，还有另一种重要用途"]
 			icon_scale: 2.0d
 			id: "29A581C935A339DD"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "698C262A1833E468"
@@ -377,11 +386,12 @@
 				item: "kubejs:scintillator"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["有点复杂"]
 			id: "5FC4E86486278172"
 			tasks: [{
 				id: "54DD3B46DB85E738"
@@ -389,7 +399,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1D7B6172DE330E6F"]
@@ -436,8 +446,8 @@
 				item: "kubejs:lepton_trap_crystal"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
@@ -500,7 +510,7 @@
 		}
 		{
 			dependencies: ["5FFDF6751BFBD4BF"]
-			description: ["合金"]
+			description: [""]
 			id: "53AF03B663577CB0"
 			tasks: [
 				{
@@ -514,6 +524,7 @@
 					type: "item"
 				}
 			]
+			title: "超重元素合金锭"
 			x: 10.0d
 			y: 2.0d
 		}
@@ -545,7 +556,7 @@
 			dependencies: ["2F82F4BCC261723A"]
 			description: ["非常传奇"]
 			id: "559836CC234447C0"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "300AEC5CB1F10137"
@@ -583,8 +594,9 @@
 		}
 		{
 			dependencies: ["0855401586D73395"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "515737DB7910465C"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "6171AF6F3DD5C3DF"
@@ -605,7 +617,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["515737DB7910465C"]
+			dependencies: [
+				"515737DB7910465C"
+				"63C77EE3C70E20E7"
+			]
 			id: "67673D8789AC1781"
 			tasks: [{
 				id: "2268BE3EB165A96B"
@@ -620,6 +635,7 @@
 			description: ["中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"]
 			icon_scale: 2.0d
 			id: "664D8255A1960E9E"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "228A3EC13A936F3B"
@@ -634,6 +650,7 @@
 			description: ["流体加热器的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
 			icon_scale: 2.0d
 			id: "3F99F904B7B94324"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "2AC154F76B64844E"
@@ -642,6 +659,22 @@
 			}]
 			x: 12.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6BB5ED6ECC43E30C"]
+			description: ["21亿跨配方并行，非常强力"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "0991031579C4CAA7"
+			shape: "rsquare"
+			subtitle: "一步到位"
+			tasks: [{
+				id: "335FA9C6613E28F5"
+				item: "gtceu:advanced_integrated_ore_processor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

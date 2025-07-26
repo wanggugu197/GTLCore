@@ -10,7 +10,7 @@
 		{
 			id: "266F13D1E89B47C1"
 			linked_quest: "559836CC234447C0"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			x: 0.0d
 			y: -6.0d
@@ -18,9 +18,9 @@
 		{
 			id: "7ED0015FCA833C34"
 			linked_quest: "26607B94D873E07A"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
-			x: 12.0d
+			x: 10.0d
 			y: -6.0d
 		}
 	]
@@ -72,6 +72,7 @@
 			]
 			icon_scale: 2.0d
 			id: "6E3F07B3E9AB5882"
+			shape: "rsquare"
 			tasks: [{
 				id: "013D66093320BE17"
 				item: "kubejs:starmetal_coil_block"
@@ -85,8 +86,9 @@
 				"5E223597F71DB81D"
 				"4A1F4AAAABC1DE23"
 			]
-			description: ["高纯龙素"]
+			description: ["龙血可以循环"]
 			id: "6A1F7D407BE033A9"
+			subtitle: "高纯龙素"
 			tasks: [{
 				id: "65FF8A6173E91F9E"
 				item: "gtceu:draconium_dust"
@@ -243,7 +245,7 @@
 			dependencies: ["2F82F4BCC261723A"]
 			hide_dependent_lines: true
 			id: "63C77EE3C70E20E7"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "4A48DFBBFE8F0E83"
@@ -306,6 +308,7 @@
 			]
 			icon_scale: 2.0d
 			id: "74186877DB7DBE4D"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "68FDD4F89178DC73"
@@ -313,7 +316,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -327,7 +330,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["64441B6414C20A57"]
@@ -404,9 +407,9 @@
 			dependencies: ["559836CC234447C0"]
 			description: ["需被动自动化"]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "4A1F4AAAABC1DE23"
-			shape: "gear"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "3E7381E30A07D91A"
@@ -437,9 +440,9 @@
 			]
 			description: ["很贵的机器"]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "2A29DA4239E6BA44"
-			shape: "gear"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "08A25F44515BD5D7"
@@ -568,7 +571,7 @@
 			]
 			description: ["无尽之力"]
 			id: "00A227F06D7F109E"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "4551291536D7C6FC"
@@ -607,7 +610,7 @@
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
-			description: ["周期表之聚合"]
+			description: ["并没有包含整个周期表"]
 			id: "01EE0F4156F0578B"
 			tasks: [{
 				id: "1CF19DFA270D37F3"
@@ -675,6 +678,7 @@
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "6C1AB68CC57D8670"
+			shape: "rsquare"
 			tasks: [{
 				id: "37C6A37E62975D44"
 				item: "gtceu:nano_forge_3"
@@ -691,7 +695,7 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: -6.0d
 		}
 		{
@@ -700,10 +704,11 @@
 				"233C152024BACC4E"
 				"49ED5C32664DDF6C"
 			]
-			description: ["拥有无损超频"]
+			description: ["拥有无损超频，运行时间固定为配方时间的0.05倍，并行数最大为8192"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "1E220C2F02E65FFC"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "7AC30167CA6E2D12"
@@ -712,6 +717,22 @@
 			}]
 			x: 6.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["01EE0F4156F0578B"]
+			description: ["可以用来复制比较稀缺的元素，比如镎和镤"]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "46C33CC4A1420A10"
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3B815CD546D80CF0"
+				item: "gtceu:element_copying"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Tier12-UXV"]

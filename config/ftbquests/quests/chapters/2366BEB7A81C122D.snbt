@@ -31,9 +31,9 @@
 				"2719D88ECD353F24"
 			]
 			description: ["试试将现有最大无线能源覆盖板贴到刚做的机器外壳上"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "6C4F1C87F08F38AC"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "1A869FB7AB0C0536"
@@ -50,7 +50,7 @@
 				"这个需求量很大，制作速度慢"
 			]
 			id: "035C470213E8B4DB"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "39B8A1A88BE55729"
@@ -115,8 +115,9 @@
 					type: "item"
 				}
 			]
+			title: "生物活性贴片"
 			x: 6.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -202,7 +203,7 @@
 				type: "checkmark"
 			}]
 			x: 4.0d
-			y: 11.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["59CA7B4A4A417B53"]
@@ -218,11 +219,11 @@
 		}
 		{
 			dependencies: ["1FA9E56114BFABF5"]
-			description: ["主机放入输入总线中对应的机器人可增加并行数"]
+			description: ["主机放入与输入总线中相同的机器人可增加并行数"]
 			icon: "gtceu:circuit_assembly_line"
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "53EB6E99F976AF31"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [
 				{
@@ -242,9 +243,9 @@
 		{
 			dependencies: ["7204F1B6BCC74F1C"]
 			description: ["使用激光高速冷凝等离子体"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "71D029B59C690121"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "50C209A33583AD73"
@@ -293,6 +294,7 @@
 			description: [""]
 			icon_scale: 2.0d
 			id: "31EDE3D976DE5A33"
+			shape: "rsquare"
 			tasks: [{
 				id: "194425B2D808120E"
 				item: "gtceu:assembler_module"
@@ -306,6 +308,7 @@
 			description: ["随着无人机的解锁，你可以跳过各种产线直接获得资源"]
 			icon_scale: 2.0d
 			id: "7ADB50ACF5AE1D13"
+			shape: "rsquare"
 			tasks: [{
 				id: "3F389DDC4C0810B4"
 				item: "gtceu:resource_collection"
@@ -342,6 +345,7 @@
 			dependencies: ["12F8275FC06FCFEE"]
 			icon_scale: 2.0d
 			id: "3EA935A712FA0EBE"
+			shape: "rsquare"
 			tasks: [{
 				id: "1D87EC0E1793346B"
 				item: "kubejs:abyssalalloy_coil_block"
@@ -411,13 +415,13 @@
 			description: [
 				"这是T8火箭，解锁巴纳德C"
 				""
-				"需要持续提供算力，算力需求固定为128，不要使用可配置维护仓"
+				"需要用输入总线输入一号电路，并持续提供算力（算力需求固定为128），不要使用可配置维护仓"
 				""
 				"随着电压的升高和动力模块的升级，电梯模块的效率会提升"
 				""
 				"点击启程时请离电梯主方块近一点，否则不会升空"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "7A7C73D046390488"
 			rewards: [
 				{
@@ -441,7 +445,7 @@
 					type: "item"
 				}
 			]
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "2E049D2A5A1162D8"
@@ -479,6 +483,7 @@
 		}
 		{
 			dependencies: ["1DFC7DC123A3D830"]
+			description: ["更大，更强"]
 			icon_scale: 2.0d
 			id: "4500AC22EE5C09F0"
 			shape: "rsquare"
@@ -493,7 +498,6 @@
 		}
 		{
 			dependencies: [
-				"237F6A0B77986D56"
 				"41C7A298C421C65D"
 				"7204F1B6BCC74F1C"
 			]
@@ -556,6 +560,7 @@
 			description: ["0是无重力，100是强重力"]
 			icon_scale: 2.0d
 			id: "07A5A5AD37710056"
+			shape: "rsquare"
 			tasks: [{
 				id: "7039AA556E4A462A"
 				item: "gtceu:gravity_hatch"
@@ -566,9 +571,10 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: [""]
+			description: ["没有损耗"]
 			icon_scale: 2.0d
 			id: "7597D3F42E7E8515"
+			shape: "rsquare"
 			tasks: [{
 				id: "798CD0CCB2B791EF"
 				item: "gtceu:zpm_fluid_drilling_rig"
@@ -582,9 +588,11 @@
 				"02F523E003E1C93D"
 				"035C470213E8B4DB"
 			]
-			description: ["大幅度优化你的产线"]
+			description: ["只能使用激光仓"]
 			icon_scale: 2.0d
 			id: "16C93F76F74CB8DB"
+			shape: "rsquare"
+			subtitle: "大幅度优化你的产线"
 			tasks: [{
 				id: "42B8B94BB1B32E83"
 				item: "gtceu:chemical_distort"
@@ -594,32 +602,13 @@
 			y: 2.0d
 		}
 		{
-			can_repeat: false
-			dependencies: [
-				"0A2D46609F5C3CAB"
-				"4F87B7DA47087F97"
-			]
-			description: ["电解机、电磁选矿机和两极磁化机的激光版本，拥有无损超频"]
-			icon_scale: 2.0d
-			id: "3565D2D5E0A2CEDF"
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "30D756E7388280AB"
-				item: "gtceu:superconducting_electromagnetism"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 12.0d
-		}
-		{
 			id: "4F87B7DA47087F97"
 			tasks: [{
 				id: "5AD3E4D68E41CC30"
 				item: "gtceu:mutated_living_solder_bucket"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: 12.0d
 		}
 		{
@@ -627,6 +616,7 @@
 			description: ["大硅岩~~狠狠发电~~"]
 			icon_scale: 2.0d
 			id: "09E013C97E05C052"
+			shape: "rsquare"
 			tasks: [{
 				id: "6D5ADEFDD6695856"
 				item: "gtceu:large_naquadah_reactor"
@@ -667,7 +657,7 @@
 		}
 		{
 			dependencies: ["7204F1B6BCC74F1C"]
-			description: ["如果无限盘内存有超过long上限的物品/流体，请不要在同一网络中放入拥有相同物品/流体的磁盘，否则对应的物品/流体在me网络中无法显示/被CPU调用"]
+			description: ["如果无限盘内存有超过long上限的物品/流体，请不要在同一网络中放入拥有相同物品/流体的磁盘，否则对应的物品/流体在me网络中无法显示/被CPU调用（可以被ME库存读取）"]
 			hide_dependency_lines: true
 			id: "2DA05E5BAEAFB88E"
 			subtitle: "无限的容量"
@@ -690,14 +680,17 @@
 		{
 			dependencies: ["7204F1B6BCC74F1C"]
 			description: [
-				"你现在可以高效制作部件8件套了，还能省去数据库槽位"
+				"你现在可以高效制作部件8件套了（节省25%的材料！），还能省去数据库槽位"
 				""
-				"请注意装配线外壳的等级"
+				"请注意装配线外壳的等级需要大于等于配方等级"
 				""
 				"主机正下方的八个方块都可以替换为输入总成（包括钨钢框架）"
+				""
+				"能源仓的位置请仔细查看JEI"
 			]
 			icon_scale: 2.0d
 			id: "36A2AF68AE67C70A"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "65C99D3D67D677D5"

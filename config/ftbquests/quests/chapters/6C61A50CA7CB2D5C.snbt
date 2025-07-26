@@ -1396,10 +1396,14 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["2BB52D1C09C418A9"]
+			dependencies: [
+				"2BB52D1C09C418A9"
+				"14D60DF010FF0396"
+			]
 			description: [
 				"终于可以去下界了"
 				"在远古反应核相邻的四个位置放金块，角落的四个位置放绿宝石块，手持下界数据右键"
+				"在下界干什么呢，挖点灵魂沙远古残骸"
 			]
 			icon: "minecraft:nether_wart"
 			icon_scale: 2.0d
@@ -1902,8 +1906,10 @@
 				"67784DEB22D18308"
 			]
 			description: ["找到原版要塞中的传送门，副手手持末地数据，主手手持末影之眼，各消耗一个点亮一个传送门框架"]
+			icon: "minecraft:end_portal_frame"
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
+			shape: "rsquare"
 			tasks: [{
 				id: "0F4C07DD6A1BB112"
 				item: "kubejs:end_data"
@@ -2037,7 +2043,7 @@
 		}
 		{
 			dependencies: ["25AA088531768F81"]
-			description: ["霜原羊掉落"]
+			description: ["击杀霜原羊掉落"]
 			icon: "kubejs:glacio_spirit"
 			icon_scale: 2.0d
 			id: "76EA305BEB66FA42"
@@ -2065,7 +2071,10 @@
 		}
 		{
 			dependencies: ["5A185A4065DD7FCF"]
-			description: ["需要   一号电路   128算力"]
+			description: [
+			    "需要   一号电路   128算力"
+			    "点击启程时请离电梯主方块近一点，否则不会升空"
+			]
 			icon_scale: 2.0d
 			id: "60FA18C7093410F8"
 			shape: "rsquare"

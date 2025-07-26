@@ -10,7 +10,7 @@
 		{
 			id: "10C4932409BC9EF8"
 			linked_quest: "5CD56CD71662D4A7"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			x: 2.0d
 			y: -2.0d
@@ -18,7 +18,7 @@
 		{
 			id: "662A44313552F6C7"
 			linked_quest: "713FF88279AD9A31"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			x: 0.0d
 			y: -2.0d
@@ -36,9 +36,9 @@
 				"蜡烛可以用石油制作黑色的，然后染色"
 				"龙蛋可以用鸡蛋制作"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "22053B1292EE07C9"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "62BD5C7471D8A9DB"
@@ -56,9 +56,9 @@
 				"24585C3114095227"
 			]
 			description: ["该阶段的核心机器"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "7523FB4AAB1F89C3"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "244F8871BA1B7E34"
@@ -117,7 +117,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5B73961795BE42EE"]
+			dependencies: ["6A5AB82C3E14D091"]
 			description: ["记得之前的艾萨线吗"]
 			id: "61B5CBFAACE6010D"
 			tasks: [{
@@ -132,6 +132,7 @@
 			dependencies: ["78350872B1ACF525"]
 			icon_scale: 2.0d
 			id: "1AA874C1351E4A0D"
+			shape: "rsquare"
 			tasks: [{
 				id: "1932A8FC6815B114"
 				item: "kubejs:adamantine_coil_block"
@@ -187,6 +188,8 @@
 			]
 			icon_scale: 2.0d
 			id: "39F73A63746EE6E8"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				id: "02A3997B96CC0AEC"
 				item: "kubejs:exotic_mainframe"
@@ -197,7 +200,7 @@
 		}
 		{
 			dependencies: ["7523FB4AAB1F89C3"]
-			description: [""]
+			description: ["需要一点石头粉"]
 			id: "61F8C5AA6DEB30D6"
 			tasks: [{
 				id: "78A6560A02FCD3E9"
@@ -312,7 +315,7 @@
 				item: "kubejs:x_ray_laser"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -324,7 +327,7 @@
 				item: "gtlcore:microfocus_x_ray_tube"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 8.0d
 		}
 		{
@@ -354,7 +357,7 @@
 			description: ["更大，更强"]
 			icon_scale: 2.0d
 			id: "33390417E8A0AB88"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "7AB2A11AD97054E2"
@@ -445,9 +448,9 @@
 				"63F90FA0F85804B8"
 			]
 			description: ["就像是装配线"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "30C1D7DEFB3B18BD"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "185FF9B96D2E6DA0"
@@ -459,7 +462,7 @@
 		}
 		{
 			dependencies: ["3063F232F801D089"]
-			description: ["循环增产"]
+			description: ["通过注入龙力的黑曜石循环增产"]
 			id: "192B626CF217FDBC"
 			tasks: [{
 				id: "529CC0E222436601"
@@ -471,7 +474,7 @@
 		}
 		{
 			dependencies: ["09210B5E086F6E1A"]
-			description: ["使用小堆粉磁化"]
+			description: ["先使用小堆粉进行磁化"]
 			id: "77BE1524AABF6003"
 			tasks: [{
 				id: "226943A2546478B5"
@@ -508,6 +511,7 @@
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
+			description: ["有点复杂"]
 			icon: "gtceu:californium_cyclopentadienide_bucket"
 			id: "281B6C20538A3CBA"
 			tasks: [{
@@ -515,7 +519,7 @@
 				title: "环戊二烯锎"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -523,7 +527,7 @@
 			description: ["不用堆大量计算机了"]
 			icon_scale: 2.0d
 			id: "181A1B6F5AD15F52"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "5EBD9582ED477D88"
@@ -547,10 +551,16 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"713FF88279AD9A31"
+				"32A49A2CBFC934C8"
+			]
 			description: ["绝对干净"]
+			hide_dependency_lines: true
 			icon: "gtlcore:law_filter_casing"
 			icon_scale: 2.0d
 			id: "67D93082DA7185CC"
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "6791BE188E97863E"
@@ -624,7 +634,7 @@
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "3968C254B6AC9B9D"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "0F05C8DA47EB7768"
@@ -639,6 +649,7 @@
 			description: ["在1阶的基础上升级"]
 			icon_scale: 2.0d
 			id: "1C4D5D7786F64485"
+			shape: "rsquare"
 			tasks: [{
 				id: "2EA2C34D0708CF9A"
 				item: "gtceu:nano_forge_2"
@@ -677,9 +688,10 @@
 		}
 		{
 			dependencies: ["588C2C0BED069F41"]
-			icon_scale: 2.0d
+			description: ["最后的聚变"]
+			icon_scale: 1.3d
 			id: "0ED237B0CE3DDF59"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "3D1314CB02CBCEAC"
@@ -716,6 +728,7 @@
 				item: "gtceu:heat_sensor"
 				type: "item"
 			}]
+			shape: "rsquare"
 			size: 1.0d
 			subtitle: "可以使用温度传感器控制温度"
 			tasks: [{
@@ -725,23 +738,6 @@
 			}]
 			x: 14.0d
 			y: 0.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6AAC6E7C8721EBD7"]
-			id: "37B2A73D364B8B46"
-			rewards: [{
-				id: "23EA8BD5259202B3"
-				item: "gtceu:heat_sensor"
-				type: "item"
-			}]
-			tasks: [{
-				id: "449243F9C62E3E58"
-				type: "checkmark"
-			}]
-			title: "如果不够可以在这里领取"
-			x: 14.0d
-			y: 2.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

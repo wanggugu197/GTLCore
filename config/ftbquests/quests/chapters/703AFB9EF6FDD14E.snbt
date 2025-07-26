@@ -123,7 +123,7 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
-			description: [""]
+			description: ["用远古世界碎片可以挖到神秘方块，放置然后打破可以获得AE发展的必须物品"]
 			id: "2DD0AD4DDBA7BFD0"
 			optional: true
 			rewards: [{
@@ -143,6 +143,7 @@
 		}
 		{
 			dependencies: ["7F78340CB4A8EC59"]
+			description: ["你还可以用UU物质复制维度碎片"]
 			hide: false
 			id: "7C24D5FD2C008BD4"
 			optional: true
@@ -369,6 +370,7 @@
 				title: "有关内容"
 				type: "checkmark"
 			}]
+			title: "如何开服"
 			x: -1.5d
 			y: 3.0d
 		}

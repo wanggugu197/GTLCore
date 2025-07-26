@@ -9,6 +9,8 @@
 	quest_links: [{
 		id: "2B20C263CB41DBAD"
 		linked_quest: "296DE95F3BE7DC54"
+		shape: "hexagon"
+		size: 2.0d
 		x: -1.0d
 		y: 2.5d
 	}]
@@ -63,13 +65,15 @@
 					type: "item"
 				}
 			]
+			title: "星体套"
 			x: 5.0d
 			y: 0.5d
 		}
 		{
 			dependencies: ["67A81E3F7E247521"]
-			description: ["未知之地"]
+			description: ["穿戴星体套进入"]
 			id: "1416EAE88C9030C8"
+			subtitle: "未知之地"
 			tasks: [{
 				dimension: "kubejs:create"
 				id: "533527A60F7C2024"
@@ -84,6 +88,7 @@
 			description: ["交易获得的物品，但不知道如何使用"]
 			icon_scale: 2.0d
 			id: "470DDCCD8E017A4F"
+			shape: "rsquare"
 			tasks: [{
 				id: "6C1581BB60019E84"
 				item: "minecraft:command_block"
@@ -165,6 +170,7 @@
 			dependencies: ["338F629A694C7556"]
 			icon_scale: 2.0d
 			id: "7C4AD33299386B47"
+			shape: "rsquare"
 			tasks: [{
 				id: "29CE180A8857179D"
 				item: "gtceu:gravitation_shockburst"
@@ -186,9 +192,14 @@
 		}
 		{
 			dependencies: ["48925ECBCC5D268D"]
-			description: ["如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"]
+			description: [
+				"需要输入MAX级电压"
+				""
+				"如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"
+			]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
+			shape: "rsquare"
 			tasks: [{
 				id: "46A19A3E3D3CF4A9"
 				item: "gtceu:create_computation"
@@ -215,10 +226,12 @@
 			]
 			description: [
 				"耗能固定为16A MAX"
-				"核心放入输入总线，方块放机器正中间"
+				"如同方块转换室一般，输入总线放入核心，机器正中间放置方块以进行转换"
+				"算力需求只能通过创造计算机满足"
 			]
 			icon_scale: 2.0d
 			id: "2F9392EF05DB11EF"
+			shape: "rsquare"
 			tasks: [{
 				id: "7AB830407E68C7F1"
 				item: "gtceu:create_aggregation"
@@ -293,7 +306,10 @@
 		{
 			dependencies: ["75CE99CD1614FB64"]
 			description: ["放入数据库中以获得所有研究数据"]
+			icon_scale: 2.0d
 			id: "31B4B834D5DD87DB"
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "毕业了"
 			tasks: [{
 				id: "6D68D65E443AE5FE"
@@ -308,8 +324,15 @@
 				"2A19E7C6DC247B90"
 				"2D1F2793A396B322"
 			]
-			description: ["可以放入有源变压器中以让无线电网获得无穷的电力"]
+			description: [
+				"创造激光靶仓可以放入有源变压器中以让无线电网获得无穷的电力"
+				""
+				"还可以将创造能源放入机器中，使机器获得远超于4194304A MAX的功率"
+			]
+			icon_scale: 2.0d
 			id: "5F145D9019C4BC48"
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "毕业了"
 			tasks: [
 				{
@@ -323,6 +346,7 @@
 					type: "item"
 				}
 			]
+			title: "创造模式电源"
 			x: 13.0d
 			y: 1.5d
 		}
@@ -332,8 +356,9 @@
 				"31B4B834D5DD87DB"
 			]
 			description: ["你看着它好像看到了好多个银河年前泛银河格雷科技销售部货架上的那个大胡子玩偶"]
-			icon_scale: 2.0d
 			id: "516498830339A0A9"
+			shape: "diamond"
+			size: 2.0d
 			subtitle: "附加题"
 			tasks: [{
 				id: "74404EE9AEC393D4"
@@ -341,7 +366,7 @@
 				type: "item"
 			}]
 			title: "我会永远陪着你的"
-			x: 14.5d
+			x: 15.0d
 			y: 2.5d
 		}
 		{
@@ -360,13 +385,14 @@
 				item: "gtlcore:ultimate_tea"
 				type: "item"
 			}]
+			subtitle: "休息一下吧"
 			tasks: [{
 				id: "334CC982B1A39C03"
 				item: "expatternprovider:fishbig"
 				type: "item"
 			}]
 			title: "终于，结束了"
-			x: 16.5d
+			x: 17.5d
 			y: 2.5d
 		}
 	]

@@ -993,7 +993,7 @@
 		}
 		{
 			dependencies: ["751BF4CAEE613BBA"]
-			description: ["你最开始的氢来自于电解水"]
+			description: ["你最开始的氢来自于电解水，后续可以建造氢氧化钾-钾循环大量获得氢"]
 			icon: "gtceu:hydrogen_bucket"
 			id: "045D76184BFBD4D6"
 			tasks: [
@@ -1130,7 +1130,9 @@
 		{
 			dependencies: ["17DDE8CC39438A32"]
 			icon: "gtceu:polyvinyl_chloride_plate"
+			icon_scale: 2.0d
 			id: "3BF89185AEB4D1D5"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "4CC37056BBF4E13E"
@@ -1149,7 +1151,9 @@
 		{
 			dependencies: ["2A312C620F9B58F9"]
 			icon: "gtceu:polyethylene_plate"
+			icon_scale: 2.0d
 			id: "426D0530EE68DF73"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "06E00F6C4DE2B487"
@@ -1653,7 +1657,9 @@
 		{
 			dependencies: ["6BA527FE4D528D54"]
 			icon: "gtceu:iridium_dust"
+			icon_scale: 2.0d
 			id: "17365ABC639496E6"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "4CCC488DCA086040"
@@ -1691,7 +1697,9 @@
 		{
 			dependencies: ["7B57E5FA2FD62C15"]
 			icon: "gtceu:osmium_dust"
+			icon_scale: 2.0d
 			id: "25FDE220C552A0D7"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "160FE1F2BCD8F27F"
@@ -1844,7 +1852,9 @@
 		{
 			dependencies: ["18FB4DDA55B7D430"]
 			icon: "gtceu:rhodium_dust"
+			icon_scale: 2.0d
 			id: "51AA4887F2DC9747"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "1530C7BBA1C03A74"
@@ -1969,7 +1979,9 @@
 		{
 			dependencies: ["6458E7BCD8D06C86"]
 			icon: "gtceu:ruthenium_dust"
+			icon_scale: 2.0d
 			id: "20D5748D17E2C06D"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "18994A92E76B04F4"
@@ -2199,7 +2211,9 @@
 		{
 			dependencies: ["45A543C859C4C376"]
 			icon: "gtceu:technetium_dust"
+			icon_scale: 2.0d
 			id: "3F5618A925DFA300"
+			shape: "diamond"
 			subtitle: "UV才会用到"
 			tasks: [
 				{
@@ -2318,7 +2332,9 @@
 		{
 			dependencies: ["6D650AE5A76585B3"]
 			icon: "gtceu:protactinium_dust"
+			icon_scale: 2.0d
 			id: "35897D7A428FCED0"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "704C02EA24462B26"
@@ -2336,8 +2352,11 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
+			description: [""]
 			icon: "gtceu:neptunium_dust"
+			icon_scale: 2.0d
 			id: "37B172AA6C7DD6BB"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "7C4FBD756DAE51CC"
@@ -2358,7 +2377,9 @@
 			description: ["离心核废料得到小搓钋"]
 			hide_dependent_lines: true
 			icon: "gtceu:polonium_dust"
+			icon_scale: 2.0d
 			id: "7B412E455E2C321B"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "146DB1101ED83C52"
@@ -2385,7 +2406,10 @@
 				"需要大量硫酸"
 			]
 			icon: "gtceu:indium_dust"
+			icon_scale: 2.0d
 			id: "3EAC914AA2073B05"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "3EAEF8CE76B2B015"
@@ -2405,11 +2429,31 @@
 			icon: "gtceu:indium_concentrate_bucket"
 			id: "150F3113E9012C2F"
 			subtitle: "土法制铟"
-			tasks: [{
-				id: "66A5321988EAF6B3"
-				title: "铟富集溶液"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "1FB16AD12252A875"
+					item: "gtceu:purified_sphalerite_ore"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53830C9C023DCB84"
+					item: "gtceu:purified_galena_ore"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "297406E29DD94621"
+					item: "gtceu:indium_concentrate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26FD390785A98943"
+					type: "checkmark"
+				}
+			]
+			title: "铟富集溶液"
 			x: 28.0d
 			y: 13.0d
 		}
@@ -2662,7 +2706,10 @@
 		{
 			dependencies: ["7D19A74F09F44223"]
 			icon: "gtceu:epoxy_plate"
+			icon_scale: 2.0d
 			id: "759824A6A24F9391"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "2105F3044230694A"
@@ -2675,13 +2722,16 @@
 					type: "checkmark"
 				}
 			]
-			x: 46.5d
+			x: 46.0d
 			y: 13.0d
 		}
 		{
 			dependencies: ["7D19A74F09F44223"]
 			icon: "gtceu:reinforced_epoxy_resin_plate"
+			icon_scale: 2.0d
 			id: "54A96B7FC3BCD185"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "66B4792661202AC9"
@@ -2694,7 +2744,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 48.0d
+			x: 46.0d
 			y: 12.0d
 		}
 		{
@@ -2716,7 +2766,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 45.0d
+			x: 44.5d
 			y: 12.5d
 		}
 		{
@@ -2758,7 +2808,7 @@
 				}
 			]
 			x: 43.0d
-			y: 14.0d
+			y: 13.5d
 		}
 		{
 			icon: "gtceu:glycerol_bucket"
@@ -2800,7 +2850,10 @@
 		{
 			dependencies: ["46797764E081856A"]
 			icon: "gtceu:silicone_rubber_ingot"
+			icon_scale: 2.0d
 			id: "500007BA3E0A9A1F"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "6D8A9B33C18B9379"
@@ -2814,7 +2867,7 @@
 				}
 			]
 			x: 44.5d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			icon: "gtceu:polydimethylsiloxane_dust"
@@ -2832,12 +2885,15 @@
 				}
 			]
 			x: 43.0d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["6BAC2A8A96690442"]
 			icon: "gtceu:styrene_butadiene_rubber_ingot"
+			icon_scale: 2.0d
 			id: "7938BA1C0CB57D03"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "3329A91E65A9B347"
@@ -2914,7 +2970,10 @@
 		{
 			dependencies: ["68FB8A7DC0CE1544"]
 			icon: "gtceu:laminated_glass"
+			icon_scale: 2.0d
 			id: "2C6D1ED1B5DF1A59"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "78533B9232E92D51"
@@ -3013,7 +3072,10 @@
 				"23C7020C07C7E2E9"
 			]
 			icon: "gtceu:polybenzimidazole_plate"
+			icon_scale: 2.0d
 			id: "477D384E9CA341EF"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "57133854959FB25A"
@@ -3187,7 +3249,10 @@
 				"25FFF408FC4FE14F"
 			]
 			icon: "gtceu:polyphenylene_sulfide_plate"
+			icon_scale: 2.0d
 			id: "1D235570F7FF1BF1"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "6C5EBD40B693B972"
@@ -3435,6 +3500,7 @@
 			can_repeat: false
 			dependencies: ["6C248CBD3C3C6A60"]
 			dependency_requirement: "one_completed"
+			description: ["回收独居石"]
 			icon: "gtceu:thorium_phosphate_refined_powder_dust"
 			id: "7ACA4ED39A1119FD"
 			tasks: [
@@ -3492,6 +3558,7 @@
 		}
 		{
 			dependencies: ["464EEB44F0B7A22D"]
+			description: ["获取铀-235的另一种手段"]
 			hide_dependent_lines: true
 			icon: "gtceu:neutralized_uranium_filter_residue_powder_dust"
 			id: "05496BBB8ABFAA30"
@@ -3791,9 +3858,13 @@
 				"3D0269117FB85C9E"
 				"528C6451188B2D1B"
 				"48B894E2E4986481"
+				"701925BC9731EC86"
 			]
 			icon: "gtceu:samarium_dust"
+			icon_scale: 2.0d
 			id: "2EB12E9509B5DEC0"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "5DB0FAB49EE7B7BE"
@@ -3812,7 +3883,10 @@
 		{
 			dependencies: ["3D0269117FB85C9E"]
 			icon: "gtceu:gadolinium_dust"
+			icon_scale: 2.0d
 			id: "5C1DD02C486DE5B8"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "712A70214E470FB6"
@@ -3869,6 +3943,8 @@
 		}
 		{
 			dependencies: ["2BB0DDC08A816CD8"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			icon: "gtceu:cerium_oxide_dust"
 			id: "35EDC45B7E060C4E"
 			tasks: [
@@ -3948,6 +4024,7 @@
 		}
 		{
 			dependencies: ["6C8E955523139E76"]
+			hide_dependent_lines: true
 			icon: "gtceu:lanthanum_chloride_dust"
 			id: "07A82335BAF78EFE"
 			tasks: [
@@ -4096,7 +4173,7 @@
 				}
 			]
 			x: 35.0d
-			y: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["00E4396DF297B6A3"]
@@ -4449,7 +4526,10 @@
 		{
 			dependencies: ["28A615DDEAC65561"]
 			icon: "gtceu:holmium_dust"
+			icon_scale: 2.0d
 			id: "32B28C8978A03681"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "26E350E1FF39814B"
@@ -5088,7 +5168,10 @@
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:naquadria_sulfate_dust"
+			icon_scale: 2.0d
 			id: "30D6A973D89212B9"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "4199544AE7A66761"
@@ -5130,7 +5213,10 @@
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:trinium_sulfide_dust"
+			icon_scale: 2.0d
 			id: "7C45390524D47942"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [
 				{
 					id: "30DEB628EC345633"
@@ -5342,7 +5428,9 @@
 		{
 			dependencies: ["2AA1609DA42EA84F"]
 			icon: "gtceu:radium_dust"
+			icon_scale: 2.0d
 			id: "65BA1075B4BA1C0A"
+			shape: "diamond"
 			tasks: [
 				{
 					id: "7BC139E963716816"
@@ -5389,6 +5477,7 @@
 			icon: "gtceu:hexanitrohexaaxaisowurtzitane_dust"
 			icon_scale: 2.0d
 			id: "0A37BD850266E874"
+			shape: "diamond"
 			size: 1.0d
 			subtitle: "比较复杂的合成"
 			tasks: [
@@ -5524,8 +5613,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 32.0d
-			y: 33.0d
+			x: 33.5d
+			y: 31.5d
 		}
 		{
 			dependencies: ["50F6F9945899EA0F"]
@@ -6165,14 +6254,17 @@
 			y: 33.0d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0"]
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"67ECDD5601DBBB5B"
+			]
 			description: [""]
 			id: "0E926F9B91EECD78"
 			tasks: [{
 				id: "76185AEA8700EB09"
 				type: "checkmark"
 			}]
-			title: "钫处理"
+			title: "钫处理/凯金化合物处理"
 			x: 3.0d
 			y: 30.0d
 		}
@@ -6184,10 +6276,11 @@
 			icon: "gtceu:francium_dust"
 			icon_scale: 2.0d
 			id: "00F4B40AD214BCCD"
+			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "4AB0B2CBED3785A4"
 				item: "gtceu:francium_dust"
-				optional_task: true
 				type: "item"
 			}]
 			x: 15.0d
@@ -6461,7 +6554,6 @@
 			dependencies: [
 				"319FC4838B2A53F9"
 				"1F88892BA1B1A1C0"
-				"3E04448016A07625"
 				"3ACE24C4CD948728"
 			]
 			dependency_requirement: "one_completed"
@@ -7280,8 +7372,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 15.0d
-			y: 37.5d
+			x: 16.5d
+			y: 36.0d
 		}
 		{
 			dependencies: [
@@ -7302,8 +7394,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 16.5d
-			y: 36.0d
+			x: 15.0d
+			y: 37.5d
 		}
 		{
 			dependencies: ["799D31D3D0652E09"]
@@ -7321,8 +7413,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 16.5d
-			y: 37.5d
+			x: 15.0d
+			y: 39.0d
 		}
 		{
 			icon: "gtceu:sodium_hypochlorite_dust"
@@ -7357,14 +7449,15 @@
 					type: "checkmark"
 				}
 			]
-			x: 15.0d
-			y: 39.0d
+			x: 16.5d
+			y: 37.5d
 		}
 		{
 			dependencies: ["2F2926770C85FB36"]
 			description: ["先进的材料"]
 			icon_scale: 2.0d
 			id: "1D6792F905D97277"
+			shape: "diamond"
 			size: 1.0d
 			tasks: [{
 				id: "39FE6CCC077CEA40"
@@ -7384,6 +7477,7 @@
 			icon: "gtceu:cycloparaphenylene_bucket"
 			icon_scale: 2.0d
 			id: "45A65E116A9B31E4"
+			shape: "diamond"
 			size: 1.0d
 			tasks: [
 				{
@@ -7850,6 +7944,833 @@
 			title: "环对苯撑"
 			x: 3.0d
 			y: 40.5d
+		}
+		{
+			dependencies: ["4BFA114E12BCB163"]
+			id: "47EC3A53E944E87B"
+			tasks: [{
+				id: "362AE23AF864D18D"
+				type: "checkmark"
+			}]
+			title: "聚氨酯树脂-凯夫拉"
+			x: 3.0d
+			y: 45.0d
+		}
+		{
+			dependencies: [
+				"5C20CFA301259438"
+				"2630DFE15885F893"
+				"259ABBCBCE6600C1"
+				"75B3B0BD8426A719"
+			]
+			icon: "gtceu:liquidcrystalkevlar_bucket"
+			icon_scale: 2.0d
+			id: "351519CEF1DFC684"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "56CFCD9351899C08"
+					item: "gtceu:liquidcrystalkevlar_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78978632B91B2DBC"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 46.5d
+		}
+		{
+			dependencies: [
+				"5699812EE4E39FD6"
+				"20AC007D9ABAABC4"
+				"2F58D3EB6585630B"
+				"69E6F73DB1597787"
+			]
+			icon: "gtceu:polyurethaneresin_bucket"
+			icon_scale: 2.0d
+			id: "5428007961F407DB"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "5D2B0E7B80FA651E"
+					item: "gtceu:polyurethaneresin_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "503FD96A4A9A2001"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 48.0d
+		}
+		{
+			icon: "gtceu:calcium_chloride_dust"
+			id: "75B3B0BD8426A719"
+			tasks: [
+				{
+					id: "0F833952A3C0E4FE"
+					item: "gtceu:calcium_chloride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "45F77632B3E89BE2"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 45.0d
+		}
+		{
+			dependencies: [
+				"1801E0D00A1A18BE"
+				"42419FAF75A89201"
+			]
+			icon: "gtceu:terephthaloyl_chloride_dust"
+			id: "2630DFE15885F893"
+			tasks: [
+				{
+					id: "6FF7A2C732EA8EFB"
+					item: "gtceu:terephthaloyl_chloride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "269B725E46602F1A"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["2AE09A7E41DF9E4D"]
+			icon: "gtceu:p_phenylenediamine_dust"
+			id: "259ABBCBCE6600C1"
+			tasks: [
+				{
+					id: "2B5DAEBD11B6C011"
+					item: "gtceu:p_phenylenediamine_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50311C89AB594DA1"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"777EEC728D2F9F26"
+				"4943427F26262FDD"
+			]
+			icon: "gtceu:nmethylpyrolidone_bucket"
+			id: "5C20CFA301259438"
+			tasks: [
+				{
+					id: "4C56ED37F2750030"
+					item: "gtceu:nmethylpyrolidone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6428266AB67FCC2A"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["36F3325595E29676"]
+			icon: "gtceu:thionyl_chloride_bucket"
+			id: "42419FAF75A89201"
+			tasks: [
+				{
+					id: "6F2E65533F0AF842"
+					item: "gtceu:thionyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C4EB010A6FF8E5D"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 45.0d
+		}
+		{
+			dependencies: ["39B2241A9F0A269D"]
+			icon: "gtceu:terephthalicacid_bucket"
+			id: "480E979B741CB6F9"
+			tasks: [
+				{
+					id: "1C7CCDA225033032"
+					item: "gtceu:terephthalicacid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "126D98B40AB6583C"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 46.5d
+		}
+		{
+			icon: "gtceu:sulfur_trioxide_bucket"
+			id: "36F3325595E29676"
+			tasks: [
+				{
+					id: "6489B037A4164CAF"
+					item: "gtceu:sulfur_trioxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "086C59B91B6F3FDE"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 45.0d
+		}
+		{
+			icon: "gtceu:phthalic_acid_bucket"
+			id: "39B2241A9F0A269D"
+			tasks: [
+				{
+					id: "164FC1159DB59E25"
+					item: "gtceu:phthalic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FE3911918DCB40E"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A6A087B96EB1181"
+					item: "gtceu:cadmium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F9C29A2B8E86FC7"
+					item: "gtceu:sodium_bisulfate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C88D6EC6D83BADD"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 46.5d
+		}
+		{
+			dependencies: ["480E979B741CB6F9"]
+			icon: "gtceu:dimethylterephthalate_bucket"
+			id: "1801E0D00A1A18BE"
+			tasks: [
+				{
+					id: "2518FF03F68F72B3"
+					item: "gtceu:dimethylterephthalate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7EB5A3AB75A901F5"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 46.5d
+		}
+		{
+			dependencies: [
+				"39FCEDFD190D38ED"
+				"5CB47EEBC0F0D007"
+				"66DF38DEECEBD5E0"
+			]
+			icon: "gtceu:p_nitroaniline_bucket"
+			id: "2AE09A7E41DF9E4D"
+			tasks: [
+				{
+					id: "23A55DEC433B9703"
+					item: "gtceu:p_nitroaniline_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C184B2B4DE575D6"
+					item: "gtceu:palladium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "162F32325AB9B0AD"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 48.0d
+		}
+		{
+			icon: "gtceu:nitration_mixture_bucket"
+			id: "39FCEDFD190D38ED"
+			tasks: [
+				{
+					id: "4A4D09E6E5A7D01F"
+					item: "gtceu:nitration_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3060EF6D3598D47A"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["4785A145DBF5CBE4"]
+			hide_dependency_lines: true
+			icon: "gtceu:acetic_anhydride_bucket"
+			id: "66DF38DEECEBD5E0"
+			tasks: [
+				{
+					id: "091516FF6049EC05"
+					item: "gtceu:acetic_anhydride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "73E6A63093D34F41"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 49.5d
+		}
+		{
+			dependencies: ["592C0264659CC4F9"]
+			icon: "gtceu:aniline_bucket"
+			id: "5CB47EEBC0F0D007"
+			tasks: [
+				{
+					id: "191E8C60307F2117"
+					item: "gtceu:aniline_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "344642BC70F1B912"
+					type: "checkmark"
+				}
+			]
+			x: 12.0d
+			y: 49.5d
+		}
+		{
+			dependencies: ["39FCEDFD190D38ED"]
+			icon: "gtceu:nitrobenzene_bucket"
+			id: "592C0264659CC4F9"
+			tasks: [
+				{
+					id: "04D9077E3131D4AF"
+					item: "gtceu:nitrobenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "31CA6E1552B13CA8"
+					item: "gtceu:zinc_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69B193E239AF6027"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 48.0d
+		}
+		{
+			icon: "gtceu:methylamine_bucket"
+			id: "777EEC728D2F9F26"
+			tasks: [
+				{
+					id: "6D0F917F3C0E36BC"
+					item: "gtceu:methylamine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "44C67401781EAEF0"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 49.5d
+		}
+		{
+			dependencies: ["3E9BA411902E95AD"]
+			icon: "gtceu:gammabutyrolactone_bucket"
+			id: "4943427F26262FDD"
+			tasks: [
+				{
+					id: "346D278E18DC7761"
+					item: "gtceu:gammabutyrolactone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "334E5DE157FC32DE"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 49.5d
+		}
+		{
+			dependencies: [
+				"2AABD40D9E333983"
+				"77685CD0D6D836B2"
+			]
+			icon: "gtceu:butane_1_4_diol_bucket"
+			id: "3E9BA411902E95AD"
+			tasks: [
+				{
+					id: "2C1BE6BF4D98FF65"
+					item: "gtceu:butane_1_4_diol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6DB54AF3DB54C018"
+					item: "gtceu:copper_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21D5F33A4865DBCD"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: 51.0d
+		}
+		{
+			icon: "gtceu:tellurium_oxide_dust"
+			id: "2AABD40D9E333983"
+			tasks: [
+				{
+					id: "080C6CB62011F89E"
+					item: "gtceu:tellurium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "714870321D787CB6"
+					type: "checkmark"
+				}
+			]
+			x: 13.5d
+			y: 51.0d
+		}
+		{
+			icon: "gtceu:molybdenum_trioxide_dust"
+			id: "77685CD0D6D836B2"
+			tasks: [
+				{
+					id: "1BB83B49ADD0DA37"
+					item: "gtceu:molybdenum_trioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75B37A843EBF2FC0"
+					type: "checkmark"
+				}
+			]
+			x: 16.5d
+			y: 51.0d
+		}
+		{
+			dependencies: [
+				"3368ECC0AF9AA5F3"
+				"24A3BE95E8422E87"
+			]
+			icon: "gtceu:pentaerythritol_dust"
+			id: "5699812EE4E39FD6"
+			tasks: [
+				{
+					id: "1E52706993A053D9"
+					item: "gtceu:pentaerythritol_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "522217655ABB534A"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 48.0d
+		}
+		{
+			dependencies: ["240D8F1C0C8037C8"]
+			icon: "gtceu:diphenylmethane_diisocyanate_dust"
+			id: "69E6F73DB1597787"
+			tasks: [
+				{
+					id: "31E79AE72B78E4DE"
+					item: "gtceu:diphenylmethane_diisocyanate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DF5EEA6D1542E1F"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 49.5d
+		}
+		{
+			dependencies: ["7E99A9D66824673E"]
+			icon: "gtceu:ethyleneglycol_bucket"
+			id: "20AC007D9ABAABC4"
+			tasks: [
+				{
+					id: "2AB5918AAA81AED9"
+					item: "gtceu:ethyleneglycol_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02396316399FAC59"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 48.0d
+		}
+		{
+			dependencies: [
+				"7E99A9D66824673E"
+				"7B9B357D62E0602A"
+			]
+			icon: "gtceu:siliconoil_bucket"
+			id: "2F58D3EB6585630B"
+			tasks: [
+				{
+					id: "5696222B26650188"
+					item: "gtceu:siliconoil_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17EDE826B0D47B1B"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 46.5d
+		}
+		{
+			dependencies: ["6D57E3EA38886CD1"]
+			icon: "gtceu:formaldehyde_bucket"
+			id: "3368ECC0AF9AA5F3"
+			tasks: [
+				{
+					id: "33619703D03C03DC"
+					item: "gtceu:formaldehyde_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "451E2487C7879D3D"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 48.0d
+		}
+		{
+			dependencies: ["6D57E3EA38886CD1"]
+			icon: "gtceu:acetaldehyde_bucket"
+			id: "24A3BE95E8422E87"
+			tasks: [
+				{
+					id: "014691B038D8AD7F"
+					item: "gtceu:acetaldehyde_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A38D844DB7115A4"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 46.5d
+		}
+		{
+			icon: "gtceu:acetone_bucket"
+			id: "6D57E3EA38886CD1"
+			tasks: [
+				{
+					id: "0472BA6EEF9339CC"
+					item: "gtceu:acetone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B2B5BA5CDDF43EA"
+					item: "gtceu:osmium_tetroxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FD0B1A9C7A2CEDB"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 46.5d
+		}
+		{
+			icon: "gtceu:ethylene_oxide_bucket"
+			id: "7E99A9D66824673E"
+			tasks: [
+				{
+					id: "5A5C06020F3F0D20"
+					item: "gtceu:ethylene_oxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3005B6A05481125F"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 46.5d
+		}
+		{
+			dependencies: ["379783BB61405372"]
+			hide_dependency_lines: true
+			icon: "gtceu:dimethyldichlorosilane_bucket"
+			id: "7B9B357D62E0602A"
+			tasks: [
+				{
+					id: "2441F627CA40B439"
+					item: "gtceu:dimethyldichlorosilane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30BA2045D5EC06DC"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: 45.0d
+		}
+		{
+			dependencies: [
+				"3D515A28C76978A4"
+				"4A3FEDF12C097F29"
+			]
+			icon: "gtceu:diphenylmethanediisocyanatemixture_bucket"
+			id: "240D8F1C0C8037C8"
+			tasks: [
+				{
+					id: "119A680E2D3B4910"
+					item: "gtceu:diphenylmethanediisocyanatemixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70938E7E85891166"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 49.5d
+		}
+		{
+			icon: "gtceu:phosgene_bucket"
+			id: "4A3FEDF12C097F29"
+			tasks: [
+				{
+					id: "3D97D501149D0D48"
+					item: "gtceu:phosgene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2FEB1E2F22460B70"
+					type: "checkmark"
+				}
+			]
+			x: 9.0d
+			y: 51.0d
+		}
+		{
+			dependencies: [
+				"3368ECC0AF9AA5F3"
+				"5CB47EEBC0F0D007"
+			]
+			icon: "gtceu:diaminodiphenylmethanmixture_bucket"
+			id: "3D515A28C76978A4"
+			tasks: [
+				{
+					id: "568C8FDE8DC065D2"
+					item: "gtceu:diaminodiphenylmethanmixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DD47D232986E7F7"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 49.5d
+		}
+		{
+			dependencies: [
+				"0BCC84DA8DE39FC9"
+				"35EDC45B7E060C4E"
+				"27DB26148D72E259"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:cerium_dust"
+			icon_scale: 2.0d
+			id: "2A7BB94047BD42E9"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "17F4452862287597"
+					item: "gtceu:cerium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03AC663F7EA98B92"
+					type: "checkmark"
+				}
+			]
+			x: 26.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"07A82335BAF78EFE"
+				"26597A2ED848C9A1"
+			]
+			dependency_requirement: "one_completed"
+			icon: "gtceu:lanthanum_dust"
+			icon_scale: 2.0d
+			id: "5CC02A5F67A676F6"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "69CCA25F4CA41F6C"
+					item: "gtceu:lanthanum_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AD7AAEBA6E63296"
+					type: "checkmark"
+				}
+			]
+			x: 36.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5D62F873D2AE9ABA"]
+			icon: "gtceu:europium_dust"
+			icon_scale: 2.0d
+			id: "337AEE190971194A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2531D9E3E2F3B5B2"
+					item: "gtceu:europium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "78557218E0D4B2B0"
+					type: "checkmark"
+				}
+			]
+			x: 35.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C29D6DC794FDEC6"]
+			icon: "gtceu:neodymium_dust"
+			icon_scale: 2.0d
+			id: "40819B02D619CC50"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "04A4A48B18A019BC"
+					item: "gtceu:neodymium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4AA59F660B09662F"
+					type: "checkmark"
+				}
+			]
+			x: 33.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1874E85F7D8DBF28"]
+			icon: "gtceu:terbium_dust"
+			icon_scale: 2.0d
+			id: "3B7425C576EB10C2"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "75EC27FBF3F8C250"
+					item: "gtceu:terbium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "004C69E4CFE76FA7"
+					type: "checkmark"
+				}
+			]
+			x: 38.0d
+			y: 10.0d
 		}
 	]
 	title: "资源获取"

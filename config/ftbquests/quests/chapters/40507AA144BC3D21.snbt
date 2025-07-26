@@ -15,9 +15,9 @@
 				"32186EFF7020D432"
 			]
 			description: ["不超频时耗电量平均为1024A MAX"]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "3E5EBC2B23A503C1"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			subtitle: "记得放爆弹"
 			tasks: [{
@@ -74,7 +74,9 @@
 				"11A7CCFCEAB722F3"
 				"622395061792FB5E"
 			]
+			icon_scale: 2.0d
 			id: "63998161D9D731E7"
+			size: 1.0d
 			tasks: [{
 				id: "21C930811EE5218B"
 				item: "gtceu:transcendentmetal_ingot"
@@ -136,7 +138,7 @@
 				"771080AF846271E3"
 				"6AC9C2DEDE46A99D"
 			]
-			description: ["建议替换UXV及以后的电路"]
+			description: ["建议刚做出来时仅替换UXV及以后的电路"]
 			icon_scale: 2.0d
 			id: "414F9C645C799FAE"
 			subtitle: "可大批量生产"
@@ -154,7 +156,6 @@
 				"2A29DA4239E6BA44"
 				"3FBFE193579C28E3"
 			]
-			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "0A6C5B3C148A5743"
 			tasks: [{
@@ -200,6 +201,7 @@
 			dependencies: ["00A227F06D7F109E"]
 			icon_scale: 2.0d
 			id: "622395061792FB5E"
+			shape: "rsquare"
 			subtitle: "2112"
 			tasks: [{
 				id: "049F132CCC5B262C"
@@ -244,8 +246,8 @@
 			description: ["最高67108864A MAX输出"]
 			icon_scale: 2.0d
 			id: "0610CD9378D8B0AD"
-			shape: "gear"
-			size: 2.0d
+			shape: "rsquare"
+			size: 1.0d
 			subtitle: "可以把你最高级别的激光仓填满"
 			tasks: [{
 				id: "50D76B27937DC429"
@@ -258,17 +260,17 @@
 		{
 			dependencies: ["63998161D9D731E7"]
 			description: ["回想你在聚变三做了什么"]
-			hide_dependency_lines: false
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "5A6EA61F3E61D086"
-			shape: "gear"
+			shape: "rsquare"
 			tasks: [{
 				id: "6DA1FC65BA6A379B"
 				item: "gtceu:max_neutron_compressor"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -276,10 +278,14 @@
 				"3F2335911E21E042"
 				"51D5E14423F35E6F"
 			]
-			description: ["耗能固定为4A MAX"]
-			icon_scale: 2.0d
+			description: [
+				"耗能固定为4A MAX"
+				""
+				"配方耗时为1s时才能正常运作"
+			]
+			icon_scale: 1.3d
 			id: "296DE95F3BE7DC54"
-			shape: "rsquare"
+			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
 				id: "68BE29A496275699"
@@ -299,7 +305,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -362,8 +368,8 @@
 				type: "checkmark"
 			}]
 			title: "恒星超维度催化剂"
-			x: -7.0d
-			y: -9.0d
+			x: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["32186EFF7020D432"]
@@ -397,6 +403,7 @@
 			description: ["用于优化产线"]
 			icon_scale: 2.0d
 			id: "3CE5E9F78C13E1CD"
+			shape: "rsquare"
 			size: 1.0d
 			subtitle: "2112"
 			tasks: [{
@@ -415,6 +422,7 @@
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "355AB57EE5123594"
+			shape: "rsquare"
 			size: 1.0d
 			subtitle: "2112+780"
 			tasks: [{
@@ -498,8 +506,8 @@
 				type: "checkmark"
 			}]
 			title: "激发的恒星超维度催化剂"
-			x: -9.0d
-			y: -9.0d
+			x: -8.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["63EE8AA3FC07B820"]
@@ -524,8 +532,8 @@
 				type: "checkmark"
 			}]
 			title: "激发的异星超维度催化剂"
-			x: -5.0d
-			y: 1.0d
+			x: -3.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["365548266DF60F91"]
@@ -536,8 +544,8 @@
 				item: "kubejs:timepiece"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.0d
+			x: 3.0d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Tier13-OpV"]

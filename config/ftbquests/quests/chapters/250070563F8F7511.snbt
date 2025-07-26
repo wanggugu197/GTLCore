@@ -245,7 +245,7 @@
 			dependencies: ["77DF4A561164B530"]
 			description: [
 				"黑曜石可以去虚空世界，哭泣黑曜石可以去超平坦世界，传送X,Z坐标为主世界坐标x100"
-				"这里GT的太阳能设备无法工作"
+				"在这里GT的太阳能设备无法工作"
 			]
 			icon: "minecraft:obsidian"
 			id: "07AC1B02299EF734"
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["2C6F506ADD78F277"]
-			description: ["去小市场兑换宝物，注意钻石是非常耐烧，推荐给锅炉用"]
+			description: ["去小市场兑换宝物，注意钻石是耐烧王，推荐给锅炉用"]
 			id: "2E6B876A85B30554"
 			rewards: [{
 				id: "4C4D7911A44B42C2"
@@ -1228,7 +1228,7 @@
 		}
 		{
 			description: [
-				"鼠标移动到一个物品上面!（背包，右侧搜索栏，jei中"
+				"鼠标移动到一个物品上面!（背包，右侧搜索栏，jei中）"
 				""
 				"按r查看合成！！！"
 				"按u查看用途！！！"
@@ -1408,7 +1408,7 @@
 		}
 		{
 			dependencies: ["4B6F43302E963F5E"]
-			description: ["直接使用这些工具放置的无线能源/激光仓需要用闪存右键手动绑定无线电网，否则不会工作"]
+			description: ["直接使用这些工具放置/复制/剪切的无线能源/激光仓需要用闪存右键手动绑定无线电网，否则不会工作"]
 			id: "4B7B7EA38B836F96"
 			optional: true
 			subtitle: "这些工具很好用"
@@ -1436,11 +1436,6 @@
 							pastereplace: 1b
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "1C3F7D8574C0CE25"
-					item: "buildinggadgets2:gadget_exchanging"
 					type: "item"
 				}
 			]
