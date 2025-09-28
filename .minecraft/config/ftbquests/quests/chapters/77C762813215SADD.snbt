@@ -5,14 +5,15 @@
 	group: "24F4987B35ABEE82"
 	icon: "minecraft:diamond_ore"
 	id: "6A809CAE287B97BA"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["一个标准的铁矿脉.当你需要补充矿工用品时,这是一个不错的目标."]
 			icon: "gtceu:yellow_limonite_ore"
 			id: "692F4312B3F73FAF"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铁，铜来源"
 			tasks: [
 				{
@@ -46,13 +47,14 @@
 			]
 			title: "铁矿脉"
 			x: 1.5d
-			y: -3.7d
+			y: -3.5d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["铁，金，钒的很好来源"]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铁，金，钒，来源"
 			tasks: [
 				{
@@ -80,9 +82,10 @@
 			]
 			title: "磁铁矿脉"
 			x: 2.5d
-			y: -3.7d
+			y: -3.5d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"一种优秀的铁-铜混合矿脉."
 				""
@@ -90,7 +93,7 @@
 			]
 			icon: "gtceu:pyrite_ore"
 			id: "03FBBA4A693011A8"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铜，铁来源"
 			tasks: [
 				{
@@ -124,13 +127,14 @@
 			]
 			title: "铜矿脉"
 			x: 3.5d
-			y: -3.5d
+			y: -3.3d
 		}
 		{
-			description: ["一个适合早期游戏的好矿脉.铜和锡可以用来制造青铜,雄黄是你的第一种砷的来源,而沸石则没什么用途."]
+			dependencies: ["2BECA06D9AF485D3"]
+			description: ["一个适合早期游戏的好矿脉.铜和锡可以用来制造青铜,雄黄是你的第一种砷的来源."]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铜，铁，锡，砷来源"
 			tasks: [
 				{
@@ -167,10 +171,11 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["一种纯锡矿脉,对早期游戏非常有用."]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "锡来源"
 			tasks: [
 				{
@@ -195,6 +200,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"如果你还没有找到纯锡矿脉,这是一种不错的替代品."
 				""
@@ -202,7 +208,7 @@
 			]
 			icon: "gtceu:cassiterite_sand_ore"
 			id: "41616C31D9C08648"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "锡，镁来源"
 			tasks: [
 				{
@@ -239,10 +245,11 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["作为矿物,煤矿不值得大规模加工,因为需要太多的步骤将其转化成可用的燃料.但随身携带一些还是不错的选择."]
 			icon: "minecraft:coal_ore"
 			id: "1E27C654E2F6FFF2"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "煤炭来源"
 			tasks: [
 				{
@@ -261,6 +268,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"你获取钻石的唯一途径!"
 				""
@@ -270,7 +278,7 @@
 			]
 			icon: "gtceu:graphite_ore"
 			id: "1B45DB5C85B68182"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "石墨，钻石，煤炭来源"
 			tasks: [
 				{
@@ -301,6 +309,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"你获取氯的一站式商店."
 				""
@@ -308,7 +317,7 @@
 			]
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "钾，钠，锂，氟来源"
 			tasks: [
 				{
@@ -345,6 +354,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"这种矿脉在中期游戏时只有铝镁合金的价值."
 				""
@@ -352,7 +362,7 @@
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "镁，铁来源"
 			tasks: [
 				{
@@ -389,6 +399,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"闪闪发光!"
 				""
@@ -396,7 +407,7 @@
 			]
 			icon: "gtceu:red_garnet_ore"
 			id: "178285129CEA9F9F"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "项链来源"
 			tasks: [
 				{
@@ -433,14 +444,11 @@
 			y: 3.5d
 		}
 		{
-			description: [
-				"这几乎是你需要提纯磷的唯一矿脉,但需要进行几个步骤的加工才能获得磷."
-				""
-				"烧绿石将成为极其有价值的资源,因为它是铌的来源之一."
-			]
+			dependencies: ["2BECA06D9AF485D3"]
+			description: ["这几乎是你需要提纯磷的唯一矿脉,但需要进行几个步骤的加工才能获得磷."]
 			icon: "gtceu:apatite_ore"
 			id: "70252B72F7728EFD"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "钙，磷，氯来源"
 			tasks: [
 				{
@@ -465,10 +473,11 @@
 			y: 3.7d
 		}
 		{
-			description: ["你经典的红石矿脉."]
+			dependencies: ["2BECA06D9AF485D3"]
+			description: ["你经典的红石矿脉,早期的铬粉和汞来源"]
 			icon: "minecraft:redstone_ore"
 			id: "2E5A71CED4B01657"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "红石，铝，铬，汞来源"
 			tasks: [
 				{
@@ -499,6 +508,7 @@
 			y: 3.7d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"两种蓝宝石变体是你最主要的铝源,直到你能够在&bMV&r中解锁其他电解配方."
 				""
@@ -506,7 +516,7 @@
 			]
 			icon: "gtceu:sapphire_ore"
 			id: "6EFE154D32A2155E"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铝来源"
 			tasks: [
 				{
@@ -543,6 +553,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"是&6重油&r的好来源,早期用于&6液态燃料&r."
 				""
@@ -550,7 +561,8 @@
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
-			size: 0.9d
+			size: 1.0d
+			subtitle: "美国梦来源"
 			tasks: [
 				{
 					id: "301C4CD1E47E2D02"
@@ -568,6 +580,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"这个就是一个梗,它的名字叫做润滑油脉."
 				""
@@ -575,7 +588,7 @@
 			]
 			icon: "gtceu:soapstone_ore"
 			id: "676667089653641C"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "润滑油来源"
 			tasks: [
 				{
@@ -612,10 +625,11 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["方钠石是这里最有价值的矿石,尤其是在你达到&bMV&r时的电解配方非常有用."]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "青金石，钠，钙，铝，氯来源"
 			tasks: [
 				{
@@ -652,6 +666,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"锰铁矿是你在这里的目的地.它可以直接冶炼成锰,而你将需要大量的锰来制造&6HV&r的物品."
 				""
@@ -659,8 +674,8 @@
 			]
 			icon: "gtceu:pyrolusite_ore"
 			id: "2C75A50B17AA9AF1"
-			size: 0.9d
-			subtitle: "锰，钽，钙来源"
+			size: 1.0d
+			subtitle: "锰，钽，钙，铌来源"
 			tasks: [
 				{
 					id: "10FC904696261AF3"
@@ -696,10 +711,11 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["这是铅和银最稳定的来源."]
 			icon: "gtceu:galena_ore"
 			id: "14587AE142D84E12"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铅，银来源"
 			tasks: [
 				{
@@ -730,13 +746,14 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: [
 				"这是你唯一可信赖的镍源."
 				"注意这个硅镁镍矿，其实只有镍和氧产物"
 			]
 			icon: "gtceu:nickel_ore"
 			id: "38C955F6CBDD95BD"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "镍，钴来源"
 			tasks: [
 				{
@@ -773,10 +790,11 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["蓝晶石和云母在电解时有良好的分解性能,但还有更好的选择,所以如果你只想得到它们的副产物,就不需要特意去寻找."]
 			icon: "gtceu:mica_ore"
 			id: "0B4BA438FE7F3640"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铝，铯，氟来源"
 			tasks: [
 				{
@@ -807,10 +825,11 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["2BECA06D9AF485D3"]
 			description: ["这是最差的铁矿,虽然它在早期是有用的,但也就仅限于此了."]
 			icon: "gtceu:granitic_mineral_sand_ore"
 			id: "5295C4AEFA8417F3"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铁，石膏来源"
 			tasks: [
 				{
@@ -844,279 +863,10 @@
 			]
 			title: "矿沙矿脉"
 			x: 0.5d
-			y: -3.5d
+			y: -3.3d
 		}
 		{
-			description: ["事实上它是&5EV&r和其后期的进展中事实上唯一的稀土来源."]
-			icon: "gtceu:netherrack_bastnasite_ore"
-			id: "2171AF09E76A5968"
-			size: 0.9d
-			subtitle: "稀土，钕，氟来源"
-			tasks: [
-				{
-					id: "7628A17F2E48C5E7"
-					item: "gtceu:raw_bastnasite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "58035F336B84E40E"
-					item: "gtceu:raw_monazite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0D29E41B8AE83A61"
-					item: "gtceu:raw_neodymium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5972448A08F743CD"
-					type: "checkmark"
-				}
-			]
-			title: "独居石矿脉"
-			x: 7.4d
-			y: -3.2d
-		}
-		{
-			description: ["绿宝石矿是这里最实用的矿石.需要小量使用来制造&bMV&r中的技术物品"]
-			icon: "gtceu:netherrack_emerald_ore"
-			id: "594D84730913698A"
-			size: 0.9d
-			subtitle: "铍，绿宝石的来源"
-			tasks: [
-				{
-					id: "14C64BEBBC783475"
-					item: "gtceu:raw_beryllium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2C9AE00CBFC47850"
-					item: "gtceu:raw_emerald"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0962509F157C8D4B"
-					type: "checkmark"
-				}
-			]
-			title: "铍矿脉"
-			x: 8.4d
-			y: -4.0d
-		}
-		{
-			description: [
-				"这个矿脉非常稀有!恭喜你发现了它."
-				""
-				"基本上就是钼,加上不太重要的材料."
-			]
-			icon: "gtceu:netherrack_molybdenum_ore"
-			id: "63CB3C9F5A61E0C4"
-			size: 0.9d
-			subtitle: "钼矿的来源"
-			tasks: [
-				{
-					id: "382A7CC243D7042E"
-					item: "gtceu:raw_wulfenite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5C1C4E3F40124FC4"
-					item: "gtceu:raw_molybdenite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "38AF18FEEE493EB7"
-					item: "gtceu:raw_molybdenum"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "774C2E5939FE97B9"
-					item: "gtceu:raw_powellite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7A38D42695D9F80E"
-					type: "checkmark"
-				}
-			]
-			title: "钼矿脉"
-			x: 9.6d
-			y: -4.0d
-		}
-		{
-			description: [
-				"&b应用能源2&r中的发展需要 赛特斯石英 矿脉."
-				""
-				"重晶石经电解制成钡,你将需要它来制造一些高级超导材料."
-			]
-			icon: "gtceu:netherrack_certus_quartz_ore"
-			id: "517D50E748A129AB"
-			size: 0.9d
-			subtitle: "AE2，钡的来源"
-			tasks: [
-				{
-					id: "753C65ED1CA407C7"
-					item: "gtceu:raw_quartzite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "67D3F0CB9F86C4B1"
-					item: "gtceu:raw_certus_quartz"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5E2B885CEDBB3612"
-					item: "gtceu:raw_barite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "085173E91A9756F2"
-					type: "checkmark"
-				}
-			]
-			title: "赛特斯石英矿脉"
-			x: 10.6d
-			y: -3.2d
-		}
-		{
-			description: [
-				"蓝石在&6HV&r进展中非常重要.离心机中它分离成了琥珀金(一种金和银的来源)和红石."
-				""
-				"硝石在几个反应中使用"
-			]
-			icon: "gtceu:netherrack_saltpeter_ore"
-			id: "1F572D638AAACA21"
-			size: 0.9d
-			subtitle: "钾，蓝色合金的来源"
-			tasks: [
-				{
-					id: "5483A769AEEA0FA0"
-					item: "gtceu:raw_saltpeter"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "516DBCF047AE54F5"
-					item: "gtceu:raw_diatomite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0D26545E6CC6046C"
-					item: "gtceu:raw_electrotine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "35EEFC7F426C571D"
-					item: "gtceu:raw_alunite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "398AF0247A22067B"
-					type: "checkmark"
-				}
-			]
-			title: "硝石矿脉"
-			x: 11.0d
-			y: -2.0d
-		}
-		{
-			description: [
-				"任何一种黄玉矿石都非常适合电解."
-				""
-				"最好的氟化物来源."
-			]
-			icon: "gtceu:netherrack_topaz_ore"
-			id: "37EC97FB0FC6C56D"
-			size: 0.9d
-			subtitle: "铜，铝，氟的来源"
-			tasks: [
-				{
-					id: "29303BBBF186EA1B"
-					item: "gtceu:raw_blue_topaz"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "73E7A603F86446FC"
-					item: "gtceu:raw_topaz"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "74FEBF511ED054F7"
-					item: "gtceu:raw_chalcocite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "78BC31A5EA9316A0"
-					item: "gtceu:raw_bornite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "273449D4A38AE18D"
-					type: "checkmark"
-				}
-			]
-			title: "黄玉矿脉"
-			x: 10.6d
-			y: -0.8d
-		}
-		{
-			description: [
-				"几乎是一条纯铜矿脉.该死的锑矿!"
-				""
-				"锑矿可以直接冶炼成锑,你需要在&7LV&r中获得锑来制作电池."
-			]
-			icon: "gtceu:netherrack_tetrahedrite_ore"
-			id: "45B62B35180593EA"
-			size: 0.9d
-			subtitle: "铜，锑的来源"
-			tasks: [
-				{
-					id: "65BB3345F5602A55"
-					item: "gtceu:raw_tetrahedrite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4253F5C16717E664"
-					item: "minecraft:raw_copper"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "30CFBE92202683E8"
-					item: "gtceu:raw_stibnite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2A8F49E409B1DCDF"
-					type: "checkmark"
-				}
-			]
-			title: "黝铜矿脉"
-			x: 9.6d
-			y: 0.0d
-		}
-		{
+			dependencies: ["36F2CA6E24DE74E1"]
 			description: [
 				"这种下界褐铁矿脉变种绝不能被忽视."
 				""
@@ -1124,7 +874,7 @@
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
-			size: 0.9d
+			size: 1.0d
 			subtitle: "铁，金的来源"
 			tasks: [
 				{
@@ -1157,80 +907,11 @@
 				}
 			]
 			title: "带状铁矿脉"
-			x: 8.4d
-			y: 0.0d
+			x: 25.5d
+			y: -1.0d
 		}
 		{
-			description: [
-				"注意,这个矿脉通常从y层10到30生成."
-				""
-				"闪锌矿非常有价值,因为它的矿石加工可以得到镓.它也可以直接冶炼成锌."
-			]
-			icon: "gtceu:netherrack_sulfur_ore"
-			id: "030E299F75640977"
-			size: 0.9d
-			subtitle: "硫磺，铁，锌的来源"
-			tasks: [
-				{
-					id: "022CC6EDF95C7696"
-					item: "gtceu:raw_sulfur"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6F3BBA2545C154CD"
-					item: "gtceu:raw_pyrite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "61F9BD58FBB8804F"
-					item: "gtceu:raw_sphalerite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2D6328F563752AD8"
-					type: "checkmark"
-				}
-			]
-			title: "硫矿脉"
-			x: 7.4d
-			y: -0.8d
-		}
-		{
-			description: [
-				"你经典的下界石英矿脉."
-				""
-				"硅并不难得到,但石英岩也是一个不错的来源."
-			]
-			icon: "gtceu:netherrack_nether_quartz_ore"
-			id: "0269FCDE2628904A"
-			size: 0.9d
-			subtitle: "下界石英，硅的来源"
-			tasks: [
-				{
-					id: "3ABB4181FEA31D22"
-					item: "gtceu:raw_nether_quartz"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "152834A4F7A00AEC"
-					item: "gtceu:raw_quartzite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5CA04E6A9D2AE6BA"
-					type: "checkmark"
-				}
-			]
-			title: "石英矿脉"
-			x: 7.0d
-			y: -2.0d
-		}
-		{
+			dependencies: ["71DEF0909984EE63"]
 			description: [
 				"你可能在到达这里之前已经有很多铁了,但不要忽视这个矿脉的效用."
 				""
@@ -1238,6 +919,7 @@
 			]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "4FC668EF2BF294ED"
+			size: 1.0d
 			subtitle: "铁，钒，金，铬的来源"
 			tasks: [
 				{
@@ -1270,161 +952,15 @@
 				}
 			]
 			title: "磁铁矿脉"
-			x: 8.0d
-			y: 1.5d
+			x: 22.5d
+			y: 3.5d
 		}
 		{
-			description: [
-				"来自《星际之门》的&2硅岩&r!从&dLuV&r开始,你会发现这成为一个重要的材料."
-				""
-				"硅岩可以在&dLuV&r中加工成钛、三钛、钡、镓、铟、磷、富集硅岩和超能硅岩.非常多用途!"
-			]
-			icon: "gtceu:endstone_naquadah_ore"
-			id: "143B1AE1F3CF53EF"
-			subtitle: "源泉石,含有很多矿物"
-			tasks: [
-				{
-					id: "310ED3BE9C7FD9E2"
-					item: "gtceu:raw_naquadah"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "21A34924E41D1BE6"
-					item: "gtceu:raw_plutonium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6253659FE68F61E0"
-					type: "checkmark"
-				}
-			]
-			title: "硅岩矿脉"
-			x: 10.0d
-			y: 1.5d
-		}
-		{
-			description: [
-				"铂在&5EV&r开始使用."
-				""
-				"铂系金属在&1IV&r中成为必要条件,谢尔顿是启动加工的最佳矿石."
-			]
-			icon: "gtceu:endstone_cooperite_ore"
-			id: "4D76C334B251EB3A"
-			subtitle: "包含很多矿物"
-			tasks: [
-				{
-					id: "4547E85950CB15E4"
-					item: "gtceu:raw_bornite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2779AA47A008FE68"
-					item: "gtceu:raw_cooperite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "41E8420E7558A052"
-					item: "gtceu:raw_platinum"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1CE21684D9A3CB10"
-					item: "gtceu:raw_palladium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0969A4E60CC8B107"
-					type: "checkmark"
-				}
-			]
-			title: "谢尔顿矿脉"
-			x: 8.0d
-			y: 4.5d
-		}
-		{
-			description: [
-				"你唯一的&9钨&r来源!虽然你理论上可以从&e末地石&r中粉碎获得钨酸盐,但收益微不足道.相反,加工这些矿石!"
-				""
-				"这是一个非常重要的矿脉,因为&9钨&r在&9IV&r及其以后的阶段中被大量使用."
-			]
-			icon: "gtceu:endstone_scheelite_ore"
-			id: "5AA98D1298FD90BA"
-			subtitle: "钨，锂的来源"
-			tasks: [
-				{
-					id: "30446661E519BD77"
-					item: "gtceu:raw_scheelite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "05FE206449587AFC"
-					item: "gtceu:raw_tungstate"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "568AE4406565E837"
-					item: "gtceu:raw_lithium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5121C48C0BCC2405"
-					type: "checkmark"
-				}
-			]
-			title: "白钨矿脉"
-			x: 10.0d
-			y: 4.5d
-		}
-		{
-			description: [
-				"如果你是一个适应良好的人,那么采矿&b铝&r和&d钛&r的矿脉就在这儿."
-				""
-				"放弃那些云母矿——铝土矿才是未来!"
-			]
-			icon: "gtceu:endstone_bauxite_ore"
-			id: "40B40DF0D1295A90"
-			subtitle: "铝，钛，镓的来源"
-			tasks: [
-				{
-					id: "165615C81FEAE3C3"
-					item: "gtceu:raw_bauxite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "733D9A9B816EFA73"
-					item: "gtceu:raw_ilmenite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "62761B7C37615A6D"
-					item: "gtceu:raw_aluminium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "24EC49ED0BDCD40B"
-					type: "checkmark"
-				}
-			]
-			title: "铝土矿脉"
-			x: 7.0d
-			y: 3.0d
-		}
-		{
-			description: ["铀的唯一矿脉!"]
+			dependencies: ["71DEF0909984EE63"]
+			description: ["大量的铀！"]
 			icon: "gtceu:endstone_pitchblende_ore"
 			id: "5ED483A04095EFA3"
+			size: 1.0d
 			subtitle: "铀，钍，铅的来源"
 			tasks: [
 				{
@@ -1445,30 +981,991 @@
 				}
 			]
 			title: "沥青铀矿脉"
-			x: 11.0d
-			y: 3.0d
+			x: 25.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["1E7344C133C99565"]
+			dependencies: ["778546543F6413E7"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_nether"
 			id: "36F2CA6E24DE74E1"
+			size: 1.0d
 			tasks: [{
 				id: "377042ABB6567FBD"
-				title: "想去地狱，先到EV"
+				title: "下界矿脉"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: -2.0d
+			x: 24.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["4BFA114E12BCB163"]
+			dependencies: ["5E3EDA6C94CEC3C4"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_end"
 			id: "71DEF0909984EE63"
+			size: 1.0d
 			tasks: [{
 				id: "6F190A09C2230BC7"
-				title: "想去末地，先到LUV"
+				title: "末地矿脉"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_overworld"
+			id: "2BECA06D9AF485D3"
+			size: 1.0d
+			tasks: [{
+				id: "1DAF439DEDBD42A0"
+				title: "主世界矿脉"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["335ED39019FC62E7"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_reactor"
+			id: "3FFD20E53A9DF62A"
+			size: 1.0d
+			tasks: [{
+				id: "69F1DA9AF626411A"
+				title: "远古世界矿脉"
 				type: "checkmark"
 			}]
 			x: 9.0d
-			y: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"任何一种黄玉矿石都非常适合电解."
+				""
+				"最好的氟化物来源."
+			]
+			icon: "gtceu:diorite_topaz_ore"
+			id: "022EB2DA7C908350"
+			size: 1.0d
+			subtitle: "铝，氟的来源"
+			tasks: [
+				{
+					id: "65AB6223D092EF82"
+					item: "gtceu:raw_blue_topaz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "634A97841EF6170A"
+					item: "gtceu:raw_topaz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3667A1B7D4569B7C"
+					type: "checkmark"
+				}
+			]
+			title: "黄玉矿脉"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"&b应用能源2&r中的发展需要 赛特斯石英 矿脉."
+				""
+				"重晶石经电解制成钡,你将需要它来制造一些高级超导材料."
+			]
+			icon: "gtceu:diorite_certus_quartz_ore"
+			id: "6B51D30E9BA60AB2"
+			size: 1.0d
+			subtitle: "AE2，钡的来源"
+			tasks: [
+				{
+					id: "0B0CA82688C62391"
+					item: "gtceu:raw_quartzite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61AF4CD8DE9456DD"
+					item: "gtceu:raw_certus_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "067B2DB44080D924"
+					item: "gtceu:raw_barite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79C742DE7B781C74"
+					type: "checkmark"
+				}
+			]
+			title: "赛特斯石英矿脉"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"绿宝石矿是这里最实用的矿石.需要小量使用来制造&bMV&r中的技术物品."
+				""
+				"铍可以用来制取末影珍珠粉."
+			]
+			icon: "gtceu:diorite_emerald_ore"
+			id: "762DD49FF5C4FE47"
+			size: 1.0d
+			subtitle: "铍，绿宝石的来源"
+			tasks: [
+				{
+					id: "4BF269AAF0616EEA"
+					item: "gtceu:raw_beryllium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A03B86149D662A4"
+					item: "gtceu:raw_emerald"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60666F43CF8D8633"
+					type: "checkmark"
+				}
+			]
+			title: "铍矿脉"
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"蓝石在&6HV&r进展中非常重要.离心机中它分离成了琥珀金(一种金和银的来源)和红石."
+				""
+				"硝石在几个反应中使用"
+			]
+			icon: "gtceu:diorite_saltpeter_ore"
+			id: "742626C462EA7B83"
+			size: 1.0d
+			subtitle: "钾，蓝色合金的来源"
+			tasks: [
+				{
+					id: "466DBFB8B6AF318D"
+					item: "gtceu:raw_saltpeter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "31EA49633429AA0F"
+					item: "gtceu:raw_diatomite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3611C28B509D85EC"
+					item: "gtceu:raw_electrotine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5A98389604DFDBD6"
+					item: "gtceu:raw_alunite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "309FC90CB695D435"
+					type: "checkmark"
+				}
+			]
+			title: "硝石矿脉"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"你经典的下界石英矿脉."
+				""
+				"硅并不难得到,但石英岩也是一个不错的来源."
+			]
+			icon: "gtceu:diorite_nether_quartz_ore"
+			id: "34B57C3F50B1636C"
+			size: 1.0d
+			subtitle: "下界石英，硅的来源"
+			tasks: [
+				{
+					id: "0465793C56EFC6ED"
+					item: "gtceu:raw_nether_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29052FCD55EB5310"
+					item: "gtceu:raw_quartzite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3565B16DF322FEDC"
+					item: "gtceu:raw_barite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07381BC1718290D9"
+					type: "checkmark"
+				}
+			]
+			title: "石英矿脉"
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"注意,这个矿脉通常从y层10到30生成."
+				""
+				"闪锌矿非常有价值,因为它的矿石加工可以得到镓.它也可以直接冶炼成锌."
+			]
+			icon: "gtceu:diorite_sulfur_ore"
+			id: "12243715403F9E51"
+			size: 1.0d
+			subtitle: "硫磺，铁，锌的来源"
+			tasks: [
+				{
+					id: "6BFE966D8AD0624D"
+					item: "gtceu:raw_sulfur"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "689B82B6E96D482D"
+					item: "gtceu:raw_pyrite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E0A9E5220E2E3FD"
+					item: "gtceu:raw_sphalerite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "289B22939B38C72C"
+					type: "checkmark"
+				}
+			]
+			title: "硫矿脉"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"几乎是一条纯铜矿脉.该死的锑矿!"
+				""
+				"锑矿可以直接冶炼成锑,你需要在&7LV&r中获得锑来制作电池."
+			]
+			icon: "gtceu:diorite_tetrahedrite_ore"
+			id: "086553052433A3A3"
+			size: 1.0d
+			subtitle: "铜，锑的来源"
+			tasks: [
+				{
+					id: "1F4A11EE0C8EC9F8"
+					item: "gtceu:raw_tetrahedrite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "65EF753F64B54870"
+					item: "minecraft:raw_copper"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4814F9373B1F1598"
+					item: "gtceu:raw_stibnite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40FB724802BDAABC"
+					type: "checkmark"
+				}
+			]
+			title: "黝铜矿脉"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FFD20E53A9DF62A"]
+			description: [
+				"这个矿脉非常稀有!恭喜你发现了它."
+				""
+				"基本上就是钼,加上不太重要的材料."
+			]
+			icon: "gtceu:diorite_molybdenum_ore"
+			id: "7585C38928DB1B02"
+			size: 1.0d
+			subtitle: "钼，铼的来源"
+			tasks: [
+				{
+					id: "3D3938FAD9D769E1"
+					item: "gtceu:raw_wulfenite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A4B3C068C0F9479"
+					item: "gtceu:raw_molybdenite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D900F715F8EFB3E"
+					item: "gtceu:raw_molybdenum"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50BA5D97CF46106D"
+					item: "gtceu:raw_powellite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C8D75B81B573408"
+					type: "checkmark"
+				}
+			]
+			title: "钼矿脉"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			description: ["本章只列出了每个维度的独特矿脉，重复出现的仅会在第一次出现时提及"]
+			id: "4BADDE862BDA04BA"
+			tasks: [{
+				id: "3345D7655113741E"
+				type: "checkmark"
+			}]
+			title: "前言"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23C2F99FC949AF0A"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_moon"
+			id: "74F1C81B60FABEAA"
+			tasks: [{
+				id: "48929967A3BEAA01"
+				title: "月球矿脉"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74F1C81B60FABEAA"]
+			description: ["前期钚的唯一来源."]
+			icon: "gtceu:moon_stone_plutonium_ore"
+			id: "37B04BCCC3B7FBED"
+			subtitle: "钚，钍和晶质铀的来源"
+			tasks: [
+				{
+					id: "29B49746B62B94F5"
+					item: "gtceu:raw_uraninite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1AB14D357DF9F037"
+					item: "gtceu:raw_thorium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "79EB1706462C078D"
+					item: "gtceu:raw_plutonium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F110283021962B2"
+					type: "checkmark"
+				}
+			]
+			title: "钚矿脉"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74F1C81B60FABEAA"]
+			description: ["大量的铀."]
+			icon: "gtceu:moon_stone_pitchblende_ore"
+			id: "386F6727D3275126"
+			subtitle: "铀，钍的来源"
+			tasks: [
+				{
+					id: "5C5534F9C2225417"
+					item: "gtceu:raw_pitchblende"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09F6BD7657DEDE74"
+					item: "gtceu:raw_thorium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "30B3A23170EF9A42"
+					item: "gtceu:raw_uraninite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3000E716B7344085"
+					type: "checkmark"
+				}
+			]
+			title: "铀矿脉"
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74F1C81B60FABEAA"]
+			description: [
+				"如果你是一个适应良好的人,那么采矿&b铝&r和&d钛&r的矿脉就在这儿."
+				""
+				"放弃那些云母矿——铝土矿才是未来!"
+			]
+			icon: "gtceu:moon_stone_bauxite_ore"
+			id: "4EDEAD01ABA4A16F"
+			subtitle: "铝，钛，镓的来源"
+			tasks: [
+				{
+					id: "0722FCB2EFCBDF54"
+					item: "gtceu:raw_bauxite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E3E32B74191AA7B"
+					item: "gtceu:raw_ilmenite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A3F60AEF15E3E01"
+					item: "gtceu:raw_aluminium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BD1E551368F5896"
+					type: "checkmark"
+				}
+			]
+			title: "铝土矿脉"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74F1C81B60FABEAA"]
+			description: ["它是&5EV&r的稀土来源."]
+			icon: "gtceu:moon_stone_bastnasite_ore"
+			id: "00AA7D62FCE4B40E"
+			size: 1.0d
+			subtitle: "稀土，钕，氟来源"
+			tasks: [
+				{
+					id: "662FB5C8B89A4EA0"
+					item: "gtceu:raw_bastnasite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1330BE4DEC34C914"
+					item: "gtceu:raw_monazite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "31CC30157996C177"
+					item: "gtceu:raw_neodymium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D19396D56572B34"
+					type: "checkmark"
+				}
+			]
+			title: "独/群居石矿脉"
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["702471643821B0DE"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_mars"
+			id: "0CE213ED8D234B0A"
+			tasks: [{
+				id: "36EF29137DC38E08"
+				title: "火星矿脉"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0CE213ED8D234B0A"]
+			description: [
+				"铂在&5EV&r开始使用."
+				""
+				"铂系金属在&5EV&r后期中成为必要条件,谢尔顿是启动加工的最佳矿石."
+			]
+			icon: "gtceu:mars_stone_cooperite_ore"
+			id: "5C9AC0D1F2624D9E"
+			subtitle: "包含很多矿物"
+			tasks: [
+				{
+					id: "3067456D53FF8588"
+					item: "gtceu:raw_bornite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E444028BCB6EA66"
+					item: "gtceu:raw_cooperite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41E39B8B54EAECB6"
+					item: "gtceu:raw_platinum"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E38CD79485C9FD1"
+					item: "gtceu:raw_palladium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0C443DA001955C12"
+					type: "checkmark"
+				}
+			]
+			title: "谢尔顿矿脉"
+			x: 17.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CE213ED8D234B0A"]
+			description: ["烧绿石将成为极其有价值的资源,因为它是铌的来源之一."]
+			icon: "gtceu:mars_stone_pyrochlore_ore"
+			id: "11957ACD9E524F6C"
+			subtitle: "铌的来源"
+			tasks: [
+				{
+					id: "4F6AB83CEADD0096"
+					item: "gtceu:raw_pyrochlore"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B8F037D2E633A53"
+					item: "gtceu:raw_apatite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0D419B80D4104106"
+					item: "gtceu:raw_tricalcium_phosphate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D0D58881BB26AF9"
+					type: "checkmark"
+				}
+			]
+			title: "磷矿脉"
+			x: 19.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0CE213ED8D234B0A"]
+			description: [
+				"你唯一的&9钨&r来源!虽然你理论上可以从&e末地石&r中粉碎获得钨酸盐,但收益微不足道.相反,加工这些矿石!"
+				""
+				"这是一个非常重要的矿脉,因为&9钨&r在&9IV&r及其以后的阶段中被大量使用."
+			]
+			icon: "gtceu:mars_stone_scheelite_ore"
+			id: "5D0FE695E1E46BC4"
+			size: 1.0d
+			subtitle: "钨，锂的来源"
+			tasks: [
+				{
+					id: "12F98FE5189F5FD5"
+					item: "gtceu:raw_scheelite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1090E1CD04E2D670"
+					item: "gtceu:raw_tungstate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28A298172828F15E"
+					item: "gtceu:raw_lithium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "422D0E0392F4AA13"
+					type: "checkmark"
+				}
+			]
+			title: "白钨矿脉"
+			x: 20.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["602F48807D4A89A6"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_venus"
+			id: "423F98D732C4D981"
+			tasks: [{
+				id: "0ED89C2EA5B44FC7"
+				title: "金星矿脉"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["423F98D732C4D981"]
+			description: ["这是戴斯的唯一来源，大型虚空采矿场和太空电梯也无法挖掘"]
+			icon: "gtceu:venus_stone_desh_ore"
+			id: "7F0C57F9551D8FFA"
+			subtitle: "戴斯的来源"
+			tasks: [
+				{
+					id: "5CDBEA9233C83007"
+					item: "gtceu:raw_desh"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "432D27C7077DEE97"
+					item: "gtceu:raw_magnesite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7D5A3F54B65AD07D"
+					type: "checkmark"
+				}
+			]
+			title: "戴斯矿脉"
+			x: 29.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["240EDC34562E580F"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_mercury"
+			id: "108D89FA7643AEB8"
+			tasks: [{
+				id: "4BE32C3F21E70B08"
+				title: "水星矿脉"
+				type: "checkmark"
+			}]
+			x: 27.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["108D89FA7643AEB8"]
+			icon: "gtceu:mercury_stone_calorite_ore"
+			id: "19BB6B20C2335469"
+			subtitle: "耐热金属的来源"
+			tasks: [
+				{
+					id: "1154C1EB51D5888F"
+					item: "gtceu:raw_calorite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09B8E4BE626D8F20"
+					item: "gtceu:raw_cobalt"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E671039617F710E"
+					item: "gtceu:raw_magnesite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "045BDEA60E26E2CD"
+					type: "checkmark"
+				}
+			]
+			title: "耐热矿脉"
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36F2CA6E24DE74E1"]
+			icon: "gtceu:netherrack_chalcocite_ore"
+			id: "00683234698842B2"
+			subtitle: "辉铜矿的来源"
+			tasks: [
+				{
+					id: "5973FB4AEDB7EF4A"
+					item: "gtceu:raw_chalcocite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2B7C1F4DB9F8A46D"
+					item: "gtceu:raw_bornite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F73ED39FF3951A7"
+					item: "gtceu:raw_blue_topaz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77A5620BD4872170"
+					item: "gtceu:raw_topaz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12837AFA7C841F46"
+					type: "checkmark"
+				}
+			]
+			title: "辉铜矿脉"
+			x: 22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36F2CA6E24DE74E1"]
+			description: ["在y层16相对生成的最多"]
+			icon: "minecraft:ancient_debris"
+			id: "7F54DE5E0414E54B"
+			subtitle: "下界合金的来源"
+			tasks: [
+				{
+					id: "5E645F651B6600D2"
+					item: "minecraft:ancient_debris"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4303F8862B7F0685"
+					type: "checkmark"
+				}
+			]
+			x: 24.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5010011959CF5337"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_ceres"
+			id: "76F659B8F102B236"
+			tasks: [{
+				id: "4E73854CB6C0A883"
+				title: "谷神星矿脉"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["76F659B8F102B236"]
+			icon: "gtceu:ceresstone_ostrum_ore"
+			id: "19F11B0FD7A04A57"
+			subtitle: "紫金的来源"
+			tasks: [
+				{
+					id: "6631035679018D85"
+					item: "gtceu:raw_ostrum"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50C54570ABDE9244"
+					item: "minecraft:raw_gold"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12C7FE1C194AFA93"
+					type: "checkmark"
+				}
+			]
+			title: "紫金矿脉"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["73613E3EBEFFB326"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_io"
+			id: "56AF6D5B1E2205DC"
+			tasks: [{
+				id: "73B96560086419EE"
+				title: "木卫一矿脉"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56AF6D5B1E2205DC"]
+			description: [
+				"来自《星际之门》的&2硅岩&r!从&dLuV&r开始,你会发现这成为一个重要的材料."
+				""
+				"硅岩可以在&dLuV&r中加工成三钛、铟、富集硅岩和超能硅岩.甚至还能作为燃料发电.非常多用途!"
+			]
+			icon: "gtceu:iostone_naquadah_ore"
+			id: "5FDD8771824E57CF"
+			size: 1.0d
+			subtitle: "源泉石,含有很多矿物"
+			tasks: [
+				{
+					id: "7D879F333DCFA8C1"
+					item: "gtceu:raw_naquadah"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E077E8BC02A38CE"
+					item: "gtceu:raw_plutonium"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6021046DA2AEACA4"
+					type: "checkmark"
+				}
+			]
+			title: "硅岩矿脉"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56AF6D5B1E2205DC"]
+			description: ["可以通过天然碱获得碱性物质"]
+			icon: "gtceu:iostone_celestine_ore"
+			id: "06BA02AC044BBDF1"
+			subtitle: "锶的来源"
+			tasks: [
+				{
+					id: "1D9CC30A59D6916A"
+					item: "gtceu:raw_celestine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67191CA8F32C7750"
+					item: "gtceu:raw_cooperite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47CBBE438C9D3381"
+					item: "gtceu:raw_trona"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E1684E6F58B515B"
+					type: "checkmark"
+				}
+			]
+			title: "天青石矿脉"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["761877FE2F5E2E2E"]
+			hide_dependent_lines: true
+			icon: "gtlcore:world_fragments_ganymede"
+			id: "65A7AD4DF669F605"
+			tasks: [{
+				id: "2A2B08E5908F587E"
+				title: "木卫三矿脉"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["65A7AD4DF669F605"]
+			icon: "gtceu:ganymedestone_zircon_ore"
+			id: "71E844874F97530A"
+			subtitle: "锆，铪的来源"
+			tasks: [
+				{
+					id: "0C57D1EC4477F67C"
+					item: "gtceu:raw_zircon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09E7FDD31F1BE67E"
+					item: "gtceu:raw_grossular"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5406FBCFD8A5C09D"
+					item: "gtceu:raw_pyrolusite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02813907F40E88FB"
+					item: "gtceu:raw_tantalite"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24B233EFE8941E0F"
+					type: "checkmark"
+				}
+			]
+			title: "锆石矿脉"
+			x: 20.5d
+			y: 3.5d
 		}
 	]
 	title: "矿石生成"

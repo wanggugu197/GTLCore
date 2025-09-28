@@ -1,0 +1,28 @@
+{
+	id: "22C6FABC91E0609F"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ae2:certus_quartz_cutting_knife"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ae2:nether_quartz_cutting_knife"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+	]
+	title: "切割刀"
+}

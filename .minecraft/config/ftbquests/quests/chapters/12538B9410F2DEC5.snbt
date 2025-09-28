@@ -16,7 +16,7 @@
 		{
 			id: "0A5828AFCC7D442F"
 			linked_quest: "0485D45408234C99"
-			shape: "rsquare"
+			shape: "gear"
 			size: 2.0d
 			x: 0.0d
 			y: 0.0d
@@ -43,6 +43,7 @@
 				{
 					id: "42A2A3DE0D71F79C"
 					item: "gtceu:sterilizing_filter_casing"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -101,24 +102,32 @@
 				item: "gtceu:wetware_circuit_board"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["04B1D03A3FE114F1"]
 			description: [
-				"培养缸可以一直使用过滤器机器方块，无需升级"
+				"这个时候你也可以做大的"
 				""
-				"后续可以升级为微生物支配者，可以使用激光仓，拥有无损超频"
+				"实际上多方块结构中的过滤器机械方块可以只使用最低级的，没有必要升级"
 			]
 			icon: "gtceu:large_incubator"
 			id: "503C03C654730F65"
-			tasks: [{
-				id: "67472857F3F58EDA"
-				item: "gtceu:large_incubator"
-				type: "item"
-			}]
-			title: "细菌产线"
+			tasks: [
+				{
+					id: "67472857F3F58EDA"
+					item: "gtceu:incubator"
+					type: "item"
+				}
+				{
+					id: "42AA2699F73F1D0A"
+					item: "gtceu:large_incubator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "培养缸"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -126,6 +135,7 @@
 			dependencies: [
 				"503C03C654730F65"
 				"079FEA1875012A69"
+				"51B2B531E6FC0055"
 			]
 			id: "64EAB77978C87CE9"
 			tasks: [{
@@ -149,7 +159,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["46855799A4471E34"]
@@ -162,7 +172,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["425D7CD010B9C90E"]
@@ -174,24 +184,31 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["582AFD622AA67792"]
 			icon_scale: 2.0d
 			id: "7CF037F2C4BF55B5"
-			shape: "rsquare"
-			size: 2.0d
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26DC4E706EA64372"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "5E77549BE2B175D2"
 				item: "gtceu:wetware_processor_computer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["77759D1FE48F958B"]
+			description: ["由于Just Enough Characters（通用拼音搜索）并没有收录元素周期表中的很多元素对应的拼音，可以使用“#”+“元素符号”的方式搜索，例如：#ds可以搜出来𫟼；由于ME网络中不会显示流体的化学式，请使用“*”+“标签”的方式搜索流体，例如*darmstadtium可以搜出来液态𫟼"]
 			id: "7C23CC6ADDC33EA0"
 			tasks: [{
 				id: "68B49A32B28AECEA"
@@ -209,8 +226,8 @@
 				item: "gtceu:americium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["38D23D186C444492"]
@@ -221,7 +238,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -237,26 +254,37 @@
 				item: "gtceu:enriched_naquadah_trinium_europium_duranide_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
 				"7CF037F2C4BF55B5"
 				"5E86110BBAEA92BA"
+				"5C4B11CEA53D5B78"
 			]
+			description: ["实际上没有必要使用网络交换机"]
 			icon_scale: 2.0d
 			id: "0A2D46609F5C3CAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4BF1D99A47554C8B"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			tasks: [{
 				id: "31A360FB27D6251A"
 				item: "gtceu:wetware_processor_mainframe"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["7C23CC6ADDC33EA0"]
+			dependencies: [
+				"7C23CC6ADDC33EA0"
+				"5C4B11CEA53D5B78"
+			]
 			description: ["在后面的阶段还会有用"]
 			icon_scale: 2.0d
 			id: "5D4131C48F9BAE46"
@@ -286,30 +314,15 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0A2D46609F5C3CAB"]
-			description: [
-				"更长，更快，有并行，还能使用巨型输入总成！"
-				""
-				"（用输入总成替换输入仓）"
-			]
-			icon_scale: 2.0d
-			id: "172FC2F2B20CD187"
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "1F71F073D091459C"
-				item: "gtceu:advanced_assembly_line"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["62D2B830A98424BB"]
 			description: [
 				"一台计算机提供的算力可能不够，如果要合并算力就需要这台机器"
 				""
-				"在使用前确保计算机上安装了桥接组件"
+				"在使用前确保计算机上安装了&b&l桥接组件"
+				"&r"
+				"交换机界面显示的算力只是所有连接的计算机理论最大算力的总和，&c&l不是实际算力&r"
+				""
+				"网络交换机正常运行时，每一个算力仓都会持续耗能 7,680 EU/t，如果供电不足则有部分算力仓失效"
 				""
 				"交换机间可以串联（使用多个算力仓室）"
 			]
@@ -323,12 +336,14 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"5D4131C48F9BAE46"
 				"7C4C11E7C931C01B"
+				"37C5E7628A4B826C"
+				"5C4B11CEA53D5B78"
 			]
 			description: ["以后需要"]
 			icon_scale: 2.0d
@@ -340,7 +355,7 @@
 				item: "gtceu:super_particle_collider"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
@@ -374,7 +389,12 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["也叫小OP （Ore Processor），后面还能制作更强力的大OP"]
+			description: [
+				"也叫小OP （Ore Processor）"
+				""
+				"只能使用ZPM消声仓"
+			]
+			icon_scale: 2.0d
 			id: "35C61EF7C0FBD32F"
 			shape: "rsquare"
 			size: 1.0d
@@ -384,12 +404,17 @@
 				item: "gtceu:integrated_ore_processor"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 8.0d
+			x: 14.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["输入石油和蒸汽，输出产物"]
+			description: [
+				"输入石油和蒸汽，输出产物"
+				""
+				"别把你的石化产线拆了，以后还有用处"
+			]
+			icon_scale: 2.0d
 			id: "61838E13426B2B88"
 			shape: "rsquare"
 			size: 1.0d
@@ -459,7 +484,11 @@
 		}
 		{
 			dependencies: ["7FD1D1D8ED72D40C"]
-			description: ["使用培养缸增产"]
+			description: [
+				"{ \"text\": \"使用培养缸循环增产\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"
+				""
+				"配方原料区域中的“出产概率”实际上是消耗概率"
+			]
 			id: "079FEA1875012A69"
 			tasks: [{
 				count: 4L
@@ -467,24 +496,31 @@
 				item: { Count: 4, id: "kubejs:glacio_spirit" }
 				type: "item"
 			}]
+			title: "霜原碎片"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["64EAB77978C87CE9"]
-			description: ["纳米机器人"]
+			description: ["纳米机器人集群"]
 			id: "02F523E003E1C93D"
 			tasks: [{
 				id: "50ACEB6385D60F9C"
 				item: "gtceu:carbon_nanoswarm"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 9.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["02F523E003E1C93D"]
-			description: ["只能使用激光仓"]
+			description: [
+				"纳米锻炉系列都只能使用激光仓"
+				""
+				"需放入碳纳米蜂群"
+				""
+				"记得优化碳纳米蜂群的配方"
+			]
 			icon_scale: 2.0d
 			id: "3B098EA4601A7827"
 			shape: "rsquare"
@@ -494,12 +530,12 @@
 				item: "gtceu:nano_forge_1"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E9E2F25AE1EC731"]
-			description: [""]
+			description: ["使用闪存绑定"]
 			icon_scale: 2.0d
 			id: "6C24E5BA18FE8CF5"
 			shape: "rsquare"
@@ -520,7 +556,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0485D45408234C99"]
+			dependencies: [
+				"0485D45408234C99"
+				"298369255C8130F7"
+			]
 			id: "5D980DBF92017008"
 			tasks: [{
 				id: "1E867C12E424C07B"
@@ -539,12 +578,14 @@
 				item: "gtceu:wetware_printed_circuit_board"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7EFC2C7FF6FFF1F7"]
+			description: ["只能放入成型的数据库的数据访问仓中"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5C4B11CEA53D5B78"
 			tasks: [{
 				id: "4B5ADAE9ED77C366"
@@ -555,23 +596,24 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
-			description: ["含有无法挖掘的矿物"]
+			description: ["不是必须的，太空电梯也可以挖到所有大型虚空采矿厂产出的无法采掘的矿物"]
 			icon_scale: 2.0d
 			id: "6DDE77C23FC5D067"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "含有无法挖掘的矿物"
 			tasks: [{
 				id: "0F730F8E535FA432"
 				item: "gtceu:large_void_miner"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 14.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
@@ -580,22 +622,28 @@
 			id: "52980D117AB477B2"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "来自虚空"
 			tasks: [{
 				id: "2E8C86DE512279CC"
 				item: "gtceu:void_fluid_drilling_rig"
 				type: "item"
 			}]
-			title: "来自虚空"
-			x: 12.0d
-			y: 2.5d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"53D0B2B73387C7CE"
 				"042A0E98DC1084B3"
 			]
-			description: ["可以制作只需贴片且产量巨大的磁共振电路，你会喜欢的 "]
+			description: ["可以制作只需贴片且产量较大的磁共振电路，你会喜欢的 "]
 			id: "0DC5BFACB3D4BC95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44B46508F30710B2"
+				table_id: 6225023274141477362L
+				type: "loot"
+			}]
 			subtitle: "磁共振电路！启动！"
 			tasks: [{
 				id: "4A9623D2D33B88B9"
@@ -603,11 +651,19 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
-			dependencies: ["6DDE77C23FC5D067"]
-			description: ["锆在木卫三，另一个只能虚空采矿了"]
+			dependencies: [
+				"6DDE77C23FC5D067"
+				"7A7C73D046390488"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"{ \"text\": \"锆在木卫三\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E844874F97530A\" } }"
+				""
+				"碲则只能通过虚空采矿或者太空采矿获得"
+			]
 			id: "042A0E98DC1084B3"
 			tasks: [
 				{
@@ -623,12 +679,12 @@
 			]
 			title: "锆与碲"
 			x: 14.0d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0485D45408234C99"]
 			description: [
-				"工作需要用一个输入总线输入1号电路"
+				"工作需要用一个输入总线输入一号电路"
 				""
 				"这个时候你也可以做大型的"
 				""
@@ -636,10 +692,11 @@
 				""
 				"还有一个叫方块总线和一个叫转换模拟卡的东西"
 				""
+				"方块总线本质上是一个箱子，自动化需要通过覆盖板（机械臂）或者AE的输入/输出总线等主动IO手段互动"
+				""
 				"在安装模拟卡的前提下，在方块总线内的方块也可以被转换"
 				""
 				"如果放入模拟卡不工作，请拆掉主机再放回去"
-				""
 				"{@pagebreak}"
 				"具体转换“配方”如下："
 				""
@@ -661,77 +718,94 @@
 			icon_scale: 2.0d
 			id: "41201C74CC5F7B90"
 			shape: "rsquare"
-			tasks: [{
-				id: "569902AC45012A06"
-				item: "gtceu:block_conversion_room"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 4.0d
+			tasks: [
+				{
+					id: "569902AC45012A06"
+					item: "gtceu:block_conversion_room"
+					type: "item"
+				}
+				{
+					id: "762F2B3A5742321F"
+					item: "gtceu:large_block_conversion_room"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["41201C74CC5F7B90"]
+			description: ["研磨精华方块"]
 			id: "35D158AD5036923D"
 			tasks: [{
 				id: "7A39828F0956F250"
 				item: "kubejs:essence"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["35D158AD5036923D"]
-			description: ["各种矿脉精华用于大型虚空采矿场的精准模式"]
-			id: "68D3E6670941A3F5"
-			tasks: [{
-				id: "158FBB1423A51456"
-				title: "各种的矿脉精华"
-				type: "checkmark"
-			}]
-			x: 14.0d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["62D2B830A98424BB"]
-			description: [""]
+			dependencies: ["35D158AD5036923D"]
+			description: ["各种矿脉精华不仅用于大型虚空采矿场的精准模式，还是后续必需物品的材料之一"]
+			icon: "kubejs:space_essence"
+			id: "68D3E6670941A3F5"
+			tasks: [{
+				id: "158FBB1423A51456"
+				title: "各种矿脉精华"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"62D2B830A98424BB"
+				"7C23CC6ADDC33EA0"
+			]
+			description: ["更大，更强"]
 			icon_scale: 2.0d
 			id: "41C7A298C421C65D"
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "113219BE64EFCAB0"
-					item: "gtceu:mega_blast_furnace"
-					type: "item"
-				}
-				{
-					id: "070CBBD82AB7328A"
-					item: "gtceu:mega_alloy_blast_smelter"
-					type: "item"
-				}
-			]
-			title: "转底炉和巨型合金冶炼炉"
-			x: 8.0d
-			y: 8.0d
+			tasks: [{
+				id: "070CBBD82AB7328A"
+				item: "gtceu:mega_alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["不要和其他合成存储器混用（包括另一个MAX）"]
+			description: ["在同一个CPU中不要和其他合成存储器混用（包括另一个MAX），否则CPU会处于不可调用状态"]
 			hide_dependency_lines: true
 			id: "31A1ECA11AC31A29"
-			subtitle: "无限的容量"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A8B0A2836FC024F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			subtitle: "9.2E的容量"
 			tasks: [{
 				id: "22A5A0569A6E914F"
 				item: "gtlcore:max_storage"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["38D23D186C444492"]
-			description: ["使用电力直接聚爆，不再需要炸药"]
-			hide_dependency_lines: true
+			dependencies: [
+				"38D23D186C444492"
+				"58936CEB6176A18B"
+			]
+			description: [
+				"使用电力直接聚爆，不再需要炸药，还拥有并行！"
+				""
+				"只能使用LuV消声仓"
+			]
 			icon_scale: 2.0d
 			id: "6A6895119CECF238"
 			shape: "rsquare"
@@ -741,8 +815,22 @@
 				item: "gtceu:electric_implosion_compressor"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["62D2B830A98424BB"]
+			description: ["更大，更强"]
+			icon_scale: 2.0d
+			id: "71C7130610E0294D"
+			shape: "rsquare"
+			tasks: [{
+				id: "228D7C725D7D92B8"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
 		}
 	]
 	subtitle: ["Tier7-ZPM"]

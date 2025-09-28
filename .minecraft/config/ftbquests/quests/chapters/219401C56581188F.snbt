@@ -33,11 +33,19 @@
 			description: [
 				"使用一种特殊的仪式消耗能量来收集周围的魔力"
 				"这里的魔力相当于一种原材料"
+				""
 				"蜡烛可以用石油制作黑色的，然后染色"
+				""
 				"龙蛋可以用鸡蛋制作"
 			]
 			icon_scale: 1.3d
 			id: "22053B1292EE07C9"
+			rewards: [{
+				count: 16
+				id: "1A05149169B129BE"
+				item: "minecraft:egg"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -97,7 +105,7 @@
 				item: "kubejs:exotic_processing_core"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -117,7 +125,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6A5AB82C3E14D091"]
+			dependencies: ["6DB1B7A9173E2C78"]
 			description: ["记得之前的艾萨线吗"]
 			id: "61B5CBFAACE6010D"
 			tasks: [{
@@ -130,6 +138,7 @@
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
+			description: [""]
 			icon_scale: 2.0d
 			id: "1AA874C1351E4A0D"
 			shape: "rsquare"
@@ -151,7 +160,7 @@
 				item: "kubejs:exotic_processor"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -184,12 +193,18 @@
 		{
 			dependencies: [
 				"140CE2AEC7015CAB"
-				"28E04C03DD2C0854"
+				"78C6AB89612D047E"
 			]
 			icon_scale: 2.0d
 			id: "39F73A63746EE6E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "517013EDE4E538F7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "02A3997B96CC0AEC"
 				item: "kubejs:exotic_mainframe"
@@ -207,7 +222,7 @@
 				item: "gtceu:bedrock_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -231,6 +246,7 @@
 				"4F0F175ACFF363F0"
 				"1AA874C1351E4A0D"
 			]
+			description: ["记得升级动力模块MK4！"]
 			id: "6BB5ED6ECC43E30C"
 			tasks: [{
 				id: "2BF3713C3B23B0D0"
@@ -241,7 +257,16 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["61F8C5AA6DEB30D6"]
+			dependencies: [
+				"3968C254B6AC9B9D"
+				"61F8C5AA6DEB30D6"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"比较长的产线"
+				""
+				"会有很多副产物，其中最有价值的是铊粉（氧化残留溶液-重氧化残渣粉-重金属残渣粉-重顺磁残渣粉）"
+			]
 			id: "4F0F175ACFF363F0"
 			tasks: [{
 				id: "0641A1FEEC679E7C"
@@ -249,15 +274,16 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"7523FB4AAB1F89C3"
 				"42A3F72D88E25018"
 			]
-			description: ["很坚硬"]
+			description: ["UIV超导体"]
 			id: "2641CC6BC33F6A31"
+			subtitle: "很坚硬"
 			tasks: [{
 				id: "2F9E606799202DC9"
 				item: "gtceu:echoite_ingot"
@@ -267,6 +293,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["075D368E91231337"]
 			description: ["使用催发体循环"]
 			icon: "minecraft:echo_shard"
 			id: "42A3F72D88E25018"
@@ -285,6 +312,7 @@
 				{
 					id: "3CBB798C2D565597"
 					item: "minecraft:sculk_catalyst"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -292,21 +320,23 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["4D8E0C0295DB26EF"]
+			dependencies: [
+				"4D8E0C0295DB26EF"
+				"4EA64DC5DA2F0F8C"
+			]
 			id: "1F5B121C6647E2CA"
 			tasks: [{
 				id: "02C4C3897AB62269"
 				item: "kubejs:exotic_chip"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
 			dependencies: [
 				"335A02C9498DCBB0"
 				"348787ECA57EA11C"
-				"09210B5E086F6E1A"
 				"281B6C20538A3CBA"
 			]
 			id: "07B45AA08AA91467"
@@ -357,6 +387,7 @@
 			description: ["更大，更强"]
 			icon_scale: 2.0d
 			id: "33390417E8A0AB88"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -382,6 +413,8 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["4F945AA31D61A74D"]
+			description: ["有点复杂"]
 			hide_dependent_lines: true
 			id: "348787ECA57EA11C"
 			tasks: [{
@@ -397,6 +430,7 @@
 			description: ["培养缸中使用幽匿脉络高效率生产回响"]
 			icon: "minecraft:sculk_vein"
 			id: "127B8396034C0F34"
+			subtitle: "更加高效"
 			tasks: [
 				{
 					id: "669890BC5869D144"
@@ -415,11 +449,14 @@
 				}
 			]
 			title: "幽匿脉络"
-			x: 8.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["26607B94D873E07A"]
+			dependencies: [
+				"26607B94D873E07A"
+				"0CF40DD5F6239209"
+			]
 			id: "01268072B19FA1C9"
 			tasks: [{
 				id: "0D6AF6925DC299F6"
@@ -438,7 +475,7 @@
 				item: "kubejs:draconic_core"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -447,11 +484,12 @@
 				"71CB57064256F904"
 				"63F90FA0F85804B8"
 			]
-			description: ["就像是装配线"]
+			description: ["最多可装载32个能源仓"]
 			icon_scale: 1.3d
 			id: "30C1D7DEFB3B18BD"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "就像是装配线"
 			tasks: [{
 				id: "185FF9B96D2E6DA0"
 				item: "gtceu:aggregation_device"
@@ -463,6 +501,7 @@
 		{
 			dependencies: ["3063F232F801D089"]
 			description: ["通过注入龙力的黑曜石循环增产"]
+			hide_dependent_lines: true
 			id: "192B626CF217FDBC"
 			tasks: [{
 				id: "529CC0E222436601"
@@ -473,8 +512,8 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["09210B5E086F6E1A"]
-			description: ["先使用小堆粉进行磁化"]
+			dependencies: ["7370721CB75472C1"]
+			description: ["你现在只能使用小堆粉进行磁化"]
 			id: "77BE1524AABF6003"
 			tasks: [{
 				id: "226943A2546478B5"
@@ -492,11 +531,14 @@
 				item: "kubejs:high_precision_crystal_soc"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["5CD56CD71662D4A7"]
+			dependencies: [
+				"5CD56CD71662D4A7"
+				"7B8FEC11FCC03D9A"
+			]
 			description: ["有点复杂"]
 			hide_dependency_lines: true
 			icon: "gtceu:euv_photoresist_bucket"
@@ -507,38 +549,50 @@
 				type: "checkmark"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["有点复杂"]
+			description: ["丁烷可以循环利用"]
 			icon: "gtceu:californium_cyclopentadienide_bucket"
 			id: "281B6C20538A3CBA"
 			tasks: [{
 				id: "0B10159A50C58ACF"
-				title: "环戊二烯锎"
+				title: "环戊二烯化锎"
 				type: "checkmark"
 			}]
 			x: 0.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["021401D3D29EBC87"]
-			description: ["不用堆大量计算机了"]
-			icon_scale: 2.0d
+			dependencies: [
+				"021401D3D29EBC87"
+				"7523FB4AAB1F89C3"
+			]
+			description: [
+				"电路主机可以像无人机一样共用"
+				""
+				"自带桥接功能"
+				""
+				"多方块内部只有顶层需要放置极寒之凛冰"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
 			id: "181A1B6F5AD15F52"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "不用堆大量计算机了"
 			tasks: [{
 				id: "5EBD9582ED477D88"
 				item: "gtceu:super_computation"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
+			description: ["最后的常规单晶硅"]
 			icon_scale: 2.0d
 			id: "678E707F85CD2071"
 			size: 1.0d
@@ -547,8 +601,8 @@
 				item: "kubejs:taranium_boule"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -565,6 +619,7 @@
 				{
 					id: "6791BE188E97863E"
 					item: "gtlcore:law_filter_casing"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -573,7 +628,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 14.0d
 			y: -4.0d
 		}
 		{
@@ -584,17 +639,19 @@
 				item: "kubejs:cryogenic_interface"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
+			dependencies: ["59CA7B4A4A417B53"]
+			description: ["高性能纤维"]
 			id: "68FBE0346D15916B"
 			tasks: [{
 				id: "296E4F77EC25E3C2"
 				item: "gtceu:zylon_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -630,33 +687,49 @@
 				"63F90FA0F85804B8"
 				"61F8C5AA6DEB30D6"
 			]
-			description: ["高效率生产基岩粉"]
+			description: ["建议建设一套重启电路来解决钻机不时无理由停机的&m特性&rbug"]
 			hide_dependent_lines: true
+			icon: "gtceu:bedrock_drilling_rig"
 			icon_scale: 2.0d
 			id: "3968C254B6AC9B9D"
+			rewards: [
+				{
+					id: "565D248531FF3E47"
+					item: "gtceu:machine_controller_cover"
+					type: "item"
+				}
+				{
+					id: "6D9F24EAEBCB2C04"
+					item: "expatternprovider:active_formation_plane"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "高效率生产基岩粉"
 			tasks: [{
 				id: "0F05C8DA47EB7768"
 				item: "gtceu:bedrock_drilling_rig"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AA6041AC73CD47E"]
 			description: ["在1阶的基础上升级"]
-			icon_scale: 2.0d
+			hide_dependency_lines: true
+			icon_scale: 1.5d
 			id: "1C4D5D7786F64485"
 			shape: "rsquare"
+			subtitle: "需放入中子素纳米蜂群"
 			tasks: [{
 				id: "2EA2C34D0708CF9A"
 				item: "gtceu:nano_forge_2"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["713FF88279AD9A31"]
@@ -718,19 +791,21 @@
 		}
 		{
 			dependencies: ["63F90FA0F85804B8"]
-			description: ["温度传感器的位置位于主方块下侧"]
+			description: [
+				"流体抽取范围为以主机所在区块为中心的5x5区块范围，如果包含不同流体则都会抽取"
+				""
+				"当温度超过临界值后钻头并不会立刻融毁，且损坏值在温度降到临界值以下后会清零"
+				""
+				"线圈提供的温度为临界值/最高效率温度"
+				""
+				"高速模式用于快速提升温度，并不会影响最终效率"
+			]
 			icon: "gtceu:advanced_infinite_driller"
 			icon_scale: 2.0d
 			id: "6AAC6E7C8721EBD7"
-			rewards: [{
-				count: 64
-				id: "14D00F287876DC32"
-				item: "gtceu:heat_sensor"
-				type: "item"
-			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "可以使用温度传感器控制温度"
+			subtitle: "更大，更强"
 			tasks: [{
 				id: "41DA2385E5010CB7"
 				item: "gtceu:advanced_infinite_driller"
@@ -738,6 +813,123 @@
 			}]
 			x: 14.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["35C982D71C6154FA"]
+			id: "78C6AB89612D047E"
+			tasks: [{
+				id: "30367015BD2083EA"
+				item: "gtceu:black_titanium_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6BB5ED6ECC43E30C"
+				"31AA3CEE0C967212"
+			]
+			hide_dependency_lines: true
+			icon_scale: 2.0d
+			id: "35C982D71C6154FA"
+			shape: "rsquare"
+			tasks: [{
+				id: "10967AD7B34634D4"
+				item: "kubejs:naquadriatictaranium_coil_block"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BB5ED6ECC43E30C"]
+			description: ["21亿跨配方并行，非常强力"]
+			icon_scale: 2.0d
+			id: "0991031579C4CAA7"
+			optional: true
+			shape: "rsquare"
+			subtitle: "一步到位"
+			tasks: [{
+				id: "335FA9C6613E28F5"
+				item: "gtceu:advanced_integrated_ore_processor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6BB5ED6ECC43E30C"
+				"783379F3A7557CEE"
+				"23B418803D455368"
+				"192B626CF217FDBC"
+				"68D3E6670941A3F5"
+			]
+			description: [""]
+			hide_dependent_lines: true
+			id: "670D8EB2CE915FD5"
+			shape: "pentagon"
+			subtitle: " 地火混沌魔晶，精金化合物，稀土金属，山铜，秘银"
+			tasks: [{
+				id: "293848195AF04862"
+				item: "kubejs:space_drone_mk4"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39F73A63746EE6E8"]
+			description: ["流体加热器的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
+			icon_scale: 2.0d
+			id: "3F99F904B7B94324"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "热得快"
+			tasks: [{
+				id: "2AC154F76B64844E"
+				item: "gtceu:mega_fluid_heater"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"68FBE0346D15916B"
+				"783379F3A7557CEE"
+				"713FF88279AD9A31"
+			]
+			description: ["拥有72格槽位"]
+			icon_scale: 1.5d
+			id: "421A0242817F164C"
+			optional: true
+			shape: "rsquare"
+			subtitle: "更进一步"
+			tasks: [{
+				id: "05A4D8FFF0B087D3"
+				item: "gtceu:me_final_pattern_buffer"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["39F73A63746EE6E8"]
+			description: ["更大，更强"]
+			icon_scale: 2.0d
+			id: "4EED4298235AB11F"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "188C66643FA0075F"
+				item: "gtceu:advanced_rare_earth_centrifugal"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

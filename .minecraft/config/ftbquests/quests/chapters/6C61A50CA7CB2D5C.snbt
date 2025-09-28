@@ -16,13 +16,75 @@
 		}
 	}
 	id: "6C61A50CA7CB2D5C"
-	order_index: 5
-	quest_links: [{
-		id: "7476D5287FB73239"
-		linked_quest: "335ED39019FC62E7"
-		x: 2.0d
-		y: 2.0d
-	}]
+	order_index: 6
+	quest_links: [
+		{
+			id: "7476D5287FB73239"
+			linked_quest: "335ED39019FC62E7"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "4FCC3D089CBA04E0"
+			linked_quest: "3FFD20E53A9DF62A"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "10C4E5274E589CFF"
+			linked_quest: "74F1C81B60FABEAA"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "08E03AE5150752BB"
+			linked_quest: "0CE213ED8D234B0A"
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			id: "2BDC628B872FFC56"
+			linked_quest: "423F98D732C4D981"
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			id: "79388723746FF712"
+			linked_quest: "108D89FA7643AEB8"
+			x: 28.0d
+			y: 2.0d
+		}
+		{
+			id: "3996F8AE9431D3EA"
+			linked_quest: "36F2CA6E24DE74E1"
+			x: 29.0d
+			y: 4.0d
+		}
+		{
+			id: "2A787266A123D9FE"
+			linked_quest: "76F659B8F102B236"
+			x: 38.0d
+			y: 2.0d
+		}
+		{
+			id: "725E2FE181F3D700"
+			linked_quest: "56AF6D5B1E2205DC"
+			x: 12.0d
+			y: 10.0d
+		}
+		{
+			id: "701222404F0285DA"
+			linked_quest: "65A7AD4DF669F605"
+			x: 13.0d
+			y: 10.0d
+		}
+		{
+			id: "32BA652CB2C85F52"
+			linked_quest: "71DEF0909984EE63"
+			x: 26.0d
+			y: 12.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["1A48D2DB936FF632"]
@@ -48,7 +110,7 @@
 				"347CD713F71D41D0"
 				"0D865B38481F3106"
 			]
-			description: [""]
+			description: ["只能在主世界升空"]
 			icon_scale: 2.0d
 			id: "18A773A6B710C658"
 			shape: "rsquare"
@@ -149,21 +211,14 @@
 					type: "checkmark"
 				}
 			]
+			title: "火箭燃料"
 			x: 7.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
+			description: ["航天服左键ME网络里面的气态氧可快速充气"]
 			id: "0D865B38481F3106"
-			rewards: [{
-				id: "1ADAFE437AC0496C"
-				item: {
-					Count: 1
-					id: "avaritia:infinity_bow"
-					tag: { }
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "78106A40B925926E"
@@ -246,6 +301,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "甲醇"
 			x: 5.5d
 			y: 3.0d
 		}
@@ -265,6 +321,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "氨"
 			x: 5.5d
 			y: 4.0d
 		}
@@ -284,6 +341,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "次氯酸"
 			x: 5.5d
 			y: 5.0d
 		}
@@ -307,11 +365,13 @@
 					type: "checkmark"
 				}
 			]
+			title: "二甲基肼"
 			x: 7.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
+			description: ["&m你也可以不穿宇航服，用图腾撑着&r"]
 			icon: "ad_astra:moon_stone"
 			icon_scale: 2.0d
 			id: "23C2F99FC949AF0A"
@@ -322,6 +382,7 @@
 					id: "avaritia:infinity_totem"
 					tag: {
 						Damage: 0
+						Unbreakable: 1b
 					}
 				}
 				type: "item"
@@ -331,6 +392,7 @@
 					dimension: "ad_astra:moon"
 					id: "2CCD7DD07A345FE5"
 					optional_task: true
+					title: "月球"
 					type: "dimension"
 				}
 				{
@@ -413,6 +475,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "RP-1混合燃料"
 			x: 15.0d
 			y: 4.0d
 		}
@@ -432,6 +495,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "液态氧"
 			x: 13.0d
 			y: 2.0d
 		}
@@ -451,6 +515,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "煤油"
 			x: 14.0d
 			y: 4.0d
 		}
@@ -496,6 +561,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "煤气"
 			x: 12.0d
 			y: 4.0d
 		}
@@ -605,6 +671,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "浓缩混合肼"
 			x: 25.0d
 			y: 2.0d
 		}
@@ -624,6 +691,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "肼"
 			x: 25.0d
 			y: 4.0d
 		}
@@ -646,6 +714,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "过氧化氢"
 			x: 24.0d
 			y: 4.0d
 		}
@@ -665,6 +734,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "蒽"
 			x: 24.0d
 			y: 3.0d
 		}
@@ -684,6 +754,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "2-乙基蒽氢醌"
 			x: 23.0d
 			y: 4.0d
 		}
@@ -704,6 +775,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "2-乙基蒽醌"
 			x: 22.0d
 			y: 4.0d
 		}
@@ -746,6 +818,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "邻苯二甲酸"
 			x: 20.0d
 			y: 4.0d
 		}
@@ -765,6 +838,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "萘"
 			x: 20.0d
 			y: 5.0d
 		}
@@ -784,6 +858,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "二甲苯"
 			x: 20.0d
 			y: 3.0d
 		}
@@ -927,6 +1002,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "火箭燃料（硝酸甲肼）"
 			x: 36.0d
 			y: 2.0d
 		}
@@ -974,6 +1050,7 @@
 		}
 		{
 			dependencies: ["602F48807D4A89A6"]
+			description: ["如果AE无法识别自动合成出来的闪存，建议手动将样板中的闪存替换为网络中已经存在的闪存（数据球，数据模块同理）"]
 			icon_scale: 2.0d
 			id: "2BB52D1C09C418A9"
 			tasks: [{
@@ -981,76 +1058,9 @@
 				item: "kubejs:nether_data"
 				type: "item"
 			}]
+			title: "前往下界"
 			x: 29.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["23C2F99FC949AF0A"]
-			icon: "gtceu:raw_aluminium"
-			id: "603ED43DD7A89BF3"
-			tasks: [
-				{
-					id: "734B4AC51FAF51DA"
-					item: "gtceu:raw_bauxite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5EA3102A28A00339"
-					item: "gtceu:raw_ilmenite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6E41CC1205203487"
-					item: "gtceu:raw_aluminium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7BD806947FFC69BA"
-					item: "gtceu:raw_uraninite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7E6AB6B1F16EFB41"
-					item: "gtceu:raw_pitchblende"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2CE2A66C255AC323"
-					item: "gtceu:raw_thorium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "329C5B93ECCB6FE0"
-					item: "gtceu:raw_bastnasite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "6B80D3BC373D553B"
-					item: "gtceu:raw_monazite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0930EE8B3FE52194"
-					item: "gtceu:raw_neodymium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0D61C381FEC82EDE"
-					type: "checkmark"
-				}
-			]
-			title: "月球的矿"
-			x: 9.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["23C2F99FC949AF0A"]
@@ -1080,80 +1090,6 @@
 		}
 		{
 			dependencies: ["702471643821B0DE"]
-			icon: "gtceu:raw_platinum"
-			id: "3D5E0BA1F8F013FC"
-			tasks: [
-				{
-					id: "7B362C2D0A3F2B34"
-					item: "gtceu:raw_scheelite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5868448726EB5F85"
-					item: "gtceu:raw_tungstate"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4340E734E1FCE59F"
-					item: "gtceu:raw_lithium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "67BCA48FD653C9D5"
-					item: "gtceu:raw_cooperite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4F64CB1271C10AD6"
-					item: "gtceu:raw_bornite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "36885808EF010639"
-					item: "gtceu:raw_platinum"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2945D20FC740FB45"
-					item: "gtceu:raw_palladium"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "49159B1279181E8F"
-					item: "gtceu:raw_pyrochlore"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "41E24DC7270AF2D1"
-					item: "gtceu:raw_apatite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "02C7ED74D08CBD20"
-					item: "gtceu:raw_tricalcium_phosphate"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2B583A50B1AB4413"
-					type: "checkmark"
-				}
-			]
-			title: "火星的矿"
-			x: 17.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["702471643821B0DE"]
 			icon: "gtceu:radon_bucket"
 			id: "457BA0CCBA39709A"
 			tasks: [
@@ -1171,131 +1107,6 @@
 			title: "火星的流体矿脉"
 			x: 17.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["602F48807D4A89A6"]
-			description: [""]
-			icon: "gtceu:raw_desh"
-			id: "66BBE21B86B35170"
-			tasks: [
-				{
-					id: "053580F012F38F61"
-					item: "gtceu:raw_desh"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0133550C8342EFE1"
-					item: "gtceu:raw_magnesite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "576FEDA169E057F5"
-					item: "gtceu:raw_sulfur"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "61DF7F4FD46F331E"
-					item: "gtceu:raw_pyrite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "34BAD952486803D1"
-					item: "gtceu:raw_sphalerite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "23C0BD54CD211593"
-					item: "gtceu:raw_bentonite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "589DD66CA5B99DFA"
-					item: "gtceu:raw_magnetite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2C3A195F85EA60B6"
-					item: "gtceu:raw_olivine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5157C46CB2B214A2"
-					item: "gtceu:raw_glauconite_sand"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "59954C6877E33733"
-					type: "checkmark"
-				}
-			]
-			title: "金星的矿"
-			x: 27.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["240EDC34562E580F"]
-			icon: "gtceu:raw_calorite"
-			id: "755BA509E954B7DC"
-			tasks: [
-				{
-					id: "6428D6EEAEE1BA91"
-					item: "gtceu:raw_calorite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "478CD9D688916D24"
-					item: "gtceu:raw_cobalt"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "35C30A631D599917"
-					item: "gtceu:raw_magnesite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "5DD0B8141CB6F828"
-					item: "gtceu:raw_garnierite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1127E4740231AECC"
-					item: "gtceu:raw_nickel"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "659704C6C7AD926D"
-					item: "gtceu:raw_cobaltite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7BC6862957021AA4"
-					item: "gtceu:raw_pentlandite"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "4E323938CC8734BE"
-					type: "checkmark"
-				}
-			]
-			title: "水星的矿"
-			x: 28.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["602F48807D4A89A6"]
@@ -1336,26 +1147,6 @@
 			title: "水星的流体矿脉"
 			x: 28.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["5010011959CF5337"]
-			icon: "gtceu:raw_ostrum"
-			id: "48DFA1EF82126177"
-			tasks: [
-				{
-					id: "712CE912BBCC97FA"
-					item: "gtceu:raw_ostrum"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "663A530923FFCBA1"
-					type: "checkmark"
-				}
-			]
-			title: "谷神星的矿"
-			x: 38.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["5010011959CF5337"]
@@ -1402,8 +1193,10 @@
 			]
 			description: [
 				"终于可以去下界了"
-				"在远古反应核相邻的四个位置放金块，角落的四个位置放绿宝石块，手持下界数据右键"
-				"在下界干什么呢，挖点灵魂沙远古残骸"
+				""
+				"怎么去呢？在远古反应核相邻的四个位置放金块，角落的四个位置放绿宝石块，手持下界数据右键"
+				""
+				"在下界干什么呢，挖点灵魂沙、远古残骸和下界疣"
 			]
 			icon: "minecraft:nether_wart"
 			icon_scale: 2.0d
@@ -1413,7 +1206,7 @@
 					dimension: "minecraft:the_nether"
 					id: "46F65CA6CFE50917"
 					optional_task: true
-					title: "地狱"
+					title: "下界"
 					type: "dimension"
 				}
 				{
@@ -1422,6 +1215,7 @@
 					type: "item"
 				}
 			]
+			title: "下界"
 			x: 29.0d
 			y: 2.0d
 		}
@@ -1452,7 +1246,7 @@
 				}
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 8.0d
 		}
 		{
@@ -1463,7 +1257,7 @@
 				item: "ad_astra:ostrum_tank"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: 7.0d
 		}
 		{
@@ -1474,7 +1268,7 @@
 				item: "ad_astra:ostrum_engine"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: 9.0d
 		}
 		{
@@ -1485,7 +1279,7 @@
 				item: "ad_astra:ostrum_plate"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 8.0d
 		}
 		{
@@ -1496,7 +1290,7 @@
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -1510,13 +1304,15 @@
 				title: "准备前往T5"
 				type: "checkmark"
 			}]
-			x: 5.0d
+			x: 4.5d
 			y: 8.0d
 		}
 		{
 			dependencies: ["5322AB6C014C301F"]
+			description: ["太空电梯的好搭档"]
 			icon: "gtceu:rocket_fuel_h8n4c2o4_bucket"
 			id: "75A54472EEAF6BB0"
+			subtitle: "超级好用"
 			tasks: [
 				{
 					id: "33C81AA0CA99EAF5"
@@ -1529,7 +1325,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 11.0d
+			title: "火箭燃料（偏二甲肼-四氧化二氮）"
+			x: 10.5d
 			y: 10.0d
 		}
 		{
@@ -1635,6 +1432,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "凛冰燃料"
 			x: 21.5d
 			y: 10.0d
 		}
@@ -1682,6 +1480,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "星能火箭燃料"
 			x: 30.0d
 			y: 10.0d
 		}
@@ -1717,7 +1516,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 12.0d
 			y: 8.0d
 		}
 		{
@@ -1739,40 +1538,8 @@
 					type: "item"
 				}
 			]
-			x: 13.5d
+			x: 13.0d
 			y: 8.0d
-		}
-		{
-			dependencies: ["73613E3EBEFFB326"]
-			icon: "gtceu:raw_naquadah"
-			id: "793E9EC16B16BA5C"
-			tasks: [
-				{
-					id: "7A60CC225A62E827"
-					item: "gtceu:raw_naquadah"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "04B98AF7EBA6D607"
-					item: "gtceu:raw_celestine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "59EB363E1AF4A068"
-					item: "gtceu:raw_trona"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "0916921F52DD41A3"
-					type: "checkmark"
-				}
-			]
-			title: "木卫一的矿"
-			x: 12.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["73613E3EBEFFB326"]
@@ -1791,7 +1558,7 @@
 				}
 			]
 			title: "木卫一的流体矿脉"
-			x: 12.5d
+			x: 12.0d
 			y: 12.0d
 		}
 		{
@@ -1811,28 +1578,8 @@
 				}
 			]
 			title: "木卫三的流体矿脉"
-			x: 13.5d
+			x: 13.0d
 			y: 12.0d
-		}
-		{
-			dependencies: ["761877FE2F5E2E2E"]
-			icon: "gtceu:raw_zircon"
-			id: "5A5C5923DADD33E5"
-			tasks: [
-				{
-					id: "31F911C5925689BB"
-					item: "gtceu:raw_zircon"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2EB386859E1CFF3D"
-					type: "checkmark"
-				}
-			]
-			title: "木卫三的矿"
-			x: 13.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["045213D417DE5A75"]
@@ -1905,7 +1652,7 @@
 				"61140578961B01A9"
 				"67784DEB22D18308"
 			]
-			description: ["找到原版要塞中的传送门，副手手持末地数据，主手手持末影之眼，各消耗一个点亮一个传送门框架"]
+			description: ["找到原版要塞中的传送门，副手手持末地数据，主手手持末影之眼，右键传送门框架后各消耗一个点亮一个，最后进入传送门即可去往末地"]
 			icon: "minecraft:end_portal_frame"
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
@@ -1915,7 +1662,7 @@
 				item: "kubejs:end_data"
 				type: "item"
 			}]
-			title: "末地"
+			title: "前往末地"
 			x: 26.0d
 			y: 8.0d
 		}
@@ -2071,10 +1818,7 @@
 		}
 		{
 			dependencies: ["5A185A4065DD7FCF"]
-			description: [
-			    "需要   一号电路   128算力"
-			    "点击启程时请离电梯主方块近一点，否则不会升空"
-			]
+			description: ["点击启程时请离电梯主方块近一点，否则不会升空"]
 			icon_scale: 2.0d
 			id: "60FA18C7093410F8"
 			shape: "rsquare"
@@ -2136,9 +1880,10 @@
 			id: "21D8A596F5BE438E"
 			optional: true
 			rewards: [{
-				command: "/execute in ad_astra:moon run tp 0 200 0"
+				command: "/execute in ad_astra:moon run tp 0 120 0"
 				elevate_perms: true
 				id: "68C04E0EA66271B7"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2155,9 +1900,10 @@
 			id: "10BFE6FF4FE640CF"
 			optional: true
 			rewards: [{
-				command: "/execute in ad_astra:mars run tp 0 200 0"
+				command: "/execute in ad_astra:mars run tp 0 120 0"
 				elevate_perms: true
 				id: "515FE430072534D3"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2174,9 +1920,10 @@
 			id: "07645AD74EFE2F30"
 			optional: true
 			rewards: [{
-				command: "/execute in ad_astra:venus run tp 0 200 0"
+				command: "/execute in ad_astra:venus run tp 0 120 0"
 				elevate_perms: true
 				id: "4947CE478EC8131D"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2193,9 +1940,10 @@
 			id: "78CA1579D445E245"
 			optional: true
 			rewards: [{
-				command: "/execute in ad_astra:mercury run tp 0 200 0"
+				command: "/execute in ad_astra:mercury run tp 0 120 0"
 				elevate_perms: true
 				id: "109555A7B7DC83BA"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2212,9 +1960,10 @@
 			id: "5DDB65F09BF7CB42"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:ceres run tp 0 200 0"
+				command: "/execute in kubejs:ceres run tp 0 120 0"
 				elevate_perms: true
 				id: "5DABDE58E85A1554"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2231,9 +1980,10 @@
 			id: "0605583CFB358CAA"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:io run tp 0 200 0"
+				command: "/execute in kubejs:io run tp 0 120 0"
 				elevate_perms: true
 				id: "1B9F96DC71464F25"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2241,7 +1991,7 @@
 				title: "去木卫一"
 				type: "checkmark"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -2250,9 +2000,10 @@
 			id: "523A8CBF30530A08"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:ganymede run tp 0 200 0"
+				command: "/execute in kubejs:ganymede run tp 0 120 0"
 				elevate_perms: true
 				id: "1D27BEFA544DC7B3"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2260,7 +2011,7 @@
 				title: "去木卫三"
 				type: "checkmark"
 			}]
-			x: 13.5d
+			x: 13.0d
 			y: 6.0d
 		}
 		{
@@ -2269,9 +2020,10 @@
 			id: "03EB99A257E23BB0"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:pluto run tp 0 200 0"
+				command: "/execute in kubejs:pluto run tp 0 120 0"
 				elevate_perms: true
 				id: "66072C4B76BF5F96"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2288,9 +2040,10 @@
 			id: "5F4A69C996774D27"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:enceladus run tp 0 200 0"
+				command: "/execute in kubejs:enceladus run tp 0 120 0"
 				elevate_perms: true
 				id: "06FD20BA0DFAD74B"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2307,9 +2060,10 @@
 			id: "42E7589D84B33100"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:titan run tp 0 200 0"
+				command: "/execute in kubejs:titan run tp 0 120 0"
 				elevate_perms: true
 				id: "5B3F450A220D031D"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2326,9 +2080,10 @@
 			id: "49CD5A099F2C481D"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:barnarda run tp 0 200 0"
+				command: "/execute in kubejs:barnarda run tp 0 120 0"
 				elevate_perms: true
 				id: "088F8105E0E97885"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2345,9 +2100,10 @@
 			id: "308E80493652A74D"
 			optional: true
 			rewards: [{
-				command: "/execute in ad_astra:glacio run tp 0 200 0"
+				command: "/execute in ad_astra:glacio run tp 0 120 0"
 				elevate_perms: true
 				id: "23A2A64020DAD06D"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2360,14 +2116,18 @@
 		}
 		{
 			can_repeat: true
-			dependencies: ["335ED39019FC62E7"]
+			dependencies: [
+				"335ED39019FC62E7"
+				"5E59E7938F004FBE"
+			]
 			description: ["让你方便一点"]
 			id: "2A7DCD5C4BED8E3D"
 			optional: true
 			rewards: [{
-				command: "/execute in kubejs:ancient_world run tp 0 200 0"
+				command: "/execute in kubejs:ancient_world run tp 0 100 0"
 				elevate_perms: true
 				id: "22B3FCAD4E46DCCA"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2375,7 +2135,7 @@
 				title: "去远古世界"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -2387,6 +2147,7 @@
 				command: "/execute in minecraft:the_nether run tp 0 100 0"
 				elevate_perms: true
 				id: "4CEB0A83900FB9A9"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2403,9 +2164,10 @@
 			id: "1308E1F15E72F288"
 			optional: true
 			rewards: [{
-				command: "/execute in minecraft:the_end run tp 0 200 0"
+				command: "/execute in minecraft:the_end run tp 0 120 0"
 				elevate_perms: true
 				id: "7FA690EB17C46096"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2418,14 +2180,11 @@
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
-			description: [
-				"这里有着无重力条件"
-				""
-				"制造空间站的材料为1个钢引擎，16个微型处理器超级计算机，16个航天级铁板和64个钢锭"
-			]
+			description: ["制造空间站的材料为1个钢引擎，16个微型处理器超级计算机，16个航天级铁板和64个钢锭"]
 			icon: "gtceu:quantum_eye"
 			icon_scale: 2.0d
 			id: "3A48F268FB265977"
+			subtitle: "这里有着无重力条件"
 			tasks: [
 				{
 					dimension: "ad_astra:earth_orbit"
@@ -2452,6 +2211,7 @@
 				command: "/execute in ad_astra:earth_orbit run tp 0 100 0"
 				elevate_perms: true
 				id: "628ADDAA3706986F"
+				title: "一键传送"
 				type: "command"
 			}]
 			tasks: [{
@@ -2464,14 +2224,17 @@
 		}
 		{
 			can_repeat: true
+			dependencies: ["5E59E7938F004FBE"]
 			id: "4BCBB3270D825F0E"
 			optional: true
 			rewards: [{
 				command: "/execute in minecraft:overworld run tp 0 200 0"
 				elevate_perms: true
 				id: "5C977ABA2F4861A9"
+				title: "一键传送"
 				type: "command"
 			}]
+			subtitle: "小心点，别摔死了"
 			tasks: [{
 				id: "6261241DFF0B95E0"
 				title: "主世界"
@@ -2479,6 +2242,79 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E59E7938F004FBE"]
+			id: "1A827BAD61192192"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:void run tp 0 100 0"
+				elevate_perms: true
+				id: "00F92862B4E43B96"
+				title: "一键传送"
+				type: "command"
+			}]
+			tasks: [{
+				id: "548E54E5917FD172"
+				title: "去虚空"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5E59E7938F004FBE"]
+			id: "133AD507CF41BC04"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:flat run tp 0 66 0"
+				elevate_perms: true
+				id: "7079B3B19424F543"
+				title: "一键传送"
+				type: "command"
+			}]
+			tasks: [{
+				id: "035EE78EC2A979E2"
+				title: "去超平坦"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1416EAE88C9030C8"]
+			id: "26C2C4B2977A4DBF"
+			optional: true
+			rewards: [{
+				command: "/execute in kubejs:create run tp 0 2 0"
+				elevate_perms: true
+				id: "65F858A0F5D54D13"
+				title: "一键传送"
+				type: "command"
+			}]
+			subtitle: "记得穿星体套"
+			tasks: [{
+				id: "78547A53869D8709"
+				title: "去创造维度"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["075D368E91231337"]
+			hide_dependent_lines: true
+			id: "5E59E7938F004FBE"
+			tasks: [{
+				id: "02D288B6053EFD3C"
+				title: "T0"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 	title: "探索世界"

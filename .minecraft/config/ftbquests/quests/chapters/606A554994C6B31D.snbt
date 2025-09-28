@@ -1,7 +1,9 @@
 {
 	autofocus_id: "62262C7C04B2D79A"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	disable_toast: true
 	filename: "606A554994C6B31D"
 	group: ""
 	icon: "gtceu:doge_coin"
@@ -10,351 +12,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "328D140CCF4FAEC6"
-			tasks: [{
-				id: "60C942F096955819"
-				title: "ULV"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["51B9A72C19F84F0E"]
-			id: "6967496308DD29AE"
-			tasks: [{
-				id: "18257AB42CC12B94"
-				title: "LV"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["7296C57805F5DC96"]
-			id: "1994BAD293E85984"
-			tasks: [{
-				id: "3F42209BF0C6D769"
-				title: "MV"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["1A48D2DB936FF632"]
-			id: "231670C48BBDDB3E"
-			tasks: [{
-				id: "2D237EAD6E9F27AD"
-				title: "HV"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "gtceu:bronze_ingot"
-			id: "5D8C36224EAD129C"
-			optional: true
-			rewards: [{
-				id: "4DC28677F9AC9E9A"
-				item: "gtceu:bronze_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "553843DFB9C60240"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "青铜"
-			x: -1.5d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "gtceu:tin_alloy_ingot"
-			id: "6B108E774863DD83"
-			optional: true
-			rewards: [{
-				id: "2CBC6E86DA9BE01E"
-				item: "gtceu:tin_alloy_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "79268F6FFDE91F4E"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "锡铁合金"
-			x: 0.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "gtceu:steel_ingot"
-			id: "5D6D75D548EC9255"
-			optional: true
-			rewards: [{
-				id: "62F22CD1F901F416"
-				item: "gtceu:steel_dust"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "1B53ED998CCC2A56"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "钢"
-			x: 1.5d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "minecraft:copper_ingot"
-			id: "6530A7F1F1EF9E0E"
-			optional: true
-			rewards: [{
-				id: "0DF96DB36DB9D955"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "60B4803EC5801E17"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "铜"
-			x: -6.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "gtceu:tin_ingot"
-			id: "3A495254105F39FE"
-			optional: true
-			rewards: [{
-				id: "5DF9361E1EFE7DE1"
-				item: "gtceu:tin_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "0C2D92AE3CA26086"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "锡"
-			x: -4.5d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "minecraft:iron_ingot"
-			id: "41A03ABE176583A6"
-			optional: true
-			rewards: [{
-				id: "6BCAF7F30F621F31"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "5704F1041F4BB99A"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "铁"
-			x: -3.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
-			icon: "gtceu:sticky_resin"
-			id: "480654050D2AA365"
-			optional: true
-			rewards: [{
-				id: "2C5322BB596BC734"
-				item: "gtceu:sticky_resin"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4BB789818AD0C432"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			title: "黏性树脂"
-			x: 3.0d
-			y: -5.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "gtceu:lead_ingot"
-			id: "62262C7C04B2D79A"
-			optional: true
-			rewards: [{
-				id: "3E89D22A6BE68246"
-				item: "gtceu:lead_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "73AA093941CE9684"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "铅"
-			x: -6.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "gtceu:nickel_ingot"
-			id: "6105D12CA14D5AF1"
-			optional: true
-			rewards: [{
-				id: "660DBC342535BB7C"
-				item: "gtceu:nickel_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "7ED0DA0B0E42417E"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "镍"
-			x: -4.5d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "gtceu:silver_ingot"
-			id: "4E524697DB6A4E38"
-			optional: true
-			rewards: [{
-				id: "5F82508C865D553B"
-				item: "gtceu:silver_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "320801D5AF19FB9F"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "银"
-			x: -3.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "minecraft:gold_ingot"
-			id: "7EDB453FBC4B7957"
-			optional: true
-			rewards: [{
-				id: "6701A90D82E532A8"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 4L
-				id: "383EBDFB2377CECA"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "金"
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "gtceu:aluminium_ingot"
-			id: "28B1628F5D38BBE9"
-			optional: true
-			rewards: [{
-				id: "7FC91ADFC7DF86CD"
-				item: "gtceu:aluminium_dust"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "7B3FC9A01DC9CD02"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "铝"
-			x: -1.5d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "minecraft:redstone"
-			id: "14FE20F424D376CD"
-			optional: true
-			rewards: [{
-				count: 4
-				id: "573C44E8F54B65BE"
-				item: "minecraft:redstone"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4556D98DC0B40651"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "红石"
-			x: 1.5d
-			y: -4.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
-			icon: "gtceu:rubber_ingot"
-			id: "4FC06B3C5E4C3749"
-			optional: true
-			rewards: [{
-				id: "2F6EF7DAF80887EA"
-				item: "gtceu:rubber_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "319A39915A1DD57D"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			title: "橡胶"
-			x: 3.0d
-			y: -4.0d
-		}
-		{
+			description: ["可以在丛林神庙中寻得，也可以在渔场钓出"]
 			id: "369BA1002418F097"
 			tasks: [{
+				consume_items: false
 				id: "0E78B5C528062928"
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
@@ -370,8 +31,8 @@
 				"使用这个神奇的瓶子对着工作中的GT机器潜行右键可以加速机器工作"
 				"当然，使用如此强大的物品会消耗你的饥饿值，且加速能力随机器等级的提升而减弱"
 				"机制："
-				"每次使用消耗1使用次数，使用次数每秒回复1，最大20次"
-				"普通：从蒸汽机器到HV机器的机器等级为0-3级，大于HV级无效"
+				"每次使用消耗1使用次数，使用次数每秒回复1，最大20次（并不是耐久值）"
+				"从蒸汽机器到HV机器的机器等级为0-3级，大于HV级无效"
 				"机器配方运行时间大于20秒时时间减少(4-机器等级)x2秒"
 				"机器配方运行时间大于10秒时时间减少(4-机器等级)秒"
 				"机器配方运行时间大于2秒时时间减少(4-机器等级)x0.5秒"
@@ -393,6 +54,7 @@
 					id: "kubejs:time_twister"
 					tag: {
 						Damage: 0
+						Unbreakable: 1b
 					}
 				}
 				type: "item"
@@ -451,41 +113,12 @@
 			y: -7.0d
 		}
 		{
-			can_repeat: true
-			dependencies: ["369BA1002418F097"]
-			description: ["铸造方法已经失传，远古中蕴含着踪迹"]
-			icon: "gtceu:damascus_steel_ingot"
-			id: "0E0889E2DEB646B6"
-			optional: true
-			rewards: [{
-				id: "0A188BADCDB23487"
-				item: "gtceu:damascus_steel_dust"
-				type: "item"
-			}]
-			tasks: [
-				{
-					consume_items: true
-					id: "1CF312748A61B7FA"
-					item: "gtceu:ancient_gold_coin"
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "20B4F144241E5936"
-					item: "gtceu:steel_ingot"
-					type: "item"
-				}
-			]
-			title: "大马士革钢"
-			x: -3.0d
-			y: -7.0d
-		}
-		{
 			dependencies: ["369BA1002418F097"]
 			description: [
 				"带有夜视和创造飞行，X键可加速飞行，最高4倍，潜行加X可以重制飞行速度，无需能量"
 				"Z键开关夜视"
-				"可使用宇航服升级为抵抗宇宙危险的航天版本，无需氧气"
+				"{ \"text\": \"可使用宇航服升级为抵抗宇宙危险的航天版本，无需氧气\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
+				"无尽套和星体套的操作方法与镄套装一致"
 			]
 			icon: {
 				Count: 1
@@ -565,7 +198,7 @@
 				}
 			]
 			title: "镄套装"
-			x: 4.5d
+			x: 1.5d
 			y: -7.0d
 		}
 		{
@@ -623,100 +256,14 @@
 					type: "item"
 				}
 			]
-			title: "基岩破坏"
+			title: "基岩破坏者"
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["1994BAD293E85984"]
-			icon: "gtceu:silver_octal_cable"
-			id: "03F8B997EFEB4636"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2BD7E35B07717A83"
-				table_id: 4226179630409097864L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2BB3325EC9BFD10F"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			title: "MV-HV的线缆"
-			x: -3.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1994BAD293E85984"]
-			icon: "gtceu:exquisite_ruby_gem"
-			id: "7CD3E38C1FC6D0DD"
-			optional: true
-			rewards: [{
-				count: 4
-				id: "7A9FDC40E6FBF2DD"
-				item: "gtceu:ruby_dust"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "30A1D5242AEE33BE"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			title: "红宝石"
-			x: -6.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1994BAD293E85984"]
-			icon: "gtceu:gallium_dust"
-			id: "6D8265D945F1A4FE"
-			optional: true
-			rewards: [{
-				id: "64DFB1A234040D63"
-				item: "gtceu:gallium_dust"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "6D6E988574CD32D7"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			title: "镓"
-			x: -4.5d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["231670C48BBDDB3E"]
-			icon: "gtceu:platinum_octal_cable"
-			id: "322DE662115CB052"
-			optional: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CE47CF23D506908"
-				table_id: 3428454249082450316L
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "4645232EC7413F45"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			title: "EV-IV线缆"
-			x: -6.0d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1994BAD293E85984"]
+			dependencies: ["0BB44C475666B862"]
+			disable_toast: true
 			icon: "travelanchors:travel_staff"
 			id: "0A5739F8E482B47E"
 			optional: true
@@ -749,267 +296,8 @@
 				}
 			]
 			title: "省一个格子"
-			x: -1.5d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["231670C48BBDDB3E"]
-			icon: "gtceu:lv_super_tank"
-			id: "1C4B5EDEA37AF553"
-			optional: true
-			rewards: [{
-				id: "12671ABB3E06CBB1"
-				item: "gtceu:lv_super_tank"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "48690AFDFD92005B"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			title: "超级缸 I"
-			x: -4.5d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["231670C48BBDDB3E"]
-			icon: "gtceu:lv_super_chest"
-			id: "12E723ABD388B0E3"
-			optional: true
-			rewards: [{
-				id: "129CCFB180D0461B"
-				item: "gtceu:lv_super_chest"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "39FECE67ED51DEF2"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			title: "超级箱 I"
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["1E7344C133C99565"]
-			id: "0F5FC80A063D12FE"
-			tasks: [{
-				id: "4AB433EFDF70990A"
-				title: "EV"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["1994BAD293E85984"]
-			hide_dependency_lines: false
-			icon: "gtceu:steel_fluid_cell"
-			id: "15567706C963F777"
-			optional: true
-			rewards: [{
-				id: "090167413FB053EB"
-				item: "gtceu:steel_fluid_cell"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "252E9AFB8369926E"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			title: "流体单元 I"
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["231670C48BBDDB3E"]
-			icon: "gtceu:aluminium_fluid_cell"
-			id: "5A3A66918A576FC9"
-			optional: true
-			rewards: [{
-				id: "48FE5C4048BEC765"
-				item: "gtceu:aluminium_fluid_cell"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "5818744277411258"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			title: "流体单元 II"
-			x: -1.5d
-			y: -1.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["0F5FC80A063D12FE"]
-			icon: "gtceu:mv_super_tank"
-			id: "15C89656703F9E75"
-			optional: true
-			rewards: [{
-				id: "7C1206401F30BF82"
-				item: "gtceu:mv_super_tank"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "7DA3AB4BF17BB925"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
-			title: "超级缸 II"
 			x: -6.0d
-			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["0F5FC80A063D12FE"]
-			icon: "gtceu:mv_super_chest"
-			id: "6B5066DF5C58DBF7"
-			optional: true
-			rewards: [{
-				id: "375A63BC6271866B"
-				item: "gtceu:mv_super_chest"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "13DCBD4DC03748A4"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
-			title: "超级箱 II"
-			x: -4.5d
-			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["0F5FC80A063D12FE"]
-			icon: "gtceu:stainless_steel_fluid_cell"
-			id: "30F2BC5FCEB33446"
-			optional: true
-			rewards: [{
-				id: "03D0D6BF9403B5B1"
-				item: "gtceu:stainless_steel_fluid_cell"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "60B9D2D4D1C88727"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
-			title: "流体单元 III"
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["369BA1002418F097"]
-			description: ["精准获得方块"]
-			icon: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:silk_touch"
-						lvl: 1s
-					}]
-				}
-			}
-			id: "78DAFF8A81A14F39"
-			optional: true
-			rewards: [{
-				id: "71B78ED825255269"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:silk_touch"
-							lvl: 1s
-						}]
-					}
-				}
-				type: "item"
-			}]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: true
-					id: "161537394D3FD0EE"
-					item: "gtceu:ancient_gold_coin"
-					match_nbt: false
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "7D8D34801734E71C"
-					item: "minecraft:book"
-					type: "item"
-				}
-			]
-			title: "精准采集"
-			x: 0.0d
-			y: -7.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["369BA1002418F097"]
-			description: ["高速挖掘"]
-			icon: {
-				Count: 1
-				id: "minecraft:enchanted_book"
-				tag: {
-					StoredEnchantments: [{
-						id: "minecraft:efficiency"
-						lvl: 5s
-					}]
-				}
-			}
-			id: "531F00E7AB0E7B43"
-			optional: true
-			rewards: [{
-				id: "262AF1D5E6E47558"
-				item: {
-					Count: 1
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:efficiency"
-							lvl: 5s
-						}]
-					}
-				}
-				type: "item"
-			}]
-			shape: "circle"
-			tasks: [
-				{
-					consume_items: true
-					id: "6F89766A15CB7190"
-					item: "gtceu:ancient_gold_coin"
-					match_nbt: false
-					type: "item"
-				}
-				{
-					consume_items: true
-					id: "48DB7034855D14AD"
-					item: "minecraft:book"
-					type: "item"
-				}
-			]
-			title: "效率"
-			x: 1.5d
-			y: -7.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1045,32 +333,48 @@
 			}
 			id: "57097B0BBA1CF850"
 			optional: true
-			rewards: [{
-				id: "29B2BA20507FECCF"
-				item: {
-					Count: 1
-					id: "gtceu:echoite_vajra"
-					tag: {
-						DisallowContainerItem: 0b
-						GT.Behaviours: {
-							DisableShields: 1b
-							Mode: 2b
-							RelocateMinedBlocks: 1b
-							TreeFelling: 1b
+			rewards: [
+				{
+					id: "29B2BA20507FECCF"
+					item: {
+						Count: 1
+						id: "gtceu:echoite_vajra"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								DisableShields: 1b
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								TreeFelling: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								HarvestLevel: 6
+								MaxDamage: 63
+								ToolSpeed: 10.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
 						}
-						GT.Tool: {
-							Damage: 0
-							Enchantability: 10
-							HarvestLevel: 6
-							MaxDamage: 63
-							ToolSpeed: 10.0f
-						}
-						HideFlags: 2
-						Unbreakable: 1b
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0A0E516DBAE235DF"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:silk_touch"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					consume_items: true
@@ -1116,12 +420,12 @@
 				}
 			]
 			title: "金钢杵"
-			x: 3.0d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
+			dependencies: ["4B6F43302E963F5E"]
 			icon: "gtceu:steam_machine_casing"
 			id: "3E6BC2F76ED6F531"
 			optional: true
@@ -1147,70 +451,20 @@
 				}
 			]
 			title: "蒸汽机械方块"
-			x: 4.5d
+			x: 0.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["38480A52A13DA157"]
-			id: "4E80FF3BE1903C6F"
-			tasks: [{
-				id: "1FF12285BEC17EA2"
-				title: "IV"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 2.0d
-		}
-		{
 			can_repeat: true
-			dependencies: ["4E80FF3BE1903C6F"]
-			icon: "gtceu:iv_quantum_tank"
-			id: "108474D18FF26868"
-			optional: true
-			rewards: [{
-				id: "386CBAFFD948BA37"
-				item: "gtceu:iv_quantum_tank"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "55DE20768F74D1F1"
-				item: "gtceu:osmium_credit"
-				type: "item"
-			}]
-			title: "量子缸Ⅴ"
-			x: -6.0d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["4E80FF3BE1903C6F"]
-			icon: "gtceu:iv_quantum_chest"
-			id: "0AA4047019DAA90F"
-			optional: true
-			rewards: [{
-				id: "03CED3F2EAD7BC6F"
-				item: "gtceu:iv_quantum_chest"
-				type: "item"
-			}]
-			tasks: [{
-				consume_items: true
-				id: "2CC68A12E2881E0E"
-				item: "gtceu:osmium_credit"
-				type: "item"
-			}]
-			title: "量子箱Ⅴ"
-			x: -4.5d
-			y: 2.0d
-		}
-		{
-			can_repeat: true
-			dependencies: ["231670C48BBDDB3E"]
+			disable_toast: true
+			icon: "gtceu:gold_credit"
 			id: "2D03768503C09D2D"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				id: "47E27CC67FB028DC"
 				item: "gtceu:gold_credit"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -1220,17 +474,20 @@
 				type: "item"
 			}]
 			title: "奸商"
-			x: 4.5d
-			y: -1.0d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["0F5FC80A063D12FE"]
+			disable_toast: true
+			icon: "gtceu:platinum_credit"
 			id: "1F3806972B21488E"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				id: "54D86640EAE02D8E"
 				item: "gtceu:platinum_credit"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -1241,17 +498,20 @@
 				type: "item"
 			}]
 			title: "黑心老板"
-			x: 4.5d
-			y: 0.5d
+			x: -6.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["4E80FF3BE1903C6F"]
+			disable_toast: true
+			icon: "gtceu:osmium_credit"
 			id: "5D20FDB89B25FB89"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				id: "23FC3BE7E1A76D12"
 				item: "gtceu:osmium_credit"
+				team_reward: false
 				type: "item"
 			}]
 			tasks: [{
@@ -1262,57 +522,124 @@
 				type: "item"
 			}]
 			title: "资本家"
-			x: 4.5d
-			y: 2.0d
+			x: -4.5d
+			y: -2.5d
 		}
 		{
-			can_repeat: true
-			dependencies: ["4E80FF3BE1903C6F"]
-			icon: "ae2:cell_component_256k"
+			dependencies: ["423E927A2EE3A956"]
+			description: [
+				"无线终端两两之间可以合成为通用终端（通用终端之间同理）"
+				""
+				"把奇点和末影粉一起丢在地上用爆炸物（TNT、炸药桶等）引爆可获得量子缠绕态奇点"
+				""
+				"装载量子桥卡的前提下将一对量子缠绕态奇点分别放置在量子环和无线终端中可以让无线终端跨纬度无限距离与ME网络互动，且能让终端无线充电"
+				""
+				"磁卡可以将掉落物直接吸入ME网络（通用终端才能装载磁卡）"
+			]
+			disable_toast: true
+			icon: "ae2:wireless_receiver"
 			id: "30787B18066763DB"
 			optional: true
-			rewards: [{
-				count: 2
-				id: "0641B4398B707B90"
-				item: "gtlcore:cell_component_256m"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C660BD08CF59D1C"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "29E09165FC648F14"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "0F2C6F75678C5996"
+					item: "ae2wtlib:wireless_pattern_access_terminal"
+					type: "item"
+				}
+				{
+					id: "356D1659C7A0DE01"
+					item: "expatternprovider:wireless_ex_pat"
+					type: "item"
+				}
+				{
+					id: "216FAF820B8CD872"
+					item: "ae2wtlib:quantum_bridge_card"
+					type: "item"
+				}
+				{
+					id: "62B61F8B3D9CE5DE"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "119383569D6EF444"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "3C1E13F62AA0E49F"
+					item: "ae2wtlib:magnet_card"
+					type: "item"
+				}
+				{
+					id: "12F5A39105EA49A6"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+				{
+					id: "7F337907450B5225"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+				{
+					id: "1705DCD1BEE38513"
+					item: "ae2:singularity"
+					type: "item"
+				}
+				{
+					id: "74FDCF97F438280B"
+					item: "gtceu:ender_pearl_dust"
+					type: "item"
+				}
+			]
 			tasks: [{
 				consume_items: true
 				id: "6C29298EE3013869"
-				item: "gtceu:naquadah_credit"
+				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			title: "256M"
-			x: -3.0d
-			y: 2.0d
+			title: "无线大礼包"
+			x: 1.5d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["4E80FF3BE1903C6F"]
+			dependencies: ["6E69F45AEA66D5ED"]
+			disable_toast: true
 			hide_text_until_complete: false
 			icon: "ae2:fluix_glass_cable"
 			id: "74D4AA7CA6A67F59"
 			optional: true
 			rewards: [{
-				count: 256
-				id: "004D5D6FF16CC76C"
-				item: "ae2:fluix_glass_cable"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "3EA4BC8F313C7B94"
+				table_id: 5241784325866169384L
+				type: "choice"
 			}]
 			tasks: [{
 				consume_items: true
 				id: "5559DCB34AF137A7"
-				item: "gtceu:osmium_credit"
+				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "玻璃线缆"
+			title: "AE线缆"
 			x: -1.5d
-			y: 2.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
-			dependencies: ["6967496308DD29AE"]
+			description: ["实际上染料可以通过消耗盐和硫酸实现自我增殖"]
 			icon: "minecraft:yellow_dye"
 			id: "7B72A96FC0A31033"
 			optional: true
@@ -1329,11 +656,12 @@
 				type: "item"
 			}]
 			title: "多彩世界"
-			x: 4.5d
-			y: -4.0d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
+			disable_toast: true
 			hide: true
 			id: "7F3D9F19428262A4"
 			optional: true
@@ -1343,10 +671,14 @@
 				type: "checkmark"
 			}]
 			x: -7.5d
-			y: 3.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["7F3D9F19428262A4"]
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
+			disable_toast: true
 			hide: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "16A27768544CDACB"
@@ -1356,6 +688,7 @@
 				item: "gtceu:ulv_fragment_world_collection_machine"
 				type: "item"
 			}]
+			subtitle: "再来一台"
 			tasks: [{
 				consume_items: true
 				id: "30DBCFC58F070BB5"
@@ -1364,11 +697,11 @@
 			}]
 			title: "碎片世界采集器"
 			x: -6.0d
-			y: 3.5d
+			y: -1.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["328D140CCF4FAEC6"]
+			dependencies: ["4B6F43302E963F5E"]
 			hide_dependency_lines: true
 			icon: "gtceu:steam_machine_casing"
 			id: "5C28B39C5A5B7999"
@@ -1397,8 +730,682 @@
 				}
 			]
 			title: "蒸汽机械方块*10"
-			x: 4.0d
+			x: -0.5d
 			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: ["可以用目标显示器快速提交"]
+			disable_toast: true
+			icon: "gtceu:portable_debug_scanner"
+			id: "3D3257C9F9C151F1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3884BF799BEA31B4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72B07FD320C0C794"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A7D3CE3E7CC81F1"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65F69F581E74E5DE"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0085668157D3AEF8"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06C97FAEF3E68119"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					id: "1C3FB57FF93D0A67"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04AA821C813DBAF6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "280CCD4DEE1815C0"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BC5175FF4419317"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 648L
+				id: "718508D163EF0C83"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "抽奖"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F3D9F19428262A4"]
+			disable_toast: true
+			hide: true
+			icon: "minecraft:sweet_berries"
+			id: "15D2C4D62F746F8E"
+			optional: true
+			rewards: [{
+				id: "21902B98C02D0011"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "00F84D5F9C5FE714"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "甜浆果"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F3D9F19428262A4"]
+			disable_toast: true
+			hide: true
+			icon: "minecraft:mycelium"
+			id: "4567AA9D7B0D3CC0"
+			optional: true
+			rewards: [{
+				id: "290920A88897A095"
+				item: "minecraft:mycelium"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "149C7B953BE12FB1"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "菌丝体"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["74D9136DE32F9129"]
+			disable_toast: true
+			icon: "expatternprovider:wireless_connect"
+			id: "288F75626178A5E5"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6CEF7CFB8D0A2627"
+				item: "expatternprovider:wireless_connect"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6DB56B0260FD2CA0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "无线连接器"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6E69F45AEA66D5ED"]
+			disable_toast: true
+			hide_text_until_complete: false
+			icon: "ae2:fluix_glass_cable"
+			id: "73580F0C930CF62D"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F57617E73B6CED1"
+				table_id: 6275199759017360205L
+				type: "choice"
+			}]
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "1481D575F5478267"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "AE线缆*10"
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: "minecraft:birch_sapling"
+			id: "0AFABA150764064D"
+			optional: true
+			rewards: [
+				{
+					id: "7E5D2C0B037A4F55"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "206F9ADF93C4F9DE"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "64AD353D3EF41C46"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "33427A34C180EB2E"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "2656C039DC2DFBA3"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					id: "559C816055A585A1"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "4C927CBBE811B128"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "082E643DDA06D9B5"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "03970DFBE879FDF0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			title: "树苗大礼包"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			icon: "avaritia:star_fuel"
+			id: "7EE5DA5164BD22A3"
+			optional: true
+			rewards: [{
+				count: 9
+				id: "70FD485EB71EEE61"
+				item: "avaritia:star_fuel"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "27368E8BA5B2D852"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "恒星燃料"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
+			disable_toast: true
+			hide: false
+			icon: "gtceu:ulv_fragment_world_collection_machine"
+			id: "5C9016400CB5CE94"
+			optional: true
+			rewards: [{
+				id: "27C1819273879C39"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
+			subtitle: "再来一台"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "53EA4DD9BBB64AC0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "碎片世界采集器"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
+			disable_toast: true
+			hide: false
+			icon: "gtceu:ulv_fragment_world_collection_machine"
+			id: "49FCF7722FFB15E0"
+			optional: true
+			rewards: [{
+				id: "7DABC882C0E85B39"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
+			subtitle: "再来一台"
+			tasks: [{
+				consume_items: true
+				count: 100L
+				id: "6CCC33C193433C37"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "碎片世界采集器"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			icon: "gtceu:rubber_sapling"
+			id: "5054FD991D1D0B95"
+			optional: true
+			rewards: [{
+				id: "49C50B543C67842E"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			size: 0.5d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "3343065B377BAF77"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			title: "如果实在找不到橡胶树"
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["369BA1002418F097"]
+			description: ["可以封装ME接口，ME样板供应器和ME驱动器为包裹，保留内部一切设置，手持包裹右键方块可以放置封装设备"]
+			icon: {
+				Count: 1
+				id: "expatternprovider:me_packing_tape"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7DAB120908CDFA34"
+			optional: true
+			rewards: [{
+				id: "1E2E2F6B583A8C9C"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E686813243ED91F"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "无法破坏的ME封装胶带"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["4357DF535061C2E5"]
+			icon: "gtmthings:wireless_item_transfer_cover"
+			id: "25F7BDA5CE06DE15"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "51EF6735BCF4E6FC"
+				table_id: 8408641976190544177L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "706A23E870104074"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "无线覆盖板"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["74D9136DE32F9129"]
+			disable_toast: true
+			icon: "ae2:level_emitter"
+			id: "6842699152883824"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1804C4CCA4D0C616"
+				table_id: 8181667505830034982L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "5F7F40DB7354B8FE"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "发信器"
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:item_filter"
+			id: "6D13F7F1ECC4C52F"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A52DAAB41B6A5D2"
+				table_id: 4862781266240202703L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "318AD6E73B915C43"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "过滤卡"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["47E43CE78A75BB63"]
+			icon: "gtceu:glass_lens"
+			id: "4574A92031339D1F"
+			optional: true
+			rewards: [
+				{
+					id: "6E49E295482DA64C"
+					item: "gtceu:orange_glass_lens"
+					type: "item"
+				}
+				{
+					id: "3CD7DBDE68206DD1"
+					item: "gtceu:magenta_glass_lens"
+					type: "item"
+				}
+				{
+					id: "45CAAB3C4FBC78DF"
+					item: "gtceu:light_blue_glass_lens"
+					type: "item"
+				}
+				{
+					id: "6B549D3C638BA625"
+					item: "gtceu:yellow_glass_lens"
+					type: "item"
+				}
+				{
+					id: "76B708016796CA71"
+					item: "gtceu:lime_glass_lens"
+					type: "item"
+				}
+				{
+					id: "60E45D7EEC99994E"
+					item: "gtceu:pink_glass_lens"
+					type: "item"
+				}
+				{
+					id: "731D6C258CB56417"
+					item: "gtceu:gray_glass_lens"
+					type: "item"
+				}
+				{
+					id: "49A7C330DBBA8BEB"
+					item: "gtceu:light_gray_glass_lens"
+					type: "item"
+				}
+				{
+					id: "4DA6DB57FCC69B56"
+					item: "gtceu:cyan_glass_lens"
+					type: "item"
+				}
+				{
+					id: "269748FE302899E0"
+					item: "gtceu:purple_glass_lens"
+					type: "item"
+				}
+				{
+					id: "0E7425A4D723E007"
+					item: "gtceu:blue_glass_lens"
+					type: "item"
+				}
+				{
+					id: "0F244AE0514E5E8C"
+					item: "gtceu:brown_glass_lens"
+					type: "item"
+				}
+				{
+					id: "575545E63EC75324"
+					item: "gtceu:green_glass_lens"
+					type: "item"
+				}
+				{
+					id: "4A0678CBCBFA82AE"
+					item: "gtceu:red_glass_lens"
+					type: "item"
+				}
+				{
+					id: "7F66CC3530048458"
+					item: "gtceu:black_glass_lens"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "439E232B1422427E"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 15L
+					id: "61DE78D7D8FDD2D0"
+					item: "gtceu:glass_lens"
+					type: "item"
+				}
+			]
+			title: "炫彩透镜"
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7F3D9F19428262A4"]
+			disable_toast: true
+			hide: true
+			icon: "minecraft:axolotl_bucket"
+			id: "7967AAA100851B87"
+			optional: true
+			rewards: [{
+				id: "27BF6A584F4958B7"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "69C3E83E2908F147"
+				item: "gtceu:ancient_gold_coin"
+				type: "item"
+			}]
+			title: "美西螈"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["44DD16023AF842F1"]
+			icon: "gtceu:conductive_alloy_hex_wire"
+			id: "3AF2865F9C88CBFD"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "3D73B1FE2544DF32"
+				item: "gtceu:conductive_alloy_hex_wire"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E00A7AE5F291164"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "LV超导"
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["13B7ED783EFDB8CB"]
+			icon: "gtceu:energetic_alloy_hex_wire"
+			id: "2C67C2689302087C"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "204DE752EC143DC8"
+				item: "gtceu:energetic_alloy_hex_wire"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "76C14C6AECA7A5EB"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "MV超导"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7AEC0D308494C0F8"]
+			icon: "kubejs:speeding_pipe"
+			id: "76CCF73A5BAE819C"
+			optional: true
+			rewards: [{
+				count: 32
+				id: "285872F752F188F8"
+				item: "ad_astra:fluid_pipe_duct"
+				type: "item"
+			}]
+			subtitle: "如果你不想去挖戴斯"
+			tasks: [{
+				consume_items: true
+				id: "1A1A4D7DE1FE849B"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "高速管道的材料"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			description: ["使GT机器和仓室可以被红石信号控制开关状态"]
+			icon: "gtceu:machine_controller_cover"
+			id: "0F31A4615CBB5246"
+			optional: true
+			rewards: [{
+				id: "3F768147F285528D"
+				item: "gtceu:machine_controller_cover"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "4A8D5037AF424497"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			title: "机器控制覆盖板"
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["07AC1B02299EF734"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "2213666AEE156B16"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13DD1C9FF3CA901B"
+				table_id: 235539005227150062L
+				type: "choice"
+			}]
+			subtitle: "来点无限混凝土元件"
+			tasks: [{
+				consume_items: true
+				id: "07A79C463A75BD17"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			title: "如果你觉得麻烦"
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 	title: "小市场"

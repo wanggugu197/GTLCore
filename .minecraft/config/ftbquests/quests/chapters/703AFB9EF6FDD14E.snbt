@@ -3,33 +3,21 @@
 	default_quest_shape: ""
 	filename: "703AFB9EF6FDD14E"
 	group: "24F4987B35ABEE82"
+	hide_quest_details_until_startable: true
 	hide_quest_until_deps_visible: true
 	icon: "gtlcore:miracle_crystal"
 	id: "703AFB9EF6FDD14E"
 	order_index: 7
-	quest_links: [
-		{
-			id: "792A4930F282D16A"
-			linked_quest: "0F4AFDE98CEA87B1"
-			x: 0.0d
-			y: 1.5d
-		}
-		{
-			id: "1E73708F2121AB85"
-			linked_quest: "1416EAE88C9030C8"
-			x: 7.5d
-			y: 4.0d
-		}
-		{
-			id: "4A18F19FB88243D8"
-			linked_quest: "51A6B6CDC90D7E76"
-			x: 3.0d
-			y: 0.0d
-		}
-	]
+	quest_links: [{
+		id: "792A4930F282D16A"
+		linked_quest: "0F4AFDE98CEA87B1"
+		x: 0.0d
+		y: 1.5d
+	}]
 	quests: [
 		{
 			dependencies: ["516AA655EF6CBBF0"]
+			description: [""]
 			hide: false
 			id: "0F04364907145AF1"
 			optional: true
@@ -38,6 +26,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			subtitle: "0.05%-0.4%"
 			tasks: [{
 				id: "2642F05E062ABFE7"
 				item: "gtlcore:mining_crystal"
@@ -56,6 +45,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			subtitle: "0.05%-0.4%"
 			tasks: [{
 				id: "1502A8F3E92F8A9A"
 				item: "gtlcore:treasures_crystal"
@@ -66,7 +56,14 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
-			description: ["太阳能板只在主世界工作"]
+			description: [
+				"太阳能板只在主世界工作"
+				""
+				"碎片世界采集器的工作电压为&8&lULV&r"
+				""
+				"注意碎片世界采集器的自带流体输出空间为&b&l32B&r，单次流体产量若大于此数值机器将不会工作"
+			]
+			icon: "minecraft:diamond_ore"
 			id: "516AA655EF6CBBF0"
 			optional: true
 			rewards: [
@@ -97,6 +94,12 @@
 			hide: false
 			id: "1B664763E9558755"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "336B2D64B4F0036A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			tasks: [{
 				id: "3BF94313D79C5A2E"
 				item: "gtceu:ulv_fragment_world_collection_machine"
@@ -108,10 +111,20 @@
 		}
 		{
 			dependencies: ["1B664763E9558755"]
-			description: ["空岛特供机器    不可超频"]
+			description: [
+				"空岛特供机器    不可超频"
+				""
+				"在&5EV&r后期就能制作了"
+			]
 			hide: false
 			id: "72FB1A140FACFA76"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EA6AACBFC533A87"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			subtitle: "最高1A ZPM功率"
 			tasks: [{
 				id: "3FF19BC6685E0941"
@@ -123,7 +136,7 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
-			description: ["用远古世界碎片可以挖到神秘方块，放置然后打破可以获得AE发展的必须物品"]
+			description: ["用远古世界碎片可以挖到神秘方块，放置然后打破可以获得四种压印模板"]
 			id: "2DD0AD4DDBA7BFD0"
 			optional: true
 			rewards: [{
@@ -143,10 +156,43 @@
 		}
 		{
 			dependencies: ["7F78340CB4A8EC59"]
-			description: ["你还可以用UU物质复制维度碎片"]
+			description: [""]
 			hide: false
 			id: "7C24D5FD2C008BD4"
 			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5EA057EA19F5D87B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "301EF6E52D9A2FAB"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FE22BDF54F1E6DD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07BF3CD9B81EB94B"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0E1E577F0DA026C6"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			subtitle: "还可以用UU物质复制维度碎片"
 			tasks: [
 				{
 					count: 16L
@@ -251,10 +297,26 @@
 		}
 		{
 			dependencies: ["2DD0AD4DDBA7BFD0"]
+			description: [
+				"不用去空间站了"
+				""
+				"多方块结构的重力判定只取决于主机位置"
+			]
 			hide: false
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
 			id: "7F78340CB4A8EC59"
 			optional: true
-			subtitle: "主世界313格以上是无重力环境"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0EA0AC24642EC505"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			subtitle: "主世界313格及以上是无重力环境"
 			tasks: [
 				{
 					id: "3199CC797450EAEB"
@@ -281,6 +343,12 @@
 			hide: false
 			id: "5F403C7AE4B5486C"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C84F822038A0FC3"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			tasks: [{
 				count: 3L
 				id: "198616959D137813"
@@ -292,7 +360,9 @@
 		}
 		{
 			dependencies: ["5F403C7AE4B5486C"]
+			description: ["{ \"text\": \"创造维度\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1416EAE88C9030C8\" } }"]
 			hide: false
+			icon: "minecraft:bedrock"
 			id: "14E8D6FF37930A06"
 			optional: true
 			tasks: [{
@@ -306,6 +376,7 @@
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
 			hide_dependency_lines: true
+			icon: "minecraft:oak_sapling"
 			id: "66C8E56877EB2C27"
 			rewards: [
 				{
@@ -338,6 +409,16 @@
 					item: "minecraft:dark_oak_sapling"
 					type: "item"
 				}
+				{
+					id: "011077EBC9980E6F"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+				{
+					id: "16C7B2949F32DC4F"
+					item: "minecraft:mangrove_propagule"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "57B247D17151F041"
@@ -364,7 +445,9 @@
 				"以了解相关指令"
 			]
 			hide_dependency_lines: true
+			icon: "minecraft:command_block"
 			id: "312C7E81F1B9880D"
+			optional: true
 			tasks: [{
 				id: "05C535F1D6443E3B"
 				title: "有关内容"
@@ -373,6 +456,53 @@
 			title: "如何开服"
 			x: -1.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["0F4AFDE98CEA87B1"]
+			description: [
+				"按顺序产量逐渐升高"
+				""
+				"配方原料区域中的“出产概率”实际上是消耗概率"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "14DE79EDCDA4A6BE"
+			optional: true
+			subtitle: "这是可以用来采集流体的钻头们"
+			tasks: [
+				{
+					id: "64B3B0797EB6093C"
+					item: "gtceu:steel_drill_head"
+					type: "item"
+				}
+				{
+					id: "2769B4E620B8346D"
+					item: "gtceu:titanium_drill_head"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6E4828AEC92E63DD"
+					item: "gtceu:naquadah_alloy_drill_head"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4EF772A26D3D63C2"
+					item: "gtceu:neutronium_drill_head"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7B928F468B3C1ACB"
+					item: "kubejs:machine_casing_grinding_head"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "五种钻头"
+			x: 4.5d
+			y: 1.5d
 		}
 	]
 	title: "空岛模式"

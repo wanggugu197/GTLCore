@@ -14,7 +14,11 @@
 				"0BF48314F3323108"
 				"32186EFF7020D432"
 			]
-			description: ["不超频时耗电量平均为1024A MAX"]
+			description: [
+				"不超频时平均耗电量为1024A MAX，超频一二三次分别对应的平均耗电量为16384、262144、4194304A MAX"
+				""
+				"在这个阶段，很多物品都有多种配方，记得及时更换效率更高的配方"
+			]
 			icon_scale: 1.3d
 			id: "3E5EBC2B23A503C1"
 			shape: "hexagon"
@@ -30,13 +34,23 @@
 		}
 		{
 			dependencies: ["3E5EBC2B23A503C1"]
+			description: ["后续时空的主要来源是超维度等离子锻炉（不要指望鸿蒙之眼出大量时空）"]
 			icon: "gtceu:spacetime_bucket"
 			id: "365548266DF60F91"
-			tasks: [{
-				id: "60B2586AFFEC5E77"
-				title: "时空"
-				type: "checkmark"
-			}]
+			subtitle: "你的第一桶时空"
+			tasks: [
+				{
+					id: "05630FD254E94C3A"
+					item: "gtceu:spacetime_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67732B6ADBF691E3"
+					type: "checkmark"
+				}
+			]
+			title: "时空"
 			x: -7.0d
 			y: -3.0d
 		}
@@ -45,15 +59,17 @@
 				"365548266DF60F91"
 				"77A53FAAC098F859"
 			]
+			description: ["别忘了优化无尽配方"]
 			icon_scale: 2.0d
 			id: "45C3486A3F0EE7FB"
+			subtitle: "批量时空生产"
 			tasks: [{
 				id: "5B7BBBB311822D83"
 				item: "kubejs:spacetime_catalyst"
 				type: "item"
 			}]
 			x: -5.0d
-			y: -5.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["3E5EBC2B23A503C1"]
@@ -69,14 +85,13 @@
 		}
 		{
 			dependencies: [
-				"365548266DF60F91"
 				"45C3486A3F0EE7FB"
 				"11A7CCFCEAB722F3"
 				"622395061792FB5E"
 			]
-			icon_scale: 2.0d
 			id: "63998161D9D731E7"
-			size: 1.0d
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "21C930811EE5218B"
 				item: "gtceu:transcendentmetal_ingot"
@@ -91,6 +106,7 @@
 				"5A61ABB6E4917C6C"
 				"6477FF81781A9FC7"
 			]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "11A7CCFCEAB722F3"
 			tasks: [{
@@ -98,8 +114,8 @@
 				item: "kubejs:hypercube"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -118,19 +134,18 @@
 		}
 		{
 			dependencies: [
-				"63998161D9D731E7"
 				"67EF7F1C6AE2A6C9"
-				"402B123A2EEC8E3B"
 				"697D33BB516A0785"
 			]
+			description: [""]
 			id: "736395E39993F727"
 			tasks: [{
 				id: "7268B313B5D29DE8"
 				item: "kubejs:hyperdimensional_drone"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -3.0d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -147,24 +162,28 @@
 				item: "kubejs:suprachronal_max"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
 				"5A6EA61F3E61D086"
-				"2A29DA4239E6BA44"
 				"3FBFE193579C28E3"
+				"07EA8922673DFC93"
 			]
+			dependency_requirement: "one_completed"
+			description: ["时空锭和压缩机任一即可"]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "0A6C5B3C148A5743"
+			min_required_dependencies: 2
 			tasks: [{
 				id: "702BFEED1422D1D6"
 				item: "avaritia:eternal_singularity"
 				type: "item"
 			}]
 			x: -5.0d
-			y: -9.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -178,27 +197,27 @@
 				item: "gtceu:eternity_ingot"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"04420B8E0278D7AD"
-				"45C3486A3F0EE7FB"
-			]
-			hide_dependency_lines: true
+			dependencies: ["04420B8E0278D7AD"]
 			icon_scale: 2.0d
 			id: "2AFCDC0CA3205903"
+			subtitle: "记得优化永恒的配方"
 			tasks: [{
 				id: "470C4F62160DE7DA"
 				item: "kubejs:eternity_catalyst"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -9.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
-			dependencies: ["00A227F06D7F109E"]
+			dependencies: [
+				"00A227F06D7F109E"
+				"437E5E4108228333"
+			]
 			icon_scale: 2.0d
 			id: "622395061792FB5E"
 			shape: "rsquare"
@@ -208,14 +227,11 @@
 				item: "kubejs:infinity_coil_block"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -1.0d
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"30AEBB08CE6C88BA"
-				"697D33BB516A0785"
-			]
+			dependencies: ["414F9C645C799FAE"]
 			icon_scale: 2.0d
 			id: "2C3C46AC660CC54E"
 			tasks: [{
@@ -223,14 +239,16 @@
 				item: "kubejs:suprachronal_mainframe_complex"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 9.0d
 			y: -5.0d
 		}
 		{
 			dependencies: [
-				"2AFCDC0CA3205903"
 				"53598E77317EAEB6"
+				"009F0B69806C67CB"
+				"355AB57EE5123594"
 			]
+			description: ["蓝框岩浆"]
 			icon: "gtceu:magnetohydrodynamicallyconstrainedstarmatter_bucket"
 			id: "30AEBB08CE6C88BA"
 			tasks: [{
@@ -239,50 +257,60 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["11A7CCFCEAB722F3"]
-			description: ["最高67108864A MAX输出"]
-			icon_scale: 2.0d
+			description: [
+				"最高67108864A MAX输出"
+				""
+				"仓室能且仅能替换&b&l高能机器外壳"
+			]
+			icon_scale: 1.3d
 			id: "0610CD9378D8B0AD"
-			shape: "rsquare"
-			size: 1.0d
+			shape: "hexagon"
+			size: 2.0d
 			subtitle: "可以把你最高级别的激光仓填满"
 			tasks: [{
 				id: "50D76B27937DC429"
 				item: "gtceu:annihilate_generator"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.0d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["63998161D9D731E7"]
-			description: ["回想你在聚变三做了什么"]
-			hide_dependency_lines: true
+			description: [""]
 			icon_scale: 2.0d
 			id: "5A6EA61F3E61D086"
+			rewards: [{
+				id: "14E73A6F30D533A0"
+				item: "gtmthings:opv_4a_wireless_energy_receive_cover"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "6DA1FC65BA6A379B"
 				item: "gtceu:max_neutron_compressor"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -9.0d
+			x: -4.5d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"2C3C46AC660CC54E"
 				"3F2335911E21E042"
-				"51D5E14423F35E6F"
 			]
 			description: [
 				"耗能固定为4A MAX"
 				""
-				"配方耗时为1s时才能正常运作"
+				"位于主世界且配方耗时为&n1s&r时才能正常运作"
+				""
+				"需要像太空电梯一般输入一号电路"
 			]
+			icon: "gtceu:door_of_create"
 			icon_scale: 1.3d
 			id: "296DE95F3BE7DC54"
 			shape: "hexagon"
@@ -292,11 +320,15 @@
 				item: "gtceu:door_of_create"
 				type: "item"
 			}]
-			x: 5.0d
-			y: -3.0d
+			x: 11.0d
+			y: -5.0d
 		}
 		{
-			dependencies: ["414F9C645C799FAE"]
+			dependencies: [
+				"414F9C645C799FAE"
+				"32186EFF7020D432"
+			]
+			dependency_requirement: "one_completed"
 			description: [""]
 			id: "3F2335911E21E042"
 			tasks: [{
@@ -304,7 +336,7 @@
 				item: "kubejs:dimension_creation_casing"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -348,7 +380,9 @@
 			dependencies: [
 				"365548266DF60F91"
 				"165C5D3656C33A89"
+				"11A7CCFCEAB722F3"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:primordialmatter_bucket"
 			id: "34609EBF66099F47"
 			tasks: [{
@@ -368,11 +402,11 @@
 				type: "checkmark"
 			}]
 			title: "恒星超维度催化剂"
-			x: -6.0d
-			y: -8.0d
+			x: -7.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["32186EFF7020D432"]
+			dependencies: ["6C6A3B91957A0B7B"]
 			description: ["非常的贵"]
 			icon_scale: 2.0d
 			id: "67EF7F1C6AE2A6C9"
@@ -381,26 +415,16 @@
 				item: "kubejs:draconic_energy_core"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"30AEBB08CE6C88BA"
-				"48BDFBDA897F3553"
-			]
-			id: "51D5E14423F35E6F"
-			tasks: [{
-				id: "3A41AFEDD43994E6"
-				item: "gtceu:cosmic_ingot"
-				type: "item"
-			}]
 			x: 5.0d
 			y: -5.0d
 		}
 		{
-			dependencies: ["402B123A2EEC8E3B"]
-			description: ["用于优化产线"]
+			dependencies: [
+				"402B123A2EEC8E3B"
+				"63998161D9D731E7"
+			]
+			description: [""]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "3CE5E9F78C13E1CD"
 			shape: "rsquare"
@@ -411,15 +435,15 @@
 				item: "kubejs:hypogen_coil_block"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -7.0d
+			x: -3.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
 				"04420B8E0278D7AD"
-				"402B123A2EEC8E3B"
+				"3CE5E9F78C13E1CD"
 			]
-			hide_dependent_lines: true
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "355AB57EE5123594"
 			shape: "rsquare"
@@ -430,22 +454,27 @@
 				item: "kubejs:eternity_coil_block"
 				type: "item"
 			}]
-			x: -3.0d
+			x: 5.0d
 			y: -7.0d
 		}
 		{
-			dependencies: [
-				"0A6C5B3C148A5743"
-				"30AEBB08CE6C88BA"
-			]
-			hide_dependent_lines: true
+			dependencies: ["30AEBB08CE6C88BA"]
+			icon_scale: 2.0d
 			id: "1A37218D0F8BE570"
-			tasks: [{
-				id: "39E4F5145C784E3D"
-				item: "gtceu:shirabon_dust"
-				type: "item"
-			}]
-			x: 1.0d
+			tasks: [
+				{
+					id: "39E4F5145C784E3D"
+					item: "gtceu:shirabon_dust"
+					type: "item"
+				}
+				{
+					id: "6BFD1A32A8EC608A"
+					item: "kubejs:cosmic_singularity"
+					type: "item"
+				}
+			]
+			title: "调律源金粉和宇宙奇点"
+			x: 5.0d
 			y: -9.0d
 		}
 		{
@@ -456,49 +485,45 @@
 				item: "gtceu:hypogen_ingot"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0A6C5B3C148A5743"]
-			hide_dependency_lines: true
-			id: "48BDFBDA897F3553"
-			tasks: [{
-				id: "6A67A9DAB4C12E30"
-				item: "kubejs:cosmic_singularity"
-				type: "item"
-			}]
-			x: 5.0d
+			x: -3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: [
-				"355AB57EE5123594"
 				"1A37218D0F8BE570"
+				"355AB57EE5123594"
 			]
 			id: "63EE8AA3FC07B820"
-			tasks: [{
-				id: "4133DD68ED8BBCE7"
-				item: "gtceu:shirabon_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -5.0d
+			tasks: [
+				{
+					id: "0F9DE6055766893E"
+					item: "gtceu:cosmic_ingot"
+					type: "item"
+				}
+				{
+					id: "3A0FE36DE15CFB98"
+					item: "gtceu:shirabon_ingot"
+					type: "item"
+				}
+			]
+			title: "调律源金锭与宇宙锭"
+			x: 7.0d
+			y: -9.0d
 		}
 		{
-			dependencies: ["77A53FAAC098F859"]
+			dependencies: ["622395061792FB5E"]
 			id: "2FFA8701DFA0C524"
 			tasks: [{
 				id: "2A41AFA139DC780A"
 				item: "gtceu:rhugnor_bucket"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -7.0d
+			title: "鲁格诺"
+			x: -2.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3FBFE193579C28E3"]
-			hide_dependent_lines: true
 			icon: "gtceu:exciteddtsc_bucket"
 			id: "53598E77317EAEB6"
 			tasks: [{
@@ -506,8 +531,8 @@
 				type: "checkmark"
 			}]
 			title: "激发的恒星超维度催化剂"
-			x: -8.0d
-			y: -8.0d
+			x: -2.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["63EE8AA3FC07B820"]
@@ -517,8 +542,8 @@
 				item: "kubejs:chaotic_core"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -532,11 +557,16 @@
 				type: "checkmark"
 			}]
 			title: "激发的异星超维度催化剂"
-			x: -3.0d
-			y: -1.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
-			dependencies: ["365548266DF60F91"]
+			dependencies: [
+				"39A97D124B756814"
+				"2FFA8701DFA0C524"
+				"63998161D9D731E7"
+			]
+			description: ["建议被动自动化生产"]
 			hide_dependency_lines: true
 			id: "6AC9C2DEDE46A99D"
 			tasks: [{
@@ -544,8 +574,83 @@
 				item: "kubejs:timepiece"
 				type: "item"
 			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6477FF81781A9FC7"]
+			description: [""]
+			id: "39A97D124B756814"
+			tasks: [{
+				id: "35D892D8BCDC5ECC"
+				item: "kubejs:quantum_anomaly"
+				type: "item"
+			}]
 			x: 3.0d
-			y: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"365548266DF60F91"
+				"3CE5E9F78C13E1CD"
+				"165C5D3656C33A89"
+			]
+			description: [
+				"&b无尽贪婪&r的中子态素压缩机可以被世界加速器（方块实体模式）加速"
+				""
+				"样板总成的&b独立催化剂槽&r可以强行堆叠不可堆叠的物品（即锭状形态力场）"
+			]
+			id: "07EA8922673DFC93"
+			rewards: [
+				{
+					id: "5BB0F74C497D6C59"
+					item: "avaritia:neutron_compressor"
+					type: "item"
+				}
+				{
+					id: "2611456547D224A1"
+					item: "gtceu:uv_world_accelerator"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "769221D2A808F3DA"
+				item: "gtceu:spacetime_ingot"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"39A97D124B756814"
+				"2AFCDC0CA3205903"
+			]
+			id: "009F0B69806C67CB"
+			subtitle: "记得优化永恒奇点的配方"
+			tasks: [{
+				id: "6C0096B7CBBEF0F5"
+				item: "gtceu:eternity_nanoswarm"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["32186EFF7020D432"]
+			description: ["更大，更强，算力需求更少"]
+			icon_scale: 1.5d
+			id: "63D47FFCCD8CE12E"
+			optional: true
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "3F6031BC74736161"
+				item: "gtceu:space_cosmic_probe_receivers"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier13-OpV"]
