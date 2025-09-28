@@ -5,6 +5,128 @@
 	group: "0ACE46048A3F93ED"
 	icon: "gtceu:nan_certificate"
 	id: "508EE47AA8D412FC"
+	images: [
+		{
+			height: 1.0d
+			image: "kubejs:item/ulv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/lv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/mv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/ev_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/hv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/iv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/luv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/zpm_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uhv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 12.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uev_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 14.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uiv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/max_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 20.0d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/opv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 18.5d
+		}
+		{
+			height: 1.0d
+			image: "kubejs:item/uxv_universal_circuit"
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.5d
+			y: 17.0d
+		}
+	]
 	order_index: 0
 	quest_links: [
 		{
@@ -190,62 +312,56 @@
 		{
 			id: "43190A682FC8BDC0"
 			linked_quest: "6E3F07B3E9AB5882"
-			x: -7.5d
-			y: 18.5d
-		}
-		{
-			id: "66E262911956043F"
-			linked_quest: "0CCE2A9119B2B1C4"
-			x: -7.5d
+			x: -9.0d
 			y: 17.0d
 		}
 		{
 			id: "11BF09DE6CAC6D94"
 			linked_quest: "1AA874C1351E4A0D"
-			x: -7.5d
-			y: 15.5d
+			x: -9.0d
+			y: 14.0d
 		}
 		{
 			id: "6C04B359DD1E68E5"
 			linked_quest: "13BBF0FF3267BFDB"
-			x: -7.5d
-			y: 8.0d
+			x: -9.0d
+			y: 6.5d
 		}
 		{
 			id: "7792B7BE27D4AE71"
 			linked_quest: "7DCA0B7C9F3C3ACF"
-			x: -7.5d
-			y: 6.5d
+			x: -9.0d
+			y: 5.0d
 		}
 		{
 			id: "2ECC534CAE891724"
 			linked_quest: "23B23867F311BF51"
-			x: -7.5d
-			y: 9.5d
+			x: -9.0d
+			y: 8.0d
 		}
 		{
 			id: "7A18EBF92A038B76"
 			linked_quest: "59CA7B4A4A417B53"
-			x: -7.5d
-			y: 11.0d
+			x: -9.0d
+			y: 9.5d
 		}
 		{
 			id: "329A13A0E3831FB9"
 			linked_quest: "32A49A2CBFC934C8"
-			x: -7.5d
-			y: 14.0d
+			x: -9.0d
+			y: 12.5d
 		}
 		{
 			id: "60CF20C5344E7DDE"
 			linked_quest: "3EA935A712FA0EBE"
-			x: -7.5d
-			y: 12.5d
+			x: -9.0d
+			y: 11.0d
 		}
 		{
 			id: "5901E68D530F8201"
 			linked_quest: "622395061792FB5E"
-			x: -7.5d
-			y: 20.0d
+			x: -9.0d
+			y: 18.5d
 		}
 		{
 			id: "3665E019AA6AB846"
@@ -442,26 +558,26 @@
 		{
 			id: "4FD9E2C0C35DE030"
 			linked_quest: "20F6BF1EDC6EBDC1"
-			x: -7.5d
-			y: 0.5d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			id: "30D989870D84ACF8"
 			linked_quest: "79AE49C5DE7900FF"
-			x: -7.5d
-			y: 2.0d
+			x: -9.0d
+			y: 0.5d
 		}
 		{
 			id: "757C573F8FCF380F"
 			linked_quest: "42E88FC72902FC0B"
-			x: -7.5d
-			y: 3.5d
+			x: -9.0d
+			y: 2.0d
 		}
 		{
 			id: "308E0B082B5F6B33"
 			linked_quest: "1EA6BA3CBF4BE5DB"
-			x: -7.5d
-			y: 5.0d
+			x: -9.0d
+			y: 3.5d
 		}
 		{
 			id: "47BC730F818048E6"
@@ -478,14 +594,20 @@
 		{
 			id: "234699BA7254DA39"
 			linked_quest: "3CE5E9F78C13E1CD"
-			x: -7.5d
-			y: 21.5d
+			x: -9.0d
+			y: 20.0d
 		}
 		{
 			id: "3B714695270DF04C"
 			linked_quest: "355AB57EE5123594"
-			x: -7.5d
-			y: 23.0d
+			x: -9.0d
+			y: 21.5d
+		}
+		{
+			id: "13336B8F58FE73D2"
+			linked_quest: "35C982D71C6154FA"
+			x: -9.0d
+			y: 15.5d
 		}
 	]
 	quests: [
@@ -502,8 +624,8 @@
 				item: "kubejs:uruium_coil_block"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.0d
+			x: -9.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["0DC5BFACB3D4BC95"]
@@ -652,37 +774,85 @@
 		{
 			dependencies: ["01EE0F4156F0578B"]
 			description: ["这些只是现实存在的元素"]
-			icon: "gtceu:periodicium_ingot"
-			icon_scale: 2.0d
+			icon: "gtceu:nan_certificate"
 			id: "58CCCFF70575B019"
 			rewards: [{
 				id: "31F703F6A716FA49"
 				item: "gtceu:nan_certificate"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [
 				{
+					consume_items: false
 					id: "395F76F30EA18569"
 					item: "gtceu:periodicium_ingot"
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "28F13C3EE2A4E1EE"
 					item: "gtceu:superheavy_l_alloy_ingot"
 					type: "item"
 				}
 				{
+					consume_items: false
 					id: "23EF76A59ABE270E"
 					item: "gtceu:superheavy_h_alloy_ingot"
 					type: "item"
 				}
+				{
+					id: "5C8C36C3F559C58A"
+					item: "gtceu:helium_3_bucket"
+					type: "item"
+				}
+				{
+					id: "715D6A240596562D"
+					item: "gtceu:copper76_dust"
+					type: "item"
+				}
+				{
+					id: "7ECC9AA8C4EB61EA"
+					item: "gtceu:ytterbium_178_bucket"
+					type: "item"
+				}
+				{
+					id: "758239F85FD97A62"
+					item: "gtceu:deuterium_bucket"
+					type: "item"
+				}
+				{
+					id: "4E251AEDA9F50D92"
+					item: "gtceu:tritium_bucket"
+					type: "item"
+				}
+				{
+					id: "763D5DCBC0753230"
+					item: "gtceu:plutonium_241_dust"
+					type: "item"
+				}
+				{
+					id: "00032B4553773E1C"
+					item: "gtceu:uranium_235_dust"
+					type: "item"
+				}
+				{
+					id: "13845C900E7EEF9B"
+					item: "gtceu:titanium_50_bucket"
+					type: "item"
+				}
 			]
 			title: "全元素收集"
-			x: 1.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
-			dependencies: ["736395E39993F727"]
+			dependencies: [
+				"736395E39993F727"
+				"32186EFF7020D432"
+			]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "038B4D0C09824CC9"
 			tasks: [{
@@ -848,6 +1018,276 @@
 			}]
 			x: 15.0d
 			y: 18.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "694752515DEBC87C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3254702DA9214672"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "19D20548AE366D92"
+				item: "gtceu:ulv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "4234B7EDEAAE2589"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E2CA3BD68BDD092"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2006087B97E343F5"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "0C8149BB0F901A88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AF4FC46FC59A1FA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "51FFD964059871E9"
+				item: "gtceu:mv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "7DB9586C50C51487"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2684F4088F86F557"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "18CFD175ECA63708"
+				item: "gtceu:hv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "0CEED8F7B1078679"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57806340731AACD9"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "21F4A5823596410F"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "57DFF4DF39921D5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "022333C3C3D953B7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "42FF3761F3F92DA4"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "3E6D32B9DFD2A0D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CF55E4C7B09A9CA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "27DB91D1C0D05429"
+				item: "gtceu:luv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 8.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "02C0A8AB8ECBE0D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "435E39934AFC30DA"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "399F9084C6185086"
+				item: "gtceu:zpm_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "521F07096D5DCD7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "337A3EE9298BE4A7"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "0CBDC4566D576FE8"
+				item: "gtceu:uv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "20077D3358408F12"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7796A3EEA49CD57D"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "1BB8185770EF286D"
+				item: "gtceu:uhv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "4F0F6DA08B2C3164"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "23368BBC7B31CE38"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "647650F1707A7F08"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "09A15DBD55577A17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53BDA3FF7A50CAF8"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "78BE460A3F2B1371"
+				item: "gtceu:uiv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "50C6E9D9A0B3A5FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4535778AD4AA25F4"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "2112EFCCF70E7A5D"
+				item: "gtceu:uxv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 17.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "7115D3726E4D2512"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2310523441456509"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "74271DBF23D228FF"
+				item: "gtceu:opv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 18.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "3F14EBCC998FB895"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B6DED4315424DC4"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
+			tasks: [{
+				id: "4523F4EFDB23EB2E"
+				item: "gtceu:max_energy_input_hatch"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 20.0d
 		}
 	]
 	title: "进度"

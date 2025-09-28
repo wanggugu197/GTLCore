@@ -12,29 +12,25 @@
 			linked_quest: "6BB5ED6ECC43E30C"
 			shape: "gear"
 			size: 2.0d
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
-			id: "4E0083FC60224675"
-			linked_quest: "23B418803D455368"
+			id: "0C02C35740EA130C"
+			linked_quest: "78C6AB89612D047E"
 			shape: "gear"
 			size: 2.0d
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 	quests: [
 		{
 			dependencies: [
 				"39F73A63746EE6E8"
-				"28E04C03DD2C0854"
+				"78C6AB89612D047E"
 			]
-			description: [
-				"能装载16个能源仓，还拥有无损超频"
-				""
-				"后续能升级为进阶质量发生器，更大，更强"
-			]
+			description: ["最多能装载16个能源仓，还拥有无损超频"]
 			icon_scale: 2.0d
 			id: "67588B6F4C26CF4C"
 			shape: "rsquare"
@@ -49,21 +45,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["6BB5ED6ECC43E30C"]
-			icon_scale: 2.0d
-			id: "0CCE2A9119B2B1C4"
-			shape: "rsquare"
-			tasks: [{
-				id: "59E90C6145AA300E"
-				item: "kubejs:naquadriatictaranium_coil_block"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
 			dependencies: [
-				"2F82F4BCC261723A"
 				"6D6BE75CB79C7901"
 				"5405B22C3320841E"
 				"7C796A0CDAB038C9"
@@ -75,7 +57,7 @@
 				item: "kubejs:cosmic_processing_unit_core"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -83,7 +65,6 @@
 				"197ED8AA3CDFD841"
 				"76B16D5AEF5AE346"
 			]
-			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "1F1FCB0CA5696FF1"
 			shape: "rsquare"
@@ -93,7 +74,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -108,7 +89,7 @@
 				item: "kubejs:cosmic_processing_core"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -121,11 +102,14 @@
 				item: "kubejs:cosmic_processor"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["596E4662227F4E38"]
+			dependencies: [
+				"596E4662227F4E38"
+				"4D3EB703FB712F20"
+			]
 			icon_scale: 2.0d
 			id: "3569AD043F42762A"
 			tasks: [{
@@ -133,7 +117,7 @@
 				item: "kubejs:cosmic_assembly"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -146,19 +130,24 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"37C0845F870CC835"
 				"02401278940CE1F3"
-				"559836CC234447C0"
 				"67673D8789AC1781"
 			]
 			icon_scale: 2.0d
 			id: "6C6A3B91957A0B7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FF5C478170CBFB5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "diamond"
-			size: 2.0d
+			size: 1.0d
 			tasks: [{
 				id: "06F01AC2F2AAFC1A"
 				item: "kubejs:cosmic_mainframe"
@@ -176,19 +165,8 @@
 				title: "自由电子气"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["0CCE2A9119B2B1C4"]
-			id: "28E04C03DD2C0854"
-			tasks: [{
-				id: "37BA76ACC12A5335"
-				item: "gtceu:black_titanium_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
@@ -201,20 +179,17 @@
 				type: "checkmark"
 			}]
 			title: "UU物质"
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
-				"28E04C03DD2C0854"
 				"7819969E76A18F15"
 				"0FB0AFA8DD71B19F"
+				"78C6AB89612D047E"
+				"670D8EB2CE915FD5"
 			]
-			description: [
-				"算力需求较大"
-				""
-				"后续可以升级为天基宇宙探测器接收器，效率更高，算力需求更少"
-			]
+			description: ["算力需求较大"]
 			icon_scale: 1.3d
 			id: "74D84A4928FA0A35"
 			shape: "hexagon"
@@ -224,7 +199,7 @@
 				item: "gtceu:space_probe_surface_reception"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 8.0d
 		}
 		{
@@ -236,12 +211,19 @@
 				title: "重轻子"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["1DAE3D00F91134F0"]
-			description: ["可以代替恒星锻炉"]
+			dependencies: [
+				"1DAE3D00F91134F0"
+				"559836CC234447C0"
+			]
+			description: [
+				"可以代替恒星锻炉"
+				""
+				"你一定记得锻造锤右键机器主机可以静音机器的，对吧？"
+			]
 			icon: "gtceu:dimensionally_transcendent_plasma_forge"
 			icon_scale: 1.3d
 			id: "2880531AF7540B24"
@@ -260,7 +242,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -287,21 +269,18 @@
 				item: "kubejs:ultrashort_pulse_laser"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"1F1FCB0CA5696FF1"
-				"72E0B47367FD35CC"
-			]
+			dependencies: ["72E0B47367FD35CC"]
 			id: "579E0E5C2F043B13"
 			tasks: [{
 				id: "50FABE896A060425"
 				item: "gtceu:oganesson_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -314,14 +293,13 @@
 			description: ["夸克物质"]
 			hide_dependent_lines: true
 			id: "6D6BE75CB79C7901"
-			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
 				id: "06F08AF642746072"
 				item: "gtceu:heavy_quark_degenerate_matter_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -330,10 +308,10 @@
 			id: "068D3872684D8A29"
 			tasks: [{
 				id: "61DE5E270458D306"
-				title: "夸克"
+				title: "夸克-胶子等离子体"
 				type: "checkmark"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -360,7 +338,7 @@
 				item: "kubejs:cosmic_soc"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.0d
 			y: 6.0d
 		}
 		{
@@ -375,7 +353,7 @@
 				item: "gtceu:dimensionally_transcendent_mixer"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -386,8 +364,8 @@
 				item: "kubejs:scintillator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
@@ -399,7 +377,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1D7B6172DE330E6F"]
@@ -409,23 +387,25 @@
 				item: "gtceu:flerovium_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 2.0d
 		}
 		{
+			dependencies: ["1AC5A3B5522F78D9"]
 			id: "72E0B47367FD35CC"
 			tasks: [{
 				id: "1D9470C90A72EC38"
 				item: "gtceu:titanium_50_ingot"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: -2.0d
 		}
 		{
 			dependencies: [
 				"5FFDF6751BFBD4BF"
 				"208FB88A70036325"
+				"6FE5409DB7A22427"
 			]
 			icon_scale: 2.0d
 			id: "078ADC3E0F3A6746"
@@ -436,7 +416,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5FFDF6751BFBD4BF"]
@@ -446,8 +426,8 @@
 				item: "kubejs:lepton_trap_crystal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
@@ -458,10 +438,11 @@
 				item: "gtceu:degenerate_rhenium_dust"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["27A9D4E765101CB9"]
 			description: ["看起来很复杂"]
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
@@ -471,9 +452,10 @@
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["27A9D4E765101CB9"]
 			description: ["比较复杂"]
 			id: "5450D08C31AB23EF"
 			tasks: [{
@@ -482,10 +464,13 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["5FFDF6751BFBD4BF"]
+			dependencies: [
+				"5FFDF6751BFBD4BF"
+				"2F82F4BCC261723A"
+			]
 			description: ["看起来很复杂"]
 			icon: "gtceu:cosmic_superconductor_bucket"
 			id: "7C796A0CDAB038C9"
@@ -494,23 +479,25 @@
 				title: "寰宇超导液"
 				type: "checkmark"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
 			id: "02401278940CE1F3"
+			shape: "gear"
 			tasks: [{
 				id: "55C503ADD875CEBA"
 				item: "gtceu:rareearth_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5FFDF6751BFBD4BF"]
 			description: [""]
+			hide_dependent_lines: true
 			id: "53AF03B663577CB0"
 			tasks: [
 				{
@@ -525,8 +512,8 @@
 				}
 			]
 			title: "超重元素合金锭"
-			x: 10.0d
-			y: 2.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
@@ -536,7 +523,7 @@
 				item: "gtceu:transition_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -549,22 +536,23 @@
 				title: "γ射线光刻胶"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2F82F4BCC261723A"]
-			description: ["非常传奇"]
+			description: ["UXV超导体"]
+			hide_dependent_lines: true
 			id: "559836CC234447C0"
-			shape: "gear"
-			size: 2.0d
+			size: 1.0d
+			subtitle: "非常传奇"
 			tasks: [{
 				id: "300AEC5CB1F10137"
 				item: "gtceu:legendarium_ingot"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 8.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["23B418803D455368"]
@@ -574,26 +562,35 @@
 				item: "gtceu:uiv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
 			description: ["用于高级晶圆切割"]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "6FE5409DB7A22427"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0392393A37789CBC"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			tasks: [{
 				id: "171F2644EC61E4C2"
 				item: "gtceu:grade_16_purified_water_bucket"
 				type: "item"
 			}]
 			title: "16级净化水"
-			x: 0.0d
-			y: 0.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0855401586D73395"]
+			dependencies: [
+				"0855401586D73395"
+				"559836CC234447C0"
+			]
+			description: ["记得优化反物质样板"]
 			icon_scale: 1.3d
 			id: "515737DB7910465C"
 			shape: "hexagon"
@@ -604,22 +601,30 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.0d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"39F73A63746EE6E8"
+				"670D8EB2CE915FD5"
+			]
+			description: ["有了熔火之石粉后，记得升级动力模块MK5！"]
 			id: "0855401586D73395"
+			shape: "pentagon"
+			subtitle: "熔火之石，末影，振金"
 			tasks: [{
 				id: "6902E2DE8A1F90F0"
 				item: "kubejs:space_drone_mk5"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -2.0d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"515737DB7910465C"
 				"63C77EE3C70E20E7"
+				"17F6AFC430A15CDA"
 			]
 			id: "67673D8789AC1781"
 			tasks: [{
@@ -628,13 +633,21 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
-			dependencies: ["579E0E5C2F043B13"]
-			description: ["中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"]
+			dependencies: [
+				"579E0E5C2F043B13"
+				"4D3EB703FB712F20"
+			]
+			description: [
+				"中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"
+				""
+				"工作机制类似于热交换机，固定基础工作耗时为60秒"
+			]
 			icon_scale: 2.0d
 			id: "664D8255A1960E9E"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -642,39 +655,70 @@
 				item: "gtceu:advanced_neutron_activator"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["39F73A63746EE6E8"]
-			description: ["流体加热器的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
-			icon_scale: 2.0d
-			id: "3F99F904B7B94324"
-			shape: "rsquare"
-			size: 1.0d
-			tasks: [{
-				id: "2AC154F76B64844E"
-				item: "gtceu:mega_fluid_heater"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["21亿跨配方并行，非常强力"]
+			dependencies: [
+				"208FB88A70036325"
+				"35C982D71C6154FA"
+				"26607B94D873E07A"
+				"23B418803D455368"
+			]
+			description: ["更大，更强"]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
-			id: "0991031579C4CAA7"
+			icon_scale: 1.5d
+			id: "1840382ADB062735"
+			optional: true
 			shape: "rsquare"
-			subtitle: "一步到位"
 			tasks: [{
-				id: "335FA9C6613E28F5"
-				item: "gtceu:advanced_integrated_ore_processor"
+				id: "50B72C92EADBD68B"
+				item: "gtceu:huge_incubator"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2AA6041AC73CD47E"]
+			id: "4D3EB703FB712F20"
+			tasks: [{
+				id: "67C4A21233D7FC9E"
+				item: "kubejs:wyvern_core"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F82F4BCC261723A"]
+			hide_dependent_lines: true
+			id: "63C77EE3C70E20E7"
+			size: 1.0d
+			tasks: [{
+				id: "4A48DFBBFE8F0E83"
+				item: "kubejs:neutronium_sphere"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"1FE5F8D737ADB1B8"
+				"2DE2948B2148AEBF"
+			]
+			id: "23B418803D455368"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "12A595464E70C437"
+				item: "gtceu:adamantium_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

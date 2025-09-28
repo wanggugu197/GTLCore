@@ -18,8 +18,6 @@
 		{
 			id: "7F9C7923EEED3AD7"
 			linked_quest: "035C470213E8B4DB"
-			shape: "gear"
-			size: 2.0d
 			x: 0.0d
 			y: 6.0d
 		}
@@ -27,9 +25,9 @@
 	quests: [
 		{
 			dependencies: [
-				"035C470213E8B4DB"
 				"7204F1B6BCC74F1C"
 				"3008FED65F71C459"
+				"702EFE9BA62A8CDA"
 			]
 			description: [
 				"后面阶段的核心材料生产机器"
@@ -56,24 +54,23 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3063F232F801D089"]
 			id: "5CD56CD71662D4A7"
-			shape: "gear"
 			tasks: [{
 				id: "393B76A2C2075C2D"
 				item: "gtceu:seaborgium_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"702EFE9BA62A8CDA"
-				"776563C5BA327495"
+				"3008FED65F71C459"
+				"7204F1B6BCC74F1C"
 			]
 			icon_scale: 1.3d
 			id: "3063F232F801D089"
@@ -85,10 +82,13 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["2B45F7E3AC7574C8"]
+			dependencies: [
+				"2B45F7E3AC7574C8"
+				"78C7EC57A93783BE"
+			]
 			id: "506E6C56FF4B5C0B"
 			tasks: [{
 				id: "22A861F44023FD98"
@@ -159,18 +159,27 @@
 				"362C5064150C4F26"
 				"6B990D7D964DF559"
 			]
-			description: [""]
+			description: [
+				"建议大部分巨构采用双能源仓+单激光仓的架构，配方等级和功率两手抓"
+				""
+				"在后面的三个电压（UEV-UXV）中常有跨阶段制作物品的情况，请灵活使用JEI"
+			]
 			icon_scale: 2.0d
 			id: "783379F3A7557CEE"
-			shape: "rsquare"
-			size: 2.0d
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1B9AC1EF5D7A328F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			size: 1.0d
 			subtitle: "迈入巨构时代"
 			tasks: [{
 				id: "30416700DDAFB1E4"
 				item: "kubejs:optical_mainframe"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -190,7 +199,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2DD8E128C6E3E41D"]
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"2DE2948B2148AEBF"
+			]
 			id: "5E223597F71DB81D"
 			tasks: [{
 				id: "4AEC015F52D69587"
@@ -198,7 +210,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -214,24 +226,11 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 7.0d
-		}
-		{
-			dependencies: [
-				"2DD8E128C6E3E41D"
-				"1FE5F8D737ADB1B8"
-			]
-			id: "23B418803D455368"
-			tasks: [{
-				id: "12A595464E70C437"
-				item: "gtceu:adamantium_ingot"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["76BAF48FA9D845C6"]
+			description: ["有点麻烦"]
 			id: "11E334686F113560"
 			tasks: [
 				{
@@ -255,23 +254,33 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["2DD8E128C6E3E41D"]
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"78C7EC57A93783BE"
+			]
 			id: "2E05225ADF4D7D31"
 			tasks: [{
 				id: "02C39E225C1D5ECD"
 				item: "gtceu:degenerate_rhenium_plate"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 6.0d
 		}
 		{
 			dependencies: [
-				"035C470213E8B4DB"
+				"702EFE9BA62A8CDA"
 				"7204F1B6BCC74F1C"
 			]
-			description: ["将废料转化为物质球或UU增幅液"]
-			icon_scale: 2.0d
+			description: [
+				"将废料转化为物质球或UU增幅液"
+				""
+				"推荐使用红花岗岩（通过大型碎岩机）制作废料"
+				""
+				"关于大型碎岩机：需要放置&b两个&r分别带有水和熔岩的输入仓以满足相邻流体源的条件"
+			]
+			hide_dependent_lines: true
+			icon_scale: 1.5d
 			id: "2FBCD8BCE586ADB8"
 			shape: "rsquare"
 			size: 1.0d
@@ -284,7 +293,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["09210B5E086F6E1A"]
+			dependencies: [
+				"7370721CB75472C1"
+				"0936769874A5F740"
+				"2FBCD8BCE586ADB8"
+			]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "32A49A2CBFC934C8"
@@ -294,23 +307,14 @@
 				item: "kubejs:titansteel_coil_block"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["7370721CB75472C1"]
-			description: ["外星矿石"]
-			id: "09210B5E086F6E1A"
-			tasks: [{
-				id: "1434A7DE9BCD942E"
-				item: "gtceu:jasper_ore"
-				type: "item"
-			}]
-			x: 4.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["384CC871242ECF6E"]
+			dependencies: [
+				"384CC871242ECF6E"
+				"4EA64DC5DA2F0F8C"
+			]
 			id: "164C87812A3A465C"
 			tasks: [{
 				id: "32508D6A4ABB9745"
@@ -332,36 +336,39 @@
 			y: -2.0d
 		}
 		{
-			dependencies: [
-				"12F8275FC06FCFEE"
-				"776563C5BA327495"
-			]
+			dependencies: ["702EFE9BA62A8CDA"]
+			description: ["有了泰坦钢之后可以着手准备更换动力模块MK3了"]
 			id: "7370721CB75472C1"
+			shape: "pentagon"
+			subtitle: "碧玉，不明液体"
 			tasks: [{
 				id: "532AAB28A3CC8CD1"
 				item: "kubejs:space_drone_mk2"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["32A49A2CBFC934C8"]
+			dependencies: [
+				"32A49A2CBFC934C8"
+				"76BAF48FA9D845C6"
+			]
+			description: [""]
 			id: "1FE5F8D737ADB1B8"
+			shape: "pentagon"
+			subtitle: "血石，乌鲁，力量，溴"
 			tasks: [{
 				id: "1D082DFC064E38EA"
 				item: "kubejs:space_drone_mk3"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
-			dependencies: [
-				"3BA7B0BA435252E0"
-				"47EC3A53E944E87B"
-			]
-			description: ["电路基板材料"]
+			dependencies: ["47EC3A53E944E87B"]
+			description: ["光学电路基板材料"]
 			id: "7B8FEC11FCC03D9A"
 			tasks: [{
 				id: "6442C4D80672144D"
@@ -372,7 +379,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["7204F1B6BCC74F1C"]
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"702EFE9BA62A8CDA"
+			]
 			description: ["精密电路基板专用生产机器，拥有无损超频"]
 			icon_scale: 2.0d
 			id: "0CF40DD5F6239209"
@@ -407,7 +417,11 @@
 				"7204F1B6BCC74F1C"
 				"7EAED8E6D66C24D2"
 			]
-			description: ["需要光刻胶和算力来进行精密联合激光蚀刻"]
+			description: [
+				"需要光刻胶和算力来进行精密联合激光蚀刻"
+				""
+				"多方块成型只需要&b&l过滤器机械方块"
+			]
 			icon_scale: 1.3d
 			id: "42081F59690E6469"
 			shape: "hexagon"
@@ -422,7 +436,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["42081F59690E6469"]
+			dependencies: [
+				"42081F59690E6469"
+				"01433D78C43AD215"
+			]
 			hide_dependency_lines: true
 			id: "5BFA4802D228358C"
 			tasks: [{
@@ -449,21 +466,6 @@
 		}
 		{
 			dependencies: [
-				"4BFA114E12BCB163"
-				"47EC3A53E944E87B"
-			]
-			icon: "gtceu:polyurethaneresin_bucket"
-			id: "3BA7B0BA435252E0"
-			tasks: [{
-				id: "498EA9D0F4BBAF8B"
-				title: "聚氨脂树脂"
-				type: "checkmark"
-			}]
-			x: 8.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
 				"5BFA4802D228358C"
 				"506E6C56FF4B5C0B"
 				"6158FD5813B18D3D"
@@ -481,7 +483,11 @@
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
-			description: ["更大，更强"]
+			description: [
+				"真空冷冻机和等离子冷凝器的激光版本"
+				""
+				"可以像渔场那样快速放置水源"
+			]
 			icon_scale: 2.0d
 			id: "3DD334C5B070AF94"
 			shape: "rsquare"
@@ -492,29 +498,38 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
 				"783379F3A7557CEE"
 				"2E05225ADF4D7D31"
+				"2DA05E5BAEAFB88E"
 			]
 			description: [
-				"如果你很富有，可以制作一个，这台机器只有OpV以后阶段才有专用配方"
+				"同时也是装配线，电路装配线的激光版本，耗时倍速0.4，拥有无损超频"
 				""
-				"&o&l&c注意无论是否需要研究都必须连接数据库！！！&r&r&r"
-				"多方块成型只需要过滤器机械方块，不要被JEI迷惑"
-				"拓展模块主机安装在超时空主机的左右2侧间距2格的地方"
-				"即拓展模块尾部的方块正好与超时空结构方块重合"
+				"如果你很富有，可以制作一个，这台机器只有在OpV及以后阶段才有专用配方"
 				""
-				"拓展主机||分子机械方块||分子机械方块||主机||分子机械方块||分子机械方块||拓展主机"
-				"{image:ftbquests:textures/picture/001.png width:300 height:200 align:center}"
+				"&c&l注意无论是否需要研究都必须连接数据库！！！&r&r&r"
+				"多方块成型只需要&b&l过滤器机械方块"
+				"拓展模块主机只会识别它本身周围的8个功能方块"
+				""
+				"{image:ftbquests:textures/picture/008.png width:350 height:200 align:center}"
+				"扩展模块安装示意图如下"
+				"{image:ftbquests:textures/picture/007.png width:350 height:200 align:center"
 			]
-			icon_scale: 1.3d
+			icon_scale: 2.0d
 			id: "72B80ADFE77198DD"
-			min_width: 350
-			shape: "hexagon"
-			size: 2.0d
+			min_width: 360
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "755F7D9375F0D8A5"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [{
 				id: "2489A12E61345011"
 				item: "gtceu:suprachronal_assembly_line"
@@ -529,8 +544,12 @@
 				"&c&l注意无论是否需要研究都必须连接数据库！！！"
 				"&c&l注意无论是否需要研究都必须连接数据库！！！"
 				"&c&l注意无论是否需要研究都必须连接数据库！！！"
+				""
 				"&r激光蚀刻工厂的激光版本，拥有无损超频，使用温度并行机制，温度每提升900K，并行数×2"
-				"随着并行数的增加，算力需求也会增加（如果有）"
+				""
+				"随着并行数的增加，算力需求也会增加（如果有），具体计算公式为：最小算力需求乘以并行数"
+				""
+				"维度聚焦中两个使用氮气的配方实际上存在问题，无法正常工作，请不要使用"
 			]
 			icon_scale: 2.0d
 			id: "1BDEBBAF5BA9854E"
@@ -543,7 +562,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 7.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -557,8 +576,8 @@
 				item: "gtceu:field_extruder_factory"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 5.0d
+			x: 13.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -572,8 +591,8 @@
 				item: "gtceu:mega_wiremill"
 				type: "item"
 			}]
-			x: 11.0d
-			y: 8.0d
+			x: 11.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -587,8 +606,8 @@
 				item: "gtceu:mega_presser"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 5.0d
+			x: 14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -602,8 +621,8 @@
 				item: "gtceu:mega_extractor"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: 16.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -617,14 +636,17 @@
 				item: "gtceu:mega_canner"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 11.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"035C470213E8B4DB"
 				"3008FED65F71C459"
+				"4F87B7DA47087F97"
+				"12F8275FC06FCFEE"
 			]
+			hide_dependent_lines: true
 			id: "0936769874A5F740"
 			tasks: [{
 				id: "1557E8CF828FFBEA"
@@ -658,12 +680,12 @@
 				item: "kubejs:rutherfordium_neutronium_boule"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["53DEE1A65051E06F"]
-			description: ["衰变锕"]
+			description: ["通过衰变锕获得"]
 			id: "7AE40ADC74AAA54B"
 			tasks: [{
 				id: "0EB322451B4A8795"
@@ -671,80 +693,23 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"056569C44B1B5E25"
-				"5D4131C48F9BAE46"
-			]
-			description: ["不要去找矿石，衰变镭获取"]
-			id: "53DEE1A65051E06F"
-			tasks: [{
-				id: "7A9EEB0C236E8FE7"
-				item: "gtceu:actinium_dust"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"从晶质铀矿中获取（硫酸铀废液）"
-				"或者凯金化合物处理"
-			]
-			icon: "gtceu:radium_dust"
-			id: "056569C44B1B5E25"
-			tasks: [
-				{
-					id: "549B46CC775A28DF"
-					item: "gtceu:radium_dust"
-					type: "item"
-				}
-				{
-					id: "08E004FFFF2D9262"
-					item: "gtceu:tiny_radium_dust"
-					type: "item"
-				}
-			]
-			x: 0.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["27A9D4E765101CB9"]
 			icon: "gtceu:photoresist_bucket"
 			id: "7EAED8E6D66C24D2"
-			tasks: [
-				{
-					id: "502C400FF6B77FF5"
-					item: "gtceu:photoresist_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "2D83BC942ADF6D92"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "2D83BC942ADF6D92"
+				type: "checkmark"
+			}]
+			title: "光刻胶"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["7204F1B6BCC74F1C"]
-			description: ["更大，更强"]
-			icon_scale: 2.0d
-			id: "48BC39B9A41C4439"
-			shape: "rsquare"
-			tasks: [{
-				id: "2BF318141C2DB38D"
-				item: "gtceu:large_chemical_plant"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["783379F3A7557CEE"]
-			description: ["组装厂，电路组装厂和精密组装机的激光版本，拥有无损超频"]
+			description: ["组装机，电路组装机和精密组装机的激光版本，拥有无损超频"]
 			icon_scale: 2.0d
 			id: "4130D8DCFAB9A2BD"
 			shape: "rsquare"
@@ -754,8 +719,8 @@
 				item: "gtceu:mage_assembler"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 8.0d
+			x: 15.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -769,8 +734,8 @@
 				item: "gtceu:crystalline_infinity"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 8.0d
+			x: 13.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -784,14 +749,16 @@
 				item: "gtceu:holy_separator"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 12.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["0936769874A5F740"]
-			description: ["高效稀土处理，后续可以升级为进阶稀土离心机"]
-			hide_dependency_lines: true
-			icon_scale: 2.0d
+			dependencies: [
+				"0936769874A5F740"
+				"702EFE9BA62A8CDA"
+			]
+			description: ["高效稀土处理"]
+			icon_scale: 1.5d
 			id: "4059A907154E2865"
 			shape: "rsquare"
 			size: 1.0d
@@ -800,8 +767,8 @@
 				item: "gtceu:rare_earth_centrifugal"
 				type: "item"
 			}]
-			x: 14.0d
-			y: -2.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -816,7 +783,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["783379F3A7557CEE"]
@@ -834,8 +801,8 @@
 				item: "gtceu:mega_distillery"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 7.0d
+			x: 16.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0E926F9B91EECD78"]
@@ -845,12 +812,12 @@
 				item: "gtceu:francium_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1B462F1DBFC5F77B"]
-			description: ["维度聚焦使用氮气的配方实际上存在问题，不要使用"]
+			description: [""]
 			id: "4F945AA31D61A74D"
 			subtitle: "先进的材料"
 			tasks: [{
@@ -858,8 +825,8 @@
 				item: "gtceu:fullerene_dust"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -1.0d
+			x: 14.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6318135AD6CF15D9"]
@@ -889,18 +856,18 @@
 					type: "checkmark"
 				}
 			]
+			title: "环对苯撑"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: false
 			dependencies: [
-				"4F87B7DA47087F97"
 				"0936769874A5F740"
+				"7204F1B6BCC74F1C"
 			]
 			description: ["两级磁化机，电磁选矿机，电解机和闪电处理机的激光版本，拥有无损超频"]
-			hide_dependency_lines: true
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "68FDC7A6BE158D5F"
 			shape: "rsquare"
 			size: 1.0d
@@ -909,8 +876,130 @@
 				item: "gtceu:superconducting_electromagnetism"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"3EA935A712FA0EBE"
+				"0DC5BFACB3D4BC95"
+			]
+			hide_dependent_lines: true
+			id: "702EFE9BA62A8CDA"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3D65AB47A9ADAD4F"
+				item: "gtceu:highurabilityompoundteel_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783379F3A7557CEE"]
+			description: [
+				"{ \"text\": \"能够走到这里，说明你已经是一位成熟的员工了，\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"430303070695D7D3\" } }"
+				"后面章节的任务会开始省略越来越多的内容，"
+				"只留下关键部分，让你知道核心的主线。"
+			]
+			icon: {
+				Count: 1
+				id: "avaritia:infinity_totem"
+				tag: {
+					Damage: 0
+				}
+			}
+			icon_scale: 1.3d
+			id: "42091AC2E2C4DD1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "51E176A6DC8853C5"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F465493FF526CDF"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2075E186A0998D67"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3892C3FAA376DB58"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "492322BC72DACD5E"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4029848837627A4D"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67938BDE6599E4C4"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A24B8EC88EE0265"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48796F9C0980CBDA"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BED519076EB77BD"
+					table_id: 6225023274141477362L
+					type: "random"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				id: "261FF35CFCC10ABD"
+				title: "接下来的路"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7204F1B6BCC74F1C"
+				"702EFE9BA62A8CDA"
+			]
+			description: ["更大，更强"]
+			icon_scale: 1.5d
+			id: "48BC39B9A41C4439"
+			shape: "rsquare"
+			tasks: [{
+				id: "2BF318141C2DB38D"
+				item: "gtceu:large_chemical_plant"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

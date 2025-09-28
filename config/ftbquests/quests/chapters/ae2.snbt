@@ -1,0 +1,207 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ae2"
+	group: "24F4987B35ABEE82"
+	icon: "ae2:controller"
+	id: "6980669C5265DA02"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["请求数量上限增强至15位数"]
+			icon: "merequester:requester"
+			id: "225FC6F6F3626C53"
+			rewards: [{
+				id: "65093F52636EB9D4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C01B0FEAADE8281"
+				title: "ME请求器"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: ["在这里默认无限频道，出于性能考虑移除了ME控制器的合成配方"]
+			icon: "ae2:fluix_glass_cable"
+			id: "0259EEEAE6F3C3CB"
+			rewards: [{
+				id: "28E44D4CB84273F4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			subtitle: "ME控制器怎么合成不了？"
+			tasks: [{
+				id: "777CFBC4F54FBCE9"
+				title: "频道"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["基础传输速度加强至64*int量级"]
+			icon: "expatternprovider:ex_io_port"
+			id: "4E1E59DD41AEEC17"
+			rewards: [{
+				id: "1B45E4F32729CBAA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CF437FD2CAA4A4C"
+				title: "扩展IO端口"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			description: ["ULV中期解锁AE存储和物流，MV初解锁下单，MV末解锁升级卡，HV末解锁无线AE，EV初解锁创造能源元件"]
+			icon: "ae2:controller"
+			id: "5AB25B6A1A96FFF1"
+			rewards: [{
+				id: "7BAB47A6F79DA3F0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E327F3A46D8F21"
+				title: "关于对应阶段"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"无限水/圆石元件增强至long级容量（9.22P和9.22E）"
+				"{@pagebreak}"
+				"创造磁盘也一样被增强了"
+			]
+			icon: {
+				Count: 1
+				id: "expatternprovider:infinity_cell"
+				tag: {
+					record: {
+						"#c": "ae2:f"
+						id: "minecraft:water"
+					}
+				}
+			}
+			id: "324F420032FB9112"
+			rewards: [{
+				id: "0063B8E8FAFA7D3F"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B2777F734BD4F5C"
+				title: "无限元件"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["存储类型为默认的4倍，可在gltcore的配置文件中调整"]
+			icon: {
+				Count: 1
+				id: "ae2:item_storage_cell_1k"
+				tag: { }
+			}
+			id: "772E4BC43E9C3A09"
+			rewards: [{
+				id: "5D236A4D2FF670E5"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "550042261D7CDFD8"
+				title: "磁盘"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			description: ["在gtlcore的配置文件中可以调整扩展样板供应器的槽位"]
+			icon: "expatternprovider:ex_pattern_provider"
+			id: "6B5FD34433F96957"
+			rewards: [{
+				id: "5E1211C813682438"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E27D16F8CFDACB4"
+				title: "扩展样板供应器"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["每格容量增强至int级"]
+			icon: "ae2:interface"
+			id: "3D2E392FD1C7A858"
+			rewards: [{
+				id: "18A0469DB87BA283"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "042A7D3DB05154B7"
+				title: "ME接口"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"可以直接在编码时进行翻倍了（仅限处理样板）"
+				""
+				"原料和产物在编码终端中的可调整数量上限调整为long"
+				""
+				"在空白样板耗尽时会自动调用ME网络内的空白样板填充"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "5BF2FF86A30EF30C"
+			rewards: [{
+				id: "1F4ED17AAA95E860"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "11AFFE5DA6C9DF13"
+				type: "checkmark"
+			}]
+			title: "样板编码相关"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: ["合成计算默认开启UlTRA FAST模式，可在gtlcore的配置文件中调整"]
+			icon: "ae2:1k_crafting_storage"
+			id: "60D25FEE107A7A63"
+			rewards: [{
+				id: "203D454048007BE3"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E2E7DAA9A528870"
+				type: "checkmark"
+			}]
+			title: "合成相关"
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "AE2调整"
+}

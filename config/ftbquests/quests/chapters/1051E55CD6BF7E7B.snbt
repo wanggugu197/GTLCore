@@ -18,6 +18,13 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: ["借助了命令方块的力量"]
+			icon: {
+				Count: 1
+				id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "67A81E3F7E247521"
 			tasks: [
 				{
@@ -67,11 +74,11 @@
 			]
 			title: "星体套"
 			x: 5.0d
-			y: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["67A81E3F7E247521"]
-			description: ["穿戴星体套进入"]
+			description: ["穿戴星体套进入正常工作的创造之门以进入创造维度"]
 			id: "1416EAE88C9030C8"
 			subtitle: "未知之地"
 			tasks: [{
@@ -81,7 +88,7 @@
 			}]
 			title: "访问创造维度"
 			x: 7.0d
-			y: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["296DE95F3BE7DC54"]
@@ -98,7 +105,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["1416EAE88C9030C8"]
+			dependencies: ["2C3C46AC660CC54E"]
 			description: ["包含多维空间的所有能量"]
 			id: "5AFEAD001EDA612D"
 			tasks: [{
@@ -106,13 +113,14 @@
 				item: "kubejs:create_ultimate_battery"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
 			dependencies: [
 				"0BF48314F3323108"
 				"38FFB6D2003C7EB4"
+				"4CF8E0618D65DD65"
 			]
 			description: ["二维展开"]
 			id: "1EB9F1815EB656B0"
@@ -146,6 +154,7 @@
 				""
 				"命令方块只能放置在稳定核心上方"
 			]
+			hide_dependent_lines: true
 			id: "34DB07A64CD1439C"
 			tasks: [{
 				id: "7BD60E6DCA58004A"
@@ -157,17 +166,22 @@
 		}
 		{
 			dependencies: ["48925ECBCC5D268D"]
+			description: ["有点慢"]
 			id: "338F629A694C7556"
 			tasks: [{
 				id: "16C8AA0E8A7E6784"
 				item: "gtlcore:create_casing"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 2.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["338F629A694C7556"]
+			dependencies: [
+				"338F629A694C7556"
+				"5AFEAD001EDA612D"
+			]
+			description: ["操纵引力实现聚爆"]
 			icon_scale: 2.0d
 			id: "7C4AD33299386B47"
 			shape: "rsquare"
@@ -176,40 +190,45 @@
 				item: "gtceu:gravitation_shockburst"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.0d
+			x: 5.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["7C4AD33299386B47"]
+			hide_dependency_lines: true
 			id: "4C37CB772835CFD0"
+			subtitle: "引力震爆"
 			tasks: [{
 				id: "3456609519072452"
 				item: "kubejs:command_block_broken"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 2.0d
+			x: 11.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
-				"需要输入MAX级电压"
+				"至少需要输入MAX级电压"
 				""
 				"如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"
+				""
+				"小提示：无线算力仓室并不能跨维度传输算力"
 			]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
 			shape: "rsquare"
+			subtitle: "无穷的算力"
 			tasks: [{
 				id: "46A19A3E3D3CF4A9"
 				item: "gtceu:create_computation"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.5d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["30907D7231913ACB"]
+			dependencies: ["7C4AD33299386B47"]
 			id: "429AEBE4BF55B1FF"
 			tasks: [{
 				id: "77BD91BF9EFBE178"
@@ -217,17 +236,20 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"429AEBE4BF55B1FF"
-				"338F629A694C7556"
+				"1416EAE88C9030C8"
+				"30907D7231913ACB"
 			]
 			description: [
 				"耗能固定为16A MAX"
-				"如同方块转换室一般，输入总线放入核心，机器正中间放置方块以进行转换"
-				"算力需求只能通过创造计算机满足"
+				""
+				"如同方块转换室一般，输入总线放入命令方块核心，机器正中间放置即将打破的命令方块以进行转换"
+				""
+				"建议先放置命令方块然后再放入核心，否则可能会吞核心"
 			]
 			icon_scale: 2.0d
 			id: "2F9392EF05DB11EF"
@@ -237,15 +259,16 @@
 				item: "gtceu:create_aggregation"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.0d
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
 				"2F9392EF05DB11EF"
 				"4C37CB772835CFD0"
+				"34DB07A64CD1439C"
 			]
-			description: ["使用命令权杖潜行右键来打破"]
+			description: ["手持命令权杖潜行右键来打破"]
 			id: "2D1F2793A396B322"
 			tasks: [{
 				id: "4C7140E1B28862FE"
@@ -264,13 +287,15 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
 				"5BA55D56C47EA2C4"
 				"435394EAA6536AA9"
+				"34DB07A64CD1439C"
 			]
+			description: ["手持命令权杖潜行右键来打破"]
 			id: "75CE99CD1614FB64"
 			tasks: [{
 				id: "065BE74992505A08"
@@ -278,7 +303,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 4.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2D1F2793A396B322"]
@@ -289,19 +314,21 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5AFEAD001EDA612D"]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "2A19E7C6DC247B90"
+			subtitle: "需要创造电池"
 			tasks: [{
 				id: "00F2D831815D719F"
 				item: "kubejs:chaotic_energy_core"
 				type: "item"
 			}]
 			x: 11.0d
-			y: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["75CE99CD1614FB64"]
@@ -317,7 +344,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -325,9 +352,11 @@
 				"2D1F2793A396B322"
 			]
 			description: [
-				"创造激光靶仓可以放入有源变压器中以让无线电网获得无穷的电力"
+				"两种创造电源都可以放入有源变压器中以让无线电网获得无穷的电力"
 				""
-				"还可以将创造能源放入机器中，使机器获得远超于4194304A MAX的功率"
+				"还可以将创造电源放入机器中，使机器获得远超于4194304A MAX的功率，最高可达&cM&r&aA&r&9X&r&e+&r&c16&r"
+				""
+				"创造电源放置时默认选择&cM&r&aA&r&9X&r&e+&r&c16&r"
 			]
 			icon_scale: 2.0d
 			id: "5F145D9019C4BC48"
@@ -348,7 +377,7 @@
 			]
 			title: "创造模式电源"
 			x: 13.0d
-			y: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -374,17 +403,29 @@
 			description: [
 				"恭喜你完成了这个游戏，感谢你的游玩。"
 				""
-				"据说真正到达这里的寥寥无几。"
+				"据说真正到达这里的人寥寥无几。"
+				"{@pagebreak}"
+				"其实还有其他手段获得茶和棉花糖，也是和鱼大有关"
+				"{@pagebreak}"
+				"有传言称创造储罐和创造箱子是鱼大吃饱喝足后随手制作的"
 			]
 			hide_dependency_lines: true
 			icon: "gtlcore:ultimate_tea"
 			id: "503A37C31E60684B"
 			invisible: true
-			rewards: [{
-				id: "76A7B329CDF35304"
-				item: "gtlcore:ultimate_tea"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "76A7B329CDF35304"
+					item: "gtlcore:ultimate_tea"
+					type: "item"
+				}
+				{
+					id: "1B03B8D7C87EF60B"
+					item: "kubejs:heartofthesmogus"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
 			subtitle: "休息一下吧"
 			tasks: [{
 				id: "334CC982B1A39C03"
@@ -394,6 +435,18 @@
 			title: "终于，结束了"
 			x: 17.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["2A29DA4239E6BA44"]
+			description: ["建议被动自动化生产"]
+			id: "4CF8E0618D65DD65"
+			tasks: [{
+				id: "043893C259EE2DA8"
+				item: "kubejs:hyper_stable_self_healing_adhesive"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
 		}
 	]
 	subtitle: ["Tier14-MAX"]

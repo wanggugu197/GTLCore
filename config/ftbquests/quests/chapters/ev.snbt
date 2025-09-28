@@ -10,8 +10,8 @@
 		{
 			id: "263559F3CAFF312A"
 			linked_quest: "3CB16B36A5AA2A10"
-			x: 6.0d
-			y: 1.5d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			id: "273B5005EE3685F3"
@@ -23,6 +23,12 @@
 			id: "6465917B9D5E0306"
 			linked_quest: "778546543F6413E7"
 			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "1801C42E454EA6FF"
+			linked_quest: "2BB52D1C09C418A9"
+			x: 10.0d
 			y: 0.0d
 		}
 	]
@@ -45,6 +51,7 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["58CA7CA601F675BA"]
 			description: [
 				"环氧树脂是一种高分子化合物，具有环氧基团（-O-）的结构特征。它通常是由环氧单体与固化剂反应而成的高性能热固性塑料。环氧树脂具有良好的机械性能、电气绝缘性能、化学稳定性和粘接性能，广泛应用于涂料、胶粘剂、电子封装、建筑加固、复合材料等领域。"
 				""
@@ -114,8 +121,8 @@
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
-			size: 2.0d
+			shape: "diamond"
+			size: 1.0d
 			tasks: [{
 				id: "13452B1A4ADEC0C0"
 				item: "gtceu:nano_processor_computer"
@@ -142,6 +149,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["0037D6BA6A4ABB72"]
 			description: ["你需要高压釜"]
 			id: "1D96227373B962A2"
 			rewards: [{
@@ -175,7 +183,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5F11D5C61F8897B9"]
+			dependencies: [
+				"5F11D5C61F8897B9"
+				"3461BF0D74E5E8DF"
+			]
 			description: ["可以塞进通用组装厂（这个可以双仓升压的）"]
 			id: "413B25F5BA2BA39D"
 			rewards: [{
@@ -238,13 +249,14 @@
 		{
 			dependencies: [
 				"7C8C2A0E5791E884"
-				"5268CBA4AB789BDA"
 				"5CE474BD971D9A4B"
+				"37C5E7628A4B826C"
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"你可以用铀和钚得到"
-				"你也可以在火星直接采到"
+				"你可以用铀-238和钚-239反应得到"
+				""
+				"{ \"text\": \"你也可以在火星直接采到\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"457BA0CCBA39709A\" } }"
 			]
 			id: "2CAC63F25BAF50B3"
 			rewards: [{
@@ -257,6 +269,7 @@
 				item: "gtceu:radon_bucket"
 				type: "item"
 			}]
+			title: "气态氡"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -348,6 +361,8 @@
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
+			description: ["{ \"text\": \"去火星挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0FE695E1E46BC4\" } }"]
+			icon: "gtceu:raw_scheelite"
 			id: "7DEEB07D0598019A"
 			rewards: [{
 				id: "6D67F24B06010900"
@@ -358,12 +373,18 @@
 				{
 					id: "4A25A688CC27F15F"
 					item: "gtceu:raw_scheelite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "5CCAA1F4ECAD2C50"
 					item: "gtceu:raw_tungstate"
+					optional_task: true
 					type: "item"
+				}
+				{
+					id: "145C4B43FC4AEF2F"
+					type: "checkmark"
 				}
 			]
 			title: "钨矿"
@@ -393,7 +414,7 @@
 			dependencies: ["759F26B57097602E"]
 			description: [
 				"如果你看到了这个粉是可以从矿物中获取的，请不要去寻找"
-				"这些矿物是后面通过虚空采矿机获取的"
+				"这种矿物是后面通过大型虚空采矿机或者太空电梯获取的"
 			]
 			id: "3A8A37094C997BF8"
 			rewards: [{
@@ -427,13 +448,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["101EBAF218B980A1"]
+			dependencies: [
+				"101EBAF218B980A1"
+				"42E88FC72902FC0B"
+			]
 			id: "5B65662B72C369E7"
 			rewards: [{
 				id: "552799C641212C2F"
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "4788048543923466"
 				item: "gtceu:tungsten_steel_ingot"
@@ -507,6 +533,7 @@
 				{
 					id: "1A8B984603BF45D4"
 					item: "gtceu:dense_hydrazine_fuel_mixture_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -545,7 +572,7 @@
 			]
 			title: "铂与钯"
 			x: 4.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -586,7 +613,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["20D5748D17E2C06D"]
+			dependencies: ["3CB16B36A5AA2A10"]
 			id: "54ECD518FCACE649"
 			rewards: [{
 				id: "62272FE4D7AD9C46"
@@ -598,8 +625,8 @@
 				item: "gtceu:rtm_alloy_dust"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 3.0d
+			x: 18.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -694,8 +721,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.0d
+			x: 17.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
@@ -710,13 +737,20 @@
 				item: "gtceu:ev_cutter"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 18.0d
 			y: 8.0d
 		}
 		{
 			dependencies: [
 				"00ACD41B8ABD498C"
 				"14D60DF010FF0396"
+			]
+			description: [
+				"{ \"text\": \"去金星挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F0C57F9551D8FFA\" } }"
+				""
+				"月球的结构里面也有戴斯"
+				""
+				"金星的结构里面有下界岩和远古残骸"
 			]
 			id: "7AEC0D308494C0F8"
 			rewards: [{
@@ -735,7 +769,7 @@
 		{
 			dependencies: [
 				"7AEC0D308494C0F8"
-				"51AA4887F2DC9747"
+				"3CB16B36A5AA2A10"
 				"0375D068023B13D7"
 			]
 			icon: {
@@ -754,6 +788,7 @@
 				{
 					id: "0CEFB603A42AEFD8"
 					item: "gtceu:rocket_fuel_cn3h7o3_bucket"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -795,6 +830,11 @@
 		}
 		{
 			dependencies: ["1EA6BA3CBF4BE5DB"]
+			description: [
+				"EV超导体"
+				""
+				"{ \"text\": \"铀-238的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5268CBA4AB789BDA\" } }"
+			]
 			id: "7852E4465B3CAF80"
 			rewards: [{
 				id: "379C58C619F20529"
@@ -806,8 +846,8 @@
 				item: "gtceu:uranium_triplatinum_ingot"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 16.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -830,6 +870,12 @@
 		}
 		{
 			dependencies: ["0375D068023B13D7"]
+			description: [
+				"更大，更强"
+				""
+				"还能放入真空冷冻机直接获得液态空气"
+			]
+			icon: "gtceu:large_gas_collector"
 			icon_scale: 2.0d
 			id: "650980AB3D2A6AF6"
 			shape: "rsquare"
@@ -843,20 +889,29 @@
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
+			description: ["你一定没有全部处理成粉吧，对吧？"]
+			icon: "gtceu:raw_cooperite"
 			id: "1D247D35BFB55469"
+			subtitle: "并不是用于做铂和钯"
 			tasks: [
 				{
 					id: "2516A6D15A1040C4"
 					item: "gtceu:raw_cooperite"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "4AC20884A08A352C"
 					item: "gtceu:raw_bornite"
+					optional_task: true
 					type: "item"
 				}
+				{
+					id: "034572C95B511C3D"
+					type: "checkmark"
+				}
 			]
-			title: "铂系处理原矿"
+			title: "铂系金属处理原矿"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -911,8 +966,15 @@
 				"从现在开始你的部分东西需要无重力条件，你需要前往太空站进行制作。"
 				"地球空间站是一个好选择"
 				""
-				"制造空间站的材料为1个钢引擎，16个微型处理器超级计算机，16个航天级铁板和64个钢锭"
+				"制造空间站的材料为1个钢引擎，16个&e微型处理器超级计算机&r，16个航天级铁板和64个钢锭"
 			]
+			icon: {
+				Count: 1
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "7DD918C8416C6C63"
 			tasks: [{
 				id: "58D4A11DCEC97B63"
@@ -927,6 +989,7 @@
 			icon_scale: 2.0d
 			id: "423E927A2EE3A956"
 			shape: "rsquare"
+			subtitle: "看工作台配方"
 			tasks: [{
 				id: "419403958F14AB71"
 				item: "ae2:creative_energy_cell"
@@ -936,19 +999,21 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["27A9D4E765101CB9"]
 			id: "056D5A2274001900"
 			tasks: [{
 				id: "3BA644F108FC3339"
 				item: "gtceu:nitric_acid_bucket"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.0d
+			title: "硝酸"
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"056D5A2274001900"
-				"2FB55033636102A9"
+				"4D14C432E11EC9AB"
 			]
 			hide_dependent_lines: true
 			id: "668BDF2093A9291B"
@@ -962,11 +1027,12 @@
 				item: "gtceu:aqua_regia_bucket"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.5d
+			title: "王水"
+			x: 8.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["17365ABC639496E6"]
+			dependencies: ["3CB16B36A5AA2A10"]
 			description: [
 				"你也可以用凋零骷髅头和灵魂沙组装（去找坚守者借几个灵魂沙）"
 				"不过主要还是得靠聚爆"
@@ -982,6 +1048,10 @@
 			y: 2.0d
 		}
 		{
+			dependencies: [
+				"2C75EB0628CB491A"
+				"242AFA510EC14878"
+			]
 			id: "2E910F4C45003592"
 			tasks: [{
 				id: "00BCFB175F3BC87F"
@@ -992,6 +1062,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1E7344C133C99565"]
 			id: "11E1183E0FE07737"
 			tasks: [{
 				id: "1073EC62F6FB1848"
@@ -1002,42 +1073,58 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["27A9D4E765101CB9"]
 			id: "4D14C432E11EC9AB"
 			tasks: [{
 				id: "2675ED7FFC241CC6"
 				item: "gtceu:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			title: "盐酸"
+			x: 7.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["27A9D4E765101CB9"]
 			id: "2FB55033636102A9"
 			tasks: [{
 				id: "75BEB6671092437B"
 				item: "gtceu:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			title: "硫酸"
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"056D5A2274001900"
-				"4D14C432E11EC9AB"
+				"2FB55033636102A9"
 			]
 			id: "7711157A43DC1394"
+			rewards: [{
+				id: "74FF4F3E2C3D77F5"
+				item: "avaritia:endless_cake"
+				type: "item"
+			}]
 			tasks: [{
 				id: "125A41A672E1AF6B"
 				item: "gtceu:nitration_mixture_bucket"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 1.5d
+			title: "硝酸混酸"
+			x: 9.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7AEC0D308494C0F8"]
 			id: "79AEF94C9E242133"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53DFCDDD52B4C609"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "0FA53A1B35BE795A"
@@ -1060,26 +1147,26 @@
 					type: "item"
 				}
 			]
+			title: "宇航镄套装"
 			x: 18.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["29BB35C725BE7D96"]
-			id: "6D638925CF462586"
-			subtitle: "时间直接减半"
-			tasks: [{
-				id: "3DC00959AA0CB9DD"
-				item: "kubejs:time_twister_wireless"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["推荐把各种常用电路打包为通用电路板，方便以后修改样板"]
-			icon_scale: 2.0d
+			description: [
+				"推荐把各种常用电路打包为通用电路板，方便以后修改样板"
+				""
+				"在编写样板时会&b&l优先&r将通用电路板写入样板"
+			]
+			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "71937BB3803B6A78"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -1087,16 +1174,32 @@
 				item: "gtceu:ev_packer"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["直接与ME网络互动"]
-			icon_scale: 2.0d
+			description: [
+				"直接从ME网络中抽取物品（仓室内的物品不在网络中）"
+				""
+				"用闪存左键保存仓室配置，右键应用配置"
+				""
+				"三种ME输出仓室均拥有long级别的容量和无限的格子（每秒输出一次）"
+				""
+				"ME输出总成经过了优化，性能更佳，且可以手动将总成内的物品/流体弹出至ME网络"
+			]
+			icon_scale: 1.5d
 			id: "733741C26C6BF5C3"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21AC89938A8A572A"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "直接与ME网络互动"
 			tasks: [
 				{
 					id: "734003F060FF3ACE"
@@ -1125,8 +1228,24 @@
 				}
 			]
 			title: "ME仓室"
-			x: 4.0d
-			y: 1.0d
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25F272243EB904D5"]
+			description: ["更大，更强"]
+			icon_scale: 2.0d
+			id: "42CEF4F4DFBEAA3D"
+			optional: true
+			shape: "rsquare"
+			subtitle: "内置模拟太阳光照"
+			tasks: [{
+				id: "6CD8E0DD0FCF56B5"
+				item: "gtceu:large_greenhouse"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]
