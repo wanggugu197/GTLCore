@@ -34,11 +34,12 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["适合做生物研究"]
+			description: ["无菌超净间可以向下兼容超净间配方，绝对洁净同理"]
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
 			shape: "rsquare"
+			subtitle: "适合做生物研究"
 			tasks: [
 				{
 					id: "42A2A3DE0D71F79C"
@@ -208,7 +209,7 @@
 		}
 		{
 			dependencies: ["77759D1FE48F958B"]
-			description: ["由于Just Enough Characters（通用拼音搜索）并没有收录元素周期表中的很多元素对应的拼音，可以使用“#”+“元素符号”的方式搜索，例如：#ds可以搜出来𫟼；由于ME网络中不会显示流体的化学式，请使用“*”+“标签”的方式搜索流体，例如*darmstadtium可以搜出来液态𫟼"]
+			description: ["由于Just Enough Characters（通用拼音搜索）并没有/无法收录元素周期表中的很多元素对应的拼音，可以使用“#”+“元素符号”的方式搜索，例如：#ds可以搜出来𫟼；由于ME网络中不会显示流体的化学式，请使用“*”+“标签”的方式搜索流体，例如*darmstadtium可以搜出来液态𫟼"]
 			id: "7C23CC6ADDC33EA0"
 			tasks: [{
 				id: "68B49A32B28AECEA"
@@ -263,9 +264,11 @@
 				"5E86110BBAEA92BA"
 				"5C4B11CEA53D5B78"
 			]
+			dependency_requirement: "one_completed"
 			description: ["实际上没有必要使用网络交换机"]
 			icon_scale: 2.0d
 			id: "0A2D46609F5C3CAB"
+			min_required_dependencies: 2
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "4BF1D99A47554C8B"
@@ -343,7 +346,6 @@
 				"5D4131C48F9BAE46"
 				"7C4C11E7C931C01B"
 				"37C5E7628A4B826C"
-				"5C4B11CEA53D5B78"
 			]
 			description: ["以后需要"]
 			icon_scale: 2.0d
@@ -410,9 +412,11 @@
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
 			description: [
-				"输入石油和蒸汽，输出产物"
+				"输入油和蒸汽，输出产物"
 				""
-				"别把你的石化产线拆了，以后还有用处"
+				"线圈只影响能耗"
+				""
+				"石化工厂不会产出中间产物，你可以选择保留旧有石化产线或者用太空电梯直接采集中间产物"
 			]
 			icon_scale: 2.0d
 			id: "61838E13426B2B88"
@@ -552,6 +556,7 @@
 					type: "item"
 				}
 			]
+			title: "无线算力数据仓"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -636,7 +641,7 @@
 				"53D0B2B73387C7CE"
 				"042A0E98DC1084B3"
 			]
-			description: ["可以制作只需贴片且产量较大的磁共振电路，你会喜欢的 "]
+			description: ["可以用于制作只需贴片且产量较大的磁共振电路，你会喜欢的 "]
 			id: "0DC5BFACB3D4BC95"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -682,7 +687,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0485D45408234C99"]
+			dependencies: [
+				"0485D45408234C99"
+				"39380262677612A9"
+			]
 			description: [
 				"工作需要用一个输入总线输入一号电路"
 				""

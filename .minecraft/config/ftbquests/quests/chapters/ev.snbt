@@ -829,7 +829,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["1EA6BA3CBF4BE5DB"]
+			dependencies: [
+				"1EA6BA3CBF4BE5DB"
+				"37C5E7628A4B826C"
+			]
 			description: [
 				"EV超导体"
 				""
@@ -1034,7 +1037,7 @@
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
 			description: [
-				"你也可以用凋零骷髅头和灵魂沙组装（去找坚守者借几个灵魂沙）"
+				"你可以用凋零骷髅头和灵魂沙组装（没去下界之前去坚守者老家找几个灵魂沙）"
 				"不过主要还是得靠聚爆"
 			]
 			icon_scale: 2.0d

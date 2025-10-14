@@ -134,16 +134,16 @@
 				"蒸汽ULV：收集基础资源，更大更强蒸汽机器，炼钢，超维度泥土锻炉。"
 				"低压LV：基础电力机器，电力高炉。"
 				"中压MV：硅晶体，石油处理，升级机器。"
-				"高压HV：处理器，大化反，一阶火箭登月，蒸馏塔，钛，虚空采矿机。"
-				"超高压EV：纳米处理器，二三四阶火箭，钨，铂系金属。"
-				"强导压IV：量子处理器，合金冶炼炉，五阶火箭，大型机器，装配线，数据库。"
-				"剧差压LUV：晶体处理器，硅岩，六阶火箭，核聚变MK1，计算机，研究站。"
-				"零点压ZPM：湿件处理器，核聚变MK2，七阶火箭，硅岩反应堆。"
+				"高压HV：处理器，大化反，一阶火箭登月，蒸馏塔，钛。"
+				"超高压EV：纳米处理器，虚空采矿机，二三四阶火箭，钨，铂系金属。"
+				"强导压IV：量子处理器，合金冶炼炉，裂变反应堆，五阶火箭，大型机器，装配线，数据库。"
+				"剧差压LUV：晶体处理器，硅岩，六阶火箭，核聚变MK1，计算机。"
+				"零点压ZPM：湿件处理器，核聚变MK2，七阶火箭。"
 				"极限压UV：生物活性处理器，核聚变MK3，深度化学扭曲仪，电路装配线，太空电梯。"
-				"极高压UHV：光学处理器，核聚变MK4，恒星锻炉，超能硅岩爆弹，超能反应堆。"
+				"极高压UHV：光学处理器，核聚变MK4，恒星炎殇锻炉，超能硅岩爆弹，超能反应堆。"
 				"极超压UEV：奇异处理器，核聚变MK5，超临界合成，基岩处理，精金。"
 				"极巨压UIV：寰宇处理器，宇宙探测，质量发生器，夸克，超重元素。"
-				"极顶压UXV：超因果处理器，龙，宇宙中子素，无尽，超维度锻炉，拉多X。"
+				"极顶压UXV：超因果处理器，龙，宇宙中子素，无尽，超维度等离子锻炉，拉多X。"
 				"过载压OPV：超时空电路，宇宙模拟，时空，奇点，永恒。"
 				"上限压MAX：创造物品合成。"
 				"附加题MAX+：鱼大。"
@@ -261,10 +261,11 @@
 			id: "525ED642C7A365D1"
 			optional: true
 			rewards: [{
-				command: "/effect give @p minecraft:night_vision 100000 0 true"
+				command: "/effect give @p minecraft:night_vision infinite 0 true"
 				elevate_perms: true
 				exclude_from_claim_all: true
 				id: "08BEFC60D3DA3529"
+				title: "看破黑暗"
 				type: "command"
 			}]
 			tasks: [{
@@ -279,6 +280,9 @@
 			dependencies: ["77DF4A561164B530"]
 			description: [
 				"空手右键黑曜石可以去虚空世界，哭泣黑曜石可以去超平坦世界，传送X,Z坐标为主世界坐标x100"
+				""
+				"虚空和超平坦世界时间锁定，天气不变，不会刷怪"
+				""
 				"在这里GT的太阳能设备无法工作"
 			]
 			icon: "minecraft:obsidian"
@@ -316,13 +320,13 @@
 				id: "2FB6F5ECEC5CFC30"
 				type: "checkmark"
 			}]
-			title: "虚空世界建造基地"
+			title: "你可以前往虚空世界建造基地"
 			x: -4.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["07AC1B02299EF734"]
+			dependencies: ["77DF4A561164B530"]
 			disable_toast: true
 			icon: "minecraft:white_concrete"
 			id: "3223AEF42BD9327C"
@@ -476,6 +480,7 @@
 			]
 			tasks: [
 				{
+					consume_items: true
 					id: "2CBE8FF328FE35AC"
 					item: {
 						Count: 1
@@ -494,8 +499,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "75B26C1A65DF3848"
 					item: {
 						Count: 1
@@ -512,8 +519,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "6D4A489A3578B8B0"
 					item: {
 						Count: 1
@@ -530,6 +539,7 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "制作工具"
@@ -538,6 +548,7 @@
 		}
 		{
 			dependencies: ["6A7BE998C2EC882D"]
+			dependency_requirement: "all_started"
 			description: ["使用研钵磨成粉后用徒手搅拌"]
 			id: "133BC85B5D3EF1CB"
 			rewards: [{
@@ -587,7 +598,11 @@
 		}
 		{
 			dependencies: ["2C6F506ADD78F277"]
-			description: ["锻铁是低碳的铁合金，比铁性能更好"]
+			description: [
+				"锻铁是低碳的铁合金，比铁性能更好"
+				""
+				"你现在只能通过烧铁粒获得锻铁粒从而获得锻铁，有了电弧炉可以直接用铁锭甚至铁块和氧气制作锻铁锭"
+			]
 			id: "52A0EE026A3D3A79"
 			rewards: [{
 				id: "11FB0702EB3F7E18"
@@ -764,6 +779,22 @@
 				"撬棍："
 				"用于撬动铁轨和撬开各种板条箱，以及拆卸覆盖板。"
 			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_crowbar"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: { }
+					GT.Tool: {
+						Damage: 0
+						Enchantability: 14
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
 			id: "1F663A6C2DD1DB60"
 			rewards: [
 				{
@@ -925,6 +956,7 @@
 			]
 			tasks: [
 				{
+					consume_items: true
 					id: "23148C33657FFC60"
 					item: {
 						Count: 1
@@ -943,8 +975,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "512E4BCCAB2B9D22"
 					item: {
 						Count: 1
@@ -961,8 +995,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "488D299ED5C3EADF"
 					item: {
 						Count: 1
@@ -981,8 +1017,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "52AE2ABE91E6D909"
 					item: {
 						Count: 1
@@ -1001,8 +1039,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "67B43C5CC46DE41B"
 					item: {
 						Count: 1
@@ -1021,8 +1061,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "4AB4BAEA70096ED0"
 					item: {
 						Count: 1
@@ -1039,8 +1081,10 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 				{
+					consume_items: true
 					id: "7D3B7BFBCCA97435"
 					item: {
 						Count: 1
@@ -1059,6 +1103,7 @@
 						}
 					}
 					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "更多工具"
@@ -1859,6 +1904,467 @@
 			x: 4.5d
 			y: -4.0d
 		}
+		{
+			can_repeat: true
+			dependencies: [
+				"6A7BE998C2EC882D"
+				"1F663A6C2DD1DB60"
+			]
+			hide_dependency_lines: true
+			id: "6351549C3E192BA3"
+			optional: true
+			rewards: [
+				{
+					id: "3B1463C98BA27DF7"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE2255D55B16430"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C6DE3C3C56BB53A"
+					item: {
+						Count: 1
+						id: "gtceu:damascus_steel_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6655216672D046CF"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "055ADEDF7D0791A4"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C918678E17D3364"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20894971EB749758"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02E86F6C1BB17D0F"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19752643B33099DF"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							RepairCost: 1
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E1084BD2F2E7F77"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10E628F77CC949A6"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			subtitle: "再换一套"
+			tasks: [
+				{
+					consume_items: true
+					id: "0767FAD73530ABA2"
+					item: {
+						Count: 1
+						id: "gtceu:iron_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "60CE58A22CC84117"
+					item: {
+						Count: 1
+						id: "gtceu:iron_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "22300BEB167AC80A"
+					item: {
+						Count: 1
+						id: "gtceu:iron_mortar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "4CC8969CB71DFFD8"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "44B8A269BC8ED118"
+					item: {
+						Count: 1
+						id: "gtceu:iron_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "2BE5469F0FCEBB2E"
+					item: {
+						Count: 1
+						id: "gtceu:iron_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "2863842AB0C9D0FA"
+					item: {
+						Count: 1
+						id: "gtceu:iron_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								AttackDamage: 2.0f
+								AttackSpeed: 3.0f
+								Damage: 0
+								Enchantability: 14
+								MaxDamage: 255
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "18F7D3D45DAB0905"
+					item: {
+						Count: 1
+						id: "gtceu:iron_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "7378F00E10DEE6B3"
+					item: {
+						Count: 1
+						id: "gtceu:wood_mallet"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 127
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					consume_items: true
+					id: "3E214464402A1ECE"
+					item: {
+						Count: 1
+						id: "gtceu:iron_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 14
+								HarvestLevel: 2
+								MaxDamage: 255
+								ToolSpeed: 6.0f
+							}
+							HideFlags: 2
+						}
+					}
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "09E940B128F7E4A3"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			title: "如果你弄丢了工具"
+			x: 5.5d
+			y: -1.0d
+		}
 	]
+	subtitle: ["Tier0-石器时代"]
 	title: "由此开始"
 }

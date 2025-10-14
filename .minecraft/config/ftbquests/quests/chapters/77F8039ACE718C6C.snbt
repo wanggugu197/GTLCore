@@ -237,7 +237,8 @@
 			]
 			description: [
 				"用来制作电力机器，还可以制作仓室"
-				"甚至能用来&c储&r&e存&r&a电&b力&r&r！"
+				""
+				"甚至能用来&c储&r&e存&r&a电&b力&r&r以及&3连&r&9接&r&1ME&r&5网&r&d络&r！"
 			]
 			icon_scale: 1.3d
 			id: "7CB85061F0822830"
@@ -862,16 +863,17 @@
 				title: "AE2"
 				type: "checkmark"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 14.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["553B2D61416792DC"]
 			description: [
-				"青铜蒸汽锅炉经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台）"
+				"大型蒸汽锅炉们经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台）"
+				""
 				"维护仓在前期需要手动维护"
 				""
-				"注意不要在锅炉中使用巨型输入总成，会引发崩溃"
+				"注意不要在锅炉中使用巨型输入总成，会引发&4崩溃&r"
 			]
 			icon_scale: 2.0d
 			id: "328D5CF265FCCCA3"
@@ -961,7 +963,11 @@
 		}
 		{
 			dependencies: ["1AB03D24332B722E"]
-			description: ["强力熔炉，蒸汽消耗也少"]
+			description: [
+				"强力熔炉，蒸汽消耗也少"
+				""
+				"&b&l可以&r使用蒸汽总线"
+			]
 			icon_scale: 1.3d
 			id: "0532330B52D98469"
 			rewards: [{
@@ -1019,7 +1025,11 @@
 				"5F5F348E3A34827E"
 				"4E96A08CF12D496A"
 			]
-			description: ["蒸汽一般来说是烧水来的"]
+			description: [
+				"蒸汽一般来说是烧水来的"
+				""
+				"蒸汽与电力的转换关系为2mb/t=1eu/t"
+			]
 			icon: "gtceu:steam_bucket"
 			id: "2B9D62FB6BF39201"
 			rewards: [{
@@ -1102,13 +1112,19 @@
 			description: [
 				"激光物流的合成都被加强了，前期可以使用这个模组来物流"
 				""
+				"用扳手潜行右键绑定节点或连接器，右键其他节点或连接器以建立连接，对着非节点或连接器方块以及空气潜行右键清除绑定"
+				""
+				"进阶激光连接器可以跨纬度连接"
+				""
+				"卡超频元件安装在激光卡中，最多4张；节点超频元件安装在激光节点中，最多8张"
+				""
 				"能量卡并不能传输EU"
 				""
 				"流体卡的基础过滤器的标记方法为装有流体的桶"
 				""
 				"Card Cloner可以快速复制黏贴卡配置（左键要复制的卡，然后右键黏贴配置；需要在激光节点的GUI中操作），卡存储器可以存储卡和超频元件"
 				""
-				"默认Shift、Crtl、Crtl+Shift可以快速调整数值配置（从左往右速度依次增加S）"
+				"默认Shift、Crtl、Crtl+Shift可以快速调整数值配置（从左往右速度依次增加）"
 			]
 			hide_dependency_lines: true
 			icon: "laserio:laser_wrench"
@@ -1128,6 +1144,18 @@
 				{
 					id: "3413625607E9471E"
 					item: "laserio:card_holder"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0B7F433768CE2A64"
+					item: "laserio:overclocker_card"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "60EB885295924B29"
+					item: "laserio:overclocker_node"
 					type: "item"
 				}
 			]
@@ -1157,7 +1185,7 @@
 			]
 			title: "激光物流"
 			x: 12.0d
-			y: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2C6F506ADD78F277"]
@@ -1184,8 +1212,8 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
@@ -1254,7 +1282,7 @@
 			}]
 			title: "划算的买卖"
 			x: 14.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			can_repeat: true
@@ -1402,7 +1430,7 @@
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
 			description: [
-				"较为便捷的EU传输方式（不同于FE P2P，EU P2P并没有5%的损耗）"
+				"较为便捷的EU传输方式（由于MAE2自身的bug，EU P2P并没有5%的能量损耗，已于MAE2的1.4.3版本修复）"
 				""
 				"用有电量存储的GT工具调谐ME P2P通道获得"
 				""
@@ -1656,6 +1684,6 @@
 			y: 8.0d
 		}
 	]
-	subtitle: ["Tier0-ULV"]
+	subtitle: ["Tier0.5-ULV"]
 	title: "蒸汽时代"
 }

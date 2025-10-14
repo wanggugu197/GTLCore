@@ -99,6 +99,7 @@
 				"2CEEFDACE7B13D5A"
 				"2BEF03C52636E165"
 			]
+			description: ["使用高级超导线缆可以减少铌钛合金和凯金的消耗量"]
 			id: "5B01312E34A3AD60"
 			tasks: [{
 				id: "7A45FAD14DF53B00"
@@ -147,7 +148,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["52DF531AFB3A07CE"]
@@ -167,7 +168,7 @@
 				}
 			]
 			x: 14.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -248,7 +249,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["09F132EE8A88C872"]
@@ -317,7 +318,6 @@
 		{
 			dependencies: ["233CA36D529EC3FB"]
 			description: ["拥有无损超频"]
-			hide_dependent_lines: true
 			hide_text_until_complete: false
 			icon_scale: 2.0d
 			id: "2A0269009ABF1414"
@@ -361,9 +361,11 @@
 				"52DF531AFB3A07CE"
 			]
 			description: [
-				"需要计算机提供的算力"
+				"需要计算机提供的算力进行研究"
 				""
 				"研究站的多方块结构包含空气，物品支架所在4*3*3区域内的空气不能被其他方块替换，否则研究站不会成型"
+				""
+				"如果使用可配置维护仓系列，请确保与研究站连接的HPCA同样使用可配置维护仓并且保持耗时系数一致"
 			]
 			icon_scale: 1.3d
 			id: "298369255C8130F7"
@@ -414,6 +416,34 @@
 					item: "gtceu:computation_receiver_hatch"
 					type: "item"
 				}
+				{
+					id: "23B8685F9D8A0C1C"
+					item: "gtceu:hpca_computation_component"
+					type: "item"
+				}
+				{
+					id: "06AB74F84583FBAA"
+					item: "gtceu:hpca_heat_sink_component"
+					type: "item"
+				}
+				{
+					id: "305043E5EE17B112"
+					item: "gtceu:hpca_active_cooler_component"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1E0D9D7AC5776110"
+					item: "gtceu:hpca_advanced_computation_component"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "083558D0E21DA1D8"
+					item: "gtceu:hpca_bridge_component"
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 12.0d
 			y: 8.0d
@@ -454,6 +484,7 @@
 			]
 			hide_dependency_lines: true
 			id: "1C10383050657004"
+			optional: true
 			tasks: [{
 				id: "78A1A23B153BDD1E"
 				item: "gtceu:naquadah_boule"
@@ -570,9 +601,11 @@
 				"2AA63D77B0E86D2E"
 			]
 			description: [
-				"顶层输入，底层输出"
+				"输入仓室位置在顶层，输出仓室位置在底层"
 				""
-				"使用中子传感器控制中子动能"
+				"通过&b中子加速器&r提供中子动能"
+				""
+				"可以使用&e中子传感器&r控制中子动能"
 				""
 				"请根据配方所需每刻中子动能和中子加速器的效率决定机器的并行数"
 			]
@@ -589,13 +622,8 @@
 					type: "item"
 				}
 				{
-					id: "52D36F7181BD1B42"
+					id: "55AD9887A8EA7B50"
 					item: "gtceu:neutron_sensor"
-					type: "item"
-				}
-				{
-					id: "7E710037106A0AA7"
-					item: "gtceu:iv_neutron_accelerator"
 					optional_task: true
 					type: "item"
 				}
@@ -753,7 +781,7 @@
 				"2A0269009ABF1414"
 			]
 			description: [
-				"每个聚变堆都有对应的压缩版本，不仅能够放置任意能源仓，还可以超频，且拥有并行，甚至还能使用任意&b&l激光仓&r！"
+				"每个聚变堆都有对应的压缩版本，不仅能够放置任意能源仓，还可以超频（等价无损！），且拥有并行，甚至还能使用&b&l激光仓&r！"
 				""
 				"关于并行仓和输入输出仓位置："
 				"{image:ftbquests:textures/picture/004.png width:200 height:100 align:center}"
@@ -761,6 +789,7 @@
 				"关于能源/激光仓位置："
 				"{image:ftbquests:textures/picture/005.png width:200 height:100 align:center}"
 			]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "43A83C00715285B5"
 			shape: "rsquare"
@@ -771,19 +800,19 @@
 				item: "gtceu:luv_compressed_fusion_reactor"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 5.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"相当于功率更大的能源仓（靶仓）和动力仓（源仓），能够在描述中有“允许使用激光仓”的机器上使用，同样可以双仓升压（如果可以放入两个激光仓室），使用方法与能源/动力仓基本一致"
+				"相当于功率更大的能源仓（靶仓）和动力仓（源仓），只能在描述中有&b允许使用激光仓&r的机器或发电机上使用，同样可以双仓升压（如果允许放入两个激光仓室）"
+				""
+				"普通激光仓之间需要使用普通激光线缆（无能量损耗）连接，线缆无法转弯，请使用有源变压器实现转弯激光；无线激光仓放置后会直接与无线电网互动，无需额外操作。"
 				""
 				"最大功率可达到4194304A/仓室电压"
 				""
-				"尽管名字看起来像一一对应，但靶仓和源仓实际上并没有对应关系"
-				""
-				"注意：即使机器描述中有“允许使用激光仓”的字样，大多数情况下&l&c激光靶仓仍然不能在多方块结构中取代能源仓&r&r&r（少数特例如深度化学扭曲仪、纳米锻炉等只能使用激光靶仓，不能使用能源仓，而压缩核聚变反应堆则是可以用激光靶仓替换能源仓，请以多方块JEI界面为准）"
+				"注意：即使机器描述中有&o允许使用激光仓&r的字样，大多数情况下&l&c激光靶仓仍然不能在多方块结构中取代能源仓&r&r&r（少数特例如深度化学扭曲仪、纳米锻炉等只能使用激光靶仓，不能使用能源仓；而压缩核聚变反应堆则是可以用激光靶仓替换能源仓，请以多方块JEI界面和机器主机描述为准）"
 			]
 			icon: "gtmthings:iv_256a_wireless_laser_target_hatch"
 			icon_scale: 1.5d
@@ -846,7 +875,7 @@
 				""
 				"复制工具并不能复制催化剂设置；黏贴配置时请确保背包内有足够的空白样板"
 				""
-				"实际上剪切工具能完好无损的搬运样板总成"
+				"实际上剪切工具能完好无损的搬运样板总成（&c不要&r中途&o&e旋转&r且确保黏贴位置&o&e没有阻挡&r！）"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:me_mini_pattern_buffer"

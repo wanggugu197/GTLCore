@@ -65,7 +65,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["虽然有这个发电机，但是在这个阶段制作燃料很困难"]
+			description: ["{ \"text\": \"虽然有这个发电机，但是在这个阶段制作燃料很困难\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E401B78E52B9BBC\" } }"]
 			id: "11CBF5394DE28373"
 			tasks: [{
 				id: "64A4900F3622DCD3"
@@ -77,7 +77,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["和同阶段的内燃一样"]
+			description: ["{ \"text\": \"和同阶段的内燃一样\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"351B9D097EC493C5\" } }"]
 			id: "2103464D61DAF017"
 			tasks: [{
 				id: "1D2E4E5A4DEFD377"
@@ -440,7 +440,7 @@
 		}
 		{
 			dependencies: ["1BD6F43D61ABF744"]
-			description: ["最后一个单方块发电机"]
+			description: ["最后一个单方块发电机，依旧十分强力"]
 			id: "67A37C28F37F2C3D"
 			tasks: [{
 				id: "43FD10D740D6DCB4"
@@ -518,8 +518,8 @@
 				item: "gtceu:plasma_mega_turbine"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: 3.5d
+			y: 4.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -620,7 +620,7 @@
 		}
 		{
 			dependencies: ["5930E12A8BCAF996"]
-			description: ["烧点简单的燃料"]
+			description: ["{ \"text\": \"烧点简单的燃料\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1248D8F428A12A95\" } }"]
 			id: "6EF3C749D06C7262"
 			tasks: [{
 				id: "329F1BD301166219"
@@ -673,6 +673,8 @@
 				"每次成功的雷击会填充1/4的能量"
 				""
 				"并不能放入发电阵列中"
+				""
+				"引雷三叉戟召唤的闪电也会让发电机充能"
 			]
 			id: "45656BC02DC740CE"
 			tasks: [{
@@ -717,7 +719,7 @@
 				item: "gtceu:supercritical_steam_turbine"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 5.0d
 			y: 4.0d
 		}
 		{
@@ -731,8 +733,8 @@
 				item: "gtceu:supercritical_mega_steam_turbine"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: 6.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
@@ -1342,7 +1344,7 @@
 			dependencies: ["456FF3E513F8660C"]
 			icon: "gtceu:explosivehydrazine_bucket"
 			id: "434E3D95145C537C"
-			subtitle: "这不是火箭燃料，但是也能烧"
+			subtitle: "这个不能装进火箭，但是也能烧"
 			tasks: [
 				{
 					id: "1D11C0A07525961E"
@@ -1554,6 +1556,10 @@
 					item: "gtceu:fish_oil_bucket"
 					optional_task: true
 					type: "item"
+				}
+				{
+					id: "1D329AD0791CF059"
+					type: "checkmark"
 				}
 			]
 			title: "还有五种油"

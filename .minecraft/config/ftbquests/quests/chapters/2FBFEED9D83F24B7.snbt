@@ -23,6 +23,14 @@
 			x: 0.0d
 			y: 5.0d
 		}
+		{
+			id: "280E148ED9CAD4AC"
+			linked_quest: "23B418803D455368"
+			shape: "gear"
+			size: 2.0d
+			x: -2.0d
+			y: -2.0d
+		}
 	]
 	quests: [
 		{
@@ -220,7 +228,7 @@
 				"559836CC234447C0"
 			]
 			description: [
-				"可以代替恒星锻炉"
+				"可以代替恒星锻炉（此时只能使用超级热容线圈）"
 				""
 				"你一定记得锻造锤右键机器主机可以静音机器的，对吧？"
 			]
@@ -555,17 +563,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["23B418803D455368"]
-			id: "31AA3CEE0C967212"
-			tasks: [{
-				id: "2BF9417FE9A5FFC6"
-				item: "gtceu:uiv_energy_input_hatch"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["6BB5ED6ECC43E30C"]
 			description: ["用于高级晶圆切割"]
 			hide_dependent_lines: true
@@ -643,7 +640,7 @@
 			description: [
 				"中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"
 				""
-				"工作机制类似于热交换机，固定基础工作耗时为60秒"
+				"工作机制类似于热交换机，固定基础工作耗时为60秒（能被可配置维护仓影响）"
 			]
 			icon_scale: 2.0d
 			id: "664D8255A1960E9E"
@@ -665,7 +662,13 @@
 				"26607B94D873E07A"
 				"23B418803D455368"
 			]
-			description: ["更大，更强"]
+			description: [
+				"更大，更强"
+				""
+				"只能使用除菌过滤器机械方块"
+				""
+				"必须使用激光靶仓"
+			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1840382ADB062735"
@@ -704,21 +707,16 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"2DD8E128C6E3E41D"
-				"1FE5F8D737ADB1B8"
-				"2DE2948B2148AEBF"
-			]
-			id: "23B418803D455368"
-			shape: "gear"
-			size: 2.0d
+			dependencies: ["23B418803D455368"]
+			hide_dependent_lines: true
+			id: "31AA3CEE0C967212"
 			tasks: [{
-				id: "12A595464E70C437"
-				item: "gtceu:adamantium_ingot"
+				id: "2BF9417FE9A5FFC6"
+				item: "gtceu:uiv_energy_input_hatch"
 				type: "item"
 			}]
 			x: -2.0d
-			y: -2.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

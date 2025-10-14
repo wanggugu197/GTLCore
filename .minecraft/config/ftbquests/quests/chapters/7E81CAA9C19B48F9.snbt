@@ -1901,7 +1901,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -6.0d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -1920,7 +1920,7 @@
 				}
 			]
 			x: -6.0d
-			y: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -1942,7 +1942,7 @@
 				}
 			]
 			x: -4.5d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			icon: "gtceu:aluminium_hydride_dust"
@@ -1959,8 +1959,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -3.0d
-			y: 1.5d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -4238,6 +4238,7 @@
 				"0562FFC391118D18"
 				"27A7F19C69EB2D70"
 			]
+			dependency_requirement: "one_completed"
 			icon: "gtceu:phthalic_acid_bucket"
 			id: "1A8712D336215C23"
 			tasks: [
