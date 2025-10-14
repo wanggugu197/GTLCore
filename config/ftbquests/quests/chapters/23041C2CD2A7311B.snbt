@@ -20,7 +20,7 @@
 			linked_quest: "26607B94D873E07A"
 			shape: "gear"
 			size: 2.0d
-			x: 10.0d
+			x: 8.0d
 			y: -6.0d
 		}
 		{
@@ -222,7 +222,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -239,7 +239,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1433920A4DDCE2B5"]
@@ -342,7 +342,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1E2191E5E31DC8B0"]
@@ -353,7 +353,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -367,7 +367,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["1433920A4DDCE2B5"]
@@ -667,8 +667,8 @@
 				item: "kubejs:awakened_core"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -684,7 +684,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -702,7 +702,7 @@
 				item: "gtceu:nano_forge_3"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -714,12 +714,12 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
-			description: ["可以用来复制比较稀缺或者制取麻烦的元素和同位素，比如镎、镤、钫、铀-235和钛-50等"]
+			description: ["可以用来复制比较稀缺或者制取麻烦的元素和同位素"]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "46C33CC4A1420A10"
@@ -732,7 +732,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -776,7 +776,11 @@
 		}
 		{
 			dependencies: ["6C6A3B91957A0B7B"]
-			description: ["更大，更强"]
+			description: [
+				"更大，更强"
+				""
+				"只能使用泰坦钢线圈方块"
+			]
 			icon_scale: 1.5d
 			id: "6C84DCF091D31F16"
 			optional: true
@@ -786,7 +790,7 @@
 				item: "gtceu:a_mass_fabricator"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: -6.0d
 		}
 	]

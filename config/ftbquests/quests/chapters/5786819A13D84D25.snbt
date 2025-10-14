@@ -6,28 +6,18 @@
 	icon: "gtceu:uhv_electric_motor"
 	id: "5786819A13D84D25"
 	order_index: 9
-	quest_links: [
-		{
-			id: "22199DF737024CBD"
-			linked_quest: "776563C5BA327495"
-			shape: "gear"
-			size: 2.0d
-			x: 2.0d
-			y: -2.0d
-		}
-		{
-			id: "7F9C7923EEED3AD7"
-			linked_quest: "035C470213E8B4DB"
-			x: 0.0d
-			y: 6.0d
-		}
-	]
+	quest_links: [{
+		id: "7F9C7923EEED3AD7"
+		linked_quest: "035C470213E8B4DB"
+		x: 0.0d
+		y: 6.0d
+	}]
 	quests: [
 		{
 			dependencies: [
-				"7204F1B6BCC74F1C"
 				"3008FED65F71C459"
 				"702EFE9BA62A8CDA"
+				"39380262677612A9"
 			]
 			description: [
 				"后面阶段的核心材料生产机器"
@@ -70,7 +60,8 @@
 		{
 			dependencies: [
 				"3008FED65F71C459"
-				"7204F1B6BCC74F1C"
+				"39380262677612A9"
+				"0936769874A5F740"
 			]
 			icon_scale: 1.3d
 			id: "3063F232F801D089"
@@ -159,11 +150,7 @@
 				"362C5064150C4F26"
 				"6B990D7D964DF559"
 			]
-			description: [
-				"建议大部分巨构采用双能源仓+单激光仓的架构，配方等级和功率两手抓"
-				""
-				"在后面的三个电压（UEV-UXV）中常有跨阶段制作物品的情况，请灵活使用JEI"
-			]
+			description: ["建议大部分巨构采用双能源仓+单激光仓的架构，配方等级和功率两手抓"]
 			icon_scale: 2.0d
 			id: "783379F3A7557CEE"
 			rewards: [{
@@ -201,8 +188,9 @@
 		{
 			dependencies: [
 				"2DD8E128C6E3E41D"
-				"2DE2948B2148AEBF"
+				"78F0147BABE80DDD"
 			]
+			description: ["{ \"text\": \"你得用UEV能源仓\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78F0147BABE80DDD\" } }"]
 			id: "5E223597F71DB81D"
 			tasks: [{
 				id: "4AEC015F52D69587"
@@ -213,12 +201,8 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"5E223597F71DB81D"
-				"32A49A2CBFC934C8"
-			]
+			dependencies: ["5E223597F71DB81D"]
 			description: ["UEV超导体"]
-			hide_dependent_lines: true
 			id: "6B990D7D964DF559"
 			tasks: [{
 				id: "7681E9EB89F79679"
@@ -257,7 +241,9 @@
 			dependencies: [
 				"2DD8E128C6E3E41D"
 				"78C7EC57A93783BE"
+				"78F0147BABE80DDD"
 			]
+			description: ["{ \"text\": \"你得用UEV能源仓\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"78F0147BABE80DDD\" } }"]
 			id: "2E05225ADF4D7D31"
 			tasks: [{
 				id: "02C39E225C1D5ECD"
@@ -271,13 +257,14 @@
 			dependencies: [
 				"702EFE9BA62A8CDA"
 				"7204F1B6BCC74F1C"
+				"39380262677612A9"
 			]
 			description: [
 				"将废料转化为物质球或UU增幅液"
 				""
-				"推荐使用红花岗岩（通过大型碎岩机）制作废料"
+				"推荐使用红花岗岩（通过大型碎岩机获得）制作废料"
 				""
-				"关于大型碎岩机：需要放置&b两个&r分别带有水和熔岩的输入仓以满足相邻流体源的条件"
+				"关于大型碎岩机：需要在&b两个&r输入仓中分别输入水和熔岩的以满足相邻流体源的条件"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
@@ -336,7 +323,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["702EFE9BA62A8CDA"]
+			dependencies: [
+				"702EFE9BA62A8CDA"
+				"39380262677612A9"
+			]
 			description: ["有了泰坦钢之后可以着手准备更换动力模块MK3了"]
 			id: "7370721CB75472C1"
 			shape: "pentagon"
@@ -354,10 +344,10 @@
 				"32A49A2CBFC934C8"
 				"76BAF48FA9D845C6"
 			]
-			description: [""]
+			description: ["如果你没保留旧的石化产线，可以考虑用电梯直接采集中间产物"]
 			id: "1FE5F8D737ADB1B8"
 			shape: "pentagon"
-			subtitle: "血石，乌鲁，力量，溴"
+			subtitle: "血石，乌鲁，力量，溴，轻重燃油，石脑油，煤气，炼油气"
 			tasks: [{
 				id: "1D082DFC064E38EA"
 				item: "kubejs:space_drone_mk3"
@@ -412,10 +402,9 @@
 		}
 		{
 			dependencies: [
-				"776563C5BA327495"
-				"1FA9E56114BFABF5"
 				"7204F1B6BCC74F1C"
 				"7EAED8E6D66C24D2"
+				"39380262677612A9"
 			]
 			description: [
 				"需要光刻胶和算力来进行精密联合激光蚀刻"
@@ -433,7 +422,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -509,8 +498,6 @@
 			description: [
 				"同时也是装配线，电路装配线的激光版本，耗时倍速0.4，拥有无损超频"
 				""
-				"如果你很富有，可以制作一个，这台机器只有在OpV及以后阶段才有专用配方"
-				""
 				"&c&l注意无论是否需要研究都必须连接数据库！！！&r&r&r"
 				"多方块成型只需要&b&l过滤器机械方块"
 				"拓展模块主机只会识别它本身周围的8个功能方块"
@@ -530,6 +517,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "如果你很富有，可以制作一个，这台机器只有在OpV及以后阶段才有专用配方"
 			tasks: [{
 				id: "2489A12E61345011"
 				item: "gtceu:suprachronal_assembly_line"
@@ -645,6 +633,7 @@
 				"3008FED65F71C459"
 				"4F87B7DA47087F97"
 				"12F8275FC06FCFEE"
+				"39380262677612A9"
 			]
 			hide_dependent_lines: true
 			id: "0936769874A5F740"
@@ -657,7 +646,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["776563C5BA327495"]
+			dependencies: [
+				"776563C5BA327495"
+				"39380262677612A9"
+			]
 			description: ["UEV的基础材料"]
 			id: "713FF88279AD9A31"
 			shape: "gear"
@@ -667,7 +659,7 @@
 				item: "gtceu:quantanium_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -2.0d
 		}
 		{
@@ -790,7 +782,7 @@
 			description: [
 				"蒸馏塔和蒸发塔的激光版本"
 				""
-				"建议使用普通终端（白色）放置线圈"
+				"只能使用三钛线圈"
 			]
 			icon_scale: 2.0d
 			id: "6DC013B45A9CCBE1"
@@ -988,6 +980,7 @@
 			dependencies: [
 				"7204F1B6BCC74F1C"
 				"702EFE9BA62A8CDA"
+				"39380262677612A9"
 			]
 			description: ["更大，更强"]
 			icon_scale: 1.5d
@@ -1000,6 +993,22 @@
 			}]
 			x: 3.0d
 			y: 8.0d
+		}
+		{
+			dependencies: [
+				"713FF88279AD9A31"
+				"32A49A2CBFC934C8"
+			]
+			description: ["从UHV开始，会出现配方电压要求高于当前电压等级的情况，需制作比当前电压等级高一级甚至两级的能源仓"]
+			hide_dependent_lines: true
+			id: "78F0147BABE80DDD"
+			tasks: [{
+				id: "5AC1E872FEE6BC39"
+				item: "gtceu:uev_energy_input_hatch"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

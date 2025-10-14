@@ -290,8 +290,7 @@
 			description: [
 				"&l&4&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！"
 				"&l&4&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！"
-				"&l&4&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！"
-				"&r"
+				"&l&4&n组装机是组装机，电路组装机是电路组装机，不要看错了！！！&r"
 			]
 			icon_scale: 2.0d
 			id: "3E50EE376968519F"
@@ -751,7 +750,7 @@
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
-			description: ["你需要用组装机做"]
+			description: ["{ \"text\": \"你需要用组装机做\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
 			id: "49ABB341017BAE85"
 			rewards: [{
 				id: "3694138B038CCF53"
@@ -908,6 +907,8 @@
 		{
 			dependencies: ["07D0D7005DA4F446"]
 			description: [
+				"LV超导体"
+				""
 				"{ \"text\": \"磷的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
 				""
 				"{ \"text\": \"这里则是锰的来源\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C75A50B17AA9AF1\" } }"
@@ -999,7 +1000,7 @@
 			description: [
 				"{ \"text\": \"可以通过处理石油获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
 				""
-				"也可以用硫酸和乙醇反应获得，自行选择"
+				"你也可以用硫酸和乙醇反应获得"
 			]
 			hide_dependency_lines: true
 			id: "0037D6BA6A4ABB72"
@@ -1181,7 +1182,7 @@
 				""
 				"{ \"text\": \"初期无线电来源是发电阵列\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1486FC9F82B2E56E\" } }"
 				""
-				"多方块机器要等到HV才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代"
+				"多方块机器要等到&6HV&r才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代"
 			]
 			id: "1FA24513965B09A8"
 			rewards: [{
@@ -1279,7 +1280,7 @@
 		}
 		{
 			dependencies: ["2658C31A89CF5B24"]
-			description: ["以8倍的电力消耗为代价加速机器"]
+			description: ["从无线电网获取能量，对着机器潜行右键以8倍的电力消耗为代价加速机器"]
 			id: "1F0CED23E64D8DB5"
 			rewards: [{
 				id: "6EB5ABC55B15A326"
@@ -1341,6 +1342,23 @@
 			title: "无限水/圆石元件"
 			x: 14.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["4357DF535061C2E5"]
+			description: ["通过模拟高能闪电将普通材料转换为比较有用的材料，如福鲁伊斯特水晶、充能赛特斯石英、末影珍珠粉、荧石粉等"]
+			id: "5C831396310E6546"
+			rewards: [{
+				id: "314AAA3E7631AAA5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68056D9427DD774E"
+				item: "gtceu:lv_lightning_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

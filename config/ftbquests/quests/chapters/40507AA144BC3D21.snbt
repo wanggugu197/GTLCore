@@ -217,6 +217,7 @@
 			dependencies: [
 				"00A227F06D7F109E"
 				"437E5E4108228333"
+				"4C54B6D5B8BB6626"
 			]
 			icon_scale: 2.0d
 			id: "622395061792FB5E"
@@ -232,6 +233,7 @@
 		}
 		{
 			dependencies: ["414F9C645C799FAE"]
+			description: ["你还留着那些主机吗"]
 			icon_scale: 2.0d
 			id: "2C3C46AC660CC54E"
 			tasks: [{
@@ -595,11 +597,7 @@
 				"3CE5E9F78C13E1CD"
 				"165C5D3656C33A89"
 			]
-			description: [
-				"&b无尽贪婪&r的中子态素压缩机可以被世界加速器（方块实体模式）加速"
-				""
-				"样板总成的&b独立催化剂槽&r可以强行堆叠不可堆叠的物品（即锭状形态力场）"
-			]
+			description: ["&b无尽贪婪&r的中子态素压缩机可以被世界加速器（方块实体模式）加速"]
 			id: "07EA8922673DFC93"
 			rewards: [
 				{
@@ -638,7 +636,7 @@
 		}
 		{
 			dependencies: ["32186EFF7020D432"]
-			description: ["更大，更强，算力需求更少"]
+			description: ["更大，更强，单位产出算力需求更少"]
 			icon_scale: 1.5d
 			id: "63D47FFCCD8CE12E"
 			optional: true

@@ -386,7 +386,7 @@
 			description: [
 				"在EV的时候你就需要大量的奇奇怪怪的化工原料，现在不把石化生化联合产线搭好，后面EV会非常坐牢"
 				""
-				"蒸馏塔除底层外每层仅能且必须放置一个&b普通&r输出仓，每个输出仓对应一种产物（可以叠高）；有且仅有底层可以使用输出总成，能够减少高度，如果使用ME输出总成甚至可以只造三层"
+				"蒸馏塔除底层外每层&o&e仅能且必须&r放置一个&b小型&r输出仓，每个输出仓对应一种产物（可以叠高）；有且仅有底层可以使用输出总成，能够减少高度，如果使用ME输出总成甚至可以只造三层"
 			]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
@@ -581,7 +581,7 @@
 		}
 		{
 			dependencies: ["06F68B574AC84B7B"]
-			description: ["铂可以靠浸洗镍矿获得。"]
+			description: ["铂可以靠浸洗或者研磨镍矿获得。"]
 			id: "157A951DA379C259"
 			rewards: [{
 				id: "22590F01A2B5B20C"
@@ -643,7 +643,11 @@
 		}
 		{
 			dependencies: ["11186961491B1773"]
-			description: ["实际上拥有无损超频，比通用混合厂强大。"]
+			description: [
+				"实际上拥有无损超频，比通用混合厂强大。"
+				""
+				"只能使用白铜线圈"
+			]
 			icon_scale: 2.0d
 			id: "29450DC426C4E2D6"
 			rewards: [{
@@ -828,7 +832,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["超净间完全不值得建造 ，请使用超净维护仓"]
+			description: ["{ \"text\": \"超净间完全不值得建造 ，请使用超净维护仓\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true
@@ -844,6 +848,8 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
+				"只能使用坎塔尔合金线圈"
+				""
 				"可能是你的第一台跨配方并行机器"
 				""
 				"{ \"text\": \"也可能是进阶熔炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5549BBB07626B52C\" } }"

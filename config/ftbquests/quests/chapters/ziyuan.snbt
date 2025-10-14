@@ -375,11 +375,18 @@
 			]
 			description: ["高效作物种植"]
 			id: "17C967508DDCBB87"
-			tasks: [{
-				id: "1CD178D1B843DEAE"
-				item: "gtceu:greenhouse"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1CD178D1B843DEAE"
+					item: "gtceu:greenhouse"
+					type: "item"
+				}
+				{
+					id: "6BBF45A1B7D97E8A"
+					item: "gtceu:large_greenhouse"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 1.0d
 		}
@@ -536,7 +543,11 @@
 		}
 		{
 			dependencies: ["6596611DD4CB5A60"]
-			description: ["粉碎矿石——洗矿/浸洗"]
+			description: [
+				"粉碎矿石——洗矿/浸洗"
+				""
+				"可筛选的纯净矿石有特殊标签&oforge:siftables&r"
+			]
 			icon: "gtceu:purified_iron_ore"
 			id: "14EE67044597E62A"
 			subtitle: "forge:purified_ores/*"
@@ -1759,7 +1770,7 @@
 				}
 			]
 			title: "铀-238粉"
-			x: 9.0d
+			x: 7.5d
 			y: 24.5d
 		}
 		{
@@ -1813,7 +1824,7 @@
 				}
 			]
 			title: "枯竭六氟化铀"
-			x: 7.5d
+			x: 6.0d
 			y: 24.5d
 		}
 		{
@@ -1864,7 +1875,7 @@
 			]
 			title: "六氟化铀"
 			x: 6.0d
-			y: 24.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["23C2F99FC949AF0A"]
@@ -1888,7 +1899,7 @@
 				}
 			]
 			x: 4.5d
-			y: 24.0d
+			y: 23.5d
 		}
 		{
 			dependencies: [
@@ -2112,7 +2123,7 @@
 		{
 			dependencies: ["150F3113E9012C2F"]
 			description: [
-				"前期通过铟富集溶液获取"
+				"现在先通过铟富集溶液获取"
 				""
 				"{ \"text\": \"后面可以通过富集硅岩处理获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
 			]
@@ -3935,6 +3946,7 @@
 			y: 13.0d
 		}
 		{
+			description: ["如果特别缺某一种稀土元素，可以试试萃取"]
 			icon: "gtceu:p507_bucket"
 			id: "72DFAC3212692136"
 			subtitle: "纳米树脂萃取稀土元素线"
@@ -4754,7 +4766,7 @@
 		}
 		{
 			dependencies: ["2AA1609DA42EA84F"]
-			description: ["凯金化合物处理也会产出镭粉"]
+			description: ["后面的凯金化合物处理也会产出镭粉"]
 			icon: "gtceu:radium_dust"
 			icon_scale: 2.0d
 			id: "65BA1075B4BA1C0A"
@@ -6072,7 +6084,11 @@
 			y: 6.0d
 		}
 		{
-			description: ["氟前期来源于电解黄玉类或者云母类粉"]
+			description: [
+				"氟前期来源于电解黄玉类或者云母类粉"
+				""
+				"深板岩粉可以离心得到黑云母粉"
+			]
 			icon: "gtceu:fluorine_bucket"
 			icon_scale: 2.0d
 			id: "3530EF128290387A"
@@ -6422,13 +6438,14 @@
 				"非实体生成模式："
 				"1号电路：铁锭、皮革、竹子、羽毛、线、虞美人、生猪排、生牛肉、生兔肉、生羊肉、骨头、生鳕鱼、生鲑鱼、兔子皮"
 				""
-				"2号电路：恶魂之泪、木棍、末影珍珠、火药、煤炭、玻璃瓶、荧石、腐肉、线、骨头、金粒、蜘蛛眼、箭、糖、红石"
+				"2号电路：恶魂之泪、木棍、&d末影珍珠&r、火药、煤炭、玻璃瓶、&d荧石&r、腐肉、线、骨头、金粒、蜘蛛眼、箭、糖、红石"
 				""
 				"实体生成模式的额外产出："
 				"1号电路：各种染色羊毛、绿宝石、小麦、兔子脚、鸡蛋"
 				""
-				"2号电路：各种装备、烈焰棒、不详旗帜、金锭、铁锭、铜锭、胡萝卜、马铃薯、凋零骷髅头颅、粘液球、鹦鹉螺壳"
+				"2号电路：各种武器（剑、三叉戟等）和护甲、&d烈焰棒&r、不详旗帜、金锭、铁锭、铜锭、胡萝卜、马铃薯、&d凋零骷髅头颅&r、粘液球、鹦鹉螺壳"
 			]
+			icon: "gtceu:slaughterhouse"
 			id: "19D339F25E824A2C"
 			tasks: [{
 				id: "6A3DC88D5B9616B4"
@@ -6487,6 +6504,158 @@
 			}]
 			x: 9.5d
 			y: 8.5d
+		}
+		{
+			dependencies: ["0485D45408234C99"]
+			id: "39380262677612A9"
+			tasks: [{
+				id: "1B85421BB1F7B489"
+				title: "下界合金"
+				type: "checkmark"
+			}]
+			x: 32.0d
+			y: 15.0d
+		}
+		{
+			icon: "minecraft:ancient_debris"
+			id: "792EDC834FE9BE1F"
+			tasks: [
+				{
+					id: "2DE8A83396F2E97F"
+					item: "minecraft:ancient_debris"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3638D2A128C51F76"
+					type: "checkmark"
+				}
+			]
+			x: 35.0d
+			y: 16.0d
+		}
+		{
+			icon: "minecraft:prismarine"
+			id: "1F8E29F234211EE9"
+			tasks: [
+				{
+					id: "659160B21F6AA876"
+					item: "minecraft:prismarine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13DA4416D09D3955"
+					type: "checkmark"
+				}
+			]
+			x: 33.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["1F8E29F234211EE9"]
+			icon: "minecraft:prismarine_shard"
+			id: "6FA616D48E37E3EA"
+			tasks: [
+				{
+					id: "35CE6F4D6A993B30"
+					item: "minecraft:prismarine_shard"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39FAF70AF8324733"
+					type: "checkmark"
+				}
+			]
+			x: 35.0d
+			y: 15.0d
+		}
+		{
+			icon: "gtceu:nether_air_bucket"
+			id: "5DFA4E55CF2B2F8E"
+			tasks: [
+				{
+					id: "1CF1AF30761A3B97"
+					item: "gtceu:nether_air_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0EA71FF6854A946E"
+					type: "checkmark"
+				}
+			]
+			title: "下界空气"
+			x: 36.5d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"792EDC834FE9BE1F"
+				"6FA616D48E37E3EA"
+				"5DFA4E55CF2B2F8E"
+			]
+			icon: "minecraft:netherite_scrap"
+			id: "42D674AA1A9887C9"
+			tasks: [
+				{
+					id: "59AFDE45CA539D41"
+					item: "minecraft:netherite_scrap"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "695690E2D0B3806B"
+					type: "checkmark"
+				}
+			]
+			x: 36.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["66AE53E13E3C3C19"]
+			icon: "ad_astra:calorite_ingot"
+			id: "4CC4035A6482E51D"
+			tasks: [
+				{
+					id: "1AB87C2C5A59595D"
+					item: "ad_astra:calorite_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F767FE2D0145401"
+					type: "checkmark"
+				}
+			]
+			x: 38.0d
+			y: 16.0d
+		}
+		{
+			dependencies: [
+				"42D674AA1A9887C9"
+				"4CC4035A6482E51D"
+			]
+			icon: "minecraft:netherite_ingot"
+			icon_scale: 2.0d
+			id: "6C963FE46ADB8248"
+			shape: "diamond"
+			subtitle: "UHV会大量用到"
+			tasks: [
+				{
+					id: "10B94E07D196E75E"
+					item: "minecraft:netherite_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D5BD452341CBA44"
+					type: "checkmark"
+				}
+			]
+			x: 38.0d
+			y: 15.0d
 		}
 	]
 	title: "原料提取"

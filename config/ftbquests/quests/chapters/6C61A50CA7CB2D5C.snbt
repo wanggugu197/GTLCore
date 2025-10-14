@@ -21,19 +21,19 @@
 		{
 			id: "7476D5287FB73239"
 			linked_quest: "335ED39019FC62E7"
-			x: 2.0d
-			y: 2.0d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			id: "4FCC3D089CBA04E0"
 			linked_quest: "3FFD20E53A9DF62A"
-			x: 2.0d
-			y: 4.0d
+			x: -3.0d
+			y: 2.0d
 		}
 		{
 			id: "10C4E5274E589CFF"
 			linked_quest: "74F1C81B60FABEAA"
-			x: 9.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -87,7 +87,7 @@
 	]
 	quests: [
 		{
-			dependencies: ["1A48D2DB936FF632"]
+			dependencies: ["26FA6E064EF9FF5B"]
 			icon_scale: 2.0d
 			id: "043B581110AB9161"
 			shape: "rsquare"
@@ -97,7 +97,7 @@
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 		}
 		{
@@ -124,19 +124,27 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: false
 			dependencies: ["009E71EC51F5B0EF"]
+			icon: "ad_astra:rocket_nose_cone"
 			id: "71DFD2EF1B03BDAA"
-			tasks: [{
-				id: "13964F33CFA57B8E"
-				item: "ad_astra:rocket_nose_cone"
-				type: "item"
-			}]
-			x: 5.0d
+			tasks: [
+				{
+					id: "13964F33CFA57B8E"
+					item: "ad_astra:rocket_nose_cone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "768716F70300F2A5"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -144,25 +152,41 @@
 				"079CCDAEE4AD2447"
 				"009E71EC51F5B0EF"
 			]
+			icon: "ad_astra:steel_engine"
 			id: "18EB3995478B2414"
-			tasks: [{
-				id: "3BAF475CBE010CE7"
-				item: "ad_astra:steel_engine"
-				type: "item"
-			}]
-			x: 5.5d
+			tasks: [
+				{
+					id: "3BAF475CBE010CE7"
+					item: "ad_astra:steel_engine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "66AD327341AF2430"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
 			description: ["总共需要3个，2个用来做火箭，1个用来做钢引擎"]
+			icon: "ad_astra:steel_tank"
 			id: "079CCDAEE4AD2447"
-			tasks: [{
-				id: "2349775386C0D068"
-				item: "ad_astra:steel_tank"
-				type: "item"
-			}]
-			x: 4.0d
+			tasks: [
+				{
+					id: "2349775386C0D068"
+					item: "ad_astra:steel_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3C19B6F329719AFC"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -170,25 +194,41 @@
 				"6CC32F9550D73065"
 				"009E71EC51F5B0EF"
 			]
+			icon: "ad_astra:rocket_fin"
 			id: "6C93F5B2AF430594"
-			tasks: [{
-				id: "0162567E930BB2AF"
-				item: "ad_astra:rocket_fin"
-				type: "item"
-			}]
-			x: 5.5d
+			tasks: [
+				{
+					id: "0162567E930BB2AF"
+					item: "ad_astra:rocket_fin"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "33A47CADC8DD1074"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
 			description: ["总共需要14个，6个用来做火箭，8个用来做火箭尾翼"]
+			icon: "ad_astra:iron_plate"
 			id: "6CC32F9550D73065"
-			tasks: [{
-				id: "196EC79A333D03F9"
-				item: "ad_astra:iron_plate"
-				type: "item"
-			}]
-			x: 4.0d
+			tasks: [
+				{
+					id: "196EC79A333D03F9"
+					item: "ad_astra:iron_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63773DFE287EDB96"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -212,7 +252,7 @@
 				}
 			]
 			title: "火箭燃料"
-			x: 7.0d
+			x: 6.0d
 			y: 2.0d
 		}
 		{
@@ -266,7 +306,7 @@
 				}
 			]
 			title: "宇航服"
-			x: 7.0d
+			x: 6.0d
 			y: -2.0d
 		}
 		{
@@ -274,7 +314,6 @@
 				"043B581110AB9161"
 				"1A48D2DB936FF632"
 			]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "009E71EC51F5B0EF"
 			tasks: [{
@@ -282,7 +321,7 @@
 				title: "准备前往T1"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -302,7 +341,7 @@
 				}
 			]
 			title: "甲醇"
-			x: 5.5d
+			x: 4.5d
 			y: 3.0d
 		}
 		{
@@ -322,7 +361,7 @@
 				}
 			]
 			title: "氨"
-			x: 5.5d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -342,7 +381,7 @@
 				}
 			]
 			title: "次氯酸"
-			x: 5.5d
+			x: 4.5d
 			y: 5.0d
 		}
 		{
@@ -366,7 +405,7 @@
 				}
 			]
 			title: "二甲基肼"
-			x: 7.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -402,7 +441,7 @@
 				}
 			]
 			title: "月球"
-			x: 9.0d
+			x: 8.0d
 			y: 0.0d
 		}
 		{
@@ -428,12 +467,20 @@
 		}
 		{
 			dependencies: ["63C8DD19C6B76899"]
+			icon: "ad_astra:steel_plate"
 			id: "1AF18E39A3A062EC"
-			tasks: [{
-				id: "3DBC4234EB306F24"
-				item: "ad_astra:steel_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3DBC4234EB306F24"
+					item: "ad_astra:steel_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0584CCE174489854"
+					type: "checkmark"
+				}
+			]
 			x: 13.0d
 			y: 0.0d
 		}
@@ -634,23 +681,42 @@
 		}
 		{
 			dependencies: ["15EBA5EB9706DCD5"]
+			icon: "ad_astra:steel_block"
 			id: "32E0200043820896"
-			tasks: [{
-				id: "5573D2EB65A35E2C"
-				item: "ad_astra:steel_block"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5573D2EB65A35E2C"
+					item: "ad_astra:steel_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3BAE2BEE108B12FB"
+					type: "checkmark"
+				}
+			]
 			x: 23.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["123FD5A979F5750D"]
+			dependencies: [
+				"123FD5A979F5750D"
+				"5B65662B72C369E7"
+			]
+			icon: "gtceu:dense_tungsten_steel_plate"
 			id: "15EBA5EB9706DCD5"
-			tasks: [{
-				id: "0356FC0F1E13D250"
-				item: "gtceu:dense_tungsten_steel_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0356FC0F1E13D250"
+					item: "gtceu:dense_tungsten_steel_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67FED15B94C85B2D"
+					type: "checkmark"
+				}
+			]
 			x: 21.0d
 			y: 0.0d
 		}
@@ -944,45 +1010,80 @@
 		}
 		{
 			dependencies: ["04681E3BD6F2CF5F"]
+			icon: "ad_astra:desh_tank"
 			id: "702FD56CE44EC704"
-			tasks: [{
-				id: "786550BEFBFEFA9D"
-				item: "ad_astra:desh_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "786550BEFBFEFA9D"
+					item: "ad_astra:desh_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "00A92CFF7ADD83ED"
+					type: "checkmark"
+				}
+			]
 			x: 34.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["04681E3BD6F2CF5F"]
+			icon: "ad_astra:desh_engine"
 			id: "319C0E4BEAC04A0B"
-			tasks: [{
-				id: "4FE6718F1D28FC3D"
-				item: "ad_astra:desh_engine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FE6718F1D28FC3D"
+					item: "ad_astra:desh_engine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5371B211E3F84805"
+					type: "checkmark"
+				}
+			]
 			x: 34.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2BDEEF40A69151F5"]
+			icon: "ad_astra:desh_plate"
 			id: "04681E3BD6F2CF5F"
-			tasks: [{
-				id: "59F4ABB36634A0A1"
-				item: "ad_astra:desh_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "59F4ABB36634A0A1"
+					item: "ad_astra:desh_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "320F4B185CADA34D"
+					type: "checkmark"
+				}
+			]
 			x: 33.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["187BE1A67AF10798"]
+			dependencies: [
+				"187BE1A67AF10798"
+				"7AEC0D308494C0F8"
+			]
+			icon: "ad_astra:desh_ingot"
 			id: "2BDEEF40A69151F5"
-			tasks: [{
-				id: "486C2ED3FDA620F9"
-				item: "ad_astra:desh_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "486C2ED3FDA620F9"
+					item: "ad_astra:desh_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BB319F605D8A939"
+					type: "checkmark"
+				}
+			]
 			x: 31.5d
 			y: 0.0d
 		}
@@ -1085,7 +1186,7 @@
 				}
 			]
 			title: "月球的流体矿脉"
-			x: 9.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -1201,6 +1302,7 @@
 			icon: "minecraft:nether_wart"
 			icon_scale: 2.0d
 			id: "778546543F6413E7"
+			subtitle: "打火石可不起作用"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
@@ -1251,45 +1353,80 @@
 		}
 		{
 			dependencies: ["1DD2166E800E4311"]
+			icon: "ad_astra:ostrum_tank"
 			id: "3FDEFC482256CD66"
-			tasks: [{
-				id: "3C5E0DFD65A2B324"
-				item: "ad_astra:ostrum_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3C5E0DFD65A2B324"
+					item: "ad_astra:ostrum_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2928C7344B475500"
+					type: "checkmark"
+				}
+			]
 			x: 9.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["1DD2166E800E4311"]
+			icon: "ad_astra:ostrum_engine"
 			id: "21ABCDF5C4F8DA56"
-			tasks: [{
-				id: "2168C9499000475E"
-				item: "ad_astra:ostrum_engine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2168C9499000475E"
+					item: "ad_astra:ostrum_engine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7ECC7D0F91166571"
+					type: "checkmark"
+				}
+			]
 			x: 9.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["4AF53867138C5BDA"]
+			icon: "ad_astra:ostrum_plate"
 			id: "1DD2166E800E4311"
-			tasks: [{
-				id: "669051BFFB5C1273"
-				item: "ad_astra:ostrum_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "669051BFFB5C1273"
+					item: "ad_astra:ostrum_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32A8F625498B12BE"
+					type: "checkmark"
+				}
+			]
 			x: 7.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["5322AB6C014C301F"]
+			dependencies: [
+				"5322AB6C014C301F"
+				"00E7CB7CD9296B1A"
+			]
+			icon: "ad_astra:ostrum_ingot"
 			id: "4AF53867138C5BDA"
-			tasks: [{
-				id: "63F1A8FBBC359D84"
-				item: "ad_astra:ostrum_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63F1A8FBBC359D84"
+					item: "ad_astra:ostrum_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F6BEA5B5BA6D21E"
+					type: "checkmark"
+				}
+			]
 			x: 6.0d
 			y: 8.0d
 		}
@@ -1361,45 +1498,81 @@
 		}
 		{
 			dependencies: ["2F56A0B77A38264B"]
+			icon: "ad_astra:calorite_tank"
 			id: "7115413F9AB554BB"
-			tasks: [{
-				id: "3BE7A703E743FA3E"
-				item: "ad_astra:calorite_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3BE7A703E743FA3E"
+					item: "ad_astra:calorite_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61D5783CFA5ECCA1"
+					type: "checkmark"
+				}
+			]
 			x: 20.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["2F56A0B77A38264B"]
+			icon: "ad_astra:calorite_engine"
 			id: "2E21FB9E04F9C325"
-			tasks: [{
-				id: "04E0C423E8F68978"
-				item: "ad_astra:calorite_engine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "04E0C423E8F68978"
+					item: "ad_astra:calorite_engine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B4BBAF0D813BA98"
+					type: "checkmark"
+				}
+			]
 			x: 20.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["165545C7E3F36727"]
+			icon: "ad_astra:calorite_plate"
 			id: "2F56A0B77A38264B"
-			tasks: [{
-				id: "67DF9C552F4B67BF"
-				item: "ad_astra:calorite_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67DF9C552F4B67BF"
+					item: "ad_astra:calorite_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21402A53B6FB60CC"
+					type: "checkmark"
+				}
+			]
 			x: 18.5d
 			y: 8.0d
 		}
 		{
-			dependencies: ["7EE091FC5E255C22"]
+			dependencies: [
+				"7EE091FC5E255C22"
+				"66AE53E13E3C3C19"
+			]
+			icon: "ad_astra:calorite_ingot"
 			id: "165545C7E3F36727"
-			tasks: [{
-				id: "3C74DFAA3271AC68"
-				item: "ad_astra:calorite_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3C74DFAA3271AC68"
+					item: "ad_astra:calorite_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11647DF8BF591B20"
+					type: "checkmark"
+				}
+			]
 			x: 17.0d
 			y: 8.0d
 		}
@@ -1818,7 +1991,17 @@
 		}
 		{
 			dependencies: ["5A185A4065DD7FCF"]
-			description: ["点击启程时请离电梯主方块近一点，否则不会升空"]
+			description: [
+				"这是T8火箭，解锁巴纳德C"
+				""
+				"需要用输入总线输入一号电路，并持续提供算力（固定为128），&c&l不要使用可配置维护仓"
+				"&r"
+				"太空电梯主体正常运行时扩展模块才会工作"
+				""
+				"太空电梯主体的电压越高，扩展模块的耗时减免越多；动力模块等级越高，扩展模块的并行数越大"
+				""
+				"点击启程时请贴着电梯主方块 ，否则不会升空"
+			]
 			icon_scale: 2.0d
 			id: "60FA18C7093410F8"
 			shape: "rsquare"
@@ -1891,7 +2074,7 @@
 				title: "去月球"
 				type: "checkmark"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: -2.0d
 		}
 		{
@@ -2135,8 +2318,8 @@
 				title: "去远古世界"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -3.0d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -2199,7 +2382,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -2219,7 +2402,7 @@
 				title: "去地球空间站"
 				type: "checkmark"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
@@ -2240,8 +2423,8 @@
 				title: "主世界"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
@@ -2260,8 +2443,8 @@
 				title: "去虚空"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 2.0d
+			x: -5.0d
+			y: -2.0d
 		}
 		{
 			can_repeat: true
@@ -2280,8 +2463,8 @@
 				title: "去超平坦"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: -5.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
@@ -2301,7 +2484,7 @@
 				title: "去创造维度"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
@@ -2313,7 +2496,7 @@
 				title: "T0"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -7.0d
 			y: 0.0d
 		}
 	]

@@ -689,7 +689,7 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["生化线还有一些杂七杂八的东西"]
+			description: ["{ \"text\": \"生化线还有一些杂七杂八的东西\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1EBBA5A10A8A48DB\" } }"]
 			id: "06D1ABE453F52DF1"
 			rewards: [{
 				id: "0FB4E8525644D620"
@@ -734,14 +734,17 @@
 		{
 			dependencies: ["128671E4DC47EF55"]
 			description: [
-				"高效的生产机器，放入多个输入总线并开启隔离可以一台机器执行多个电路或者模具的配方"
-				"单方块机器需放入工厂GUI内，如果放入的机器等级和工厂等级不同，工厂就不会工作。"
-				"{ \"text\": \"关于并行，可以在这里查看具体设定\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
+				"高效的生产机器，放入多个输入仓/总线/总成并开启隔离可以一台机器执行多个电路或者模具的配方"
+				""
+				"需要在工厂GUI中放入工作模式对应的单方块机器"
+				""
+				"&o&c放入的单方块机器等级必须准确匹配工厂的&n配方电压&r"
+				"&o&c放入的单方块机器等级必须准确匹配工厂的&n配方电压&r"
+				"&o&c放入的单方块机器等级必须准确匹配工厂的&n配方电压&r"
 				""
 				"这台机器可以双仓升压！！！"
-				"&n&o&c电压等级(配方电压)需要准确匹配放入机器等级！！！"
-				"&n&o&c电压等级(配方电压)需要准确匹配放入机器等级！！！"
-				"&n&o&c电压等级(配方电压)需要准确匹配放入机器等级！！！"
+				""
+				"{ \"text\": \"关于并行，可以在这里查看具体设定\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
@@ -827,6 +830,8 @@
 			dependencies: ["66DC685BEC00E4A6"]
 			description: [
 				"无CD，可穿墙"
+				""
+				"旅行锚上方不能有方块阻挡，否则将无法传送"
 				""
 				"木棍右键可以解锁旅行锚"
 			]
@@ -988,11 +993,18 @@
 			description: ["潜行右键小机器/仓室记录配置，右键应用配置"]
 			hide_dependency_lines: true
 			id: "3740DE62D42A4D0D"
-			rewards: [{
-				id: "44B320C5AC418AB0"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "44B320C5AC418AB0"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					id: "7DBC821399778C14"
+					item: "gtlcore:debug_pattern_test"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "05A5ED1BE84BBEBF"
 				item: "gtlcore:cfg_copy"

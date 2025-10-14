@@ -23,6 +23,12 @@
 			x: 0.0d
 			y: -2.0d
 		}
+		{
+			id: "69E387EDBF8DF32B"
+			linked_quest: "78F0147BABE80DDD"
+			x: 0.0d
+			y: 0.0d
+		}
 	]
 	quests: [
 		{
@@ -80,6 +86,7 @@
 			dependencies: [
 				"22053B1292EE07C9"
 				"78350872B1ACF525"
+				"78F0147BABE80DDD"
 			]
 			id: "34D6F0DF329B1877"
 			tasks: [{
@@ -160,7 +167,7 @@
 				item: "kubejs:exotic_processor"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -402,6 +409,7 @@
 			dependencies: [
 				"77BE1524AABF6003"
 				"22053B1292EE07C9"
+				"78F0147BABE80DDD"
 			]
 			id: "369DCD1E26334632"
 			tasks: [{
@@ -587,7 +595,7 @@
 				item: "gtceu:super_computation"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -687,23 +695,11 @@
 				"63F90FA0F85804B8"
 				"61F8C5AA6DEB30D6"
 			]
-			description: ["建议建设一套重启电路来解决钻机不时无理由停机的&m特性&rbug"]
+			description: [""]
 			hide_dependent_lines: true
 			icon: "gtceu:bedrock_drilling_rig"
 			icon_scale: 2.0d
 			id: "3968C254B6AC9B9D"
-			rewards: [
-				{
-					id: "565D248531FF3E47"
-					item: "gtceu:machine_controller_cover"
-					type: "item"
-				}
-				{
-					id: "6D9F24EAEBCB2C04"
-					item: "expatternprovider:active_formation_plane"
-					type: "item"
-				}
-			]
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "高效率生产基岩粉"
@@ -732,17 +728,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["713FF88279AD9A31"]
-			id: "2DE2948B2148AEBF"
-			tasks: [{
-				id: "57830B3E0BF08FF8"
-				item: "gtceu:uev_energy_input_hatch"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			dependencies: [
 				"2DD8E128C6E3E41D"
 				"1F5B121C6647E2CA"
@@ -760,7 +745,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["588C2C0BED069F41"]
+			dependencies: [
+				"588C2C0BED069F41"
+				"78F0147BABE80DDD"
+			]
 			description: ["最后的聚变"]
 			icon_scale: 1.3d
 			id: "0ED237B0CE3DDF59"
@@ -901,6 +889,7 @@
 				"68FBE0346D15916B"
 				"783379F3A7557CEE"
 				"713FF88279AD9A31"
+				"2E05225ADF4D7D31"
 			]
 			description: ["拥有72格槽位"]
 			icon_scale: 1.5d
@@ -930,6 +919,23 @@
 			}]
 			x: 14.0d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2DD8E128C6E3E41D"
+				"1FE5F8D737ADB1B8"
+			]
+			hide_dependent_lines: true
+			id: "23B418803D455368"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "12A595464E70C437"
+				item: "gtceu:adamantium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

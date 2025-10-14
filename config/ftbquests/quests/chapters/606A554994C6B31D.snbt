@@ -80,12 +80,7 @@
 		{
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
-			description: [
-				"范围攻击"
-				"右键可以发射波束"
-				"潜行右键可以聚集100范围内的掉落物"
-				"聚集视角指定的生物"
-			]
+			description: [""]
 			icon: "avaritia:infinity_sword"
 			id: "59E9131BD015B4F5"
 			optional: true
@@ -115,7 +110,7 @@
 		{
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"带有夜视和创造飞行，X键可加速飞行，最高4倍，潜行加X可以重制飞行速度，无需能量"
+				"带有夜视、饱和和创造飞行，X键可加速飞行，最高4倍，潜行加X可以重制飞行速度，无需能量"
 				"Z键开关夜视"
 				"{ \"text\": \"可使用宇航服升级为抵抗宇宙危险的航天版本，无需氧气\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
 				"无尽套和星体套的操作方法与镄套装一致"
@@ -198,7 +193,7 @@
 				}
 			]
 			title: "镄套装"
-			x: 1.5d
+			x: 3.0d
 			y: -7.0d
 		}
 		{
@@ -263,6 +258,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0BB44C475666B862"]
+			description: ["将附魔书敲在工具上可使工具具有旅行权杖的右键传送功能"]
 			disable_toast: true
 			icon: "travelanchors:travel_staff"
 			id: "0A5739F8E482B47E"
@@ -303,8 +299,10 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"高速挖掘，默认按J可调节速度，潜行加快调节速度"
+				"高速挖掘，默认按J可调节速度，潜行加快调节速度，超过1000会重置到初始数值"
+				""
 				"潜行左键可以开关磁力吸引"
+				""
 				"不消耗耐久和电量"
 			]
 			icon: {
@@ -610,7 +608,7 @@
 				type: "item"
 			}]
 			title: "无线大礼包"
-			x: 1.5d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -809,7 +807,7 @@
 				type: "item"
 			}]
 			title: "抽奖"
-			x: -3.0d
+			x: 0.0d
 			y: -2.5d
 		}
 		{
@@ -832,7 +830,7 @@
 				type: "item"
 			}]
 			title: "甜浆果"
-			x: -1.5d
+			x: 0.0d
 			y: -1.0d
 		}
 		{
@@ -855,7 +853,7 @@
 				type: "item"
 			}]
 			title: "菌丝体"
-			x: 0.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -878,7 +876,7 @@
 				type: "item"
 			}]
 			title: "无线连接器"
-			x: -3.0d
+			x: 1.5d
 			y: -5.5d
 		}
 		{
@@ -1004,7 +1002,7 @@
 			subtitle: "再来一台"
 			tasks: [{
 				consume_items: true
-				count: 10L
+				count: 8L
 				id: "53EA4DD9BBB64AC0"
 				item: "gtceu:gold_credit"
 				type: "item"
@@ -1031,7 +1029,7 @@
 			subtitle: "再来一台"
 			tasks: [{
 				consume_items: true
-				count: 100L
+				count: 64L
 				id: "6CCC33C193433C37"
 				item: "gtceu:gold_credit"
 				type: "item"
@@ -1064,7 +1062,11 @@
 		{
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
-			description: ["可以封装ME接口，ME样板供应器和ME驱动器为包裹，保留内部一切设置，手持包裹右键方块可以放置封装设备"]
+			description: [
+				"可以封装ME接口，ME样板供应器和ME驱动器为包裹，保留内部一切设置，手持包裹右键方块可以放置封装设备"
+				""
+				"注意：放置包裹后设备有极大可能不与ME网络连接（离线），需要与其互动使其能够连网"
+			]
 			icon: {
 				Count: 1
 				id: "expatternprovider:me_packing_tape"
@@ -1114,7 +1116,7 @@
 				type: "item"
 			}]
 			title: "无线覆盖板"
-			x: -3.0d
+			x: 3.0d
 			y: -4.0d
 		}
 		{
@@ -1137,8 +1139,8 @@
 				type: "item"
 			}]
 			title: "发信器"
-			x: -4.5d
-			y: -4.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1158,8 +1160,8 @@
 				type: "item"
 			}]
 			title: "过滤卡"
-			x: 0.0d
-			y: -2.5d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1284,7 +1286,7 @@
 				type: "item"
 			}]
 			title: "美西螈"
-			x: 1.5d
+			x: 3.0d
 			y: -1.0d
 		}
 		{
@@ -1350,8 +1352,8 @@
 				type: "item"
 			}]
 			title: "高速管道的材料"
-			x: -1.5d
-			y: -2.5d
+			x: -3.0d
+			y: -4.0d
 		}
 		{
 			can_repeat: true
@@ -1403,7 +1405,145 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "如果你觉得麻烦"
+			title: "如果你觉得潜影箱麻烦"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["369BA1002418F097"]
+			icon: {
+				Count: 1
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42B616E9FCCFE9EB"
+			optional: true
+			rewards: [{
+				id: "3FAC47B8AFBE5F10"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3233A41F73FBCEE1"
+					item: "gtceu:ancient_gold_coin"
+					type: "item"
+				}
+				{
+					id: "2F4B75FAF26D01DA"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 10L
+					id: "608C6607BD80798B"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+			]
+			title: "引雷"
+			x: 1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7F3D9F19428262A4"
+				"1B664763E9558755"
+			]
+			disable_toast: true
+			hide: false
+			icon: "gtceu:ulv_fragment_world_collection_machine"
+			id: "6CB995A1E0A04D71"
+			optional: true
+			rewards: [{
+				id: "4DEC9A2B78AF6A83"
+				item: "gtceu:ulv_fragment_world_collection_machine"
+				type: "item"
+			}]
+			subtitle: "再来一台"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "75DAF36A0099DCC0"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			title: "碎片世界采集器"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:cupronickel_credit"
+			id: "07CBD674009E9F7B"
+			optional: true
+			rewards: [{
+				id: "433CEC73172A80B9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 100L
+				id: "65BD637ECC358EEE"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			title: "巨企"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "gtceu:silver_credit"
+			id: "6EAE19EC8243B019"
+			optional: true
+			rewards: [{
+				id: "22CF0485DB77498C"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 1000L
+				id: "7AB89C213F1DD7C5"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			title: "垄断集团"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			icon: "gtlcore:debug_structure_writer"
+			id: "7ED9A979A4F27C00"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C0197FC2007FD67"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 648L
+				id: "295B13DE932B896E"
+				item: "gtceu:doge_coin"
+				type: "item"
+			}]
+			title: "抽奖"
 			x: 1.5d
 			y: -2.5d
 		}
