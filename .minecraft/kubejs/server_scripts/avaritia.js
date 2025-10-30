@@ -12,7 +12,7 @@ ServerEvents.recipes((event) => {
     event.remove({ id: "avaritia:extreme_crafting_table" })
 
     event.custom({
-        "type": "avaritia:shaped_extreme_craft_4",
+        "type": "avaritia:shaped_extreme_craft",
         "category": "misc",
         "pattern": [
             "JJJJJJJJJ",
