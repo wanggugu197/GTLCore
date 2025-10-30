@@ -12,7 +12,7 @@
 		{
 			description: [
 				"&6&o&l多方块结构&r&r&r是多个方块构成的结构"
-				"你可以用扳手旋转结构，且多方块结构支持镜像放置。"
+				"你可以用扳手旋转多方块主机，且多方块结构支持镜像放置。"
 				"某些多方块结构的主机并不包含在结构主体中，因此有多个主机共用结构主体的可能，例如焦炉、电力高炉、集成矿石处理厂、神圣分离者等。"
 				"多方块主机的GUI中点击右上角的“+”号可以查看整个多方块结构中的仓室情况。"
 				"在GUI中左下角的最底部的图标可以锁定主机只运行一个配方，具体操作方法：先按图标锁定，然后运行一次想要锁定的配方，然后机器就只会识别这个配方了。"
@@ -753,6 +753,7 @@
 				"40405034AE9D9945"
 			]
 			dependency_requirement: "one_started"
+			description: ["并不会有副产物"]
 			icon_scale: 1.3d
 			id: "51A1A2397AF521D9"
 			rewards: [{
@@ -771,6 +772,7 @@
 		}
 		{
 			dependencies: ["40405034AE9D9945"]
+			description: ["研磨的产量是锻造的两倍"]
 			icon_scale: 1.3d
 			id: "4877DB6020D6BFBC"
 			rewards: [{
@@ -807,6 +809,7 @@
 		}
 		{
 			dependencies: ["40405034AE9D9945"]
+			description: ["原始人也要冶炼合金"]
 			icon_scale: 1.3d
 			id: "77406A75BD5839C2"
 			rewards: [{
@@ -1205,6 +1208,7 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
+			description: ["终于有副产物了"]
 			icon_scale: 1.3d
 			id: "40F426C73BC0D0B1"
 			rewards: [{
@@ -1644,6 +1648,7 @@
 				"7655EE3D83EBB13E"
 				"473D7D8B36DB5430"
 				"5672B9E868EDBE4D"
+				"6D92BE9ABB5872A8"
 			]
 			icon_scale: 1.3d
 			id: "56F2156559F2ADF9"
@@ -1837,6 +1842,7 @@
 		}
 		{
 			dependencies: ["40405034AE9D9945"]
+			description: ["虚空产水，产量较少"]
 			icon_scale: 1.3d
 			id: "2576EB4B191FA2C2"
 			rewards: [{
@@ -3770,6 +3776,7 @@
 		}
 		{
 			dependencies: ["5930E12A8BCAF996"]
+			description: ["消耗少量电力锁定天气"]
 			icon_scale: 1.3d
 			id: "0F663054E006E97B"
 			rewards: [{
@@ -4001,7 +4008,7 @@
 				id: "35D84DB9E78E62B4"
 				type: "checkmark"
 			}]
-			title: "这里有209个多方块"
+			title: "这里有210个多方块"
 			x: -12.0d
 			y: -2.0d
 		}
@@ -4322,7 +4329,7 @@
 			description: [
 				"后期比较强力（当使用超能硅岩-塔兰线圈时并行数超过超维度蒸汽熔炉）"
 				""
-				"可以使用激光仓，支持跨配方并行，使用温度超频机制，温度每提升900K，并行数×2"
+				"可以使用激光仓，支持跨配方并行，使用温度并行机制，温度每提升900K，并行数×2"
 			]
 			icon_scale: 1.3d
 			id: "5549BBB07626B52C"
@@ -4643,8 +4650,8 @@
 				item: "gtceu:cleanroom"
 				type: "item"
 			}]
-			x: 28.0d
-			y: 0.0d
+			x: 26.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["253337A8CECFB499"]

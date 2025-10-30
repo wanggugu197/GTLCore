@@ -6,16 +6,26 @@
 	icon: "gtceu:opv_electric_motor"
 	id: "40507AA144BC3D21"
 	order_index: 13
-	quest_links: [ ]
+	quest_links: [{
+		id: "2B720CF862757923"
+		linked_quest: "108792B10FDEC848"
+		shape: "gear"
+		size: 2.0d
+		x: -13.0d
+		y: -9.0d
+	}]
 	quests: [
 		{
 			dependencies: [
 				"6EEB0B79543E2948"
 				"0BF48314F3323108"
 				"32186EFF7020D432"
+				"06795792E774476F"
 			]
 			description: [
-				"不超频时平均耗电量为1024A MAX，超频一二三次分别对应的平均耗电量为16384、262144、4194304A MAX"
+				"不超频时平均耗电量为1024A MAX、运行周期为120s；超频一二三次分别对应的运行周期为60、30、15s，平均耗电量为16384、262144、4194304A MAX"
+				""
+				"JEI中的耗时为超频一次的结果"
 				""
 				"在这个阶段，很多物品都有多种配方，记得及时更换效率更高的配方"
 			]
@@ -121,6 +131,8 @@
 			dependencies: [
 				"74D84A4928FA0A35"
 				"5A61ABB6E4917C6C"
+				"17F6AFC430A15CDA"
+				"375DD76CAEAD2CE1"
 			]
 			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以可以设计成这样，无需太阳帆"]
 			id: "77CADF4536151255"
@@ -345,6 +357,7 @@
 			dependencies: [
 				"437E5E4108228333"
 				"74186877DB7DBE4D"
+				"17F6AFC430A15CDA"
 			]
 			id: "57B09C66B637C894"
 			tasks: [{
@@ -356,7 +369,10 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["57B09C66B637C894"]
+			dependencies: [
+				"57B09C66B637C894"
+				"38FFB6D2003C7EB4"
+			]
 			id: "0BF48314F3323108"
 			tasks: [{
 				id: "30E236F44664C3D0"
@@ -597,7 +613,11 @@
 				"3CE5E9F78C13E1CD"
 				"165C5D3656C33A89"
 			]
-			description: ["&b无尽贪婪&r的中子态素压缩机可以被世界加速器（方块实体模式）加速"]
+			description: [
+				"&b无尽贪婪&r的中子态素压缩机可以被世界加速器（方块实体模式）加速"
+				""
+				"世界加速器的工作耗能需求为6A/加速器电压"
+			]
 			id: "07EA8922673DFC93"
 			rewards: [
 				{
@@ -636,7 +656,11 @@
 		}
 		{
 			dependencies: ["32186EFF7020D432"]
-			description: ["更大，更强，单位产出算力需求更少"]
+			description: [
+				"更大，更强，单位产出算力需求更少"
+				""
+				"最高处的&e振金框架&r上方不能有方块遮挡，否则机器不会工作"
+			]
 			icon_scale: 1.5d
 			id: "63D47FFCCD8CE12E"
 			optional: true
@@ -649,6 +673,33 @@
 			}]
 			x: -1.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["108792B10FDEC848"]
+			hide_dependent_lines: true
+			id: "06795792E774476F"
+			tasks: [{
+				id: "2408605E3901270D"
+				item: "gtceu:opv_energy_input_hatch"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"0BF48314F3323108"
+				"32186EFF7020D432"
+			]
+			description: ["最终的普通能源仓"]
+			id: "1DA72A668D70950E"
+			tasks: [{
+				id: "5E1B0842C979799E"
+				item: "gtceu:max_energy_input_hatch"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.0d
 		}
 	]
 	subtitle: ["Tier13-OpV"]

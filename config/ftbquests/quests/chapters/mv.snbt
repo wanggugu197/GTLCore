@@ -9,7 +9,7 @@
 	quest_links: [{
 		id: "4D82F79414331554"
 		linked_quest: "0037D6BA6A4ABB72"
-		x: 2.0d
+		x: 12.0d
 		y: 10.0d
 	}]
 	quests: [
@@ -66,7 +66,7 @@
 				item: "gtceu:hv_machine_hull"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 12.0d
 			y: 8.0d
 		}
 		{
@@ -74,6 +74,7 @@
 				"27C18D37D5E19043"
 				"56EA21AD61D2ACB1"
 			]
+			description: ["再来一次双仓升压，这次是MV"]
 			id: "17E9AB180BA36353"
 			rewards: [{
 				id: "3A4DBEDE4E62E01E"
@@ -87,7 +88,7 @@
 				item: "gtceu:stainless_steel_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -106,14 +107,15 @@
 				item: "gtceu:mv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"06B0D98F33A4AEB1"
 				"37E3699028B55610"
 			]
+			hide_dependent_lines: true
 			id: "27C18D37D5E19043"
 			rewards: [{
 				id: "197A426005CE4E3C"
@@ -125,7 +127,7 @@
 				item: "gtceu:stainless_steel_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -171,7 +173,7 @@
 			]
 			title: "铬粉与锰粉"
 			x: 0.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7296C57805F5DC96"]
@@ -213,7 +215,7 @@
 					type: "item"
 				}
 			]
-			title: "MV不得不做的五样东西"
+			title: "经典五件套"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -233,8 +235,8 @@
 				item: "gtceu:mv_voltage_coil"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 10.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4691BAFF9456938A"]
@@ -249,14 +251,15 @@
 				item: "gtceu:ulpic_chip"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"46035DDD3D8A4966"
 				"535D45580FBDE02B"
 			]
+			description: ["你现在只能用&b蓝宝石&r透镜"]
 			id: "4691BAFF9456938A"
 			rewards: [{
 				id: "0225BA7394A8AD51"
@@ -268,8 +271,8 @@
 				item: "gtceu:ulpic_wafer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -288,7 +291,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["541275BC83188F74"]
@@ -306,13 +309,14 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"46035DDD3D8A4966"
 				"535D45580FBDE02B"
 			]
+			description: ["你现在只能用&b红宝石&r和&b绿宝石&r透镜"]
 			id: "35687FC065DB2F00"
 			rewards: [{
 				id: "44E37B56496F1319"
@@ -332,8 +336,8 @@
 				}
 			]
 			title: "RAM和ILC晶圆"
-			x: 10.0d
-			y: 8.0d
+			x: 9.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["35687FC065DB2F00"]
@@ -373,7 +377,7 @@
 				item: "gtceu:mv_assembler"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
@@ -410,6 +414,7 @@
 		}
 		{
 			dependencies: ["750D2CE269C7068D"]
+			hide_dependent_lines: true
 			id: "535D45580FBDE02B"
 			rewards: [{
 				id: "7718318270416295"
@@ -421,7 +426,7 @@
 				item: "gtceu:mv_laser_engraver"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -445,8 +450,8 @@
 				}
 			]
 			title: "MV传感器与发射器"
-			x: 8.0d
-			y: 10.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1F2E7A99C7F1E199"]
@@ -462,8 +467,8 @@
 				item: "gtceu:flawless_emerald_gem"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 10.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
@@ -478,7 +483,7 @@
 				item: "gtceu:mv_sifter"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -496,10 +501,11 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["06B0D98F33A4AEB1"]
+			description: ["{ \"text\": \"钒通过处理钒磁铁矿获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260E516A219825A2\" } }"]
 			id: "5F77B034EC3FA6D3"
 			rewards: [{
 				id: "7951D7376F89BAF0"
@@ -587,7 +593,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["58B03CD99B6C3A8B"]
+			dependencies: ["4C2AD408BAB73087"]
 			description: ["用水给热锭降温"]
 			id: "65B89B0B9AEFDE00"
 			rewards: [{
@@ -620,7 +626,12 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["65B89B0B9AEFDE00"]
+			dependencies: [
+				"65B89B0B9AEFDE00"
+				"0C8149BB0F901A88"
+				"58B03CD99B6C3A8B"
+			]
+			description: ["再来一次双仓升压，这次是MV"]
 			id: "3E2F61B1A26AD378"
 			rewards: [{
 				id: "4C5A07460B528E86"
@@ -632,8 +643,8 @@
 				item: "gtceu:kanthal_ingot"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3E2F61B1A26AD378"]
@@ -667,8 +678,8 @@
 				item: "gtceu:silicon_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
@@ -679,12 +690,13 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			subtitle: "植物工厂"
 			tasks: [{
 				id: "653A8C3A0132C035"
 				item: "gtceu:greenhouse"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -701,7 +713,7 @@
 				item: "gtceu:pyrolyse_oven"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -709,7 +721,7 @@
 			description: [
 				"利用这个东西从虚空流体矿脉中采流体"
 				""
-				"探矿仪潜行右键可以查看流体矿脉"
+				"探矿仪潜行右键可以切换为流体矿脉模式"
 				""
 				"损耗率的数值代表着每次执行配方会减少虚空流体矿脉的储量的速度"
 				""
@@ -738,9 +750,9 @@
 				""
 				"需要在工厂GUI中放入工作模式对应的单方块机器"
 				""
-				"&o&c放入的单方块机器等级必须准确匹配工厂的&n配方电压&r"
-				"&o&c放入的单方块机器等级必须准确匹配工厂的&n配方电压&r"
-				"&o&c放入的单方块机器等级必须准确匹配工厂的&n配方电压&r"
+				"&o&c放入的单方块机器等级必须准确匹配工厂的&n&l配方电压&r"
+				"&o&c放入的单方块机器等级必须准确匹配工厂的&n&l配方电压&r"
+				"&o&c放入的单方块机器等级必须准确匹配工厂的&n&l配方电压&r"
 				""
 				"这台机器可以双仓升压！！！"
 				""
@@ -756,6 +768,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "九合一？"
 			tasks: [
 				{
 					id: "7390800A5A8E273A"
@@ -785,7 +798,6 @@
 		{
 			dependencies: ["17E9AB180BA36353"]
 			description: ["对蒸汽大机器进行升压和超频"]
-			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "32960AFE43AFF989"
 			rewards: [{
@@ -807,24 +819,25 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["必备"]
+			description: ["用的是模头不是模具"]
 			id: "6B09F1B78A5FCF7D"
 			rewards: [{
 				id: "53478885AF4B4433"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			subtitle: "必备"
 			tasks: [{
 				id: "22DE2B728BF46F3E"
 				item: "gtceu:mv_extruder"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 4.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["66DC685BEC00E4A6"]
@@ -869,8 +882,8 @@
 				item: "travelanchors:travel_staff"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: [
@@ -890,14 +903,14 @@
 				item: "gtceu:phosphorus_boule"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 8.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["56EA21AD61D2ACB1"]
 			description: [
 				"2个普通能源仓有4A功率，但会将配方等级提升，从而导致如通用工厂机器需要更高的条件来运行，"
-				"但如果只放一个4A能源仓，那么机器将只会提升功率而不提升配方等级，可以让通用工厂用MV机器跑出HV的速度，如果你放2个4A，那么机器也会提升配方等级，和普通的相比多了1倍功率，这不会带来超频效果，但是如果机器可以并行，那么将会比普通仓获得更多并行"
+				"但如果只放一个4A能源仓，那么机器将只会提升功率而不提升配方等级，可以让通用工厂用MV机器跑出HV的速度，如果你放2个4A，那么机器也会提升配方等级，和普通的相比多了1倍功率，如果机器可以并行，那么将会比普通仓获得更多并行"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -915,29 +928,6 @@
 			}]
 			x: 14.0d
 			y: 8.0d
-		}
-		{
-			dependencies: [
-				"58723DA3E76316E6"
-				"37AFFAE651A5BE21"
-			]
-			description: ["正如4A的特性，这个可以让你用MV小机器使用EV级功率"]
-			hide_dependency_lines: true
-			icon_scale: 1.5d
-			id: "2C27BE2FD2AA1ACA"
-			rewards: [{
-				id: "01C3F65E1CDFAFCF"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			shape: "rsquare"
-			tasks: [{
-				id: "1478049EA53577F1"
-				item: "gtceu:mv_energy_input_hatch_16a"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 10.0d
 		}
 		{
 			dependencies: ["7296C57805F5DC96"]
@@ -1012,6 +1002,26 @@
 			}]
 			x: 14.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["56EA21AD61D2ACB1"]
+			description: ["正如4A的特性一样，这可以让机器跑到EV的速度"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "7E2E022B7B7C46B1"
+			rewards: [{
+				id: "72870714CA795599"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2D864F58302E1E0E"
+				item: "gtceu:mv_energy_input_hatch_16a"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 10.0d
 		}
 	]
 	subtitle: ["Tier2-MV"]

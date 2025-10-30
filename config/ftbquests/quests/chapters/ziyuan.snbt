@@ -157,13 +157,13 @@
 		{
 			id: "32F3A99C86513A6D"
 			linked_quest: "4AF1D57BE5C49B3E"
-			x: 43.5d
+			x: 46.5d
 			y: 3.0d
 		}
 		{
 			id: "65EAF830486C2661"
 			linked_quest: "06D1ABE453F52DF1"
-			x: 43.5d
+			x: 46.5d
 			y: 4.0d
 		}
 	]
@@ -197,6 +197,7 @@
 			]
 			description: ["自动挖掘矿物"]
 			id: "6693A00751424E19"
+			optional: true
 			tasks: [
 				{
 					id: "53911D9F862BE840"
@@ -224,6 +225,7 @@
 			]
 			description: ["从虚空中挖掘矿物"]
 			id: "1999B90B73BAB11F"
+			optional: true
 			tasks: [{
 				id: "5F6FCED2FDC49E27"
 				item: "gtceu:void_miner"
@@ -239,6 +241,7 @@
 			]
 			description: ["抽取流体"]
 			id: "1E1E0437E8E241AB"
+			optional: true
 			tasks: [
 				{
 					id: "214FE4A5B7B84B76"
@@ -272,6 +275,7 @@
 			]
 			description: ["从基岩之下抽取流体"]
 			id: "1809019DAC0E3C2A"
+			optional: true
 			tasks: [
 				{
 					id: "33205F2D84E92227"
@@ -300,6 +304,7 @@
 			]
 			description: ["从虚空中抽取流体"]
 			id: "7FC5F639F89C2C22"
+			optional: true
 			tasks: [{
 				id: "0E5FFAD6CB1DEA66"
 				item: "gtceu:void_fluid_drilling_rig"
@@ -315,13 +320,14 @@
 			]
 			description: ["从基岩之下抽取流体"]
 			id: "1D4903B520E37BFE"
+			optional: true
 			tasks: [{
 				id: "1BECEBDF82F70D8D"
 				item: "gtceu:zpm_fluid_drilling_rig"
 				type: "item"
 			}]
 			x: 9.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -330,6 +336,7 @@
 			]
 			description: ["大面积自动挖掘矿物"]
 			id: "74D0577CA2F540F1"
+			optional: true
 			tasks: [
 				{
 					id: "5D6C802756A68BD2"
@@ -359,6 +366,7 @@
 			]
 			description: ["从虚空中挖掘矿物"]
 			id: "214B86B97ED9C962"
+			optional: true
 			tasks: [{
 				id: "3D891933F417EA28"
 				item: "gtceu:large_void_miner"
@@ -375,6 +383,7 @@
 			]
 			description: ["高效作物种植"]
 			id: "17C967508DDCBB87"
+			optional: true
 			tasks: [
 				{
 					id: "1CD178D1B843DEAE"
@@ -397,6 +406,7 @@
 			]
 			description: ["高效钓鱼机"]
 			id: "04A1D335D69E9779"
+			optional: true
 			tasks: [{
 				id: "0678FE1D3BE5D1DA"
 				item: "gtceu:fishing_ground"
@@ -412,6 +422,7 @@
 			]
 			description: ["高效自动刷怪塔"]
 			id: "57886739347D6809"
+			optional: true
 			tasks: [{
 				id: "6EDFCC68188C1227"
 				item: "gtceu:slaughterhouse"
@@ -427,6 +438,7 @@
 			]
 			description: ["大规模吸取大气"]
 			id: "6E9E740AAEB580E0"
+			optional: true
 			tasks: [{
 				id: "65C060C8B2F3400A"
 				item: "gtceu:large_gas_collector"
@@ -453,7 +465,7 @@
 			description: ["开挖"]
 			icon: "minecraft:raw_iron"
 			id: "7DB63DF889DDDEF4"
-			subtitle: "forge:raw_materials/*"
+			subtitle: "forge:raw_materials"
 			tasks: [
 				{
 					id: "12386DFE17521548"
@@ -475,7 +487,7 @@
 			description: ["如果你有精准采集"]
 			icon: "gtceu:iron_ore"
 			id: "703EEB941F0C745C"
-			subtitle: "forge:ores/*"
+			subtitle: "forge:ores"
 			tasks: [
 				{
 					id: "0CE5AC66DD215BE1"
@@ -502,7 +514,7 @@
 			icon: "gtceu:crushed_iron_ore"
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
-			subtitle: "forge:crushed_ores/*"
+			subtitle: "forge:crushed_ores"
 			tasks: [
 				{
 					id: "45B29F9F7327A305"
@@ -524,7 +536,7 @@
 			description: ["粉碎矿石——锻造/研磨"]
 			icon: "gtceu:impure_iron_dust"
 			id: "05046054F7D65653"
-			subtitle: "forge:impure_dusts/*"
+			subtitle: "forge:impure_dusts"
 			tasks: [
 				{
 					id: "0624FA85DAAB27B4"
@@ -546,11 +558,11 @@
 			description: [
 				"粉碎矿石——洗矿/浸洗"
 				""
-				"可筛选的纯净矿石有特殊标签&oforge:siftables&r"
+				"可筛选的纯净矿石有特殊标签&o&bforge:siftables&r"
 			]
 			icon: "gtceu:purified_iron_ore"
 			id: "14EE67044597E62A"
-			subtitle: "forge:purified_ores/*"
+			subtitle: "forge:purified_ores"
 			tasks: [
 				{
 					id: "512D19B265445F64"
@@ -576,7 +588,7 @@
 			description: ["纯净矿石/粉碎矿石——热离"]
 			icon: "gtceu:refined_iron_ore"
 			id: "56C020B4F1F7D8D1"
-			subtitle: "forge:refined_ores/*"
+			subtitle: "forge:refined_ores"
 			tasks: [
 				{
 					id: "5822D0C2DAE09A76"
@@ -609,7 +621,7 @@
 			]
 			icon: "gtceu:iron_dust"
 			id: "5AEE74DD9B0D511C"
-			subtitle: "forge:dusts/*"
+			subtitle: "forge:dusts"
 			tasks: [
 				{
 					id: "7D58F9B03FA71A1D"
@@ -657,7 +669,7 @@
 			description: ["艾萨线的东西"]
 			icon: "gtceu:milled_pyrope"
 			id: "3C2B4B80E425A9AD"
-			subtitle: "forge:milled/*"
+			subtitle: "forge:milled"
 			tasks: [
 				{
 					id: "3DF923CA2FF25E4D"
@@ -703,6 +715,7 @@
 			]
 			description: ["通过无人机挖掘遥远星球的矿物和流体"]
 			id: "7DA6DA0780F3DDA3"
+			optional: true
 			tasks: [
 				{
 					id: "4A80029952946E9F"
@@ -745,7 +758,7 @@
 			id: "2C1986BE10F10708"
 			tasks: [{
 				id: "58C28BBB64C73B88"
-				title: "需要的机器"
+				title: "可能用到的机器"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -771,7 +784,7 @@
 				title: "绝大多数矿"
 				type: "checkmark"
 			}]
-			title: "绝大多数矿都是：研磨-研磨-洗矿/研磨-热离-研磨"
+			title: "绝大多数矿都是：研磨-洗矿/研磨-热离-研磨"
 			x: 5.5d
 			y: 15.0d
 		}
@@ -874,7 +887,7 @@
 				}
 			]
 			title: "从热解炉流出来的东西"
-			x: 45.0d
+			x: 48.0d
 			y: 4.0d
 		}
 		{
@@ -892,7 +905,7 @@
 				item: "gtceu:lv_pump"
 				type: "item"
 			}]
-			x: 40.5d
+			x: 43.5d
 			y: 4.0d
 		}
 		{
@@ -913,7 +926,7 @@
 				}
 			]
 			title: "原油"
-			x: 42.0d
+			x: 45.0d
 			y: 4.0d
 		}
 		{
@@ -964,7 +977,7 @@
 				}
 			]
 			title: "T0可以采到的"
-			x: 45.0d
+			x: 48.0d
 			y: 3.0d
 		}
 		{
@@ -985,7 +998,7 @@
 				}
 			]
 			title: "重油"
-			x: 42.0d
+			x: 45.0d
 			y: 3.0d
 		}
 		{
@@ -1004,7 +1017,7 @@
 				}
 			]
 			title: "这是油砂矿"
-			x: 40.5d
+			x: 43.5d
 			y: 3.0d
 		}
 		{
@@ -2240,6 +2253,7 @@
 		}
 		{
 			dependencies: ["4CF6C5A8940B4DDF"]
+			description: ["你也可以通过赤泥获得稀土氯化物"]
 			icon: "gtceu:rare_earth_chlorides_bucket"
 			id: "5465659AD5EEE7E3"
 			tasks: [
@@ -2466,7 +2480,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["7979C5ACF9A0C8D2"]
+			dependencies: [
+				"7979C5ACF9A0C8D2"
+				"29D4D49428BF7FF4"
+			]
 			description: [""]
 			hide_dependent_lines: true
 			id: "1223D839C224777B"
@@ -2579,6 +2596,7 @@
 		}
 		{
 			dependencies: ["71C977A601F879AE"]
+			description: ["立刻回收小部分独居石"]
 			icon: "gtceu:monazite_rare_earth_turbid_liquid_bucket"
 			id: "218DF03160595A6F"
 			tasks: [
@@ -3039,8 +3057,10 @@
 				"487650F662F3A466"
 				"2ED005FB3DC2EAB2"
 			]
+			dependency_requirement: "one_completed"
 			icon: "gtceu:saturated_monazite_rare_earth_powder_dust"
 			id: "317B25B778FAF317"
+			min_required_dependencies: 1
 			subtitle: "产出稀土"
 			tasks: [
 				{
@@ -3967,7 +3987,10 @@
 			y: 13.0d
 		}
 		{
-			dependencies: ["72DFAC3212692136"]
+			dependencies: [
+				"72DFAC3212692136"
+				"02F523E003E1C93D"
+			]
 			description: ["萃取树脂可循环利用"]
 			id: "45B6AB3615FF2228"
 			tasks: [{
@@ -4003,7 +4026,7 @@
 				title: "石化的产出有这些"
 				type: "checkmark"
 			}]
-			x: 48.0d
+			x: 40.5d
 			y: 3.0d
 		}
 		{
@@ -4033,7 +4056,7 @@
 				type: "checkmark"
 			}]
 			title: "生化线的产出"
-			x: 48.0d
+			x: 40.5d
 			y: 4.0d
 		}
 		{
@@ -4664,6 +4687,7 @@
 				"7248EC9288C91A33"
 				"14C55CE8EA930227"
 			]
+			description: ["你得到&4UHV&r才能烧这种燃料"]
 			icon: "gtceu:hyper_fuel_1_bucket"
 			id: "0D53712AA7F733A8"
 			tasks: [
@@ -4799,13 +4823,14 @@
 				"63F90FA0F85804B8"
 			]
 			id: "6687DB631FB316D6"
+			optional: true
 			tasks: [{
 				id: "5CA839E151F23A37"
 				item: "gtceu:advanced_infinite_driller"
 				type: "item"
 			}]
 			x: 10.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -4813,6 +4838,8 @@
 				"35EDC45B7E060C4E"
 				"27DB26148D72E259"
 				"4A86402C581ABB27"
+				"5E8BEDA811A1E28C"
+				"54A0802A03CC22A9"
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:cerium_dust"
@@ -4948,7 +4975,7 @@
 				title: "其他东西"
 				type: "checkmark"
 			}]
-			x: 40.5d
+			x: 43.5d
 			y: 2.0d
 		}
 		{
@@ -4960,7 +4987,7 @@
 				title: "石化生化"
 				type: "checkmark"
 			}]
-			x: 48.0d
+			x: 40.5d
 			y: 2.0d
 		}
 		{
@@ -6036,7 +6063,7 @@
 				}
 			]
 			title: "石脑油的特殊产物"
-			x: 49.5d
+			x: 42.0d
 			y: 3.0d
 		}
 		{
@@ -6167,6 +6194,7 @@
 			dependencies: ["68765386EA084EC0"]
 			description: ["自动挖掘矿物"]
 			id: "411628D717089480"
+			optional: true
 			tasks: [
 				{
 					id: "36A777AEE2F1AD75"
@@ -6452,14 +6480,14 @@
 				title: "屠宰场的产出"
 				type: "checkmark"
 			}]
-			x: 46.5d
+			x: 49.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:molten_stainless_steel_bucket"
 			id: "2A1FD2014EA69CFD"
-			subtitle: "gtceu:molten_*"
+			subtitle: "forge:molten"
 			tasks: [{
 				id: "3F3605BFBBA3D0C7"
 				type: "checkmark"
@@ -6472,7 +6500,7 @@
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:hot_vibrant_alloy_ingot"
 			id: "22C01BA26841FDCC"
-			subtitle: "gtceu:hot_ingots/*"
+			subtitle: "forge:hot_ingots"
 			tasks: [{
 				id: "7377537FC932F3A3"
 				title: "热锭"
@@ -6496,7 +6524,7 @@
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:orichalcum_plasma_bucket"
 			id: "4AD5D24C2C018D79"
-			subtitle: "gtceu:*_plasma"
+			subtitle: "forge:plasmas"
 			tasks: [{
 				id: "755D300470DEE06F"
 				title: "等离子体"
@@ -6507,6 +6535,7 @@
 		}
 		{
 			dependencies: ["0485D45408234C99"]
+			hide_dependent_lines: true
 			id: "39380262677612A9"
 			tasks: [{
 				id: "1B85421BB1F7B489"
@@ -6656,6 +6685,592 @@
 			]
 			x: 38.0d
 			y: 15.0d
+		}
+		{
+			dependencies: ["68765386EA084EC0"]
+			description: ["无中生有"]
+			id: "5BC3D0488341F862"
+			optional: true
+			tasks: [
+				{
+					id: "61D12E1013AB56FE"
+					item: "gtceu:lp_steam_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "6DE88256F83E8CB8"
+					item: "gtceu:hp_steam_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "78B6E11696FCB69C"
+					item: "gtceu:lv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "49BBEFE429190C72"
+					item: "gtceu:mv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "774376DB2AAF0FE4"
+					item: "gtceu:hv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "4184D2B3C6102306"
+					item: "gtceu:ev_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "5B467D01CAF122EA"
+					item: "gtceu:iv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "553E4F7A3A7D119C"
+					item: "gtceu:luv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "263BBBE83909B6C5"
+					item: "gtceu:zpm_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "03C64044E9A467A9"
+					item: "gtceu:uv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "03F992036834DCA9"
+					item: "gtceu:uhv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "12D97FB54B3F412A"
+					item: "gtceu:uev_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "3436E37CA66587CB"
+					item: "gtceu:uiv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "0BCF820C4FAB4D82"
+					item: "gtceu:uxv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "1F6AF3508044FBB9"
+					item: "gtceu:opv_rock_crusher"
+					type: "item"
+				}
+				{
+					id: "0468B248B3E5306A"
+					item: "gtceu:large_rock_crusher"
+					type: "item"
+				}
+			]
+			title: "碎岩机"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			id: "076E96E5EB3E44E5"
+			rewards: [{
+				id: "59755E269F565E31"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24513E28F78DAD1C"
+				item: "gtceu:lv_rock_crusher"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "minecraft:basalt"
+			icon_scale: 1.3d
+			id: "4215A91343202A6B"
+			shape: "hexagon"
+			subtitle: "HV"
+			tasks: [
+				{
+					id: "071D3417FD960E28"
+					item: "gtceu:olivine_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22EFBF59FFE0CA12"
+					item: "gtceu:calcite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A145BDC9942EDDA"
+					item: "gtceu:flint_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53D29BCC0B6A8445"
+					item: "gtceu:dark_ash_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "02AA3A7B5510F86D"
+					type: "checkmark"
+				}
+			]
+			title: "玄武岩"
+			x: 15.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "minecraft:andesite"
+			icon_scale: 1.3d
+			id: "345BC85E25F99D40"
+			shape: "hexagon"
+			subtitle: "MV"
+			tasks: [
+				{
+					id: "60A29AA5C8FA0516"
+					item: "gtceu:saltpeter_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "770A10EEDBED6FBC"
+					item: "gtceu:asbestos_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03AB2DB6B04A837C"
+					type: "checkmark"
+				}
+			]
+			title: "安山岩"
+			x: 14.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "gtceu:red_granite"
+			icon_scale: 1.3d
+			id: "6A48668B229F78CA"
+			shape: "hexagon"
+			subtitle: "EV"
+			tasks: [
+				{
+					id: "40978FA3DFEA0B7D"
+					item: "gtceu:uranium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1777C091EEC02550"
+					item: "gtceu:aluminium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3AEA61BB55A33C98"
+					item: "gtceu:potassium_feldspar_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "029F444730A50AE4"
+					type: "checkmark"
+				}
+			]
+			title: "红花岗岩"
+			x: 14.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "minecraft:granite"
+			icon_scale: 1.3d
+			id: "0D9308DCD09B474E"
+			shape: "hexagon"
+			subtitle: "MV"
+			tasks: [
+				{
+					id: "6071AFDD8B759A8F"
+					item: "gtceu:silicon_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60EA93B5B7BA2FD6"
+					item: "gtceu:redrock_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61085FB0D57190CC"
+					type: "checkmark"
+				}
+			]
+			title: "花岗岩"
+			x: 16.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "minecraft:stone"
+			icon_scale: 1.3d
+			id: "7179DFEE938964BA"
+			shape: "hexagon"
+			subtitle: "ULV"
+			tasks: [
+				{
+					id: "5389CEF002749982"
+					item: "gtceu:quartzite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "037ECD47B920F3EC"
+					item: "gtceu:potassium_feldspar_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "251DB9D966D8D3B1"
+					item: "gtceu:marble_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1A84A6466E358164"
+					item: "gtceu:biotite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1802BDA5B7265F97"
+					item: "gtceu:metal_mixture_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4D5B8F400657BD6E"
+					item: "gtceu:sodalite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "48B63FC16E2E6944"
+					type: "checkmark"
+				}
+			]
+			title: "石头"
+			x: 15.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "gtceu:marble"
+			icon_scale: 1.3d
+			id: "4A5C14B5973D3023"
+			shape: "hexagon"
+			subtitle: "HV"
+			tasks: [
+				{
+					id: "368685543329F956"
+					item: "gtceu:magnesium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49E477E16EF64894"
+					item: "gtceu:calcite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4949952A82630CF3"
+					type: "checkmark"
+				}
+			]
+			title: "大理岩"
+			x: 16.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "minecraft:deepslate"
+			icon_scale: 1.3d
+			id: "211E2CF1BEE6D504"
+			shape: "hexagon"
+			subtitle: "EV"
+			tasks: [
+				{
+					id: "74266AE3CA591DF0"
+					item: "gtceu:thorium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "683CC87C0124AE15"
+					item: "gtceu:silicon_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E6C388CF95285E5"
+					item: "gtceu:biotite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61389EA3986D2777"
+					type: "checkmark"
+				}
+			]
+			title: "深板岩"
+			x: 16.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["076E96E5EB3E44E5"]
+			icon: "minecraft:obsidian"
+			icon_scale: 1.3d
+			id: "2628AD721D2CCE91"
+			shape: "hexagon"
+			subtitle: "HV"
+			tasks: [
+				{
+					id: "54408E88165249FE"
+					item: "gtceu:magnesium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3745CD16AFC13697"
+					item: "gtceu:iron_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5EE22F14C6E33A55"
+					item: "gtceu:silicon_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D2BEAE455378477"
+					item: "gtceu:oxygen_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "319C841EE613522E"
+					type: "checkmark"
+				}
+			]
+			title: "黑曜石"
+			x: 14.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["218DF03160595A6F"]
+			icon: "gtceu:thorite_powder_dust"
+			id: "5DECAB3C913C31FE"
+			subtitle: "产出钍粉"
+			tasks: [
+				{
+					id: "4AB9A987C16B775E"
+					item: "gtceu:thorite_powder_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "534CAB5F443FDB64"
+					type: "checkmark"
+				}
+			]
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["726A61CD2C9D9495"]
+			id: "324D979A0D38E7D1"
+			tasks: [{
+				id: "31F6875681F15099"
+				title: "石头们也有产出"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["08BE4F17331AA62A"]
+			hide_dependent_lines: true
+			icon: "gtceu:cerium_oxide_dust"
+			id: "5E8BEDA811A1E28C"
+			tasks: [
+				{
+					id: "6F59618477E1EDAE"
+					item: "gtceu:cerium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7822A8B19B7945B0"
+					type: "checkmark"
+				}
+			]
+			x: 32.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["28A615DDEAC65561"]
+			icon: "gtceu:fluorite_dust"
+			id: "20EC8290D4E739CD"
+			tasks: [
+				{
+					id: "3DA89AE2736CA462"
+					item: "gtceu:fluorite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2D76377038E865EA"
+					type: "checkmark"
+				}
+			]
+			x: 35.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["57DEA0CDF85D69B1"]
+			hide_dependent_lines: true
+			icon: "gtceu:cerium_oxide_dust"
+			id: "54A0802A03CC22A9"
+			tasks: [
+				{
+					id: "5C813DF41387E223"
+					item: "gtceu:cerium_oxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21C91473E4AB1F24"
+					type: "checkmark"
+				}
+			]
+			x: 31.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"68012C0C6C072430"
+				"75FF3EA9CF248DA8"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			icon: "gtceu:red_zircon_powder_dust"
+			id: "51A4EF883D0F293C"
+			tasks: [
+				{
+					id: "6D409C07A0497B0B"
+					item: "gtceu:silicon_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17A98B375A1852DF"
+					item: "gtceu:rutile_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32FF05EF6940F428"
+					item: "gtceu:red_zircon_powder_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "521314F93D81C6FB"
+					item: "gtceu:ilmenite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4BDD69AD982E33DB"
+					type: "checkmark"
+				}
+			]
+			title: "还有一些杂七杂八的粉"
+			x: 22.0d
+			y: 8.0d
+		}
+		{
+			description: ["你会在主世界看到很多种喷出的油，其中海上喷出的Ad的石油毫无用处"]
+			icon: "ad_astra:oil_bucket"
+			id: "113D8AE67948F32E"
+			optional: true
+			tasks: [{
+				id: "685DD7E3D6ECAE89"
+				type: "checkmark"
+			}]
+			title: "石油"
+			x: 45.0d
+			y: 2.0d
+		}
+		{
+			description: ["和石油一样，Ad的燃油也是没有任何用途"]
+			icon: "ad_astra:fuel_bucket"
+			id: "29C1F160ECAA561A"
+			optional: true
+			rewards: [{
+				id: "7637CDD645BFDF93"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7927D04D69656205"
+				type: "checkmark"
+			}]
+			title: "燃油"
+			x: 46.5d
+			y: 2.0d
+		}
+		{
+			description: [
+				"月球的结构中可能会有包含戴斯的箱子以及戴斯原矿"
+				""
+				"金星的结构里面有下界岩和远古残骸"
+				""
+				"火星的神庙结构里面固定带有一个紫金块"
+			]
+			icon: "ad_astra:moon_cheese_ore"
+			id: "3AB939B4878750A7"
+			optional: true
+			rewards: [{
+				id: "7F89E6E1001E4ADA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "266B8FD89AAB2C20"
+				type: "checkmark"
+			}]
+			title: "结构生成"
+			x: 48.0d
+			y: 2.0d
 		}
 	]
 	title: "原料提取"

@@ -317,12 +317,13 @@
 		}
 		{
 			dependencies: ["233CA36D529EC3FB"]
-			description: ["拥有无损超频"]
+			description: ["这并不是装配线"]
 			hide_text_until_complete: false
 			icon_scale: 2.0d
 			id: "2A0269009ABF1414"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "拥有无损超频"
 			tasks: [{
 				id: "17918BFA4E414A13"
 				item: "gtceu:precision_assembler"
@@ -365,7 +366,9 @@
 				""
 				"研究站的多方块结构包含空气，物品支架所在4*3*3区域内的空气不能被其他方块替换，否则研究站不会成型"
 				""
-				"如果使用可配置维护仓系列，请确保与研究站连接的HPCA同样使用可配置维护仓并且保持耗时系数一致"
+				"研究站并不能运行扫描仪配方"
+				""
+				"注意：如果使用可配置维护仓系列，请确保与研究站连接的HPCA同样使用可配置维护仓并且保持耗时系数一致"
 			]
 			icon_scale: 1.3d
 			id: "298369255C8130F7"
@@ -429,18 +432,6 @@
 				{
 					id: "305043E5EE17B112"
 					item: "gtceu:hpca_active_cooler_component"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1E0D9D7AC5776110"
-					item: "gtceu:hpca_advanced_computation_component"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "083558D0E21DA1D8"
-					item: "gtceu:hpca_bridge_component"
 					optional_task: true
 					type: "item"
 				}
@@ -514,6 +505,7 @@
 				"766D051A40AB5324"
 				"38091E7431B96FF6"
 			]
+			description: ["到后面你也可以用聚变III来做"]
 			id: "4A058FA1859A00D1"
 			tasks: [{
 				id: "20E616EF8F63C870"
@@ -673,15 +665,17 @@
 				"4706F66FF46487F2"
 				"18CB66D8EABD5132"
 			]
+			dependency_requirement: "one_completed"
 			description: [
-				"除了用于处理泡沫还能作为脱水机使用"
+				"除了用于处理矿物泡沫还能作为脱水机使用"
 				""
 				"作为真空干燥机使用时，机制与电力高炉相同"
 				""
-				"作为脱水机使用时，使用温度超频机制，温度每提升900K，并行数×2"
+				"作为脱水机使用时，使用温度并行机制，温度每提升900K，并行数×2"
 			]
 			icon_scale: 1.5d
 			id: "147A71CE5EEBC836"
+			min_required_dependencies: 2
 			shape: "rsquare"
 			tasks: [{
 				id: "09A3EC272A7B5FF8"
@@ -790,7 +784,7 @@
 				"{image:ftbquests:textures/picture/005.png width:200 height:100 align:center}"
 			]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "43A83C00715285B5"
 			shape: "rsquare"
 			size: 1.0d
@@ -869,13 +863,15 @@
 				""
 				"“配方已缓存”相当于锁定配方，只有当样板总成符合之前缓存的运行条件时才会让机器运行配方（包括催化剂，编程电路等环境）"
 				""
+				"支持在同一个样板中缓存多个配方（需在专用催化剂槽的GUI中设置实际配方数量）"
+				""
 				"在ME样板管理终端中样板总成的默认名称为所在多方块主机名字以及加上设置的编程电路（如超级冶炼炉-3）"
 				""
 				"专用催化剂槽的GUI可以拖动（可能会有奇怪的覆盖显示问题）"
 				""
 				"复制工具并不能复制催化剂设置；黏贴配置时请确保背包内有足够的空白样板"
 				""
-				"实际上剪切工具能完好无损的搬运样板总成（&c不要&r中途&o&e旋转&r且确保黏贴位置&o&e没有阻挡&r！）"
+				"剪切工具能完好无损的搬运样板总成（&c不要&r中途&o&e旋转&r且确保黏贴位置&o&e没有阻挡&r！）"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:me_mini_pattern_buffer"
@@ -888,6 +884,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "也属于ME仓室"
 			tasks: [{
 				id: "43C0B303F8635A1D"
 				item: "gtceu:me_mini_pattern_buffer"

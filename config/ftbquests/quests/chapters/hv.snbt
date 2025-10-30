@@ -198,7 +198,7 @@
 				"18CA398800CC2E1B"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["你得把电路组装机放在通用组装厂，然后装上超净维护仓"]
+			description: ["没有超净间的情况下你得把电路组装机放在通用组装厂，然后装上超净维护仓"]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [{
@@ -514,10 +514,8 @@
 				"0A8178183C888BE0"
 				"5E9EA7E22BE663AF"
 			]
-			dependency_requirement: "one_completed"
-			description: ["你得把切割机放在通用加工厂，然后装上超净维护仓"]
+			description: ["没有超净间的情况下你得把切割机放进通用加工厂，然后装上超净维护仓"]
 			id: "676D1982102F4E79"
-			min_required_dependencies: 1
 			rewards: [{
 				id: "73D294571F48A5E9"
 				item: "gtceu:gold_credit"
@@ -646,7 +644,7 @@
 			description: [
 				"实际上拥有无损超频，比通用混合厂强大。"
 				""
-				"只能使用白铜线圈"
+				"只能使用&b白铜线圈"
 			]
 			icon_scale: 2.0d
 			id: "29450DC426C4E2D6"
@@ -739,7 +737,10 @@
 				"1AC5A3B5522F78D9"
 				"027197A71E630966"
 			]
-			description: [""]
+			description: [
+				"如果你看到了这个粉是可以从矿物中获取的，请不要去寻找"
+				"这种矿物是后面通过大型虚空采矿机或者太空电梯获取的"
+			]
 			id: "74D9136DE32F9129"
 			shape: "gear"
 			size: 2.0d
@@ -795,7 +796,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: [""]
+			description: ["实际上可以瞬间填满LV巨型输入仓（2.1MB/t）"]
 			id: "05360F828860DB6F"
 			rewards: [{
 				id: "700022A87BC01B7D"
@@ -832,11 +833,11 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["{ \"text\": \"超净间完全不值得建造 ，请使用超净维护仓\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
+			description: ["{ \"text\": \"超净间完全不值得建造 ，超净维护仓更加强大便捷\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true
-			subtitle: "不要使用"
+			subtitle: "不建议使用"
 			tasks: [{
 				id: "495F1F2B39DC8C3A"
 				type: "checkmark"
@@ -848,7 +849,7 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"只能使用坎塔尔合金线圈"
+				"只能使用&b坎塔尔合金线圈&r"
 				""
 				"可能是你的第一台跨配方并行机器"
 				""

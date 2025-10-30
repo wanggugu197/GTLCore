@@ -80,7 +80,7 @@
 		{
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
-			description: [""]
+			description: ["右键范围秒杀一切生物"]
 			icon: "avaritia:infinity_sword"
 			id: "59E9131BD015B4F5"
 			optional: true
@@ -299,9 +299,11 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"高速挖掘，默认按J可调节速度，潜行加快调节速度，超过1000会重置到初始数值"
+				"高速挖掘，默认按&bJ&r可调节速度，潜行加快调节速度，超过1000会重置到初始数值"
 				""
 				"潜行左键可以开关磁力吸引"
+				""
+				"金刚杵作为GT工具有扳手和剪线钳的功能"
 				""
 				"不消耗耐久和电量"
 			]
@@ -532,7 +534,7 @@
 				""
 				"装载量子桥卡的前提下将一对量子缠绕态奇点分别放置在量子环和无线终端中可以让无线终端跨纬度无限距离与ME网络互动，且能让终端无线充电"
 				""
-				"磁卡可以将掉落物直接吸入ME网络（通用终端才能装载磁卡）"
+				"磁卡可以将掉落物直接吸入ME网络（通用终端才能装载磁卡；样板编码和管理界面无法配置磁卡，合成界面才可以）"
 			]
 			disable_toast: true
 			icon: "ae2:wireless_receiver"
@@ -660,7 +662,7 @@
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
 			disable_toast: true
-			hide: true
+			hide_until_deps_visible: true
 			id: "7F3D9F19428262A4"
 			optional: true
 			tasks: [{
@@ -677,7 +679,7 @@
 				"1B664763E9558755"
 			]
 			disable_toast: true
-			hide: false
+			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "16A27768544CDACB"
 			optional: true
@@ -814,7 +816,7 @@
 			can_repeat: true
 			dependencies: ["7F3D9F19428262A4"]
 			disable_toast: true
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:sweet_berries"
 			id: "15D2C4D62F746F8E"
 			optional: true
@@ -837,7 +839,7 @@
 			can_repeat: true
 			dependencies: ["7F3D9F19428262A4"]
 			disable_toast: true
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:mycelium"
 			id: "4567AA9D7B0D3CC0"
 			optional: true
@@ -990,7 +992,7 @@
 				"1B664763E9558755"
 			]
 			disable_toast: true
-			hide: false
+			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "5C9016400CB5CE94"
 			optional: true
@@ -1017,7 +1019,7 @@
 				"1B664763E9558755"
 			]
 			disable_toast: true
-			hide: false
+			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "49FCF7722FFB15E0"
 			optional: true
@@ -1270,7 +1272,7 @@
 			can_repeat: true
 			dependencies: ["7F3D9F19428262A4"]
 			disable_toast: true
-			hide: true
+			hide_until_deps_visible: true
 			icon: "minecraft:axolotl_bucket"
 			id: "7967AAA100851B87"
 			optional: true
@@ -1422,12 +1424,13 @@
 			id: "42B616E9FCCFE9EB"
 			optional: true
 			rewards: [{
-				id: "3FAC47B8AFBE5F10"
+				id: "1E1FE7D22C9DED2A"
 				item: {
 					Count: 1
-					id: "minecraft:enchanted_book"
+					id: "minecraft:trident"
 					tag: {
-						StoredEnchantments: [{
+						Damage: 248
+						Enchantments: [{
 							id: "minecraft:channeling"
 							lvl: 1s
 						}]
@@ -1453,8 +1456,26 @@
 					item: "minecraft:experience_bottle"
 					type: "item"
 				}
+				{
+					count: 3L
+					id: "4E052B9AF93995F5"
+					item: "minecraft:nautilus_shell"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3B629F2287501E91"
+					item: "minecraft:prismarine_shard"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7C0E79EE43789D50"
+					item: "gtceu:iridium_ingot"
+					type: "item"
+				}
 			]
-			title: "引雷"
+			title: "引雷三叉戟"
 			x: 1.5d
 			y: -7.0d
 		}
@@ -1464,7 +1485,7 @@
 				"1B664763E9558755"
 			]
 			disable_toast: true
-			hide: false
+			hide_until_deps_visible: false
 			icon: "gtceu:ulv_fragment_world_collection_machine"
 			id: "6CB995A1E0A04D71"
 			optional: true

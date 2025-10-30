@@ -397,7 +397,7 @@
 		}
 		{
 			dependencies: ["559836CC234447C0"]
-			description: ["只能使用UEV消声仓"]
+			description: ["只能使用&eUEV&r消声仓"]
 			icon_scale: 1.3d
 			id: "4A1F4AAAABC1DE23"
 			shape: "hexagon"
@@ -595,6 +595,7 @@
 			dependencies: [
 				"00A227F06D7F109E"
 				"042FBA3AE7DE9957"
+				"06795792E774476F"
 			]
 			description: ["看超维度锻炉的配方"]
 			icon_scale: 2.0d
@@ -645,7 +646,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["233C152024BACC4E"]
+			dependencies: [
+				"233C152024BACC4E"
+				"17F6AFC430A15CDA"
+			]
+			description: ["需要&b橡胶片&r，希望你没拆掉之前的橡胶产线"]
 			id: "38FFB6D2003C7EB4"
 			tasks: [{
 				id: "0B788414AD9CB8B4"
@@ -738,6 +743,7 @@
 			dependencies: [
 				"108792B10FDEC848"
 				"6C6A3B91957A0B7B"
+				"17F6AFC430A15CDA"
 			]
 			description: [""]
 			hide_dependent_lines: true
@@ -775,12 +781,16 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6C6A3B91957A0B7B"]
+			dependencies: [
+				"6C6A3B91957A0B7B"
+				"64441B6414C20A57"
+			]
 			description: [
 				"更大，更强"
 				""
-				"只能使用泰坦钢线圈方块"
+				"只能使用&b泰坦钢线圈方块&r"
 			]
+			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "6C84DCF091D31F16"
 			optional: true

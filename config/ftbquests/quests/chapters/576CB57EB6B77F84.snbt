@@ -34,7 +34,7 @@
 				""
 				"输入不足，输出空间不够大，动力仓不够大，都会制约发电量"
 				"{@pagebreak}"
-				"水晶和魔法发电机可以从村民那“借”一点"
+				"你可以在村民那“借”到一些水晶和超低压魔法发电机"
 			]
 			hide_dependent_lines: true
 			id: "4C591AA4F1D907C1"
@@ -100,12 +100,9 @@
 		}
 		{
 			dependencies: ["05C8B854877A8A7D"]
-			description: [
-				"蒸汽还是很厉害"
-				""
-				"MV的蒸汽综合效率不如LV，HV更甚"
-			]
+			description: ["蒸汽还是很厉害"]
 			id: "18E1B2BB5CD96398"
+			subtitle: "MV的蒸汽综合效率不如LV，HV更甚"
 			tasks: [{
 				id: "77D31323DD63EC0C"
 				item: "gtceu:mv_steam_turbine"
@@ -209,7 +206,7 @@
 				""
 				"注意转子支架不能低于最低要求，否则会显示效率-1"
 				""
-				"推荐转子使用顺序：高速钢E-三钛-中子素"
+				"推荐使用高速钢E/S转子"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:steam_large_turbine"
@@ -560,7 +557,7 @@
 		}
 		{
 			dependencies: ["4B33F47839538D7B"]
-			description: ["相比硅岩，更省燃料，最高256A MAX输出"]
+			description: ["相比大硅岩，更省燃料，最高256A MAX输出"]
 			id: "548E8FA4B1004534"
 			tasks: [{
 				id: "5079AC2040FDA3AA"
@@ -675,6 +672,8 @@
 				"并不能放入发电阵列中"
 				""
 				"引雷三叉戟召唤的闪电也会让发电机充能"
+				""
+				"{ \"text\": \"你可能会用到它\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F663054E006E97B\" } }"
 			]
 			id: "45656BC02DC740CE"
 			tasks: [{
@@ -712,7 +711,7 @@
 				"1B77B2C00B24906E"
 				"504BA5B399BFA571"
 			]
-			description: ["搭配热交换机使用，可使用等离子或者裂变堆获得燃料"]
+			description: ["搭配热交换机使用，可使用裂变堆或者聚变堆获得燃料"]
 			id: "749FFDD88305518C"
 			tasks: [{
 				id: "7EE83AF0AE0CD89E"

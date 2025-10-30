@@ -86,7 +86,9 @@
 			description: [
 				"记得在使用时用扳手蹲下右键锁定流向"
 				""
-				"还可以用作储罐"
+				"还可以用于合成更大的管道，当作一个大号储罐"
+				""
+				"如果你不想被蒸汽或者其他热流体烫，可以给管道套上框架（用杆做的那些方块）"
 			]
 			icon: "gtceu:spacetime_tiny_fluid_pipe"
 			id: "781417A4FA36101D"
@@ -530,7 +532,13 @@
 			rewards: [
 				{
 					id: "0D834802BFD2366F"
-					item: "avaritia:crystal_pickaxe"
+					item: {
+						Count: 1
+						id: "avaritia:crystal_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -785,7 +793,7 @@
 				"34FCFA114E75D770"
 				"06285BE2396AB639"
 			]
-			description: ["更加便宜的电路，这个系列一直到EV"]
+			description: ["非常便宜的电路，这个系列一直到EV"]
 			icon_scale: 2.0d
 			id: "08B7D8F835DFE214"
 			size: 1.0d
@@ -902,7 +910,10 @@
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
 				"蒸汽机器需要&a&d设置排气口&r，运行一次后就需要排气，排气口需对着空气，否则就无法工作"
+				""
 				"使用扳手右键以设置排气口"
+				""
+				"排出的气体会造成伤害"
 			]
 			icon: "gtceu:lp_steam_rock_crusher"
 			id: "7736F74AEBCB914E"
@@ -1048,7 +1059,7 @@
 		{
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-				"蒸汽多方块需要放入&b蒸汽输入仓&r来提供蒸汽"
+				"蒸汽多方块需要放入&b蒸汽输入仓&r来提供蒸汽（大型蒸汽输入仓是&cMV末&r的物品，你现在做不出来的，使用普通的蒸汽输入仓即可）"
 				""
 				"&b蒸汽输入总线&r和&b蒸汽输出总线&r（增强至16个槽位！）可以为蒸汽多方块输入输出物品（蒸汽输入总线&c并不能设置编程电路&r，如有需求请使用其他输入总线/总成）"
 				""
@@ -1117,6 +1128,8 @@
 				"进阶激光连接器可以跨纬度连接"
 				""
 				"卡超频元件安装在激光卡中，最多4张；节点超频元件安装在激光节点中，最多8张"
+				""
+				"不能在大于1堆叠的卡中安装超频元件和过滤器"
 				""
 				"能量卡并不能传输EU"
 				""
@@ -1191,7 +1204,8 @@
 			dependencies: ["2C6F506ADD78F277"]
 			description: [
 				"没有电的时候可以先用手摇曲柄供能"
-				"或者做一个谐振仓"
+				""
+				"或者做一个谐振仓烧钻石"
 			]
 			id: "664C46D5C12E7255"
 			rewards: [
@@ -1401,7 +1415,11 @@
 		}
 		{
 			dependencies: ["08B7D8F835DFE214"]
-			description: ["{ \"text\": \"具体用法见<覆盖板>任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"]
+			description: [
+				"{ \"text\": \"具体用法见<覆盖板>任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"
+				""
+				"搭配ME接口可以达到惊人的传输效率"
+			]
 			hide_dependency_lines: true
 			id: "205B11E482DDF464"
 			optional: true
@@ -1430,7 +1448,7 @@
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
 			description: [
-				"较为便捷的EU传输方式（由于MAE2自身的bug，EU P2P并没有5%的能量损耗，已于MAE2的1.4.3版本修复）"
+				"较为便捷的EU传输方式"
 				""
 				"用有电量存储的GT工具调谐ME P2P通道获得"
 				""
@@ -1655,8 +1673,9 @@
 			]
 			dependency_requirement: "one_started"
 			description: [
-				"可以理解为一个不消耗的物品，但不需要真正的物品，只需要在机器/输入仓室里设置，具体位置在机器/输入仓室GUI左下角。"
-				"如果从外部输入编程电路物品，则会覆盖当前的电路设置，实现编程电路的自由变换。"
+				"可以理解为一个不消耗的物品（催化剂），但不需要真正的物品，只需要在机器/输入仓室里设置，具体位置在机器/输入仓室GUI左下角。"
+				""
+				"如果从外部输入编程电路物品，则会覆盖机器/仓室当前的电路设置，实现编程电路的自由变换。"
 			]
 			hide_dependency_lines: true
 			icon: {

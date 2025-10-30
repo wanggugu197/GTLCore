@@ -145,7 +145,7 @@
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
-			description: [""]
+			description: ["大型裂化机、热解炉和石化工厂的线圈加成到这就已经是最大值了"]
 			icon_scale: 2.0d
 			id: "1AA874C1351E4A0D"
 			shape: "rsquare"
@@ -222,7 +222,7 @@
 		}
 		{
 			dependencies: ["7523FB4AAB1F89C3"]
-			description: ["需要一点石头粉"]
+			description: ["需要一点石头粉做启动资金"]
 			id: "61F8C5AA6DEB30D6"
 			tasks: [{
 				id: "78A6560A02FCD3E9"
@@ -492,12 +492,16 @@
 				"71CB57064256F904"
 				"63F90FA0F85804B8"
 			]
-			description: ["最多可装载32个能源仓"]
+			description: [
+				"最多可装载32个能源仓"
+				""
+				"只能使用&eULV输入总线&r"
+			]
 			icon_scale: 1.3d
 			id: "30C1D7DEFB3B18BD"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "就像是装配线"
+			subtitle: "装配线，但是没有流体输入"
 			tasks: [{
 				id: "185FF9B96D2E6DA0"
 				item: "gtceu:aggregation_device"
@@ -695,7 +699,7 @@
 				"63F90FA0F85804B8"
 				"61F8C5AA6DEB30D6"
 			]
-			description: [""]
+			description: ["成型面板的放置速度比主动成型面板快"]
 			hide_dependent_lines: true
 			icon: "gtceu:bedrock_drilling_rig"
 			icon_scale: 2.0d
@@ -787,6 +791,8 @@
 				"线圈提供的温度为临界值/最高效率温度"
 				""
 				"高速模式用于快速提升温度，并不会影响最终效率"
+				""
+				"温度传感器的安装位置位于主机下方"
 			]
 			icon: "gtceu:advanced_infinite_driller"
 			icon_scale: 2.0d
@@ -794,11 +800,19 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "更大，更强"
-			tasks: [{
-				id: "41DA2385E5010CB7"
-				item: "gtceu:advanced_infinite_driller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41DA2385E5010CB7"
+					item: "gtceu:advanced_infinite_driller"
+					type: "item"
+				}
+				{
+					id: "59A9292B3134DECD"
+					item: "gtceu:heat_sensor"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -869,7 +883,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["流体加热器的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
+			description: ["流体加热器的激光版本，使用温度并行机制，温度每提升900K，并行数×2"]
 			icon_scale: 2.0d
 			id: "3F99F904B7B94324"
 			optional: true
@@ -890,6 +904,7 @@
 				"783379F3A7557CEE"
 				"713FF88279AD9A31"
 				"2E05225ADF4D7D31"
+				"4059A907154E2865"
 			]
 			description: ["拥有72格槽位"]
 			icon_scale: 1.5d

@@ -324,7 +324,7 @@
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
 			size: 1.0d
-			subtitle: "钾，钠，锂，氟的来源"
+			subtitle: "钾，钠，锂，氟，硼的来源"
 			tasks: [
 				{
 					id: "13B468D35939891B"
@@ -1083,14 +1083,14 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"&b应用能源2&r中的发展需要 赛特斯石英 矿脉."
+				"&b应用能源2&r中的发展需要 &6赛特斯石英&r 矿脉."
 				""
 				"重晶石经电解制成钡,你将需要它来制造一些高级超导材料."
 			]
 			icon: "gtceu:diorite_certus_quartz_ore"
 			id: "6B51D30E9BA60AB2"
 			size: 1.0d
-			subtitle: "AE2，钡的来源"
+			subtitle: "赛特斯石英，钡的来源"
 			tasks: [
 				{
 					id: "0B0CA82688C62391"
