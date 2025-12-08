@@ -14,6 +14,16 @@
 		{ count: 56, item: "gtceu:cupronickel_credit", random_bonus: 24, weight: 15.0f }
 		{ count: 38, item: "gtceu:silver_credit", random_bonus: 18, weight: 10.0f }
 		{ count: 16, item: "gtceu:chocolate_coin", random_bonus: 48, weight: 25.0f }
+		{
+			item: {
+				Count: 1
+				id: "ae2:facade"
+				tag: {
+					item: "expatternprovider:fishbig"
+				}
+			}
+			weight: 1.2f
+		}
 	]
 	title: "抽奖"
 }

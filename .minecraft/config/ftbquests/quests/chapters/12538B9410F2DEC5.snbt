@@ -112,6 +112,8 @@
 				"这个时候你也可以做大的"
 				""
 				"实际上多方块结构中的过滤器机械方块可以只使用最低级的，没有必要升级"
+				""
+				"除了去找远古守卫者要，你还可以用聚己内酰胺做海绵"
 			]
 			icon: "gtceu:large_incubator"
 			id: "503C03C654730F65"
@@ -209,7 +211,7 @@
 		}
 		{
 			dependencies: ["77759D1FE48F958B"]
-			description: ["由于Just Enough Characters（通用拼音搜索）并没有/无法收录元素周期表中的很多元素对应的拼音，可以使用“#”+“元素符号”的方式搜索，例如：#ds可以搜出来𫟼；由于ME网络中不会显示流体的化学式，请使用“*”+“标签”的方式搜索流体，例如*darmstadtium可以搜出来液态𫟼"]
+			description: ["由于Just Enough Characters（通用拼音搜索）并没有/无法收录元素周期表中的很多元素对应的拼音，可以使用“#”+“元素符号”的方式搜索，例如：#ds可以搜出来𫟼；由于ME网络中不会显示流体的化学式，可以使用“*”+“标签”的方式搜索流体，例如*darmstadtium可以搜出来液态𫟼"]
 			id: "7C23CC6ADDC33EA0"
 			tasks: [{
 				id: "68B49A32B28AECEA"
@@ -239,6 +241,7 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
+			title: "三钛线圈"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -319,15 +322,15 @@
 		{
 			dependencies: ["62D2B830A98424BB"]
 			description: [
-				"一台计算机提供的算力可能不够，如果要合并算力就需要这台机器"
+				"一台计算机提供的算力可能不够，如果要合并算力就必须使用这台机器"
 				""
 				"在使用前确保计算机上安装了&b&l桥接组件"
 				"&r"
 				"交换机界面显示的算力只是所有连接的计算机理论最大算力的总和，&c&l不是实际算力&r"
 				""
-				"网络交换机正常运行时，每一个算力仓都会持续耗能 7,680 EU/t，如果供电不足则有部分算力仓失效"
-				""
-				"交换机间可以串联（使用多个算力仓室）"
+				"网络交换机正常运行时，每一个算力仓都会持续耗能&e 7,680 &rEU/t（0.9A &6HV&r)，&4如果供电不足则有部分算力仓失效"
+				"&r"
+				"交换机间可以串联（交换机可以接受其他交换机的算力）"
 			]
 			icon_scale: 1.3d
 			id: "5E86110BBAEA92BA"
@@ -347,11 +350,16 @@
 				"7C4C11E7C931C01B"
 				"37C5E7628A4B826C"
 			]
-			description: ["以后需要"]
+			description: [
+				"产出部分超铀元素和反物质系列"
+				""
+				"可以使用双能源仓+单激光仓的架构，配方等级和功率两手抓"
+			]
 			icon_scale: 2.0d
 			id: "2802E34A99CE1D79"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "以后需要"
 			tasks: [{
 				id: "30BC4BA2F6A606D5"
 				item: "gtceu:super_particle_collider"
@@ -365,6 +373,7 @@
 				"0507FDF7BECE29AF"
 				"52DF531AFB3A07CE"
 			]
+			description: ["你可以制作计算机的桥接组件了，不过这个阶段你可能也用不上它"]
 			id: "5E9E2F25AE1EC731"
 			tasks: [{
 				id: "3C99AB623FB588D4"
@@ -379,6 +388,7 @@
 				"0B89B3108EB4A01F"
 				"5E9E2F25AE1EC731"
 			]
+			description: ["你可以给你的计算机换上高级计算组件了"]
 			hide_dependent_lines: true
 			id: "7C4C11E7C931C01B"
 			tasks: [{
@@ -394,7 +404,7 @@
 			description: [
 				"也叫小OP （Ore Processor）"
 				""
-				"只能使用ZPM消声仓"
+				"只能使用&eZPM&r消声仓"
 			]
 			icon_scale: 2.0d
 			id: "35C61EF7C0FBD32F"
@@ -416,7 +426,7 @@
 				""
 				"线圈只影响能耗"
 				""
-				"石化工厂不会产出中间产物，你可以选择保留旧有石化产线或者用太空电梯直接采集中间产物"
+				"石化工厂不会产出中间产物，你可以选择保留旧有石化产线或者到后面用太空电梯直接采集中间产物"
 			]
 			icon_scale: 2.0d
 			id: "61838E13426B2B88"
@@ -488,11 +498,7 @@
 		}
 		{
 			dependencies: ["7FD1D1D8ED72D40C"]
-			description: [
-				"{ \"text\": \"使用培养缸循环增产\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"
-				""
-				"配方原料区域中的“出产概率”实际上是消耗概率"
-			]
+			description: ["{ \"text\": \"使用培养缸循环增产\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"]
 			id: "079FEA1875012A69"
 			tasks: [{
 				count: 4L
@@ -539,7 +545,7 @@
 		}
 		{
 			dependencies: ["5E9E2F25AE1EC731"]
-			description: ["使用闪存绑定"]
+			description: ["使用闪存进行绑定"]
 			icon_scale: 2.0d
 			id: "6C24E5BA18FE8CF5"
 			shape: "rsquare"
@@ -622,7 +628,11 @@
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
-			description: ["效率更高"]
+			description: [
+				"效率更高"
+				""
+				"只能采集主世界的六种流体和熔岩"
+			]
 			icon_scale: 2.0d
 			id: "52980D117AB477B2"
 			shape: "rsquare"
@@ -756,7 +766,11 @@
 		}
 		{
 			dependencies: ["35D158AD5036923D"]
-			description: ["各种矿脉精华不仅用于大型虚空采矿场的精准模式，还是后续必需物品的材料之一"]
+			description: [
+				"各种矿脉精华不仅用于大型虚空采矿场的精准模式，还是后续必需物品的材料之一"
+				""
+				"精华只能使用&9GregTech&r的牛奶制作"
+			]
 			icon: "kubejs:space_essence"
 			id: "68D3E6670941A3F5"
 			tasks: [{
@@ -795,7 +809,7 @@
 				table_id: 6225023274141477362L
 				type: "random"
 			}]
-			subtitle: "9.2E的容量"
+			subtitle: "9.22E的容量"
 			tasks: [{
 				id: "22A5A0569A6E914F"
 				item: "gtlcore:max_storage"
@@ -812,7 +826,7 @@
 			description: [
 				"使用电力直接聚爆，不再需要炸药，还拥有并行！"
 				""
-				"只能使用LuV消声仓"
+				"只能使用&eLuV&r消声仓"
 			]
 			icon_scale: 2.0d
 			id: "6A6895119CECF238"

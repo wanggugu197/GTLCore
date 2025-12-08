@@ -6,21 +6,13 @@
 	icon: "gtceu:iv_electric_motor"
 	id: "3B3502FBD9F2C4CE"
 	order_index: 5
-	quest_links: [
-		{
-			id: "0DE52ED40E51ADE2"
-			linked_quest: "3EAC914AA2073B05"
-			shape: "diamond"
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			id: "5D6473A58EAD0FE2"
-			linked_quest: "1223D839C224777B"
-			x: 6.0d
-			y: 2.0d
-		}
-	]
+	quest_links: [{
+		id: "0DE52ED40E51ADE2"
+		linked_quest: "3EAC914AA2073B05"
+		shape: "diamond"
+		x: 12.0d
+		y: 2.0d
+	}]
 	quests: [
 		{
 			dependencies: ["148A5C927A0DCED1"]
@@ -32,7 +24,7 @@
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -67,8 +59,8 @@
 				}
 			]
 			title: "各种锭"
-			x: 6.0d
-			y: 4.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4058D1416D94BABB"]
@@ -97,8 +89,8 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 6.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
@@ -106,6 +98,8 @@
 				"现在可以制作单方块机器的大型版本，能更好的升压超频，同时支持并行"
 				""
 				"别忘了给之前的机器装上并行控制仓（脱硫机，渔场，大型温室等）"
+				""
+				"并行仓可以共用"
 				""
 				"{ \"text\": \"可以到这里查看总共有多少种单方块机器大型版本\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1443E064A0AB0B8B\" } }"
 			]
@@ -128,12 +122,11 @@
 				}
 			]
 			x: 6.0d
-			y: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"0526B4AC0CAF99A5"
-				"15580C25FF239402"
 				"3CB16B36A5AA2A10"
 			]
 			description: ["LuV阶段主要材料"]
@@ -146,7 +139,7 @@
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
@@ -159,8 +152,8 @@
 				item: "gtceu:qbit_cpu_chip"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 6.0d
+			x: 10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
@@ -171,13 +164,14 @@
 				item: "gtceu:hssg_ingot"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"62B67704211A105D"
 				"079CD9FD65CB2ED2"
+				"4058D1416D94BABB"
 			]
 			icon_scale: 2.0d
 			id: "7DCA0B7C9F3C3ACF"
@@ -188,6 +182,7 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
+			title: "高速钢-G线圈"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -196,6 +191,7 @@
 				"7DCA0B7C9F3C3ACF"
 				"3CB16B36A5AA2A10"
 			]
+			description: ["你可以用IV搅拌机做，也可以用合金冶炼炉"]
 			id: "2A81EA75E3DD41A3"
 			tasks: [
 				{
@@ -211,16 +207,16 @@
 			]
 			title: "高速钢-E和S"
 			x: 4.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"2A81EA75E3DD41A3"
-				"079CD9FD65CB2ED2"
 				"7531D52AF313CEEB"
 			]
 			description: ["IV阶段的电路可以不用"]
 			id: "4604207A60F04214"
+			subtitle: "更进一步"
 			tasks: [
 				{
 					id: "54EBA1E915CCDDAC"
@@ -249,11 +245,12 @@
 				}
 			]
 			title: "高级贴片"
-			x: 4.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
+			description: ["可能是最后一种小组装机"]
 			hide_dependent_lines: true
 			id: "079CD9FD65CB2ED2"
 			tasks: [{
@@ -262,26 +259,24 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"38480A52A13DA157"
 				"69E208F71C5EB4B3"
 			]
-			description: [
-				"新的塑料PBI"
-				"比较麻烦,且后期需求量很大"
-			]
+			description: ["比较麻烦,且后期需求量很大"]
 			hide_dependent_lines: true
 			id: "7531D52AF313CEEB"
+			subtitle: "PBI"
 			tasks: [{
 				id: "647AACA023F507D1"
 				item: "gtceu:polybenzimidazole_plate"
 				type: "item"
 			}]
 			title: "新的塑料"
-			x: 12.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -298,8 +293,8 @@
 				item: "gtceu:quantum_processor"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.0d
+			x: 12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["31AC84CBD7C26566"]
@@ -310,8 +305,8 @@
 				item: "gtceu:quantum_processor_assembly"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 6.0d
+			x: 14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3F0D5B17665DF1CE"]
@@ -352,18 +347,25 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["631707E722744406"]
+			dependencies: [
+				"631707E722744406"
+				"2CAC63F25BAF50B3"
+			]
 			id: "0FCA3B71669C8122"
 			tasks: [{
 				id: "431CBC4C1A32BCEC"
 				item: "gtceu:quantum_star"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["0FCA3B71669C8122"]
+			dependencies: [
+				"0FCA3B71669C8122"
+				"5B65662B72C369E7"
+				"3CB16B36A5AA2A10"
+			]
 			id: "27BA6EBA81622516"
 			tasks: [
 				{
@@ -378,26 +380,25 @@
 				}
 			]
 			title: "IV传感器与发射器"
-			x: 16.0d
-			y: 0.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
-				"148A5C927A0DCED1"
 				"3AD2F40B030A6BC8"
 				"382F3E7588A0AD5E"
-				"2CE5738B7A8225A6"
+				"7A4A5E773AC5C003"
 			]
 			description: [
 				"很贵，但IV之后必备。"
 				""
 				"最长可达17格，实际上越长的装配线有更多的耗时减免。"
 				""
-				"需要研究数据来运行。"
+				"大部分配方需要研究数据来运行，研究数据可看作某种催化剂。"
 				""
-				"只能使用ULV输入总线，输入仓任意。"
+				"只能使用&e&oULV输入总线&r，输入仓任意。"
 				""
-				"物品和流体无需有序输入，进阶装配线、电路装配线、超时空装配线、超时空装配线扩展模块、聚合装置同理"
+				"物品和流体&b无需有序输入&r，进阶装配线、电路装配线、超时空装配线、超时空装配线扩展模块、聚合装置同理"
 				""
 				"编写样板时会自动忽略用于研究的闪存、数据球和数据模块"
 			]
@@ -416,19 +417,20 @@
 				item: "gtceu:assembly_line"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 18.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
+			description: ["不会是最后一种小电路组装机"]
 			id: "027B25761BD830C8"
 			tasks: [{
 				id: "57AB73EF21D31E54"
 				item: "gtceu:iv_circuit_assembler"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 2.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["027B25761BD830C8"]
@@ -442,8 +444,8 @@
 				item: "gtceu:large_circuit_assembler"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 2.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -456,7 +458,7 @@
 				item: "gtceu:hpic_chip"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -464,15 +466,15 @@
 				"15F08D296DE33A44"
 				"079CD9FD65CB2ED2"
 			]
-			description: ["升级"]
+			description: ["升压"]
 			id: "15580C25FF239402"
 			tasks: [{
 				id: "1C9F7F0D50ED81F7"
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -487,8 +489,8 @@
 				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["02D426BE0947F123"]
@@ -498,7 +500,7 @@
 				item: "gtceu:iv_field_generator"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -513,19 +515,19 @@
 				item: "gtceu:data_access_hatch"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 8.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["148A5C927A0DCED1"]
-			description: ["可能是最后一种切割机"]
+			description: ["可能是最后一种小切割机"]
 			id: "3B79A329196883EF"
 			tasks: [{
 				id: "3F7925F1D16C107A"
 				item: "gtceu:iv_cutter"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -533,8 +535,7 @@
 				"38480A52A13DA157"
 				"7DE4799C4F88801B"
 			]
-			description: ["更高级的玻璃"]
-			hide_dependent_lines: true
+			description: ["又是一条小产线"]
 			id: "148A5C927A0DCED1"
 			tasks: [{
 				id: "62F5055E01F9396B"
@@ -542,7 +543,7 @@
 				type: "item"
 			}]
 			title: "新的玻璃"
-			x: 4.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -553,8 +554,8 @@
 				item: "gtceu:fiber_reinforced_printed_circuit_board"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 10.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0F22A8CE63F369CA"]
@@ -575,7 +576,7 @@
 				item: "gtceu:blaze_blast_furnace"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 8.0d
 			y: 8.0d
 		}
 		{
@@ -601,27 +602,23 @@
 				item: "gtceu:dimensionally_transcendent_steam_boiler"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"02D426BE0947F123"
 				"5010011959CF5337"
 			]
-			description: [
-				"{ \"text\": \"挖一点就够了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"
-				""
-				"火星的神庙结构里面固定带有一个紫金块"
-			]
+			description: ["{ \"text\": \"挖一点就够了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"]
 			id: "00E7CB7CD9296B1A"
 			tasks: [{
 				id: "2FB73F086EA348D8"
 				item: "ad_astra:ostrum_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 6.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -672,12 +669,14 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
 			description: [
+				"必备"
+				""
 				"高温发电量更高，低温主要用于生产资源"
 				""
 				"请仔细阅读主机文字描述"
@@ -697,7 +696,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
@@ -748,8 +747,8 @@
 				}
 			]
 			title: "ME库存仓室"
-			x: 18.0d
-			y: 0.0d
+			x: 14.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7D8241E627194099"]
@@ -759,22 +758,23 @@
 				item: "gtceu:assembly_line_unit"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 18.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"0526B4AC0CAF99A5"
 				"3CB16B36A5AA2A10"
 			]
+			description: ["这个合金只有搅拌机配方"]
 			id: "7D8241E627194099"
 			tasks: [{
 				id: "21095623F1E9DBD4"
 				item: "gtceu:ruridit_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 6.0d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -788,27 +788,33 @@
 				item: "gtceu:assembly_line_casing"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 16.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2CE5738B7A8225A6"]
-			description: ["装配线的部分配方需要扫描过的闪存"]
+			description: [
+				"装配线的部分配方需要扫描过的闪存"
+				""
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+			]
 			id: "7A4A5E773AC5C003"
 			tasks: [{
 				id: "04B8AC9FE06215AC"
 				item: "gtceu:iv_scanner"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 16.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"42129A63D97DDF28"
 				"4C43D30FD9B89965"
 			]
-			description: ["这个阶段我推荐你沉淀一下，用大机器重构你的ae下单，选择一种新的发电方式"]
+			description: ["这个阶段推荐在做出来大机器之后沉淀一下，重构你的产线，以及选择一种新的发电方式"]
 			hide_dependent_lines: true
 			id: "38480A52A13DA157"
 			shape: "rsquare"
@@ -841,18 +847,22 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["1223D839C224777B"]
+			dependencies: [
+				"1223D839C224777B"
+				"29D4D49428BF7FF4"
+			]
+			description: ["{ \"text\": \"钐的产线可能很长，也可能很短\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"]
 			id: "3ECA33037D940EAB"
 			tasks: [{
 				id: "7778FF7D320A8783"
 				item: "gtceu:samarium_dust"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
@@ -873,12 +883,16 @@
 				}
 			]
 			title: "镧系两件套"
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["365298DB6520227A"]
-			description: ["可以用超临界钠钾合金获得超临界蒸汽，用于给超临界蒸汽涡轮发电"]
+			description: [
+				"可以通过热钠钾合金获得远超于超维度锅炉产出的蒸汽量"
+				""
+				"也可以用超临界钠钾合金获得超临界蒸汽，用于给超临界蒸汽涡轮发电"
+			]
 			icon_scale: 2.0d
 			id: "24CE67689DD540B7"
 			shape: "rsquare"
@@ -890,7 +904,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -918,8 +932,8 @@
 				type: "item"
 			}]
 			title: "五倍速！！"
-			x: 14.0d
-			y: 4.0d
+			x: 18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -933,7 +947,7 @@
 				""
 				"建议线缆统一使用同一种高级橡胶"
 				""
-				"注意两种高级橡胶后续都是一定会用到的"
+				"注意两种高级橡胶在后续都有专属配方，普通橡胶也是"
 			]
 			id: "7794BE986C48C92D"
 			tasks: [
@@ -954,8 +968,8 @@
 				}
 			]
 			title: "新的橡胶与树脂"
-			x: 8.0d
-			y: 4.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0F22A8CE63F369CA"]
@@ -968,7 +982,19 @@
 				item: "gtceu:large_pyrolyse_oven"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["38480A52A13DA157"]
+			description: ["裂变-蒸汽/超临界，硅岩反应堆，化学能吞噬者……"]
+			id: "0DA85DFCDF063CFB"
+			tasks: [{
+				id: "3E9DA664071D01DB"
+				title: "新的发电方式"
+				type: "checkmark"
+			}]
+			x: 2.0d
 			y: 8.0d
 		}
 	]

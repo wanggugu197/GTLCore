@@ -8,14 +8,6 @@
 	order_index: 10
 	quest_links: [
 		{
-			id: "10C4932409BC9EF8"
-			linked_quest: "5CD56CD71662D4A7"
-			shape: "gear"
-			size: 2.0d
-			x: 2.0d
-			y: -2.0d
-		}
-		{
 			id: "662A44313552F6C7"
 			linked_quest: "713FF88279AD9A31"
 			shape: "gear"
@@ -33,14 +25,14 @@
 	quests: [
 		{
 			dependencies: [
-				"5CD56CD71662D4A7"
 				"23B418803D455368"
+				"783379F3A7557CEE"
 			]
 			description: [
 				"使用一种特殊的仪式消耗能量来收集周围的魔力"
 				"这里的魔力相当于一种原材料"
 				""
-				"蜡烛可以用石油制作黑色的，然后染色"
+				"蜡烛可以先用石油制作黑色的，然后染色成品红色的"
 				""
 				"龙蛋可以用鸡蛋制作"
 			]
@@ -68,8 +60,13 @@
 				"369DCD1E26334632"
 				"2858C1A89BAF2624"
 				"24585C3114095227"
+				"42A3F72D88E25018"
 			]
-			description: ["该阶段的核心机器"]
+			description: [
+				"该阶段的核心机器"
+				""
+				"强化深板岩挖掘后不会掉落，只能合成得到"
+			]
 			icon_scale: 1.3d
 			id: "7523FB4AAB1F89C3"
 			shape: "hexagon"
@@ -88,6 +85,7 @@
 				"78350872B1ACF525"
 				"78F0147BABE80DDD"
 			]
+			description: ["你需要64朵紫颂花"]
 			id: "34D6F0DF329B1877"
 			tasks: [{
 				id: "18706EDCE5C2C70A"
@@ -134,18 +132,27 @@
 		{
 			dependencies: ["6DB1B7A9173E2C78"]
 			description: ["记得之前的艾萨线吗"]
+			icon: "gtceu:naquadah_contain_rare_earth_dust"
 			id: "61B5CBFAACE6010D"
-			tasks: [{
-				id: "1D18BBEC7C609BF5"
-				item: "gtceu:naquadah_contain_rare_earth_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "327FFD86CCB4EFF8"
+					item: "gtceu:naquadah_contain_rare_earth_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5E1CBEA9E0623B56"
+					type: "checkmark"
+				}
+			]
+			title: "含硅岩的稀土粉"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
-			description: [""]
+			description: ["大型裂化机、热解炉和石化工厂的线圈加成到这就已经是最大值了"]
 			icon_scale: 2.0d
 			id: "1AA874C1351E4A0D"
 			shape: "rsquare"
@@ -154,6 +161,7 @@
 				item: "kubejs:adamantine_coil_block"
 				type: "item"
 			}]
+			title: "精金线圈"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -222,7 +230,7 @@
 		}
 		{
 			dependencies: ["7523FB4AAB1F89C3"]
-			description: ["需要一点石头粉"]
+			description: ["需要一点石头粉做启动资金"]
 			id: "61F8C5AA6DEB30D6"
 			tasks: [{
 				id: "78A6560A02FCD3E9"
@@ -274,20 +282,18 @@
 				""
 				"会有很多副产物，其中最有价值的是铊粉（氧化残留溶液-重氧化残渣粉-重金属残渣粉-重顺磁残渣粉）"
 			]
+			icon: "gtceu:metal_residue_dust"
 			id: "4F0F175ACFF363F0"
 			tasks: [{
-				id: "0641A1FEEC679E7C"
-				item: "gtceu:metal_residue_dust"
-				type: "item"
+				id: "49024352D46F755A"
+				type: "checkmark"
 			}]
+			title: "金属残渣"
 			x: 8.0d
 			y: 1.0d
 		}
 		{
-			dependencies: [
-				"7523FB4AAB1F89C3"
-				"42A3F72D88E25018"
-			]
+			dependencies: ["7523FB4AAB1F89C3"]
 			description: ["UIV超导体"]
 			id: "2641CC6BC33F6A31"
 			subtitle: "很坚硬"
@@ -301,7 +307,7 @@
 		}
 		{
 			dependencies: ["075D368E91231337"]
-			description: ["使用催发体循环"]
+			description: ["可以使用催发体循环，但是效率不如右边的那个"]
 			icon: "minecraft:echo_shard"
 			id: "42A3F72D88E25018"
 			rewards: [{
@@ -332,6 +338,7 @@
 				"4EA64DC5DA2F0F8C"
 			]
 			id: "1F5B121C6647E2CA"
+			subtitle: "需要8级净化水"
 			tasks: [{
 				id: "02C4C3897AB62269"
 				item: "kubejs:exotic_chip"
@@ -492,12 +499,16 @@
 				"71CB57064256F904"
 				"63F90FA0F85804B8"
 			]
-			description: ["最多可装载32个能源仓"]
+			description: [
+				"最多可装载32个能源仓"
+				""
+				"只能使用&eULV输入总线&r"
+			]
 			icon_scale: 1.3d
 			id: "30C1D7DEFB3B18BD"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "就像是装配线"
+			subtitle: "装配线，但是没有流体输入"
 			tasks: [{
 				id: "185FF9B96D2E6DA0"
 				item: "gtceu:aggregation_device"
@@ -508,7 +519,11 @@
 		}
 		{
 			dependencies: ["3063F232F801D089"]
-			description: ["通过注入龙力的黑曜石循环增产"]
+			description: [
+				"通过注入龙力的黑曜石循环增产"
+				""
+				"建议使用&6煤炭&r或者&6油砂&r矿石制作宇宙精华"
+			]
 			hide_dependent_lines: true
 			id: "192B626CF217FDBC"
 			tasks: [{
@@ -517,7 +532,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7370721CB75472C1"]
@@ -543,10 +558,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"5CD56CD71662D4A7"
-				"7B8FEC11FCC03D9A"
-			]
+			dependencies: ["7B8FEC11FCC03D9A"]
 			description: ["有点复杂"]
 			hide_dependency_lines: true
 			icon: "gtceu:euv_photoresist_bucket"
@@ -582,7 +594,9 @@
 				""
 				"自带桥接功能"
 				""
-				"多方块内部只有顶层需要放置极寒之凛冰"
+				"多方块内部只有&b顶层&r需要放置极寒之凛冰"
+				""
+				"升级主机和能源仓以获得更高的算力"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -609,8 +623,8 @@
 				item: "kubejs:taranium_boule"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -695,7 +709,7 @@
 				"63F90FA0F85804B8"
 				"61F8C5AA6DEB30D6"
 			]
-			description: [""]
+			description: ["成型面板的放置速度比主动成型面板快"]
 			hide_dependent_lines: true
 			icon: "gtceu:bedrock_drilling_rig"
 			icon_scale: 2.0d
@@ -725,7 +739,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -763,7 +777,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["63F90FA0F85804B8"]
+			dependencies: [
+				"63F90FA0F85804B8"
+				"192B626CF217FDBC"
+			]
 			description: ["可以优化你的燃料产线"]
 			icon_scale: 2.0d
 			id: "3A89C534A7AE9E33"
@@ -787,6 +804,8 @@
 				"线圈提供的温度为临界值/最高效率温度"
 				""
 				"高速模式用于快速提升温度，并不会影响最终效率"
+				""
+				"温度传感器的安装位置位于主机下方"
 			]
 			icon: "gtceu:advanced_infinite_driller"
 			icon_scale: 2.0d
@@ -794,11 +813,19 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "更大，更强"
-			tasks: [{
-				id: "41DA2385E5010CB7"
-				item: "gtceu:advanced_infinite_driller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "41DA2385E5010CB7"
+					item: "gtceu:advanced_infinite_driller"
+					type: "item"
+				}
+				{
+					id: "59A9292B3134DECD"
+					item: "gtceu:heat_sensor"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 0.0d
 		}
@@ -827,6 +854,7 @@
 				item: "kubejs:naquadriatictaranium_coil_block"
 				type: "item"
 			}]
+			title: "超能硅岩-塔兰线圈"
 			x: 13.0d
 			y: 5.0d
 		}
@@ -837,7 +865,7 @@
 			id: "0991031579C4CAA7"
 			optional: true
 			shape: "rsquare"
-			subtitle: "一步到位"
+			subtitle: "大OP"
 			tasks: [{
 				id: "335FA9C6613E28F5"
 				item: "gtceu:advanced_integrated_ore_processor"
@@ -850,7 +878,6 @@
 			dependencies: [
 				"6BB5ED6ECC43E30C"
 				"783379F3A7557CEE"
-				"23B418803D455368"
 				"192B626CF217FDBC"
 				"68D3E6670941A3F5"
 			]
@@ -864,12 +891,12 @@
 				item: "kubejs:space_drone_mk4"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.0d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["流体加热器的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
+			description: ["流体加热器的激光版本，使用温度并行机制，温度每提升900K，并行数×2"]
 			icon_scale: 2.0d
 			id: "3F99F904B7B94324"
 			optional: true
@@ -890,6 +917,7 @@
 				"783379F3A7557CEE"
 				"713FF88279AD9A31"
 				"2E05225ADF4D7D31"
+				"4059A907154E2865"
 			]
 			description: ["拥有72格槽位"]
 			icon_scale: 1.5d
@@ -934,8 +962,8 @@
 				item: "gtceu:adamantium_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 2.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

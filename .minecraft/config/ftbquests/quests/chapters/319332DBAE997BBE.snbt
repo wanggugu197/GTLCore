@@ -52,6 +52,7 @@
 				item: "gtceu:naquadah_coil_block"
 				type: "item"
 			}]
+			title: "硅岩线圈"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -312,17 +313,19 @@
 				item: "gtceu:trinium_coil_block"
 				type: "item"
 			}]
+			title: "凯金线圈"
 			x: 8.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["233CA36D529EC3FB"]
-			description: ["拥有无损超频"]
+			description: ["这并不是装配线"]
 			hide_text_until_complete: false
 			icon_scale: 2.0d
 			id: "2A0269009ABF1414"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "拥有无损超频"
 			tasks: [{
 				id: "17918BFA4E414A13"
 				item: "gtceu:precision_assembler"
@@ -365,7 +368,9 @@
 				""
 				"研究站的多方块结构包含空气，物品支架所在4*3*3区域内的空气不能被其他方块替换，否则研究站不会成型"
 				""
-				"如果使用可配置维护仓系列，请确保与研究站连接的HPCA同样使用可配置维护仓并且保持耗时系数一致"
+				"研究站并不能运行扫描仪配方"
+				""
+				"注意：如果使用可配置维护仓系列，请确保与研究站连接的HPCA同样使用可配置维护仓并且保持耗时系数一致"
 			]
 			icon_scale: 1.3d
 			id: "298369255C8130F7"
@@ -429,18 +434,6 @@
 				{
 					id: "305043E5EE17B112"
 					item: "gtceu:hpca_active_cooler_component"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "1E0D9D7AC5776110"
-					item: "gtceu:hpca_advanced_computation_component"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "083558D0E21DA1D8"
-					item: "gtceu:hpca_bridge_component"
 					optional_task: true
 					type: "item"
 				}
@@ -514,6 +507,7 @@
 				"766D051A40AB5324"
 				"38091E7431B96FF6"
 			]
+			description: ["到后面你也可以用聚变III来做"]
 			id: "4A058FA1859A00D1"
 			tasks: [{
 				id: "20E616EF8F63C870"
@@ -673,15 +667,17 @@
 				"4706F66FF46487F2"
 				"18CB66D8EABD5132"
 			]
+			dependency_requirement: "one_completed"
 			description: [
-				"除了用于处理泡沫还能作为脱水机使用"
+				"除了用于处理矿物泡沫还能作为脱水机使用"
 				""
 				"作为真空干燥机使用时，机制与电力高炉相同"
 				""
-				"作为脱水机使用时，使用温度超频机制，温度每提升900K，并行数×2"
+				"作为脱水机使用时，使用温度并行机制，温度每提升900K，并行数×2"
 			]
 			icon_scale: 1.5d
 			id: "147A71CE5EEBC836"
+			min_required_dependencies: 2
 			shape: "rsquare"
 			tasks: [{
 				id: "09A3EC272A7B5FF8"
@@ -781,16 +777,16 @@
 				"2A0269009ABF1414"
 			]
 			description: [
-				"每个聚变堆都有对应的压缩版本，不仅能够放置任意能源仓，还可以超频（等价无损！），且拥有并行，甚至还能使用&b&l激光仓&r！"
+				"每个聚变堆都有对应的压缩版本，不仅可以超频（等价无损！），且拥有并行，甚至还能使用&b&l激光仓&r！"
 				""
 				"关于并行仓和输入输出仓位置："
 				"{image:ftbquests:textures/picture/004.png width:200 height:100 align:center}"
 				"图示仅供位置参考，实际并行仓不能叠加，输入输出仓的位置也适用于其他的面"
-				"关于能源/激光仓位置："
+				"关于能源/激光仓位置（图中为在压聚内部朝外看）："
 				"{image:ftbquests:textures/picture/005.png width:200 height:100 align:center}"
 			]
 			hide_dependency_lines: true
-			icon_scale: 2.0d
+			icon_scale: 1.5d
 			id: "43A83C00715285B5"
 			shape: "rsquare"
 			size: 1.0d
@@ -869,25 +865,37 @@
 				""
 				"“配方已缓存”相当于锁定配方，只有当样板总成符合之前缓存的运行条件时才会让机器运行配方（包括催化剂，编程电路等环境）"
 				""
+				"支持在同一个样板中缓存多个配方（需在专用催化剂槽的GUI中设置实际配方数量）"
+				""
 				"在ME样板管理终端中样板总成的默认名称为所在多方块主机名字以及加上设置的编程电路（如超级冶炼炉-3）"
 				""
 				"专用催化剂槽的GUI可以拖动（可能会有奇怪的覆盖显示问题）"
 				""
-				"复制工具并不能复制催化剂设置；黏贴配置时请确保背包内有足够的空白样板"
+				"样板总成默认忽视样板中的副产物，可在GUI左下角关闭"
 				""
-				"实际上剪切工具能完好无损的搬运样板总成（&c不要&r中途&o&e旋转&r且确保黏贴位置&o&e没有阻挡&r！）"
+				"复制工具&6不能&r复制催化剂设置；黏贴配置时请确保背包内有足够的空白样板"
+				""
+				"剪切工具&6可以&r搬运催化剂设置"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:me_mini_pattern_buffer"
 			icon_scale: 1.5d
 			id: "688861674CAC5315"
 			optional: true
-			rewards: [{
-				id: "041FB87527533B1E"
-				item: "gtlcore:me_pattern_buffer_copy"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "041FB87527533B1E"
+					item: "gtlcore:me_pattern_buffer_copy"
+					type: "item"
+				}
+				{
+					id: "74D22D009867C423"
+					item: "gtlcore:me_pattern_buffer_cut"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
+			subtitle: "也属于ME仓室"
 			tasks: [{
 				id: "43C0B303F8635A1D"
 				item: "gtceu:me_mini_pattern_buffer"
@@ -925,11 +933,11 @@
 			description: [
 				"大容量数据存储，使用光学数据仓室为多个装配线提供数据"
 				""
-				"还可以串联（使用多个光学数据仓室）"
+				"数据库间还可以串联（数据库可以通过靶仓获得来自其他数据库的数据）"
 				""
 				"光学数据仓室并不能被多方块结构共用"
 				""
-				"每一个仓室（光学和访问）都会持续耗能 1,920 EU/t。若数据库正在被其他机器写入或读取数据，则每个仓室的耗能功率均提升至 30,720 EU/t。"
+				"每一个仓室（光学和访问）都会持续耗能 &e1,920&r EU/t（0.9A &bMV&r）；若数据库正在被其他机器写入或读取数据，则每个仓室的耗能功率均提升至 &e30,720&r EU/t（0.9A &5EV&r)，&4如果供电不足则有部分仓室失效"
 			]
 			icon: "gtceu:data_bank"
 			icon_scale: 1.5d

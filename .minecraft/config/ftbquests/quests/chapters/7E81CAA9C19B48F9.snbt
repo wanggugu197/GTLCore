@@ -1302,7 +1302,7 @@
 				}
 			]
 			title: "二甲基二氯硅烷"
-			x: -9.0d
+			x: -10.5d
 			y: -6.0d
 		}
 		{
@@ -1640,7 +1640,7 @@
 				}
 			]
 			title: "氯甲烷"
-			x: -10.5d
+			x: -12.0d
 			y: -6.0d
 		}
 		{
@@ -1855,8 +1855,8 @@
 				}
 			]
 			title: "二甲硫醚"
-			x: -4.5d
-			y: -1.5d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1878,8 +1878,8 @@
 				}
 			]
 			title: "乙硼烷"
-			x: -6.0d
-			y: 0.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -6155,7 +6155,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -6.0d
+			x: -9.0d
 			y: -6.0d
 		}
 		{
@@ -6891,6 +6891,117 @@
 			}]
 			x: -31.5d
 			y: 1.5d
+		}
+		{
+			icon: "gtceu:nitrosyl_chloride_bucket"
+			id: "3BCC01481DA8F994"
+			tasks: [
+				{
+					id: "23D953E8545E3DFA"
+					item: "gtceu:nitrosyl_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4955D7D68E4434CD"
+					type: "checkmark"
+				}
+			]
+			title: "亚硝酰氯"
+			x: -24.0d
+			y: -6.0d
+		}
+		{
+			icon: "gtceu:cyclohexane_bucket"
+			id: "79A2F160AFC832EB"
+			tasks: [
+				{
+					id: "0852F7C1E8CAA688"
+					item: "gtceu:cyclohexane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24E0076A02C3ED6C"
+					type: "checkmark"
+				}
+			]
+			title: "环己烷"
+			x: -24.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1C341944CDAFE144"]
+			icon: "gtceu:caprolactam_dust"
+			id: "261A240EF97C8266"
+			tasks: [
+				{
+					id: "1E1A3FE95F7C7FA1"
+					item: "gtceu:caprolactam_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F4D21E793245585"
+					type: "checkmark"
+				}
+			]
+			x: -21.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"79A2F160AFC832EB"
+				"3BCC01481DA8F994"
+			]
+			icon: "gtceu:cyclohexanone_oxime_dust"
+			id: "1C341944CDAFE144"
+			tasks: [
+				{
+					id: "2F8A1D3F4B2B1623"
+					item: "gtceu:cyclohexanone_oxime_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0FC1D1013E499333"
+					type: "checkmark"
+				}
+			]
+			x: -22.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["261A240EF97C8266"]
+			description: ["可以用来制作线和海绵，也是寰宇贴片电容的材料"]
+			icon: "gtceu:polycaprolactam_ingot"
+			icon_scale: 2.0d
+			id: "1B81408A4EB93412"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1D7DB7DCE96E5F4F"
+					item: "gtceu:polycaprolactam_ingot"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "742FC518C014E398"
+					type: "checkmark"
+				}
+			]
+			x: -21.0d
+			y: -6.0d
+		}
+		{
+			id: "5D0389442E831EC0"
+			tasks: [{
+				id: "0812F27CF89323D3"
+				title: "聚己内酰胺"
+				type: "checkmark"
+			}]
+			x: -25.5d
+			y: -7.5d
 		}
 	]
 	title: "材料制备"

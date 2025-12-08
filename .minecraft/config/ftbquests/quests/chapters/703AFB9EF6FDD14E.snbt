@@ -18,7 +18,7 @@
 		{
 			dependencies: ["516AA655EF6CBBF0"]
 			description: [""]
-			hide: false
+			hide_until_deps_visible: false
 			id: "0F04364907145AF1"
 			optional: true
 			rewards: [{
@@ -37,7 +37,7 @@
 		}
 		{
 			dependencies: ["516AA655EF6CBBF0"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "14B8DFAE3AA43497"
 			optional: true
 			rewards: [{
@@ -77,6 +77,12 @@
 					item: "gtceu:ulv_solar_panel"
 					type: "item"
 				}
+				{
+					count: 64
+					id: "154C7C62524935E2"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "0ABA4D223034D5A2"
@@ -91,7 +97,7 @@
 				"0F04364907145AF1"
 				"14B8DFAE3AA43497"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1B664763E9558755"
 			optional: true
 			rewards: [{
@@ -116,7 +122,7 @@
 				""
 				"在&5EV&r后期就能制作了"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			id: "72FB1A140FACFA76"
 			optional: true
 			rewards: [{
@@ -157,7 +163,7 @@
 		{
 			dependencies: ["7F78340CB4A8EC59"]
 			description: [""]
-			hide: false
+			hide_until_deps_visible: false
 			id: "7C24D5FD2C008BD4"
 			optional: true
 			rewards: [
@@ -302,7 +308,7 @@
 				""
 				"多方块结构的重力判定只取决于主机位置"
 			]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_1_rocket"
@@ -340,7 +346,7 @@
 		{
 			dependencies: ["7C24D5FD2C008BD4"]
 			description: ["你需要大量的采集器用于生产奇迹"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "5F403C7AE4B5486C"
 			optional: true
 			rewards: [{
@@ -361,7 +367,7 @@
 		{
 			dependencies: ["5F403C7AE4B5486C"]
 			description: ["{ \"text\": \"创造维度\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1416EAE88C9030C8\" } }"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: "minecraft:bedrock"
 			id: "14E8D6FF37930A06"
 			optional: true
@@ -375,7 +381,6 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
-			hide_dependency_lines: true
 			icon: "minecraft:oak_sapling"
 			id: "66C8E56877EB2C27"
 			rewards: [
@@ -444,7 +449,6 @@
 				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
 				"以了解相关指令"
 			]
-			hide_dependency_lines: true
 			icon: "minecraft:command_block"
 			id: "312C7E81F1B9880D"
 			optional: true
@@ -459,13 +463,9 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
-			description: [
-				"按顺序产量逐渐升高"
-				""
-				"配方原料区域中的“出产概率”实际上是消耗概率"
-			]
-			hide: true
+			description: ["按顺序产量逐渐升高"]
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			id: "14DE79EDCDA4A6BE"
 			optional: true
 			subtitle: "这是可以用来采集流体的钻头们"

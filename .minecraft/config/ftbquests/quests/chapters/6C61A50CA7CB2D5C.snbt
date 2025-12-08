@@ -1150,7 +1150,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["602F48807D4A89A6"]
+			dependencies: [
+				"602F48807D4A89A6"
+				"1FECF89B2EE569B5"
+			]
 			description: ["如果AE无法识别自动合成出来的闪存，建议手动将样板中的闪存替换为网络中已经存在的闪存（数据球，数据模块同理）"]
 			icon_scale: 2.0d
 			id: "2BB52D1C09C418A9"
@@ -1295,7 +1298,7 @@
 			description: [
 				"终于可以去下界了"
 				""
-				"怎么去呢？在远古反应核相邻的四个位置放金块，角落的四个位置放绿宝石块，手持下界数据右键"
+				"怎么去呢？将你之前做的远古世界传送门中的钻石块替换为绿宝石块，钢块替换为金块，然后手持下界数据右键"
 				""
 				"在下界干什么呢，挖点灵魂沙、远古残骸和下界疣"
 			]
@@ -1445,7 +1448,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["5322AB6C014C301F"]
+			dependencies: [
+				"5322AB6C014C301F"
+				"07B1E30147EC010F"
+			]
 			description: ["太空电梯的好搭档"]
 			icon: "gtceu:rocket_fuel_h8n4c2o4_bucket"
 			id: "75A54472EEAF6BB0"
@@ -1590,7 +1596,13 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["7EE091FC5E255C22"]
+			dependencies: [
+				"7EE091FC5E255C22"
+				"3F3019EFE6CA0097"
+				"2A5CA716CF0C561C"
+				"508246CF7DF93563"
+			]
+			description: ["后面还有别的用处"]
 			icon: "ad_astra:cryo_fuel_bucket"
 			id: "191930A854469664"
 			tasks: [
@@ -1638,7 +1650,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["72ED3FB127914FD7"]
+			dependencies: [
+				"72ED3FB127914FD7"
+				"7A4785A7719E6A86"
+				"1FF9873283E84371"
+			]
 			icon: "gtceu:stellar_energy_rocket_fuel_bucket"
 			id: "7B19818378510998"
 			tasks: [
@@ -1825,7 +1841,7 @@
 				"61140578961B01A9"
 				"67784DEB22D18308"
 			]
-			description: ["找到原版要塞中的传送门，副手手持末地数据，主手手持末影之眼，右键传送门框架后各消耗一个点亮一个，最后进入传送门即可去往末地"]
+			description: ["找到原版要塞中的传送门，和原版开门方式基本一致，只是需要副手手持末地数据，最后进入传送门即可去往末地"]
 			icon: "minecraft:end_portal_frame"
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
@@ -1994,13 +2010,13 @@
 			description: [
 				"这是T8火箭，解锁巴纳德C"
 				""
-				"需要用输入总线输入一号电路，并持续提供算力（固定为128），&c&l不要使用可配置维护仓"
+				"需要用输入总线输入一号电路，并持续提供算力（固定为128），电梯正常工作时运行时长会在6~13s之间循环，因此，&c&l&o不要使用可配置维护仓"
 				"&r"
-				"太空电梯主体正常运行时扩展模块才会工作"
+				"只有太空电梯主体正常工作时（即动力模块和主机亮起）扩展模块才会显示连接和工作"
 				""
 				"太空电梯主体的电压越高，扩展模块的耗时减免越多；动力模块等级越高，扩展模块的并行数越大"
 				""
-				"点击启程时请贴着电梯主方块 ，否则不会升空"
+				"点击“M”可以查看&e安装所有模块&r后的多方块结构"
 			]
 			icon_scale: 2.0d
 			id: "60FA18C7093410F8"
@@ -2498,6 +2514,229 @@
 			}]
 			x: -7.0d
 			y: 0.0d
+		}
+		{
+			icon: "gtceu:dinitrogen_tetroxide_bucket"
+			id: "07B1E30147EC010F"
+			tasks: [
+				{
+					id: "6E8DCE8A1DD17A67"
+					item: "gtceu:dinitrogen_tetroxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "19B512EC018655AA"
+					type: "checkmark"
+				}
+			]
+			title: "四氧化二氮"
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			description: ["闪电处理蓝冰，别去找矿石"]
+			icon: "ad_astra:ice_shard"
+			id: "3F3019EFE6CA0097"
+			tasks: [
+				{
+					id: "76A3603079B4CEE1"
+					item: "ad_astra:ice_shard"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "42EB8F92C233842F"
+					type: "checkmark"
+				}
+			]
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"6225F1B77313973C"
+				"1473484C230B4EA1"
+				"4ECACC2A6159D332"
+			]
+			icon: "gtceu:explosivehydrazine_bucket"
+			id: "2A5CA716CF0C561C"
+			tasks: [
+				{
+					id: "1F5CB4F336C37CAD"
+					item: "gtceu:explosivehydrazine_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6497B7B2732AF75E"
+					type: "checkmark"
+				}
+			]
+			title: "爆炸性肼燃料混合物"
+			x: 20.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"30739F879AD7CF83"
+				"5521EDEE663846D2"
+			]
+			icon: "gtceu:cetane_boosted_diesel_bucket"
+			id: "508246CF7DF93563"
+			tasks: [
+				{
+					id: "6A8B390E13BD01A5"
+					item: "gtceu:cetane_boosted_diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75183EAE287C955E"
+					type: "checkmark"
+				}
+			]
+			title: "高十六烷值柴油"
+			x: 19.5d
+			y: 10.0d
+		}
+		{
+			icon: "gtceu:nitrobenzene_bucket"
+			id: "7A4785A7719E6A86"
+			tasks: [
+				{
+					id: "00D491B2943D1DA0"
+					item: "gtceu:nitrobenzene_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A420DE8F366585E"
+					type: "checkmark"
+				}
+			]
+			title: "硝基苯"
+			x: 28.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3680AE62BF87339B"]
+			icon: "gtceu:hmxexplosive_dust"
+			id: "1FF9873283E84371"
+			tasks: [
+				{
+					id: "05D5DEF315E49BCD"
+					item: "gtceu:hmxexplosive_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F143E7DE51CE264"
+					type: "checkmark"
+				}
+			]
+			title: "HMX"
+			x: 30.0d
+			y: 12.0d
+		}
+		{
+			icon: "gtceu:hexamethylenetetramine_dust"
+			id: "3680AE62BF87339B"
+			tasks: [
+				{
+					id: "61F5A161448207EB"
+					item: "gtceu:hexamethylenetetramine_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "068ADA44328E0363"
+					type: "checkmark"
+				}
+			]
+			x: 28.0d
+			y: 12.0d
+		}
+		{
+			icon: "gtceu:tetranitromethane_bucket"
+			id: "30739F879AD7CF83"
+			tasks: [
+				{
+					id: "215E725B89DEC6F5"
+					item: "gtceu:tetranitromethane_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06ED2DC8B6C3E733"
+					type: "checkmark"
+				}
+			]
+			title: "四硝基甲烷"
+			x: 18.5d
+			y: 10.0d
+		}
+		{
+			icon: "gtceu:diesel_bucket"
+			id: "5521EDEE663846D2"
+			tasks: [
+				{
+					id: "0987F98C2F40F2F0"
+					item: "gtceu:diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C9C557A55B15558"
+					item: "gtceu:bio_diesel_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "61F68DFCA1543541"
+					type: "checkmark"
+				}
+			]
+			title: "柴油/生物柴油"
+			x: 18.5d
+			y: 11.0d
+		}
+		{
+			icon: "gtceu:glyceryl_trinitrate_bucket"
+			id: "6225F1B77313973C"
+			tasks: [
+				{
+					id: "0857D523EF4331EA"
+					item: "gtceu:glyceryl_trinitrate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "056603211CB3F687"
+					type: "checkmark"
+				}
+			]
+			title: "硝酸甘油"
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			icon: "gtceu:gelled_toluene"
+			id: "1473484C230B4EA1"
+			tasks: [
+				{
+					id: "74AAE9F4AA2FA7E0"
+					item: "gtceu:gelled_toluene"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "198A73B68E0B56FB"
+					type: "checkmark"
+				}
+			]
+			x: 20.5d
+			y: 12.0d
 		}
 	]
 	title: "探索世界"

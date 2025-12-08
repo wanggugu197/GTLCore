@@ -624,6 +624,7 @@
 				item: "kubejs:uruium_coil_block"
 				type: "item"
 			}]
+			title: "超级热容线圈"
 			x: -9.0d
 			y: 23.0d
 		}
@@ -1288,6 +1289,30 @@
 			}]
 			x: -7.5d
 			y: 20.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "33C6444D30015BF5"
+			optional: true
+			tasks: [{
+				id: "581585A379363A9C"
+				item: "gtceu:nand_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			icon_scale: 2.0d
+			id: "1FCD810E5705FE37"
+			optional: true
+			tasks: [{
+				id: "6145265D5C20368B"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
 		}
 	]
 	title: "进度"

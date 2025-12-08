@@ -55,7 +55,7 @@
 			description: [
 				"环氧树脂是一种高分子化合物，具有环氧基团（-O-）的结构特征。它通常是由环氧单体与固化剂反应而成的高性能热固性塑料。环氧树脂具有良好的机械性能、电气绝缘性能、化学稳定性和粘接性能，广泛应用于涂料、胶粘剂、电子封装、建筑加固、复合材料等领域。"
 				""
-				"推荐重度蒸汽裂化石脑油获得丙烷（当然如果你石化产线完全建好了就最好了）"
+				"推荐重度蒸汽裂化石脑油获得丙烯（当然如果你石化产线完全建好了就最好了）"
 			]
 			id: "10CD26CBAC242280"
 			rewards: [{
@@ -214,7 +214,6 @@
 				{
 					id: "636B36914936E6C0"
 					item: "gtceu:ev_emitter"
-					optional_task: true
 					type: "item"
 				}
 				{
@@ -258,6 +257,7 @@
 				""
 				"{ \"text\": \"你也可以在火星直接采到\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"457BA0CCBA39709A\" } }"
 			]
+			icon: "gtceu:radon_bucket"
 			id: "2CAC63F25BAF50B3"
 			rewards: [{
 				id: "138FCFDBEF7F8A39"
@@ -265,9 +265,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "22C6A2D312ADEA71"
-				item: "gtceu:radon_bucket"
-				type: "item"
+				id: "4A84D4958CB1471E"
+				type: "checkmark"
 			}]
 			title: "气态氡"
 			x: 2.0d
@@ -647,12 +646,12 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
+			title: "钌钨钼合金线圈"
 			x: 16.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"69B1CEE8D556E84C"
 				"65D09ACC43B7AF20"
 				"4CFA7C2E9E272741"
 			]
@@ -745,13 +744,7 @@
 				"00ACD41B8ABD498C"
 				"14D60DF010FF0396"
 			]
-			description: [
-				"{ \"text\": \"去金星挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F0C57F9551D8FFA\" } }"
-				""
-				"月球的结构里面也有戴斯"
-				""
-				"金星的结构里面有下界岩和远古残骸"
-			]
+			description: ["{ \"text\": \"去金星挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F0C57F9551D8FFA\" } }"]
 			id: "7AEC0D308494C0F8"
 			rewards: [{
 				id: "079C2ECD4F827B41"
@@ -769,7 +762,6 @@
 		{
 			dependencies: [
 				"7AEC0D308494C0F8"
-				"3CB16B36A5AA2A10"
 				"0375D068023B13D7"
 			]
 			icon: {
@@ -1187,7 +1179,9 @@
 				""
 				"用闪存左键保存仓室配置，右键应用配置"
 				""
-				"三种ME输出仓室均拥有long级别的容量和无限的格子（每秒输出一次）"
+				"使用剪线钳可以让ME仓室在从正面联网和从任意面联网之间切换"
+				""
+				"三种ME输出仓室均拥有long级别的容量和无限的格子（每秒输出一次，单次接受机器输出量上限为int）"
 				""
 				"ME输出总成经过了优化，性能更佳，且可以手动将总成内的物品/流体弹出至ME网络"
 			]
@@ -1231,8 +1225,8 @@
 				}
 			]
 			title: "ME仓室"
-			x: 8.0d
-			y: 0.0d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["25F272243EB904D5"]
@@ -1249,6 +1243,22 @@
 			}]
 			x: 16.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["750D2CE269C7068D"]
+			description: [
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+			]
+			id: "1FECF89B2EE569B5"
+			tasks: [{
+				id: "36AC27CC14FDF508"
+				item: "gtceu:mv_world_data_scanner"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier4-EV"]
