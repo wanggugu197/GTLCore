@@ -23,7 +23,9 @@
 				"06795792E774476F"
 			]
 			description: [
-				"不超频时平均耗电量为1024A MAX、运行周期为120s；超频一二三次分别对应的运行周期为60、30、15s，平均耗电量为16384、262144、4194304A MAX"
+				"不超频时平均耗电量为1024A MAX、运行周期为120s；"
+				"超频一二三次分别对应的运行周期为60、30、15s"
+				"对应平均耗电量为16384、262144、4194304A MAX"
 				""
 				"JEI中的耗时为超频一次的结果"
 				""
@@ -48,18 +50,10 @@
 			icon: "gtceu:spacetime_bucket"
 			id: "365548266DF60F91"
 			subtitle: "你的第一桶时空"
-			tasks: [
-				{
-					id: "05630FD254E94C3A"
-					item: "gtceu:spacetime_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "67732B6ADBF691E3"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "67732B6ADBF691E3"
+				type: "checkmark"
+			}]
 			title: "时空"
 			x: -7.0d
 			y: -3.0d
@@ -133,6 +127,7 @@
 				"5A61ABB6E4917C6C"
 				"17F6AFC430A15CDA"
 				"375DD76CAEAD2CE1"
+				"6C1AB68CC57D8670"
 			]
 			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以可以设计成这样，无需太阳帆"]
 			id: "77CADF4536151255"
@@ -240,6 +235,7 @@
 				item: "kubejs:infinity_coil_block"
 				type: "item"
 			}]
+			title: "无尽线圈"
 			x: -1.0d
 			y: -5.0d
 		}
@@ -295,7 +291,7 @@
 		}
 		{
 			dependencies: ["63998161D9D731E7"]
-			description: [""]
+			description: ["MAX电压的小机器"]
 			icon_scale: 2.0d
 			id: "5A6EA61F3E61D086"
 			rewards: [{
@@ -320,7 +316,7 @@
 			description: [
 				"耗能固定为4A MAX"
 				""
-				"位于主世界且配方耗时为&n1s&r时才能正常运作"
+				"位于主世界且配方耗时为&6&l1s&r时才能正常运作"
 				""
 				"需要像太空电梯一般输入一号电路"
 			]
@@ -371,7 +367,8 @@
 		{
 			dependencies: [
 				"57B09C66B637C894"
-				"38FFB6D2003C7EB4"
+				"6C1AB68CC57D8670"
+				"233C152024BACC4E"
 			]
 			id: "0BF48314F3323108"
 			tasks: [{
@@ -453,6 +450,7 @@
 				item: "kubejs:hypogen_coil_block"
 				type: "item"
 			}]
+			title: "海珀珍线圈"
 			x: -3.0d
 			y: -5.0d
 		}
@@ -472,6 +470,7 @@
 				item: "kubejs:eternity_coil_block"
 				type: "item"
 			}]
+			title: "永恒线圈"
 			x: 5.0d
 			y: -7.0d
 		}
@@ -530,11 +529,11 @@
 		}
 		{
 			dependencies: ["622395061792FB5E"]
+			icon: "gtceu:rhugnor_bucket"
 			id: "2FFA8701DFA0C524"
 			tasks: [{
-				id: "2A41AFA139DC780A"
-				item: "gtceu:rhugnor_bucket"
-				type: "item"
+				id: "7FD7E8DE08324415"
+				type: "checkmark"
 			}]
 			title: "鲁格诺"
 			x: -2.0d
@@ -583,6 +582,7 @@
 				"39A97D124B756814"
 				"2FFA8701DFA0C524"
 				"63998161D9D731E7"
+				"32186EFF7020D432"
 			]
 			description: ["建议被动自动化生产"]
 			hide_dependency_lines: true

@@ -48,7 +48,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1433920A4DDCE2B5"]
+			dependencies: [
+				"1433920A4DDCE2B5"
+				"1C4D5D7786F64485"
+			]
 			id: "49ED5C32664DDF6C"
 			tasks: [{
 				id: "4D768A7D3AD7A99E"
@@ -87,6 +90,7 @@
 				item: "kubejs:starmetal_coil_block"
 				type: "item"
 			}]
+			title: "星辉线圈"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -94,6 +98,7 @@
 			dependencies: [
 				"5E223597F71DB81D"
 				"4A1F4AAAABC1DE23"
+				"1C4D5D7786F64485"
 			]
 			description: ["龙血可以循环"]
 			id: "6A1F7D407BE033A9"
@@ -147,7 +152,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["30C7E9FE04629708"]
+			dependencies: [
+				"30C7E9FE04629708"
+				"1C4D5D7786F64485"
+			]
 			id: "5EEF654D4CD2168F"
 			tasks: [{
 				id: "1B0100A2DA661C34"
@@ -467,6 +475,7 @@
 				"0FB0AFA8DD71B19F"
 				"2F82F4BCC261723A"
 				"7B46E8DE77D0BE8F"
+				"1C4D5D7786F64485"
 			]
 			hide_dependency_lines: true
 			id: "64441B6414C20A57"
@@ -563,7 +572,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["00A227F06D7F109E"]
+			dependencies: [
+				"00A227F06D7F109E"
+				"6C1AB68CC57D8670"
+			]
 			id: "6F7D79B8EA4FBF46"
 			tasks: [{
 				id: "6F01212E598DF915"
@@ -597,7 +609,7 @@
 				"042FBA3AE7DE9957"
 				"06795792E774476F"
 			]
-			description: ["看超维度锻炉的配方"]
+			description: ["看超维度等离子锻炉的配方"]
 			icon_scale: 2.0d
 			id: "77A53FAAC098F859"
 			tasks: [{
@@ -649,6 +661,7 @@
 			dependencies: [
 				"233C152024BACC4E"
 				"17F6AFC430A15CDA"
+				"6C1AB68CC57D8670"
 			]
 			description: ["需要&b橡胶片&r，希望你没拆掉之前的橡胶产线"]
 			id: "38FFB6D2003C7EB4"
@@ -698,6 +711,7 @@
 			]
 			description: ["在2阶的基础上升级，记得更换装配线外壳"]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "6C1AB68CC57D8670"
 			shape: "rsquare"
@@ -745,7 +759,7 @@
 				"6C6A3B91957A0B7B"
 				"17F6AFC430A15CDA"
 			]
-			description: [""]
+			description: ["最后的无人机，注意黑白矮星需要64个无人机进行采集"]
 			hide_dependent_lines: true
 			id: "760D2FA10E6907DD"
 			shape: "pentagon"

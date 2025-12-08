@@ -121,13 +121,12 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"0526B4AC0CAF99A5"
-				"15580C25FF239402"
 				"3CB16B36A5AA2A10"
 			]
 			description: ["LuV阶段主要材料"]
@@ -140,8 +139,8 @@
 				item: "gtceu:rhodium_plated_palladium_ingot"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 0.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
@@ -183,6 +182,7 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
+			title: "高速钢-G线圈"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -258,7 +258,7 @@
 				item: "gtceu:iv_assembler"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -458,7 +458,7 @@
 				item: "gtceu:hpic_chip"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -473,7 +473,7 @@
 				item: "gtceu:iv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -527,7 +527,7 @@
 				item: "gtceu:iv_cutter"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -543,7 +543,7 @@
 				type: "item"
 			}]
 			title: "新的玻璃"
-			x: 8.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -904,7 +904,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [

@@ -272,7 +272,7 @@
 		{
 			dependencies: ["62D8D7B8C9730557"]
 			description: [
-				"很方便，稳定的发电，随用随停"
+				"很方便、稳定的发电，随用随停"
 				""
 				"注意不要遮挡引擎进气机械方块"
 				""
@@ -366,7 +366,7 @@
 		}
 		{
 			dependencies: ["62D8D7B8C9730557"]
-			description: ["非常强力的单方块发电机"]
+			description: ["比较强力的单方块发电机，但燃料制作可能有点麻烦"]
 			id: "1BDB51F089ED52D3"
 			tasks: [{
 				id: "0D3FDB5461E50DF0"
@@ -515,8 +515,8 @@
 				item: "gtceu:plasma_mega_turbine"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -718,7 +718,7 @@
 				item: "gtceu:supercritical_steam_turbine"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 3.5d
 			y: 4.0d
 		}
 		{
@@ -732,8 +732,8 @@
 				item: "gtceu:supercritical_mega_steam_turbine"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 4.0d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]

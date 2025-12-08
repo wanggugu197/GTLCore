@@ -77,6 +77,12 @@
 					item: "gtceu:ulv_solar_panel"
 					type: "item"
 				}
+				{
+					count: 64
+					id: "154C7C62524935E2"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "0ABA4D223034D5A2"
@@ -375,7 +381,6 @@
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
-			hide_dependency_lines: true
 			icon: "minecraft:oak_sapling"
 			id: "66C8E56877EB2C27"
 			rewards: [
@@ -444,7 +449,6 @@
 				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
 				"以了解相关指令"
 			]
-			hide_dependency_lines: true
 			icon: "minecraft:command_block"
 			id: "312C7E81F1B9880D"
 			optional: true

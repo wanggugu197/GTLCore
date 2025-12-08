@@ -2138,7 +2138,7 @@
 			description: [
 				"现在先通过铟富集溶液获取"
 				""
-				"{ \"text\": \"后面可以通过富集硅岩处理获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
+				"{ \"text\": \"后面可以在富集硅岩处理的过程中获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2463,7 +2463,7 @@
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
-			subtitle: "用来炖成UXV的基础材料之一"
+			subtitle: "用来炖成UEV的基础材料之一"
 			tasks: [
 				{
 					id: "5107DC687C7A012F"
@@ -6471,7 +6471,7 @@
 				"实体生成模式的额外产出："
 				"1号电路：各种染色羊毛、绿宝石、小麦、兔子脚、鸡蛋"
 				""
-				"2号电路：各种武器（剑、三叉戟等）和护甲、&d烈焰棒&r、不详旗帜、金锭、铁锭、铜锭、胡萝卜、马铃薯、&d凋零骷髅头颅&r、粘液球、鹦鹉螺壳"
+				"2号电路：各种武器和护甲、&d烈焰棒&r、不详旗帜、金锭、铁锭、铜锭、胡萝卜、马铃薯、&d凋零骷髅头颅&r、粘液球、鹦鹉螺壳"
 			]
 			icon: "gtceu:slaughterhouse"
 			id: "19D339F25E824A2C"

@@ -37,6 +37,7 @@
 			dependencies: [
 				"39F73A63746EE6E8"
 				"78C6AB89612D047E"
+				"1C4D5D7786F64485"
 			]
 			description: ["最多能装载16个能源仓，还拥有无损超频"]
 			icon_scale: 2.0d
@@ -89,6 +90,7 @@
 				"7F79481263C17880"
 				"106303E7A3296E76"
 				"53AF03B663577CB0"
+				"5D0389442E831EC0"
 			]
 			icon_scale: 2.0d
 			id: "28E91E5A98E3A8DD"
@@ -241,7 +243,7 @@
 			id: "2880531AF7540B24"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "非常吵"
+			subtitle: "有点吵"
 			tasks: [
 				{
 					id: "2CA90B99536E4896"
@@ -354,7 +356,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["6D6BE75CB79C7901"]
+			dependencies: [
+				"6D6BE75CB79C7901"
+				"1C4D5D7786F64485"
+			]
 			description: ["搅拌机的激光版本，拥有无损超频，还有另一种重要用途"]
 			icon_scale: 2.0d
 			id: "29A581C935A339DD"
@@ -482,6 +487,7 @@
 			dependencies: [
 				"5FFDF6751BFBD4BF"
 				"2F82F4BCC261723A"
+				"1C4D5D7786F64485"
 			]
 			description: ["看起来很复杂"]
 			icon: "gtceu:cosmic_superconductor_bucket"
@@ -643,11 +649,7 @@
 				"23B418803D455368"
 				"6D6BE75CB79C7901"
 			]
-			description: [
-				"中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"
-				""
-				"工作机制类似于热交换机，固定基础工作耗时为60秒（能被可配置维护仓影响）"
-			]
+			description: ["中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"]
 			icon_scale: 2.0d
 			id: "664D8255A1960E9E"
 			optional: true

@@ -184,6 +184,7 @@
 				"1DFC7DC123A3D830"
 				"09537D159735D297"
 			]
+			description: ["UHV需要大量的下界合金"]
 			icon_scale: 2.0d
 			id: "7204F1B6BCC74F1C"
 			rewards: [{
@@ -242,7 +243,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1FA9E56114BFABF5"]
+			dependencies: [
+				"1FA9E56114BFABF5"
+				"3B098EA4601A7827"
+			]
 			description: [
 				"输入总线&e&l必须&r放入一个机器人作为&o催化剂&r使用，机器人等级越高配方耗时越短"
 				""
@@ -314,6 +318,7 @@
 				"333B741B06E49CE8"
 				"11B90D1FD2508092"
 			]
+			description: ["可以回收一半的生物细胞"]
 			icon_scale: 2.0d
 			id: "21CF5BE902E89B8A"
 			tasks: [{
@@ -329,7 +334,7 @@
 				"7A7C73D046390488"
 				"53DEE1A65051E06F"
 			]
-			description: [""]
+			description: ["这不是装配线"]
 			icon_scale: 2.0d
 			id: "31EDE3D976DE5A33"
 			shape: "rsquare"
@@ -403,6 +408,7 @@
 				item: "kubejs:abyssalalloy_coil_block"
 				type: "item"
 			}]
+			title: "渊狱合金线圈"
 			x: 1.0d
 			y: 12.0d
 		}
@@ -455,11 +461,13 @@
 			description: [
 				"这是T8火箭，解锁巴纳德C"
 				""
-				"需要用输入总线输入一号电路，并持续提供算力（固定为128），&c&l&o不要使用可配置维护仓"
+				"需要用输入总线输入一号电路，并持续提供算力（固定为128），电梯正常工作时运行时长会在6~13s之间循环，因此，&c&l&o不要使用可配置维护仓"
 				"&r"
-				"只有太空电梯主体正常运行时（即动力模块和主机亮起）扩展模块才会显示连接和工作"
+				"只有太空电梯主体正常工作时（即动力模块和主机亮起）扩展模块才会显示已连接和正常工作"
 				""
 				"太空电梯主体的电压越高，扩展模块的耗时减免越多；动力模块等级越高，扩展模块的并行数越大"
+				""
+				"在jei中的多方块结构预览界面点击“M”可以查看&e安装所有模块&r后的多方块结构"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.3d
@@ -593,18 +601,10 @@
 			icon: "gtceu:antimatter_bucket"
 			id: "24585C3114095227"
 			subtitle: "UEV才会有用"
-			tasks: [
-				{
-					id: "71DB21870C0AE571"
-					item: "gtceu:antimatter_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "32D1AAAFAE4E6E8D"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "32D1AAAFAE4E6E8D"
+				type: "checkmark"
+			}]
 			title: "离散反物质"
 			x: 6.0d
 			y: 2.0d
@@ -650,7 +650,7 @@
 				"035C470213E8B4DB"
 			]
 			description: [
-				"只能使用激光仓"
+				"只能使用激光仓，位置位于底层正中央和顶层正中央"
 				""
 				"可以优化的产线有（颜色代表电压阶段）："
 				"&3铂系金属处理 聚苯硫醚 环氧树脂 硅橡胶 诱变剂&r "
@@ -681,11 +681,11 @@
 		}
 		{
 			dependencies: ["11B90D1FD2508092"]
+			icon: "gtceu:mutated_living_solder_bucket"
 			id: "4F87B7DA47087F97"
 			tasks: [{
-				id: "5AD3E4D68E41CC30"
-				item: "gtceu:mutated_living_solder_bucket"
-				type: "item"
+				id: "2B9CE70914717C3A"
+				type: "checkmark"
 			}]
 			title: "突变活性焊剂"
 			x: 10.0d
@@ -727,18 +727,12 @@
 			dependencies: ["035C470213E8B4DB"]
 			description: ["蒸发塔和蒸馏塔类似，自第三层起每层必须且仅能放置一个小型输出仓，可以在底层和第二层放置输出总成"]
 			hide_dependency_lines: true
+			icon: "gtceu:grade_8_purified_water_bucket"
 			id: "4EA64DC5DA2F0F8C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "388E46DC29DA49FE"
-				table_id: 6225023274141477362L
-				type: "random"
-			}]
 			subtitle: "可以开始准备了"
 			tasks: [{
-				id: "658F2BC37483CA4E"
-				item: "gtceu:grade_8_purified_water_bucket"
-				type: "item"
+				id: "53B625F402EEFC80"
+				type: "checkmark"
 			}]
 			title: "8级净化水"
 			x: 12.0d
@@ -880,7 +874,7 @@
 				""
 				"并行仓可用位置在输入总线旁边"
 				""
-				"只能使用光学数据靶仓提供数据"
+				"只能使用&b光学数据靶仓&r提供数据"
 				""
 				"最长65格，耗时倍数最小可到达0.35"
 			]
@@ -906,49 +900,40 @@
 			dependencies: [
 				"776563C5BA327495"
 				"035C470213E8B4DB"
+				"12F8275FC06FCFEE"
 			]
+			dependency_requirement: "one_completed"
 			description: [
-				"支持设置输出过滤、优先级（数值越大输出优先级越高）与long级物品输出"
+				"支持设置输出过滤、优先级（数值越大输出优先级越高）与单次long级物品输出"
 				""
 				"可以用闪存复制输出过滤设置"
 				""
 				"输出优先级始终高于扩展/终极ME样板总成"
-			]
-			hide_dependency_lines: true
-			icon_scale: 1.5d
-			id: "02BEE3DC9E98AF15"
-			optional: true
-			shape: "rsquare"
-			tasks: [{
-				id: "6641F5083C721A75"
-				item: "gtceu:me_extended_export_buffer"
-				type: "item"
-			}]
-			title: "增广ME输出总成"
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"12F8275FC06FCFEE"
-				"035C470213E8B4DB"
-			]
-			description: [
+				""
 				"异步版更适合用于跨并机器，但是不能设置输出过滤，其他性质一致"
 				""
 				"异步和普通版的优先级在同一参考系内"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
-			id: "1322FE8EF30B26D0"
+			id: "02BEE3DC9E98AF15"
+			min_required_dependencies: 2
 			optional: true
 			shape: "rsquare"
-			tasks: [{
-				id: "26933652D71DEE3A"
-				item: "gtceu:me_extended_async_export_buffer"
-				type: "item"
-			}]
-			x: 2.5d
+			tasks: [
+				{
+					id: "6641F5083C721A75"
+					item: "gtceu:me_extended_export_buffer"
+					type: "item"
+				}
+				{
+					id: "3A065A45C61CAEB8"
+					item: "gtceu:me_extended_async_export_buffer"
+					type: "item"
+				}
+			]
+			title: "增广输出总成"
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -986,11 +971,11 @@
 			description: [
 				"GT版分子装配室，无需消耗EU，拥有跨配方并行"
 				""
-				"5个速度核心即可达到最高速度"
+				"&b五&r个速度核心即可达到最小耗时（1tick）"
 				""
-				"核心能且仅能替换中心结构内的分子机械方块"
-				""
-				"矩阵端口无法使用样板总成合成"
+				"核心能且仅能替换中心结构内的&b分子机械方块"
+				"&r"
+				"矩阵端口&e无法&r使用样板总成合成"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:molecular_assembler_matrix"

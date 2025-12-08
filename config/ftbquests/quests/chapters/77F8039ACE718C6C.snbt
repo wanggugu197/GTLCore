@@ -363,7 +363,7 @@
 				"关于结构：中心放核心，相邻4个方块为钢块，角落4个方块为钻石块，平放"
 				"右击核心即可前往远古世界"
 				""
-				"当你在EV完成三阶火箭后你需要用它前往地狱"
+				"当你在&5EV&r做出三阶火箭后还会需要用它前往地狱"
 			]
 			icon: "kubejs:reactor_core"
 			icon_scale: 2.0d
@@ -826,7 +826,7 @@
 		{
 			dependencies: ["12FE2B59FA86381C"]
 			description: [
-				"AE2是是一个非常好用的自动化mod"
+				"AE2是一个非常好用的自动化mod"
 				""
 				"在《AE2调整》这一章节中查看AE2的改动"
 				""
@@ -1206,6 +1206,8 @@
 				"没有电的时候可以先用手摇曲柄供能"
 				""
 				"或者做一个谐振仓烧钻石"
+				""
+				"后面可以用&6冲压机床&r取代压印器，更加高效的制作处理器"
 			]
 			id: "664C46D5C12E7255"
 			rewards: [
@@ -1231,6 +1233,7 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
+			description: ["用GT导线连接发电机和能源接收器容易把导线烧断，建议将发电机直接贴到能源接收器上"]
 			icon: "ae2:drive"
 			id: "007BBB3D4E349869"
 			optional: true
@@ -1305,6 +1308,7 @@
 			id: "3C4577BA6C01FD37"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "4D53D6781FE064EF"
 				item: "ae2:fluix_crystal"
@@ -1329,6 +1333,7 @@
 			id: "54A70F547E4F87C2"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "15293996D8FA5F0C"
 				item: "ae2:logic_processor"
@@ -1353,6 +1358,7 @@
 			id: "3D4B2ED043BAF8E4"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "25D2B5A2963C5701"
 				item: "ae2:calculation_processor"
@@ -1377,6 +1383,7 @@
 			id: "49265178B29A2A51"
 			optional: true
 			rewards: [{
+				auto: "no_toast"
 				count: 16
 				id: "6887FB040E263E04"
 				item: "ae2:engineering_processor"

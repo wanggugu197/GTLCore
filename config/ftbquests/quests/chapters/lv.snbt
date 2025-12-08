@@ -165,7 +165,7 @@
 				"20F6BF1EDC6EBDC1"
 			]
 			description: [
-				"你需要在高炉上放两个&8LV&r能源仓以将高炉升压到&bMV&r，这样它就可以&o&6运行&bMV&r&o&6的配方&r（电压间的功率换算关系例子如下：4A LV=1A MV，以此类推）"
+				"你需要在高炉上放两个&7LV&r能源仓以将高炉升压到&bMV&r，这样它就可以&o&6运行&bMV&r&o&6的配方&r（电压间的功率换算关系例子如下：4A LV=1A MV，以此类推）"
 				""
 				"除了电压之外，配方能否运作实际上并不取决于线圈，而是电力高炉的热容/温度！"
 			]
@@ -214,7 +214,7 @@
 			description: [
 				"这是高炉需要的仓室"
 				""
-				"维护仓并不能被多方块结构共用"
+				"维护仓&4并不能&r被多方块结构共用"
 				""
 				"拿着胶带右键维护仓可快速维护维护仓"
 			]
@@ -276,12 +276,14 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "你的第一套线圈"
 			tasks: [{
 				count: 16L
 				id: "022D8EB7519F65E1"
 				item: { Count: 16, id: "gtceu:cupronickel_coil_block" }
 				type: "item"
 			}]
+			title: "白铜线圈"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -329,7 +331,7 @@
 		}
 		{
 			dependencies: ["13DADE13289E59D0"]
-			description: ["可以用蒸汽铸造炉做"]
+			description: ["用搅拌机制作粉再熔炼得到，也可以直接用蒸汽铸造炉做"]
 			id: "7CC28185463F24C2"
 			rewards: [{
 				id: "1B049A74A1F581C4"
@@ -346,6 +348,7 @@
 		}
 		{
 			dependencies: ["63C2FA96C708C125"]
+			icon: "gtceu:tin_alloy_bucket"
 			id: "18C2AB18B354F774"
 			rewards: [{
 				id: "39AA63FFC2362D94"
@@ -353,7 +356,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "27384B8F957A3BC0"
+				id: "3674584BA72776DA"
 				item: "gtceu:tin_alloy_bucket"
 				type: "item"
 			}]
@@ -363,7 +366,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["可以用蒸汽铸造炉做"]
+			description: ["用搅拌机制作粉再熔炼得到，也可以直接用蒸汽铸造炉做"]
 			hide_dependency_lines: true
 			id: "198ED0A20800F3ED"
 			rewards: [{
@@ -482,6 +485,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
+			subtitle: "你的第一块MV电路"
 			tasks: [{
 				id: "0F9DE31D5976C043"
 				item: "gtceu:good_electronic_circuit"
@@ -803,6 +807,7 @@
 				item: "gtceu:rubber_bucket"
 				type: "item"
 			}]
+			title: "液态橡胶"
 			x: 12.0d
 			y: 6.0d
 		}
@@ -828,7 +833,7 @@
 			description: [
 				"{ \"text\": \"硫来自于远古世界\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
 				""
-				"生橡胶来自于离心黏性树脂"
+				"生橡胶末来自于离心黏性树脂"
 			]
 			id: "5D4ADE3F2E57635C"
 			rewards: [{
@@ -1185,11 +1190,11 @@
 		{
 			dependencies: ["63C2FA96C708C125"]
 			hide_dependency_lines: true
+			icon: "gtceu:glass_bucket"
 			id: "06F767F4EFFD5DC6"
 			tasks: [{
-				id: "6974E865CEFE1415"
-				item: "gtceu:glass_bucket"
-				type: "item"
+				id: "1E2946FB6D74C148"
+				type: "checkmark"
 			}]
 			title: "液态玻璃"
 			x: 12.0d
@@ -1205,7 +1210,7 @@
 				""
 				"{ \"text\": \"初期无线电来源是发电阵列\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1486FC9F82B2E56E\" } }"
 				""
-				"多方块机器要等到&6HV&r才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代"
+				"多方块机器要等到&6HV&r才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代（外壳只有1安，电池箱有高安，只有红色的面能输出能源）"
 			]
 			id: "1FA24513965B09A8"
 			rewards: [{

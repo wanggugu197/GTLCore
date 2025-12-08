@@ -198,7 +198,7 @@
 				"18CA398800CC2E1B"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["没有超净间的情况下你得把电路组装机放在通用组装厂，然后装上超净维护仓"]
+			description: ["没有超净间的情况下你得把电路组装机放在通用组装厂里面，然后装上超净维护仓"]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [{
@@ -247,6 +247,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "还能自动维护"
 			tasks: [{
 				id: "0106634910539280"
 				item: "gtceu:cleaning_maintenance_hatch"
@@ -257,7 +258,11 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: [""]
+			description: [
+				"可配置维护仓可以调整机器耗时倍数，但是更容易坏"
+				""
+				"自动维护仓永远都不需要手动维护"
+			]
 			id: "314E6600CD806FA0"
 			rewards: [{
 				id: "2D1F7CCE2173A794"
@@ -276,7 +281,7 @@
 					type: "item"
 				}
 			]
-			title: "两种高级维护仓"
+			title: "两种进阶维护仓"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -514,7 +519,7 @@
 				"0A8178183C888BE0"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["没有超净间的情况下你得把切割机放进通用加工厂，然后装上超净维护仓"]
+			description: ["没有超净间的情况下你得把切割机放进通用加工厂里面，然后装上超净维护仓"]
 			id: "676D1982102F4E79"
 			rewards: [{
 				id: "73D294571F48A5E9"
@@ -579,7 +584,7 @@
 		}
 		{
 			dependencies: ["06F68B574AC84B7B"]
-			description: ["铂可以靠浸洗或者研磨镍矿获得。"]
+			description: ["铂可以靠汞浸洗或者研磨镍矿获得。"]
 			id: "157A951DA379C259"
 			rewards: [{
 				id: "22590F01A2B5B20C"
@@ -642,7 +647,7 @@
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"实际上拥有无损超频，比通用混合厂强大。"
+				"实际上拥有无损超频，且拥有专属高级配方，比通用混合厂强大。"
 				""
 				"只能使用&b白铜线圈"
 			]
@@ -695,6 +700,7 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
+			title: "镍铬合金线圈"
 			x: 12.0d
 			y: 8.0d
 		}
@@ -717,16 +723,12 @@
 		}
 		{
 			dependencies: ["360787FE602FBF66"]
+			description: ["还可以用于增产塑料"]
+			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
-			rewards: [{
-				id: "41EF6A90661DE31D"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
 			tasks: [{
-				id: "07BD08C2A849233A"
-				item: "gtceu:titanium_tetrachloride_bucket"
-				type: "item"
+				id: "2B5DDF34950566F1"
+				type: "checkmark"
 			}]
 			title: "四氯化钛"
 			x: 14.0d
@@ -773,11 +775,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"1A48D2DB936FF632"
-				"027197A71E630966"
-			]
-			description: ["这个系列的最后一个"]
+			dependencies: ["027197A71E630966"]
+			description: ["这个系列的最后一个，你可能也用不到了"]
 			hide_dependency_lines: true
 			id: "46BFDB71190C1F49"
 			rewards: [{
@@ -833,7 +832,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["{ \"text\": \"超净间完全不值得建造 ，超净维护仓更加强大便捷\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
+			description: ["{ \"text\": \"超净间不值得建造 ，超净维护仓更加强大便捷\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true

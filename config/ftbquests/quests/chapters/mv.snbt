@@ -488,7 +488,11 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["大部分的矿物在MV都可以进行电解，通过电解粘土粉获得铝粉和硅粉"]
+			description: [
+				"大部分的矿物在MV都可以进行电解"
+				""
+				"你现在可以通过电解粘土粉获得铝粉和硅粉"
+			]
 			id: "541275BC83188F74"
 			rewards: [{
 				id: "26F6385F02461E66"
@@ -662,6 +666,7 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
+			title: "坎塔尔合金线圈"
 			x: 6.0d
 			y: 2.0d
 		}
