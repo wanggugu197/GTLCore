@@ -1320,7 +1320,7 @@
 				}
 				{
 					id: "0A4B9AC78642D6A8"
-					item: "ae2:crafting_terminal"
+					item: "expatternprovider:ex_crafting_terminal"
 					type: "item"
 				}
 				{
