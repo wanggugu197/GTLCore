@@ -2,7 +2,7 @@
 	icon: "gtceu:doge_coin"
 	id: "5663B9AFADBDE9F2"
 	loot_size: 1
-	order_index: 3
+	order_index: 1
 	rewards: [
 		{ count: 16, item: "gtceu:doge_coin", random_bonus: 48, weight: 25.0f }
 		{ count: 2, item: "gtceu:neutronium_credit", random_bonus: 1, weight: 0.4f }
@@ -24,6 +24,15 @@
 			}
 			weight: 1.2f
 		}
+		{ count: 8, item: "gtceu:overworld_marker", random_bonus: 8, weight: 5.0f }
+		{ count: 8, item: "gtceu:the_nether_marker", random_bonus: 8, weight: 5.0f }
+		{ count: 8, item: "gtceu:the_end_marker", random_bonus: 8, weight: 5.0f }
+		{ item: "gtlcore:brevibacterium_petri_dish", weight: 2.0f }
+		{ item: "gtlcore:bifidobacteriumm_petri_dish", weight: 2.0f }
+		{ item: "gtlcore:eschericia_petri_dish", weight: 2.0f }
+		{ item: "gtlcore:streptococcus_petri_dish", weight: 2.0f }
+		{ item: "gtlcore:cupriavidus_petri_dish", weight: 2.0f }
+		{ item: "gtlcore:shewanella_petri_dish", weight: 2.0f }
 	]
 	title: "抽奖"
 }

@@ -11,7 +11,7 @@
 	quests: [
 		{
 			description: [
-				"&6&o&l多方块结构&r&r&r是多个方块构成的结构"
+				"&6&o&l多方块结构&r&r&r是由多个方块构成的结构"
 				"你可以用扳手旋转多方块主机，且多方块结构支持镜像放置。"
 				"某些多方块结构的主机并不包含在结构主体中，因此有多个主机共用结构主体的可能，例如焦炉、电力高炉、集成矿石处理厂、神圣分离者等。"
 				"多方块主机的GUI中点击右上角的“+”号可以查看整个多方块结构中的仓室情况。"
@@ -25,14 +25,15 @@
 				"点击“M”可以查看&e安装所有模块&r后的多方块结构，再次点击“M”后关闭"
 				"注意：底部显示的方块种类仅展示当前选中类型，具体种类以左侧列出的可选方块为准（输入输出仓室，能源动力激光仓室，维护仓，消声仓，蒸汽输入仓等）"
 				""
+				"&d&o结构检查工具&r&r"
+				"可以帮助你检查结构中的错误方块以帮助你搭建结构"
+				"右键多方块主机获取不成型的原因"
+				"{@pagebreak}"
 				"&e&o&l巨型结构&r&r&r利用终端搭建成形瞬间"
 				"将会产生巨大的内存需求，"
 				"这会阻塞线程并导致&4崩溃&r，"
 				"解决方法是利用一个不应存在的错误方块&o阻止其成形&r，"
-				"并在放好其他所以方块后&b最后&r再放多方块结构的&d主机&r。"
-				""
-				"&d&o结构检查工具&r&r"
-				"可以帮助你检查结构中的错误方块以帮助你搭建结构"
+				"并在放好其他所有方块之后&b最后&r再放多方块结构的&d主机&r。"
 				""
 				"&d&o多方块模拟器&r&r"
 				"可以帮助你搭建巨型结构，"
@@ -48,24 +49,10 @@
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "4CDA6B4DEA5BECA5"
-					item: "gtceu:simulation_machine"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "050ED860085B3DD1"
-					item: "gtlcore:structure_detect"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "245AC1ED6CECE7D0"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "245AC1ED6CECE7D0"
+				type: "checkmark"
+			}]
 			title: "多方块结构"
 			x: -10.0d
 			y: -2.0d
@@ -376,6 +363,7 @@
 		}
 		{
 			dependencies: ["23DC6EEC1BCEF845"]
+			description: ["&6恒星热能熔炼&r模式只能使用&b超级热容线圈&r"]
 			icon_scale: 1.3d
 			id: "06EAF391250421CA"
 			rewards: [{
@@ -1046,6 +1034,10 @@
 		}
 		{
 			dependencies: ["32BD532132423050"]
+			description: [
+				"蒸馏塔除底层外每层&o&6仅能且必须&r放置一个&b小型&r输出仓，每个输出仓对应一种产物（可以自行叠高，高度无任何附加加成）"
+				"有且仅有&6底层&r可以使用&b输出总成&r，能够减少高度，如果使用&dME输出总成&r甚至可以只造三层"
+			]
 			icon_scale: 1.3d
 			id: "17A797C2D7167222"
 			rewards: [{
@@ -1100,7 +1092,7 @@
 			y: 12.0d
 		}
 		{
-			dependencies: ["36742169BE411C01"]
+			dependencies: ["32BD532132423050"]
 			icon_scale: 1.3d
 			id: "6992E6733C4AF2C8"
 			rewards: [{
@@ -1228,6 +1220,7 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
+			description: ["需要用两个输入仓/总成分别提供水和熔岩"]
 			icon_scale: 1.3d
 			id: "68231575D1C914D3"
 			rewards: [{
@@ -1282,6 +1275,11 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
+			description: [
+				"从第三层起&o&6仅能且必须&r放置一个&b小型&r输出仓"
+				"有且仅有&6底层和第二层&r可以使用&b输出总成&r，也可以使用&dME输出总成&r"
+				"同样的，高度无任何附加加成"
+			]
 			icon_scale: 1.3d
 			id: "0BA7E63542F3DF65"
 			rewards: [{
@@ -1354,6 +1352,7 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
+			description: ["&c不能&r双仓升压"]
 			icon_scale: 1.3d
 			id: "0892BF5A6B8239F3"
 			rewards: [{
@@ -1421,8 +1420,8 @@
 				item: "gtceu:large_mixer"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 2.0d
+			x: 18.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
@@ -1493,8 +1492,8 @@
 				item: "gtceu:large_engraving_laser"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 0.0d
+			x: 22.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
@@ -1825,6 +1824,10 @@
 		}
 		{
 			dependencies: ["32BD532132423050"]
+			description: [
+				"蒸发塔和蒸馏塔类似，自第三层起到倒数第二层每层必须且仅能放置一个&b小型&r输出仓，可以在底层和第二层放置&d输出总成&r"
+				"同样的，高度无任何附加加成"
+			]
 			icon_scale: 1.3d
 			id: "224B850538D346D3"
 			rewards: [{
@@ -2078,6 +2081,7 @@
 				"40D8E0B3024D5231"
 				"05801CE2E3390E3F"
 			]
+			description: ["确保模块的&6太空电梯模块基座&r以及&6太空电梯模块连接器&r与太空电梯自带的完全重叠即可完成安装"]
 			icon_scale: 1.3d
 			id: "24F5D1338F48A57E"
 			rewards: [{
@@ -2101,6 +2105,7 @@
 				"56F2156559F2ADF9"
 				"6D6A8592BA1B4A3B"
 			]
+			description: ["确保模块的&6太空电梯模块基座&r以及&6太空电梯模块连接器&r与太空电梯自带的完全重叠即可完成安装"]
 			icon_scale: 1.3d
 			id: "290495468BAB6553"
 			rewards: [{
@@ -2136,7 +2141,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["1443E064A0AB0B8B"]
+			dependencies: ["6D3BE9E3D76C71F9"]
 			icon_scale: 1.3d
 			id: "378905E03EE109DB"
 			rewards: [{
@@ -2214,6 +2219,7 @@
 			dependencies: ["5F5F348E3A34827E"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:ulv_machine_hull"
 			icon_scale: 1.3d
 			id: "40405034AE9D9945"
 			tasks: [{
@@ -2228,6 +2234,7 @@
 			dependencies: ["51B9A72C19F84F0E"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:lv_machine_hull"
 			icon_scale: 1.3d
 			id: "5930E12A8BCAF996"
 			tasks: [{
@@ -2242,6 +2249,7 @@
 			dependencies: ["7296C57805F5DC96"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:mv_machine_hull"
 			icon_scale: 1.3d
 			id: "36742169BE411C01"
 			tasks: [{
@@ -2256,6 +2264,7 @@
 			dependencies: ["1A48D2DB936FF632"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:hv_machine_hull"
 			icon_scale: 1.3d
 			id: "32BD532132423050"
 			tasks: [{
@@ -2270,6 +2279,7 @@
 			dependencies: ["1E7344C133C99565"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:ev_machine_hull"
 			icon_scale: 1.3d
 			id: "45096D94AE6F7864"
 			tasks: [{
@@ -2284,6 +2294,7 @@
 			dependencies: ["38480A52A13DA157"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:iv_machine_hull"
 			icon_scale: 1.3d
 			id: "1443E064A0AB0B8B"
 			tasks: [{
@@ -2298,6 +2309,7 @@
 			dependencies: ["4BFA114E12BCB163"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:luv_machine_hull"
 			icon_scale: 1.3d
 			id: "6D3BE9E3D76C71F9"
 			tasks: [{
@@ -2312,6 +2324,7 @@
 			dependencies: ["0485D45408234C99"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:zpm_machine_hull"
 			icon_scale: 1.3d
 			id: "5672B9E868EDBE4D"
 			tasks: [{
@@ -2326,6 +2339,7 @@
 			dependencies: ["7C23CC6ADDC33EA0"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:uv_machine_hull"
 			icon_scale: 1.3d
 			id: "253337A8CECFB499"
 			tasks: [{
@@ -2340,6 +2354,7 @@
 			dependencies: ["035C470213E8B4DB"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:uhv_machine_hull"
 			icon_scale: 1.3d
 			id: "6A590699685D1D8A"
 			tasks: [{
@@ -2354,6 +2369,7 @@
 			dependencies: ["713FF88279AD9A31"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:uev_machine_hull"
 			icon_scale: 1.3d
 			id: "65C4F7EDC0E9D99D"
 			tasks: [{
@@ -2368,6 +2384,7 @@
 			dependencies: ["23B418803D455368"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:uiv_machine_hull"
 			icon_scale: 1.3d
 			id: "23DC6EEC1BCEF845"
 			tasks: [{
@@ -2382,6 +2399,7 @@
 			dependencies: ["26607B94D873E07A"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:uxv_machine_hull"
 			icon_scale: 1.3d
 			id: "5019F5F1A660DB40"
 			tasks: [{
@@ -2396,11 +2414,12 @@
 			dependencies: ["00A227F06D7F109E"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:opv_machine_hull"
 			icon_scale: 1.3d
 			id: "234661B47841AA2B"
 			tasks: [{
 				id: "1E8F8497159EB846"
-				title: "OPV"
+				title: "OpV"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -2410,6 +2429,7 @@
 			dependencies: ["296DE95F3BE7DC54"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
+			icon: "gtceu:max_machine_hull"
 			icon_scale: 1.3d
 			id: "3D79A180FDCC8B5B"
 			tasks: [{
@@ -2715,6 +2735,7 @@
 				"253337A8CECFB499"
 				"15C94BB329BF231C"
 			]
+			description: ["激光仓可用位置位于底层正中央和顶层正中央"]
 			icon_scale: 1.3d
 			id: "7D4A2D34144FD542"
 			rewards: [{
@@ -3367,6 +3388,7 @@
 				"40405034AE9D9945"
 			]
 			dependency_requirement: "one_started"
+			description: ["这台机器看着像蒸汽机器，但实际上要消耗电力才能工作"]
 			icon_scale: 1.3d
 			id: "2F1F6A9D3B3F52A2"
 			rewards: [{
@@ -3759,6 +3781,7 @@
 		}
 		{
 			dependencies: ["234661B47841AA2B"]
+			description: ["仓室能且仅能替换&b&l高能机器外壳"]
 			icon_scale: 1.3d
 			id: "015BE5C32238B5F7"
 			rewards: [{
@@ -4009,7 +4032,7 @@
 				id: "35D84DB9E78E62B4"
 				type: "checkmark"
 			}]
-			title: "这里有210个多方块"
+			title: "这里有211个多方块"
 			x: -12.0d
 			y: -2.0d
 		}
@@ -4326,7 +4349,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["36742169BE411C01"]
+			dependencies: [
+				"6992E6733C4AF2C8"
+				"32BD532132423050"
+			]
 			description: [
 				"后期比较强力（当使用超能硅岩-塔兰线圈时并行数超过超维度蒸汽熔炉）"
 				""
@@ -4428,6 +4454,7 @@
 		}
 		{
 			dependencies: ["45096D94AE6F7864"]
+			description: ["输入的&b流体&r比例若与配方比例不同则会&e一直吞材料不输出产物&r"]
 			icon_scale: 1.3d
 			id: "58CCDA50B0673DB3"
 			rewards: [{
@@ -4671,6 +4698,20 @@
 			}]
 			x: 22.0d
 			y: 18.0d
+		}
+		{
+			dependencies: ["40405034AE9D9945"]
+			icon_scale: 1.3d
+			id: "32A19B3CCBC73D1C"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "1548F98EECA8A88C"
+				item: "gtceu:primitive_void_ore"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 20.0d
 		}
 	]
 	title: "多方块结构"

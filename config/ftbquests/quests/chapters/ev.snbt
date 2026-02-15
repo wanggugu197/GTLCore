@@ -37,8 +37,10 @@
 			dependencies: [
 				"1EC6366E9611F2AD"
 				"7940CFD732610594"
+				"75DAAFAD21F1451C"
 			]
 			hide_dependent_lines: true
+			icon: "kubejs:ev_universal_circuit"
 			id: "1E7344C133C99565"
 			shape: "rsquare"
 			size: 2.0d
@@ -76,6 +78,7 @@
 				"2712564DCCFD49B7"
 				"413B25F5BA2BA39D"
 				"47E43471E5E79714"
+				"157A951DA379C259"
 			]
 			icon_scale: 2.0d
 			id: "56F6FC6F9E106A2F"
@@ -133,6 +136,7 @@
 		}
 		{
 			dependencies: ["5000DCB028460D47"]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "25F272243EB904D5"
 			rewards: [{
@@ -150,7 +154,11 @@
 		}
 		{
 			dependencies: ["0037D6BA6A4ABB72"]
-			description: ["你需要高压釜"]
+			description: [
+				"你需要高压釜"
+				""
+				"使用的塑料越高级效率越高"
+			]
 			id: "1D96227373B962A2"
 			rewards: [{
 				id: "5D54D4EA65D60C8F"
@@ -203,7 +211,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4DDFAAF4A8E0622A"]
+			dependencies: [
+				"4DDFAAF4A8E0622A"
+				"04FD2A25CAC86CAB"
+			]
 			id: "5F11D5C61F8897B9"
 			rewards: [{
 				id: "3AC7FE180A495EAF"
@@ -224,7 +235,7 @@
 			]
 			title: "EV传感器与发射器"
 			x: 4.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -255,15 +266,10 @@
 			description: [
 				"你可以用铀-238和钚-239反应得到"
 				""
-				"{ \"text\": \"你也可以在火星直接采到\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"457BA0CCBA39709A\" } }"
+				"{ \"text\": \"你也可以在火星直接采到\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"457BA0CCBA39709A\" } }"
 			]
 			icon: "gtceu:radon_bucket"
 			id: "2CAC63F25BAF50B3"
-			rewards: [{
-				id: "138FCFDBEF7F8A39"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4A84D4958CB1471E"
 				type: "checkmark"
@@ -302,8 +308,8 @@
 				item: "gtceu:nor_memory_chip"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 7.0d
+			x: 12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4FD556B867463D30"]
@@ -360,14 +366,9 @@
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
-			description: ["{ \"text\": \"去火星挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0FE695E1E46BC4\" } }"]
+			description: ["{ \"text\": \"去火星挖\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0FE695E1E46BC4\" } }"]
 			icon: "gtceu:raw_scheelite"
 			id: "7DEEB07D0598019A"
-			rewards: [{
-				id: "6D67F24B06010900"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "4A25A688CC27F15F"
@@ -388,26 +389,30 @@
 			]
 			title: "钨矿"
 			x: 4.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"7DEEB07D0598019A"
 				"11E1183E0FE07737"
 			]
+			icon: "gtceu:tungstic_acid_dust"
 			id: "128C3126D5B5DCF3"
-			rewards: [{
-				id: "728EAD50A9488177"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2E65F7BAF19E2FB1"
-				item: "gtceu:tungstic_acid_dust"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 4.0d
+			subtitle: "电解氯化物以回收氯气"
+			tasks: [
+				{
+					id: "2E65F7BAF19E2FB1"
+					item: "gtceu:tungstic_acid_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5B23656E64D53D53"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["759F26B57097602E"]
@@ -427,11 +432,10 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3A8A37094C997BF8"]
-			description: [""]
 			id: "101EBAF218B980A1"
 			rewards: [{
 				id: "59D8861D0338EEC4"
@@ -444,7 +448,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -464,12 +468,12 @@
 				item: "gtceu:tungsten_steel_ingot"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["5B65662B72C369E7"]
-			description: [""]
+			description: ["此钢块非彼钢块"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_3_rocket"
@@ -477,57 +481,11 @@
 			}
 			icon_scale: 2.0d
 			id: "14D60DF010FF0396"
-			rewards: [
-				{
-					id: "1DEBD71F9A11431E"
-					item: "gtceu:platinum_credit"
-					type: "item"
-				}
-				{
-					id: "11D804FAA8BBE25E"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "14117A0A06359A24"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_suit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2584A81443277BA0"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "061D5A698148A2A1"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1DEBD71F9A11431E"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1A8B984603BF45D4"
@@ -551,6 +509,7 @@
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
+			description: ["这两种元素有对应的单质矿石，不用进行额外处理"]
 			id: "04FD2A25CAC86CAB"
 			rewards: [{
 				id: "29A595C203E1C556"
@@ -571,12 +530,12 @@
 			]
 			title: "铂与钯"
 			x: 4.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"5B65662B72C369E7"
-				"1CF3B9952010D033"
+				"11186961491B1773"
 			]
 			icon_scale: 1.3d
 			id: "42129A63D97DDF28"
@@ -590,22 +549,6 @@
 			tasks: [{
 				id: "5999E5B6C7681080"
 				item: "gtceu:iv_machine_hull"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["11186961491B1773"]
-			id: "1CF3B9952010D033"
-			rewards: [{
-				id: "3F6EE2E900833F74"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2D75941AFBC0524D"
-				item: "gtceu:polytetrafluoroethylene_plate"
 				type: "item"
 			}]
 			x: 10.0d
@@ -654,6 +597,7 @@
 			dependencies: [
 				"65D09ACC43B7AF20"
 				"4CFA7C2E9E272741"
+				"7940CFD732610594"
 			]
 			icon_scale: 1.3d
 			id: "4C43D30FD9B89965"
@@ -669,7 +613,7 @@
 				item: "gtceu:ev_energy_input_hatch"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 6.0d
 		}
 		{
@@ -688,8 +632,8 @@
 				item: "gtceu:ev_voltage_coil"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
@@ -720,8 +664,8 @@
 				item: "gtceu:mpic_chip"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 7.0d
+			x: 16.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
@@ -737,14 +681,14 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"00ACD41B8ABD498C"
 				"14D60DF010FF0396"
 			]
-			description: ["{ \"text\": \"去金星挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F0C57F9551D8FFA\" } }"]
+			description: ["{ \"text\": \"去金星挖\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F0C57F9551D8FFA\" } }"]
 			id: "7AEC0D308494C0F8"
 			rewards: [{
 				id: "079C2ECD4F827B41"
@@ -771,11 +715,57 @@
 			}
 			icon_scale: 2.0d
 			id: "0889DB18E2C68D67"
-			rewards: [{
-				id: "48113BC2479CE3D9"
-				item: "avaritia:ultimate_stew"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "48113BC2479CE3D9"
+					item: "avaritia:ultimate_stew"
+					type: "item"
+				}
+				{
+					id: "4DBDF2D131C74AA6"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "384F6F12201D6A9A"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6289E0F96AF3AC4B"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "733A81243F98D04C"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "0CEFB603A42AEFD8"
@@ -826,9 +816,9 @@
 				"37C5E7628A4B826C"
 			]
 			description: [
-				"EV超导体"
+				"&5EV&r超导体"
 				""
-				"{ \"text\": \"铀-238的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5268CBA4AB789BDA\" } }"
+				"{ \"text\": \"铀-238的来源见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5268CBA4AB789BDA\" } }"
 			]
 			id: "7852E4465B3CAF80"
 			rewards: [{
@@ -864,16 +854,25 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0375D068023B13D7"]
+			dependencies: [
+				"0375D068023B13D7"
+				"25F272243EB904D5"
+			]
 			description: [
-				"更大，更强"
+				"通过分析数据制造对应的气体而不是吸收维度中的气体"
 				""
 				"还能放入真空冷冻机直接获得液态空气"
 			]
 			icon: "gtceu:large_gas_collector"
 			icon_scale: 2.0d
 			id: "650980AB3D2A6AF6"
+			rewards: [{
+				id: "050878F15584D3FF"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
+			subtitle: "更大，更强"
 			tasks: [{
 				id: "7D1205F365E0C204"
 				item: "gtceu:large_gas_collector"
@@ -913,6 +912,7 @@
 		{
 			dependencies: ["4C43D30FD9B89965"]
 			description: ["你可以开始制作64A能源仓了"]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "31C3D49708342998"
 			rewards: [{
@@ -928,25 +928,38 @@
 				type: "item"
 			}]
 			x: 18.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"128C3126D5B5DCF3"
 				"2E910F4C45003592"
 			]
+			icon: "gtceu:tungsten_trioxide_dust"
 			id: "759F26B57097602E"
-			tasks: [{
-				id: "2C889814346AC9A0"
-				item: "gtceu:tungsten_trioxide_dust"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 4.0d
+			tasks: [
+				{
+					id: "2C889814346AC9A0"
+					item: "gtceu:tungsten_trioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "779938A14EFB4CC2"
+					type: "checkmark"
+				}
+			]
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1D96227373B962A2"]
 			id: "47E43471E5E79714"
+			rewards: [{
+				id: "7DA7AF7E7EE8F558"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "54946020B9728E09"
 				item: "gtceu:nano_cpu_chip"
@@ -958,7 +971,8 @@
 		{
 			dependencies: ["0931ECBAAD9252C7"]
 			description: [
-				"从现在开始你的部分东西需要无重力条件，你需要前往太空站进行制作。"
+				"从现在开始你的部分东西需要无重力条件，&6空间站&r是&b天然的无重力环境&r，所以你需要把一些机器放到空间站。"
+				""
 				"地球空间站是一个好选择"
 				""
 				"制造空间站的材料为1个钢引擎，16个&e微型处理器超级计算机&r，16个航天级铁板和64个钢锭"
@@ -981,8 +995,14 @@
 		}
 		{
 			dependencies: ["4DDFAAF4A8E0622A"]
+			description: ["你不用为怎么给AE供电发愁了"]
 			icon_scale: 2.0d
 			id: "423E927A2EE3A956"
+			rewards: [{
+				id: "459FC0B493C3AA4F"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "看工作台配方"
 			tasks: [{
@@ -991,49 +1011,22 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["27A9D4E765101CB9"]
-			id: "056D5A2274001900"
-			tasks: [{
-				id: "3BA644F108FC3339"
-				item: "gtceu:nitric_acid_bucket"
-				type: "item"
-			}]
-			title: "硝酸"
-			x: 8.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"056D5A2274001900"
-				"4D14C432E11EC9AB"
-			]
-			hide_dependent_lines: true
-			id: "668BDF2093A9291B"
-			rewards: [{
-				id: "528352B7EE9D92EE"
-				item: "avaritia:neutron_horse_armor"
-				type: "item"
-			}]
-			tasks: [{
-				id: "284C18263BB214FF"
-				item: "gtceu:aqua_regia_bucket"
-				type: "item"
-			}]
-			title: "王水"
-			x: 8.0d
-			y: 2.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
 			description: [
 				"你可以用凋零骷髅头和灵魂沙组装（没去下界之前去坚守者老家找几个灵魂沙）"
-				"不过主要还是得靠聚爆"
+				""
+				"不过主要还是得靠闪电处理-聚爆"
 			]
 			icon_scale: 2.0d
 			id: "631707E722744406"
+			rewards: [{
+				id: "65A57FAD7BE7A18C"
+				item: "avaritia:endless_cake"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F92475B90FE1AF2"
 				item: "minecraft:nether_star"
@@ -1047,69 +1040,87 @@
 				"2C75EB0628CB491A"
 				"242AFA510EC14878"
 			]
+			icon: "gtceu:mv_dehydrator"
 			id: "2E910F4C45003592"
-			tasks: [{
-				id: "00BCFB175F3BC87F"
-				item: "gtceu:hv_dehydrator"
-				type: "item"
-			}]
-			x: 6.0d
+			tasks: [
+				{
+					id: "00BCFB175F3BC87F"
+					item: "gtceu:mv_dehydrator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1347B65A4E384062"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
+			icon: "gtceu:ev_chemical_bath"
 			id: "11E1183E0FE07737"
-			tasks: [{
-				id: "1073EC62F6FB1848"
-				item: "gtceu:ev_chemical_bath"
-				type: "item"
-			}]
-			x: 5.0d
+			tasks: [
+				{
+					id: "1073EC62F6FB1848"
+					item: "gtceu:ev_chemical_bath"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09A8AB788708C498"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["27A9D4E765101CB9"]
+			description: ["实际上还有磷酸和氢氟酸"]
+			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "4D14C432E11EC9AB"
-			tasks: [{
-				id: "2675ED7FFC241CC6"
-				item: "gtceu:hydrochloric_acid_bucket"
-				type: "item"
-			}]
-			title: "盐酸"
-			x: 7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["27A9D4E765101CB9"]
-			id: "2FB55033636102A9"
-			tasks: [{
-				id: "75BEB6671092437B"
-				item: "gtceu:sulfuric_acid_bucket"
-				type: "item"
-			}]
-			title: "硫酸"
-			x: 9.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"056D5A2274001900"
-				"2FB55033636102A9"
+			subtitle: "盐酸、硫酸、硝酸、王水、硝酸混酸"
+			tasks: [
+				{
+					id: "2675ED7FFC241CC6"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "09FEA4F3DBA6FEC0"
+					item: "gtceu:sulfuric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "77083BDDAA61DD8F"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12E099E777562F19"
+					item: "gtceu:aqua_regia_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "042175922AF66AC1"
+					item: "gtceu:nitration_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "256DD16FF05A2484"
+					type: "checkmark"
+				}
 			]
-			id: "7711157A43DC1394"
-			rewards: [{
-				id: "74FF4F3E2C3D77F5"
-				item: "avaritia:endless_cake"
-				type: "item"
-			}]
-			tasks: [{
-				id: "125A41A672E1AF6B"
-				item: "gtceu:nitration_mixture_bucket"
-				type: "item"
-			}]
-			title: "硝酸混酸"
-			x: 9.0d
-			y: 2.5d
+			title: "五种重要化工原料"
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7AEC0D308494C0F8"]
@@ -1151,7 +1162,7 @@
 			description: [
 				"推荐把各种常用电路打包为通用电路板，方便以后修改样板"
 				""
-				"在编写样板时会&b&l优先&r将通用电路板写入样板"
+				"在编写样板时会&6优先&r将&b通用电路板&r写入样板"
 			]
 			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
@@ -1170,20 +1181,24 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: [
-				"直接从ME网络中抽取物品（仓室内的物品不在网络中）"
+				"简单来说就是仓室从ME网络抽物品到它自己的内部储存，然后再让机器使用它的内部储存物品（其实就是ME接口）"
 				""
-				"用闪存左键保存仓室配置，右键应用配置"
+				"ME输入总线/仓的&6拉取上限&r加强至&b9.2E/P"
 				""
-				"使用剪线钳可以让ME仓室在从正面联网和从任意面联网之间切换"
+				"用&d闪存&r左键保存仓室配置，右键应用配置"
 				""
-				"三种ME输出仓室均拥有long级别的容量和无限的格子（每秒输出一次，单次接受机器输出量上限为int）"
+				"用&d剪线钳&r右键ME仓室可以让ME仓室在从正面联网和从任意面联网之间切换"
 				""
-				"ME输出总成经过了优化，性能更佳，且可以手动将总成内的物品/流体弹出至ME网络"
+				"可在仓室gui左下角调整&6拉取间隔&r，默认显示0tick为不改变拉取间隔，&b最低1tick&r（影响从ME网络拉取的速度）"
+				""
+				"三种ME输出仓室均拥有long级别的容量和无限的格子（每秒输出一次，单次接受机器输出量上限为&bint&r）"
+				""
+				"ME输出总成经过了优化，性能更佳，且可以&6手动&r将滞留在总成内的物品/流体弹出至ME网络"
 			]
 			icon_scale: 1.5d
 			id: "733741C26C6BF5C3"
@@ -1196,7 +1211,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "直接与ME网络互动"
+			subtitle: "直接从ME网络抽取"
 			tasks: [
 				{
 					id: "734003F060FF3ACE"
@@ -1225,8 +1240,8 @@
 				}
 			]
 			title: "ME仓室"
-			x: 6.0d
-			y: 1.5d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25F272243EB904D5"]
@@ -1247,11 +1262,12 @@
 		{
 			dependencies: ["750D2CE269C7068D"]
 			description: [
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
 			]
 			id: "1FECF89B2EE569B5"
+			min_width: 270
 			tasks: [{
 				id: "36AC27CC14FDF508"
 				item: "gtceu:mv_world_data_scanner"

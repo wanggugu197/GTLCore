@@ -37,28 +37,36 @@
 			icon: "minecraft:grass_block"
 			icon_scale: 2.0d
 			id: "075D368E91231337"
-			rewards: [{
-				id: "2CF9C7981E9F7DE5"
-				item: {
-					Count: 1
-					id: "ae2:fluix_axe"
-					tag: {
-						Damage: 0
-						Enchantments: [
-							{
-								id: "minecraft:unbreaking"
-								lvl: 3s
-							}
-							{
-								id: "minecraft:efficiency"
-								lvl: 5s
-							}
-						]
-						RepairCost: 3
+			rewards: [
+				{
+					id: "2CF9C7981E9F7DE5"
+					item: {
+						Count: 1
+						id: "ae2:fluix_axe"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 3s
+								}
+								{
+									id: "minecraft:efficiency"
+									lvl: 5s
+								}
+							]
+							RepairCost: 3
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 64
+					id: "36B4CF4D8F7CFC86"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "20A638BEB859B6BC"
@@ -70,21 +78,23 @@
 		}
 		{
 			description: [
-				"默认M打开地图，按T可以传送至鼠标指向的地点，点击左下角的地球仪图标可以切换维度"
+				"默认&6M&r打开地图，按&6T&r可以传送至鼠标指向的地点，点击左下角的地球仪图标可以切换维度"
 				""
-				"界面左上角可以认领与强加载区块（认领的区块可以防爆）"
+				"界面左上角可以认领与强加载区块（认领的区块可以防爆）如果是在服务器，将ftb chunk的服务器设置（紫色齿轮）中的&6强制加载模式&r设置为&balways&r可以让服务器即使无人在线也可以让强加载区块加载"
 				""
-				"按住～键可以启用连锁"
+				"按住&6～&r键可以启用连锁"
 				""
-				"在任务节面的右上角从上往下第三个按钮可以查看任务界面内的快捷键"
+				"在任务界面的右上角从上往下第三个按钮可以查看任务界面内的快捷键"
 				""
 				"输入/sethome “名字”可以设置传送点，输入/home “对应名字”传送至对应传送点"
 				""
-				"在游戏根目录的backup文件夹中可以找到存档备份"
+				"在游戏根目录的backup文件夹中可以找到存档备份，输入/backup start立刻进行一次备份"
 				""
-				"默认关闭了飞行惯性，可在gtlcore的配置文件中找到"
+				"默认禁用了飞行惯性，可在gtlcore的配置文件中更改"
 				""
-				"更多的提示可在&b&l提示与技巧章节组&r查看"
+				"如果联机时显示GregTech版本不匹配，请确保服务端和客户端的config文件保持一致"
+				""
+				"更多的提示可在&d提示与技巧章节组&r查看"
 			]
 			hide_dependent_lines: true
 			icon: "ftbquests:book"
@@ -105,10 +115,14 @@
 		{
 			description: [
 				"这个任务包含了一些在游戏过程中的重要信息。"
+				""
 				"这套任务旨在引导你完成格雷科技进展的主要里程碑。"
+				""
 				"推荐在和平模式下游玩，因为敌对生物带来的好处很少。"
-				"只要你觉得合适，可以随意使用地图传送。"
-				"{ \"text\": \"最重要的，格雷科技会出现很复杂的配方，需要先熟练使用JEI。\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"575A2A1E4F56FF34\" } }"
+				""
+				"只要你觉得合适，可以随意使用地图传送、调整游戏规则等。"
+				""
+				"{ \"text\": \"最重要的，格雷科技会出现很复杂的配方，需要先熟练使用JEI。\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"575A2A1E4F56FF34\" } }"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:command_block_minecart"
@@ -128,25 +142,25 @@
 		}
 		{
 			description: [
-				"一个主打休闲的格雷科技整合包，相对于其他格雷包难度更低"
+				"一个主打休闲的格雷科技整合包（休闲在相对于其他格雷包难度更低）"
 				""
 				"主要流程"
-				"蒸汽ULV：收集基础资源，更大更强蒸汽机器，炼钢，超维度泥土锻炉。"
-				"低压LV：基础电力机器，电力高炉。"
-				"中压MV：硅晶体，石油处理，升级机器。"
-				"高压HV：处理器，大化反，一阶火箭登月，蒸馏塔，钛。"
-				"超高压EV：纳米处理器，虚空采矿机，二三四阶火箭，钨，铂系金属。"
-				"强导压IV：量子处理器，合金冶炼炉，裂变反应堆，五阶火箭，大型机器，装配线，数据库。"
-				"剧差压LUV：晶体处理器，硅岩，六阶火箭，核聚变MK1，计算机。"
-				"零点压ZPM：湿件处理器，核聚变MK2，七阶火箭。"
-				"极限压UV：生物活性处理器，核聚变MK3，深度化学扭曲仪，电路装配线，太空电梯。"
-				"极高压UHV：光学处理器，核聚变MK4，恒星炎殇锻炉，超能硅岩爆弹，超能反应堆。"
-				"极超压UEV：奇异处理器，核聚变MK5，超临界合成，基岩处理，精金。"
-				"极巨压UIV：寰宇处理器，宇宙探测，质量发生器，夸克，超重元素。"
-				"极顶压UXV：超因果处理器，龙，宇宙中子素，无尽，超维度等离子锻炉，拉多X。"
-				"过载压OPV：超时空电路，宇宙模拟，时空，奇点，永恒。"
-				"上限压MAX：创造物品合成。"
-				"附加题MAX+：鱼大。"
+				"蒸汽&8ULV&r：收集基础资源，更大更强蒸汽机器，炼钢，超维度泥土锻炉。"
+				"低压&7LV&r：基础电力机器，电力高炉。"
+				"中压&bMV&r：硅晶体，石油处理，升级机器。"
+				"高压&6HV&r：处理器，大化反，一阶火箭登月，蒸馏塔，钛。"
+				"超高压&5EV&r：纳米处理器，虚空采矿机，二三四阶火箭，钨，铂系金属。"
+				"强导压&9IV&r：量子处理器，合金冶炼炉，裂变反应堆，五阶火箭，大型机器，装配线，数据库。"
+				"剧差压&dLuV&r：晶体处理器，硅岩，六阶火箭，核聚变MK1，计算机。"
+				"零点压&cZPM&r：湿件处理器，核聚变MK2，七阶火箭。"
+				"极限压&3UV&r：生物活性处理器，核聚变MK3，深度化学扭曲仪，电路装配线，太空电梯。"
+				"极高压&4UHV&r：光学处理器，核聚变MK4，恒星炎炀锻炉，超能硅岩爆弹，超能反应堆。"
+				"极超压&aUEV&r：奇异处理器，核聚变MK5，超临界合成，基岩处理，精金。"
+				"极巨压&2UIV&r：寰宇处理器，宇宙探测，质量发生器，夸克，超重元素。"
+				"极顶压&eUXV&r：超因果处理器，龙，宇宙中子素，无尽，超维度等离子锻炉，拉多X。"
+				"过载压&1OpV&r：超时空电路，宇宙模拟，时空，奇点，永恒。"
+				"上限压&cMAX&r：创造物品合成。"
+				"附加题&cM&r&aA&r&9X&r&e+&r：鱼大。"
 			]
 			hide_dependent_lines: true
 			icon: "minecraft:structure_void"
@@ -169,7 +183,10 @@
 			dependencies: ["075D368E91231337"]
 			description: [
 				"这个怎么获得就不用多说了。"
+				""
 				"这个任务会给你一个探矿仪，潜行右键可以切换模式，流体模式目前还用不到。"
+				""
+				"如果你开启了作弊，在探矿仪界面里直接点击任一位置可直接传送（界面不会实时更新）"
 			]
 			id: "77DF4A561164B530"
 			rewards: [{
@@ -264,6 +281,11 @@
 				command: "/effect give @p minecraft:night_vision infinite 0 true"
 				elevate_perms: true
 				exclude_from_claim_all: true
+				icon: {
+					Count: 1
+					id: "gtceu:nightvision_goggles"
+					tag: { }
+				}
 				id: "08BEFC60D3DA3529"
 				title: "看破黑暗"
 				type: "command"
@@ -279,9 +301,10 @@
 		{
 			dependencies: ["77DF4A561164B530"]
 			description: [
-				"空手右键黑曜石可以去虚空世界，哭泣黑曜石可以去超平坦世界，传送X,Z坐标为主世界坐标x100"
+				"空手右键黑曜石可以去虚空世界，哭泣黑曜石则是超平坦世界，传送X,Z坐标为主世界坐标x100"
+				"（离（0，~，0）太远会出现一些奇怪的距离现象，建议避免这种情况）"
 				""
-				"虚空和超平坦世界时间锁定，不会刷怪，不会下雨（但是仍然会被主世界的天气影响，如主世界下雨时虚空和超平坦会变阴天）"
+				"虚空和超平坦世界时间锁定，不会刷怪，不会下雨（但是仍然会被主世界的天气影响，如主世界下雨时虚空和超平坦会变阴天），限高511"
 				""
 				"在这里GT的太阳能设备无法工作"
 			]
@@ -355,9 +378,9 @@
 					id: "1DC27EA1D26C5D2F"
 					item: {
 						Count: 1
-						id: "ae2:portable_item_cell_16k"
+						id: "ae2:portable_item_cell_256k"
 						tag: {
-							internalCurrentPower: 2000000.0d
+							internalCurrentPower: 2000000000
 						}
 					}
 					type: "item"
@@ -393,7 +416,7 @@
 			dependencies: ["2C6F506ADD78F277"]
 			description: [
 				"GT的大部分物品在工作台合成时需要用到工具"
-				"锤子的次要功能是通过右键单击&9&l静音机器"
+				"锻造锤的次要功能是通过右键单击&9&l静音机器"
 			]
 			icon: {
 				Count: 1
@@ -549,7 +572,7 @@
 		{
 			dependencies: ["6A7BE998C2EC882D"]
 			dependency_requirement: "all_started"
-			description: ["使用研钵磨成粉后用徒手搅拌"]
+			description: ["使用研钵磨成粉后徒手搅拌"]
 			id: "133BC85B5D3EF1CB"
 			rewards: [{
 				id: "0DA275C860355A9D"
@@ -576,18 +599,11 @@
 			dependencies: ["133BC85B5D3EF1CB"]
 			description: ["蒸汽时代主要材料"]
 			id: "4B6F43302E963F5E"
-			rewards: [
-				{
-					id: "45521EDF902431C8"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-				{
-					id: "0FA0E54BE4474E55"
-					item: "minecraft:stone_button"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "45521EDF902431C8"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57C6A23ADA9034AA"
 				item: "gtceu:bronze_ingot"
@@ -603,6 +619,7 @@
 				""
 				"你现在只能通过烧铁粒获得锻铁粒从而获得锻铁，有了电弧炉可以直接用铁锭甚至铁块和氧气制作锻铁锭"
 			]
+			icon: "gtceu:wrought_iron_ingot"
 			id: "52A0EE026A3D3A79"
 			rewards: [{
 				id: "11FB0702EB3F7E18"
@@ -622,39 +639,36 @@
 				}
 			]
 			title: "锻铁"
-			x: 1.5d
+			x: 2.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["52A0EE026A3D3A79"]
 			description: [
-				"手持终端潜行右键多方块主机可以自动搭建多方块结构，如果是空手则会显示预览"
+				"手持终端&6潜行右键多方块主机&r可以自动搭建多方块结构，如果是&d空手&r则会显示预览"
 				""
-				"终端可以识别不在饰品栏中的精妙存储背包内的方块"
+				"终端可以识别&b不在饰品栏中&r的精妙背包内的方块"
 				""
 				"自动搭建有一点问题，特别是在创造模式，推荐先不要在背包中放功能仓室只放结构方块，在搭建出主体结构后再手动放上功能仓室"
 			]
+			icon: "gtceu:terminal"
 			id: "4AB25C15F0B05AA0"
-			optional: true
 			rewards: [{
-				id: "4990434DB8C2B79E"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "765279B72A3A7F43"
+				id: "300E1DE7547E2113"
 				item: "gtceu:terminal"
 				type: "item"
 			}]
-			x: 1.5d
+			tasks: [{
+				id: "685A67720A9B9F7E"
+				title: "终端"
+				type: "checkmark"
+			}]
+			x: 3.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["4AB25C15F0B05AA0"]
-			description: [
-				"如果你不喜欢用指令或者小地图"
-				"默认Y键可以切换槽位"
-			]
+			description: ["默认Y键可以切换槽位"]
 			icon: "kubejs:warped_ender_pearl"
 			id: "72AFAC66A9EC5F1A"
 			optional: true
@@ -663,17 +677,22 @@
 				item: "kubejs:warped_ender_pearl"
 				type: "item"
 			}]
+			subtitle: "如果你不喜欢用指令或者小地图"
 			tasks: [{
 				id: "26A4AD36BD56873A"
 				title: "传送器"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 3.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2C6F506ADD78F277"]
-			description: ["可以去小市场兑换宝物，注意钻石是耐烧王，推荐给锅炉用"]
+			description: [
+				"上古金币可以去小市场兑换宝物"
+				""
+				"钻石是耐烧王，推荐给锅炉用"
+			]
 			id: "2E6B876A85B30554"
 			rewards: [{
 				id: "4C4D7911A44B42C2"
@@ -750,10 +769,14 @@
 		{
 			dependencies: ["6A7BE998C2EC882D"]
 			description: [
-				"扳手右键点击可以&9&l设置GT机器的端口&r，而潜行右键点击可以&9&l旋转机器&r，也可以代替镐子破坏机器"
-				"螺丝刀可以&9&l打开机器覆盖板&r以及&9&l设置自动输出是否开启"
+				"扳手右键点击可以&9&l设置GT机器的输出端口&r以及&9&l连接管道&r，而潜行右键点击可以&9&l旋转机器&r以及&9&l锁定管道流向&r（这个时候副手不能有物品），也可以代替镐子破坏机器"
+				""
+				"螺丝刀可以&9&l打开机器覆盖板配置界面&r以及&9&l设置自动输出是否开启"
+				""
 				"剪线钳可以&9&l连接线缆"
-				"软锤可以&9&l快速开关机器"
+				""
+				"软锤右键可以&9&l快速暂停机器&r，潜行右键可以&9&l在本次配方周期结束后暂停机器&r（解除暂停只能右键不能潜行右键）"
+				""
 				"撬棍可以&9&l卸下覆盖板"
 				"{@pagebreak}"
 				"扳手："
@@ -1116,6 +1139,9 @@
 			dependencies: ["1F663A6C2DD1DB60"]
 			description: [
 				"生产杂酚油，可以对焦炉物品(主方块)按U键可以跳转到JEI页面查看多方块结构"
+				""
+				"焦炉仓相当于一个没有GUI的焦炉主方块，可以使用管道或者漏斗交互"
+				""
 				"具体请到提示页面&b&l机器章节的多方块部分&r查看"
 			]
 			icon: "gtceu:coke_oven"
@@ -1140,15 +1166,24 @@
 					item: "gtceu:coke_oven_bricks"
 					type: "item"
 				}
+				{
+					id: "406B104BD18B1B99"
+					item: "gtceu:coke_oven_hatch"
+					optional_task: true
+					type: "item"
+				}
 			]
-			x: 3.5d
-			y: 0.5d
+			x: 5.5d
+			y: -1.0d
 		}
 		{
-			dependencies: ["4B6F43302E963F5E"]
+			dependencies: [
+				"4B6F43302E963F5E"
+				"12E605EC5CFDE71A"
+				"4AB25C15F0B05AA0"
+			]
 			description: ["有了青铜，你可以开始制作各种蒸汽驱动的机器了"]
 			icon: "gtceu:lp_steam_alloy_smelter"
-			icon_scale: 2.0d
 			id: "46F82A0A3D57C225"
 			rewards: [{
 				id: "07408B5DAB665BC8"
@@ -1156,42 +1191,27 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 1.0d
+			size: 2.0d
 			tasks: [{
 				id: "529B5BE92883F9CE"
 				title: "蒸汽时代"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["12E605EC5CFDE71A"]
-			description: [
-				"相当于一个没有GUI的焦炉主方块，可以使用管道或者漏斗交互"
-				"不能共用给多个焦炉"
-			]
-			id: "4E01FAE893654321"
-			rewards: [{
-				id: "21D31A1CAA1B89AD"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "7CE6D963CAE47A61"
-				item: "gtceu:coke_oven_hatch"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 2.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
 			description: [
 				"格雷科技的矿石都是以矿脉形式生成的，每个矿脉都有特定的矿石"
-				"粗矿的JEI可查看矿脉生成信息。"
-				"具体矿脉内容可到矿石生成章节查看。"
-				"连锁可以采集所有矿石。"
+				""
+				"在粗矿的JEI可查看矿脉生成信息"
+				""
+				"具体矿脉内容可到矿石生成章节查看"
+				""
+				"连锁可以采集所有矿石"
+				""
+				"时运只对GT矿石掉落的石头粉有效"
 			]
 			icon: "gtceu:raw_tin"
 			id: "050FD340224F7AB6"
@@ -1210,7 +1230,7 @@
 		}
 		{
 			dependencies: ["2DC6C5D7DDA578F7"]
-			description: ["这是你需要收集的植物"]
+			description: ["甘蔗用于做纸（更麻烦了），橡胶树则是粘性树脂"]
 			id: "79D4AD9908A4578A"
 			rewards: [{
 				count: 320
@@ -1218,6 +1238,7 @@
 				item: "minecraft:bone_meal"
 				type: "item"
 			}]
+			subtitle: "这是你需要收集的植物"
 			tasks: [
 				{
 					id: "35C774E2B111952D"
@@ -1237,7 +1258,7 @@
 		{
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
-			description: ["两个元件都可以放入ME驱动器中充当磁盘"]
+			description: ["这两种元件都可以放入ME驱动器中充当磁盘（有没有电都可以）"]
 			icon: "gtlcore:infinite_cell_component"
 			id: "7198356C944E053A"
 			optional: true
@@ -1285,8 +1306,8 @@
 				}
 			]
 			title: "超级存储"
-			x: 7.5d
-			y: -1.0d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			can_repeat: true
@@ -1294,7 +1315,9 @@
 			description: [
 				"第一行就是最多连锁数量，设置时不建议太大"
 				""
-				"在gtlcore的配置文件中可以设置连锁的黑名单"
+				"在gtlcore的配置文件中可以设置连锁的黑名单，黑名单里面默认有AE线缆和草方块"
+				""
+				"同时可以修改“不定形”的挖掘范围（连锁挖掘检查范围）"
 			]
 			icon: {
 				Count: 1
@@ -1328,9 +1351,8 @@
 		{
 			description: [
 				"鼠标移动到一个物品上面!（背包，右侧搜索栏，jei中）"
-				""
-				"按r查看合成！！！"
-				"按u查看用途！！！"
+				"按&6R&r查看&b合成&r！！！"
+				"按&6U&r查看&b用途&r！！！"
 				""
 				"打开界面后上面有两个带箭头的行"
 				"第一行和最上的图标一样可以切换合成工具（点击这一行的文字可以查看这种方式的所有合成表）"
@@ -1395,7 +1417,7 @@
 				type: "item"
 			}]
 			title: "Pipez"
-			x: 2.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -1411,7 +1433,6 @@
 				"重复结构次数适用于蒸馏塔等可多层叠加的多方块结构，简单来说数字越大结构越长"
 			]
 			id: "1A124E85453923DF"
-			optional: true
 			rewards: [{
 				id: "17FC55AEB50BEEE0"
 				item: "gtceu:cupronickel_credit"
@@ -1422,7 +1443,7 @@
 				item: "gtmthings:advanced_terminal"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 5.5d
 			y: 0.5d
 		}
 		{
@@ -1436,13 +1457,27 @@
 				"这是什么！空岛模式！"
 				"只有你在世界创建的时候选择了 &b空岛&r"
 				"这个任务才是可以完成的"
-				"你需要在游戏菜单界面， 单击开启mod，"
-				"搜索gtlcore，点击配置，"
+				"你需要在游戏菜单界面， 单击 &b模组&r ，"
+				"搜索 &bgtlcore&r ，点击 &b配置&r ，"
 				"将 &b空岛模式&r 的配置由 &bfalse&r 改为 &btrue&r"
+				"完成上述步骤后请&6重启游戏&r，配置内容不支持热重载"
+				"这样才是真的进入空岛模式了，如果你想试试常规模式把模式切换回去再新建一个存档就行"
+				"空岛版的服务器搭建流程见下一页"
 				""
-				"（这样才是真的进入空岛模式了，如果你想试试常规模式请记得切换模式）"
-				"（在改变配置后请重启游戏，配置内容不支持热重载）"
-				"{image:ftbquests:textures/picture/002.png width:300 height:150 align:center}"
+				"{image:ftbquests:textures/picture/002.png width:320 height:200 align:center}"
+				"{@pagebreak}"
+				"如果你想开一个空岛版的服务器"
+				"你需要修改"
+				""
+				"config/gtlcore.yaml里面的"
+				"enableSkyBlokeMode改成true"
+				""
+				"server.properties里面的"
+				"level-type改成skyblockbuilder\\:skyblock"
+				""
+				"而且建议你查看skyblock builder的wiki"
+				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
+				"以了解相关指令"
 			]
 			icon: "gtlcore:world_fragments_overworld"
 			id: "0F4AFDE98CEA87B1"
@@ -1465,12 +1500,10 @@
 		{
 			dependencies: ["050FD340224F7AB6"]
 			description: [
-				"来自精妙的 背包 箱子 桶"
+				"来自精妙系列的 背包 桶 箱子"
 				"前期非常好用"
 				""
 				"（出AE后推荐使用AE）"
-				""
-				"不要使用无尽贪婪的压缩箱子（nbt毁灭者）"
 			]
 			id: "75E8F87D6035DB24"
 			optional: true
@@ -1585,7 +1618,7 @@
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
 			description: [
-				"可以潜行右键AE的无线访问点绑定ME网络（你直接放进去也行），从而直接调用ME网络库存物品"
+				"可以潜行右键AE的&6无线访问点&r绑定ME网络（你直接放进去也行），从而直接调用ME网络库存物品"
 				""
 				"在使用剪切工具时尽量&c不要旋转&r，否则会导致方块的部分nbt丢失"
 				""
@@ -1706,9 +1739,9 @@
 		{
 			dependencies: ["4AB25C15F0B05AA0"]
 			description: [
-				"{ \"text\": \"你应该已经知道怎么用了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }"
+				"{ \"text\": \"你应该已经知道怎么用了\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }"
 				""
-				"右键除了多方块结构主机以外的方块可以切换镜像和普通模式"
+				"右键除了多方块结构主机以外的方块可以在镜像和普通模式之间切换&mtooltip里面的是错的"
 				"{@pagebreak}"
 				"有可能导致崩溃"
 			]
@@ -1725,14 +1758,14 @@
 				item: "gtlcore:structure_detect"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"输入总成中的总线隔离仅隔离物品，在多方块主方块GUI中打开完全隔离启用流体隔离"
+				"输入总成中的&6总线隔离&r仅&b隔离物品&r，在多方块主方块GUI中打开&6完全隔离&r启用&b流体隔离&r"
 				""
-				"注意：完全隔离启用后会覆盖所有总成的隔离，即每个总成都处于物品和流体隔离状态"
+				"注意：完全隔离启用后会&d覆盖所有总成的隔离&r，即每个总成都处于物品和流体隔离状态"
 				"{@pagebreak}"
 				"如果你是从旧版本升上来的，请把所有输入总成拆下来再放回去，否则隔离有概率失效"
 			]
@@ -1755,10 +1788,15 @@
 		{
 			description: [
 				"性能监控器可以监测所有机器造成的延迟"
+				""
 				"可以输入/forge tps来查看游戏延迟，最好保证tps一直处于20"
+				""
 				"以下事项可能是卡顿原因："
-				"把所有东西都建在一个小空间内。这不会影响TPS，但会导致FPS下降。"
+				""
+				"把所有东西都建在一个小空间内。这不会影响tps，但会导致fps下降。"
+				""
 				"在网络中大量使用输入和输出总线。推荐使用ME接口。"
+				""
 				"下单多次发配少量物品。建议减少CPU并行数，同时扩大样板倍数。"
 			]
 			hide_dependent_lines: true
@@ -1813,7 +1851,7 @@
 		}
 		{
 			dependencies: ["1D93602C5835593F"]
-			description: ["{ \"text\": \"你应该已经知道怎么用了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"516564DCEA7FA80B\" } }"]
+			description: ["{ \"text\": \"你应该已经知道怎么用了\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"516564DCEA7FA80B\" } }"]
 			id: "13371F3E8D27310F"
 			optional: true
 			rewards: [{
@@ -1826,7 +1864,7 @@
 				item: "gtceu:performance_monitor"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 7.5d
 			y: 2.0d
 		}
 		{
@@ -1835,24 +1873,28 @@
 				"40C39645B1DE2488"
 			]
 			description: [
-				"在高级终端的基础上支持替换线圈、太空电梯动力模块、部件装配线外壳和恒星热力容器（鼠标点击“等级方块”文字打开选择等级方块界面）"
+				"在高级终端的基础上支持&b替换&r线圈、太空电梯动力模块、部件装配线外壳和恒星热力容器（鼠标点击“等级方块”文字打开选择等级方块界面）"
 				""
-				"还支持镜像放置多方块结构，无仓室模式也会持续生效"
+				"还支持&b镜像放置&r多方块结构，无仓室模式也会持续生效，甚至可以放置流体（识别身上的流体桶、远海鲸吞之桶、ME网络里面的流体）"
+				""
+				"同时支持&b绑定AE&r，从ME网络直接拉取材料搭建多方块结构（潜行右键任意ME网络内的组件绑定）"
+				""
+				"也支持&d一键拆解&r多方块结构（开启AE模式直接返回ME网络，不开启时建议身上携带背包等容器；只有AE模式才能回收流体）"
 			]
 			id: "3F8DDC1B589F52AC"
-			optional: true
 			rewards: [{
 				id: "7878F01FAAB84253"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
+			shape: "pentagon"
 			tasks: [{
 				id: "45EF957CA69802F4"
 				item: "gtlcore:ultimate_terminal"
 				type: "item"
 			}]
 			title: "终极终端"
-			x: -1.5d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -1905,8 +1947,8 @@
 				type: "checkmark"
 			}]
 			title: "框架方块"
-			x: 4.5d
-			y: -4.0d
+			x: 1.5d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -2366,8 +2408,72 @@
 				}
 			]
 			title: "如果你弄丢了工具"
-			x: 5.5d
-			y: -1.0d
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C6F506ADD78F277"]
+			description: ["在gtlcore的配置文件中可以启用&b原始虚空采矿机&r，在主世界/下界/末地消耗蒸汽随机产出对应维度的粗矿"]
+			hide_dependency_lines: true
+			icon: "minecraft:raw_iron"
+			id: "5531507E2FA738A4"
+			optional: true
+			tasks: [{
+				id: "390E2C9977EE3EEF"
+				type: "checkmark"
+			}]
+			title: "原始虚空采矿机"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2E6B876A85B30554"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "gtceu:prospector.luv"
+				tag: {
+					Charge: 1000000000L
+				}
+			}
+			id: "420A04A0033C1E3B"
+			optional: true
+			rewards: [
+				{
+					id: "13987C2635D5B879"
+					item: {
+						Count: 1
+						id: "gtceu:prospector.luv"
+						tag: {
+							Charge: 1000000000L
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "661D0BAEBDD12451"
+					item: "gtceu:doge_coin"
+					type: "item"
+				}
+			]
+			subtitle: "再换一个，这次可别弄丢了"
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "43CEABA34FB29845"
+					item: { Count: 64, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					id: "4E24326430CE5947"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+			]
+			title: "如果你弄丢了探矿仪"
+			x: -2.5d
+			y: 0.5d
 		}
 	]
 	subtitle: ["Tier0-石器时代"]

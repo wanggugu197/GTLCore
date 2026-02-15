@@ -69,6 +69,7 @@
 				"553B2D61416792DC"
 			]
 			description: ["第一次玩建议额外浏览《电力》《机器》这两个章节"]
+			icon: "kubejs:lv_universal_circuit"
 			id: "51B9A72C19F84F0E"
 			shape: "rsquare"
 			size: 2.0d
@@ -122,7 +123,7 @@
 		}
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["让你更高效的获得杆和螺丝，一锭出两杆，一螺栓出一螺丝"]
+			description: ["让你更高效的获得杆和螺丝：一锭出两杆，一螺栓出一螺丝"]
 			icon_scale: 2.0d
 			id: "048455FFC9BDC82A"
 			rewards: [{
@@ -154,7 +155,7 @@
 				item: "gtceu:lv_polarizer"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -187,7 +188,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3117BF8E4782DB2A"]
+			dependencies: [
+				"3117BF8E4782DB2A"
+				"553B2D61416792DC"
+			]
 			description: [
 				"这是为多方块结构供电的方块"
 				""
@@ -206,8 +210,8 @@
 				item: "gtceu:lv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
@@ -217,6 +221,8 @@
 				"维护仓&4并不能&r被多方块结构共用"
 				""
 				"拿着胶带右键维护仓可快速维护维护仓"
+				""
+				"实际上维护仓里面放不了胶带阻止故障"
 			]
 			hide_dependency_lines: true
 			id: "3F38CC8C8D650202"
@@ -296,12 +302,14 @@
 			]
 			icon_scale: 2.0d
 			id: "3E50EE376968519F"
+			min_width: 240
 			rewards: [{
 				id: "2DF768F56128A868"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "不能组装电路"
 			tasks: [{
 				id: "0A32B247C01822D2"
 				item: "gtceu:lv_assembler"
@@ -312,7 +320,7 @@
 		}
 		{
 			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["从物品中提取东西"]
+			description: ["将物品转换成流体"]
 			icon_scale: 2.0d
 			id: "63C2FA96C708C125"
 			rewards: [{
@@ -398,6 +406,7 @@
 				item: "gtceu:cupronickel_double_wire"
 				type: "item"
 			}]
+			title: "白铜导线"
 			x: 2.0d
 			y: 6.0d
 		}
@@ -419,6 +428,7 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
+			description: ["电解矿物粉获得材料"]
 			hide_dependency_lines: true
 			id: "6E3B42BCBA6064F5"
 			rewards: [{
@@ -436,7 +446,7 @@
 		}
 		{
 			dependencies: ["6E3B42BCBA6064F5"]
-			description: ["{ \"text\": \"LV阶段你的铝粉只能通过电解蓝宝石或者绿色蓝宝石粉获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
+			description: ["{ \"text\": \"LV阶段你的铝粉只能通过电解蓝宝石或者绿色蓝宝石粉获得\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
 			hide_dependency_lines: false
 			id: "73EFFB71A1A827D6"
 			rewards: [{
@@ -499,6 +509,11 @@
 			description: ["这个是便宜的MV电路"]
 			icon_scale: 2.0d
 			id: "40C39645B1DE2488"
+			rewards: [{
+				id: "520AD95C373E9472"
+				item: "ae2:basic_card"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -530,6 +545,7 @@
 				"3A97E85643D2F8AC"
 				"1BF78ABAD1FF993F"
 			]
+			description: ["后面能用化反做，效率更高"]
 			id: "006BBE4D312A2E2E"
 			rewards: [{
 				id: "556A75455225A1FC"
@@ -583,9 +599,9 @@
 		{
 			dependencies: ["075D368E91231337"]
 			description: [
-				"{ \"text\": \"镓粉的早期来源是热离闪锌矿\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				"{ \"text\": \"镓粉的早期来源是热离闪锌矿\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
 				""
-				"{ \"text\": \"砷粉的早期来源则是雄黄\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
+				"{ \"text\": \"砷粉的早期来源则是雄黄\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
 			]
 			id: "6D63FB02A50F8249"
 			rewards: [{
@@ -604,7 +620,7 @@
 		{
 			dependencies: ["51B9A72C19F84F0E"]
 			description: [
-				"用它烧制锻铁和退火铜"
+				"用它烧制退火铜和锻铁"
 				""
 				"还能回收没用的机器"
 			]
@@ -620,7 +636,7 @@
 				item: "gtceu:lv_arc_furnace"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -637,11 +653,12 @@
 				item: "gtceu:magnetic_steel_rod"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["524AC325E68AEB3A"]
+			description: ["退火铜可以在很多地方取代铜，而且某些时候效率更高"]
 			id: "31B5C9A6F8FB0BA2"
 			rewards: [{
 				id: "25EAB2420E51D496"
@@ -653,7 +670,7 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -671,7 +688,7 @@
 				item: "gtceu:lv_gas_collector"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 6.0d
 		}
 		{
@@ -689,12 +706,12 @@
 				title: "氮气和氧气"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: ["{ \"text\": \"你可以还去小市场买点线缆\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AF2865F9C88CBFD\" } }"]
+			description: ["{ \"text\": \"你可以还去小市场买点线缆\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AF2865F9C88CBFD\" } }"]
 			hide_dependency_lines: true
 			id: "44DD16023AF842F1"
 			rewards: [{
@@ -702,7 +719,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			subtitle: "这个是LV阶段的超导材料"
+			subtitle: "这个是LV阶段的便宜超导材料"
 			tasks: [{
 				id: "001139BEE7311878"
 				item: "gtceu:conductive_alloy_ingot"
@@ -755,7 +772,7 @@
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
-			description: ["{ \"text\": \"你需要用组装机做\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
+			description: ["{ \"text\": \"你需要用组装机做\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E50EE376968519F\" } }"]
 			id: "49ABB341017BAE85"
 			rewards: [{
 				id: "3694138B038CCF53"
@@ -831,7 +848,7 @@
 		{
 			dependencies: ["335ED39019FC62E7"]
 			description: [
-				"{ \"text\": \"硫来自于远古世界\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
+				"{ \"text\": \"硫来自于远古世界\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
 				""
 				"生橡胶末来自于离心黏性树脂"
 			]
@@ -870,7 +887,7 @@
 				item: "gtceu:lv_voltage_coil"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -880,9 +897,21 @@
 				"06F767F4EFFD5DC6"
 				"128671E4DC47EF55"
 			]
-			description: ["{ \"text\": \"聚氯乙烯的性价比更高\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BF89185AEB4D1D5\" } }"]
+			description: ["{ \"text\": \"聚氯乙烯的性价比更高\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BF89185AEB4D1D5\" } }"]
 			icon_scale: 2.0d
 			id: "033DE57F0D91698C"
+			rewards: [
+				{
+					id: "1E52D1FAE4E5AEDF"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "4D947DB9ECD0E319"
+					item: "expatternprovider:ex_pattern_access_part"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "139820782C4C2E96"
 				item: "ae2:blank_pattern"
@@ -913,11 +942,11 @@
 		{
 			dependencies: ["07D0D7005DA4F446"]
 			description: [
-				"LV超导体"
+				"正经的&8LV&r超导体"
 				""
-				"{ \"text\": \"磷的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
+				"{ \"text\": \"磷的来源见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"70252B72F7728EFD\" } }"
 				""
-				"{ \"text\": \"这里则是锰的来源\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C75A50B17AA9AF1\" } }"
+				"{ \"text\": \"这里则是锰的来源\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C75A50B17AA9AF1\" } }"
 			]
 			id: "4EBCDD1E943F7350"
 			rewards: [{
@@ -948,9 +977,13 @@
 		{
 			dependencies: ["0BBC0C3FB2E8C800"]
 			description: [
-				"{ \"text\": \"具体产出见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
+				"{ \"text\": \"具体产出见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
 				""
-				"世界加速器并不能加速GT机器，只能加速作物生长、无尽贪婪的机器等"
+				"不要尝试进到屠宰场内部，会每隔一秒受到来自/kill的即死伤害"
+				""
+				"世界加速器&c并不能加速&rGT机器，只能加速作物生长、无尽贪婪的机器等"
+				"{@pagebreak}"
+				"你也可以在gtlcore的配置文件中修改屠宰场会生成的生物"
 			]
 			icon_scale: 2.0d
 			id: "62B5D5669A535245"
@@ -966,7 +999,15 @@
 		}
 		{
 			dependencies: ["0D3122E318CB119D"]
-			description: ["用法在AE自带指南里，非常详细"]
+			description: [
+				"用法在AE自带指南里，非常详细"
+				""
+				"在打开样板编码终端的前提下，对着多方块主机按U可以按加号直接将所有建筑材料写入样板"
+				""
+				"除非你真的知道自己在做什么，否则建议&c将样板里的副产物全部删除&r，避免出现副产物参与合成导致卡合成的情况"
+				""
+				"由于各种奇怪的nbt问题，在做出分子操纵者前尽量避免直接编写带有GT工具、护具的合成样板，转而使用无工具的处理样板（详情见分子装配室的指南页面，此时将工具直接放入分子装配室作为催化剂使用）"
+			]
 			id: "1715EF3BF00D33B7"
 			tasks: [
 				{
@@ -1004,7 +1045,9 @@
 		{
 			dependencies: ["27A9D4E765101CB9"]
 			description: [
-				"{ \"text\": \"可以通过处理石油获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
+				"{ \"text\": \"可以通过处理石油/原油/轻油获得\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5785F2E43E76E624\" } }"
+				""
+				"重油要用MV蒸馏室"
 				""
 				"你也可以用硫酸和乙醇反应获得"
 			]
@@ -1030,7 +1073,7 @@
 				"51B9A72C19F84F0E"
 				"18DC7021FF2C7EEB"
 			]
-			description: ["需要充电"]
+			description: ["拿在手上潜行右键切换开关状态"]
 			hide_dependency_lines: true
 			id: "72D27369AF243A34"
 			optional: true
@@ -1039,7 +1082,7 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "如其名"
+			subtitle: "需要充电"
 			tasks: [{
 				id: "28B5B9642C4C6326"
 				item: "gtceu:lv_item_magnet"
@@ -1095,9 +1138,10 @@
 			description: [
 				"输入，输出，维护 ，动力，你都放了吗"
 				""
-				"发电机放入主机GUI右下角，且最多堆叠&b&l16&r个"
+				"发电机放入主机GUI右下角，且最多堆叠&b&l十六&r个"
 				""
-				"无线电网模式可以绕过动力仓，直接将电量输入无线电网"
+				"无线电网模式可以&6绕过动力仓&r"
+				"{ \"text\": \"直接将能量导入无线电网\", \"italic\":\"true\",\"underlined\":\"true\",\"color\":\"ff00ff\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D4874CA93B567A3\" } }"
 				""
 				"无线电网模式下建议动力仓容量至少为一台发电机的基础功率，且有自动消耗动力仓内缓存电力的途径，以免发电阵列因动力仓电力缓存满了导致停机"
 			]
@@ -1114,13 +1158,17 @@
 		{
 			dependencies: ["51B9A72C19F84F0E"]
 			description: [
-				"巨型输入总成并不能手动放入物品，需要通过存储容器（箱子，me接口，样板供应器等）进行交互"
+				"巨型输入总线/成&c不能通过外界输入编程电路的方法修改仓室本身的电路设置"
 				""
-				"除了容量变大，巨型输入总线还拥有4格催化剂槽位，巨型输入总成则有9格物品催化剂槽位以及9格流体催化剂槽位"
+				"巨型输入总线/成的可用物品槽位实际上比物品描述里的&c少一个&r"
 				""
-				"Shift+右键会将物品放入催化剂槽"
+				"巨型输入总成的成型判定同时为输入总线和输入仓，普通输入总成的判定仅为输入总线，注意区分"
 				""
-				"巨型输入总线/成的可用物品槽位实际上比物品描述里的少一个"
+				"巨型输入总线/成并不能手动放入物品，需要通过存储容器（箱子，me接口，样板供应器等）进行交互"
+				""
+				"除了容量变大，巨型输入总线还拥有4格&b物品催化剂&r槽位，巨型输入总成则有9格物品催化剂槽位以及9格&b流体催化剂&r槽位"
+				""
+				"对着巨型输入总线/成Shift+右键会将物品放入催化剂槽"
 			]
 			hide_dependency_lines: true
 			id: "62A978538C87ED8A"
@@ -1208,9 +1256,11 @@
 			description: [
 				"安装在小机器上从而使机器直接从无线电网获得能源"
 				""
-				"{ \"text\": \"初期无线电来源是发电阵列\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1486FC9F82B2E56E\" } }"
+				"{ \"text\": \"初期无线电来源是发电阵列\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1486FC9F82B2E56E\" } }"
 				""
-				"多方块机器要等到&6HV&r才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代（外壳只有1安，电池箱有高安，只有红色的面能输出能源）"
+				"{ \"text\": \"无线电网的具体细节见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D4874CA93B567A3\" } }"
+				""
+				"多方块机器要等到&6HV&r才能使用无线能源仓，你可以用机器外壳/电池箱+普通能源仓的组合做替代（外壳只有1安，电池箱有高安，只有红色的面能输出能源；电池箱名字里面的Nx代表输出电流为N安，1个电池对应1安输出电流）"
 			]
 			id: "1FA24513965B09A8"
 			rewards: [{
@@ -1254,7 +1304,7 @@
 		}
 		{
 			dependencies: ["1FA24513965B09A8"]
-			description: ["无线能量接口可以将接受到的电力导入无线电网"]
+			description: ["无线能量接口可以将接收到的电力导入无线电网"]
 			icon: "gtmthings:wireless_energy_monitor"
 			icon_scale: 2.0d
 			id: "2658C31A89CF5B24"
@@ -1308,7 +1358,7 @@
 		}
 		{
 			dependencies: ["2658C31A89CF5B24"]
-			description: ["从无线电网获取能量，对着机器潜行右键以8倍的电力消耗为代价加速机器"]
+			description: ["从无线电网获取能量，对着机器潜行右键以&68倍的电力消耗&r为代价加速机器"]
 			id: "1F0CED23E64D8DB5"
 			rewards: [{
 				id: "6EB5ABC55B15A326"
@@ -1331,7 +1381,7 @@
 			description: [
 				"荧石的来源可以是屠宰场或者闪电处理机"
 				""
-				"{ \"text\": \"还有33个无限编程电路元件，使用16K ME存储元件制作\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
+				"{ \"text\": \"还有33个无限编程电路元件，使用16K ME存储元件制作\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
 			]
 			hide_dependency_lines: true
 			id: "26FF330CEEDDDDF1"
@@ -1377,7 +1427,7 @@
 		}
 		{
 			dependencies: ["4357DF535061C2E5"]
-			description: ["通过模拟高能闪电将普通材料转换为比较有用的材料，如福鲁伊斯特水晶、充能赛特斯石英、末影珍珠粉、荧石粉等"]
+			description: ["通过模拟高能闪电将普通材料转换为比较有用的材料，比如福鲁伊斯特水晶、充能赛特斯石英、末影珍珠粉、荧石粉等"]
 			id: "5C831396310E6546"
 			rewards: [{
 				id: "314AAA3E7631AAA5"

@@ -19,6 +19,7 @@
 				"242AFA510EC14878"
 			]
 			hide_dependent_lines: true
+			icon: "kubejs:hv_universal_circuit"
 			id: "1A48D2DB936FF632"
 			shape: "rsquare"
 			size: 2.0d
@@ -78,8 +79,8 @@
 				item: "gtceu:hv_circuit_assembler"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4302F67F2B0B22D0"]
@@ -160,7 +161,11 @@
 		{
 			dependencies: ["0243CEA5EE705EB0"]
 			dependency_requirement: "one_started"
-			description: ["从微型到湿件系列的处理器（狭义）后续均可使用更高电压等级的配方高效制作（soc）"]
+			description: [
+				"从微型到湿件系列的处理器（狭义）后续均可使用SoC芯片简化配方高效制作，简称soc电路"
+				""
+				"SoC系列里面还有NAND芯片（ULV）和微芯片处理器（LV）"
+			]
 			icon_scale: 2.0d
 			id: "3FCF807491579B94"
 			rewards: [{
@@ -198,7 +203,7 @@
 				"18CA398800CC2E1B"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["没有超净间的情况下你得把电路组装机放在通用组装厂里面，然后装上超净维护仓"]
+			description: ["没有超净间的情况下你得把电路组装机放在&6通用组装厂&r里面，然后给通用组装厂装上&b超净维护仓&r"]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [{
@@ -217,7 +222,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1C320B245EAC8D14"]
+			dependencies: [
+				"1C320B245EAC8D14"
+				"31B5C9A6F8FB0BA2"
+			]
 			icon_scale: 2.0d
 			id: "3461BF0D74E5E8DF"
 			rewards: [{
@@ -225,20 +233,21 @@
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
+			subtitle: "必做"
 			tasks: [{
 				id: "4C4E9514C39EE1F0"
 				item: "gtceu:micro_processor_mainframe"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"314E6600CD806FA0"
 				"26FA6E064EF9FF5B"
 			]
-			description: [" 放在多方块结构中使多方块获得超净环境"]
+			description: [" 放在多方块结构中使多方块获得&d超净间环境&r"]
 			icon_scale: 2.0d
 			id: "5E9EA7E22BE663AF"
 			rewards: [{
@@ -278,6 +287,7 @@
 				{
 					id: "5486AA825E0EE11B"
 					item: "gtceu:configurable_maintenance_hatch"
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -304,7 +314,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["{ \"text\": \"前往探索世界章节了解更多\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18A773A6B710C658\" } }"]
+			description: ["{ \"text\": \"前往探索世界章节了解更多\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18A773A6B710C658\" } }"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_1_rocket"
@@ -366,9 +376,9 @@
 			description: [
 				"渔场可以获得一些有用的资源，不要忘记造了"
 				""
-				"你需要给渔场输入64根鱼竿以及至少24个物品输出槽位从而达到最大效率（可以使用多个总线、巨型总线、库存总线等方法）"
+				"零点模块是ZPM等级的&d电池&r，也只能放进ZPM等级的电池箱"
 				""
-				"小提示：可以通过放冰再连锁打破达到快速放置水"
+				"可以使用多个总线、巨型总线、库存总线等方法输入64根鱼竿"
 			]
 			icon_scale: 1.5d
 			id: "6F85AB2294DA3310"
@@ -391,7 +401,8 @@
 			description: [
 				"在EV的时候你就需要大量的奇奇怪怪的化工原料，现在不把石化生化联合产线搭好，后面EV会非常坐牢"
 				""
-				"蒸馏塔除底层外每层&o&e仅能且必须&r放置一个&b小型&r输出仓，每个输出仓对应一种产物（可以叠高）；有且仅有底层可以使用输出总成，能够减少高度，如果使用ME输出总成甚至可以只造三层"
+				"蒸馏塔除底层外每层&o&6仅能且必须&r放置一个&b小型&r输出仓，每个输出仓对应一种产物（可以自行叠高，高度无任何附加加成）"
+				"有且仅有&6底层&r可以使用&b输出总成&r，能够减少高度，如果使用&dME输出总成&r甚至可以只造三层"
 			]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
@@ -425,6 +436,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
+			description: ["后面的热锭都需要用这台机器冷却，不能用化学浸洗机了"]
 			icon_scale: 1.3d
 			id: "027197A71E630966"
 			rewards: [{
@@ -480,6 +492,7 @@
 			dependencies: [
 				"676D1982102F4E79"
 				"06F68B574AC84B7B"
+				"242AFA510EC14878"
 			]
 			icon_scale: 1.3d
 			id: "75DAAFAD21F1451C"
@@ -519,7 +532,7 @@
 				"0A8178183C888BE0"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["没有超净间的情况下你得把切割机放进通用加工厂里面，然后装上超净维护仓"]
+			description: ["没有超净间的情况下你得把切割机放进&6通用加工厂&r里面，然后给通用加工厂装上&b超净维护仓"]
 			id: "676D1982102F4E79"
 			rewards: [{
 				id: "73D294571F48A5E9"
@@ -647,18 +660,19 @@
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"实际上拥有无损超频，且拥有专属高级配方，比通用混合厂强大。"
+				"实际上拥有&b无损超频&r，且拥有&6专属高级配方&r（神奇的24号电路），比通用混合厂强大"
 				""
-				"只能使用&b白铜线圈"
+				"只能使用&e白铜线圈"
 			]
-			icon_scale: 2.0d
+			icon_scale: 1.3d
 			id: "29450DC426C4E2D6"
 			rewards: [{
 				id: "50F14222E01C7EAC"
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			shape: "rsquare"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "42EC7CCD50B1D828"
 				item: "gtceu:large_chemical_reactor"
@@ -706,7 +720,7 @@
 		}
 		{
 			dependencies: ["0931ECBAAD9252C7"]
-			description: ["{ \"text\": \"挖钛的时候还能直接挖到铝\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EDEAD01ABA4A16F\" } }"]
+			description: ["{ \"text\": \"挖钛的时候还能直接挖到铝\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EDEAD01ABA4A16F\" } }"]
 			id: "360787FE602FBF66"
 			rewards: [{
 				id: "2E4680FA75010FFB"
@@ -744,6 +758,11 @@
 				"这种矿物是后面通过大型虚空采矿机或者太空电梯获取的"
 			]
 			id: "74D9136DE32F9129"
+			rewards: [{
+				id: "11EC0893B4B00754"
+				item: "gtceu:nano_saber"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -756,7 +775,6 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: [""]
 			icon_scale: 1.5d
 			id: "24A12D2F592DC50D"
 			rewards: [{
@@ -776,7 +794,11 @@
 		}
 		{
 			dependencies: ["027197A71E630966"]
-			description: ["这个系列的最后一个，你可能也用不到了"]
+			description: [
+				"这个系列的最后一个，你可能也用不到了"
+				""
+				"HV的正经超导是汞钡钙铜氧化物"
+			]
 			hide_dependency_lines: true
 			id: "46BFDB71190C1F49"
 			rewards: [{
@@ -832,11 +854,11 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["{ \"text\": \"超净间不值得建造 ，超净维护仓更加强大便捷\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
+			description: ["{ \"text\": \"超净间不值得建造 ，超净维护仓更加强大便捷\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true
-			subtitle: "不建议使用"
+			subtitle: "有bug，不建议使用"
 			tasks: [{
 				id: "495F1F2B39DC8C3A"
 				type: "checkmark"
@@ -848,11 +870,11 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"只能使用&b坎塔尔合金线圈&r"
+				"只能使用&e坎塔尔合金线圈&r"
 				""
-				"可能是你的第一台跨配方并行机器"
+				"可能是你的第一台跨配方并行机器（有了并行控制仓才能体现出来）"
 				""
-				"{ \"text\": \"也可能是进阶熔炉\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5549BBB07626B52C\" } }"
+				"{ \"text\": \"也可能是进阶熔炉\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5549BBB07626B52C\" } }"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d

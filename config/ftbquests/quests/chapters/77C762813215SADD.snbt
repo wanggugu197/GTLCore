@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["一个标准的铁矿脉.当你需要补充矿工用品时,这是一个不错的目标."]
+			description: ["一个标准的铁矿脉。当你需要补充矿工用品时，这是一个不错的目标。"]
 			icon: "gtceu:yellow_limonite_ore"
 			id: "692F4312B3F73FAF"
 			size: 1.0d
@@ -47,11 +47,11 @@
 			]
 			title: "铁矿脉"
 			x: 1.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["铁，金，钒的很好来源"]
+			description: ["铁，金，钒的很好来源。"]
 			icon: "gtceu:magnetite_ore"
 			id: "260E516A219825A2"
 			size: 1.0d
@@ -82,15 +82,11 @@
 			]
 			title: "磁铁矿脉"
 			x: 2.5d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: [
-				"一种优秀的铁-铜混合矿脉."
-				""
-				"黄铜精矿在后期会对铂族泥浆的获取产生重要作用."
-			]
+			description: ["一种优秀的铁-铜混合矿脉。"]
 			icon: "gtceu:pyrite_ore"
 			id: "03FBBA4A693011A8"
 			size: 1.0d
@@ -127,16 +123,16 @@
 			]
 			title: "铜矿脉"
 			x: 3.5d
-			y: -3.3d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"一个适合早期游戏的好矿脉."
+				"一个适合早期游戏的好矿脉。"
 				""
-				"铜和锡可以用来制造青铜."
+				"铜和锡可以用来制造青铜。"
 				""
-				"雄黄是你的第一种砷的来源."
+				"雄黄是你的第一种砷的来源。"
 			]
 			icon: "gtceu:chalcopyrite_ore"
 			id: "4826DCD2FC457EA5"
@@ -178,7 +174,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["一种纯锡矿脉,对早期游戏非常有用."]
+			description: ["一种纯锡矿脉，对早期游戏非常有用。"]
 			icon: "gtceu:cassiterite_ore"
 			id: "3B379794A3030C73"
 			size: 1.0d
@@ -208,9 +204,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"如果你还没有找到纯锡矿脉,这是一种不错的替代品."
+				"如果你还没有找到纯锡矿脉，这是一种不错的替代品。"
 				""
-				"其他矿物就像装饰品一样."
+				"除了锡石，其他矿物就像装饰品一样。"
 			]
 			icon: "gtceu:cassiterite_sand_ore"
 			id: "41616C31D9C08648"
@@ -252,7 +248,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["作为矿物,煤矿不值得大规模加工,因为需要太多的步骤将其转化成可用的燃料.但随身携带一些还是不错的选择."]
+			description: ["作为矿物，煤矿不值得大规模加工，因为需要太多的步骤将其转化成可用的燃料。但随身携带一些还是不错的选择。"]
 			icon: "minecraft:coal_ore"
 			id: "1E27C654E2F6FFF2"
 			size: 1.0d
@@ -278,9 +274,7 @@
 			description: [
 				"你获取钻石的唯一途径!"
 				""
-				"与铁工具相比,钻石工具有&6五倍的耐久性&r.但其制作需要用切割机加工得到钻石板,需要一定的等级限制."
-				""
-				"钻石和石墨都可以被电解成大量的碳."
+				"钻石和石墨都可以被电解成大量的碳。"
 			]
 			icon: "gtceu:graphite_ore"
 			id: "1B45DB5C85B68182"
@@ -317,9 +311,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"你获取氯的一站式商店."
+				"你获取硼和氯的一站式商店。"
 				""
-				"云母矿可用于获得锂."
+				"云母矿可用于获得锂。"
 			]
 			icon: "gtceu:salt_ore"
 			id: "5289D5049A236D55"
@@ -362,9 +356,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"这种矿脉在中期游戏时具有铝镁合金的价值."
+				"这种矿脉在中期游戏时具有铝镁合金的价值。"
 				""
-				"橄榄石也有用处,它可以在许多合成中代替&a绿宝石&r."
+				"橄榄石也有用处，它可以在许多合成中代替&a绿宝石&r。"
 			]
 			icon: "gtceu:olivine_ore"
 			id: "7C1B5559A03F6E02"
@@ -409,7 +403,7 @@
 			description: [
 				"闪闪发光!"
 				""
-				"你会希望能用它制作珠宝."
+				"希望你会能用它制作珠宝。"
 			]
 			icon: "gtceu:red_garnet_ore"
 			id: "178285129CEA9F9F"
@@ -451,7 +445,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["这几乎是你需要提纯磷的唯一矿脉,但需要进行几个步骤的加工才能获得磷."]
+			description: ["这几乎是唯一你需要提纯磷的矿脉，但需要进行几个步骤的加工才能获得磷。"]
 			icon: "gtceu:apatite_ore"
 			id: "70252B72F7728EFD"
 			size: 1.0d
@@ -480,7 +474,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["你经典的红石矿脉,早期的铬粉和汞来源"]
+			description: ["你经典的红石矿脉，早期的铬粉和汞来源。"]
 			icon: "minecraft:redstone_ore"
 			id: "2E5A71CED4B01657"
 			size: 1.0d
@@ -516,9 +510,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"两种蓝宝石变体是你最主要的铝源,直到你能够在&bMV&r中解锁其他电解配方."
+				"两种蓝宝石变体是你LV最主要的铝源，直到你能够在&bMV&r中解锁其他电解配方。"
 				""
-				"其他两种宝石最多算是平凡无奇."
+				"其他两种宝石最多算是平凡无奇。"
 			]
 			icon: "gtceu:sapphire_ore"
 			id: "6EFE154D32A2155E"
@@ -561,9 +555,11 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"是&6重油&r的好来源,早期用于&6液态燃料&r."
+				"是&6重油&r的好来源，早期用于&6液态燃料&r。"
 				""
-				"如果你不想完全加工矿石,你可以直接用&b离心机&r处理它."
+				"如果不想完全加工矿石，你可以烧了之后直接用&b离心机&r处理它。"
+				""
+				"如果你直接离心原矿，会产出&d石油&r而非&6重油&r"
 			]
 			icon: "gtceu:oilsands_ore"
 			id: "7C35B6B0B4CFFEB2"
@@ -588,9 +584,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"这个就是一个梗,它的名字叫做润滑油脉."
+				"这个就是一个梗，它的名字实际叫做润滑油脉。"
 				""
-				"话虽如此,润滑油总是很有用的."
+				"话虽如此，润滑油总是很有用的。"
 			]
 			icon: "gtceu:soapstone_ore"
 			id: "676667089653641C"
@@ -632,7 +628,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["方钠石是这里最有价值的矿石,尤其是在你达到&bMV&r时的电解配方非常有用."]
+			description: ["方钠石是这里最有价值的矿石，尤其是在你达到&bMV&r时的电解配方非常有用。"]
 			icon: "gtceu:lapis_ore"
 			id: "39A58AFE2E0C13EB"
 			size: 1.0d
@@ -674,9 +670,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"锰铁矿是你在这里的目的地.它可以直接冶炼成锰,而你将需要大量的锰来制造&6HV&r的物品."
+				"锰铁矿是你在这里的目的。它可以直接冶炼成锰，而你将需要大量的锰来制造&6HV&r的物品。"
 				""
-				"钽矿将最终变得非常有价值,借助它的铌副产品."
+				"钽矿将最终变得非常有价值,借助它的铌副产品。"
 			]
 			icon: "gtceu:pyrolusite_ore"
 			id: "2C75A50B17AA9AF1"
@@ -718,7 +714,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["这是铅和银最稳定的来源."]
+			description: ["这是铅和银最稳定的来源。"]
 			icon: "gtceu:galena_ore"
 			id: "14587AE142D84E12"
 			size: 1.0d
@@ -754,9 +750,9 @@
 		{
 			dependencies: ["2BECA06D9AF485D3"]
 			description: [
-				"这是你唯一可信赖的镍源."
+				"这是你唯一可信赖的镍源。"
 				""
-				"注意这个硅镁镍矿，其实只有镍和氧产物"
+				"注意这个硅镁镍矿，其实只有镍和氧产物。"
 			]
 			icon: "gtceu:nickel_ore"
 			id: "38C955F6CBDD95BD"
@@ -798,7 +794,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["蓝晶石和云母在电解时有良好的分解性能,但还有更好的选择,所以如果你只想得到它们的副产物,就不需要特意去寻找."]
+			description: ["蓝晶石和云母在电解时有良好的分解性能，但还有更好的选择，所以如果你只想得到它们的副产物，就不需要特意去寻找。"]
 			icon: "gtceu:mica_ore"
 			id: "0B4BA438FE7F3640"
 			size: 1.0d
@@ -833,7 +829,7 @@
 		}
 		{
 			dependencies: ["2BECA06D9AF485D3"]
-			description: ["这是最差的铁矿,虽然它在早期是有用的,但也就仅限于此了."]
+			description: ["这是最差的铁矿，虽然它在早期是有用的，但也就仅限于此了。"]
 			icon: "gtceu:granitic_mineral_sand_ore"
 			id: "5295C4AEFA8417F3"
 			size: 1.0d
@@ -870,14 +866,14 @@
 			]
 			title: "矿沙矿脉"
 			x: 0.5d
-			y: -3.3d
+			y: -3.5d
 		}
 		{
 			dependencies: ["36F2CA6E24DE74E1"]
 			description: [
-				"这种下界褐铁矿脉变种绝不能被忽视."
+				"这种下界褐铁矿脉变种绝不能被忽视。"
 				""
-				"由于&a双倍收益&r,这是一个极好的铁和金源."
+				"由于&a双倍收益&r，这是一个极好的铁和金源。"
 			]
 			icon: "gtceu:netherrack_yellow_limonite_ore"
 			id: "0AFADD21454D968E"
@@ -920,9 +916,9 @@
 		{
 			dependencies: ["71DEF0909984EE63"]
 			description: [
-				"你可能在到达这里之前已经有很多铁了,但不要忽视这个矿脉的效用."
+				"你可能在到达这里之前已经有很多铁了，但不要忽视这个矿脉的效用。"
 				""
-				"铬铁矿是铬的一个极好的来源,钒在后期需求量更大."
+				"铬铁矿是铬的一个极好的来源，钒在后期需求量很大。"
 			]
 			icon: "gtceu:endstone_magnetite_ore"
 			id: "4FC668EF2BF294ED"
@@ -1050,9 +1046,9 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"任何一种黄玉矿石都非常适合电解."
+				"任何一种黄玉矿石都非常适合电解。"
 				""
-				"最好的氟化物来源."
+				"最好的氟化物来源。"
 			]
 			icon: "gtceu:diorite_topaz_ore"
 			id: "022EB2DA7C908350"
@@ -1083,9 +1079,9 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"&b应用能源2&r中的发展需要 &6赛特斯石英&r 矿脉."
+				"&b应用能源2&r的发展需要 &6赛特斯石英&r 矿脉。"
 				""
-				"重晶石经电解制成钡,你将需要它来制造一些高级超导材料."
+				"重晶石经电解制成钡，你将需要它来制造一些高级超导材料。"
 			]
 			icon: "gtceu:diorite_certus_quartz_ore"
 			id: "6B51D30E9BA60AB2"
@@ -1122,9 +1118,9 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"绿宝石矿是这里最实用的矿石.需要小量使用来制造&bMV&r中的技术物品."
+				"绿宝石矿是这里最实用的矿石。需要小量使用来制造&bMV&r中的技术物品。"
 				""
-				"铍可以用来制取末影珍珠粉."
+				"铍可以用来制取末影珍珠粉。"
 			]
 			icon: "gtceu:diorite_emerald_ore"
 			id: "762DD49FF5C4FE47"
@@ -1155,7 +1151,7 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"蓝石在&6HV&r进展中非常重要.离心机中它分离成了琥珀金(一种金和银的来源)和红石."
+				"蓝石在&6HV&r进展中非常重要，在离心机中它分离成了琥珀金(一种金和银的来源)和红石。"
 				""
 				"硝石在几个反应中使用"
 			]
@@ -1200,9 +1196,9 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"你经典的下界石英矿脉."
+				"你经典的下界石英矿脉。"
 				""
-				"硅并不难得到,但石英岩也是一个不错的来源."
+				"硅并不难得到，但石英岩也是一个不错的来源。"
 			]
 			icon: "gtceu:diorite_nether_quartz_ore"
 			id: "34B57C3F50B1636C"
@@ -1239,9 +1235,9 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"注意,这个矿脉通常从y层10到30生成."
+				"注意，这个矿脉通常从y层10到30生成。"
 				""
-				"闪锌矿非常有价值,因为它的矿石加工可以得到镓.它也可以直接冶炼成锌."
+				"闪锌矿非常有价值，因为它的矿石加工可以得到镓。它也可以直接冶炼成锌。"
 			]
 			icon: "gtceu:diorite_sulfur_ore"
 			id: "12243715403F9E51"
@@ -1271,16 +1267,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "硫矿脉"
+			title: "硫磺矿脉"
 			x: 10.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"几乎是一条纯铜矿脉.该死的锑矿!"
+				"几乎是一条纯铜矿脉。该死的锑矿！"
 				""
-				"锑矿可以直接冶炼成锑,你需要在&7LV&r中获得锑来制作电池."
+				"锑矿可以直接冶炼成锑，你需要在&7LV&r中获得锑来制作电池。"
 			]
 			icon: "gtceu:diorite_tetrahedrite_ore"
 			id: "086553052433A3A3"
@@ -1317,9 +1313,9 @@
 		{
 			dependencies: ["3FFD20E53A9DF62A"]
 			description: [
-				"这个矿脉非常稀有!恭喜你发现了它."
+				"这个矿脉非常稀有！恭喜你发现了它。"
 				""
-				"基本上就是钼,加上不太重要的材料."
+				"基本上就是钼，加上不太重要的材料。"
 			]
 			icon: "gtceu:diorite_molybdenum_ore"
 			id: "7585C38928DB1B02"
@@ -1386,7 +1382,7 @@
 		}
 		{
 			dependencies: ["74F1C81B60FABEAA"]
-			description: ["前期钚的唯一来源."]
+			description: ["前期钚的唯一来源。"]
 			icon: "gtceu:moon_stone_plutonium_ore"
 			id: "37B04BCCC3B7FBED"
 			subtitle: "钚，钍和晶质铀的来源"
@@ -1420,7 +1416,7 @@
 		}
 		{
 			dependencies: ["74F1C81B60FABEAA"]
-			description: ["大量的铀."]
+			description: ["大量的铀。"]
 			icon: "gtceu:moon_stone_pitchblende_ore"
 			id: "386F6727D3275126"
 			subtitle: "铀，钍的来源"
@@ -1455,9 +1451,9 @@
 		{
 			dependencies: ["74F1C81B60FABEAA"]
 			description: [
-				"如果你是一个适应良好的人,那么采矿&b铝&r和&d钛&r的矿脉就在这儿."
+				"如果你是一个适应良好的人，那么采矿&b铝&r和&d钛&r的矿脉就在这儿。"
 				""
-				"放弃那些云母矿——铝土矿才是未来!"
+				"放弃那些云母矿——铝土矿才是未来！"
 			]
 			icon: "gtceu:moon_stone_bauxite_ore"
 			id: "4EDEAD01ABA4A16F"
@@ -1492,7 +1488,7 @@
 		}
 		{
 			dependencies: ["74F1C81B60FABEAA"]
-			description: ["它是&5EV&r的稀土来源."]
+			description: ["它是&5EV&r的稀土来源。"]
 			icon: "gtceu:moon_stone_bastnasite_ore"
 			id: "00AA7D62FCE4B40E"
 			size: 1.0d
@@ -1521,7 +1517,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "独/群居石矿脉"
+			title: "群居石矿脉"
 			x: 14.0d
 			y: -1.5d
 		}
@@ -1541,9 +1537,9 @@
 		{
 			dependencies: ["0CE213ED8D234B0A"]
 			description: [
-				"铂在&5EV&r开始使用."
+				"铂在&5EV&r开始使用。"
 				""
-				"铂系金属在&5EV&r后期中成为必要条件,谢尔顿是启动加工的最佳矿石."
+				"铂系金属在&5EV&r后期中成为必要条件，谢尔顿是启动加工的最佳矿石。"
 			]
 			icon: "gtceu:mars_stone_cooperite_ore"
 			id: "5C9AC0D1F2624D9E"
@@ -1584,7 +1580,7 @@
 		}
 		{
 			dependencies: ["0CE213ED8D234B0A"]
-			description: ["烧绿石将成为极其有价值的资源,因为它是铌的来源之一."]
+			description: ["烧绿石将成为极其有价值的资源，因为它是铌的来源之一。"]
 			icon: "gtceu:mars_stone_pyrochlore_ore"
 			id: "11957ACD9E524F6C"
 			subtitle: "铌的来源"
@@ -1618,7 +1614,7 @@
 		}
 		{
 			dependencies: ["0CE213ED8D234B0A"]
-			description: ["这是一个非常重要的矿脉,因为钨在&9IV&r及其以后的阶段中被大量使用."]
+			description: ["这是一个非常重要的矿脉，因为钨在&9IV&r及其以后的阶段中被大量使用。"]
 			icon: "gtceu:mars_stone_scheelite_ore"
 			id: "5D0FE695E1E46BC4"
 			size: 1.0d
@@ -1666,7 +1662,7 @@
 		}
 		{
 			dependencies: ["423F98D732C4D981"]
-			description: ["这是戴斯的唯数不多的来源，大型虚空采矿场和太空电梯也无法挖掘"]
+			description: ["这是戴斯的唯数不多的来源，大型虚空采矿场和太空电梯也无法挖掘。"]
 			icon: "gtceu:venus_stone_desh_ore"
 			id: "7F0C57F9551D8FFA"
 			subtitle: "戴斯的来源"
@@ -1779,7 +1775,7 @@
 		}
 		{
 			dependencies: ["36F2CA6E24DE74E1"]
-			description: ["在y层16相对生成的最多"]
+			description: ["在y层16相对生成的最多。"]
 			icon: "minecraft:ancient_debris"
 			id: "7F54DE5E0414E54B"
 			subtitle: "下界合金的来源"
@@ -1854,11 +1850,11 @@
 		{
 			dependencies: ["56AF6D5B1E2205DC"]
 			description: [
-				"来自《星际之门》的&2硅岩&r!从&dLuV&r开始,你会发现这成为一个重要的材料."
+				"来自《星际之门》的&2硅岩&r！从&dLuV&r开始，你会发现这成为一个重要的材料。"
 				""
-				"硅岩可以在&dLuV&r和&cZPM&r中加工成富集硅岩、超能硅岩、铟和三钛."
+				"硅岩可以在&dLuV&r和&cZPM&r中分别加工成富集硅岩、超能硅岩、铟和三钛。"
 				""
-				"{ \"text\": \"甚至还能作为燃料发电.\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E951CCF86DDA5CB\" } }"
+				"{ \"text\": \"甚至还能作为燃料发电。\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E951CCF86DDA5CB\" } }"
 			]
 			icon: "gtceu:iostone_naquadah_ore"
 			id: "5FDD8771824E57CF"

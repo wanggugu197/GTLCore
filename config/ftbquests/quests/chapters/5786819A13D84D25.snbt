@@ -21,14 +21,15 @@
 				"702EFE9BA62A8CDA"
 			]
 			description: [
-				"后面阶段的核心材料生产机器"
+				"后面阶段的核心材料生产机器，拥有无损超频"
+				""
 				"第一次做会有些贵"
 			]
 			icon_scale: 1.3d
 			id: "433793B7470FAA09"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "是炀不是场！"
+			subtitle: "是炀yáng不是场chǎng！"
 			tasks: [{
 				id: "02412DC87B9DA266"
 				item: "gtceu:stellar_forge"
@@ -179,6 +180,7 @@
 			icon_scale: 2.0d
 			id: "2DD8E128C6E3E41D"
 			shape: "rsquare"
+			subtitle: "不能引爆"
 			tasks: [{
 				id: "078D60E2A5552DED"
 				item: "kubejs:naquadria_charge"
@@ -193,19 +195,31 @@
 				"78F0147BABE80DDD"
 				"71D029B59C690121"
 			]
-			description: ["你得用UEV能源仓"]
+			icon: "gtceu:enderium_ingot"
 			id: "5E223597F71DB81D"
-			tasks: [{
-				id: "4AEC015F52D69587"
-				item: "gtceu:enderium_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4AEC015F52D69587"
+					item: "gtceu:enderium_ingot"
+					type: "item"
+				}
+				{
+					id: "638859B545DA90E3"
+					item: "gtceu:enderium_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5E223597F71DB81D"]
-			description: ["UEV超导体"]
+			description: [
+				"&aUEV&r超导体"
+				""
+				"你可以制作&6可配置重力超净维护仓&r了"
+			]
 			id: "6B990D7D964DF559"
 			tasks: [{
 				id: "7681E9EB89F79679"
@@ -217,8 +231,8 @@
 		}
 		{
 			dependencies: ["76BAF48FA9D845C6"]
-			description: ["有点麻烦"]
 			id: "11E334686F113560"
+			subtitle: "有点麻烦"
 			tasks: [
 				{
 					id: "6D049619508BA8B3"
@@ -246,13 +260,21 @@
 				"78F0147BABE80DDD"
 				"71D029B59C690121"
 			]
-			description: ["你得用UEV能源仓"]
+			icon: "gtceu:degenerate_rhenium_plate"
 			id: "2E05225ADF4D7D31"
-			tasks: [{
-				id: "02C39E225C1D5ECD"
-				item: "gtceu:degenerate_rhenium_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "02C39E225C1D5ECD"
+					item: "gtceu:degenerate_rhenium_plate"
+					type: "item"
+				}
+				{
+					id: "324361ACC35D88C0"
+					item: "gtceu:degenerate_rhenium_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 6.0d
 		}
@@ -267,7 +289,7 @@
 				""
 				"推荐使用红花岗岩（通过大型碎岩机获得）制作废料"
 				""
-				"关于大型碎岩机：需要在&b两个&r输入仓中分别输入水和熔岩的以满足相邻流体源的条件"
+				"关于大型碎岩机：需要用两个输入仓/总成分别提供水和熔岩"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
@@ -292,6 +314,12 @@
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "32A49A2CBFC934C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "40B1F46C6798A8DF"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "0B1D64CEDCD5AB9B"
@@ -354,11 +382,16 @@
 				"713FF88279AD9A31"
 				"76BAF48FA9D845C6"
 				"4059A907154E2865"
+				"32A49A2CBFC934C8"
 			]
-			description: ["如果你没保留旧的石化产线，可以考虑用电梯直接采集中间产物"]
+			description: [
+				"同时可以采集轻重燃油、石脑油、炼油气，因此，如果你没保留旧的石化产线，可以考虑用电梯直接采集中间产物"
+				""
+				"还可以采集溴"
+			]
 			id: "1FE5F8D737ADB1B8"
 			shape: "pentagon"
-			subtitle: "血石，乌鲁，力量，溴，轻重燃油，石脑油，煤气，炼油气"
+			subtitle: "血石，乌鲁，力量，巴纳德C空气"
 			tasks: [{
 				id: "1D082DFC064E38EA"
 				item: "kubejs:space_drone_mk3"
@@ -426,6 +459,8 @@
 			description: [
 				"需要光刻胶和算力来进行精密联合激光蚀刻"
 				""
+				"精密激光蚀刻模式&c并行数固定为1&r"
+				""
 				"多方块成型只需要&b&l过滤器机械方块"
 			]
 			icon_scale: 1.3d
@@ -474,6 +509,7 @@
 			dependencies: [
 				"5BFA4802D228358C"
 				"6158FD5813B18D3D"
+				"2FBCD8BCE586ADB8"
 			]
 			icon_scale: 2.0d
 			id: "384CC871242ECF6E"
@@ -491,11 +527,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: [
-				"真空冷冻机和等离子冷凝器的激光版本"
-				""
-				"可以像渔场那样快速放置水源"
-			]
+			description: ["真空冷冻机和等离子冷凝器的激光版本，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "3DD334C5B070AF94"
 			shape: "rsquare"
@@ -516,7 +548,7 @@
 				"4059A907154E2865"
 			]
 			description: [
-				"同时也是装配线，电路装配线的激光版本，耗时倍速0.4，拥有无损超频"
+				"同时也是装配线，电路装配线的激光版本，耗时倍数0.4，拥有无损超频（扩展模块&c没有&r无损超频）"
 				""
 				"&c&l注意无论是否需要研究都必须连接数据库！！！&r&r&r"
 				"多方块成型只需要&b&l过滤器机械方块"
@@ -526,7 +558,7 @@
 				""
 				"在jei中的多方块结构预览界面点击“M”可以查看&e安装所有模块&r后的多方块结构"
 				""
-				"在下一页中查看具体如何安装"
+				"在下一页中可查看具体安装示意图"
 				"{@pagebreak}"
 				"{image:ftbquests:textures/picture/008.png width:350 height:200 align:center}"
 				"扩展模块安装示意图如下"
@@ -544,11 +576,19 @@
 			shape: "rsquare"
 			size: 1.0d
 			subtitle: "如果你很富有，可以现在就制作一台，这台机器只有在OpV及以后阶段才有专用配方"
-			tasks: [{
-				id: "2489A12E61345011"
-				item: "gtceu:suprachronal_assembly_line"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2489A12E61345011"
+					item: "gtceu:suprachronal_assembly_line"
+					type: "item"
+				}
+				{
+					id: "25C87B229CB86623"
+					item: "gtceu:suprachronal_assembly_line_module"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 6.0d
 		}
@@ -564,13 +604,17 @@
 				""
 				"&r激光蚀刻工厂的激光版本，拥有无损超频，使用温度并行机制，温度每提升900K，并行数×2"
 				""
+				"某些需要研究的配方需要先用&b激光蚀刻工厂&r制作一个用于&d扫描&r"
+				""
 				"随着并行数的增加，算力需求也会增加（如果有），具体计算公式为：最小算力需求乘以并行数"
+				""
+				"算力&6不足以一次性消耗所有输入材料&r时&c机器不会工作&r"
 			]
 			icon_scale: 2.0d
 			id: "1BDEBBAF5BA9854E"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "注意无论是否需要研究都必须连接数据库"
+			subtitle: "别把激光蚀刻工厂拆了"
 			tasks: [{
 				id: "43EBC608B5383709"
 				item: "gtceu:dimensional_focus_engraving_array"
@@ -584,7 +628,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["压缩机和压模机的激光版本"]
+			description: ["压模器和压缩机的激光版本，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "6D6E342B03B9FE72"
 			shape: "rsquare"
@@ -602,7 +646,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["线材轧机的激光版本，使用温度并行机制，温度每提升900K，并行数×2"]
+			description: ["线材轧机的激光版本，使用温度并行机制，温度每提升900K，并行数×2，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "75E65C72F3C6BD43"
 			shape: "rsquare"
@@ -620,7 +664,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["卷板机、锻造锤和冲压机床的激光版本，使用温度超频机制，温度每提升900K，并行数×2"]
+			description: ["卷板机、锻造锤和冲压机床的激光版本，使用温度超频机制，温度每提升900K，并行数×2，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "41BBD0FCCD5BEED2"
 			shape: "rsquare"
@@ -638,7 +682,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["提取机和流体固化器的激光版，使用温度并行机制，温度每提升900K，并行数×2"]
+			description: ["提取机和流体固化器的激光版，使用温度并行机制，温度每提升900K，并行数×2，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "174B8FFFC1745311"
 			shape: "rsquare"
@@ -656,7 +700,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["装罐机的激光版本"]
+			description: ["装罐机的激光版本，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "7833098408DB2057"
 			shape: "rsquare"
@@ -778,7 +822,7 @@
 				"783379F3A7557CEE"
 				"4059A907154E2865"
 			]
-			description: ["切割机，车床，研磨机和离心机的激光版本"]
+			description: ["切割机，车床，研磨机和离心机的激光版本，拥有跨配方并行"]
 			icon_scale: 2.0d
 			id: "533870EB6E913B32"
 			shape: "rsquare"
@@ -797,7 +841,7 @@
 				"702EFE9BA62A8CDA"
 				"39380262677612A9"
 			]
-			description: ["高效稀土处理，同时也是钷的唯一来源"]
+			description: ["高效稀土处理，同时也是&d钷&r的&6唯一来源&r"]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "4059A907154E2865"
@@ -835,9 +879,9 @@
 				"4059A907154E2865"
 			]
 			description: [
-				"蒸馏塔和蒸发塔的激光版本"
+				"蒸馏室、蒸馏塔和蒸发塔的激光版本，拥有跨配方并行"
 				""
-				"只能使用&b三钛线圈&r"
+				"只能使用&e三钛线圈&r"
 			]
 			icon_scale: 2.0d
 			id: "6DC013B45A9CCBE1"
@@ -927,6 +971,7 @@
 				"3EA935A712FA0EBE"
 				"0DC5BFACB3D4BC95"
 			]
+			description: ["你可以制作&6无菌可配置维护仓&r和&d可配置重力控制仓&r了"]
 			hide_dependent_lines: true
 			id: "702EFE9BA62A8CDA"
 			shape: "gear"
@@ -942,7 +987,7 @@
 		{
 			dependencies: ["783379F3A7557CEE"]
 			description: [
-				"{ \"text\": \"能够走到这里，说明你已经是一位成熟的员工了，\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"430303070695D7D3\" } }"
+				"{ \"text\": \"能够走到这里，说明你已经是一位成熟的员工了，\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"430303070695D7D3\" } }"
 				"后面章节的任务会开始省略越来越多的内容，"
 				"只留下关键部分，让你知道核心的主线。"
 			]
@@ -1033,10 +1078,11 @@
 				"702EFE9BA62A8CDA"
 				"39380262677612A9"
 			]
-			description: ["更大，更强"]
+			description: ["化工厂的激光版本，可用仓室数量上限更多"]
 			icon_scale: 1.5d
 			id: "48BC39B9A41C4439"
 			shape: "rsquare"
+			subtitle: "更大，更强"
 			tasks: [{
 				id: "2BF318141C2DB38D"
 				item: "gtceu:large_chemical_plant"
@@ -1049,6 +1095,7 @@
 			dependencies: [
 				"713FF88279AD9A31"
 				"32A49A2CBFC934C8"
+				"7204F1B6BCC74F1C"
 			]
 			description: ["从UHV开始，会出现配方电压要求高于当前电压等级两级的情况，需制作比当前电压等级高一级的能源仓"]
 			hide_dependent_lines: true

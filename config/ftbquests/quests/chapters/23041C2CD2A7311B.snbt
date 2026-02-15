@@ -12,24 +12,24 @@
 			linked_quest: "559836CC234447C0"
 			shape: "gear"
 			size: 2.0d
-			x: 0.0d
-			y: -6.0d
+			x: -2.0d
+			y: -4.0d
 		}
 		{
 			id: "7ED0015FCA833C34"
 			linked_quest: "26607B94D873E07A"
 			shape: "gear"
 			size: 2.0d
-			x: 8.0d
-			y: -6.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			id: "19AA2337A0F120D6"
 			linked_quest: "63C77EE3C70E20E7"
 			shape: "gear"
 			size: 2.0d
-			x: 4.0d
-			y: -6.0d
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 	quests: [
@@ -44,12 +44,12 @@
 				item: "kubejs:contained_high_density_protonic_matter"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: [
-				"1433920A4DDCE2B5"
+				"55458BD1EFC248C8"
 				"1C4D5D7786F64485"
 			]
 			id: "49ED5C32664DDF6C"
@@ -75,15 +75,22 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"7B46E8DE77D0BE8F"
 				"49ED5C32664DDF6C"
 			]
+			description: ["常规线圈并行数等价于&bMAX并行控制仓"]
 			icon_scale: 2.0d
 			id: "6E3F07B3E9AB5882"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0679789A4E588089"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "013D66093320BE17"
@@ -108,16 +115,17 @@
 				item: "gtceu:draconium_dust"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.0d
+			x: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
 				"6A1F7D407BE033A9"
 				"6E3F07B3E9AB5882"
 			]
-			description: ["龙之力量"]
+			description: ["需要汽油/高十六/高辛烷作为保护气"]
 			id: "108792B10FDEC848"
+			subtitle: "龙之力量"
 			tasks: [{
 				id: "73F908E584D4518A"
 				item: "gtceu:draconium_ingot"
@@ -134,7 +142,7 @@
 				item: "kubejs:contained_reissner_nordstrom_singularity"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: -4.0d
 		}
 		{
@@ -148,7 +156,7 @@
 				item: "kubejs:contained_kerr_newmann_singularity"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
 			y: -4.0d
 		}
 		{
@@ -162,7 +170,7 @@
 				item: "kubejs:contained_kerr_singularity"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: -4.0d
 		}
 		{
@@ -196,7 +204,7 @@
 				item: "kubejs:microwormhole_generator"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -230,7 +238,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -247,7 +255,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1433920A4DDCE2B5"]
@@ -259,7 +267,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["559836CC234447C0"]
@@ -269,12 +277,12 @@
 				item: "kubejs:space_probe_mk2"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["41B4A5048EBCE287"]
-			description: ["需要很多冰"]
+			description: [""]
 			icon: "gtceu:liquid_starlight_bucket"
 			id: "6FF53B92BA6D2370"
 			tasks: [{
@@ -282,18 +290,19 @@
 				title: "星能液"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6FF53B92BA6D2370"]
+			description: ["需要很多冰"]
 			id: "687FA1A8A6443436"
 			tasks: [{
 				id: "0FCC5549E1E17DF9"
 				item: "kubejs:resonating_gem"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -305,6 +314,7 @@
 			id: "74186877DB7DBE4D"
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "最后一种爆弹"
 			tasks: [{
 				id: "68FDD4F89178DC73"
 				item: "kubejs:quantum_chromodynamic_charge"
@@ -350,7 +360,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1E2191E5E31DC8B0"]
@@ -361,7 +371,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -375,7 +385,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1433920A4DDCE2B5"]
@@ -386,7 +396,7 @@
 				item: "kubejs:contained_exotic_matter"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 4.0d
 		}
 		{
@@ -401,7 +411,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["559836CC234447C0"]
@@ -415,14 +425,19 @@
 				item: "gtceu:dragon_egg_copier"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -6.0d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2A29DA4239E6BA44"]
-			description: ["有点混乱"]
+			description: [
+				"需要很多种氧化物"
+				""
+				"你可以用富集异氙增产拉多X"
+			]
 			icon: "gtceu:radox_bucket"
 			id: "437E5E4108228333"
+			subtitle: "有点混乱"
 			tasks: [{
 				id: "60C93B3E6EDB5E0B"
 				title: "拉多X"
@@ -468,7 +483,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -484,7 +499,7 @@
 				item: "kubejs:charged_lepton_trap_crystal"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -501,7 +516,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: -1.9499999999999993d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -527,7 +542,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -1.9499999999999993d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -541,7 +556,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -555,7 +570,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -6.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -583,24 +598,29 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 0.05000000000000071d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"5A61ABB6E4917C6C"
-				"0ED237B0CE3DDF59"
+				"49ED5C32664DDF6C"
 			]
-			description: ["不要看终极工作台的配方"]
+			description: [
+				"不要看终极工作台的配方，你用不了"
+				""
+				"&cM&r&aA&r&9X&r&e超&r&5导&r&b体&r"
+			]
+			hide_dependency_lines: true
 			id: "00A227F06D7F109E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "无尽之力"
+			subtitle: "彩虹铁"
 			tasks: [{
 				id: "4551291536D7C6FC"
 				item: "avaritia:infinity_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -608,42 +628,44 @@
 				"00A227F06D7F109E"
 				"042FBA3AE7DE9957"
 				"06795792E774476F"
+				"2880531AF7540B24"
 			]
-			description: ["看超维度等离子锻炉的配方"]
+			description: ["记得优化宇宙中子素，水晶矩阵，致密中子素的配方"]
 			icon_scale: 2.0d
 			id: "77A53FAAC098F859"
+			subtitle: "看超维度等离子锻炉的配方"
 			tasks: [{
 				id: "4ED6698376CC0B5A"
 				item: "avaritia:infinity_catalyst"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
+			description: ["会用到有点贵的&6高耐久等离子体容器"]
 			id: "5A61ABB6E4917C6C"
+			subtitle: "还要用量子色动力学爆弹"
 			tasks: [{
 				id: "3BDF193D7E2C7B39"
 				item: "gtceu:cosmicneutronium_ingot"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"1DAE3D00F91134F0"
-				"02401278940CE1F3"
-			]
+			dependencies: ["02401278940CE1F3"]
 			description: ["并没有包含整个周期表"]
 			id: "01EE0F4156F0578B"
+			subtitle: "diāo jī biǎo"
 			tasks: [{
 				id: "1CF19DFA270D37F3"
 				item: "gtceu:periodicium_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -655,7 +677,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -671,7 +693,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 0.05000000000000071d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -685,15 +707,12 @@
 				item: "kubejs:awakened_core"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 0.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
-			dependencies: [
-				"108792B10FDEC848"
-				"0ED237B0CE3DDF59"
-			]
-			description: ["OpV超导体"]
+			dependencies: ["43CEF1808795ECAD"]
+			description: ["&1OpV&r超导体"]
 			hide_dependency_lines: true
 			id: "375DD76CAEAD2CE1"
 			tasks: [{
@@ -701,31 +720,14 @@
 				item: "gtceu:draconiumawakened_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"108792B10FDEC848"
-				"4C667361F07F4243"
-			]
-			description: ["在2阶的基础上升级，记得更换装配线外壳"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			icon_scale: 1.5d
-			id: "6C1AB68CC57D8670"
-			shape: "rsquare"
-			subtitle: "需放入龙纳米蜂群"
-			tasks: [{
-				id: "37C6A37E62975D44"
-				item: "gtceu:nano_forge_3"
-				type: "item"
-			}]
-			x: 10.0d
+			x: 8.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["26607B94D873E07A"]
+			dependencies: [
+				"26607B94D873E07A"
+				"39F73A63746EE6E8"
+			]
 			hide_dependent_lines: true
 			id: "17F6AFC430A15CDA"
 			tasks: [{
@@ -733,8 +735,8 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -6.0d
+			x: -4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
@@ -745,13 +747,14 @@
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "复制整个周期表和世界碎片"
 			tasks: [{
 				id: "3B815CD546D80CF0"
 				item: "gtceu:element_copying"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -774,10 +777,51 @@
 		}
 		{
 			dependencies: [
+				"6C6A3B91957A0B7B"
+				"64441B6414C20A57"
+			]
+			description: [
+				"质量发生器的激光版本"
+				""
+				"只能使用&e泰坦钢线圈方块&r"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "6C84DCF091D31F16"
+			optional: true
+			shape: "rsquare"
+			subtitle: "更大，更强"
+			tasks: [{
+				id: "03E32FDEE4E177BB"
+				item: "gtceu:a_mass_fabricator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4C667361F07F4243"]
+			description: ["在2阶的基础上升级，记得将&e装配线外壳&r更换为&b进阶装配线外壳&r"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "6C1AB68CC57D8670"
+			shape: "rsquare"
+			subtitle: "需放入龙纳米蜂群"
+			tasks: [{
+				id: "37C6A37E62975D44"
+				item: "gtceu:nano_forge_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
 				"6C1AB68CC57D8670"
 				"233C152024BACC4E"
 				"375DD76CAEAD2CE1"
-				"402B123A2EEC8E3B"
+				"3CE5E9F78C13E1CD"
 			]
 			description: ["拥有无损超频，耗时倍数0.05"]
 			hide_dependency_lines: true
@@ -791,31 +835,8 @@
 				item: "gtceu:nano_core"
 				type: "item"
 			}]
-			x: 12.0d
+			x: -4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"6C6A3B91957A0B7B"
-				"64441B6414C20A57"
-			]
-			description: [
-				"更大，更强"
-				""
-				"只能使用&b泰坦钢线圈方块&r"
-			]
-			hide_dependency_lines: true
-			icon_scale: 1.5d
-			id: "6C84DCF091D31F16"
-			optional: true
-			shape: "rsquare"
-			tasks: [{
-				id: "03E32FDEE4E177BB"
-				item: "gtceu:a_mass_fabricator"
-				type: "item"
-			}]
-			x: 6.0d
-			y: -6.0d
 		}
 	]
 	subtitle: ["Tier12-UXV"]
