@@ -11,7 +11,7 @@
 			id: "5EEBF7A4BECF0BAA"
 			linked_quest: "0B89B3108EB4A01F"
 			x: 2.0d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "0A5828AFCC7D442F"
@@ -34,7 +34,7 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["无菌超净间可以向下兼容超净间配方，绝对洁净同理"]
+			description: ["无菌超净间可以&6向下兼容&r超净间配方，绝对洁净同理"]
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
@@ -59,19 +59,15 @@
 		{
 			dependencies: [
 				"4DD127E33DCEC616"
-				"0B89B3108EB4A01F"
 				"233CA36D529EC3FB"
-				"4ECACC2A6159D332"
-				"298369255C8130F7"
 				"4A058FA1859A00D1"
-				"52DF531AFB3A07CE"
 				"5D980DBF92017008"
 			]
-			description: ["更进一步"]
 			icon_scale: 1.3d
 			id: "77759D1FE48F958B"
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "更进一步"
 			tasks: [{
 				id: "00D112DFCD012D77"
 				item: "gtceu:zpm_fusion_reactor"
@@ -85,6 +81,7 @@
 				"77759D1FE48F958B"
 				"6A59FA11D10C648A"
 			]
+			description: ["&c别去找&r&e木卫三&r钛铁矿石和&e木卫三&r钛矿石"]
 			id: "38D23D186C444492"
 			tasks: [{
 				id: "33183645B439CFDB"
@@ -96,7 +93,7 @@
 		}
 		{
 			dependencies: ["503C03C654730F65"]
-			description: ["制作方式变了"]
+			description: ["制作方式不再是化反了"]
 			id: "051792ED136C96D0"
 			tasks: [{
 				id: "7DFA913411D706CB"
@@ -109,11 +106,11 @@
 		{
 			dependencies: ["04B1D03A3FE114F1"]
 			description: [
-				"这个时候你也可以做大的"
+				"这个时候你也可以直接做大的"
 				""
 				"实际上多方块结构中的过滤器机械方块可以只使用最低级的，没有必要升级"
 				""
-				"除了去找远古守卫者要，你还可以用聚己内酰胺做海绵"
+				"{ \"text\": \"除了去找远古守卫者要，你还可以用聚己内酰胺做海绵\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0389442E831EC0\" } }"
 			]
 			icon: "gtceu:large_incubator"
 			id: "503C03C654730F65"
@@ -211,7 +208,6 @@
 		}
 		{
 			dependencies: ["77759D1FE48F958B"]
-			description: ["由于Just Enough Characters（通用拼音搜索）并没有/无法收录元素周期表中的很多元素对应的拼音，可以使用“#”+“元素符号”的方式搜索，例如：#ds可以搜出来𫟼；由于ME网络中不会显示流体的化学式，可以使用“*”+“标签”的方式搜索流体，例如*darmstadtium可以搜出来液态𫟼"]
 			id: "7C23CC6ADDC33EA0"
 			tasks: [{
 				id: "68B49A32B28AECEA"
@@ -229,13 +225,19 @@
 				item: "gtceu:americium_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["38D23D186C444492"]
 			icon_scale: 2.0d
 			id: "59CA7B4A4A417B53"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0670820808EEC323"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			tasks: [{
 				id: "660C7300DF6A9A97"
 				item: "gtceu:tritanium_coil_block"
@@ -246,12 +248,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"59CA7B4A4A417B53"
-				"52DF531AFB3A07CE"
-				"6A59FA11D10C648A"
-			]
-			description: ["UV超导体"]
+			dependencies: ["59CA7B4A4A417B53"]
+			description: ["&3UV&r超导体"]
 			id: "62D2B830A98424BB"
 			tasks: [{
 				id: "188D424E2FE3A663"
@@ -375,13 +373,18 @@
 			]
 			description: ["你可以制作计算机的桥接组件了，不过这个阶段你可能也用不上它"]
 			id: "5E9E2F25AE1EC731"
+			rewards: [{
+				id: "2D31F3080985F641"
+				item: "gtceu:hpca_bridge_component"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C99AB623FB588D4"
 				item: "gtceu:zpm_emitter"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -391,12 +394,17 @@
 			description: ["你可以给你的计算机换上高级计算组件了"]
 			hide_dependent_lines: true
 			id: "7C4C11E7C931C01B"
+			rewards: [{
+				id: "317FA5D50BB6754B"
+				item: "gtceu:hpca_advanced_computation_component"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1A1852A8E4DD94CF"
 				item: "gtceu:zpm_field_generator"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 2.0d
 		}
 		{
@@ -498,7 +506,11 @@
 		}
 		{
 			dependencies: ["7FD1D1D8ED72D40C"]
-			description: ["{ \"text\": \"使用培养缸循环增产\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"]
+			description: [
+				"{ \"text\": \"使用培养缸循环增产\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"
+				""
+				"概率消耗的材料数量也会影响并行数"
+			]
 			id: "079FEA1875012A69"
 			tasks: [{
 				count: 4L
@@ -527,12 +539,17 @@
 			description: [
 				"纳米锻炉系列都只能使用激光仓"
 				""
-				"需放入碳纳米蜂群"
+				"需放入&6碳纳米蜂群&r"
 				""
 				"记得优化碳纳米蜂群的配方"
 			]
 			icon_scale: 2.0d
 			id: "3B098EA4601A7827"
+			rewards: [{
+				id: "5F0FAE078ED077A9"
+				item: "avaritia:neutron_ring"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "大批量纳米蜂群生产"
 			tasks: [{
@@ -545,7 +562,7 @@
 		}
 		{
 			dependencies: ["5E9E2F25AE1EC731"]
-			description: ["使用闪存进行绑定"]
+			description: ["使用&d闪存&r进行绑定"]
 			icon_scale: 2.0d
 			id: "6C24E5BA18FE8CF5"
 			shape: "rsquare"
@@ -563,13 +580,14 @@
 				}
 			]
 			title: "无线算力数据仓"
-			x: 2.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: [
 				"0485D45408234C99"
 				"298369255C8130F7"
+				"4E1A28AFF661CED0"
 			]
 			id: "5D980DBF92017008"
 			tasks: [{
@@ -583,6 +601,7 @@
 		{
 			can_repeat: false
 			dependencies: ["051792ED136C96D0"]
+			description: ["当然这个还是要用化反做"]
 			id: "7EFC2C7FF6FFF1F7"
 			tasks: [{
 				id: "1BB25071E7E00C66"
@@ -594,7 +613,7 @@
 		}
 		{
 			dependencies: ["7EFC2C7FF6FFF1F7"]
-			description: ["只能放入成型的数据库的数据访问仓中"]
+			description: ["只能放入&6成型的数据库&r的&b数据访问仓&r中"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5C4B11CEA53D5B78"
@@ -651,7 +670,11 @@
 				"53D0B2B73387C7CE"
 				"042A0E98DC1084B3"
 			]
-			description: ["可以用于制作只需贴片且产量较大的磁共振电路，你会喜欢的 "]
+			description: [
+				"可以用于制作只需贴片且产量较大的磁共振电路，你会喜欢的 "
+				""
+				"同时也是后面必用的材料"
+			]
 			id: "0DC5BFACB3D4BC95"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -675,7 +698,7 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ \"text\": \"锆在木卫三\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E844874F97530A\" } }"
+				"{ \"text\": \"锆在木卫三\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E844874F97530A\" } }"
 				""
 				"碲则只能通过虚空采矿或者太空采矿获得"
 			]
@@ -702,37 +725,36 @@
 				"39380262677612A9"
 			]
 			description: [
-				"工作需要用一个输入总线输入一号电路"
-				""
-				"这个时候你也可以做大型的"
+				"需要用一个输入总线&b输入一号电路以维持机器工作"
+				"&r"
+				"这个时候你也可以直接做大型的"
 				""
 				"方块放在多方块结构内部即可转换"
 				""
-				"还有一个叫方块总线和一个叫转换模拟卡的东西"
+				"方块总线本质上是一个箱子，自动化需要通过机械臂/传送带或者AE的输入/输出总线等主动存取手段互动"
 				""
-				"方块总线本质上是一个箱子，自动化需要通过覆盖板（机械臂）或者AE的输入/输出总线等主动IO手段互动"
-				""
-				"在安装模拟卡的前提下，在方块总线内的方块也可以被转换"
+				"在安装模拟卡的前提下，在&6方块总线&r内的方块也可以被转换（&c输入总线里的不会被转换&r）"
 				""
 				"如果放入模拟卡不工作，请拆掉主机再放回去"
+				""
+				"在下一页查看具体转换“配方”"
 				"{@pagebreak}"
-				"具体转换“配方”如下："
+				"草方块→苔藓块"
 				""
-				"草方块转换为苔藓块"
+				"苔藓块→幽匿块"
 				""
-				"苔藓块转换为幽匿块"
+				"橡木原木→绯红菌柄"
 				""
-				"橡木原木转换为绯红菌柄"
+				"白桦原木→诡异菌柄"
 				""
-				"白桦原木转换为诡异菌柄"
+				"钙块→骨块"
 				""
-				"钙块转换为骨块"
+				"骨块→精华方块"
 				""
-				"骨块转换为精华方块"
-				""
-				"注入龙力的黑曜石转换为充能龙块"
+				"注入龙力的黑曜石→充能龙块"
 			]
 			hide_dependency_lines: true
+			icon: "gtceu:block_conversion_room"
 			icon_scale: 2.0d
 			id: "41201C74CC5F7B90"
 			shape: "rsquare"
@@ -745,6 +767,18 @@
 				{
 					id: "762F2B3A5742321F"
 					item: "gtceu:large_block_conversion_room"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "434CB442F980C5B3"
+					item: "gtceu:block_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C5AFABF348FFA69"
+					item: "gtlcore:conversion_simulate_card"
 					optional_task: true
 					type: "item"
 				}
@@ -769,7 +803,7 @@
 			description: [
 				"各种矿脉精华不仅用于大型虚空采矿场的精准模式，还是后续必需物品的材料之一"
 				""
-				"精华只能使用&9GregTech&r的牛奶制作"
+				"精华只能使用&9GregTech&r的牛奶制作，牛奶又怎么来呢，舀一桶牛奶之后合成牛刷怪蛋放到提取机里面"
 			]
 			icon: "kubejs:space_essence"
 			id: "68D3E6670941A3F5"
@@ -800,8 +834,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["在同一个CPU中不要和其他合成存储器混用（包括另一个MAX），否则CPU会处于不可调用状态"]
-			hide_dependency_lines: true
+			description: ["在同一个CPU中&c不要和其他合成存储器混用&r（包括另一个MAX），否则CPU会处于&e不可调用状态&r"]
 			id: "31A1ECA11AC31A29"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -816,7 +849,7 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -824,9 +857,11 @@
 				"58936CEB6176A18B"
 			]
 			description: [
-				"使用电力直接聚爆，不再需要炸药，还拥有并行！"
+				"使用电力直接聚爆，不再需要炸药，还能安装并行控制仓！"
 				""
 				"只能使用&eLuV&r消声仓"
+				""
+				"你现在可以制作终极工作台了，但几乎没有用处"
 			]
 			icon_scale: 2.0d
 			id: "6A6895119CECF238"

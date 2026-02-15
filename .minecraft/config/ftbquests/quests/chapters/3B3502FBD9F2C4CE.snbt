@@ -65,7 +65,7 @@
 		{
 			dependencies: ["4058D1416D94BABB"]
 			description: [
-				"合金冶炼炉会产出流体（对应产物可通过搅拌机-电力高炉制取或二硫化碳）和熔融流体。熔融流体需要用真空冷冻机进行冷却"
+				"合金冶炼炉会产出流体（对应产物可通过搅拌机-电力高炉制取或者是二硫化碳）和熔融流体。熔融流体需要用真空冷冻机进行冷却"
 				""
 				"不要被长时间的熔炼时间吓到，这是将搅拌机的配方直接融入熔炼配方中的结果，实际上比搅拌后在高炉中熔炼粉要省时（比如不锈钢）。"
 				""
@@ -95,13 +95,15 @@
 		{
 			dependencies: ["1F0956C3BD4745A1"]
 			description: [
-				"现在可以制作单方块机器的大型版本，能更好的升压超频，同时支持并行"
+				"现在可以制作单方块机器的大型版本，能更好的升压超频，以及获得更高的并行"
+				""
+				"在描述中带有&e通过并行控制仓让机器同时处理多个相同配方&r的机器可以安装并行控制仓"
 				""
 				"别忘了给之前的机器装上并行控制仓（脱硫机，渔场，大型温室等）"
 				""
-				"并行仓可以共用"
+				"并行仓可以&b共用"
 				""
-				"{ \"text\": \"可以到这里查看总共有多少种单方块机器大型版本\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1443E064A0AB0B8B\" } }"
+				"{ \"text\": \"可以到这里查看总共有多少种单方块机器大型版本\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1443E064A0AB0B8B\" } }"
 			]
 			icon: "gtceu:large_material_press"
 			icon_scale: 1.3d
@@ -125,15 +127,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0526B4AC0CAF99A5"
-				"3CB16B36A5AA2A10"
-			]
-			description: ["LuV阶段主要材料"]
+			dependencies: ["3CB16B36A5AA2A10"]
+			description: ["你可以用IV搅拌机做，也可以用合金冶炼炉"]
 			hide_dependent_lines: true
 			id: "4BFA114E12BCB163"
 			shape: "gear"
 			size: 2.0d
+			subtitle: "LuV阶段主要材料"
 			tasks: [{
 				id: "121BAC69F16DF2AF"
 				item: "gtceu:rhodium_plated_palladium_ingot"
@@ -175,6 +175,12 @@
 			]
 			icon_scale: 2.0d
 			id: "7DCA0B7C9F3C3ACF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3CE8ACD7ED41412F"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -265,6 +271,7 @@
 			dependencies: [
 				"38480A52A13DA157"
 				"69E208F71C5EB4B3"
+				"29450DC426C4E2D6"
 			]
 			description: ["比较麻烦,且后期需求量很大"]
 			hide_dependent_lines: true
@@ -330,6 +337,7 @@
 		}
 		{
 			dependencies: ["506BE1A622532375"]
+			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "4E1A28AFF661CED0"
 			rewards: [{
@@ -352,6 +360,7 @@
 				"2CAC63F25BAF50B3"
 			]
 			id: "0FCA3B71669C8122"
+			subtitle: "依旧要去空间站"
 			tasks: [{
 				id: "431CBC4C1A32BCEC"
 				item: "gtceu:quantum_star"
@@ -387,20 +396,18 @@
 			dependencies: [
 				"3AD2F40B030A6BC8"
 				"382F3E7588A0AD5E"
-				"7A4A5E773AC5C003"
+				"2CE5738B7A8225A6"
 			]
 			description: [
-				"很贵，但IV之后必备。"
+				"最长可达17格，长度不影响工作效率"
 				""
-				"最长可达17格，实际上越长的装配线有更多的耗时减免。"
+				"大部分配方在运行的同时需要&6配方数据&r来运行，配方数据可看作某种&b催化剂&r。"
 				""
-				"大部分配方需要研究数据来运行，研究数据可看作某种催化剂。"
-				""
-				"只能使用&e&oULV输入总线&r，输入仓任意。"
+				"只能使用&e&oULV输入总线&r，输入仓则可以使用小型/四重/九重输入仓。"
 				""
 				"物品和流体&b无需有序输入&r，进阶装配线、电路装配线、超时空装配线、超时空装配线扩展模块、聚合装置同理"
 				""
-				"编写样板时会自动忽略用于研究的闪存、数据球和数据模块"
+				"编写装配线类样板时会&d自动忽略&r&6装有研究数据的闪存&r、&6数据球&r和&6数据模块"
 			]
 			icon_scale: 1.3d
 			id: "7F8C2ECC7CE2BF20"
@@ -412,6 +419,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "很贵，但IV之后必备。"
 			tasks: [{
 				id: "07456C679DEEEE04"
 				item: "gtceu:assembly_line"
@@ -421,7 +429,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["27BA6EBA81622516"]
+			dependencies: [
+				"27BA6EBA81622516"
+				"25F272243EB904D5"
+			]
 			description: ["不会是最后一种小电路组装机"]
 			id: "027B25761BD830C8"
 			tasks: [{
@@ -434,9 +445,14 @@
 		}
 		{
 			dependencies: ["027B25761BD830C8"]
-			description: ["不能使用两个能源仓升压"]
+			description: ["&c不能&r双仓升压"]
 			icon_scale: 2.0d
 			id: "30A0D221474FB44A"
+			rewards: [{
+				id: "6DF7733A3D463FA1"
+				item: "avaritia:infinity_umbrella"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [{
@@ -465,9 +481,14 @@
 			dependencies: [
 				"15F08D296DE33A44"
 				"079CD9FD65CB2ED2"
+				"3461BF0D74E5E8DF"
 			]
 			description: ["升压"]
+			hide_dependent_lines: true
+			icon_scale: 1.3d
 			id: "15580C25FF239402"
+			shape: "hexagon"
+			size: 2.0d
 			tasks: [{
 				id: "1C9F7F0D50ED81F7"
 				item: "gtceu:iv_energy_input_hatch"
@@ -482,7 +503,7 @@
 				"0526B4AC0CAF99A5"
 				"3ECA33037D940EAB"
 			]
-			description: ["IV超导体"]
+			description: ["&9IV&r超导体"]
 			id: "02D426BE0947F123"
 			tasks: [{
 				id: "4FD9779EEB7F7F57"
@@ -504,11 +525,8 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["1E7344C133C99565"]
-			description: [
-				"扫描是研究的第一步，将JEI中显示的物品与一个闪存一起放置以进行扫描，这将消耗该物品并将数据放入闪存中。"
-				"稍后，配方将需要不同的数据存储物品进行研究，例如数据球，这个过程将保持不变，但将使用不同的数据存储物品。"
-			]
+			dependencies: ["7A4A5E773AC5C003"]
+			description: ["将扫描过后的闪存/数据球放入数据访问仓中以让装配线读取配方数据"]
 			id: "2CE5738B7A8225A6"
 			tasks: [{
 				id: "67F4026A97AD2839"
@@ -516,7 +534,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["148A5C927A0DCED1"]
@@ -535,7 +553,7 @@
 				"38480A52A13DA157"
 				"7DE4799C4F88801B"
 			]
-			description: ["又是一条小产线"]
+			description: ["{ \"text\": \"又是一条小产线\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7DE4799C4F88801B\" } }"]
 			id: "148A5C927A0DCED1"
 			tasks: [{
 				id: "62F5055E01F9396B"
@@ -610,7 +628,7 @@
 				"02D426BE0947F123"
 				"5010011959CF5337"
 			]
-			description: ["{ \"text\": \"挖一点就够了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"]
+			description: ["{ \"text\": \"挖一点就够了\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"]
 			id: "00E7CB7CD9296B1A"
 			tasks: [{
 				id: "2FB73F086EA348D8"
@@ -625,7 +643,7 @@
 				"0F22A8CE63F369CA"
 				"00E7CB7CD9296B1A"
 			]
-			description: ["{ \"text\": \"你可以着手使用硅岩发电了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
+			description: ["{ \"text\": \"你可以着手使用硅岩发电了\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_5_rocket"
@@ -675,7 +693,7 @@
 		{
 			dependencies: ["1F0956C3BD4745A1"]
 			description: [
-				"必备"
+				"必备，不要忘了放能源仓"
 				""
 				"高温发电量更高，低温主要用于生产资源"
 				""
@@ -689,7 +707,7 @@
 			id: "365298DB6520227A"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "不要忘了放能源仓"
+			subtitle: "核电，氢铒铱锔锕！"
 			tasks: [{
 				id: "2599970FD2D9C38B"
 				item: "gtceu:fission_reactor"
@@ -701,18 +719,24 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"直接同步ME网络中的物品（仓室内的物品仍在网络中）"
+				"简单来说就是让机器直接从ME网络拿物品来用"
 				""
-				"用闪存左键保存仓室配置，右键应用配置"
+				"用&d闪存&r左键保存仓室配置，右键应用配置"
 				""
-				"可以开启自动拉取模式，根据排序模式自动拉取网络中的库存物品/流体"
+				"可以开启&6自动拉取模式&r，自动拉取网络中的库存物品/流体（&b标签总线可设置拉取排序模式&r）"
 				""
-				"可在gtlcore的配置文件中开启极限拉取模式，拉取不再有延迟，但可能会对TPS有一定的影响"
+				"用&d剪线钳&r右键ME仓室可以让ME仓室在从正面联网和从任意面联网之间切换"
+				""
+				"可在仓室gui左下角调整&6拉取间隔&r，默认显示0tick为不改变拉取间隔，&b最低1tick&r（影响从ME网络拉取的速度）"
+				""
+				"可在gtlcore的配置文件中开启&d极限拉取模式&r，让&6ME库存输入总成&r拉取不再有延迟（影响并行计算），但可能会对TPS有一定的影响"
 				""
 				"标签库存总线使用方式与标签存储总线相同"
 				""
 				"注意：由于在进入存档时AE需要重新组网，库存仓室会在一段很短的时间内断网"
+				"在同一个多方块结构中的多个库存输入仓/总线不能标记相同的内容物"
 			]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "5608182772E855EC"
 			optional: true
@@ -747,7 +771,7 @@
 				}
 			]
 			title: "ME库存仓室"
-			x: 14.0d
+			x: 16.0d
 			y: 2.0d
 		}
 		{
@@ -792,21 +816,24 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["2CE5738B7A8225A6"]
+			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"装配线的部分配方需要扫描过的闪存"
+				"将JEI中显示的物品与一个闪存一起放置在扫描仪中进行扫描，这将消耗该物品并将对应数据存入闪存中。"
 				""
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪机，不要看错了！！！"
+				"后面的配方将需要不同的数据存储物品（数据球和数据模块）进行扫描，更后面则是使用研究站进行研究"
+				""
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
+				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
 			]
 			id: "7A4A5E773AC5C003"
+			min_width: 270
 			tasks: [{
 				id: "04B8AC9FE06215AC"
 				item: "gtceu:iv_scanner"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
@@ -816,6 +843,7 @@
 			]
 			description: ["这个阶段推荐在做出来大机器之后沉淀一下，重构你的产线，以及选择一种新的发电方式"]
 			hide_dependent_lines: true
+			icon: "kubejs:iv_universal_circuit"
 			id: "38480A52A13DA157"
 			shape: "rsquare"
 			size: 2.0d
@@ -847,14 +875,14 @@
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"1223D839C224777B"
 				"29D4D49428BF7FF4"
 			]
-			description: ["{ \"text\": \"钐的产线可能很长，也可能很短\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"]
+			description: ["{ \"text\": \"钐的产线可能很长，也可能很短\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"]
 			id: "3ECA33037D940EAB"
 			tasks: [{
 				id: "7778FF7D320A8783"
@@ -866,7 +894,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["溶解罐请注意控制输入的流体比例，不然会吞材料且什么都不会产出"]
+			description: ["溶解罐输入的&b流体&r比例若与配方比例不同则会&e一直吞材料不输出产物&r"]
 			icon_scale: 1.5d
 			id: "29D4D49428BF7FF4"
 			shape: "rsquare"
@@ -892,6 +920,8 @@
 				"可以通过热钠钾合金获得远超于超维度锅炉产出的蒸汽量"
 				""
 				"也可以用超临界钠钾合金获得超临界蒸汽，用于给超临界蒸汽涡轮发电"
+				""
+				"除了热钠钾合金的配方，热交换机并不受可配置维护仓的影响"
 			]
 			icon_scale: 2.0d
 			id: "24CE67689DD540B7"
@@ -910,11 +940,14 @@
 			dependencies: [
 				"7F8C2ECC7CE2BF20"
 				"65FDECC0F69ECD2A"
+				"15580C25FF239402"
 			]
 			description: [
-				"0.2x用于加速机器，1.2x用于节省燃料，某些情况可以使发电机获得额外超频次数进而增加发电效率"
+				"0.2x用于加速机器，1.2x用于节省燃料，某些情况可以使发电机获得额外超频次数进而增加发电功率"
 				""
-				"{ \"text\": \"配置复制工具可以复制黏贴处理耗时设置\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
+				"{ \"text\": \"配置复制工具可以复制黏贴处理耗时设置\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
+				""
+				"你同时可以制作&6可配置超净维护仓&r了"
 			]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"
@@ -987,7 +1020,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["裂变-蒸汽/超临界，硅岩反应堆，化学能吞噬者……"]
+			description: ["裂变-蒸汽/超临界蒸汽，硅岩反应堆，化学能吞噬者……"]
 			id: "0DA85DFCDF063CFB"
 			tasks: [{
 				id: "3E9DA664071D01DB"

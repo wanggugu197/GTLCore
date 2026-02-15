@@ -15,6 +15,7 @@
 	quests: [
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:lv_wireless_energy_receive_cover"
 			id: "7577061AE4366606"
 			tasks: [{
 				id: "208E887FE1E45C23"
@@ -30,7 +31,7 @@
 			description: [
 				"推荐制作一个大型锅炉来生产用不完的蒸汽"
 				""
-				"在放入发电阵列时会输出蒸馏水，多方块蒸汽涡轮也会输出蒸馏水"
+				"在放入&6发电阵列&r时会&b输出蒸馏水&r，&6多方块蒸汽涡轮&r也会&b输出蒸馏水"
 				""
 				"输入不足，输出空间不够大，动力仓不够大，都会制约发电量"
 				"{@pagebreak}"
@@ -65,7 +66,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{ \"text\": \"虽然有这个发电机，但是在这个阶段制作燃料很困难\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E401B78E52B9BBC\" } }"]
+			description: ["{ \"text\": \"虽然有这个发电机，但是在这个阶段制作燃料很困难\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E401B78E52B9BBC\" } }"]
 			id: "11CBF5394DE28373"
 			tasks: [{
 				id: "64A4900F3622DCD3"
@@ -77,7 +78,7 @@
 		}
 		{
 			dependencies: ["7577061AE4366606"]
-			description: ["{ \"text\": \"和同阶段的内燃一样\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"351B9D097EC493C5\" } }"]
+			description: ["{ \"text\": \"和同阶段的内燃一样\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"351B9D097EC493C5\" } }"]
 			id: "2103464D61DAF017"
 			tasks: [{
 				id: "1D2E4E5A4DEFD377"
@@ -89,6 +90,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:mv_wireless_energy_receive_cover"
 			id: "05C8B854877A8A7D"
 			tasks: [{
 				id: "503E4DDF1F1A68CC"
@@ -137,6 +139,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:hv_wireless_energy_receive_cover"
 			id: "6934C9C15FAAD00A"
 			tasks: [{
 				id: "2206076670EC76B3"
@@ -160,7 +163,6 @@
 		}
 		{
 			dependencies: ["6934C9C15FAAD00A"]
-			description: ["如果你电力紧缺，推荐这个发电方式"]
 			id: "4AE439A017FF5A04"
 			tasks: [{
 				id: "31B6DE310917805B"
@@ -172,7 +174,6 @@
 		}
 		{
 			dependencies: ["6934C9C15FAAD00A"]
-			description: ["和内燃一样"]
 			id: "5F1205B5A2B98E21"
 			tasks: [{
 				id: "41A77DEE3ADFAD06"
@@ -184,6 +185,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:ev_wireless_energy_receive_cover"
 			id: "62D8D7B8C9730557"
 			tasks: [{
 				id: "0CE1A9B25F5823C9"
@@ -198,13 +200,11 @@
 			description: [
 				"使用的是&l&c涡轮转子（带有耐久）&r&r而不是转子，注意区分"
 				""
-				"通过搜索&b&l涡轮扇叶&r&r可以查看对应的涡轮转子的属性"
+				"注意&b不要遮挡&r转子支架（转子支架朝向为上或下时也会判定为被遮挡）"
 				""
-				"注意不要遮挡转子支架（转子支架朝向为上或下时也会判定为被遮挡）"
+				"在涡轮工作时且不要尝试在转子支架处直接更换转子，只会让你的血量变少&mXXX一头扎进了涡轮里"
 				""
-				"不要在涡轮工作时拆卸转子"
-				""
-				"注意转子支架不能低于最低要求，否则会显示效率-1"
+				"注意转子支架等级不能低于涡轮描述中的最低要求，否则会显示效率-1"
 				""
 				"推荐使用高速钢E/S转子"
 			]
@@ -274,9 +274,9 @@
 			description: [
 				"很方便、稳定的发电，随用随停"
 				""
-				"注意不要遮挡引擎进气机械方块"
+				"注意不要遮挡&b引擎进气机械方块"
 				""
-				"引擎类发电机并不能竖起来（即主机朝向不能为上、下）"
+				"引擎类发电机&c不能竖起来&r（即主机朝向不能为上、下）"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:large_combustion_engine"
@@ -298,6 +298,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:iv_wireless_energy_receive_cover"
 			id: "5460CFE78B89DC30"
 			tasks: [{
 				id: "4B7E26D82AAFA0A5"
@@ -313,11 +314,11 @@
 				"62D8D7B8C9730557"
 			]
 			description: [
-				"特大涡轮的发电量都非常巨大，即使是蒸汽也很强力"
+				"特大涡轮的发电量都比较大，即使是蒸汽也很强力"
 				""
-				"注意每一个转子支架都不能遮挡，且涡轮转子必须全部使用同种涡轮转子"
+				"注意每一个转子支架都不能遮挡，且&b必须全部使用同种涡轮转子&r"
 				""
-				"转子仓可以自动将存储的涡轮转子放入空的转子支架中；仓室可用位置位于涡轮主机的上下左右"
+				"转子仓可以自动将存储的涡轮转子放入空的转子支架中；仓室可用位置位于涡轮主机的上下左右；只有特大涡轮才能安装转子仓"
 			]
 			icon: "gtceu:steam_mega_turbine"
 			id: "6196565B3DE59BF1"
@@ -354,7 +355,7 @@
 				"1B77B2C00B24906E"
 				"5460CFE78B89DC30"
 			]
-			description: ["非常强力"]
+			description: ["升级版，效率更高"]
 			id: "1FF27C8CE8BD4041"
 			tasks: [{
 				id: "7A3302436045F131"
@@ -366,7 +367,7 @@
 		}
 		{
 			dependencies: ["62D8D7B8C9730557"]
-			description: ["比较强力的单方块发电机，但燃料制作可能有点麻烦"]
+			description: ["燃料制作可能有点麻烦"]
 			id: "1BDB51F089ED52D3"
 			tasks: [{
 				id: "0D3FDB5461E50DF0"
@@ -378,7 +379,7 @@
 		}
 		{
 			dependencies: ["5460CFE78B89DC30"]
-			description: ["很强力"]
+			description: ["效率骤然下降"]
 			id: "1A76E49604336B50"
 			tasks: [{
 				id: "3A071C147BA1B580"
@@ -390,6 +391,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:luv_wireless_energy_receive_cover"
 			id: "504BA5B399BFA571"
 			tasks: [{
 				id: "326C22F23137507B"
@@ -401,7 +403,7 @@
 		}
 		{
 			dependencies: ["504BA5B399BFA571"]
-			description: ["还是很强力"]
+			description: ["只剩一半的效率"]
 			id: "5960AA3D42E0F886"
 			tasks: [{
 				id: "68AC62415412A2A1"
@@ -413,7 +415,7 @@
 		}
 		{
 			dependencies: ["504BA5B399BFA571"]
-			description: ["硅岩燃料很耐烧"]
+			description: ["硅岩燃料很耐烧，但是你得有了ZPM能源仓才能做"]
 			id: "2CC7E0E80D23E7EF"
 			tasks: [{
 				id: "562C661F9252E3AF"
@@ -425,7 +427,7 @@
 		}
 		{
 			dependencies: ["5460CFE78B89DC30"]
-			description: ["{ \"text\": \"到达木卫一之后就可以开始烧硅岩了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36F5A40D3976E512\" } }"]
+			description: ["{ \"text\": \"到达木卫一之后就可以开始烧硅岩了\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"36F5A40D3976E512\" } }"]
 			id: "48991235C17FB211"
 			tasks: [{
 				id: "5AF1CFBEC9280D1A"
@@ -449,6 +451,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:zpm_wireless_energy_receive_cover"
 			id: "1BD6F43D61ABF744"
 			tasks: [{
 				id: "1661853C8F3910C0"
@@ -493,7 +496,7 @@
 				"1B77B2C00B24906E"
 				"504BA5B399BFA571"
 			]
-			description: ["用等离子发电"]
+			description: ["冷却等离子的同时发电，发电效率不如超临界蒸汽涡轮"]
 			id: "5E76606D0601E263"
 			tasks: [{
 				id: "3EE9E5A4C22EB8A5"
@@ -508,7 +511,6 @@
 				"1B77B2C00B24906E"
 				"1BD6F43D61ABF744"
 			]
-			description: [""]
 			id: "48462EE64EA29340"
 			tasks: [{
 				id: "70FB2E5BE288D032"
@@ -520,6 +522,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:uv_wireless_energy_receive_cover"
 			id: "44F827B28C513D5B"
 			tasks: [{
 				id: "513C7F42EA555C43"
@@ -534,7 +537,7 @@
 				"1B77B2C00B24906E"
 				"62D8D7B8C9730557"
 			]
-			description: ["单方块火箭引擎的升级版，非常强力"]
+			description: ["单方块火箭引擎的升级版"]
 			id: "408C3C831B65D6F1"
 			tasks: [{
 				id: "32BCA52A82F7C585"
@@ -546,6 +549,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:uhv_wireless_energy_receive_cover"
 			id: "4B33F47839538D7B"
 			tasks: [{
 				id: "5B512F241E6679D1"
@@ -557,7 +561,11 @@
 		}
 		{
 			dependencies: ["4B33F47839538D7B"]
-			description: ["相比大硅岩，更省燃料，最高256A MAX输出"]
+			description: [
+				"相比大硅岩，更省燃料，最高256A MAX输出"
+				""
+				"提供等离子的效果与拉长配方时间类似，可以理解为X并行=X倍发电功率"
+			]
 			id: "548E8FA4B1004534"
 			tasks: [{
 				id: "5079AC2040FDA3AA"
@@ -569,7 +577,15 @@
 		}
 		{
 			dependencies: ["19C7474792787EE9"]
-			description: ["最高10000A MAX输出"]
+			description: [
+				"最高10000A MAX输出"
+				""
+				"在启动后会&e强制锁定&r黑夜"
+				""
+				"发射模块进程和发电进程&e不能同时进行&r"
+				""
+				"&m可能会发射10000个模块之后卡住不发电&r"
+			]
 			id: "082BB082BE18C820"
 			subtitle: "启动很慢"
 			tasks: [{
@@ -582,6 +598,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:uiv_wireless_energy_receive_cover"
 			id: "19C7474792787EE9"
 			tasks: [{
 				id: "2E8606C5E07D1D88"
@@ -606,6 +623,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtmthings:opv_wireless_energy_receive_cover"
 			id: "31779C5096523FEF"
 			tasks: [{
 				id: "28E9E67B5567ABFB"
@@ -616,8 +634,8 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["5930E12A8BCAF996"]
-			description: ["{ \"text\": \"烧点简单的燃料\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1248D8F428A12A95\" } }"]
+			dependencies: ["7577061AE4366606"]
+			description: ["{ \"text\": \"烧点简单的燃料\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1248D8F428A12A95\" } }"]
 			id: "6EF3C749D06C7262"
 			tasks: [{
 				id: "329F1BD301166219"
@@ -629,7 +647,6 @@
 		}
 		{
 			dependencies: ["05C8B854877A8A7D"]
-			description: [""]
 			id: "28507EACD363F3D1"
 			tasks: [{
 				id: "1D47416F630379AB"
@@ -641,6 +658,7 @@
 		}
 		{
 			dependencies: ["6934C9C15FAAD00A"]
+			description: ["如果你电力紧缺，推荐这个发电方式（直接烧重油）"]
 			id: "236EB8B88EA504C9"
 			tasks: [{
 				id: "778BDD1B9F40E23F"
@@ -673,9 +691,24 @@
 				""
 				"引雷三叉戟召唤的闪电也会让发电机充能"
 				""
-				"{ \"text\": \"你可能会用到它\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F663054E006E97B\" } }"
+				"{ \"text\": \"你可能会用到它\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0F663054E006E97B\" } }"
 			]
 			id: "45656BC02DC740CE"
+			rewards: [{
+				id: "04F92B9F1BC615D2"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 240
+						Enchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "11BBDF10AD954709"
 				item: "gtceu:ev_lightning_rod"
@@ -687,6 +720,21 @@
 		{
 			dependencies: ["5460CFE78B89DC30"]
 			id: "61B0C3E3C0B7E6EE"
+			rewards: [{
+				id: "5140439277BABE11"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 240
+						Enchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "31A9D370C6B93F87"
 				item: "gtceu:iv_lightning_rod"
@@ -698,6 +746,21 @@
 		{
 			dependencies: ["504BA5B399BFA571"]
 			id: "36ED28C6C3F2CDEC"
+			rewards: [{
+				id: "449571C11EA4E049"
+				item: {
+					Count: 1
+					id: "minecraft:trident"
+					tag: {
+						Damage: 240
+						Enchantments: [{
+							id: "minecraft:channeling"
+							lvl: 1
+						}]
+					}
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "5BEE28B100FC5354"
 				item: "gtceu:luv_lightning_rod"
@@ -822,7 +885,6 @@
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
-			description: [""]
 			icon: "gtceu:supercritical_steam_bucket"
 			id: "19B859F1C3DBECC7"
 			subtitle: "通过热交换机获得"
@@ -881,7 +943,6 @@
 				"2E401B78E52B9BBC"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			icon: "gtceu:rocket_fuel_bucket"
 			id: "10FC17CA92F03449"
 			tasks: [
@@ -1083,6 +1144,7 @@
 		}
 		{
 			dependencies: ["1A6111948261BCB8"]
+			description: ["原子能精炼配方要等到UXV才能用"]
 			icon: "gtceu:concentration_mixing_hyper_fuel_1_bucket"
 			id: "703B4E87BFB463A3"
 			subtitle: "一共有两种"
@@ -1169,6 +1231,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "戴森球模块和极寒之凛冰"
 			x: -10.0d
 			y: 10.0d
 		}
@@ -1177,7 +1240,7 @@
 			description: [
 				"最高67108864A MAX输出"
 				""
-				"仓室能且仅能替换&b&l高能机器外壳"
+				"仓室能且仅能替换&b&l高能机器外壳&r（除了主机两边，底座上的四个角落也有）"
 			]
 			id: "5CA04083FCFD26A8"
 			size: 1.0d
@@ -1197,7 +1260,12 @@
 				""
 				"从大硅岩开始，所有发电机都可以使用&l&c激光源仓&r&r来输出能量"
 				""
-				"同时拥有超频机制。简单来说，原始配方时间（包括可配置维护仓的乘算）越长超频次数越多，发电功率越高，超频后运行时间会缩短至1~3刻（带有&b&l超频不会损失能效&r字样的发电机都拥有超频机制）"
+				"同时拥有超频机制："
+				"{ \"text\": \"具体机制见无损超频的定义\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
+				"将&b4x配方速度&r换为&60.25x配方时间&r（包括可配置维护仓的乘算），&b电力消耗&r换为&6发电功率&r，&b总能量成本&r换为&6总发电量&r即为发电机的超频机制"
+				"发电机会根据&d动力仓/激光源仓大小&r&e自动超频&r至可超频上限，运行时间最短会缩短至1~3刻"
+				""
+				"描述中带有&b&l超频不会损失能效&r字样的发电机都拥有超频机制"
 			]
 			id: "7BBBF338330F4793"
 			rewards: [{
@@ -1319,6 +1387,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:luv_naquadah_reactor"
 			id: "3E951CCF86DDA5CB"
 			tasks: [{
 				id: "330EAAD1F7D76DB7"
@@ -1330,6 +1399,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:luv_rocket_engine"
 			id: "456FF3E513F8660C"
 			tasks: [{
 				id: "0AA9768CA91B571A"
@@ -1362,6 +1432,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:plasma_large_turbine"
 			id: "1814ECC88C7A6D7E"
 			tasks: [{
 				id: "17DA1F85537D48E0"
@@ -1373,6 +1444,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:hv_combustion"
 			id: "2E401B78E52B9BBC"
 			tasks: [{
 				id: "69C6510D05710D1D"
@@ -1384,6 +1456,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:hv_gas_turbine"
 			id: "351B9D097EC493C5"
 			tasks: [{
 				id: "74F26AD3A9FAFE49"
@@ -1395,6 +1468,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:hv_semi_fluid"
 			id: "1248D8F428A12A95"
 			tasks: [{
 				id: "0070F56927FEED89"
@@ -1406,6 +1480,7 @@
 		}
 		{
 			hide_dependent_lines: true
+			icon: "gtceu:fission_reactor"
 			id: "1A6111948261BCB8"
 			tasks: [{
 				id: "353661CEC8603F0F"
@@ -1417,6 +1492,7 @@
 		}
 		{
 			dependencies: ["1248D8F428A12A95"]
+			description: ["油砂的重油产量非常大"]
 			icon: "gtceu:oil_heavy_bucket"
 			id: "1D8A7D7FB1810C98"
 			subtitle: "重，石"
@@ -1857,6 +1933,62 @@
 			title: "两种煤气"
 			x: -17.5d
 			y: -3.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtmthings:max_wireless_energy_receive_cover"
+			id: "129B3F81E43C237D"
+			tasks: [{
+				id: "7953D09AF58F4D90"
+				title: "MAX"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["129B3F81E43C237D"]
+			description: ["通过有源变压器将创造能源中的电量转移至无线电网，最高50331648A  MAX输出"]
+			icon: "gtceu:active_transformer"
+			id: "3B18900343C2F4E3"
+			subtitle: "无尽能源"
+			tasks: [
+				{
+					id: "586428C96B81B3FF"
+					item: "gtceu:active_transformer"
+					type: "item"
+				}
+				{
+					id: "7392D649858C0BAC"
+					item: "gtmthings:creative_energy_hatch"
+					type: "item"
+				}
+				{
+					id: "7DEC05B7049C4085"
+					item: "gtmthings:creative_laser_hatch"
+					type: "item"
+				}
+				{
+					id: "56DAF1C0101F4081"
+					item: "gtmthings:max_4194304a_wireless_laser_source_hatch"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			description: ["除了1EU/t输出的太阳能板，所有太阳能板的造价都被大幅提升，仅作为合成材料，发电实用性为零"]
+			icon: "gtceu:solar_panel"
+			id: "09AADF1A6ECB4164"
+			subtitle: "查无此人"
+			tasks: [{
+				id: "31290CFE5589EA23"
+				type: "checkmark"
+			}]
+			title: "太阳能"
+			x: -6.5d
+			y: 7.0d
 		}
 	]
 	title: "如何发电"

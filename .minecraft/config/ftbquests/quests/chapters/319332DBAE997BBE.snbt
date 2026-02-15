@@ -32,7 +32,7 @@
 	quests: [
 		{
 			dependencies: ["73613E3EBEFFB326"]
-			description: ["{ \"text\": \"去木卫一挖\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
+			description: ["{ \"text\": \"去木卫一挖\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
 			id: "7F92A8EE58AD5BA2"
 			tasks: [{
 				id: "7247977F19E25C6A"
@@ -43,9 +43,18 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["09F132EE8A88C872"]
+			dependencies: [
+				"09F132EE8A88C872"
+				"15580C25FF239402"
+			]
 			icon_scale: 2.0d
 			id: "13BBF0FF3267BFDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D0AB27F4F0D223"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "78E1EA0D0D683394"
@@ -85,7 +94,7 @@
 		}
 		{
 			dependencies: ["13BBF0FF3267BFDB"]
-			description: ["LuV超导体"]
+			description: ["&dLuV&r超导体"]
 			id: "2CEEFDACE7B13D5A"
 			tasks: [{
 				id: "4EA57D5B0BBC42FB"
@@ -121,16 +130,21 @@
 				"37C5E7628A4B826C"
 			]
 			description: [
-				"普通聚变堆运行主机对应等级配方时不能超频"
+				"普通聚变堆&6运行主机对应等级配方&r时&c不能超频&r，运行低于主机对应等级的配方时主机等级每高出配方等级一级，2x配方速度，2x电力消耗，1x总能量成本"
 				""
-				"运行低于主机对应等级的配方时主机等级每高出配方等级一级，耗电翻倍，耗时减半"
-				""
-				"聚变堆的能量缓存上限取决于能源仓数量而非能源仓等级"
+				"聚变堆的能量缓存上限取决于能源仓&b数量&r而非能源仓&c等级&r，所以，记得放好16个能源仓！"
 			]
 			icon_scale: 1.3d
 			id: "118FDF6D9F868002"
+			min_width: 210
+			rewards: [{
+				id: "4219810155501659"
+				item: "avaritia:infinity_ring"
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.0d
+			subtitle: "甜甜圈"
 			tasks: [{
 				id: "30F5A61CE755449F"
 				item: "gtceu:luv_fusion_reactor"
@@ -175,6 +189,8 @@
 			dependencies: [
 				"7F649184083236E1"
 				"1F0C8D37619111BE"
+				"4604207A60F04214"
+				"4E1A28AFF661CED0"
 			]
 			description: ["使用极高的直接能量流来进行类似电子电路的计算。"]
 			icon_scale: 2.0d
@@ -293,6 +309,8 @@
 			dependencies: [
 				"7F8C2ECC7CE2BF20"
 				"4BFA114E12BCB163"
+				"15580C25FF239402"
+				"25F272243EB904D5"
 			]
 			id: "00B9091E4824D78C"
 			tasks: [{
@@ -307,6 +325,12 @@
 			dependencies: ["2BEF03C52636E165"]
 			icon_scale: 2.0d
 			id: "23B23867F311BF51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547BB487C427E24E"
+				table_id: 6225023274141477362L
+				type: "random"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "3CDD2D97C975A389"
@@ -319,13 +343,12 @@
 		}
 		{
 			dependencies: ["233CA36D529EC3FB"]
-			description: ["这并不是装配线"]
 			hide_text_until_complete: false
 			icon_scale: 2.0d
 			id: "2A0269009ABF1414"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "拥有无损超频"
+			subtitle: "这并不是装配线"
 			tasks: [{
 				id: "17918BFA4E414A13"
 				item: "gtceu:precision_assembler"
@@ -336,7 +359,7 @@
 		}
 		{
 			dependencies: ["23B23867F311BF51"]
-			description: ["ZPM超导体"]
+			description: ["&cZPM&r超导体"]
 			id: "0B89B3108EB4A01F"
 			tasks: [{
 				id: "7E7B15A8DCDA158C"
@@ -364,23 +387,29 @@
 				"52DF531AFB3A07CE"
 			]
 			description: [
-				"需要计算机提供的算力进行研究"
+				"需要计算机提供的算力进行研究，研究时需要将研究物品和数据存储物品放入&b物品支架"
 				""
 				"研究站的多方块结构包含空气，物品支架所在4*3*3区域内的空气不能被其他方块替换，否则研究站不会成型"
 				""
-				"研究站并不能运行扫描仪配方"
-				""
-				"注意：如果使用可配置维护仓系列，请确保与研究站连接的HPCA同样使用可配置维护仓并且保持耗时系数一致"
+				"研究站&c并不能&r运行扫描仪配方"
 			]
+			icon: "gtceu:research_station"
 			icon_scale: 1.3d
 			id: "298369255C8130F7"
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "223832A139BBC896"
-				item: "gtceu:research_station"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "223832A139BBC896"
+					item: "gtceu:research_station"
+					type: "item"
+				}
+				{
+					id: "0CB4B11AEBE2BB78"
+					item: "gtceu:object_holder"
+					type: "item"
+				}
+			]
 			x: 14.0d
 			y: 8.0d
 		}
@@ -388,21 +417,31 @@
 			dependencies: [
 				"4ECACC2A6159D332"
 				"0B89B3108EB4A01F"
+				"4E1A28AFF661CED0"
 			]
 			description: [
 				"为设备运行提供算力，更多的算力需要升级组件或者使用交换机合并多个计算机算力"
 				""
-				"若HPCA过热，会有随机的组件损坏然后停止工作"
+				"有线算力仓间使用光缆传递算力，且光缆&e不能分叉&r"
 				""
-				"若没有算力需求，HPCA并不会工作"
+				"主动冷却组件所需的冷却液通过输入仓供给"
 				""
-				"&l&c请注意区分算力数据仓（传输算力）和光学数据仓（传输数据）"
-				"&r"
-				"&r&r算力数据仓并不能被多方块结构共用"
+				"若HPCA过热，会有随机的组件损坏（变成对应外壳）然后停止工作"
+				""
+				"&e电力输入不足&r或&e没有算力需求&r时HPCA不会工作"
+				""
+				"&4&l请注意区分算力数据仓（传输算力）和光学数据仓（传输数据）"
+				""
+				"算力数据靶/源仓&c并不能&r共用"
 			]
 			icon: "gtceu:high_performance_computation_array"
 			icon_scale: 2.0d
 			id: "50FFFB0EBEDAE50B"
+			rewards: [{
+				id: "00B45CE41F6F9DE1"
+				item: "gtceu:hpca_active_cooler_component"
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 1.0d
 			tasks: [
@@ -432,9 +471,8 @@
 					type: "item"
 				}
 				{
-					id: "305043E5EE17B112"
-					item: "gtceu:hpca_active_cooler_component"
-					optional_task: true
+					id: "486BA41B749013B0"
+					item: "gtceu:normal_optical_pipe"
 					type: "item"
 				}
 			]
@@ -469,15 +507,12 @@
 		{
 			dependencies: ["09F132EE8A88C872"]
 			description: [
-				"有硅岩就可以做这个了，可以提高效率，"
+				"有硅岩就可以做这个了，可以提高效率"
 				""
-				"这是非必须的"
-				""
-				"ExtendedAe的硅块无法制作，请使用&9GregTech&r的硅块"
+				"ExtendedAe的硅块&c无法制作&r，请使用&9GregTech&r的硅块"
 			]
 			hide_dependency_lines: true
 			id: "1C10383050657004"
-			optional: true
 			tasks: [{
 				id: "78A1A23B153BDD1E"
 				item: "gtceu:naquadah_boule"
@@ -504,7 +539,6 @@
 		{
 			dependencies: [
 				"23B23867F311BF51"
-				"766D051A40AB5324"
 				"38091E7431B96FF6"
 			]
 			description: ["到后面你也可以用聚变III来做"]
@@ -514,13 +548,16 @@
 				item: "gtceu:naquadria_ingot"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 10.0d
 		}
 		{
-			dependencies: ["09F132EE8A88C872"]
+			dependencies: [
+				"09F132EE8A88C872"
+				"15580C25FF239402"
+			]
 			description: [
-				"{ \"text\": \"耐热金属在水星能挖到\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19BB6B20C2335469\" } }"
+				"{ \"text\": \"耐热金属在水星能挖到\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19BB6B20C2335469\" } }"
 				""
 				"后期还要用来制作下界合金锭"
 			]
@@ -538,10 +575,6 @@
 				"66AE53E13E3C3C19"
 				"0485D45408234C99"
 				"0507FDF7BECE29AF"
-			]
-			description: [
-				"你应该已经开始采流体矿脉了，一定是吧"
-				"然后你就可以去末地了"
 			]
 			icon: {
 				Count: 1
@@ -595,11 +628,11 @@
 				"2AA63D77B0E86D2E"
 			]
 			description: [
-				"输入仓室位置在顶层，输出仓室位置在底层"
+				"输入仓室可用位置在顶层，输出仓室可用位置在底层"
 				""
 				"通过&b中子加速器&r提供中子动能"
 				""
-				"可以使用&e中子传感器&r控制中子动能"
+				"可以使用&e中子传感器&r控制中子动能（中子传感器不能同时修改上下限，修改完其中一个数值后退出GUI再点进去设置另外一个）"
 				""
 				"请根据配方所需每刻中子动能和中子加速器的效率决定机器的并行数"
 			]
@@ -628,11 +661,15 @@
 		{
 			dependencies: ["298369255C8130F7"]
 			description: [
-				"艾萨线，这是一条新的矿物处理线。"
-				"产出铂处，稀土（部分），硅岩等一些稀有的粉"
-				"还有铊粉~"
-				"效率一般，但是是必须的"
-				"{ \"text\": \"实际上可以拖到UEV再做\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61B5CBFAACE6010D\" } }"
+				"艾萨线，这是一条新的矿物处理线，效率一般，但是在后期必须使用。"
+				""
+				"可以直接产出&b铑钌铱锇&r（铂处），&d镧铒铕镥钇镱&r（镧处），&a铟、超能硅岩&r和&a凯金&r（硅岩处理），还有&6铊"
+				""
+				"{ \"text\": \"实际上可以拖到UEV再做\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61B5CBFAACE6010D\" } }"
+				""
+				"研磨球需要放入多方块主机，且很容易损耗，可用ME输出总线（AE那个）或者机械臂+ME接口等方式补充"
+				""
+				"铝研磨球耐久值100，皂石研磨球耐久50（耐久附魔敲上去没用，经验修补可以生效&m但其实也没用&r）"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -648,7 +685,6 @@
 		}
 		{
 			dependencies: ["5B73961795BE42EE"]
-			description: [""]
 			icon_scale: 1.5d
 			id: "2588A0EF7F27DE5B"
 			shape: "rsquare"
@@ -711,8 +747,11 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["298369255C8130F7"]
-			description: [""]
+			dependencies: [
+				"298369255C8130F7"
+				"5F0A175D6704A8D0"
+			]
+			description: ["16格容量"]
 			id: "0723418AF58675E7"
 			optional: true
 			subtitle: "更大的容量"
@@ -726,7 +765,6 @@
 		}
 		{
 			dependencies: ["1F0956C3BD4745A1"]
-			description: [""]
 			id: "2AA63D77B0E86D2E"
 			rewards: [{
 				id: "74F83E0CD43D15C7"
@@ -743,8 +781,11 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4BFA114E12BCB163"]
-			description: ["注意这台机器并不会产出萘"]
+			dependencies: [
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+			]
+			description: ["注意这台机器&c并不会&r产出&d萘&r"]
 			icon_scale: 1.5d
 			id: "12F9033C4C2B29EB"
 			shape: "rsquare"
@@ -758,7 +799,10 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4BFA114E12BCB163"]
+			dependencies: [
+				"4BFA114E12BCB163"
+				"15580C25FF239402"
+			]
 			description: ["有并行的化学反应釜，还能通过升级线圈从而提高效率"]
 			icon_scale: 1.5d
 			id: "4CDCF542F45205EB"
@@ -788,9 +832,10 @@
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "43A83C00715285B5"
+			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "更大，更强"
+			subtitle: "大甜甜圈"
 			tasks: [{
 				id: "379AB770F78942DD"
 				item: "gtceu:luv_compressed_fusion_reactor"
@@ -802,7 +847,7 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"相当于功率更大的能源仓（靶仓）和动力仓（源仓），只能在描述中有&b允许使用激光仓&r的机器或发电机上使用，同样可以双仓升压（如果允许放入两个激光仓室）"
+				"相当于功率更大的能源仓（靶仓）和动力仓（源仓），只能在描述中有&e允许使用激光仓&r的机器或发电机上使用，同样可以&b双仓升压&r（如果允许放入两个激光仓室）"
 				""
 				"普通激光仓之间需要使用普通激光线缆（无能量损耗）连接，线缆无法转弯，请使用有源变压器实现转弯激光；无线激光仓放置后会直接与无线电网互动，无需额外操作。"
 				""
@@ -861,9 +906,9 @@
 		{
 			dependencies: ["2BEF03C52636E165"]
 			description: [
-				"样板总成本身与其他仓室的关系始终为完全隔离"
+				"样板总成本身与其他仓室的关系&c始终为&r&b完全隔离"
 				""
-				"“配方已缓存”相当于锁定配方，只有当样板总成符合之前缓存的运行条件时才会让机器运行配方（包括催化剂，编程电路等环境）"
+				"“配方已缓存”相当于某种&b锁定配方&r，只有当样板总成符合之前缓存的运行条件（包括&b催化剂&r，&b编程电路&r等）时才会让机器运行配方，同时降低机器搜索配方的性能消耗"
 				""
 				"支持在同一个样板中缓存多个配方（需在专用催化剂槽的GUI中设置实际配方数量）"
 				""
@@ -871,13 +916,14 @@
 				""
 				"专用催化剂槽的GUI可以拖动（可能会有奇怪的覆盖显示问题）"
 				""
-				"样板总成默认忽视样板中的副产物，可在GUI左下角关闭"
+				"如果中键无法打开专用催化剂槽，检查中键是否绑定了其他可能冲突的功能，比如背包整理"
 				""
-				"复制工具&6不能&r复制催化剂设置；黏贴配置时请确保背包内有足够的空白样板"
+				"样板总成会强行让AE在合成时&b忽视&r样板中的&c副产物&r，可在GUI左下角关闭"
+				""
+				"复制工具&6不能&r复制催化剂设置；黏贴配置时请确保背包内有足够的&d空白样板&r"
 				""
 				"剪切工具&6可以&r搬运催化剂设置"
 			]
-			hide_dependency_lines: true
 			icon: "gtceu:me_mini_pattern_buffer"
 			icon_scale: 1.5d
 			id: "688861674CAC5315"
@@ -901,7 +947,7 @@
 				item: "gtceu:me_mini_pattern_buffer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 10.0d
 		}
 		{
@@ -935,15 +981,35 @@
 				""
 				"数据库间还可以串联（数据库可以通过靶仓获得来自其他数据库的数据）"
 				""
-				"光学数据仓室并不能被多方块结构共用"
+				"光学数据靶/源仓&c并不能&r共用"
 				""
-				"每一个仓室（光学和访问）都会持续耗能 &e1,920&r EU/t（0.9A &bMV&r）；若数据库正在被其他机器写入或读取数据，则每个仓室的耗能功率均提升至 &e30,720&r EU/t（0.9A &5EV&r)，&4如果供电不足则有部分仓室失效"
+				"有线光学仓间使用光缆传递数据，且光缆&e不能分叉&r"
+				""
+				"无线光学仓间使用&d闪存&r进行绑定"
+				""
+				"每一个仓室（光学和访问）都会持续耗能 &e1,920&r EU/t（0.9A &bMV&r）"
+				"若数据库正在被其他机器写入或读取数据，则每个仓室的耗能功率均提升至 &e30,720&r EU/t（0.9A &5EV&r)"
+				"&4如果供电不足则有部分仓室失效"
 			]
+			hide_dependent_lines: true
 			icon: "gtceu:data_bank"
 			icon_scale: 1.5d
 			id: "5F0A175D6704A8D0"
+			rewards: [
+				{
+					id: "30BB79C8EC292E07"
+					item: "gtceu:wireless_data_transmitter_hatch"
+					type: "item"
+				}
+				{
+					id: "388BB64700A5AD98"
+					item: "gtceu:wireless_data_receiver_hatch"
+					type: "item"
+				}
+			]
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "必备"
 			tasks: [
 				{
 					id: "488C1A3FC0D7CCB6"
@@ -961,14 +1027,8 @@
 					type: "item"
 				}
 				{
-					id: "6EC55BADEFB2B099"
-					item: "gtceu:wireless_data_transmitter_hatch"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "7EED6D6FA240A51E"
-					item: "gtceu:wireless_data_receiver_hatch"
+					id: "5044E6156B99035B"
+					item: "gtceu:normal_optical_pipe"
 					optional_task: true
 					type: "item"
 				}

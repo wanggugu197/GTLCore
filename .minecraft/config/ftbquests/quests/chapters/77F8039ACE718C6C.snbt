@@ -38,25 +38,44 @@
 		}
 		{
 			dependencies: ["12E605EC5CFDE71A"]
-			description: ["而水又是从哪里来的呢，现在的你需要一些水"]
+			description: [
+				"而水又是从哪里来的呢，现在的你需要一些水"
+				""
+				"在不同的群系水的产出会有差异，越湿润的群系产出越多"
+				""
+				"此外LV输出仓和MV输出仓可将产出乘以400%，下雨时再将产出乘以150%"
+			]
 			id: "4E96A08CF12D496A"
 			rewards: [{
 				id: "0EF18EDF382FF874"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			tasks: [{
-				id: "229E6CD8C1F311CF"
-				item: "gtceu:primitive_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "229E6CD8C1F311CF"
+					item: "gtceu:primitive_pump"
+					type: "item"
+				}
+				{
+					id: "032BCE4DA9E399A5"
+					item: "gtceu:pump_hatch"
+					type: "item"
+				}
+			]
 			title: "水的来源"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
-			description: ["钻石是耐烧王，推荐烧钻石"]
+			description: [
+				"钻石是耐烧王，推荐烧钻石"
+				""
+				"锅炉干烧时通入水会&4爆炸&r"
+				""
+				"液体燃料锅炉以熔岩作为燃料；太阳能锅炉在白天自然升温，在夜晚/被遮挡时温度会下降"
+			]
 			id: "4BFC342697BDE75A"
 			rewards: [{
 				count: 64
@@ -84,11 +103,13 @@
 			can_repeat: true
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
-				"记得在使用时用扳手蹲下右键锁定流向"
+				"记得在使用时用扳手蹲下右键锁定流向（副手不要有东西）"
 				""
 				"还可以用于合成更大的管道，当作一个大号储罐"
 				""
 				"如果你不想被蒸汽或者其他热流体烫，可以给管道套上框架（用杆做的那些方块）"
+				""
+				"你可以在gtlcore的配置文件中修改时空管道的容量大小"
 			]
 			icon: "gtceu:spacetime_tiny_fluid_pipe"
 			id: "781417A4FA36101D"
@@ -111,7 +132,8 @@
 			dependencies: ["36A49197309D1F09"]
 			description: [
 				"你可以开始炼钢了"
-				"推荐尽快做&5超维度等泥土锻炉&r"
+				""
+				"你也可以直接做&5超维度等泥土锻炉&r"
 			]
 			icon: "gtceu:primitive_blast_furnace"
 			icon_scale: 2.0d
@@ -281,11 +303,12 @@
 		{
 			dependencies: ["00579BDA1FA1BEC6"]
 			description: [
-				"{ \"text\": \"远古世界有一些有用的矿\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FFD20E53A9DF62A\" } }"
+				"{ \"text\": \"远古世界有一些有用的矿\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3FFD20E53A9DF62A\" } }"
 				""
-				"如果JEI中显示配方右下角有个代表维度的方块，意思是这个配方只能在对应维度制作"
+				"如果JEI中配方右下角有个名字是某某维度的方块，意思是这个配方&b只能在对应维度制作&r（比如大马士革钢粉只能在远古世界做）"
 			]
 			icon: "kubejs:reactor_core"
+			icon_scale: 2.0d
 			id: "335ED39019FC62E7"
 			rewards: [
 				{
@@ -363,16 +386,22 @@
 				"关于结构：中心放核心，相邻4个方块为钢块，角落4个方块为钻石块，平放"
 				"右击核心即可前往远古世界"
 				""
-				"当你在&5EV&r做出三阶火箭后还会需要用它前往地狱"
+				"当你在&5EV&r做出三阶火箭后还会需要用它前往下界"
 			]
 			icon: "kubejs:reactor_core"
-			icon_scale: 2.0d
 			id: "00579BDA1FA1BEC6"
-			rewards: [{
-				id: "51AF08C499E8329A"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51AF08C499E8329A"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					id: "20A6866ADD102503"
+					item: "ae2:meteorite_compass"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "3C71CBD9FE0DC224"
@@ -397,7 +426,11 @@
 		}
 		{
 			dependencies: ["2B9D62FB6BF39201"]
-			description: ["它可以将三个锭锤成两个板，比手搓效率更高"]
+			description: [
+				"它可以将三个锭锤成两个板，比手搓利用率更高"
+				""
+				"{ \"text\": \"还有个叫蒸汽活塞锤的多方块机器，效率更高\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4877DB6020D6BFBC\" } }"
+			]
 			hide_dependency_lines: true
 			id: "6525C9DE2A276238"
 			rewards: [{
@@ -418,7 +451,7 @@
 				"6525C9DE2A276238"
 				"388BD32463FA905D"
 			]
-			description: ["前期钢产的很慢，要尽可能高效的利用"]
+			description: ["用锻造锤机器的利用率高一点"]
 			id: "02375F5D54E5F347"
 			rewards: [{
 				id: "1A0B2145C6BEAD5B"
@@ -490,7 +523,7 @@
 		}
 		{
 			dependencies: ["30F031CD02425ED7"]
-			description: ["这个你不能像青铜一样手动混合，你只能借助机器的力量合成"]
+			description: ["这个你不能像青铜一样手动混合，只能借助机器的力量合成"]
 			id: "3C91E284A9A03B1B"
 			rewards: [{
 				id: "08462119775B14A3"
@@ -507,6 +540,7 @@
 		}
 		{
 			dependencies: ["5C936EF307594737"]
+			description: ["研磨木头得到木浆"]
 			id: "1FAB9EF48D8D9258"
 			rewards: [{
 				count: 128
@@ -525,7 +559,7 @@
 		{
 			dependencies: ["335ED39019FC62E7"]
 			description: [
-				"魔能双生之镐潜行右键可以在时运III和精准采集之间切换"
+				"拿着魔能双生之镐潜行右键可以在时运III和精准采集之间切换"
 				"&m(你甚至可以用这个功能刷经验)&r"
 			]
 			id: "12FE2B59FA86381C"
@@ -547,6 +581,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "这比母岩高效多了"
 			tasks: [
 				{
 					id: "456D397A52A6D291"
@@ -567,7 +602,9 @@
 			dependencies: [
 				"12FE2B59FA86381C"
 				"664C46D5C12E7255"
+				"5CD26DECB937FC71"
 			]
+			description: ["自动版工作台/锻造台/切石机，不过你得做出样板才能用，现在只是作为合成材料"]
 			id: "3C071C0542CF935D"
 			rewards: [{
 				id: "4304D0C677F66D9B"
@@ -583,10 +620,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"3C071C0542CF935D"
-				"5CD26DECB937FC71"
-			]
+			dependencies: ["3C071C0542CF935D"]
 			description: ["原始人也要组装电路"]
 			icon_scale: 2.0d
 			id: "34FCFA114E75D770"
@@ -608,8 +642,10 @@
 			dependencies: ["5F5F348E3A34827E"]
 			description: [
 				"依靠它可以制作一些超强的蒸汽多方块结构"
+				""
 				"它们有着很高的并行，而且当有了不锈钢后还能超频和升压（MV）"
-				"前往多方块结构章节了解更多"
+				""
+				"{ \"text\": \"前往多方块结构章节了解更多\", \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"40405034AE9D9945\" } }"
 			]
 			hide_dependent_lines: true
 			id: "5276CA8FA5262C9B"
@@ -653,7 +689,7 @@
 			description: [
 				"可以共用"
 				""
-				"实际上除了个别机器，所有需要消声仓的多方块机器都可以使用LV消声仓"
+				"实际上除了个别机器，所有需要消声仓的多方块机器都可以使用LV消声仓，高级的消声仓并没有什么用处"
 				""
 				"消声仓即使充满了灰烬仍然不影响机器工作"
 			]
@@ -793,7 +829,7 @@
 				"34FCFA114E75D770"
 				"06285BE2396AB639"
 			]
-			description: ["非常便宜的电路，这个系列一直到EV"]
+			description: ["非常便宜的电路，这个系列一直到EV电路"]
 			icon_scale: 2.0d
 			id: "08B7D8F835DFE214"
 			size: 1.0d
@@ -828,9 +864,13 @@
 			description: [
 				"AE2是一个非常好用的自动化mod"
 				""
-				"在《AE2调整》这一章节中查看AE2的改动"
+				"在&dAE2调整&r这一章节中查看AE2的改动"
 				""
 				"指南里面是详细的AE2介绍，推荐阅读"
+				""
+				"对着AE2的物品长按G能直接查看对应的介绍说明（前提是你已经把开关饰品栏的绑定键位改掉）"
+				""
+				"不建议使用ME输入/输出总线，ME接口性能和效率更佳（格雷科技的机器都有&b自动输出&r，配合&d覆盖板&r可以&6主动抽取&rME接口内容，仓室则有&b主动输入/输出&r，且ME接口的存储空间被大幅度加强）"
 			]
 			icon: "ae2:guide"
 			id: "6E69F45AEA66D5ED"
@@ -866,9 +906,10 @@
 					type: "item"
 				}
 			]
+			subtitle: "AE2"
 			tasks: [{
 				id: "76E9DDCCC307F224"
-				title: "AE2"
+				title: "应用能源2"
 				type: "checkmark"
 			}]
 			x: 14.0d
@@ -877,11 +918,17 @@
 		{
 			dependencies: ["553B2D61416792DC"]
 			description: [
-				"大型蒸汽锅炉们经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台）"
+				"大型蒸汽锅炉们经过了史诗级加强，你可以不需要思考用蒸汽发电到HV（HV需要多堆几台，越高级的锅炉消耗燃料速度越快）"
+				""
+				"后续还有大型钢、钛、钨钢蒸汽锅炉"
 				""
 				"维护仓在前期需要手动维护"
 				""
-				"注意不要在锅炉中使用巨型输入总成，会引发&4崩溃&r"
+				"底层放置输入仓/总线/总成、维护仓、消声仓，第二到四层放置输出仓"
+				""
+				"这不是蒸汽机器，不能使用蒸汽总线"
+				""
+				"注意不要在锅炉中使用巨型输入总成，可能会引发&4崩溃&r"
 			]
 			icon_scale: 2.0d
 			id: "328D5CF265FCCCA3"
@@ -938,7 +985,9 @@
 				"请确保输入总线和输出总线空间足够锻炉运作"
 				"（&c&l不能使用蒸汽总线&r&r）"
 				""
-				"繁茂洞穴里有大量粘土"
+				"这不是蒸汽机器，&c&l不需要蒸汽输入仓"
+				""
+				"繁茂洞穴里有大量粘土；杜鹃树所在区域的下方为繁茂洞穴"
 			]
 			icon_scale: 1.3d
 			id: "0662E205D1783D31"
@@ -978,6 +1027,8 @@
 				"强力熔炉，蒸汽消耗也少"
 				""
 				"&b&l可以&r使用蒸汽总线"
+				""
+				"如果使用大型蒸汽输入仓，超频只会凭空让你的蒸汽消耗量变多，没有其他效果"
 			]
 			icon_scale: 1.3d
 			id: "0532330B52D98469"
@@ -998,7 +1049,7 @@
 		}
 		{
 			dependencies: ["5F5F348E3A34827E"]
-			description: ["蒸汽时代的熔炉"]
+			description: ["蒸汽时代的熔炉，速度实际上比普通的熔炉还慢"]
 			hide_dependency_lines: true
 			id: "10750DEB64B4BF89"
 			rewards: [{
@@ -1065,9 +1116,9 @@
 				""
 				"流体则使用输入仓和输出仓；普通的输入输出仓只能容纳&c一种流体&r；普通输出仓以及LV巨型输出仓可以通过标记从上到下第二个槽位达到锁定流体输出的效果（从JEI拖拽、用装有流体的桶标记等）"
 				""
-				"大型的蒸汽多方块都有64的并行，并且处理速度是LV机器的2倍；非大型的蒸汽多方块为8并行"
+				"大型的蒸汽多方块都有&664&r的并行，&b可运行LV的配方&r，并且处理速度是LV机器的2倍；非大型的蒸汽多方块为&68&r并行，也&b可以运行LV配方&r"
 				""
-				"{ \"text\": \"蒸汽多方块的外壳可以到小市场购买\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
+				"{ \"text\": \"蒸汽多方块的外壳可以到小市场购买\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3E6BC2F76ED6F531\" } }"
 				""
 				"大型蒸汽多方块满并行工作时蒸汽消耗特别大，需要用时空管道或激光节点等高速流体传输手段来提供蒸汽，否则会跳蒸汽"
 			]
@@ -1121,11 +1172,11 @@
 		{
 			dependencies: ["12FE2B59FA86381C"]
 			description: [
-				"激光物流的合成都被加强了，前期可以使用这个模组来物流"
+				"激光物流的合成都被加强了（虚空64倍产出），在没AE之前可以使用这个模组来物流"
 				""
 				"用扳手潜行右键绑定节点或连接器，右键其他节点或连接器以建立连接，对着非节点或连接器方块以及空气潜行右键清除绑定"
 				""
-				"进阶激光连接器可以跨纬度连接"
+				"进阶激光连接器可以&b跨纬度连接&r"
 				""
 				"卡超频元件安装在激光卡中，最多4张；节点超频元件安装在激光节点中，最多8张"
 				""
@@ -1133,13 +1184,10 @@
 				""
 				"能量卡并不能传输EU"
 				""
-				"流体卡的基础过滤器的标记方法为装有流体的桶"
-				""
 				"Card Cloner可以快速复制黏贴卡配置（左键要复制的卡，然后右键黏贴配置；需要在激光节点的GUI中操作），卡存储器可以存储卡和超频元件"
 				""
 				"默认Shift、Crtl、Crtl+Shift可以快速调整数值配置（从左往右速度依次增加）"
 			]
-			hide_dependency_lines: true
 			icon: "laserio:laser_wrench"
 			id: "7B38A7C2643C6766"
 			optional: true
@@ -1203,9 +1251,9 @@
 		{
 			dependencies: ["2C6F506ADD78F277"]
 			description: [
-				"没有电的时候可以先用手摇曲柄供能"
+				"没有电的时候可以先用手摇曲柄供能，或者做一个谐振仓烧钻石"
 				""
-				"或者做一个谐振仓烧钻石"
+				"压印模板通过打破神秘方块获得"
 				""
 				"后面可以用&6冲压机床&r取代压印器，更加高效的制作处理器"
 			]
@@ -1233,7 +1281,13 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
-			description: ["用GT导线连接发电机和能源接收器容易把导线烧断，建议将发电机直接贴到能源接收器上"]
+			description: [
+				"能源接收器可以将EU转换为AE/FE供ME网络使用"
+				""
+				"用GT导线连接发电机和能源接收器容易把导线烧断，建议将发电机直接贴到能源接收器上"
+				""
+				"CRG只有底面可以连接ME网络，整个网络（包括通过石英纤维连接的其他网络）只能有一台"
+			]
 			icon: "ae2:drive"
 			id: "007BBB3D4E349869"
 			optional: true
@@ -1286,6 +1340,16 @@
 						id: "ae2:fluid_storage_cell_64k"
 						tag: { }
 					}
+					type: "item"
+				}
+				{
+					id: "49539E3D27493D9F"
+					item: "ae2:crystal_resonance_generator"
+					type: "item"
+				}
+				{
+					id: "07F17172D1EB66D0"
+					item: "ae2:vibration_chamber"
 					type: "item"
 				}
 			]
@@ -1403,7 +1467,7 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
-			description: ["还能用来产物质球和奇点"]
+			description: ["装上存储元件之后还能用来产物质球和奇点"]
 			id: "144AC3BC2AA25E63"
 			optional: true
 			rewards: [{
@@ -1423,7 +1487,7 @@
 		{
 			dependencies: ["08B7D8F835DFE214"]
 			description: [
-				"{ \"text\": \"具体用法见<覆盖板>任务\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"
+				"{ \"text\": \"具体用法见<覆盖板>任务\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3A726EDBF7AC5E5B\" } }"
 				""
 				"搭配ME接口可以达到惊人的传输效率"
 			]
@@ -1455,7 +1519,7 @@
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
 			description: [
-				"较为便捷的EU传输方式"
+				"较为便捷的EU传输方式（它可不会自适应调整电压！）"
 				""
 				"用有电量存储的GT工具调谐ME P2P通道获得"
 				""
@@ -1492,7 +1556,7 @@
 			description: [
 				"还可以用冲压机床复制"
 				""
-				"在编写样板时，模具和模头默认不会被写入样板"
+				"在编写样板时，模具和模头默认&d不会被写入样板&r"
 			]
 			icon: "gtceu:credit_casting_mold"
 			id: "7AAC7AB5F406C812"

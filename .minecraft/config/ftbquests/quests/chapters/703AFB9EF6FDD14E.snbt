@@ -4,7 +4,7 @@
 	filename: "703AFB9EF6FDD14E"
 	group: "24F4987B35ABEE82"
 	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
+	hide_quest_until_deps_complete: true
 	icon: "gtlcore:miracle_crystal"
 	id: "703AFB9EF6FDD14E"
 	order_index: 7
@@ -59,7 +59,7 @@
 			description: [
 				"太阳能板只在主世界工作"
 				""
-				"碎片世界采集器的工作电压为&8&lULV&r"
+				"碎片世界采集器的工作电压为&7&lULV&r，意味着如果不用太阳能板供电还需要用&6变压器&r将电流降压到ULV"
 				""
 				"注意碎片世界采集器的自带流体输出空间为&b&l32B&r，单次流体产量若大于此数值机器将不会工作"
 			]
@@ -75,12 +75,6 @@
 				{
 					id: "0C673F89F25E302D"
 					item: "gtceu:ulv_solar_panel"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "154C7C62524935E2"
-					item: "minecraft:golden_carrot"
 					type: "item"
 				}
 			]
@@ -306,7 +300,7 @@
 			description: [
 				"不用去空间站了"
 				""
-				"多方块结构的重力判定只取决于主机位置"
+				"多方块结构的重力判定只取决于主机位置&m（所以正好放得下大型培养缸）&r"
 			]
 			hide_until_deps_visible: false
 			icon: {
@@ -361,12 +355,13 @@
 				item: "gtlcore:miracle_crystal"
 				type: "item"
 			}]
+			title: "奇迹结晶"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5F403C7AE4B5486C"]
-			description: ["{ \"text\": \"创造维度\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1416EAE88C9030C8\" } }"]
+			description: ["{ \"text\": \"创造维度\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"1416EAE88C9030C8\" } }"]
 			hide_until_deps_visible: false
 			icon: "minecraft:bedrock"
 			id: "14E8D6FF37930A06"
@@ -430,36 +425,8 @@
 				title: "树苗大礼包"
 				type: "checkmark"
 			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0F4AFDE98CEA87B1"]
-			description: [
-				"如果你想开一个空岛版的服务器"
-				"你需要修改"
-				""
-				"config/gtlcore.yaml里面"
-				"enableSkyBlokeMode改成true"
-				""
-				"server.properties里面的"
-				"level-type改成skyblockbuilder\\:skyblock"
-				""
-				"而且我建议你查看skyblock builder的wiki"
-				"wiki.chaotictrials.de/docs/wiki/skyblock-builder/"
-				"以了解相关指令"
-			]
-			icon: "minecraft:command_block"
-			id: "312C7E81F1B9880D"
-			optional: true
-			tasks: [{
-				id: "05C535F1D6443E3B"
-				title: "有关内容"
-				type: "checkmark"
-			}]
-			title: "如何开服"
-			x: -1.5d
-			y: 3.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0F4AFDE98CEA87B1"]
@@ -502,6 +469,31 @@
 			]
 			title: "五种钻头"
 			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F4AFDE98CEA87B1"]
+			description: [
+				"藤蔓会在长出来的橡树、巨型丛林木、红树上生成"
+				""
+				"开局的那块地有草方块，如果没了可以去超平坦挖"
+				""
+				"下界和主世界类似，除了下界要塞全是虚空，其他维度的地形仍然正常生成&m并不像一开始的任务里面说的一样"
+				"&r"
+				"西瓜/南瓜/甜菜种子、仙人掌从流浪商人处获取&m也可以到小市场买&r"
+				""
+				"牛会在草方块上面刷新，也可以在一号电路实体模式的屠宰场里面找到&m去霜原星找霜原羊也行&r"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:nan_certificate"
+			id: "04FD30292CFC4889"
+			optional: true
+			tasks: [{
+				id: "71526259CED898FC"
+				type: "checkmark"
+			}]
+			title: "其他的小提示"
+			x: 6.0d
 			y: 1.5d
 		}
 	]

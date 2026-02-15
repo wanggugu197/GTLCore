@@ -17,7 +17,6 @@
 	quests: [
 		{
 			dependencies: ["48925ECBCC5D268D"]
-			description: ["借助了命令方块的力量"]
 			icon: {
 				Count: 1
 				id: "kubejs:magnetohydrodynamicallyconstrainedstarmatter_chestplate"
@@ -26,6 +25,7 @@
 				}
 			}
 			id: "67A81E3F7E247521"
+			subtitle: "借助了命令方块的力量"
 			tasks: [
 				{
 					id: "15D75BB0BB713D68"
@@ -79,27 +79,33 @@
 		{
 			dependencies: ["67A81E3F7E247521"]
 			description: [
-				"穿戴星体套进入正常工作的创造之门以进入创造维度"
+				"穿戴&d星体套&r进入&6正常工作的创造之门&r中的&b紫色粒子团&r以进入创造维度"
 				""
-				"若在创造维度脱下星体套，你会死；穿戴无尽套传送进入创造维度，你会被踢出创造维度"
+				"若在创造维度脱下星体套或不穿星体套直接传送进入创造维度，你会先被踢出创造维度然后受到一次来自/kill的即死伤害"
 			]
 			id: "1416EAE88C9030C8"
 			subtitle: "未知之地"
 			tasks: [{
 				dimension: "kubejs:create"
 				id: "533527A60F7C2024"
+				title: "访问创造维度"
 				type: "dimension"
 			}]
-			title: "访问创造维度"
+			title: "前往创造维度"
 			x: 7.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["296DE95F3BE7DC54"]
-			description: ["交易获得的物品，但不知道如何使用"]
+			description: [
+				"把蓝框岩浆块扔进正常工作的创造之门的粒子效果里转换获得"
+				""
+				"磁物质块则是扔64个磁物质锭&m虽然磁物质块没啥用&r"
+			]
 			icon_scale: 2.0d
 			id: "470DDCCD8E017A4F"
 			shape: "rsquare"
+			subtitle: "交易获得的物品，但不知道如何使用"
 			tasks: [{
 				id: "6C1581BB60019E84"
 				item: "minecraft:command_block"
@@ -110,8 +116,8 @@
 		}
 		{
 			dependencies: ["2C3C46AC660CC54E"]
-			description: ["包含多维空间的所有能量"]
 			id: "5AFEAD001EDA612D"
+			subtitle: "包含多维空间的所有能量"
 			tasks: [{
 				id: "318A4B7F9925680F"
 				item: "kubejs:create_ultimate_battery"
@@ -126,8 +132,8 @@
 				"38FFB6D2003C7EB4"
 				"4CF8E0618D65DD65"
 			]
-			description: ["二维展开"]
 			id: "1EB9F1815EB656B0"
+			subtitle: "二维展开"
 			tasks: [{
 				id: "453883277EF4A1B6"
 				item: "kubejs:two_way_foil"
@@ -141,8 +147,9 @@
 				"470DDCCD8E017A4F"
 				"1EB9F1815EB656B0"
 			]
-			description: ["打破命令方块后获得的物品"]
+			description: ["合成材料里还有&b二向箔&r"]
 			id: "48925ECBCC5D268D"
+			subtitle: "打破命令方块后获得的物品"
 			tasks: [{
 				id: "3DFC2C88970DA844"
 				item: "kubejs:command_block_core"
@@ -154,12 +161,13 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
-				"你可以放下和打破命令方块了，但还是不知道如何使用"
+				"主手手持命令权杖，副手手持命令方块可以将命令方块放置在创造稳定核心上"
 				""
-				"命令方块只能放置在稳定核心上方"
+				"手持命令权杖潜行右键来打破命令方块"
 			]
 			hide_dependent_lines: true
 			id: "34DB07A64CD1439C"
+			subtitle: "你可以放下和打破命令方块了，但还是不知道如何使用"
 			tasks: [{
 				id: "7BD60E6DCA58004A"
 				item: "kubejs:command_wand"
@@ -170,8 +178,8 @@
 		}
 		{
 			dependencies: ["48925ECBCC5D268D"]
-			description: ["有点慢"]
 			id: "338F629A694C7556"
+			subtitle: "有点慢"
 			tasks: [{
 				id: "16C8AA0E8A7E6784"
 				item: "gtlcore:create_casing"
@@ -184,11 +192,12 @@
 			dependencies: [
 				"338F629A694C7556"
 				"5AFEAD001EDA612D"
+				"65C38365E20B7F16"
 			]
-			description: ["操纵引力实现聚爆"]
 			icon_scale: 2.0d
 			id: "7C4AD33299386B47"
 			shape: "rsquare"
+			subtitle: "操纵引力实现聚爆"
 			tasks: [{
 				id: "29CE180A8857179D"
 				item: "gtceu:gravitation_shockburst"
@@ -201,7 +210,6 @@
 			dependencies: ["7C4AD33299386B47"]
 			hide_dependency_lines: true
 			id: "4C37CB772835CFD0"
-			subtitle: "引力震爆"
 			tasks: [{
 				id: "3456609519072452"
 				item: "kubejs:command_block_broken"
@@ -218,6 +226,8 @@
 				"如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"
 				""
 				"小提示：无线算力仓室并不能跨维度传输算力"
+				""
+				"&m不会有人到现在都不知道分子装配室可以运行锻造台配方吧&r"
 			]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
@@ -251,13 +261,16 @@
 			description: [
 				"耗能固定为16A MAX"
 				""
-				"有点像方块转换室，在创造聚合核心之间放置即将打破的命令方块，然后在输入总线放入命令方块核心以进行转换"
+				"需要&b用输入总线输入一号电路&r"
+				""
+				"有点像方块转换室，在&6创造稳定核心&r之间放置&b即将打破的命令方块&r，然后在&6输入总线&r放入&b命令方块核心&r以进行转换"
 				""
 				"建议先放置命令方块然后再放入核心，否则可能会吞核心"
 			]
 			icon_scale: 2.0d
 			id: "2F9392EF05DB11EF"
 			shape: "rsquare"
+			subtitle: "只能在创造维度工作"
 			tasks: [{
 				id: "7AB830407E68C7F1"
 				item: "gtceu:create_aggregation"
@@ -272,7 +285,6 @@
 				"4C37CB772835CFD0"
 				"34DB07A64CD1439C"
 			]
-			description: ["手持命令权杖潜行右键来打破"]
 			id: "2D1F2793A396B322"
 			tasks: [{
 				id: "4C7140E1B28862FE"
@@ -299,7 +311,6 @@
 				"435394EAA6536AA9"
 				"34DB07A64CD1439C"
 			]
-			description: ["手持命令权杖潜行右键来打破"]
 			id: "75CE99CD1614FB64"
 			tasks: [{
 				id: "065BE74992505A08"
@@ -325,7 +336,6 @@
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "2A19E7C6DC247B90"
-			subtitle: "需要创造电池"
 			tasks: [{
 				id: "00F2D831815D719F"
 				item: "kubejs:chaotic_energy_core"
@@ -356,13 +366,11 @@
 				"2D1F2793A396B322"
 			]
 			description: [
-				"两种创造电源都可以放入有源变压器中以让无线电网获得无穷的电力"
+				"{ \"text\": \"两种创造电源都可以放入有源变压器中以让无线电网获得无穷的电力\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
 				""
 				"还可以将创造电源放入机器中，使机器获得远超于4194304A MAX的功率，最高可达&cM&r&aA&r&9X&r&e+&r&c16&r"
 				""
-				"创造电源放置时默认选择&cM&r&aA&r&9X&r&e+&r&c16&r"
-				""
-				"创造电源并不能被多个多方块结构共用"
+				"创造电源放置时功率默认设置为&cM&r&aA&r&9X&r&e+&r&c16&r"
 			]
 			icon_scale: 2.0d
 			id: "5F145D9019C4BC48"
@@ -392,6 +400,11 @@
 			]
 			description: ["你看着它好像看到了好多个银河年前泛银河格雷科技销售部货架上的那个大胡子玩偶"]
 			id: "516498830339A0A9"
+			rewards: [{
+				id: "561786F8A1EF94F6"
+				item: "ae2:controller"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			subtitle: "附加题"
@@ -444,7 +457,6 @@
 		}
 		{
 			dependencies: ["2A29DA4239E6BA44"]
-			description: ["建议被动自动化生产"]
 			id: "4CF8E0618D65DD65"
 			tasks: [{
 				id: "043893C259EE2DA8"
@@ -453,6 +465,20 @@
 			}]
 			x: -1.0d
 			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2A29DA4239E6BA44"
+				"06795792E774476F"
+			]
+			id: "65C38365E20B7F16"
+			tasks: [{
+				id: "36E49D10C86129A3"
+				item: "kubejs:black_body_naquadria_supersolid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
 		}
 	]
 	subtitle: ["Tier14-MAX"]

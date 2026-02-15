@@ -6,37 +6,18 @@
 	icon: "gtceu:uiv_electric_motor"
 	id: "2FBFEED9D83F24B7"
 	order_index: 11
-	quest_links: [
-		{
-			id: "57F5245E6B9E7B6C"
-			linked_quest: "6BB5ED6ECC43E30C"
-			shape: "gear"
-			size: 2.0d
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			id: "0C02C35740EA130C"
-			linked_quest: "78C6AB89612D047E"
-			shape: "gear"
-			size: 2.0d
-			x: 0.0d
-			y: 5.0d
-		}
-		{
-			id: "280E148ED9CAD4AC"
-			linked_quest: "23B418803D455368"
-			shape: "gear"
-			size: 2.0d
-			x: -2.0d
-			y: -2.0d
-		}
-	]
+	quest_links: [{
+		id: "57F5245E6B9E7B6C"
+		linked_quest: "6BB5ED6ECC43E30C"
+		shape: "gear"
+		size: 2.0d
+		x: -4.0d
+		y: 8.0d
+	}]
 	quests: [
 		{
 			dependencies: [
 				"39F73A63746EE6E8"
-				"78C6AB89612D047E"
 				"1C4D5D7786F64485"
 			]
 			description: ["最多能装载16个能源仓，还拥有无损超频"]
@@ -50,7 +31,7 @@
 				item: "gtceu:mass_fabricator"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -71,8 +52,8 @@
 		}
 		{
 			dependencies: [
-				"197ED8AA3CDFD841"
 				"76B16D5AEF5AE346"
+				"6640D51725374A8F"
 			]
 			icon_scale: 2.0d
 			id: "1F1FCB0CA5696FF1"
@@ -82,8 +63,8 @@
 				item: "kubejs:leptonic_charge"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: -4.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -131,9 +112,13 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3569AD043F42762A"]
+			dependencies: [
+				"3569AD043F42762A"
+				"3F242A785D049ADC"
+			]
 			icon_scale: 2.0d
 			id: "37C0845F870CC835"
+			subtitle: "做完这个就可以把激光蚀刻工厂拆了"
 			tasks: [{
 				id: "57129B74F6D1DE2E"
 				item: "kubejs:cosmic_computer"
@@ -167,54 +152,50 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["6640D51725374A8F"]
-			icon: "gtceu:free_electron_gas_bucket"
-			id: "197ED8AA3CDFD841"
-			tasks: [{
-				id: "7E408640B131D687"
-				title: "自由电子气"
-				type: "checkmark"
-			}]
-			x: 2.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["67588B6F4C26CF4C"]
 			description: ["由简单粒子组成的物质，易分离"]
 			icon: "gtceu:uu_matter_bucket"
 			id: "6640D51725374A8F"
 			tasks: [{
 				id: "59F8112EDED3F87C"
-				title: "uu物质"
 				type: "checkmark"
 			}]
 			title: "UU物质"
-			x: 0.0d
-			y: 0.0d
+			x: -6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"7819969E76A18F15"
 				"0FB0AFA8DD71B19F"
 				"78C6AB89612D047E"
-				"670D8EB2CE915FD5"
+				"39F73A63746EE6E8"
 			]
 			description: [
 				"算力需求较大"
 				""
 				"最高处的&e黑钛合金框架&r上方不能有方块遮挡，否则机器不会工作"
 			]
+			icon: "gtceu:space_probe_surface_reception"
 			icon_scale: 1.3d
 			id: "74D84A4928FA0A35"
 			shape: "hexagon"
 			size: 2.0d
-			tasks: [{
-				id: "2C8FACD2B8237591"
-				item: "gtceu:space_probe_surface_reception"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 8.0d
+			subtitle: "锅盖"
+			tasks: [
+				{
+					id: "2C8FACD2B8237591"
+					item: "gtceu:space_probe_surface_reception"
+					type: "item"
+				}
+				{
+					id: "0A148F92507FD8E7"
+					item: "kubejs:space_probe_mk1"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["74D84A4928FA0A35"]
@@ -225,16 +206,16 @@
 				title: "重轻子"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
-				"1DAE3D00F91134F0"
 				"559836CC234447C0"
+				"02401278940CE1F3"
 			]
 			description: [
-				"可以代替恒星锻炉（恒星热能熔炼模式只能使用&b超级热容线圈&r）"
+				"可以代替恒星锻炉（&6恒星热能熔炼&r模式只能使用&e超级热容线圈&r，可运行该模式的&b所有配方&r）"
 				""
 				"你一定记得锻造锤右键机器主机可以静音机器的，对吧？"
 			]
@@ -256,21 +237,20 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
-			y: -2.0d
+			x: 16.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: false
 			dependencies: ["72E0B47367FD35CC"]
-			hide_dependent_lines: true
 			id: "5FFDF6751BFBD4BF"
 			tasks: [{
 				id: "196C44BA382A1EBB"
 				item: "gtceu:hassium_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -294,8 +274,8 @@
 				item: "gtceu:oganesson_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: -2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -304,17 +284,17 @@
 				"068D3872684D8A29"
 				"56B7D65D914595DF"
 			]
-			description: ["夸克物质"]
 			hide_dependent_lines: true
 			id: "6D6BE75CB79C7901"
 			size: 1.0d
+			subtitle: "夸克物质"
 			tasks: [{
 				id: "06F08AF642746072"
 				item: "gtceu:heavy_quark_degenerate_matter_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1F1FCB0CA5696FF1"]
@@ -325,11 +305,12 @@
 				title: "夸克-胶子等离子体"
 				type: "checkmark"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: -3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
+			description: ["镱-178唯一的用途是衰变成铪"]
 			icon: "gtceu:quasifissioning_plasma_bucket"
 			id: "1D7B6172DE330E6F"
 			tasks: [{
@@ -337,7 +318,7 @@
 				title: "拟裂变等离子体"
 				type: "checkmark"
 			}]
-			x: 2.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -352,7 +333,7 @@
 				item: "kubejs:cosmic_soc"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -370,31 +351,36 @@
 				item: "gtceu:dimensionally_transcendent_mixer"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 0.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["5FC4E86486278172"]
+			dependencies: [
+				"5FC4E86486278172"
+				"68FBE0346D15916B"
+				"477C3F64F4CAA009"
+				"2641CC6BC33F6A31"
+			]
 			id: "7819969E76A18F15"
 			tasks: [{
 				id: "141E9E0F2345C854"
 				item: "kubejs:scintillator"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["有点复杂"]
 			id: "5FC4E86486278172"
+			subtitle: "有点复杂"
 			tasks: [{
 				id: "54DD3B46DB85E738"
 				item: "kubejs:scintillator_crystal"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 4.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1D7B6172DE330E6F"]
@@ -404,7 +390,7 @@
 				item: "gtceu:flerovium_ingot"
 				type: "item"
 			}]
-			x: 5.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -415,8 +401,8 @@
 				item: "gtceu:titanium_50_ingot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.0d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -443,51 +429,51 @@
 				item: "kubejs:lepton_trap_crystal"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
-			description: ["要UIV级的研磨"]
+			description: ["你得用UEV能源仓"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
 				id: "57160CEA2FCA306C"
 				item: "gtceu:degenerate_rhenium_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: -4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["27A9D4E765101CB9"]
-			description: ["看起来很复杂"]
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
+			subtitle: "看起来很复杂"
 			tasks: [{
 				id: "4613BA0853F254C1"
 				title: "光聚合物溶液"
 				type: "checkmark"
 			}]
 			x: 2.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["27A9D4E765101CB9"]
-			description: ["比较复杂"]
 			id: "5450D08C31AB23EF"
+			subtitle: "比较复杂"
 			tasks: [{
 				id: "6282ECFD03A81811"
 				item: "kubejs:insulation_wire_assembly"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
-				"5FFDF6751BFBD4BF"
 				"2F82F4BCC261723A"
 				"1C4D5D7786F64485"
+				"38B80C3DD1E55532"
 			]
 			description: ["看起来很复杂"]
 			icon: "gtceu:cosmic_superconductor_bucket"
@@ -497,26 +483,39 @@
 				title: "寰宇超导液"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 7.0d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
+			description: ["还有非金属、稀有气体、贫金属、类金属、碱金属、碱土金属、锕系元素混合物"]
 			id: "02401278940CE1F3"
-			shape: "gear"
-			tasks: [{
-				id: "55C503ADD875CEBA"
-				item: "gtceu:rareearth_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "55C503ADD875CEBA"
+					item: "gtceu:rareearth_ingot"
+					type: "item"
+				}
+				{
+					id: "76B004AA5D30064F"
+					item: "gtceu:transition_ingot"
+					type: "item"
+				}
+			]
+			title: "稀土和过渡元素合金锭"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["5FFDF6751BFBD4BF"]
-			description: [""]
-			hide_dependent_lines: true
+			dependencies: [
+				"5FFDF6751BFBD4BF"
+				"579E0E5C2F043B13"
+				"56B7D65D914595DF"
+			]
+			description: ["錭錤錶锭未包含的部分"]
+			hide_dependency_lines: true
 			id: "53AF03B663577CB0"
+			subtitle: "这里的轻重只是原子序数的大小区别"
 			tasks: [
 				{
 					id: "1686AE5912E983B9"
@@ -531,73 +530,61 @@
 			]
 			title: "超重元素合金锭"
 			x: 6.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["29A581C935A339DD"]
-			id: "1DAE3D00F91134F0"
-			tasks: [{
-				id: "420F96DDEEAA3C2F"
-				item: "gtceu:transition_ingot"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["606C81F449ABCE5B"]
-			description: ["超高精度"]
 			icon: "gtceu:gamma_rays_photoresist_bucket"
 			id: "0D4ACF1CF1489C8D"
+			subtitle: "超高精度"
 			tasks: [{
 				id: "3CB6DA1C42F67095"
 				title: "γ射线光刻胶"
 				type: "checkmark"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["2F82F4BCC261723A"]
-			description: ["UXV超导体"]
+			description: [
+				"&eUXV&r超导体"
+				""
+				"你可以制作&6绝对洁净可配置维护仓&r和最高级的&d可配置重力绝对洁净维护仓&r了"
+			]
 			hide_dependent_lines: true
 			id: "559836CC234447C0"
-			size: 1.0d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "非常传奇"
 			tasks: [{
 				id: "300AEC5CB1F10137"
 				item: "gtceu:legendarium_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["用于高级晶圆切割"]
 			hide_dependent_lines: true
+			icon: "gtceu:grade_16_purified_water_bucket"
 			id: "6FE5409DB7A22427"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0392393A37789CBC"
-				table_id: 6225023274141477362L
-				type: "random"
-			}]
+			subtitle: "用于更高级的晶圆切割"
 			tasks: [{
-				id: "171F2644EC61E4C2"
-				item: "gtceu:grade_16_purified_water_bucket"
-				type: "item"
+				id: "55FFB0F929D12E7F"
+				type: "checkmark"
 			}]
 			title: "16级净化水"
-			x: 2.0d
-			y: -2.0d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: [
 				"0855401586D73395"
 				"559836CC234447C0"
 			]
-			description: ["记得优化反物质样板"]
+			description: ["记得优化反物质的样板"]
 			icon_scale: 1.3d
 			id: "515737DB7910465C"
 			shape: "hexagon"
@@ -624,7 +611,7 @@
 				item: "kubejs:space_drone_mk5"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 8.0d
 		}
 		{
@@ -634,6 +621,7 @@
 				"17F6AFC430A15CDA"
 			]
 			id: "67673D8789AC1781"
+			subtitle: "需要UXV能源仓"
 			tasks: [{
 				id: "2268BE3EB165A96B"
 				item: "kubejs:proto_matter"
@@ -646,10 +634,13 @@
 			dependencies: [
 				"4D3EB703FB712F20"
 				"559836CC234447C0"
-				"23B418803D455368"
 				"6D6BE75CB79C7901"
 			]
-			description: ["中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"]
+			description: [
+				"中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"
+				""
+				"中子漩涡的运行时间只受维护仓影响（16777216并行和2并行速度一样）"
+			]
 			icon_scale: 2.0d
 			id: "664D8255A1960E9E"
 			optional: true
@@ -660,7 +651,7 @@
 				item: "gtceu:advanced_neutron_activator"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -668,24 +659,24 @@
 				"208FB88A70036325"
 				"35C982D71C6154FA"
 				"26607B94D873E07A"
-				"23B418803D455368"
 			]
 			description: [
-				"更大，更强"
+				"培养缸的激光版本，拥有无损超频"
 				""
-				"只能使用&b除菌过滤器机械方块"
+				"只能使用&e除菌过滤器机械方块"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1840382ADB062735"
 			optional: true
 			shape: "rsquare"
+			subtitle: "更大，更强"
 			tasks: [{
 				id: "50B72C92EADBD68B"
 				item: "gtceu:huge_incubator"
 				type: "item"
 			}]
-			x: -2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -709,20 +700,54 @@
 				item: "kubejs:neutronium_sphere"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
-			dependencies: ["23B418803D455368"]
-			hide_dependent_lines: true
-			id: "31AA3CEE0C967212"
+			dependencies: [
+				"01EE0F4156F0578B"
+				"559836CC234447C0"
+				"7C796A0CDAB038C9"
+				"0855401586D73395"
+			]
+			hide_dependency_lines: true
+			id: "591D9F11000A7DD2"
+			optional: true
+			subtitle: "更快，更强"
 			tasks: [{
-				id: "2BF9417FE9A5FFC6"
-				item: "gtceu:uiv_energy_input_hatch"
+				id: "345DB347B68E57F3"
+				item: "gtlcore:fast_conversion_simulate_card"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6640D51725374A8F"]
+			hide_dependent_lines: true
+			icon: "gtceu:free_alpha_gas_bucket"
+			id: "38B80C3DD1E55532"
+			tasks: [{
+				id: "730606E2ADFAB845"
+				type: "checkmark"
+			}]
+			title: "气态高密度自由α粒子气"
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"71CB57064256F904"
+				"0D4ACF1CF1489C8D"
+			]
+			id: "3F242A785D049ADC"
+			tasks: [{
+				id: "073C527BADE6DECD"
+				item: "kubejs:fm_chip"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

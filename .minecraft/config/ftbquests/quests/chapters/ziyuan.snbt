@@ -130,6 +130,7 @@
 		{
 			id: "1D273AA9A708D1F1"
 			linked_quest: "1D247D35BFB55469"
+			shape: "pentagon"
 			x: 4.5d
 			y: 17.0d
 		}
@@ -165,6 +166,27 @@
 			linked_quest: "06D1ABE453F52DF1"
 			x: 46.5d
 			y: 4.0d
+		}
+		{
+			id: "7B9EC5B4BFB7B972"
+			linked_quest: "5C12FB74BE35FBFE"
+			shape: "hexagon"
+			x: 15.5d
+			y: 10.0d
+		}
+		{
+			id: "60F651DEB4FEA7B7"
+			linked_quest: "58CCDA50B0673DB3"
+			shape: "hexagon"
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			id: "22DC5BB47426C3A4"
+			linked_quest: "4C4D21DAF791BD04"
+			shape: "hexagon"
+			x: 14.0d
+			y: 13.0d
 		}
 	]
 	quests: [
@@ -510,7 +532,7 @@
 				"703EEB941F0C745C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["把原矿和矿石塞进粉碎机狠狠粉碎"]
+			description: ["把原矿和矿石塞进研磨机狠狠粉碎"]
 			icon: "gtceu:crushed_iron_ore"
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
@@ -643,7 +665,7 @@
 			description: ["纯净矿石——锻造/研磨"]
 			icon: "gtceu:pure_iron_dust"
 			id: "79B98F942F1D8EDC"
-			subtitle: "forge:pure_dusts/*"
+			subtitle: "forge:pure_dusts"
 			tasks: [
 				{
 					id: "0ACEBC9DEDFB3044"
@@ -891,7 +913,7 @@
 			y: 4.0d
 		}
 		{
-			description: ["lv时期可选的获得石油的手段"]
+			description: ["LV时期可选的获得石油的手段，你也可以自己用桶装"]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_pump"
 			id: "6DEAA19092FBCF99"
@@ -985,6 +1007,7 @@
 			icon: "gtceu:oil_heavy_bucket"
 			icon_scale: 2.0d
 			id: "5CECDCDB3DFFDF6B"
+			subtitle: "产量很高"
 			tasks: [
 				{
 					id: "7F52AE8148CC8670"
@@ -1051,20 +1074,16 @@
 		{
 			dependencies: [
 				"7979C5ACF9A0C8D2"
-				"5CE474BD971D9A4B"
+				"1D247D35BFB55469"
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"铂处理的流程线性清晰非常好做。"
-				"你可以做全被动，也可以全靠下单。"
+				"铂系处理的流程线性清晰非常好做"
+				"你可以做全被动，全靠下单也不是不行"
 				""
-				"推荐在机器不足时选择被动+下单。"
-				"（铂系矿泥下单，"
-				"　离心矿泥到处理钌酸钠这一列四个被动，"
-				"　后面的线性流程下单）"
-				""
-				"之后推荐更换为合成卡/请求器保持数量"
 				"往后的很多产物都建议保持一定的库存数量"
+				""
+				"推荐使用合成卡/请求器/（发信器+触发总线/机器控制覆盖板）保持数量"
 				""
 				"在做出IV大机器后建议使用大机器优化产线"
 			]
@@ -1082,8 +1101,8 @@
 		}
 		{
 			dependencies: [
-				"056D5A2274001900"
 				"1D247D35BFB55469"
+				"0AE7E19DC4FD17B2"
 			]
 			description: ["铂系金属包括铂、钯、铑、钌、铱和锇。这些金属都具有良好的耐腐蚀性、高的熔点和优良的催化性能。"]
 			hide_dependent_lines: true
@@ -1105,10 +1124,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
+			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:platinum_slag_dust"
 			id: "1AEB6A36DD3F8408"
 			tasks: [
@@ -1127,32 +1143,7 @@
 			y: 18.5d
 		}
 		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			icon: "gtceu:platinum_raw_dust"
-			id: "2732380C1E0033D8"
-			tasks: [
-				{
-					id: "18E99A28034CE615"
-					item: "gtceu:platinum_raw_dust"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "22714F812E4C340E"
-					type: "checkmark"
-				}
-			]
-			x: 4.5d
-			y: 22.0d
-		}
-		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
+			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:palladium_raw_dust"
 			id: "41A9E381A0326997"
 			tasks: [
@@ -1163,21 +1154,25 @@
 					type: "item"
 				}
 				{
-					id: "2E5C954CD833BA0A"
+					id: "270B772B6433DB31"
+					item: "gtceu:platinum_raw_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47B3CDB28BCC7018"
 					type: "checkmark"
 				}
 			]
+			title: "粗钯粉和粗铂粉"
 			x: 4.5d
 			y: 21.0d
 		}
 		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
-			description: ["离心获得二氧化硅和金粉"]
+			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:platinum_sludge_residue_dust"
 			id: "4BD741311E61665C"
+			subtitle: "离心获得二氧化硅和金粉"
 			tasks: [
 				{
 					id: "17772738EAECA5DD"
@@ -1190,16 +1185,14 @@
 					type: "checkmark"
 				}
 			]
-			x: 4.5d
-			y: 20.0d
+			x: 7.5d
+			y: 22.0d
 		}
 		{
-			dependencies: [
-				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
-			]
+			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:inert_metal_mixture_dust"
 			id: "46435121E3AE44EF"
+			subtitle: "打包小撮混合物"
 			tasks: [
 				{
 					id: "077A2ADE5E3735A3"
@@ -1218,13 +1211,14 @@
 		{
 			dependencies: [
 				"01A1A06A3963D3BE"
-				"668BDF2093A9291B"
 				"5572651D3F510E1E"
+				"0EB271912D5F4761"
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:rarest_metal_mixture_dust"
 			id: "56105EBA9D073902"
 			min_required_dependencies: 2
+			subtitle: "还可以打包小撮混合物"
 			tasks: [
 				{
 					id: "4727481B8F45C4E1"
@@ -1266,12 +1260,15 @@
 					type: "checkmark"
 				}
 			]
-			title: "硫酸铑"
+			title: "硫酸铑和气态硫酸铑"
 			x: 9.0d
 			y: 18.5d
 		}
 		{
-			dependencies: ["1AEB6A36DD3F8408"]
+			dependencies: [
+				"1AEB6A36DD3F8408"
+				"2DEED122A9B447C5"
+			]
 			icon: "gtceu:leach_residue_dust"
 			id: "5572651D3F510E1E"
 			tasks: [
@@ -1293,10 +1290,13 @@
 			dependencies: [
 				"5572651D3F510E1E"
 				"46435121E3AE44EF"
+				"0EB271912D5F4761"
+				"71947B29A781480D"
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:sodium_rutheniate_dust"
 			id: "515CC449D60C6B6F"
+			min_required_dependencies: 3
 			tasks: [
 				{
 					id: "08775C688318E02F"
@@ -1313,7 +1313,10 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["56105EBA9D073902"]
+			dependencies: [
+				"56105EBA9D073902"
+				"1CD8B448677A18F1"
+			]
 			icon: "gtceu:iridium_metal_residue_dust"
 			id: "6555B785CDEA2B0D"
 			tasks: [
@@ -1332,7 +1335,10 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["56105EBA9D073902"]
+			dependencies: [
+				"56105EBA9D073902"
+				"1CD8B448677A18F1"
+			]
 			icon: "gtceu:acidic_osmium_solution_bucket"
 			id: "1E69FCB460019502"
 			tasks: [
@@ -1393,9 +1399,9 @@
 		}
 		{
 			dependencies: ["1E69FCB460019502"]
-			description: ["记得留几个，这还是后续化工的催化剂"]
 			icon: "gtceu:osmium_tetroxide_dust"
 			id: "7B57E5FA2FD62C15"
+			subtitle: "记得留几个，这东西还是后续化工的催化剂"
 			tasks: [
 				{
 					id: "630A0AD9877F9200"
@@ -1491,7 +1497,10 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["737542A27F32418F"]
+			dependencies: [
+				"737542A27F32418F"
+				"71947B29A781480D"
+			]
 			icon: "gtceu:rhodium_nitrate_dust"
 			id: "1745E379DAEA5EE0"
 			tasks: [
@@ -1568,11 +1577,15 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["18FB4DDA55B7D430"]
+			dependencies: [
+				"18FB4DDA55B7D430"
+				"1CD8B448677A18F1"
+			]
 			icon: "gtceu:rhodium_dust"
 			icon_scale: 2.0d
 			id: "51AA4887F2DC9747"
 			shape: "diamond"
+			subtitle: "这步会产出氯化铵"
 			tasks: [
 				{
 					id: "1530C7BBA1C03A74"
@@ -1591,9 +1604,8 @@
 		{
 			dependencies: [
 				"41A9E381A0326997"
-				"2732380C1E0033D8"
+				"043EF736C9E6B3FB"
 			]
-			description: ["这里主要是为了回收原料"]
 			icon: "gtceu:platinum_dust"
 			id: "2CD7D8B5F38A50F5"
 			tasks: [
@@ -1698,7 +1710,10 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["6458E7BCD8D06C86"]
+			dependencies: [
+				"6458E7BCD8D06C86"
+				"1CD8B448677A18F1"
+			]
 			icon: "gtceu:ruthenium_dust"
 			icon_scale: 2.0d
 			id: "20D5748D17E2C06D"
@@ -1719,7 +1734,10 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["544D94653B07DABF"]
+			dependencies: [
+				"544D94653B07DABF"
+				"1CD8B448677A18F1"
+			]
 			icon: "gtceu:acidic_iridium_bucket"
 			id: "353CE5B960B508FE"
 			tasks: [
@@ -1739,7 +1757,10 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["353CE5B960B508FE"]
+			dependencies: [
+				"353CE5B960B508FE"
+				"69CC17C74F449A2C"
+			]
 			icon: "gtceu:iridium_chloride_dust"
 			id: "6BA527FE4D528D54"
 			tasks: [
@@ -1759,7 +1780,7 @@
 		}
 		{
 			dependencies: ["1E4CFA4ED7E43E80"]
-			description: ["核废料也会产出铀-238"]
+			description: ["核废料和红花岗岩也会产出铀-238"]
 			icon: "gtceu:uranium_dust"
 			icon_scale: 2.0d
 			id: "5268CBA4AB789BDA"
@@ -1799,7 +1820,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "UIV会用到"
+			subtitle: "UIV还会用到"
 			tasks: [
 				{
 					id: "54393C32AFFEA91A"
@@ -1899,6 +1920,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "607557054EA9B26D"
@@ -2007,6 +2029,7 @@
 			dependencies: ["0931ECBAAD9252C7"]
 			icon: "gtceu:thorium_dust"
 			id: "2A3874F7C50BAF1A"
+			shape: "pentagon"
 			subtitle: "便宜的好东西"
 			tasks: [
 				{
@@ -2027,6 +2050,7 @@
 			dependencies: ["0931ECBAAD9252C7"]
 			icon: "gtceu:plutonium_dust"
 			id: "6B8E242FD397D8B4"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "2FAE33BFA7591208"
@@ -2081,7 +2105,13 @@
 					type: "item"
 				}
 				{
-					id: "21A31D5C025FEEB8"
+					id: "03A7E9B12814A672"
+					item: "gtceu:tiny_protactinium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3B17C1C3951513EE"
 					type: "checkmark"
 				}
 			]
@@ -2090,7 +2120,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["一直到元素复制机都只能用核废料产出镎&n粉&r"]
+			description: ["一直到元素复制机都只能用核废料产出镎&6粉&r"]
 			icon: "gtceu:neptunium_dust"
 			icon_scale: 2.0d
 			id: "37B172AA6C7DD6BB"
@@ -2103,7 +2133,13 @@
 					type: "item"
 				}
 				{
-					id: "1BBB4815EA42566D"
+					id: "03738B47C1F42507"
+					item: "gtceu:tiny_neptunium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6357F3726E1E7BBE"
 					type: "checkmark"
 				}
 			]
@@ -2118,6 +2154,7 @@
 			icon_scale: 2.0d
 			id: "7B412E455E2C321B"
 			shape: "diamond"
+			subtitle: "看小搓粉的配方"
 			tasks: [
 				{
 					id: "146DB1101ED83C52"
@@ -2126,7 +2163,13 @@
 					type: "item"
 				}
 				{
-					id: "0EA4310C1CA5753E"
+					id: "5ACA28B5072596B3"
+					item: "gtceu:tiny_polonium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10D655A0584F254F"
 					type: "checkmark"
 				}
 			]
@@ -2138,7 +2181,7 @@
 			description: [
 				"现在先通过铟富集溶液获取"
 				""
-				"{ \"text\": \"后面可以在富集硅岩处理的过程中获得\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
+				"{ \"text\": \"后面可以在富集硅岩处理的过程中获得\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2163,6 +2206,7 @@
 		{
 			icon: "gtceu:indium_concentrate_bucket"
 			id: "150F3113E9012C2F"
+			shape: "pentagon"
 			subtitle: "土法制铟"
 			tasks: [
 				{
@@ -2199,10 +2243,10 @@
 				"0611E972C84FDC4B"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			hide_dependency_lines: true
 			icon: "gtceu:rare_earth_dust"
 			id: "6B71EE1A869ABCD5"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3473829E14B4727F"
@@ -2274,7 +2318,6 @@
 		}
 		{
 			dependencies: ["5465659AD5EEE7E3"]
-			description: [""]
 			icon: "gtceu:hv_item_magnet"
 			id: "0E6B85A8E9CE4CA6"
 			tasks: [
@@ -2315,10 +2358,11 @@
 		{
 			dependencies: ["0E6B85A8E9CE4CA6"]
 			description: [
-				"ⅢB族的21号钪 39号钇 "
-				"                镧系除了61号钷的十四种元素"
+				"这里有ⅢB族的21号钪 39号钇 镧系除了61号钷的十四种元素"
 				""
 				"总共16种"
+				""
+				"钷是稀土离心机才能出"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:samarium_oxide_dust"
@@ -2437,7 +2481,7 @@
 				"275854E3F1E59652"
 				"4059A907154E2865"
 			]
-			description: ["{ \"text\": \"有了无人机MKIV就能挖了\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"670D8EB2CE915FD5\" } }"]
+			description: ["{ \"text\": \"有了无人机MKIV就能挖了\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"670D8EB2CE915FD5\" } }"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "7570243EDE6F35B1"
 			subtitle: "后期还能直接挖"
@@ -2459,7 +2503,7 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			dependency_requirement: "one_completed"
-			description: ["这个时候纳米树脂萃取线也会产出钷粉"]
+			description: ["{ \"text\": \"这个时候纳米树脂萃取线也会产出钷粉\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DFAC3212692136\" } }"]
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
@@ -2484,7 +2528,7 @@
 				"7979C5ACF9A0C8D2"
 				"29D4D49428BF7FF4"
 			]
-			description: [""]
+			description: ["会用到硝酸、盐酸、氢氟酸……"]
 			hide_dependent_lines: true
 			id: "1223D839C224777B"
 			subtitle: "超大份镧系处理"
@@ -2499,21 +2543,22 @@
 		{
 			dependencies: ["01A1A06A3963D3BE"]
 			id: "46031C6722259C54"
-			subtitle: "硫酸钾，氯化钙，稀盐酸......"
+			subtitle: "盐，硫酸钾，一氧化碳，氯化钙，稀盐酸"
 			tasks: [{
 				id: "2EBFC43E7D201657"
 				title: "回收"
 				type: "checkmark"
 			}]
 			title: "回收那些无用的副产物"
-			x: 7.5d
+			x: 13.0d
 			y: 17.0d
 		}
 		{
 			dependencies: ["36E8964CD1BE7569"]
-			description: [""]
 			icon: "gtceu:indium_phosphide_dust"
+			icon_scale: 2.0d
 			id: "1534BC8521461BC8"
+			shape: "diamond"
 			subtitle: "获取铟的另一种途径"
 			tasks: [
 				{
@@ -2533,6 +2578,8 @@
 		{
 			icon: "gtceu:samarium_refined_powder_dust"
 			id: "2ED005FB3DC2EAB2"
+			shape: "pentagon"
+			subtitle: "钕的副产"
 			tasks: [
 				{
 					id: "772489A2AC0DA9B6"
@@ -2553,6 +2600,7 @@
 			description: ["也可以试试把独居石粉放到提取机里面"]
 			icon: "gtceu:monazite_dust"
 			id: "71C977A601F879AE"
+			shape: "pentagon"
 			subtitle: "群居石"
 			tasks: [
 				{
@@ -2579,6 +2627,7 @@
 			dependencies: ["00AA7D62FCE4B40E"]
 			icon: "gtceu:bastnasite_dust"
 			id: "4F220FB82AB77225"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4DECA124A915D0BB"
@@ -2595,10 +2644,13 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["71C977A601F879AE"]
-			description: ["立刻回收小部分独居石"]
+			dependencies: [
+				"71C977A601F879AE"
+				"3DE17F205E0FFCD2"
+			]
 			icon: "gtceu:monazite_rare_earth_turbid_liquid_bucket"
 			id: "218DF03160595A6F"
+			subtitle: "立刻回收小部分独居石"
 			tasks: [
 				{
 					id: "0F421B066A2BAB87"
@@ -2675,7 +2727,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["66B8CE1489E1332F"]
+			dependencies: [
+				"14C20FE222033E2D"
+				"1CC46F9D14AB0C07"
+			]
 			icon: "gtceu:acidic_monazite_powder_dust"
 			id: "37462EF914F322CF"
 			tasks: [
@@ -2734,8 +2789,7 @@
 		{
 			can_repeat: false
 			dependencies: ["6C248CBD3C3C6A60"]
-			dependency_requirement: "one_completed"
-			description: [""]
+			description: ["也可以从钐精粉处获得"]
 			icon: "gtceu:thorium_phosphate_refined_powder_dust"
 			id: "7ACA4ED39A1119FD"
 			subtitle: "回收独居石"
@@ -2755,7 +2809,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["7878B1E4C001D370"]
+			dependencies: [
+				"7878B1E4C001D370"
+				"1CC46F9D14AB0C07"
+			]
 			icon: "gtceu:neutralized_monazite_rare_earth_filter_residue_powder_dust"
 			id: "598FA5C3B7B70FB4"
 			tasks: [
@@ -2793,8 +2850,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["464EEB44F0B7A22D"]
-			description: [""]
+			dependencies: [
+				"464EEB44F0B7A22D"
+				"3826D52A9D851E44"
+			]
 			hide_dependent_lines: true
 			icon: "gtceu:neutralized_uranium_filter_residue_powder_dust"
 			id: "05496BBB8ABFAA30"
@@ -2853,7 +2912,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["526199E216862B1C"]
+			dependencies: [
+				"526199E216862B1C"
+				"3DE17F205E0FFCD2"
+			]
 			icon: "gtceu:concentrated_nitride_monazite_rare_earth_solution_bucket"
 			id: "455D715BC4934CBB"
 			tasks: [
@@ -2920,6 +2982,7 @@
 			dependencies: ["2FD681A788D189E9"]
 			icon: "gtceu:cerium_chloride_powder_dust"
 			id: "00F19A725DCE5F96"
+			subtitle: "还能获得独居石粉"
 			tasks: [
 				{
 					id: "1E25AAE13565A29B"
@@ -3056,11 +3119,12 @@
 			dependencies: [
 				"487650F662F3A466"
 				"2ED005FB3DC2EAB2"
+				"22AEE3F4F698D455"
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:saturated_monazite_rare_earth_powder_dust"
 			id: "317B25B778FAF317"
-			min_required_dependencies: 1
+			min_required_dependencies: 2
 			subtitle: "产出稀土"
 			tasks: [
 				{
@@ -3110,7 +3174,6 @@
 				"4A86402C581ABB27"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			icon: "gtceu:samarium_dust"
 			icon_scale: 2.0d
 			id: "2EB12E9509B5DEC0"
@@ -3302,8 +3365,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 32.0d
-			y: 8.0d
+			x: 31.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6C8E955523139E76"]
@@ -3325,7 +3388,10 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["14E622727B18979E"]
+			dependencies: [
+				"14E622727B18979E"
+				"4AE8888208F4FDE9"
+			]
 			icon: "gtceu:samarium_oxalate_with_impurities_dust"
 			id: "5FD14B43657801F6"
 			tasks: [
@@ -3345,6 +3411,7 @@
 		}
 		{
 			dependencies: ["14E622727B18979E"]
+			hide_dependent_lines: true
 			icon: "gtceu:phosphorus_free_samarium_concentrate_powder_dust"
 			id: "528C6451188B2D1B"
 			tasks: [
@@ -3360,7 +3427,7 @@
 				}
 			]
 			x: 32.0d
-			y: 6.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5FD14B43657801F6"]
@@ -3444,6 +3511,7 @@
 			dependencies: ["00E4396DF297B6A3"]
 			icon: "gtceu:lanthanum_chloride_with_impurities_dust"
 			id: "14986844B71C83AC"
+			subtitle: "需要镧粉"
 			tasks: [
 				{
 					id: "15463A7478CDAE4E"
@@ -3479,7 +3547,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4F220FB82AB77225"]
+			dependencies: [
+				"4F220FB82AB77225"
+				"3DE17F205E0FFCD2"
+			]
 			icon: "gtceu:fluoro_carbon_lanthanide_cerium_solution_bucket"
 			id: "355FF18BC5AECBBF"
 			tasks: [
@@ -3519,7 +3590,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["3967DE6E4384B756"]
+			dependencies: [
+				"3967DE6E4384B756"
+				"3DE17F205E0FFCD2"
+			]
 			icon: "gtceu:modulated_fluoro_carbon_lanthanide_slurry_bucket"
 			id: "7FD4EA18599A4C80"
 			tasks: [
@@ -3598,7 +3672,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["3678A2BA0642E20A"]
+			dependencies: [
+				"3678A2BA0642E20A"
+				"115A8F4A3FF514D8"
+			]
 			icon: "gtceu:acid_leached_fluoro_carbon_lanthanide_cerium_oxide_powder_dust"
 			id: "5E6604859810EBE0"
 			tasks: [
@@ -3718,7 +3795,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["08E7A6B4ED806D15"]
+			dependencies: [
+				"08E7A6B4ED806D15"
+				"3DE17F205E0FFCD2"
+			]
 			icon: "gtceu:nitrided_fluoro_carbon_lanthanide_cerium_rare_earth_oxide_solution_bucket"
 			id: "53C9C8F22787FFA2"
 			tasks: [
@@ -3738,9 +3818,13 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["53C9C8F22787FFA2"]
+			dependencies: [
+				"53C9C8F22787FFA2"
+				"22AEE3F4F698D455"
+			]
 			icon: "gtceu:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
 			id: "15A2F5EFFBB91EDA"
+			subtitle: "处理这个液体的时候可以回收部分丙酮"
 			tasks: [
 				{
 					id: "7A625C923290EEA2"
@@ -3778,7 +3862,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["0611E972C84FDC4B"]
+			dependencies: [
+				"0611E972C84FDC4B"
+				"3826D52A9D851E44"
+			]
 			icon: "gtceu:fluorinated_samarium_concentrate_powder_dust"
 			id: "28A615DDEAC65561"
 			tasks: [
@@ -3844,7 +3931,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["0B6DC857BE87B7FC"]
+			dependencies: [
+				"0B6DC857BE87B7FC"
+				"1DBD35BB3019EC43"
+			]
 			icon: "gtceu:nitrided_samarium_terbium_mixture_powder_dust"
 			id: "40DFCE8427D1A982"
 			tasks: [
@@ -3882,9 +3972,13 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["00F19A725DCE5F96"]
+			dependencies: [
+				"00F19A725DCE5F96"
+				"4AE8888208F4FDE9"
+			]
 			icon: "gtceu:cerium_oxalate_powder_dust"
 			id: "0BCC84DA8DE39FC9"
+			shape: "circle"
 			tasks: [
 				{
 					id: "1ADC076FBB11A49A"
@@ -3995,7 +4089,7 @@
 			id: "45B6AB3615FF2228"
 			tasks: [{
 				id: "435E547C20569366"
-				title: "17个纳米萃取树脂"
+				title: "17种纳米萃取树脂"
 				type: "checkmark"
 			}]
 			x: 30.0d
@@ -4006,7 +4100,7 @@
 			id: "5FE4742B6A5FFABA"
 			tasks: [{
 				id: "5A310F6717B18752"
-				title: "17个溢满的纳米萃取树脂"
+				title: "17种溢满的纳米萃取树脂"
 				type: "checkmark"
 			}]
 			x: 34.0d
@@ -4043,7 +4137,7 @@
 				"木炭副产："
 				"木炭粉，杂酚油，"
 				"苯，甲苯，苯酚，二甲苯，"
-				"甲醇，乙醇，乙酸，甲酸甲酯，"
+				"甲醇，乙醇，乙酸，乙酸甲酯，"
 				"丙酮，二氧化碳，一氧化碳，甲烷，乙烯"
 				""
 				"其他的东西："
@@ -4076,6 +4170,7 @@
 			dependencies: ["5FDD8771824E57CF"]
 			icon: "gtceu:raw_naquadah"
 			id: "5D1037E8365CC910"
+			shape: "pentagon"
 			subtitle: "开挖"
 			tasks: [
 				{
@@ -4137,9 +4232,9 @@
 				"7A7C73D046390488"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			icon: "gtceu:enriched_naquadah_ore"
 			id: "0255D733668E3BF7"
+			shape: "pentagon"
 			subtitle: "虚空采矿或者太空采矿"
 			tasks: [
 				{
@@ -4168,10 +4263,15 @@
 				"7A7C73D046390488"
 			]
 			dependency_requirement: "one_completed"
-			description: ["{ \"text\": \"长长的产线\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E926F9B91EECD78\" } }"]
+			description: [
+				"{ \"text\": \"长长的产线\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E926F9B91EECD78\" } }"
+				""
+				"当你有UEV能源仓之后可以直接电解获得凯金粉"
+			]
 			hide_dependent_lines: true
 			icon: "gtceu:trinium_compound_ore"
 			id: "67ECDD5601DBBB5B"
+			shape: "pentagon"
 			subtitle: "虚空采矿或者太空采矿"
 			tasks: [
 				{
@@ -4195,7 +4295,10 @@
 			y: 24.0d
 		}
 		{
-			dependencies: ["09EBEB8F3415BB6E"]
+			dependencies: [
+				"09EBEB8F3415BB6E"
+				"55233E02B6C95444"
+			]
 			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
 			id: "3703156457BD35FD"
 			tasks: [
@@ -4292,9 +4395,9 @@
 		}
 		{
 			dependencies: ["36FB56BD8B6415D7"]
-			description: ["实际上硅岩矿石处理就会产出富集硅岩"]
 			icon: "gtceu:enriched_naquadah_sulfate_dust"
 			id: "1CD2A15A1C5B1395"
+			subtitle: "实际上处理硅岩矿石就会产出富集硅岩"
 			tasks: [
 				{
 					id: "4838581B78418606"
@@ -4308,11 +4411,10 @@
 				}
 			]
 			x: 32.0d
-			y: 22.0d
+			y: 21.0d
 		}
 		{
 			dependencies: ["36FB56BD8B6415D7"]
-			description: [""]
 			icon: "gtceu:enriched_naquadah_waste_bucket"
 			id: "3868B8E8021CC035"
 			subtitle: "可以蒸馏获得富集硅岩和超能硅岩溶液"
@@ -4330,10 +4432,13 @@
 			]
 			title: "富集硅岩废液"
 			x: 32.0d
-			y: 21.0d
+			y: 22.0d
 		}
 		{
-			dependencies: ["36E8964CD1BE7569"]
+			dependencies: [
+				"36E8964CD1BE7569"
+				"55233E02B6C95444"
+			]
 			icon: "gtceu:impure_naquadria_solution_bucket"
 			id: "2F4E165431B56059"
 			tasks: [
@@ -4477,6 +4582,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "超能硅岩溶液"
 			x: 32.0d
 			y: 23.0d
 		}
@@ -4585,6 +4691,7 @@
 			dependencies: ["76A2D869A0D5C41E"]
 			icon: "gtceu:radon_cracked_enriched_aquadah_bucket"
 			id: "40823ABFBBE43496"
+			subtitle: "要UHV电压"
 			tasks: [
 				{
 					id: "3985EEFFFEEAF1BC"
@@ -4603,6 +4710,7 @@
 		}
 		{
 			dependencies: ["40823ABFBBE43496"]
+			description: ["还有少量的超能硅岩废液产出"]
 			icon: "gtceu:enriched_naquadah_fuel_bucket"
 			id: "7248EC9288C91A33"
 			tasks: [
@@ -4622,7 +4730,10 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["09EBEB8F3415BB6E"]
+			dependencies: [
+				"09EBEB8F3415BB6E"
+				"1F017EDA47785D38"
+			]
 			icon: "gtceu:naquadah_solution_bucket"
 			id: "1EE19E725DC91553"
 			tasks: [
@@ -4645,6 +4756,7 @@
 			dependencies: ["1EE19E725DC91553"]
 			icon: "gtceu:fluorine_cracked_aquadah_bucket"
 			id: "7D1E1EB10A6FFE98"
+			subtitle: "要UV电压"
 			tasks: [
 				{
 					id: "144F9B3C76BDFECA"
@@ -4663,8 +4775,10 @@
 		}
 		{
 			dependencies: ["7D1E1EB10A6FFE98"]
+			description: ["还有少量的富集硅岩废液产出"]
 			icon: "gtceu:naquadah_fuel_bucket"
 			id: "75D953244E729FEC"
+			subtitle: "可以回收20%的硝酸铵和氟"
 			tasks: [
 				{
 					id: "5EE6707C631C948A"
@@ -4687,7 +4801,7 @@
 				"7248EC9288C91A33"
 				"14C55CE8EA930227"
 			]
-			description: ["你得到&4UHV&r才能烧这种燃料"]
+			description: ["在&4UHV&r这种燃料才会发挥作用"]
 			icon: "gtceu:hyper_fuel_1_bucket"
 			id: "0D53712AA7F733A8"
 			tasks: [
@@ -4733,9 +4847,9 @@
 				"4E3BD7980CD652A5"
 				"2588A0EF7F27DE5B"
 			]
-			description: ["制作精金的材料"]
 			icon: "gtceu:enriched_naquadah_front_bucket"
 			id: "6A5AB82C3E14D091"
+			subtitle: "制作精金的材料"
 			tasks: [
 				{
 					id: "4666200C2877EED6"
@@ -4756,7 +4870,8 @@
 			description: ["其实这里只有到UHV的部分内容"]
 			icon: "minecraft:totem_of_undying"
 			id: "430303070695D7D3"
-			size: 1.0d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "你需要自己查看JEI以知道你需要什么"
 			tasks: [{
 				id: "19CF50A809E4A437"
@@ -4768,10 +4883,10 @@
 		}
 		{
 			dependencies: ["3526A3770E9CCB1E"]
-			description: ["晶质铀矿处理"]
 			hide_dependency_lines: true
 			icon: "gtceu:uranium_sulfate_waste_solution_bucket"
 			id: "2AA1609DA42EA84F"
+			subtitle: "晶质铀矿处理"
 			tasks: [
 				{
 					id: "0C75C7BABA17EE50"
@@ -4790,7 +4905,11 @@
 		}
 		{
 			dependencies: ["2AA1609DA42EA84F"]
-			description: ["后面的凯金化合物处理也会产出镭粉"]
+			description: [
+				"看小撮镭粉的配方"
+				""
+				"后面的凯金化合物处理也会产出镭粉"
+			]
 			icon: "gtceu:radium_dust"
 			icon_scale: 2.0d
 			id: "65BA1075B4BA1C0A"
@@ -4991,6 +5110,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["{ \"text\": \"蒸发塔的搭建注意事项见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"224B850538D346D3\" } }"]
 			id: "3AB780C51F3F021A"
 			tasks: [{
 				id: "6B75C2EA75F998A8"
@@ -5016,7 +5136,6 @@
 				"5B0DC99796FE65DF"
 			]
 			dependency_requirement: "one_completed"
-			description: [""]
 			icon: "gtceu:iodine_dust"
 			icon_scale: 2.0d
 			id: "3E12F92D695A7CF8"
@@ -5039,7 +5158,7 @@
 		}
 		{
 			dependencies: ["6730821C43B619C5"]
-			description: ["{ \"text\": \"实际上可以拖到太空电梯再直接采集\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE5F8D737ADB1B8\" } }"]
+			description: ["{ \"text\": \"后面可以用太空电梯直接采集\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE5F8D737ADB1B8\" } }"]
 			icon: "gtceu:bromine_bucket"
 			icon_scale: 2.0d
 			id: "4A7883F69F6490C5"
@@ -5063,6 +5182,7 @@
 		{
 			icon: "gtceu:salt_water_bucket"
 			id: "56D717659A69161F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6F199E3192D3C2E2"
@@ -5269,7 +5389,6 @@
 		}
 		{
 			dependencies: ["4C10197D6155BC5E"]
-			description: [""]
 			icon: "gtceu:acidic_bromine_exhaust_bucket"
 			id: "2E03A7381EACF886"
 			subtitle: "和热卤水反应回收部分热氯化溴卤水"
@@ -5292,6 +5411,7 @@
 		{
 			icon: "minecraft:kelp"
 			id: "0B962E97522F005D"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "596D4F5E08513EEB"
@@ -5393,6 +5513,7 @@
 			icon_scale: 2.0d
 			id: "4440E4317E21101C"
 			shape: "diamond"
+			subtitle: "在UV会用到"
 			tasks: [
 				{
 					id: "4C27A37CC08EBE15"
@@ -5532,6 +5653,7 @@
 			dependencies: ["2BB52D1C09C418A9"]
 			icon: "minecraft:nether_wart"
 			id: "79606AABEED573B3"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3DF75B3DB8195E8E"
@@ -5550,6 +5672,7 @@
 		{
 			icon: "gtceu:ash_dust"
 			id: "01420420FB8302C8"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "027632AD5FF183C5"
@@ -5591,6 +5714,7 @@
 			icon_scale: 2.0d
 			id: "5589EA34A58E2A32"
 			shape: "diamond"
+			subtitle: "在UV会用到"
 			tasks: [
 				{
 					id: "3808BC0372BAF686"
@@ -5612,6 +5736,7 @@
 			icon_scale: 2.0d
 			id: "38128ABFF4C30595"
 			shape: "diamond"
+			subtitle: "在UV会用到"
 			tasks: [
 				{
 					id: "52A3AEC0EE82A6F0"
@@ -5630,6 +5755,7 @@
 		{
 			icon: "gtceu:zircon_dust"
 			id: "64706BF0EC96AB4F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1829CAF10CBCF11C"
@@ -5768,9 +5894,9 @@
 			y: 21.0d
 		}
 		{
-			description: ["无法回收"]
 			icon: "gtceu:hydrogen_peroxide_bucket"
 			id: "34DA1056C723BAEA"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4EF2FA9E9D22B09C"
@@ -5790,6 +5916,7 @@
 		{
 			icon: "gtceu:hematite_dust"
 			id: "68A781120A98B0FB"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "102A37BE06F86139"
@@ -5802,7 +5929,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 43.5d
+			x: 42.0d
 			y: 19.0d
 		}
 		{
@@ -5838,7 +5965,6 @@
 		}
 		{
 			dependencies: ["0989A526E0188F2A"]
-			description: [""]
 			icon: "gtceu:ammonium_perrhenate_bucket"
 			id: "094804D1F190858B"
 			subtitle: "还有别的用途"
@@ -5942,6 +6068,7 @@
 		{
 			icon: "gtceu:molybdenite_dust"
 			id: "61145DE1B3B66CB2"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "79DE2B259276B565"
@@ -5979,9 +6106,9 @@
 		}
 		{
 			dependencies: ["20AF1DB9161AF24F"]
-			description: ["用于回收氰化钠，还能提取金粉"]
 			icon: "gtceu:gold_cyanide_bucket"
 			id: "51A893594B30F3F1"
+			subtitle: "用于回收氰化钠，还能提取金粉"
 			tasks: [
 				{
 					id: "062655E09CFDD3DE"
@@ -6001,6 +6128,7 @@
 		{
 			icon: "gtceu:hydrogen_cyanide_bucket"
 			id: "36F60D47583E34F2"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "684F88403D4C3F67"
@@ -6019,7 +6147,6 @@
 		}
 		{
 			dependencies: ["2AB3893648555B8C"]
-			description: [""]
 			icon: "gtceu:molybdenum_trioxide_dust"
 			id: "23A05AC4EADC9FDA"
 			subtitle: "以后另有用处"
@@ -6041,7 +6168,8 @@
 		{
 			dependencies: ["7DB48A5766BD91E6"]
 			description: ["前者是特殊化工原料，后者用于艾萨线"]
-			icon: "gtceu:naphtha_bucket"
+			icon: "gtceu:cyclopentadiene_bucket"
+			icon_scale: 2.0d
 			id: "4402C84CF27479A9"
 			subtitle: "环戊二烯和松油"
 			tasks: [
@@ -6067,7 +6195,11 @@
 			y: 3.0d
 		}
 		{
-			description: ["氢氧化钾-钾电解循环在前期的效率高于电解水"]
+			description: [
+				"氢氧化钾-钾电解循环在前期的效率高于电解水"
+				""
+				"氢氧化钙和氢氧化钾的效率一样，氢氧化钠的效率低一点"
+			]
 			icon: "gtceu:hydrogen_bucket"
 			icon_scale: 2.0d
 			id: "6B7AA3ABF8D020B5"
@@ -6224,6 +6356,7 @@
 		{
 			icon: "gtceu:radon_difluoride_bucket"
 			id: "5ED340BDF18D3D7B"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "51404FF90E32A6B0"
@@ -6266,6 +6399,7 @@
 		{
 			icon: "gtceu:xenon_trioxide_bucket"
 			id: "43F49B949D085DF8"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "75DB68D9B7AF25C7"
@@ -6285,6 +6419,7 @@
 		{
 			icon: "gtceu:caesium_fluoride_bucket"
 			id: "0D3B890089D80412"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "63EAE6496E76B679"
@@ -6304,6 +6439,7 @@
 		{
 			icon: "gtceu:nitryl_fluoride_bucket"
 			id: "44BA755CD566EB42"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "32ED1947828CF637"
@@ -6321,8 +6457,10 @@
 			y: 25.0d
 		}
 		{
+			hide_dependent_lines: true
 			icon: "gtceu:fluoroantimonic_acid_bucket"
 			id: "55233E02B6C95444"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "458031377B26C9A7"
@@ -6336,8 +6474,8 @@
 				}
 			]
 			title: "氟锑酸"
-			x: 27.5d
-			y: 21.0d
+			x: 24.5d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -6346,6 +6484,7 @@
 			]
 			icon: "gtceu:gold_trifluoride_dust"
 			id: "05B41A85F662F218"
+			subtitle: "溴可以100%回收"
 			tasks: [
 				{
 					id: "05E92B2FD4A5CA01"
@@ -6364,6 +6503,7 @@
 		{
 			icon: "gtceu:gold_chloride_bucket"
 			id: "328058CBCC254AEC"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "51045A41FB9EC630"
@@ -6378,11 +6518,13 @@
 			]
 			title: "氯化金"
 			x: 27.5d
-			y: 22.0d
+			y: 21.0d
 		}
 		{
+			description: ["{ \"text\": \"溴的来源\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AB780C51F3F021A\" } }"]
 			icon: "gtceu:bromine_trifluoride_bucket"
 			id: "5ABE1C11479A0229"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5D18E214246697E3"
@@ -6400,8 +6542,9 @@
 			y: 22.0d
 		}
 		{
+			dependencies: ["38091E7431B96FF6"]
 			id: "40B8E6C5B9FEA5D4"
-			subtitle: "氟锑酸二氙，三氧化氡，八氟氙酸亚硝酰，硫酸钠......"
+			subtitle: "氟锑酸二氙，三氧化氡，八氟氙酸亚硝酰，硫酸钠，硫化钡......"
 			tasks: [{
 				id: "68E93738BB4FE9A1"
 				title: "回收"
@@ -6475,6 +6618,11 @@
 			]
 			icon: "gtceu:slaughterhouse"
 			id: "19D339F25E824A2C"
+			rewards: [{
+				id: "53C893D3CCD81981"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A3DC88D5B9616B4"
 				title: "屠宰场的产出"
@@ -6548,6 +6696,7 @@
 		{
 			icon: "minecraft:ancient_debris"
 			id: "792EDC834FE9BE1F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "2DE8A83396F2E97F"
@@ -6566,6 +6715,7 @@
 		{
 			icon: "minecraft:prismarine"
 			id: "1F8E29F234211EE9"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "659160B21F6AA876"
@@ -6603,6 +6753,7 @@
 		{
 			icon: "gtceu:nether_air_bucket"
 			id: "5DFA4E55CF2B2F8E"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1CF1AF30761A3B97"
@@ -6646,6 +6797,7 @@
 			dependencies: ["66AE53E13E3C3C19"]
 			icon: "ad_astra:calorite_ingot"
 			id: "4CC4035A6482E51D"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1AB87C2C5A59595D"
@@ -6778,17 +6930,45 @@
 			y: -1.0d
 		}
 		{
+			icon: "gtceu:lv_rock_crusher"
 			id: "076E96E5EB3E44E5"
-			rewards: [{
-				id: "59755E269F565E31"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "24513E28F78DAD1C"
-				item: "gtceu:lv_rock_crusher"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "24513E28F78DAD1C"
+					item: "gtceu:lv_rock_crusher"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2409ACB3CC6E9FE5"
+					item: "gtceu:mv_rock_crusher"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "149B6B64D024FB45"
+					item: "gtceu:hv_rock_crusher"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6045BC7373F82910"
+					item: "gtceu:ev_rock_crusher"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DFE3AC5A602B590"
+					item: "gtceu:large_rock_crusher"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "276CE5D04E74DF44"
+					type: "checkmark"
+				}
+			]
+			title: "碎岩机"
 			x: 15.0d
 			y: 15.0d
 		}
@@ -7085,7 +7265,10 @@
 			y: 15.0d
 		}
 		{
-			dependencies: ["218DF03160595A6F"]
+			dependencies: [
+				"218DF03160595A6F"
+				"528C6451188B2D1B"
+			]
 			icon: "gtceu:thorite_powder_dust"
 			id: "5DECAB3C913C31FE"
 			subtitle: "产出钍粉"
@@ -7218,7 +7401,7 @@
 			y: 8.0d
 		}
 		{
-			description: ["你会在主世界看到很多种喷出的油，其中海上喷出的Ad的石油毫无用处"]
+			description: ["你会在主世界看到很多种喷出的油，其中海上喷出的Ad Astra的石油毫无用处"]
 			icon: "ad_astra:oil_bucket"
 			id: "113D8AE67948F32E"
 			optional: true
@@ -7231,7 +7414,7 @@
 			y: 2.0d
 		}
 		{
-			description: ["和石油一样，Ad的燃油也是没有任何用途"]
+			description: ["和石油一样，Ad Astra的燃油也是没有任何用途"]
 			icon: "ad_astra:fuel_bucket"
 			id: "29C1F160ECAA561A"
 			optional: true
@@ -7271,6 +7454,336 @@
 			title: "结构生成"
 			x: 48.0d
 			y: 2.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:ammonium_nitrate_solution_bucket"
+			id: "1CC46F9D14AB0C07"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2D372C277F4E45F6"
+					item: "gtceu:ammonium_nitrate_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1BF4DB108F187B99"
+					type: "checkmark"
+				}
+			]
+			title: "硝酸铵溶液"
+			x: 20.0d
+			y: 5.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:acetone_bucket"
+			id: "22AEE3F4F698D455"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "1003577B80AB2202"
+					item: "gtceu:acetone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6642A6B9B82ABB5D"
+					type: "checkmark"
+				}
+			]
+			title: "丙酮"
+			x: 20.0d
+			y: 6.5d
+		}
+		{
+			icon: "gtceu:ammonium_chloride_dust"
+			id: "1DBD35BB3019EC43"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "0D9966A954D980F5"
+					item: "gtceu:ammonium_chloride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BFA7A3FB46E2CCB"
+					type: "checkmark"
+				}
+			]
+			x: 37.0d
+			y: 12.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:oxalic_acid_bucket"
+			id: "4AE8888208F4FDE9"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "75293BFC602BAA75"
+					item: "gtceu:oxalic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4C19056BD657E753"
+					type: "checkmark"
+				}
+			]
+			title: "草酸"
+			x: 20.0d
+			y: 7.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:nitric_acid_bucket"
+			id: "3DE17F205E0FFCD2"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "54DBB9F5A221574D"
+					item: "gtceu:nitric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "794AFFD57CBD4B5A"
+					type: "checkmark"
+				}
+			]
+			title: "硝酸"
+			x: 20.0d
+			y: 8.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:hydrofluoric_acid_bucket"
+			id: "3826D52A9D851E44"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "2C4363295C55176A"
+					item: "gtceu:hydrofluoric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4DA722119B35005D"
+					type: "checkmark"
+				}
+			]
+			title: "氢氟酸"
+			x: 20.0d
+			y: 9.5d
+		}
+		{
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "115A8F4A3FF514D8"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "7FD34E366B04D913"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "689AEFBD278235AD"
+					type: "checkmark"
+				}
+			]
+			title: "盐酸"
+			x: 26.0d
+			y: 10.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:hydrochloric_acid_bucket"
+			id: "1CD8B448677A18F1"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "4178D4288301BE6E"
+					item: "gtceu:hydrochloric_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E7E5B73AE8B42E8"
+					type: "checkmark"
+				}
+			]
+			title: "盐酸"
+			x: 8.5d
+			y: 17.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:ammonium_chloride_dust"
+			id: "69CC17C74F449A2C"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "4E232518C8FB9C7C"
+					item: "gtceu:ammonium_chloride_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "28158ADD5CFCE010"
+					type: "checkmark"
+				}
+			]
+			x: 9.5d
+			y: 17.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:soda_ash_dust"
+			id: "0EB271912D5F4761"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "06B4747C0F94AB6B"
+					item: "gtceu:soda_ash_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5585A9D55DBBDB24"
+					type: "checkmark"
+				}
+			]
+			x: 10.5d
+			y: 17.0d
+		}
+		{
+			icon: "gtceu:potassium_pyrosulfate_dust"
+			id: "2DEED122A9B447C5"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "005A837AB6FEAD0C"
+					item: "gtceu:potassium_pyrosulfate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "26124F9EDFE24D58"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 20.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:sodium_nitrate_dust"
+			id: "71947B29A781480D"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "66EAF08EA75BEF66"
+					item: "gtceu:sodium_nitrate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "50EDF91A50C50010"
+					type: "checkmark"
+				}
+			]
+			x: 11.5d
+			y: 17.0d
+		}
+		{
+			icon: "gtceu:aqua_regia_bucket"
+			id: "0AE7E19DC4FD17B2"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "425A30ACD4BFA078"
+					item: "gtceu:aqua_regia_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1979BAE37EA60F6D"
+					type: "checkmark"
+				}
+			]
+			title: "王水"
+			x: 7.5d
+			y: 17.0d
+		}
+		{
+			icon: "gtceu:formic_acid_bucket"
+			id: "043EF736C9E6B3FB"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "7781FF2F5F87863F"
+					item: "gtceu:formic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4CD86AF897E96D4D"
+					type: "checkmark"
+				}
+			]
+			title: "甲酸"
+			x: 4.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["365298DB6520227A"]
+			icon: "kubejs:reactor_uranium_simple"
+			id: "536F166366A79CA8"
+			tasks: [
+				{
+					id: "2B986E12593DA194"
+					item: "kubejs:reactor_uranium_simple"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41E924BAC9BF8D4F"
+					item: "kubejs:reactor_naquadah_simple"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "39F33DF2E899113F"
+					type: "checkmark"
+				}
+			]
+			title: "还有两种燃料棒"
+			x: 7.5d
+			y: 26.5d
+		}
+		{
+			icon: "gtceu:ammonium_nitrate_solution_bucket"
+			id: "1F017EDA47785D38"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "07149A77227F03BA"
+					item: "gtceu:ammonium_nitrate_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "429B91DD1D08A9F2"
+					type: "checkmark"
+				}
+			]
+			title: "硝酸铵溶液"
+			x: 23.0d
+			y: 17.0d
 		}
 	]
 	title: "原料提取"

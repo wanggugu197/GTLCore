@@ -11,6 +11,7 @@
 		{
 			id: "091593AD0155BBFE"
 			linked_quest: "079FEA1875012A69"
+			shape: "pentagon"
 			x: -4.5d
 			y: -9.0d
 		}
@@ -18,6 +19,8 @@
 			icon: "minecraft:totem_of_undying"
 			id: "5F36E0EA162A8CCE"
 			linked_quest: "430303070695D7D3"
+			shape: "gear"
+			size: 2.0d
 			x: 13.5d
 			y: 15.0d
 		}
@@ -85,6 +88,7 @@
 		{
 			icon: "gtceu:silica_gel_base_bucket"
 			id: "1009667F6846D21E"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3D4B88FFD8B0434A"
@@ -145,7 +149,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙二胺"
+			title: "乙二胺和钯粉"
 			x: 9.0d
 			y: 9.0d
 		}
@@ -172,6 +176,7 @@
 		{
 			icon: "gtceu:ethylene_oxide_bucket"
 			id: "2FA41EEE671DEFED"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6E578D954CB7D61C"
@@ -291,6 +296,7 @@
 		{
 			icon: "gtceu:borax_dust"
 			id: "119EE889A758EF76"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1266D792FA662C41"
@@ -350,6 +356,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "二芐基四乙酰六氮杂异纤锌烷粉和氢溴酸"
 			x: 7.5d
 			y: 10.5d
 		}
@@ -443,6 +450,7 @@
 		{
 			icon: "gtceu:ethenone_bucket"
 			id: "4785A145DBF5CBE4"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "67B3A15BB30F2CDB"
@@ -507,6 +515,7 @@
 		{
 			icon: "gtceu:barium_chloride_dust"
 			id: "54D2E272A89C191A"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5E479EFCBB574B7A"
@@ -605,6 +614,7 @@
 		{
 			icon: "gtceu:potassium_carbonate_dust"
 			id: "28564CD2AD4D7027"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "085D2BAEE683F27B"
@@ -642,6 +652,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "亚硝酸钠粉和Co/AC-AB催化剂粉"
 			x: 0.0d
 			y: 13.5d
 		}
@@ -668,6 +679,7 @@
 		{
 			icon: "gtceu:sodium_nitrate_dust"
 			id: "6AA84638689CE4B6"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4FDC4895FC9ABC0B"
@@ -705,12 +717,14 @@
 					type: "checkmark"
 				}
 			]
+			title: "琥珀酸粉和镀铑钯粉"
 			x: 3.0d
 			y: 12.0d
 		}
 		{
 			icon: "gtceu:maleic_anhydride_bucket"
 			id: "419097D3522C589F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1582F20B185E2BCA"
@@ -729,13 +743,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "顺丁烯二酸酐"
+			title: "顺丁烯二酸酐和铋粉"
 			x: 1.5d
 			y: 12.0d
 		}
 		{
 			icon: "gtceu:glyoxal_bucket"
 			id: "44FC82D2BED9C347"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4834E82EE2AADF68"
@@ -755,6 +770,7 @@
 		{
 			icon: "gtceu:acetonitrile_dust"
 			id: "3F9802AD94111CE5"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "522181E7394FD89D"
@@ -796,6 +812,7 @@
 		{
 			icon: "gtceu:hexamethylenetetramine_dust"
 			id: "22D253FBF67F50C9"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1C53E2D4E6FCA751"
@@ -814,6 +831,7 @@
 		{
 			icon: "gtceu:benzyl_chloride_bucket"
 			id: "51536979FA28D703"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "59B3DC3BFEA08AAB"
@@ -832,7 +850,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化苄"
+			title: "氯化苄和黑光灯"
 			x: 10.5d
 			y: 15.0d
 		}
@@ -879,9 +897,9 @@
 		}
 		{
 			dependencies: ["1D0D7293B070CF3D"]
-			description: ["可以回收锕粉和镭粉，同时有镤粉和额外的镭粉产出"]
 			icon: "gtceu:actinium_radium_nitrate_solution_bucket"
 			id: "7C316F056D8355F7"
+			subtitle: "可以完全回收锕粉和镭粉，同时有镤粉和额外的镭粉产出"
 			tasks: [
 				{
 					id: "79408963E3720F7B"
@@ -925,6 +943,7 @@
 		{
 			icon: "gtceu:sodium_ethylate_dust"
 			id: "7B41D6C27938103B"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "47FE9DA8D4D4A8D0"
@@ -1007,6 +1026,7 @@
 		{
 			icon: "gtceu:ethenone_bucket"
 			id: "1503A7FA4645A82B"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "50142AEF731F77A7"
@@ -1049,6 +1069,7 @@
 		{
 			icon: "gtceu:phosphorus_pentasulfide_dust"
 			id: "6B7E6150BCDAF901"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "274B2DAC25B1F929"
@@ -1094,7 +1115,6 @@
 				"52282B1EEA498EA4"
 				"4ADAB324562A0D04"
 			]
-			description: [""]
 			icon: "gtlcore:protonated_fullerene_sieving_matrix"
 			id: "5307680107A0D67B"
 			subtitle: "循环利用"
@@ -1162,9 +1182,9 @@
 				"3ACE24C4CD948728"
 			]
 			dependency_requirement: "one_completed"
-			description: ["可以回收三甲基硅烷，氧化银和铯粉"]
 			icon: "gtceu:fluorocarborane_dust"
 			id: "0D33E584F073EDAC"
+			subtitle: "可以回收三甲基硅烷，氧化银和铯粉"
 			tasks: [
 				{
 					id: "3F50B8E3AF302EFA"
@@ -1250,6 +1270,7 @@
 			hide_dependent_lines: true
 			icon: "gtceu:sodium_hydride_dust"
 			id: "3E04448016A07625"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "78B6F50A8B774373"
@@ -1262,7 +1283,7 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
+			x: -1.5d
 			y: -6.0d
 		}
 		{
@@ -1353,9 +1374,9 @@
 			y: 1.5d
 		}
 		{
-			dependency_requirement: "one_completed"
 			icon: "gtceu:formaldehyde_bucket"
 			id: "237088F52F8A233A"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1C4C6EFF3CA46BAC"
@@ -1480,6 +1501,7 @@
 			hide_dependent_lines: true
 			icon: "gtceu:hydrogen_peroxide_bucket"
 			id: "7045A5746B618D01"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5BA4A382971AF849"
@@ -1493,7 +1515,7 @@
 				}
 			]
 			title: "过氧化氢"
-			x: -1.5d
+			x: -4.5d
 			y: -6.0d
 		}
 		{
@@ -1519,6 +1541,7 @@
 		{
 			icon: "gtceu:hydrogen_cyanide_bucket"
 			id: "2CFC5003A10312E3"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "7BB0D6F10DDFD861"
@@ -1537,7 +1560,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化氢"
+			title: "氰化氢和铂粉"
 			x: -13.5d
 			y: -1.5d
 		}
@@ -1609,6 +1632,7 @@
 		{
 			icon: "gtceu:borax_dust"
 			id: "44B2456150F11783"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "62A3074033647C22"
@@ -1627,6 +1651,7 @@
 		{
 			icon: "gtceu:chloromethane_bucket"
 			id: "379783BB61405372"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6D36AFAF04CDBA97"
@@ -1724,6 +1749,7 @@
 		{
 			icon: "gtceu:antimony_trioxide_dust"
 			id: "64166D3B9F4A817F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4817CA02D28D3AF4"
@@ -1745,7 +1771,7 @@
 				"79D625C4CC5FFDEB"
 				"1E48A22AF50DFA22"
 			]
-			description: ["{ \"text\": \"还能获得凯金\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37A99CF028273351\" } }"]
+			description: ["{ \"text\": \"还能获得凯金\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37A99CF028273351\" } }"]
 			id: "76FBE49EFA4545DF"
 			subtitle: "三氟化锑，全氟苯，碳氟化合物，氪"
 			tasks: [{
@@ -1759,6 +1785,7 @@
 		{
 			icon: "gtceu:potassium_fluoride_dust"
 			id: "045541DBACA0E553"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4FD2044908CEFD01"
@@ -1777,12 +1804,14 @@
 					type: "checkmark"
 				}
 			]
+			title: "氟化钾粉和铼粉"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			icon: "gtceu:diethyl_ether_bucket"
 			id: "48D469A13D6BB882"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "54B25BC8710A2569"
@@ -1842,6 +1871,7 @@
 		{
 			icon: "gtceu:dimethyl_sulfide_bucket"
 			id: "605B74E5199950F2"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4BB7286284EBFCCC"
@@ -1907,6 +1937,7 @@
 		{
 			icon: "gtceu:lithium_chloride_dust"
 			id: "215825184D2AAE39"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6A2CF31A87C7881F"
@@ -1947,6 +1978,7 @@
 		{
 			icon: "gtceu:aluminium_hydride_dust"
 			id: "71DBAE16E59A3FCE"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "2620493F2D1EBA80"
@@ -2049,6 +2081,7 @@
 		{
 			icon: "gtceu:sodium_hypochlorite_dust"
 			id: "799D31D3D0652E09"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1E25FE71EE57BC3D"
@@ -2067,6 +2100,7 @@
 		{
 			icon: "gtceu:fuming_nitric_acid_bucket"
 			id: "67A9FD093D7801E6"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0C463E71098A5928"
@@ -2135,9 +2169,9 @@
 		}
 		{
 			dependencies: ["506E6C56FF4B5C0B"]
-			description: [""]
 			icon: "gtceu:fine_carbon_nanotubes_wire"
 			id: "52282B1EEA498EA4"
+			shape: "pentagon"
 			subtitle: "不能回收"
 			tasks: [
 				{
@@ -2212,6 +2246,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "苯并菲乙腈粉、钛粉、铝粉和气态氯"
 			x: -10.5d
 			y: 6.0d
 		}
@@ -2341,6 +2376,7 @@
 		{
 			icon: "gtceu:sodium_formate_bucket"
 			id: "1CC1E51865080429"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5EB1B1BCB958C497"
@@ -2360,6 +2396,7 @@
 		{
 			icon: "gtceu:potassium_hydroxide_dust"
 			id: "35907D3B1BE3BDD9"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3A07389183240D42"
@@ -2378,6 +2415,7 @@
 		{
 			icon: "gtceu:sodium_hydroxide_dust"
 			id: "2615A0FD3FB6CAC1"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "254DF0A6426A4BFB"
@@ -2417,6 +2455,7 @@
 			description: ["太空无人机MKIII"]
 			icon: "gtceu:bromine_bucket"
 			id: "2A47C39959BBC6F5"
+			shape: "pentagon"
 			subtitle: "直接通过电梯采集"
 			tasks: [
 				{
@@ -2435,9 +2474,9 @@
 			y: 4.5d
 		}
 		{
-			dependency_requirement: "one_completed"
 			icon: "gtceu:formaldehyde_bucket"
 			id: "07956B6A28B9BEA6"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3D87873BD1B8B457"
@@ -2515,6 +2554,7 @@
 		{
 			icon: "gtceu:trimethyltin_chloride_bucket"
 			id: "484618407B76B410"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "78A184478B26BB12"
@@ -2534,6 +2574,7 @@
 		{
 			icon: "gtceu:biphenyl_dust"
 			id: "1EBF4E9F9D33F922"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "34B678A384248028"
@@ -2552,12 +2593,14 @@
 					type: "checkmark"
 				}
 			]
+			title: "联苯粉和黑光灯"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			icon: "gtceu:cyclooctadiene_bucket"
 			id: "231FFD3F1C64BF5D"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "2F05F4F4D5D28A65"
@@ -2681,6 +2724,7 @@
 		{
 			icon: "gtceu:calcium_chloride_dust"
 			id: "75B3B0BD8426A719"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0F833952A3C0E4FE"
@@ -2803,6 +2847,7 @@
 		{
 			icon: "gtceu:sulfur_trioxide_bucket"
 			id: "36F3325595E29676"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6489B037A4164CAF"
@@ -2822,6 +2867,7 @@
 		{
 			icon: "gtceu:phthalic_acid_bucket"
 			id: "39B2241A9F0A269D"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "164FC1159DB59E25"
@@ -2852,7 +2898,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "邻苯二甲酸"
+			title: "邻苯二甲酸、硫酸、镉粉和硫酸氢钠粉"
 			x: -10.5d
 			y: 9.0d
 		}
@@ -2909,6 +2955,7 @@
 		{
 			icon: "gtceu:nitration_mixture_bucket"
 			id: "39FCEDFD190D38ED"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4A4D09E6E5A7D01F"
@@ -2926,8 +2973,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["4785A145DBF5CBE4"]
-			hide_dependency_lines: true
+			dependencies: ["5A08033AD8D3CE92"]
 			icon: "gtceu:acetic_anhydride_bucket"
 			id: "66DF38DEECEBD5E0"
 			tasks: [
@@ -2988,13 +3034,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基苯"
+			title: "硝基苯和锌粉"
 			x: -10.5d
 			y: 12.0d
 		}
 		{
 			icon: "gtceu:methylamine_bucket"
 			id: "777EEC728D2F9F26"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6D0F917F3C0E36BC"
@@ -3055,13 +3102,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "1,4-丁二醇"
+			title: "1,4-丁二醇和铜粉"
 			x: -7.5d
 			y: 15.0d
 		}
 		{
 			icon: "gtceu:tellurium_oxide_dust"
 			id: "2AABD40D9E333983"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "080C6CB62011F89E"
@@ -3081,6 +3129,7 @@
 			dependencies: ["23A05AC4EADC9FDA"]
 			icon: "gtceu:molybdenum_trioxide_dust"
 			id: "77685CD0D6D836B2"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1BB83B49ADD0DA37"
@@ -3223,6 +3272,7 @@
 		{
 			icon: "gtceu:acetone_bucket"
 			id: "6D57E3EA38886CD1"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0472BA6EEF9339CC"
@@ -3241,13 +3291,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "丙酮"
+			title: "丙酮和四氧化锇"
 			x: -13.5d
 			y: 9.0d
 		}
 		{
 			icon: "gtceu:ethylene_oxide_bucket"
 			id: "7E99A9D66824673E"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5A5C06020F3F0D20"
@@ -3310,6 +3361,7 @@
 		{
 			icon: "gtceu:phosgene_bucket"
 			id: "4A3FEDF12C097F29"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3D97D501149D0D48"
@@ -3436,10 +3488,11 @@
 		}
 		{
 			dependency_requirement: "one_completed"
-			description: ["蒸馏室三号电路"]
 			icon: "gtceu:sulfuric_naphtha_bucket"
 			id: "63FEF796CFF5E8DF"
 			min_required_dependencies: 1
+			shape: "pentagon"
+			subtitle: "蒸馏室三号电路"
 			tasks: [
 				{
 					id: "014038349888FC2A"
@@ -3462,9 +3515,9 @@
 				"045D76184BFBD4D6"
 				"27A9D4E765101CB9"
 			]
-			description: ["含硫石脑油加氢气"]
 			icon: "gtceu:naphtha_bucket"
 			id: "071C1482A33D97FB"
+			subtitle: "含硫石脑油加氢气"
 			tasks: [
 				{
 					id: "5487A28C3E9B45E0"
@@ -3486,9 +3539,9 @@
 				"071C1482A33D97FB"
 				"27A9D4E765101CB9"
 			]
-			description: ["化学反应釜加蒸汽三号电路"]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "70E703942B61C86C"
+			subtitle: "化学反应釜加蒸汽三号电路"
 			tasks: [
 				{
 					id: "43A2C8C1FC309DE4"
@@ -3507,9 +3560,9 @@
 		}
 		{
 			dependencies: ["70E703942B61C86C"]
-			description: ["蒸馏室十号电路"]
 			icon: "gtceu:ethylene_bucket"
 			id: "0C5B23E443F1A5D5"
+			subtitle: "蒸馏室十号电路"
 			tasks: [
 				{
 					id: "4AE736F84D6F23E1"
@@ -3528,9 +3581,9 @@
 		}
 		{
 			dependencies: ["63FEF796CFF5E8DF"]
-			description: ["将硫化氢电解以进行氢的循环"]
 			icon: "gtceu:hydrogen_sulfide_bucket"
 			id: "751BF4CAEE613BBA"
+			subtitle: "将硫化氢电解以进行氢的循环"
 			tasks: [{
 				id: "58FAC5989D41DC20"
 				title: "硫化氢"
@@ -3541,7 +3594,6 @@
 		}
 		{
 			dependencies: ["751BF4CAEE613BBA"]
-			description: [""]
 			icon: "gtceu:hydrogen_bucket"
 			id: "045D76184BFBD4D6"
 			tasks: [
@@ -3574,7 +3626,7 @@
 		}
 		{
 			dependencies: ["1B27E863E90AB90E"]
-			description: ["{ \"text\": \"氯的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CDB693780B9BE2E\" } }"]
+			description: ["{ \"text\": \"氯的来源见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CDB693780B9BE2E\" } }"]
 			icon: "gtceu:polyvinyl_chloride_bucket"
 			id: "17DDE8CC39438A32"
 			tasks: [
@@ -3683,6 +3735,7 @@
 			]
 			icon: "gtceu:tetrafluoroethylene_bucket"
 			id: "66CFEE6DC6A4CF34"
+			subtitle: "到EV之后可以用甲烷+氢氟酸+气态氯一步出"
 			tasks: [
 				{
 					id: "5F3B5D69F11A578D"
@@ -3702,6 +3755,7 @@
 		{
 			icon: "gtceu:hydrofluoric_acid_bucket"
 			id: "45EE0AC3D5680B1F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6CE9955A904D1993"
@@ -3722,6 +3776,7 @@
 			description: ["气态甲烷前期可来源于离心橡胶原木，氯可以来源于电解盐或岩盐或盐水"]
 			icon: "gtceu:chloroform_bucket"
 			id: "6277F42774893AA3"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "11C400810AEC9330"
@@ -3741,6 +3796,7 @@
 		{
 			icon: "gtceu:propene_bucket"
 			id: "0AD5EE4A003844C3"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0C05F0BAB4530626"
@@ -3754,7 +3810,7 @@
 				}
 			]
 			title: "丙烯"
-			x: -30.0d
+			x: -28.5d
 			y: -3.0d
 		}
 		{
@@ -3776,7 +3832,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -25.5d
+			x: -24.0d
 			y: -4.5d
 		}
 		{
@@ -3798,7 +3854,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -25.5d
+			x: -24.0d
 			y: -3.0d
 		}
 		{
@@ -3808,6 +3864,7 @@
 			]
 			icon: "gtceu:epoxy_bucket"
 			id: "7D19A74F09F44223"
+			subtitle: "你也可以用丙酮+盐酸"
 			tasks: [
 				{
 					id: "33285654A89E7E64"
@@ -3821,7 +3878,7 @@
 				}
 			]
 			title: "液态环氧树脂"
-			x: -27.0d
+			x: -25.5d
 			y: -4.5d
 		}
 		{
@@ -3830,8 +3887,10 @@
 				"5D9B209D891690FD"
 			]
 			dependency_requirement: "one_completed"
+			description: ["其实还有个烯丙基氯"]
 			icon: "gtceu:epichlorohydrin_bucket"
 			id: "64738DFD97250F17"
+			subtitle: "你也可以不用甘油，换成气态氯+水+氢氧化钠粉"
 			tasks: [
 				{
 					id: "44D32E889163EA5C"
@@ -3851,6 +3910,7 @@
 		{
 			icon: "gtceu:bisphenol_a_bucket"
 			id: "71F30E4D75B64953"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "03A92192B0D81DDC"
@@ -3864,12 +3924,13 @@
 				}
 			]
 			title: "双酚A"
-			x: -28.5d
+			x: -27.0d
 			y: -3.0d
 		}
 		{
 			icon: "gtceu:glycerol_bucket"
 			id: "5D9B209D891690FD"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "76531D8DF3CCD89B"
@@ -3931,6 +3992,7 @@
 		{
 			icon: "gtceu:polydimethylsiloxane_dust"
 			id: "46797764E081856A"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5F92FEB582AA769A"
@@ -3975,6 +4037,7 @@
 			]
 			icon: "gtceu:raw_styrene_butadiene_rubber_dust"
 			id: "6BAC2A8A96690442"
+			subtitle: "用气态氧单位产量更高"
 			tasks: [
 				{
 					id: "7143FB067D05D6D2"
@@ -3993,6 +4056,7 @@
 		{
 			icon: "gtceu:butadiene_bucket"
 			id: "6E68F9920B8DE90B"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "07D75F06BE16ECCE"
@@ -4012,6 +4076,7 @@
 		{
 			icon: "gtceu:styrene_bucket"
 			id: "20E57648D7692834"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "447B9652FAD04815"
@@ -4055,6 +4120,7 @@
 		{
 			icon: "gtceu:butyraldehyde_bucket"
 			id: "0C199AF8612BC6B8"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "72C6ADC5974E1413"
@@ -4094,6 +4160,7 @@
 		{
 			icon: "gtceu:vinyl_acetate_bucket"
 			id: "7E8537FADF9E76CE"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "65F8EB4634F5FC05"
@@ -4177,6 +4244,7 @@
 		{
 			icon: "gtceu:chlorobenzene_bucket"
 			id: "21C233810F7423C7"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "46E309956B5FD9C5"
@@ -4241,6 +4309,7 @@
 			dependency_requirement: "one_completed"
 			icon: "gtceu:phthalic_acid_bucket"
 			id: "1A8712D336215C23"
+			subtitle: "二甲苯和萘二选一即可"
 			tasks: [
 				{
 					id: "68A396C0AC2E2FE3"
@@ -4258,6 +4327,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["2D5A9D97E04587DC"]
 			icon: "gtceu:dimethylbenzene_bucket"
 			id: "0562FFC391118D18"
 			tasks: [
@@ -4268,17 +4338,24 @@
 					type: "item"
 				}
 				{
-					id: "436EBDE9F5FFFDA4"
+					id: "71482D818787AF73"
+					item: "gtceu:potassium_dichromate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "38A8468CD431F0B7"
 					type: "checkmark"
 				}
 			]
-			title: "二甲苯"
+			title: "二甲苯和重铬酸钾粉"
 			x: -28.5d
 			y: 6.0d
 		}
 		{
 			icon: "gtceu:naphthalene_bucket"
 			id: "27A7F19C69EB2D70"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "7A89971236613F2C"
@@ -4305,6 +4382,7 @@
 			id: "1D235570F7FF1BF1"
 			shape: "diamond"
 			size: 1.0d
+			subtitle: "用气态氧单位产量更高"
 			tasks: [
 				{
 					id: "6C5EBD40B693B972"
@@ -4323,6 +4401,7 @@
 		{
 			icon: "gtceu:sodium_sulfide_dust"
 			id: "5FEBFB078C4575DC"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "00AD0B2CD7DC7E52"
@@ -4341,6 +4420,7 @@
 		{
 			icon: "gtceu:dichlorobenzene_bucket"
 			id: "25FFF408FC4FE14F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "4B081AED048CEA2C"
@@ -4359,7 +4439,7 @@
 		}
 		{
 			dependencies: ["2EAAF5A6510D0EFE"]
-			description: ["{ \"text\": \"石化生化的产出见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B3E2F27FE938277\" } }"]
+			description: ["{ \"text\": \"石化生化的产出见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B3E2F27FE938277\" } }"]
 			id: "77881C054BC89696"
 			tasks: [{
 				id: "66DE4C6B60F7BFAA"
@@ -4370,9 +4450,10 @@
 			y: -12.0d
 		}
 		{
-			description: ["{ \"text\": \"碘的来源见此\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"507C5D3A6F000A45\" } }"]
+			description: ["{ \"text\": \"碘的来源见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"507C5D3A6F000A45\" } }"]
 			icon: "gtceu:potassium_iodide_dust"
 			id: "37A2908C38979911"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0DC424540FBFFCB6"
@@ -4448,6 +4529,7 @@
 		{
 			icon: "gtceu:iron_iii_chloride_bucket"
 			id: "0614AE8EE22C0FE8"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "42BBA9C848BDE472"
@@ -4512,6 +4594,7 @@
 		{
 			icon: "gtceu:hydrogen_cyanide_bucket"
 			id: "2051BFA31E99A2D2"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0CC2080D8485A60F"
@@ -4531,6 +4614,7 @@
 		{
 			icon: "gtceu:chlorobenzene_bucket"
 			id: "63A50F5F028D35E0"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "55A6FAB097C6A518"
@@ -4616,6 +4700,7 @@
 		{
 			icon: "gtceu:formaldehyde_bucket"
 			id: "29757726EF871DE6"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "11426F218B6F5E8B"
@@ -4635,6 +4720,7 @@
 		{
 			icon: "gtceu:dichloroethane_bucket"
 			id: "2C3C0CD6F2E50308"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6301547DD821E8C8"
@@ -4694,6 +4780,7 @@
 		{
 			icon: "gtceu:ethenone_bucket"
 			id: "306A8D50ACB4192C"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "46CCCA17433BD5C5"
@@ -4713,6 +4800,7 @@
 		{
 			icon: "gtceu:nitration_mixture_bucket"
 			id: "69CFB4808039A984"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5CADBA6BD7289974"
@@ -4731,7 +4819,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸混酸"
+			title: "硝酸混酸和铁粉"
 			x: -24.0d
 			y: 15.0d
 		}
@@ -4765,6 +4853,7 @@
 		{
 			icon: "gtceu:osmiridium_dust"
 			id: "2C184648D47B9426"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "28593D451F6D46A9"
@@ -4969,6 +5058,7 @@
 		{
 			icon: "gtceu:phosphoric_acid_bucket"
 			id: "45637BCB86D71F5D"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1416919CC17A18BE"
@@ -4988,6 +5078,7 @@
 		{
 			icon: "gtceu:meat_dust"
 			id: "2653A01576B119F9"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "2472D23D0CA307F4"
@@ -5005,9 +5096,9 @@
 		}
 		{
 			dependencies: ["236C246F76B9A184"]
-			description: ["效率排序（从低到高）：铀-238，铀-235，超能硅岩"]
 			icon: "gtceu:enriched_bacterial_sludge_bucket"
 			id: "3FA6B4C0BBDAF426"
+			subtitle: "效率排序（从低到高）：铀-238，铀-235，超能硅岩"
 			tasks: [
 				{
 					id: "05A34F183CE7B166"
@@ -5086,6 +5177,7 @@
 		{
 			icon: "gtceu:plant_ball"
 			id: "47D27B46C2CDF306"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1985D0E0594F4A22"
@@ -5124,6 +5216,7 @@
 			dependencies: ["38D23D186C444492"]
 			icon: "gtceu:tritanium_dust"
 			id: "0767F9F3F8E2676F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1D03F9F75B4D41F6"
@@ -5229,6 +5322,7 @@
 			dependencies: ["7ADB50ACF5AE1D13"]
 			icon: "gtceu:alien_algae_dust"
 			id: "26DBD68E845DA8A4"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "135E9261F17A644E"
@@ -5247,6 +5341,7 @@
 		{
 			icon: "gtceu:phthalic_acid_bucket"
 			id: "235B60B7DA59F6FA"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "370D37FA17D8F915"
@@ -5266,6 +5361,7 @@
 		{
 			icon: "gtceu:agar_dust"
 			id: "49AF958274D51933"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "77D70FAA17CF2188"
@@ -5285,6 +5381,7 @@
 			dependencies: ["7A7C73D046390488"]
 			icon: "gtceu:unknowwater_bucket"
 			id: "54C5B12827232219"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "2968ACEB5D3795DC"
@@ -5304,6 +5401,7 @@
 		{
 			icon: "gtceu:meat_dust"
 			id: "090CFFFC8EBECB0F"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "496834D8FC014E28"
@@ -5369,7 +5467,6 @@
 				"6B7D0BC95EE59BEA"
 				"7326E9544954AB63"
 			]
-			description: [""]
 			icon: "kubejs:biological_cells"
 			icon_scale: 2.0d
 			id: "394693172D53841E"
@@ -5390,10 +5487,10 @@
 			y: -10.5d
 		}
 		{
-			dependencies: ["14C78683ED195532"]
 			hide_dependency_lines: true
 			icon: "gtceu:mutagen_bucket"
 			id: "4AD4F3858F313B3C"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3B0D81188C461B6A"
@@ -5456,12 +5553,14 @@
 					type: "checkmark"
 				}
 			]
+			title: "量子之星和重力之星"
 			x: 10.5d
 			y: -9.0d
 		}
 		{
 			icon: "gtceu:oxygen_plasma_bucket"
 			id: "14AB13D5965C5A4D"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "56FC7A4E82E56BA5"
@@ -5480,7 +5579,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "等离子体"
+			title: "氧氦等离子体"
 			x: 10.5d
 			y: -12.0d
 		}
@@ -5508,7 +5607,6 @@
 		}
 		{
 			dependencies: ["3D7729F7ACFF9F91"]
-			description: [""]
 			icon: "gtceu:absolute_ethanol_bucket"
 			icon_scale: 2.0d
 			id: "7E9ECD7724F5A0AF"
@@ -5613,6 +5711,7 @@
 		{
 			icon: "gtceu:silica_gel_base_bucket"
 			id: "12D051388942929B"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "7E3F04749F365A52"
@@ -5691,9 +5790,9 @@
 		}
 		{
 			dependencies: ["77FF5B7D5B69287E"]
-			description: ["电解回收锂和氟"]
 			icon: "gtceu:lithium_fluoride_dust"
 			id: "1D5D8284CF88DDB1"
+			subtitle: "电解回收锂和氟"
 			tasks: [
 				{
 					id: "08DAE585B4F2C922"
@@ -5771,6 +5870,7 @@
 		{
 			icon: "gtceu:borax_dust"
 			id: "23EC3081A71064AF"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "5AC8C77F8AF02A89"
@@ -5811,6 +5911,7 @@
 		{
 			icon: "gtceu:lithium_chloride_dust"
 			id: "089E4D5BBDFDCDD0"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "16ADF8807AE2530B"
@@ -5829,6 +5930,7 @@
 		{
 			icon: "gtceu:aluminium_hydride_dust"
 			id: "0D0E68743767B312"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0C2BD751A6BBBE81"
@@ -5869,6 +5971,7 @@
 		{
 			icon: "gtceu:sodium_hydride_dust"
 			id: "534D27CE9232CDD9"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "56844D13DB6A6EA4"
@@ -6012,6 +6115,7 @@
 		{
 			icon: "gtceu:chloromethane_bucket"
 			id: "70F2BFA6ADEF7DBD"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6E5CD43F6F19733D"
@@ -6050,7 +6154,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "苯胺"
+			title: "苯胺和锡粉"
 			x: 18.0d
 			y: -3.0d
 		}
@@ -6076,13 +6180,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基苯"
+			title: "硝基苯和锡粉"
 			x: 16.5d
 			y: -3.0d
 		}
 		{
 			icon: "gtceu:nitration_mixture_bucket"
 			id: "1AC67C54C04862E9"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "6641BC1AB5B865D0"
@@ -6101,10 +6206,10 @@
 		}
 		{
 			dependencies: ["1D6792F905D97277"]
-			description: [""]
 			hide_dependency_lines: true
 			icon: "gtceu:fullerene_dust"
 			id: "4ADAB324562A0D04"
+			shape: "pentagon"
 			subtitle: "不能回收"
 			tasks: [
 				{
@@ -6143,6 +6248,7 @@
 		{
 			icon: "gtceu:silver_chloride_dust"
 			id: "7B6C1D878AEB5B49"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0877A3BD10CDC966"
@@ -6161,6 +6267,7 @@
 		{
 			icon: "gtceu:quicklime_dust"
 			id: "110F72E4781933BC"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "779AA8CAE5B63633"
@@ -6204,6 +6311,7 @@
 		{
 			icon: "gtceu:maleic_anhydride_bucket"
 			id: "380488F868FC2130"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "11B10E76AA00B453"
@@ -6222,13 +6330,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "顺丁烯二酸酐"
+			title: "顺丁烯二酸酐和铋粉"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			icon: "gtceu:maleic_anhydride_bucket"
 			id: "39CE7DA6CFF9D34E"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "359A62F69C3D0C8A"
@@ -6247,7 +6356,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "顺丁烯二酸酐"
+			title: "顺丁烯二酸酐和铋粉"
 			x: -16.5d
 			y: 6.0d
 		}
@@ -6318,6 +6427,7 @@
 		{
 			icon: "gtceu:borax_dust"
 			id: "4D3A87690BE0003B"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "42B9BFF8FDC4071E"
@@ -6356,6 +6466,7 @@
 		{
 			icon: "gtceu:chloromethane_bucket"
 			id: "7809A6D315189131"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "69F50EFC0BC62FB5"
@@ -6375,6 +6486,7 @@
 		{
 			icon: "gtceu:fluorite_dust"
 			id: "3579F91F57250355"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "16F7E17F88A1E8AB"
@@ -6511,6 +6623,7 @@
 		{
 			icon: "gtceu:hydroquinone_bucket"
 			id: "0570B92678EFECCF"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "1A60E8739F828AF3"
@@ -6552,6 +6665,7 @@
 		{
 			icon: "gtceu:znfealcl_catalyst_dust"
 			id: "0B0C63989B2AE468"
+			shape: "pentagon"
 			subtitle: "催化剂"
 			tasks: [
 				{
@@ -6633,7 +6747,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟锑酸"
+			title: "氟锑酸和黑光灯"
 			x: 22.5d
 			y: -6.0d
 		}
@@ -6702,6 +6816,7 @@
 		{
 			icon: "gtceu:sodium_nitrate_dust"
 			id: "267944369C846B17"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "045EEED69F469F23"
@@ -6760,6 +6875,7 @@
 		{
 			icon: "gtceu:borax_dust"
 			id: "7927807D174A552A"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "775D4A40758A72CC"
@@ -6797,6 +6913,7 @@
 		{
 			icon: "gtceu:antimony_trioxide_dust"
 			id: "1A01EBF333DFEC14"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "3F0A275D4D923F90"
@@ -6895,6 +7012,7 @@
 		{
 			icon: "gtceu:nitrosyl_chloride_bucket"
 			id: "3BCC01481DA8F994"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "23D953E8545E3DFA"
@@ -6914,6 +7032,7 @@
 		{
 			icon: "gtceu:cyclohexane_bucket"
 			id: "79A2F160AFC832EB"
+			shape: "pentagon"
 			tasks: [
 				{
 					id: "0852F7C1E8CAA688"
@@ -7002,6 +7121,46 @@
 			}]
 			x: -25.5d
 			y: -7.5d
+		}
+		{
+			icon: "gtceu:chromium_trioxide_dust"
+			id: "2D5A9D97E04587DC"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5B9B3FC14F9F97EE"
+					item: "gtceu:chromium_trioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A8F3452DC46DAE7"
+					type: "checkmark"
+				}
+			]
+			x: -30.0d
+			y: 6.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: "gtceu:ethenone_bucket"
+			id: "5A08033AD8D3CE92"
+			shape: "pentagon"
+			tasks: [
+				{
+					id: "5195D72F50068DF3"
+					item: "gtceu:ethenone_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "323CC6D63484233C"
+					type: "checkmark"
+				}
+			]
+			title: "乙烯酮"
+			x: -10.5d
+			y: 10.5d
 		}
 	]
 	title: "材料制备"
