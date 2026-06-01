@@ -33,6 +33,7 @@
 		{ item: "gtlcore:streptococcus_petri_dish", weight: 2.0f }
 		{ item: "gtlcore:cupriavidus_petri_dish", weight: 2.0f }
 		{ item: "gtlcore:shewanella_petri_dish", weight: 2.0f }
+		{ item: "ae2:not_so_mysterious_cube", weight: 10.0f }
 	]
 	title: "抽奖"
 }

@@ -543,7 +543,7 @@
 				""
 				"磁卡可以将掉落物直接吸入ME网络（通用终端才能装载磁卡；样板编码和管理界面无法配置磁卡，合成界面才可以）"
 				""
-				"默认中键选取方块"
+				"带有无线终端时默认中键从ME网络内选取方块"
 			]
 			disable_toast: true
 			icon: "ae2:wireless_receiver"
@@ -1476,18 +1476,20 @@
 			id: "7ED9A979A4F27C00"
 			optional: true
 			rewards: [{
-				id: "3C0197FC2007FD67"
-				table_id: 6225023274141477362L
+				exclude_from_claim_all: true
+				id: "3B6E29405237BF1E"
+				table_id: 691790651274624478L
 				type: "random"
 			}]
+			subtitle: "不要沉迷"
 			tasks: [{
 				consume_items: true
-				count: 648L
-				id: "295B13DE932B896E"
-				item: "gtceu:doge_coin"
+				count: 32L
+				id: "2D860D9C9A07562A"
+				item: { Count: 32, id: "gtceu:copper_credit" }
 				type: "item"
 			}]
-			title: "抽奖"
+			title: "试试手气"
 			x: 1.5d
 			y: -2.5d
 		}

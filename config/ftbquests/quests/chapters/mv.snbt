@@ -35,7 +35,7 @@
 				"66DC60EABAAE0619"
 				"32960AFE43AFF989"
 			]
-			description: ["建议用装有&e大型蒸汽输入仓&r的&b大型蒸汽电路组装机&r制作"]
+			description: ["建议用装有&e大型蒸汽输入仓&r的&b大型蒸汽电路组装机&r制作，比MV电路组装机快得多"]
 			icon_scale: 2.0d
 			id: "242AFA510EC14878"
 			rewards: [
@@ -59,7 +59,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -313,6 +313,7 @@
 		}
 		{
 			dependencies: ["541275BC83188F74"]
+			description: ["不幸的是，这个没有保护气配方"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "402C76093CA517F1"
@@ -511,7 +512,7 @@
 			description: [
 				"大部分的矿物在MV都可以进行电解"
 				""
-				"你现在可以通过电解粘土粉获得铝粉和硅粉"
+				"你现在可以通过电解黏土粉获得铝粉和硅粉，闪长岩富含黏土"
 			]
 			id: "541275BC83188F74"
 			rewards: [{
@@ -825,7 +826,11 @@
 		}
 		{
 			dependencies: ["17E9AB180BA36353"]
-			description: ["这个仓室将蒸汽大机器升压至可运行&bMV&r配方，还可以进行超频，最多4次"]
+			description: [
+				"这个仓室将蒸汽大机器升压至可运行&bMV&r配方"
+				""
+				"还可以进行超频：每超频一次，蒸汽消耗量乘以3，耗时减半，最多超频4次"
+			]
 			icon_scale: 2.0d
 			id: "32960AFE43AFF989"
 			rewards: [{
@@ -847,11 +852,11 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["用的是&b模&l头&r不是&e模&l具&r"]
+			description: ["用的是&b模&l&o头&r不是&e模&l&o具&r"]
 			id: "6B09F1B78A5FCF7D"
 			rewards: [{
 				id: "53478885AF4B4433"
@@ -992,11 +997,18 @@
 				"供应器版只有乘数模式，也可以用于&b样板总成&r"
 			]
 			id: "527E9200ECB4A732"
-			rewards: [{
-				id: "291DAFC296389DE5"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "291DAFC296389DE5"
+					item: "gtceu:silver_credit"
+					type: "item"
+				}
+				{
+					id: "6B0A7CD24A3CB8AE"
+					item: "gtlcore:debug_pattern_test"
+					type: "item"
+				}
+			]
 			subtitle: "批量修改样板"
 			tasks: [
 				{
@@ -1018,18 +1030,11 @@
 			description: ["潜行右键小机器/仓室记录配置，右键应用配置"]
 			hide_dependency_lines: true
 			id: "3740DE62D42A4D0D"
-			rewards: [
-				{
-					id: "44B320C5AC418AB0"
-					item: "gtceu:cupronickel_credit"
-					type: "item"
-				}
-				{
-					id: "7DBC821399778C14"
-					item: "gtlcore:debug_pattern_test"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "44B320C5AC418AB0"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05A5ED1BE84BBEBF"
 				item: "gtlcore:cfg_copy"
@@ -1057,6 +1062,32 @@
 			}]
 			x: 14.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["242AFA510EC14878"]
+			description: [
+				"{ \"text\": \"可能是你的第一台跨配方并行机器\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
+				""
+				"后期比较强力（当使用超能硅岩-塔兰线圈时并行数超过超维度蒸汽熔炉）"
+				""
+				"可以使用激光仓，支持跨配方并行，使用温度并行机制，温度每提升900K，并行数×2"
+			]
+			icon_scale: 1.4d
+			id: "099798B0FDA4463B"
+			rewards: [{
+				id: "63B56A33E21B8FD5"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			tasks: [{
+				id: "24D537E4F7918A6D"
+				item: "gtceu:advanced_multi_smelter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier2-MV"]

@@ -2297,7 +2297,7 @@
 		}
 		{
 			dependencies: ["4CF6C5A8940B4DDF"]
-			description: ["你也可以通过赤泥获得稀土氯化物"]
+			description: ["{ \"text\": \"你也可以通过赤泥获得稀土氯化物\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"605B973142727552\" } } "]
 			icon: "gtceu:rare_earth_chlorides_bucket"
 			id: "5465659AD5EEE7E3"
 			tasks: [
@@ -4063,6 +4063,7 @@
 			description: ["如果特别缺某一种稀土元素，可以试试萃取"]
 			icon: "gtceu:p507_bucket"
 			id: "72DFAC3212692136"
+			shape: "pentagon"
 			subtitle: "纳米树脂萃取稀土元素线"
 			tasks: [
 				{
@@ -4298,6 +4299,7 @@
 			dependencies: [
 				"09EBEB8F3415BB6E"
 				"55233E02B6C95444"
+				"766D051A40AB5324"
 			]
 			icon: "gtceu:impure_enriched_naquadah_solution_bucket"
 			id: "3703156457BD35FD"
@@ -4438,6 +4440,7 @@
 			dependencies: [
 				"36E8964CD1BE7569"
 				"55233E02B6C95444"
+				"766D051A40AB5324"
 			]
 			icon: "gtceu:impure_naquadria_solution_bucket"
 			id: "2F4E165431B56059"
@@ -5813,11 +5816,7 @@
 			y: 20.0d
 		}
 		{
-			dependencies: [
-				"5012177F0FB6BC2C"
-				"68A781120A98B0FB"
-				"34DA1056C723BAEA"
-			]
+			dependencies: ["5012177F0FB6BC2C"]
 			icon: "gtceu:zirconiu_hafnium_oxychloride_bucket"
 			id: "3E6B2E4FCD5A6E90"
 			tasks: [
@@ -5832,12 +5831,15 @@
 					type: "checkmark"
 				}
 			]
-			title: "锆-铪氢氧化物"
+			title: "锆-铪氯氧化物"
 			x: 43.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["3E6B2E4FCD5A6E90"]
+			dependencies: [
+				"3E6B2E4FCD5A6E90"
+				"68A781120A98B0FB"
+			]
 			icon: "gtceu:zirconium_oxide_dust"
 			id: "33CB831C7C78F646"
 			tasks: [
@@ -5856,7 +5858,10 @@
 			y: 20.0d
 		}
 		{
-			dependencies: ["3E6B2E4FCD5A6E90"]
+			dependencies: [
+				"3E6B2E4FCD5A6E90"
+				"68A781120A98B0FB"
+			]
 			icon: "gtceu:hafnium_oxide_dust"
 			id: "4CB84CD5BCE5E88C"
 			tasks: [
@@ -5894,26 +5899,6 @@
 			y: 21.0d
 		}
 		{
-			icon: "gtceu:hydrogen_peroxide_bucket"
-			id: "34DA1056C723BAEA"
-			shape: "pentagon"
-			tasks: [
-				{
-					id: "4EF2FA9E9D22B09C"
-					item: "gtceu:hydrogen_peroxide_bucket"
-					optional_task: true
-					type: "item"
-				}
-				{
-					id: "28A598DCBA732464"
-					type: "checkmark"
-				}
-			]
-			title: "过氧化氢"
-			x: 43.5d
-			y: 21.0d
-		}
-		{
 			icon: "gtceu:hematite_dust"
 			id: "68A781120A98B0FB"
 			shape: "pentagon"
@@ -5925,12 +5910,31 @@
 					type: "item"
 				}
 				{
-					id: "6E0A45357183F0C0"
+					id: "2F1C39FF26249527"
+					item: "gtceu:hydrogen_peroxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4DCB1F008FFF77DA"
+					item: "gtceu:sulfur_trioxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "564518C6DAB2D7B1"
+					item: "gtceu:potassium_hydroxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6A99D541D376E7F2"
 					type: "checkmark"
 				}
 			]
-			x: 42.0d
-			y: 19.0d
+			title: "其它材料"
+			x: 43.5d
+			y: 21.0d
 		}
 		{
 			dependencies: ["094804D1F190858B"]
@@ -5938,6 +5942,7 @@
 			icon_scale: 2.0d
 			id: "4D0ABB8BAB575DDC"
 			shape: "diamond"
+			subtitle: "在UEV会用到"
 			tasks: [
 				{
 					id: "2AA0689645DCE9D2"
@@ -6638,9 +6643,9 @@
 			subtitle: "forge:molten"
 			tasks: [{
 				id: "3F3605BFBBA3D0C7"
+				title: "熔融XX"
 				type: "checkmark"
 			}]
-			title: "熔融金属"
 			x: 7.5d
 			y: 8.5d
 		}
@@ -6675,7 +6680,7 @@
 			subtitle: "forge:plasmas"
 			tasks: [{
 				id: "755D300470DEE06F"
-				title: "等离子体"
+				title: "状态：等离子态"
 				type: "checkmark"
 			}]
 			x: 9.5d
@@ -7435,7 +7440,7 @@
 			description: [
 				"月球的结构中可能会有包含戴斯的箱子以及戴斯原矿"
 				""
-				"金星的结构里面有下界岩和远古残骸"
+				"金星的结构里面可能有下界岩和远古残骸"
 				""
 				"火星的神庙结构里面固定带有一个紫金块"
 			]
@@ -7784,6 +7789,477 @@
 			title: "硝酸铵溶液"
 			x: 23.0d
 			y: 17.0d
+		}
+		{
+			dependencies: ["7CBD79CE32AF8E30"]
+			icon: "gtceu:argon_bucket"
+			id: "73CAB219B444F14D"
+			subtitle: "forge:gases"
+			tasks: [{
+				id: "71EDCBA7450E2BA3"
+				title: "状态：气态"
+				type: "checkmark"
+			}]
+			title: "状态：气态"
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7CBD79CE32AF8E30"]
+			description: ["不包括熔融XX"]
+			icon: "gtceu:chaos_bucket"
+			id: "5F6743F253DAA00E"
+			subtitle: "forge:liquids"
+			tasks: [{
+				id: "531281C4D12E64E1"
+				title: "状态：液态"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4CD8D717657730DF"
+				"19F3E6426C5C7FCD"
+			]
+			icon: "gtceu:red_mud_bucket"
+			id: "6A97D3F6B0CE2C42"
+			subtitle: "艾萨线和稀土离心机也会产出"
+			tasks: [
+				{
+					id: "5C43373EB7CD8621"
+					item: "gtceu:red_mud_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "036C36DE94386A52"
+					type: "checkmark"
+				}
+			]
+			title: "赤泥"
+			x: 43.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A97D3F6B0CE2C42"]
+			icon: "gtceu:neutralised_red_mud_bucket"
+			id: "10DA22DCF8269EBE"
+			tasks: [
+				{
+					id: "31F9F43D155A5FCA"
+					item: "gtceu:neutralised_red_mud_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "22DD6C0C63B329DD"
+					type: "checkmark"
+				}
+			]
+			title: "中和赤泥"
+			x: 45.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10DA22DCF8269EBE"]
+			icon: "gtceu:red_slurry_bucket"
+			id: "7B36AF4885EF0CE8"
+			tasks: [
+				{
+					id: "6A294833F791BB00"
+					item: "gtceu:red_slurry_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "67AC9E23C437E2D9"
+					type: "checkmark"
+				}
+			]
+			title: "赤泥浆液"
+			x: 46.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10DA22DCF8269EBE"]
+			icon: "gtceu:ferric_ree_chloride_bucket"
+			id: "090B5ECF1E1446D0"
+			tasks: [
+				{
+					id: "5B7D2D6C4AFAA95D"
+					item: "gtceu:ferric_ree_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4F5685B409F43974"
+					type: "checkmark"
+				}
+			]
+			title: "含稀土氯化铁"
+			x: 45.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B36AF4885EF0CE8"]
+			icon: "gtceu:titanyl_sulfate_bucket"
+			id: "6506B06AD3678111"
+			tasks: [
+				{
+					id: "50FBFF7D602F24D2"
+					item: "gtceu:titanyl_sulfate_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03A3A20080ABAAD6"
+					type: "checkmark"
+				}
+			]
+			title: "硫酸钛酯"
+			x: 48.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6506B06AD3678111"]
+			icon: "gtceu:titanium_tetrachloride_bucket"
+			icon_scale: 2.0d
+			id: "2169CC60A6CD56B1"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "678B5AF630F7A692"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "235526F9624509CC"
+					type: "checkmark"
+				}
+			]
+			title: "四氯化钛"
+			x: 49.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["090B5ECF1E1446D0"]
+			icon: "gtceu:rare_earth_chlorides_bucket"
+			icon_scale: 2.0d
+			id: "0774EF5DC443A072"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "50EFAA286842158E"
+					item: "gtceu:rare_earth_chlorides_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "75C30F75C1C5C0D8"
+					type: "checkmark"
+				}
+			]
+			title: "稀土氯化物"
+			x: 46.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["090B5ECF1E1446D0"]
+			icon: "gtceu:iron_iii_chloride_bucket"
+			id: "0C9C6415D9DEE550"
+			tasks: [
+				{
+					id: "661C77AF088538AF"
+					item: "gtceu:iron_iii_chloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "68E2EB5519D20F8B"
+					type: "checkmark"
+				}
+			]
+			title: "氯化铁"
+			x: 45.0d
+			y: 1.0d
+		}
+		{
+			icon: "gtceu:sodium_hydroxide_solution_bucket"
+			id: "19F3E6426C5C7FCD"
+			tasks: [
+				{
+					id: "58C96DADA3FC3AE2"
+					item: "gtceu:sodium_hydroxide_solution_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2A6B540F46124DFE"
+					type: "checkmark"
+				}
+			]
+			title: "氢氧化钠溶液"
+			x: 43.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F7ECACBB30F2E15"]
+			icon: "gtceu:stone_dust_residue_dust"
+			id: "4CD8D717657730DF"
+			subtitle: "下一步产出的精良残渣粉是塔兰的相关物品"
+			tasks: [
+				{
+					id: "1539BCE6AE619FDC"
+					item: "gtceu:stone_dust_residue_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6750A96A94FA0742"
+					type: "checkmark"
+				}
+			]
+			x: 42.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5E8F9D81FB483A5A"]
+			icon: "gtceu:dirty_hexafluorosilicic_acid_bucket"
+			id: "6F7ECACBB30F2E15"
+			tasks: [
+				{
+					id: "712C1798B874F30A"
+					item: "gtceu:dirty_hexafluorosilicic_acid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "361D7F63E96FC3FD"
+					type: "checkmark"
+				}
+			]
+			title: "污浊的六氟硅酸"
+			x: 40.5d
+			y: -1.0d
+		}
+		{
+			id: "605B973142727552"
+			tasks: [{
+				id: "3A16890A86764715"
+				title: "赤泥"
+				type: "checkmark"
+			}]
+			x: 39.0d
+			y: -2.0d
+		}
+		{
+			icon: "gtceu:stone_dust"
+			id: "5E8F9D81FB483A5A"
+			tasks: [
+				{
+					id: "61272BA88B86AB2A"
+					item: "gtceu:stone_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63AA3C297DA290EE"
+					type: "checkmark"
+				}
+			]
+			x: 39.0d
+			y: -1.0d
+		}
+		{
+			description: ["熔岩的来源可以是熔岩炉或者虚空流体钻机"]
+			icon: "minecraft:lava_bucket"
+			id: "6589FF5D2A68B509"
+			tasks: [
+				{
+					id: "153DAD5549258C4B"
+					item: "gtceu:silicon_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "414CB8B8749E0B60"
+					item: "gtceu:magnesia_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "768A658ACFF5125F"
+					item: "gtceu:quicklime_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7C9B0CFA4ADE2266"
+					item: "minecraft:gold_nugget"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "06521653BB2E263C"
+					item: "gtceu:sapphire_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6B1B837C2BAB8145"
+					item: "gtceu:tantalite_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16D8FC6E4F725221"
+					type: "checkmark"
+				}
+			]
+			title: "熔岩的产出"
+			x: 49.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4FD556B867463D30"]
+			id: "5DF5B7470FF81C80"
+			tasks: [{
+				id: "5A8293F9BBF582C1"
+				title: "三种宝石浆液"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["5DF5B7470FF81C80"]
+			icon: "gtceu:ruby_slurry_bucket"
+			id: "0B4B79CC02E2FF3E"
+			tasks: [
+				{
+					id: "0D16B4781555A5EA"
+					item: "gtceu:aluminium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2570FDD28B29072C"
+					item: "gtceu:chromium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12E0480691247C4C"
+					item: "gtceu:iron_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24CD83A83EFEA66E"
+					item: "gtceu:vanadium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BA899BD43D351D4"
+					item: "gtceu:titanium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2F592430C85BFE90"
+					type: "checkmark"
+				}
+			]
+			title: "红宝石浆液"
+			x: 16.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["5DF5B7470FF81C80"]
+			icon: "gtceu:sapphire_slurry_bucket"
+			id: "36B91BD999443B6A"
+			tasks: [
+				{
+					id: "5F5AD8986FDB3096"
+					item: "gtceu:aluminium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1984D4EB00C4B3E0"
+					item: "gtceu:titanium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2883B6945D07C500"
+					item: "gtceu:iron_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "753602A3057D9B97"
+					item: "gtceu:vanadium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59DC3739142B80FF"
+					type: "checkmark"
+				}
+			]
+			title: "蓝宝石浆液"
+			x: 17.0d
+			y: 25.0d
+		}
+		{
+			dependencies: ["5DF5B7470FF81C80"]
+			icon: "gtceu:green_sapphire_slurry_bucket"
+			id: "49AA718B9CABF90E"
+			tasks: [
+				{
+					id: "18CB66816BAEACBF"
+					item: "gtceu:aluminium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0E0050107AFEF884"
+					item: "gtceu:beryllium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "623ACF7B4D99EA77"
+					item: "gtceu:titanium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "658D271E4122A427"
+					item: "gtceu:iron_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7E138D8D54CE4832"
+					item: "gtceu:vanadium_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1EFBC72BBD40B26D"
+					type: "checkmark"
+				}
+			]
+			title: "绿色蓝宝石浆液"
+			x: 15.0d
+			y: 25.0d
 		}
 	]
 	title: "原料提取"

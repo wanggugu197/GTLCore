@@ -10,7 +10,7 @@
 		id: "0DE52ED40E51ADE2"
 		linked_quest: "3EAC914AA2073B05"
 		shape: "diamond"
-		x: 12.0d
+		x: 14.0d
 		y: 2.0d
 	}]
 	quests: [
@@ -24,7 +24,7 @@
 				item: "gtceu:iv_mixer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -93,7 +93,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1F0956C3BD4745A1"]
+			dependencies: [
+				"1F0956C3BD4745A1"
+				"27BA6EBA81622516"
+			]
 			description: [
 				"现在可以制作单方块机器的大型版本，能更好的升压超频，以及获得更高的并行"
 				""
@@ -123,12 +126,12 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
-			description: ["你可以用IV搅拌机做，也可以用合金冶炼炉"]
+			description: ["你可以用IV搅拌机做，也可以用合金冶炼炉做"]
 			hide_dependent_lines: true
 			id: "4BFA114E12BCB163"
 			shape: "gear"
@@ -367,7 +370,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -389,8 +392,8 @@
 				}
 			]
 			title: "IV传感器与发射器"
-			x: 12.0d
-			y: 4.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -433,7 +436,7 @@
 				"27BA6EBA81622516"
 				"25F272243EB904D5"
 			]
-			description: ["不会是最后一种小电路组装机"]
+			description: ["可能是最后一种小电路组装机"]
 			id: "027B25761BD830C8"
 			tasks: [{
 				id: "57AB73EF21D31E54"
@@ -474,7 +477,7 @@
 				item: "gtceu:hpic_chip"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
@@ -495,15 +498,18 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"7DCA0B7C9F3C3ACF"
-				"0526B4AC0CAF99A5"
 				"3ECA33037D940EAB"
 			]
-			description: ["&9IV&r超导体"]
+			description: [
+				"&9IV&r超导体"
+				""
+				"你可以用IV搅拌机做，也可以用合金冶炼炉做"
+			]
 			id: "02D426BE0947F123"
 			tasks: [{
 				id: "4FD9779EEB7F7F57"
@@ -545,7 +551,7 @@
 				item: "gtceu:iv_cutter"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -561,7 +567,7 @@
 				type: "item"
 			}]
 			title: "新的玻璃"
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -707,14 +713,14 @@
 			id: "365298DB6520227A"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "核电，氢铒铱锔锕！"
+			subtitle: "核电，轻而易举啊！"
 			tasks: [{
 				id: "2599970FD2D9C38B"
 				item: "gtceu:fission_reactor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
@@ -733,10 +739,10 @@
 				""
 				"标签库存总线使用方式与标签存储总线相同"
 				""
-				"注意：由于在进入存档时AE需要重新组网，库存仓室会在一段很短的时间内断网"
-				"在同一个多方块结构中的多个库存输入仓/总线不能标记相同的内容物"
+				"注意：1.由于在进入存档时AE需要重新组网，库存仓室会在一段很短的时间内断网进而导致无法使机器获得输入"
+				""
+				"2.在同一个多方块结构中的多个库存输入仓/总线不能标记相同的内容物"
 			]
-			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "5608182772E855EC"
 			optional: true
@@ -771,8 +777,8 @@
 				}
 			]
 			title: "ME库存仓室"
-			x: 16.0d
-			y: 2.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7D8241E627194099"]
@@ -790,7 +796,7 @@
 				"0526B4AC0CAF99A5"
 				"3CB16B36A5AA2A10"
 			]
-			description: ["这个合金只有搅拌机配方"]
+			description: ["不幸的是，这个合金不能用合金冶炼炉直接制作"]
 			id: "7D8241E627194099"
 			tasks: [{
 				id: "21095623F1E9DBD4"
@@ -857,7 +863,11 @@
 		}
 		{
 			dependencies: ["27BA6EBA81622516"]
-			description: ["64并行真空冷冻机"]
+			description: [
+				"64并行真空冷冻机"
+				""
+				"&m我知道液态冰听起来很荒诞，但就是注册了这个东西&r"
+			]
 			icon_scale: 1.3d
 			id: "4C4081C79D227D1F"
 			rewards: [{
@@ -874,8 +884,8 @@
 				item: "gtceu:cold_ice_freezer"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 2.0d
+			x: 12.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -922,6 +932,8 @@
 				"也可以用超临界钠钾合金获得超临界蒸汽，用于给超临界蒸汽涡轮发电"
 				""
 				"除了热钠钾合金的配方，热交换机并不受可配置维护仓的影响"
+				""
+				"热钠钾合金来自低温(≤825K)裂变堆，超临界钠钾合金来自高温(>825K)裂变堆"
 			]
 			icon_scale: 2.0d
 			id: "24CE67689DD540B7"

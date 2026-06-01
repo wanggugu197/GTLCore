@@ -17,7 +17,6 @@
 	quests: [
 		{
 			dependencies: ["516AA655EF6CBBF0"]
-			description: [""]
 			hide_until_deps_visible: false
 			id: "0F04364907145AF1"
 			optional: true
@@ -112,7 +111,7 @@
 		{
 			dependencies: ["1B664763E9558755"]
 			description: [
-				"空岛特供机器    不可超频"
+				"空岛特供机器    超频不可超过1A ZPM功率"
 				""
 				"在&5EV&r后期就能制作了"
 			]
@@ -141,7 +140,7 @@
 			optional: true
 			rewards: [{
 				id: "3DF6CF1997E498F4"
-				item: "gtlcore:world_fragments_reactor"
+				item: "gtlcore:world_fragments_overworld"
 				type: "item"
 			}]
 			subtitle: "你不用去往其他维度挖掘矿物了"
@@ -156,7 +155,6 @@
 		}
 		{
 			dependencies: ["7F78340CB4A8EC59"]
-			description: [""]
 			hide_until_deps_visible: false
 			id: "7C24D5FD2C008BD4"
 			optional: true
@@ -478,7 +476,7 @@
 				""
 				"开局的那块地有草方块，如果没了可以去超平坦挖"
 				""
-				"下界和主世界类似，除了下界要塞全是虚空，其他维度的地形仍然正常生成&m并不像一开始的任务里面说的一样"
+				"下界只会生成下界要塞，末地只剩下主岛，其他维度的地形仍然正常生成&m并不像一开始的任务里面说的一样"
 				"&r"
 				"西瓜/南瓜/甜菜种子、仙人掌从流浪商人处获取&m也可以到小市场买&r"
 				""

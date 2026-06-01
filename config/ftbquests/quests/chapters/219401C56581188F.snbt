@@ -422,13 +422,11 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"77BE1524AABF6003"
-				"34D6F0DF329B1877"
-			]
+			dependencies: ["77BE1524AABF6003"]
 			description: ["你可以用魔金等离子制作，也可以用超临界合成机制作"]
 			hide_dependent_lines: true
 			id: "369DCD1E26334632"
+			subtitle: "UIV部件材料"
 			tasks: [{
 				id: "1758AC8CF4E9EC2B"
 				item: "gtceu:attuned_tengam_ingot"
@@ -533,7 +531,7 @@
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
-			description: ["通过注入龙力的黑曜石循环增产"]
+			description: ["可以通过注入龙力的黑曜石循环增产"]
 			hide_dependent_lines: true
 			id: "192B626CF217FDBC"
 			tasks: [{
@@ -740,22 +738,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2AA6041AC73CD47E"]
-			description: ["在1阶的基础上升级"]
-			hide_dependency_lines: true
-			icon_scale: 1.5d
-			id: "1C4D5D7786F64485"
-			shape: "rsquare"
-			subtitle: "需放入中子素纳米蜂群"
-			tasks: [{
-				id: "2EA2C34D0708CF9A"
-				item: "gtceu:nano_forge_2"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"2DD8E128C6E3E41D"
 				"1F5B121C6647E2CA"
@@ -820,7 +802,7 @@
 				""
 				"高速模式用于快速提升温度，并不会影响最终效率"
 				""
-				"温度传感器的安装位置位于主机正下方的超能核心"
+				"温度传感器的安装/替换位置位于主机正下方的超能核心"
 			]
 			icon: "gtceu:advanced_infinite_driller"
 			icon_scale: 2.0d
@@ -998,6 +980,7 @@
 				"783379F3A7557CEE"
 				"369DCD1E26334632"
 			]
+			description: ["你现在可以直接磁化谐镃粉了"]
 			hide_dependency_lines: true
 			id: "31AA3CEE0C967212"
 			tasks: [{
@@ -1007,6 +990,51 @@
 			}]
 			x: 14.0d
 			y: 4.0d
+		}
+		{
+			id: "788621675279AC20"
+			optional: true
+			rewards: [{
+				command: "/locate structure minecraft:ancient_city"
+				elevate_perms: true
+				icon: "minecraft:warden_spawn_egg"
+				id: "38C944D8B95E71FE"
+				title: "快速定位古城"
+				type: "command"
+			}]
+			size: 0.5d
+			tasks: [{
+				id: "6A524513170EB8B1"
+				type: "checkmark"
+			}]
+			title: "如果你懒得跑图"
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"208FB88A70036325"
+				"35C982D71C6154FA"
+				"26607B94D873E07A"
+			]
+			description: [
+				"培养缸，酿造室和发酵槽的激光版本，拥有无损超频"
+				""
+				"只能使用&e除菌过滤器机械方块"
+			]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "1840382ADB062735"
+			optional: true
+			shape: "rsquare"
+			subtitle: "更大，更强"
+			tasks: [{
+				id: "50B72C92EADBD68B"
+				item: "gtceu:huge_incubator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

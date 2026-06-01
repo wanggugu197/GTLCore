@@ -277,19 +277,32 @@
 			}
 			id: "525ED642C7A365D1"
 			optional: true
-			rewards: [{
-				command: "/effect give @p minecraft:night_vision infinite 0 true"
-				elevate_perms: true
-				exclude_from_claim_all: true
-				icon: {
-					Count: 1
-					id: "gtceu:nightvision_goggles"
-					tag: { }
+			rewards: [
+				{
+					command: "/effect give @p minecraft:night_vision infinite 0 true"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "gtceu:nightvision_goggles"
+						tag: { }
+					}
+					id: "08BEFC60D3DA3529"
+					title: "看破黑暗"
+					type: "command"
 				}
-				id: "08BEFC60D3DA3529"
-				title: "看破黑暗"
-				type: "command"
-			}]
+				{
+					auto: "invisible"
+					command: "/effect clear @p minecraft:night_vision"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "gtceu:milk_bucket"
+					id: "53A6BC3530F811BE"
+					silent: true
+					title: "自动清除原有的夜视效果防bug，无视即可"
+					type: "command"
+				}
+			]
 			tasks: [{
 				id: "0F388023136A8A7C"
 				title: "获得夜视"
@@ -500,6 +513,25 @@
 					}
 					type: "item"
 				}
+				{
+					id: "134DA9B09434EE22"
+					item: {
+						Count: 1
+						id: "gtceu:polybenzimidazole_plunger"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: { }
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 10
+								MaxDamage: 1023
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -599,11 +631,19 @@
 			dependencies: ["133BC85B5D3EF1CB"]
 			description: ["蒸汽时代主要材料"]
 			id: "4B6F43302E963F5E"
-			rewards: [{
-				id: "45521EDF902431C8"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "45521EDF902431C8"
+					item: "gtceu:cupronickel_credit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72E40163E169A592"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "57C6A23ADA9034AA"
 				item: "gtceu:bronze_ingot"
@@ -735,12 +775,19 @@
 			description: ["使用铁砧升级"]
 			id: "0A047A198C30D7FD"
 			optional: true
-			rewards: [{
-				count: 7
-				id: "0E8E94B52A21BFCA"
-				item: "toolbelt:pouch"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 7
+					id: "0E8E94B52A21BFCA"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "6BB7B6C2BB52BAC1"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
 			tasks: [{
 				id: "7A23943381FB2DC4"
 				item: "toolbelt:belt"
@@ -1433,6 +1480,7 @@
 				"重复结构次数适用于蒸馏塔等可多层叠加的多方块结构，简单来说数字越大结构越长"
 			]
 			id: "1A124E85453923DF"
+			optional: true
 			rewards: [{
 				id: "17FC55AEB50BEEE0"
 				item: "gtceu:cupronickel_credit"
@@ -1740,8 +1788,6 @@
 			dependencies: ["4AB25C15F0B05AA0"]
 			description: [
 				"{ \"text\": \"你应该已经知道怎么用了\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"262671AC71B36736\" } }"
-				""
-				"右键除了多方块结构主机以外的方块可以在镜像和普通模式之间切换&mtooltip里面的是错的"
 				"{@pagebreak}"
 				"有可能导致崩溃"
 			]
@@ -1870,22 +1916,24 @@
 		{
 			dependencies: [
 				"1A124E85453923DF"
-				"40C39645B1DE2488"
+				"027197A71E630966"
 			]
 			description: [
 				"在高级终端的基础上支持&b替换&r线圈、太空电梯动力模块、部件装配线外壳和恒星热力容器（鼠标点击“等级方块”文字打开选择等级方块界面）"
 				""
 				"还支持&b镜像放置&r多方块结构，无仓室模式也会持续生效，甚至可以放置流体（识别身上的流体桶、远海鲸吞之桶、ME网络里面的流体）"
 				""
-				"同时支持&b绑定AE&r，从ME网络直接拉取材料搭建多方块结构（潜行右键任意ME网络内的组件绑定）"
+				"同时支持&b绑定AE&r，从ME网络直接拉取材料搭建多方块结构（潜行右键任意ME网络内的组件绑定；不支持直接跨维度，需要在两个维度均存在同一ME网络组件）"
 				""
 				"也支持&d一键拆解&r多方块结构（开启AE模式直接返回ME网络，不开启时建议身上携带背包等容器；只有AE模式才能回收流体）"
 			]
 			id: "3F8DDC1B589F52AC"
+			optional: true
 			rewards: [{
-				id: "7878F01FAAB84253"
-				item: "gtceu:cupronickel_credit"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "59FDA77962C18357"
+				table_id: 6225023274141477362L
+				type: "random"
 			}]
 			shape: "pentagon"
 			tasks: [{

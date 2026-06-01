@@ -1334,6 +1334,7 @@
 		}
 		{
 			dependencies: ["1443E064A0AB0B8B"]
+			description: ["现在这台机器&l&o可以&r双仓升压了"]
 			icon_scale: 1.3d
 			id: "18252D602561E4A9"
 			rewards: [{

@@ -922,6 +922,7 @@
 				"7B41D6C27938103B"
 				"5D91DBEE7A88C468"
 			]
+			description: ["英文原文就和化学式对不上，化学式对应的物质为2-噻吩甲酰三氟丙酮"]
 			icon: "gtceu:trifluoroacetic_phosphate_ester_dust"
 			id: "489CD0F35D53FA81"
 			subtitle: "催化剂"
@@ -1182,6 +1183,7 @@
 				"3ACE24C4CD948728"
 			]
 			dependency_requirement: "one_completed"
+			description: ["极端酸性物质"]
 			icon: "gtceu:fluorocarborane_dust"
 			id: "0D33E584F073EDAC"
 			subtitle: "可以回收三甲基硅烷，氧化银和铯粉"
@@ -1728,9 +1730,9 @@
 		}
 		{
 			dependencies: ["64166D3B9F4A817F"]
-			description: ["可以在循环中回收"]
 			icon: "gtceu:antimony_trifluoride_dust"
 			id: "296EC483F90323C3"
+			subtitle: "可以在循环中回收"
 			tasks: [
 				{
 					id: "645AD8E66B3E9722"
@@ -3054,6 +3056,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "甲胺"
 			x: -4.5d
 			y: 15.0d
 		}
@@ -4173,6 +4176,7 @@
 					type: "checkmark"
 				}
 			]
+			title: "乙酸乙烯酯"
 			x: -24.0d
 			y: 3.0d
 		}
@@ -4829,7 +4833,6 @@
 				"2C184648D47B9426"
 				"02FB675C76544394"
 			]
-			description: [""]
 			hide_dependent_lines: true
 			icon: "gtceu:stem_cells"
 			icon_scale: 2.0d
@@ -6171,7 +6174,7 @@
 				}
 				{
 					id: "0AAA7A91ECD511FA"
-					item: "gtceu:tin_dust"
+					item: "gtceu:zinc_dust"
 					optional_task: true
 					type: "item"
 				}
@@ -6180,7 +6183,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基苯和锡粉"
+			title: "硝基苯和锌粉"
 			x: 16.5d
 			y: -3.0d
 		}
