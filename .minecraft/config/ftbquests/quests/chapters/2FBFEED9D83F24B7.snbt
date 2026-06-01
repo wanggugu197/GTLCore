@@ -215,7 +215,7 @@
 				"02401278940CE1F3"
 			]
 			description: [
-				"可以代替恒星锻炉（&6恒星热能熔炼&r模式只能使用&e超级热容线圈&r，可运行该模式的&b所有配方&r）"
+				"可以代替恒星炎炀锻炉（&6恒星热能熔炼&r模式只能使用&e超级热容线圈&r，可运行该模式的&b所有配方&r）"
 				""
 				"你一定记得锻造锤右键机器主机可以静音机器的，对吧？"
 			]
@@ -337,10 +337,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"6D6BE75CB79C7901"
-				"1C4D5D7786F64485"
-			]
+			dependencies: ["6D6BE75CB79C7901"]
 			description: ["搅拌机的激光版本，拥有无损超频，还有另一种重要用途"]
 			icon_scale: 2.0d
 			id: "29A581C935A339DD"
@@ -434,7 +431,6 @@
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
-			description: ["你得用UEV能源仓"]
 			id: "76B16D5AEF5AE346"
 			tasks: [{
 				id: "57160CEA2FCA306C"
@@ -567,6 +563,7 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
+			description: ["也许你可以考虑使用巨构来解决蒸发塔和等离子冷凝器速度过慢的问题"]
 			hide_dependent_lines: true
 			icon: "gtceu:grade_16_purified_water_bucket"
 			id: "6FE5409DB7A22427"
@@ -655,31 +652,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"208FB88A70036325"
-				"35C982D71C6154FA"
-				"26607B94D873E07A"
-			]
-			description: [
-				"培养缸的激光版本，拥有无损超频"
-				""
-				"只能使用&e除菌过滤器机械方块"
-			]
-			hide_dependency_lines: true
-			icon_scale: 1.5d
-			id: "1840382ADB062735"
-			optional: true
-			shape: "rsquare"
-			subtitle: "更大，更强"
-			tasks: [{
-				id: "50B72C92EADBD68B"
-				item: "gtceu:huge_incubator"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["2AA6041AC73CD47E"]
 			id: "4D3EB703FB712F20"
 			tasks: [{
@@ -719,7 +691,7 @@
 				item: "gtlcore:fast_conversion_simulate_card"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 8.0d
 		}
 		{
@@ -748,6 +720,22 @@
 			}]
 			x: 12.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["2AA6041AC73CD47E"]
+			description: ["在1阶的基础上升级"]
+			hide_dependent_lines: true
+			icon_scale: 1.5d
+			id: "1C4D5D7786F64485"
+			shape: "rsquare"
+			subtitle: "需放入中子素纳米蜂群"
+			tasks: [{
+				id: "2EA2C34D0708CF9A"
+				item: "gtceu:nano_forge_2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

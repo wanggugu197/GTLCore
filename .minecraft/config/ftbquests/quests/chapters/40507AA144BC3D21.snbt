@@ -110,6 +110,7 @@
 				"5A61ABB6E4917C6C"
 				"6477FF81781A9FC7"
 			]
+			description: ["第二个超立方体配方涉及超立方-超时空金属循环和超立方-富快子时间/扩大化空间循环，自行斟酌使用"]
 			icon_scale: 2.0d
 			id: "11A7CCFCEAB722F3"
 			tasks: [{
@@ -185,7 +186,6 @@
 				"0A6C5B3C148A5743"
 				"34609EBF66099F47"
 			]
-			description: ["最后也是最强的&cM&r&aA&r&9X&r&e超&r&5导&r&b体&r"]
 			id: "04420B8E0278D7AD"
 			tasks: [{
 				id: "3E9CC39D122292BB"
@@ -244,8 +244,8 @@
 				item: "kubejs:suprachronal_mainframe_complex"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -5.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -279,7 +279,7 @@
 			id: "0610CD9378D8B0AD"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "可以把你最高级别的激光仓填满"
+			subtitle: "小太阳"
 			tasks: [{
 				id: "50D76B27937DC429"
 				item: "gtceu:annihilate_generator"
@@ -315,18 +315,19 @@
 		}
 		{
 			dependencies: [
-				"414F9C645C799FAE"
-				"32186EFF7020D432"
+				"04420B8E0278D7AD"
+				"72B80ADFE77198DD"
 			]
-			dependency_requirement: "one_completed"
+			description: ["需要所有的世界加速器"]
+			hide_dependency_lines: true
 			id: "3F2335911E21E042"
 			tasks: [{
 				id: "331D93B6C432E57A"
 				item: "kubejs:dimension_creation_casing"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -3.0d
+			x: 9.0d
+			y: -5.0d
 		}
 		{
 			dependencies: [
@@ -467,7 +468,6 @@
 			dependencies: ["30AEBB08CE6C88BA"]
 			icon_scale: 2.0d
 			id: "1A37218D0F8BE570"
-			subtitle: "你得用电弧炉"
 			tasks: [
 				{
 					id: "39E4F5145C784E3D"
@@ -505,9 +505,13 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["3FBFE193579C28E3"]
+			dependencies: [
+				"3FBFE193579C28E3"
+				"3A89C534A7AE9E33"
+			]
 			icon: "gtceu:exciteddtsc_bucket"
 			id: "53598E77317EAEB6"
+			subtitle: "除了等离子体还有浓缩混合超能燃料"
 			tasks: [{
 				id: "3AC5007EE51C1247"
 				type: "checkmark"
@@ -517,7 +521,10 @@
 			y: -9.0d
 		}
 		{
-			dependencies: ["63EE8AA3FC07B820"]
+			dependencies: [
+				"63EE8AA3FC07B820"
+				"72B80ADFE77198DD"
+			]
 			id: "697D33BB516A0785"
 			tasks: [{
 				id: "0580E4A94F454C6E"

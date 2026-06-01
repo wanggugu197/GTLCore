@@ -1,7 +1,7 @@
 {
 	id: "2F9450F98D3CF18C"
 	loot_size: 1
-	order_index: 1
+	order_index: 2
 	rewards: [
 		{ item: "gtceu:aluminium_single_cable", weight: 0.8f }
 		{ item: "gtceu:aluminium_double_cable", weight: 0.8f }

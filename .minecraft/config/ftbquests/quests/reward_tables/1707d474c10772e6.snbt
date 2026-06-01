@@ -1,7 +1,7 @@
 {
 	id: "1707D474C10772E6"
 	loot_size: 1
-	order_index: 11
+	order_index: 14
 	rewards: [
 		{ count: 64, item: "minecraft:wheat_seeds" }
 		{ count: 64, item: "minecraft:pumpkin_seeds" }

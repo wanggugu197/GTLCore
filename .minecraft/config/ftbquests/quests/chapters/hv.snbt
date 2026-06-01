@@ -52,10 +52,15 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["4DDF10E2B541BCBF"]
+			dependencies: ["1C320B245EAC8D14"]
 			description: ["这个系列的最后一个电路"]
 			icon_scale: 2.0d
 			id: "7940CFD732610594"
+			rewards: [{
+				id: "1F569A837DBC3D5A"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.0d
 			tasks: [{
@@ -65,22 +70,6 @@
 			}]
 			x: 10.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["1C320B245EAC8D14"]
-			id: "4DDF10E2B541BCBF"
-			rewards: [{
-				id: "3815B8B981E6F460"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "054FD71E04CD34FC"
-				item: "gtceu:hv_circuit_assembler"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["4302F67F2B0B22D0"]
@@ -403,6 +392,8 @@
 				""
 				"蒸馏塔除底层外每层&o&6仅能且必须&r放置一个&b小型&r输出仓，每个输出仓对应一种产物（可以自行叠高，高度无任何附加加成）"
 				"有且仅有&6底层&r可以使用&b输出总成&r，能够减少高度，如果使用&dME输出总成&r甚至可以只造三层"
+				""
+				"热解炉的速度加成上限为&a500%&r，裂化机的耗能加成下限为&a10%&r"
 			]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
@@ -597,7 +588,7 @@
 		}
 		{
 			dependencies: ["06F68B574AC84B7B"]
-			description: ["铂可以靠汞浸洗或者研磨镍矿获得。"]
+			description: ["铂可以靠汞浸洗或者研磨镍矿提前获得。"]
 			id: "157A951DA379C259"
 			rewards: [{
 				id: "22590F01A2B5B20C"
@@ -660,7 +651,7 @@
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"实际上拥有&b无损超频&r，且拥有&6专属高级配方&r（神奇的24号电路），比通用混合厂强大"
+				"拥有&b无损超频&r，且拥有&6专属高级配方&r（神奇的24号电路），比通用混合厂强大"
 				""
 				"只能使用&e白铜线圈"
 			]
@@ -737,9 +728,10 @@
 		}
 		{
 			dependencies: ["360787FE602FBF66"]
-			description: ["还可以用于增产塑料"]
+			description: ["{ \"text\": \"你也可以不上天就弄到四氯化钛\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"605B973142727552\" } } "]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
+			subtitle: "还可以用于增产塑料"
 			tasks: [{
 				id: "2B5DDF34950566F1"
 				type: "checkmark"
@@ -799,7 +791,6 @@
 				""
 				"HV的正经超导是汞钡钙铜氧化物"
 			]
-			hide_dependency_lines: true
 			id: "46BFDB71190C1F49"
 			rewards: [{
 				id: "21D42C7B4D0E84C3"
@@ -812,8 +803,8 @@
 				item: "gtceu:vibrant_alloy_ingot"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
@@ -835,7 +826,13 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["可以将宝石粉变为宝石"]
+			description: [
+				"可以将宝石粉变为宝石"
+				""
+				"觉得吓人？用&b锻造锤&r右键让其安静下来"
+				""
+				"压缩箱子会造成奇怪的nbt识别问题，谨慎使用"
+			]
 			icon_scale: 1.5d
 			id: "58936CEB6176A18B"
 			rewards: [{
@@ -858,6 +855,11 @@
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true
+			rewards: [{
+				id: "0886A5BDFA846AF5"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
 			subtitle: "有bug，不建议使用"
 			tasks: [{
 				id: "495F1F2B39DC8C3A"
@@ -869,25 +871,18 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: [
-				"只能使用&e坎塔尔合金线圈&r"
-				""
-				"可能是你的第一台跨配方并行机器（有了并行控制仓才能体现出来）"
-				""
-				"{ \"text\": \"也可能是进阶熔炉\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5549BBB07626B52C\" } }"
-			]
-			hide_dependency_lines: true
+			description: ["只能使用&e坎塔尔合金线圈&r"]
 			icon_scale: 1.5d
 			id: "0752A7F2C67CDF76"
-			optional: true
 			shape: "rsquare"
+			subtitle: "一步脱硫"
 			tasks: [{
 				id: "44035FCFBB02978D"
 				item: "gtceu:desulfurizer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 8.0d
+			x: 8.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]

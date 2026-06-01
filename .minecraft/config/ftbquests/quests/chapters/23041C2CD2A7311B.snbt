@@ -12,7 +12,7 @@
 			linked_quest: "559836CC234447C0"
 			shape: "gear"
 			size: 2.0d
-			x: -2.0d
+			x: -4.0d
 			y: -4.0d
 		}
 		{
@@ -20,15 +20,15 @@
 			linked_quest: "26607B94D873E07A"
 			shape: "gear"
 			size: 2.0d
-			x: -4.0d
-			y: -4.0d
+			x: 2.0d
+			y: 4.0d
 		}
 		{
 			id: "19AA2337A0F120D6"
 			linked_quest: "63C77EE3C70E20E7"
 			shape: "gear"
 			size: 2.0d
-			x: 0.0d
+			x: -1.0d
 			y: -4.0d
 		}
 	]
@@ -44,7 +44,7 @@
 				item: "kubejs:contained_high_density_protonic_matter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 4.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				item: "gtceu:crystalmatrix_ingot"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 2.0d
 		}
 		{
@@ -74,7 +74,7 @@
 				item: "gtceu:starmetal_ingot"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -98,7 +98,7 @@
 				type: "item"
 			}]
 			title: "星辉线圈"
-			x: 2.0d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -115,7 +115,7 @@
 				item: "gtceu:draconium_dust"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: -2.0d
 		}
 		{
@@ -266,7 +266,7 @@
 				title: "自由质子"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -277,12 +277,11 @@
 				item: "kubejs:space_probe_mk2"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["41B4A5048EBCE287"]
-			description: [""]
 			icon: "gtceu:liquid_starlight_bucket"
 			id: "6FF53B92BA6D2370"
 			tasks: [{
@@ -290,7 +289,7 @@
 				title: "星能液"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -302,7 +301,7 @@
 				item: "kubejs:resonating_gem"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 		{
@@ -396,7 +395,7 @@
 				item: "kubejs:contained_exotic_matter"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 4.0d
 		}
 		{
@@ -425,7 +424,7 @@
 				item: "gtceu:dragon_egg_copier"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -4.0d
 			y: -2.0d
 		}
 		{
@@ -457,7 +456,6 @@
 				"&e8/16级净化水 富勒烯聚合体基体末 塔兰&r"
 				"&1扩大化空间流体 拉多X气&r"
 			]
-			hide_dependency_lines: true
 			icon_scale: 1.3d
 			id: "2A29DA4239E6BA44"
 			shape: "hexagon"
@@ -468,8 +466,8 @@
 				item: "gtceu:qft"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -507,6 +505,7 @@
 				"76C086C1C346355A"
 				"44F9AF619F87974F"
 				"6F7D79B8EA4FBF46"
+				"5A61ABB6E4917C6C"
 			]
 			icon_scale: 2.0d
 			id: "30AC80FE245A38E0"
@@ -583,8 +582,8 @@
 				item: "kubejs:nuclear_clock"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -597,7 +596,7 @@
 				item: "kubejs:nuclear_star"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 12.0d
 			y: 2.0d
 		}
 		{
@@ -621,7 +620,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -639,21 +638,24 @@
 				item: "avaritia:infinity_catalyst"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 14.0d
 			y: 4.0d
 		}
 		{
-			dependencies: ["01EE0F4156F0578B"]
+			dependencies: [
+				"01EE0F4156F0578B"
+				"74186877DB7DBE4D"
+			]
 			description: ["会用到有点贵的&6高耐久等离子体容器"]
+			hide_dependency_lines: true
 			id: "5A61ABB6E4917C6C"
-			subtitle: "还要用量子色动力学爆弹"
 			tasks: [{
 				id: "3BDF193D7E2C7B39"
 				item: "gtceu:cosmicneutronium_ingot"
 				type: "item"
 			}]
 			x: 14.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["02401278940CE1F3"]
@@ -665,8 +667,8 @@
 				item: "gtceu:periodicium_ingot"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.0d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5A61ABB6E4917C6C"]
@@ -676,8 +678,8 @@
 				item: "kubejs:highly_dense_polymer_plate"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 4.0d
+			x: 15.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -735,13 +737,12 @@
 				item: "gtceu:uxv_energy_input_hatch"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -2.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
 			description: ["可以用来复制比较稀缺或者制取麻烦的元素和同位素"]
-			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "46C33CC4A1420A10"
 			optional: true
@@ -753,7 +754,7 @@
 				item: "gtceu:element_copying"
 				type: "item"
 			}]
-			x: -4.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
@@ -772,7 +773,7 @@
 				item: "kubejs:space_drone_mk6"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -785,7 +786,6 @@
 				""
 				"只能使用&e泰坦钢线圈方块&r"
 			]
-			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "6C84DCF091D31F16"
 			optional: true
@@ -802,7 +802,6 @@
 		{
 			dependencies: ["4C667361F07F4243"]
 			description: ["在2阶的基础上升级，记得将&e装配线外壳&r更换为&b进阶装配线外壳&r"]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "6C1AB68CC57D8670"
@@ -813,29 +812,28 @@
 				item: "gtceu:nano_forge_3"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"6C1AB68CC57D8670"
 				"233C152024BACC4E"
-				"375DD76CAEAD2CE1"
-				"3CE5E9F78C13E1CD"
+				"622395061792FB5E"
 			]
 			description: ["拥有无损超频，耗时倍数0.05"]
-			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1E220C2F02E65FFC"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
+			subtitle: "更大，更强"
 			tasks: [{
 				id: "7AC30167CA6E2D12"
 				item: "gtceu:nano_core"
 				type: "item"
 			}]
-			x: -4.0d
+			x: 16.0d
 			y: 4.0d
 		}
 	]

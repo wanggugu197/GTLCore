@@ -1,7 +1,7 @@
 {
 	id: "3AA667FB8B86A288"
 	loot_size: 1
-	order_index: 2
+	order_index: 4
 	rewards: [
 		{ item: "gtceu:annealed_copper_single_cable", weight: 0.8f }
 		{ item: "gtceu:annealed_copper_double_cable", weight: 0.8f }

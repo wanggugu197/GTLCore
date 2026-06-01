@@ -2,7 +2,7 @@
 	icon: "ae2:level_emitter"
 	id: "718B1F3F8B5AFE26"
 	loot_size: 1
-	order_index: 7
+	order_index: 10
 	rewards: [
 		{ count: 64, item: "ae2:level_emitter" }
 		{ count: 64, item: "ae2:energy_level_emitter" }

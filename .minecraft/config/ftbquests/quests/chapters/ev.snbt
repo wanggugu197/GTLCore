@@ -350,6 +350,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
+			description: ["也许可以考虑宝石浆液来产出某种资源"]
 			id: "4FD556B867463D30"
 			rewards: [{
 				id: "1FF9DBDFDD2696F0"
@@ -481,11 +482,57 @@
 			}
 			icon_scale: 2.0d
 			id: "14D60DF010FF0396"
-			rewards: [{
-				id: "1DEBD71F9A11431E"
-				item: "gtceu:platinum_credit"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1DEBD71F9A11431E"
+					item: "gtceu:platinum_credit"
+					type: "item"
+				}
+				{
+					id: "67C9DAE3CF98F5B2"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DD41A0F6742868D"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1640AD7BFBEAFDC9"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EC4127EC709534C"
+					item: {
+						Count: 1
+						id: "ad_astra:netherite_space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "1A8B984603BF45D4"
@@ -715,57 +762,11 @@
 			}
 			icon_scale: 2.0d
 			id: "0889DB18E2C68D67"
-			rewards: [
-				{
-					id: "48113BC2479CE3D9"
-					item: "avaritia:ultimate_stew"
-					type: "item"
-				}
-				{
-					id: "4DBDF2D131C74AA6"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "384F6F12201D6A9A"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_suit"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6289E0F96AF3AC4B"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "733A81243F98D04C"
-					item: {
-						Count: 1
-						id: "ad_astra:netherite_space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "48113BC2479CE3D9"
+				item: "avaritia:ultimate_stew"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0CEFB603A42AEFD8"
@@ -859,9 +860,9 @@
 				"25F272243EB904D5"
 			]
 			description: [
-				"通过分析数据制造对应的气体而不是吸收维度中的气体"
+				"通过数据模拟制造对应的气体而不是吸收维度中的气体"
 				""
-				"还能放入真空冷冻机直接获得液态空气"
+				"还可以在输入总线/成放入真空冷冻机直接获得液态空气"
 			]
 			icon: "gtceu:large_gas_collector"
 			icon_scale: 2.0d
@@ -1163,6 +1164,8 @@
 				"推荐把各种常用电路打包为通用电路板，方便以后修改样板"
 				""
 				"在编写样板时会&6优先&r将&b通用电路板&r写入样板"
+				""
+				"由于AE的NBT识别问题，合成材料中带有&6通用电路板&r的&a合成样板&r&4不要开启可替换模式&r，否则会出现卡合成的问题"
 			]
 			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
