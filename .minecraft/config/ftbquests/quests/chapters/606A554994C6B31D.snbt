@@ -112,7 +112,7 @@
 			description: [
 				"带有夜视、饱和和创造飞行，X键可加速飞行，最高4倍，潜行加X可以重制飞行速度，无需能量"
 				""
-				"Z键开关夜视"
+				"Z键开关夜视；默认\"；\"键切换穿墙，穿墙模式下不能取消飞行"
 				""
 				"{ \"text\": \"可使用宇航服升级为抵抗宇宙危险的航天版本，无需氧气\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
 				""
@@ -543,7 +543,7 @@
 				""
 				"磁卡可以将掉落物直接吸入ME网络（通用终端才能装载磁卡；样板编码和管理界面无法配置磁卡，合成界面才可以）"
 				""
-				"带有无线终端时默认中键从ME网络内选取方块"
+				"带有无线终端时默认中键从ME网络内选取方块，同时可以显示物品/流体/方块在绑定的ME网络中的数量"
 			]
 			disable_toast: true
 			icon: "ae2:wireless_receiver"
@@ -609,6 +609,21 @@
 				{
 					id: "74FDCF97F438280B"
 					item: "gtceu:ender_pearl_dust"
+					type: "item"
+				}
+				{
+					id: "541F707AB0CA3371"
+					item: "gtlcore:wireless_throughput_monitor_terminal"
+					type: "item"
+				}
+				{
+					id: "28D1A2C0180D580E"
+					item: "gtlcore:wireless_emitter_manager_terminal"
+					type: "item"
+				}
+				{
+					id: "7EE041D0E37F9B72"
+					item: "gtlcore:wireless_me_chamber_manager_terminal"
 					type: "item"
 				}
 			]

@@ -580,7 +580,7 @@
 			description: [
 				"粉碎矿石——洗矿/浸洗"
 				""
-				"可筛选的纯净矿石有特殊标签&o&bforge:siftables&r"
+				"可筛选的纯净矿石有特殊标签&o&bforge:siftables&r，相对应的原矿和粗矿有特殊标签&o&bforge:siftable&r"
 			]
 			icon: "gtceu:purified_iron_ore"
 			id: "14EE67044597E62A"
@@ -3998,11 +3998,12 @@
 			dependencies: [
 				"69C8B1423C6D98F8"
 				"5858E81A332CE35E"
+				"4059A907154E2865"
 			]
 			dependency_requirement: "one_completed"
 			icon: "gtceu:concentrated_rare_earth_chloride_solution_bucket"
 			id: "67111A7C89E5BAA7"
-			min_required_dependencies: 1
+			min_required_dependencies: 2
 			tasks: [
 				{
 					id: "64CDC81DF8C2AFE0"
@@ -5043,6 +5044,7 @@
 				"4A86402C581ABB27"
 			]
 			dependency_requirement: "one_completed"
+			description: ["普通的矿物处理流程也会大量产出钕"]
 			icon: "gtceu:neodymium_dust"
 			icon_scale: 2.0d
 			id: "40819B02D619CC50"
@@ -8260,6 +8262,137 @@
 			title: "绿色蓝宝石浆液"
 			x: 15.0d
 			y: 25.0d
+		}
+		{
+			dependencies: ["3A1B2DE425269339"]
+			icon: "minecraft:gravel"
+			id: "0BFC95A048BA34FF"
+			subtitle: "锻造锤"
+			tasks: [
+				{
+					id: "6B28DACF192D2D0A"
+					item: "minecraft:gravel"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "458855132C6E0DDF"
+					type: "checkmark"
+				}
+			]
+			x: 30.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:cobblestone"
+			id: "3A1B2DE425269339"
+			tasks: [
+				{
+					id: "60039E59D5CF2FFA"
+					item: "minecraft:cobblestone"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0B3D0262186EB1FB"
+					type: "checkmark"
+				}
+			]
+			x: 28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0BFC95A048BA34FF"]
+			icon: "minecraft:sand"
+			id: "314AFD72A3AE2A13"
+			subtitle: "还是锻造锤"
+			tasks: [
+				{
+					id: "3B4F398B48EF7AA3"
+					item: "minecraft:sand"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0BA781B75ED22F32"
+					type: "checkmark"
+				}
+			]
+			x: 31.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["314AFD72A3AE2A13"]
+			icon: "minecraft:glass"
+			id: "38960F5028500D2C"
+			subtitle: "熔炉"
+			tasks: [
+				{
+					id: "605927AC8EB703FB"
+					item: "minecraft:glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7BBE011A92FE8AF7"
+					type: "checkmark"
+				}
+			]
+			x: 33.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38960F5028500D2C"]
+			icon: "gtceu:glass_dust"
+			id: "710DAA152D6FFCA2"
+			subtitle: "研磨"
+			tasks: [
+				{
+					id: "5B9681EB0DBFF167"
+					item: "gtceu:glass_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "025DBE15862EEFD3"
+					type: "checkmark"
+				}
+			]
+			x: 34.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["710DAA152D6FFCA2"]
+			description: ["可以直接用于电力高炉烧取硅锭，也可以电解获得氧气和硅粉"]
+			icon: "gtceu:silicon_dioxide_dust"
+			icon_scale: 2.0d
+			id: "2EED5B75DEE9B11A"
+			shape: "diamond"
+			subtitle: "离心机"
+			tasks: [
+				{
+					id: "497E915C86EF6DD6"
+					item: "gtceu:silicon_dioxide_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "29392FF29842ABFA"
+					type: "checkmark"
+				}
+			]
+			x: 36.0d
+			y: -1.0d
+		}
+		{
+			id: "379B4B02D157C824"
+			tasks: [{
+				id: "1B072339BCBE0852"
+				title: "硅氧线"
+				type: "checkmark"
+			}]
+			x: 28.5d
+			y: -2.0d
 		}
 	]
 	title: "原料提取"

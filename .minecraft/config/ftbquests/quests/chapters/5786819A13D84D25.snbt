@@ -289,7 +289,7 @@
 				""
 				"可以考虑使用大理岩等通过大型碎岩机获得的石头制作废料"
 				""
-				"关于大型碎岩机：需要用两个输入仓/总成分别提供水和熔岩"
+				"关于大型碎岩机：需要用&b两个&r输入仓/总成分别提供水和熔岩"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
@@ -1158,6 +1158,44 @@
 			}]
 			x: 16.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"606C81F449ABCE5B"
+				"7B8FEC11FCC03D9A"
+				"6B990D7D964DF559"
+				"506E6C56FF4B5C0B"
+				"76BAF48FA9D845C6"
+				"5CD56CD71662D4A7"
+				"4F945AA31D61A74D"
+				"31A1ECA11AC31A29"
+				"2E05225ADF4D7D31"
+			]
+			description: [
+				"9.22E容量的可以自我分裂处理数量不限的合成任务的可自定义发配并行数的CPU"
+				""
+				"可通过CPU接口更改在ME网络中显示的名字以及发配并行数"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:transfinite_computation_array"
+			icon_scale: 2.0d
+			id: "66BF6E1192BFBEB6"
+			optional: true
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1E817506835C22E4"
+					item: "gtceu:transfinite_computation_array"
+					type: "item"
+				}
+				{
+					id: "04E873E410E5D73D"
+					item: "gtceu:me_crafting_cpu_interface"
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 4.0d
 		}
 	]
 	subtitle: ["Tier9-UHV"]

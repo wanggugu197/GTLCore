@@ -414,9 +414,14 @@
 		}
 		{
 			dependencies: ["559836CC234447C0"]
-			description: ["只能使用&eUEV&r消声仓"]
+			description: [
+				"只能使用&eUEV&r消声仓"
+				""
+				"你也许可以考虑用龙蛋复制机+中子漩涡直接制作龙尘……"
+			]
 			icon_scale: 1.3d
 			id: "4A1F4AAAABC1DE23"
+			min_width: 220
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -646,7 +651,10 @@
 				"01EE0F4156F0578B"
 				"74186877DB7DBE4D"
 			]
-			description: ["会用到有点贵的&6高耐久等离子体容器"]
+			description: [
+				"被&6高耐久等离子体容器&r弄的头疼？"
+				"也许你该试试&d库存ME样板总成&r"
+			]
 			hide_dependency_lines: true
 			id: "5A61ABB6E4917C6C"
 			tasks: [{

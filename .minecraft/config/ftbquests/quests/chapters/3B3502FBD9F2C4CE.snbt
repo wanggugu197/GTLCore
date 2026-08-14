@@ -737,7 +737,7 @@
 				""
 				"可在gtlcore的配置文件中开启&d极限拉取模式&r，让&6ME库存输入总成&r拉取不再有延迟（影响并行计算），但可能会对TPS有一定的影响"
 				""
-				"标签库存总线使用方式与标签存储总线相同"
+				"标签库存总线/仓使用方式与标签存储总线相同"
 				""
 				"注意：1.由于在进入存档时AE需要重新组网，库存仓室会在一段很短的时间内断网进而导致无法使机器获得输入"
 				""
@@ -771,13 +771,18 @@
 					type: "item"
 				}
 				{
-					id: "1460AC9FFF53296F"
+					id: "4B4691EE6731C530"
+					item: "gtceu:tag_filter_me_stock_hatch_part_machine"
+					type: "item"
+				}
+				{
+					id: "142F13372069F763"
 					item: "gtceu:me_dual_hatch_stock_part_machine"
 					type: "item"
 				}
 			]
 			title: "ME库存仓室"
-			x: 10.0d
+			x: 12.0d
 			y: 4.0d
 		}
 		{
@@ -839,8 +844,8 @@
 				item: "gtceu:iv_scanner"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 4.0d
+			x: 13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -884,7 +889,7 @@
 				item: "gtceu:cold_ice_freezer"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 4.0d
 		}
 		{
@@ -956,6 +961,8 @@
 			]
 			description: [
 				"0.2x用于加速机器，1.2x用于节省燃料，某些情况可以使发电机获得额外超频次数进而增加发电功率"
+				""
+				"默认以0.01的倍率调整，按住shift为0.1，按住crtl为1"
 				""
 				"{ \"text\": \"配置复制工具可以复制黏贴处理耗时设置\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""

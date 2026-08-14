@@ -23,7 +23,7 @@
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -45,7 +45,7 @@
 				type: "checkmark"
 			}]
 			x: -3.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			description: ["基础传输速度加强至&b64*int量级&r"]
@@ -62,7 +62,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -84,7 +84,7 @@
 				title: "关于对应阶段"
 				type: "checkmark"
 			}]
-			x: -5.0d
+			x: -1.0d
 			y: -1.5d
 		}
 		{
@@ -114,7 +114,7 @@
 				title: "无限元件"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 1.0d
 			y: -1.5d
 		}
 		{
@@ -140,10 +140,10 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
-			description: ["在&6gtlcore的配置文件&r中可以调整&b扩展样板供应器的槽位数量&r"]
+			description: ["在&6gtlcore的配置文件&r中可以调整&b扩展样板供应器的槽位数量&r以及&b放置后是否自动开启智能翻倍&r"]
 			icon: "expatternprovider:ex_pattern_provider"
 			id: "6B5FD34433F96957"
 			rewards: [{
@@ -153,11 +153,11 @@
 			}]
 			tasks: [{
 				id: "5E27D16F8CFDACB4"
-				title: "扩展样板供应器"
+				title: "样板供应器"
 				type: "checkmark"
 			}]
 			x: -1.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			description: ["每格基础容量增强至&bint级&r"]
@@ -173,14 +173,14 @@
 				title: "ME接口"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			description: [
 				"可以直接在编码时进行翻倍了（仅限处理样板）"
 				""
-				"编码时输入上限调整为&b2^31-1&r，使用翻倍功能最高可达&b9.22E/P"
+				"编码时输入上限调整为&b9.22E/P"
 				""
 				"在空白样板耗尽时会&6自动调用&rME网络内的空白样板填充"
 				""
@@ -199,15 +199,21 @@
 			}]
 			title: "样板编码相关"
 			x: -3.0d
-			y: 0.5d
+			y: 1.5d
 		}
 		{
 			description: [
-				"合成计算默认开启&6UlTRA FAST模式&r，可在gtlcore的配置文件中调整"
+				"单次下单数量从int提升到long"
+				""
+				"合成计算默认开启&6ULTRA FAST模式&r，可在gtlcore的配置文件中调整（MAX_FAST模式计算能力更强，但仍在测试中）"
+				""
+				"样板供应器可开启智能翻倍（见样板总成的描述）"
 				""
 				"同时可在gtlcore的配置文件中调整AE的合成更新间隔"
 				""
-				"合成确认界面添加合成轮数（发配次数）以及使用物品占库存百分比"
+				"合成确认界面添加收藏缺失按钮，合成轮数（发配次数）以及使用物品占库存百分比"
+				""
+				"合成状态界面添加暂停按钮，可暂停发配；同时还添加了对所有CPU操作的全部暂停和全部取消按钮；添加可根据CPU名称和最终产物名称搜索CPU的搜索框"
 			]
 			icon: "ae2:1k_crafting_storage"
 			id: "60D25FEE107A7A63"
@@ -221,8 +227,135 @@
 				type: "checkmark"
 			}]
 			title: "下单合成相关"
-			x: 3.0d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: ["当背包中存在无线终端时，JEI和Jade会显示被指向的物品/流体/方块在无线终端对应的网络中的数量"]
+			icon: {
+				Count: 1
+				id: "ae2wtlib:wireless_universal_terminal"
+				tag: {
+					accessPoint: {
+						dimension: "minecraft:overworld"
+						pos: [I;
+							21
+							68
+							9
+						]
+					}
+					blankPattern: [{
+						Count: 54b
+						Slot: 0
+						id: "ae2:blank_pattern"
+					}]
+					craft_if_missing: 1b
+					crafting: 1b
+					craftingGrid: [
+						{
+							Count: 1b
+							Slot: 1
+							id: "ae2:cable_anchor"
+						}
+						{
+							Count: 1b
+							Slot: 3
+							id: "ae2:cable_anchor"
+						}
+						{
+							Count: 1b
+							Slot: 4
+							id: "minecraft:white_concrete"
+						}
+						{
+							Count: 1b
+							Slot: 5
+							id: "ae2:cable_anchor"
+						}
+						{
+							Count: 1b
+							Slot: 7
+							id: "ae2:cable_anchor"
+						}
+					]
+					currentTerminal: "pattern_encoding"
+					encodedInputs: [{
+						"#": 10L
+						"#c": "ae2:i"
+						id: "gtceu:mv_robot_arm"
+					}]
+					encodedOutputs: [{
+						"#": 1L
+						"#c": "ae2:i"
+						id: "gtlcore:ultimate_terminal"
+						tag: {
+							AEMode: 1b
+							BoundAE: {
+								X: 19
+								Y: 67
+								Z: 7
+								dim: "minecraft:overworld"
+							}
+							DismantleMode: 0b
+							IsFlipped: 0b
+							NoHatchMode: 1b
+							RepeatCount: 0
+							ReplaceMode: 1b
+							Tier: 16
+							blocks: "coil"
+						}
+					}]
+					ex_pattern_access: 1b
+					filter_type: "ALL"
+					internalCurrentPower: 4800000.0d
+					internalMaxPower: 4800000.0d
+					magnet_settings: 0b
+					mode: "PROCESSING"
+					pattern_encoding: 1b
+					pick_block: 1b
+					restock: 0b
+					show_pattern_providers: "VISIBLE"
+					singularity: [{
+						Count: 1b
+						Slot: 0
+						id: "ae2:quantum_entangled_singularity"
+						tag: {
+							freq: 175862367440505L
+						}
+					}]
+					sort_by: "AMOUNT"
+					sort_direction: "DESCENDING"
+					stonecuttingRecipeId: "minecraft:cobblestone_stairs_from_cobblestone_stonecutting"
+					substitute: 0b
+					substituteFluids: 1b
+					upgrades: [
+						{
+							Count: 1b
+							Slot: 0
+							id: "ae2wtlib:quantum_bridge_card"
+						}
+						{
+							Count: 1b
+							Slot: 1
+							id: "ae2wtlib:magnet_card"
+						}
+					]
+					view_mode: "ALL"
+				}
+			}
+			id: "1C946343173C3305"
+			rewards: [{
+				id: "175C056C2B366EB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AAC20666177441"
+				type: "checkmark"
+			}]
+			title: "JEI和Jade显示"
+			x: -3.0d
+			y: -1.5d
 		}
 	]
 	title: "AE2调整"

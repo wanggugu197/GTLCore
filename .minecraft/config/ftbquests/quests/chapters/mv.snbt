@@ -238,10 +238,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"128671E4DC47EF55"
-				"51F0CE5F1BCC78D1"
-			]
+			dependencies: ["128671E4DC47EF55"]
 			id: "59C94B44DB70D37C"
 			rewards: [{
 				id: "32DDF5AD9B72B61F"
@@ -602,7 +599,7 @@
 		}
 		{
 			dependencies: ["1648F829649D4300"]
-			description: ["你还需要聚乙烯"]
+			description: ["{ \"text\": \"你还需要聚乙烯\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D82F79414331554\" } }"]
 			id: "55AB003495D2CCE9"
 			rewards: [{
 				id: "5CABF4A4FC60EA72"
@@ -626,6 +623,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
+			subtitle: "热锭烫手，小心别被烫死"
 			tasks: [{
 				id: "54BF488BF5529328"
 				item: "gtceu:mv_chemical_bath"
@@ -693,7 +691,7 @@
 		}
 		{
 			dependencies: ["79AE49C5DE7900FF"]
-			description: ["二氧化硅烧的快一点，不过要多消耗一点碳粉"]
+			description: ["{ \"text\": \"二氧化硅烧的快一点，不过要多消耗一点碳粉\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"379B4B02D157C824\" } }"]
 			id: "1648F829649D4300"
 			rewards: [{
 				id: "1F448D23874F2FE8"
@@ -1027,7 +1025,7 @@
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
-			description: ["潜行右键小机器/仓室记录配置，右键应用配置"]
+			description: ["样板包装箱的容量大小可在gtlcore的配置文件中修改，1页36格"]
 			hide_dependency_lines: true
 			id: "3740DE62D42A4D0D"
 			rewards: [{
@@ -1035,11 +1033,28 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			tasks: [{
-				id: "05A5ED1BE84BBEBF"
-				item: "gtlcore:cfg_copy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "05A5ED1BE84BBEBF"
+					item: "gtlcore:cfg_copy"
+					type: "item"
+				}
+				{
+					id: "2146275E6B065A4A"
+					item: {
+						Count: 1
+						id: "gtlcore:pattern_box"
+						tag: {
+							PatternInv: {
+								Items: [ ]
+								Size: 72
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "配置复制工具和样板包装箱"
 			x: 14.0d
 			y: 4.0d
 		}

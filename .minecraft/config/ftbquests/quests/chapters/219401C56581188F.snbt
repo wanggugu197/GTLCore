@@ -422,7 +422,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["77BE1524AABF6003"]
+			dependencies: [
+				"77BE1524AABF6003"
+				"78F0147BABE80DDD"
+			]
 			description: ["你可以用魔金等离子制作，也可以用超临界合成机制作"]
 			hide_dependent_lines: true
 			id: "369DCD1E26334632"
@@ -884,7 +887,6 @@
 		{
 			dependencies: [
 				"6BB5ED6ECC43E30C"
-				"783379F3A7557CEE"
 				"192B626CF217FDBC"
 				"68D3E6670941A3F5"
 				"588C2C0BED069F41"
@@ -992,6 +994,7 @@
 			y: 4.0d
 		}
 		{
+			icon: "minecraft:reinforced_deepslate"
 			id: "788621675279AC20"
 			optional: true
 			rewards: [{

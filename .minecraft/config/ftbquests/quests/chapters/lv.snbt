@@ -6,12 +6,20 @@
 	icon: "gtceu:lv_electric_motor"
 	id: "393DD40CAFBB69A5"
 	order_index: 1
-	quest_links: [{
-		id: "0B8B2F7F6C5F0B43"
-		linked_quest: "4C591AA4F1D907C1"
-		x: -2.0d
-		y: -4.0d
-	}]
+	quest_links: [
+		{
+			id: "0B8B2F7F6C5F0B43"
+			linked_quest: "4C591AA4F1D907C1"
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			id: "792DC36CC53B70DB"
+			linked_quest: "128671E4DC47EF55"
+			x: 12.0d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["51B9A72C19F84F0E"]
@@ -139,24 +147,6 @@
 			}]
 			x: 4.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["51B9A72C19F84F0E"]
-			description: ["用它将物品磁化"]
-			hide_dependency_lines: true
-			id: "51F0CE5F1BCC78D1"
-			rewards: [{
-				id: "6F1E030D11A09345"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3DA43E9650F117DD"
-				item: "gtceu:lv_polarizer"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -441,12 +431,16 @@
 				item: "gtceu:lv_electrolyzer"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E3B42BCBA6064F5"]
-			description: ["{ \"text\": \"LV阶段你的铝粉只能通过电解蓝宝石或者绿色蓝宝石粉获得\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"]
+			description: [
+				"{ \"text\": \"LV阶段你的铝粉主要通过电解蓝宝石或者绿色蓝宝石粉获得\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6EFE154D32A2155E\" } }"
+				""
+				"当然你也可以靠矿处的副产获得"
+			]
 			hide_dependency_lines: false
 			id: "73EFFB71A1A827D6"
 			rewards: [{
@@ -537,7 +531,7 @@
 				item: "gtceu:phenolic_circuit_board"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -601,7 +595,9 @@
 			description: [
 				"{ \"text\": \"镓粉的早期来源是热离闪锌矿\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"12243715403F9E51\" } }"
 				""
-				"{ \"text\": \"砷粉的早期来源则是雄黄\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
+				"{ \"text\": \"砷粉的LV来源可以是雄黄\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4826DCD2FC457EA5\" } }"
+				""
+				"{ \"text\": \"用电力高炉双仓升压烧辉钴矿粉也可以\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"38C955F6CBDD95BD\" } }"
 			]
 			id: "6D63FB02A50F8249"
 			rewards: [{
@@ -619,81 +615,62 @@
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
-			description: [
-				"用它烧制退火铜和锻铁"
-				""
-				"还能回收没用的机器"
-			]
 			hide_dependency_lines: true
-			id: "524AC325E68AEB3A"
-			rewards: [{
-				id: "658C1C586BC53BC0"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "4F2FF11089D97406"
-				item: "gtceu:lv_arc_furnace"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["51F0CE5F1BCC78D1"]
-			hide_dependent_lines: true
+			icon: "gtceu:magnetic_steel_rod"
 			id: "18DC7021FF2C7EEB"
 			rewards: [{
 				id: "59DCAAF6EF76D2DD"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			tasks: [{
-				id: "06EC3C1BF7D124CB"
-				item: "gtceu:magnetic_steel_rod"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "06EC3C1BF7D124CB"
+					item: "gtceu:magnetic_steel_rod"
+					type: "item"
+				}
+				{
+					id: "301793D4482A013E"
+					item: "gtceu:lv_polarizer"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["524AC325E68AEB3A"]
+			dependencies: ["51B9A72C19F84F0E"]
 			description: ["退火铜可以在很多地方取代铜，而且某些时候效率更高"]
+			hide_dependency_lines: true
+			icon: "gtceu:annealed_copper_ingot"
 			id: "31B5C9A6F8FB0BA2"
 			rewards: [{
 				id: "25EAB2420E51D496"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			tasks: [{
-				id: "0C8DEF275C16A96E"
-				item: "gtceu:annealed_copper_ingot"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["2D6BB32B642AE8BA"]
-			description: ["帮助你获取氮气和氧气"]
-			hide_dependency_lines: true
-			id: "5C12B96341807611"
-			rewards: [{
-				id: "403B511B96D6568D"
-				item: "gtceu:silver_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "13AD3E7E937E345D"
-				item: "gtceu:lv_gas_collector"
-				type: "item"
-			}]
+			subtitle: "对着铜锭按U查看配方"
+			tasks: [
+				{
+					id: "0C8DEF275C16A96E"
+					item: "gtceu:annealed_copper_ingot"
+					type: "item"
+				}
+				{
+					id: "058B4A04019FBBBE"
+					item: "gtceu:lv_arc_furnace"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.0d
-			y: 6.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5C12B96341807611"]
+			dependencies: ["51B9A72C19F84F0E"]
 			description: ["推荐用大型蒸汽离心机离心（记得放&b&l两个&r输出仓！）"]
+			hide_dependency_lines: true
 			icon: "gtceu:nitrogen_bucket"
 			id: "05707E2FF325F723"
 			rewards: [{
@@ -701,13 +678,20 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			tasks: [{
-				id: "34EEC000DAD79557"
-				title: "氮气和氧气"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2BD0AF4F008DEC14"
+					item: "gtceu:lv_gas_collector"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2ADFC2EE14BAE3CB"
+					type: "checkmark"
+				}
+			]
 			x: -2.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
@@ -745,7 +729,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -2.0d
+			y: 4.0d
 		}
 		{
 			can_repeat: false
@@ -767,8 +751,8 @@
 				item: "gtceu:mv_machine_hull"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.0d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["35F31D71CC8B67CF"]
@@ -842,8 +826,8 @@
 				item: "gtceu:lv_chemical_reactor"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["335ED39019FC62E7"]
@@ -936,7 +920,7 @@
 				item: "ae2:crafting_unit"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -975,7 +959,10 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["0BBC0C3FB2E8C800"]
+			dependencies: [
+				"0BBC0C3FB2E8C800"
+				"4357DF535061C2E5"
+			]
 			description: [
 				"{ \"text\": \"具体产出见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19D339F25E824A2C\" } }"
 				""
@@ -985,6 +972,7 @@
 				"{@pagebreak}"
 				"你也可以在gtlcore的配置文件中修改屠宰场会生成的生物"
 			]
+			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "62B5D5669A535245"
 			shape: "rsquare"
@@ -1022,8 +1010,8 @@
 				}
 			]
 			title: "下单！启动！"
-			x: 14.0d
-			y: 0.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1715EF3BF00D33B7"]
@@ -1069,12 +1057,8 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"51B9A72C19F84F0E"
-				"18DC7021FF2C7EEB"
-			]
+			dependencies: ["18DC7021FF2C7EEB"]
 			description: ["拿在手上潜行右键切换开关状态"]
-			hide_dependency_lines: true
 			id: "72D27369AF243A34"
 			optional: true
 			rewards: [{
@@ -1088,8 +1072,8 @@
 				item: "gtceu:lv_item_magnet"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 6.0d
+			x: -4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["51B9A72C19F84F0E"]
@@ -1131,7 +1115,7 @@
 				type: "checkmark"
 			}]
 			x: -4.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1162,8 +1146,6 @@
 		{
 			dependencies: ["51B9A72C19F84F0E"]
 			description: [
-				"巨型输入总线/成&c不能通过外界输入编程电路的方法修改仓室本身的电路设置"
-				""
 				"巨型输入总成的成型判定同时为输入总线和输入仓，普通输入总成的判定仅为输入总线，注意区分"
 				""
 				"巨型输入总线/成并不能手动放入物品，需要通过存储容器（箱子，me接口，样板供应器等）进行交互"
@@ -1428,8 +1410,12 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["4357DF535061C2E5"]
+			dependencies: [
+				"4357DF535061C2E5"
+				"49ABB341017BAE85"
+			]
 			description: ["通过模拟高能闪电将普通材料转换为比较有用的材料，比如福鲁伊斯特水晶、充能赛特斯石英、末影珍珠粉、荧石粉等"]
+			hide_dependency_lines: true
 			id: "5C831396310E6546"
 			rewards: [{
 				id: "314AAA3E7631AAA5"
@@ -1443,6 +1429,131 @@
 			}]
 			x: 2.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["033DE57F0D91698C"]
+			description: [
+				"可以大幅降低写样板工作量的通配符工具"
+				""
+				"IN处编写输入材料，可指定单一材料或者某一类标签对应的一类材料"
+				"OUT处编写输出产物，同上"
+				"铝粉处设置黑白名单；浅色背景为白名单模式，深色为黑；\"标志\"为根据更加细分的标签进行过滤"
+				""
+				"注意：在后面的一大堆样板总成中只有专门对应的&o通配符样板总成&r才能放入通配符样板"
+			]
+			icon_scale: 2.0d
+			id: "1204FE9F9747003E"
+			tasks: [{
+				id: "4845B54411DEBC85"
+				item: "wildcard_pattern:wildcard_pattern"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"存储监控器，但是同时可以查看平均吞吐量速率"
+				""
+				"配置工具用于在&5t&r(ick)，&5s&r(econd)，&5m&r(inute)，&510m&r(inute)间切换吞吐量的时间单位"
+			]
+			id: "599CC0D876428105"
+			min_width: 240
+			optional: true
+			rewards: [{
+				id: "33E2BF93E66AA990"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1644D1C506E72365"
+					item: "gtlcore:throughput_monitor"
+					type: "item"
+				}
+				{
+					id: "0169205CCF2EC4BD"
+					item: "gtlcore:throughput_monitor_configurator"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["599CC0D876428105"]
+			description: ["可以监控整个ME网络吞吐量的终端"]
+			id: "022DCA5548F5DF6A"
+			optional: true
+			rewards: [{
+				id: "30BE369FE5B47519"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "343EFE26CD3C2936"
+				item: "gtlcore:throughput_monitor_terminal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["12FE2B59FA86381C"]
+			description: ["显示元件，但是按照标签工作"]
+			id: "52BC9BE1E6301E6F"
+			optional: true
+			rewards: [{
+				id: "5B760837B12E94B1"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "39361050371A4F9B"
+				item: "gtlcore:tag_view_cell"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: [
+				"使用扳手类工具右键该贴片可在访问端和供应端直接切换"
+				""
+				"访问端和供应端分别位于两个网络并相贴时，访问端网络可在下单时使用供应端网络内的可用样板，处理过程在供应端网络执行，产物会在完成处理时从供应端网络直接返回访问端网络"
+				""
+				"供应端网络应有存储部分"
+			]
+			id: "0718D5CEDE1587D1"
+			optional: true
+			subtitle: "跨网络下单"
+			tasks: [{
+				id: "5E160A041A8AB2A8"
+				item: { Count: 4, id: "gtlcore:me_pattern_relay" }
+				type: "item"
+			}]
+			x: 16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6E69F45AEA66D5ED"]
+			description: ["用于管理整个ME网络中的发信器的终端"]
+			id: "1418669678C84529"
+			optional: true
+			rewards: [{
+				id: "212BF910E3EF6EAE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "394159DF64E68DA5"
+				item: "gtlcore:emitter_manager_terminal"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

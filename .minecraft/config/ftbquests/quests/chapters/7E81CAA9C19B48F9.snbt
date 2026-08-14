@@ -356,7 +356,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二芐基四乙酰六氮杂异纤锌烷粉和氢溴酸"
+			title: "二芐基四乙酰六氮杂异伍兹烷粉和氢溴酸"
 			x: 7.5d
 			y: 10.5d
 		}
@@ -860,7 +860,6 @@
 				"67ECDD5601DBBB5B"
 				"638C3C9A1CED8C4D"
 			]
-			description: [""]
 			id: "0E926F9B91EECD78"
 			subtitle: "有点长"
 			tasks: [{
@@ -922,7 +921,6 @@
 				"7B41D6C27938103B"
 				"5D91DBEE7A88C468"
 			]
-			description: ["英文原文就和化学式对不上，化学式对应的物质为2-噻吩甲酰三氟丙酮"]
 			icon: "gtceu:trifluoroacetic_phosphate_ester_dust"
 			id: "489CD0F35D53FA81"
 			subtitle: "催化剂"
@@ -980,7 +978,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙硫酮"
+			title: "2-乙酰噻吩"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -1775,7 +1773,7 @@
 			]
 			description: ["{ \"text\": \"还能获得凯金\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37A99CF028273351\" } }"]
 			id: "76FBE49EFA4545DF"
-			subtitle: "三氟化锑，全氟苯，碳氟化合物，氪"
+			subtitle: "三氟化锑，全氟苯，氟硼烷，氪"
 			tasks: [{
 				id: "16306AD6F5FF58CB"
 				type: "checkmark"

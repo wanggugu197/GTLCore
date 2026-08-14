@@ -253,7 +253,7 @@
 				""
 				"在主机放入与输入总线中相同的机器人可获得更高的并行数，最多64个机器人（128并行）"
 				""
-				"不同于装配线，电路装配线可以使用&bULV巨型输入总线&r以及&bEV巨型输入仓&r"
+				"不同于装配线，电路装配线可以使用&bULV巨型输入总线&r以及&bEV巨型输入仓&r，但是&c不能使用样板总成&r"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:circuit_assembly_line"
@@ -658,7 +658,7 @@
 			icon_scale: 2.0d
 			id: "07A5A5AD37710056"
 			shape: "rsquare"
-			subtitle: "也可以自动维护"
+			subtitle: "虽然名字里不带自动，但也可以自动维护"
 			tasks: [{
 				id: "7039AA556E4A462A"
 				item: "gtceu:gravity_hatch"
@@ -994,7 +994,7 @@
 				""
 				"注意：在多方块结构中扩展/终极及其绑定的镜像会被同时判定为输入仓室和输出仓室"
 			]
-			icon_scale: 1.5d
+			icon_scale: 2.0d
 			id: "21A1A4DB4BA35B42"
 			optional: true
 			shape: "rsquare"
@@ -1026,7 +1026,7 @@
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:molecular_assembler_matrix"
-			icon_scale: 1.5d
+			icon_scale: 2.0d
 			id: "47A332D8C189A51B"
 			optional: true
 			shape: "rsquare"
