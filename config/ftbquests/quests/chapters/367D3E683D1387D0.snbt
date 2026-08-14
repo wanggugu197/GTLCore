@@ -31,7 +31,7 @@
 				type: "checkmark"
 			}]
 			x: 7.5d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -52,7 +52,7 @@
 				type: "checkmark"
 			}]
 			x: 3.5d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -75,7 +75,7 @@
 				title: "供电"
 				type: "checkmark"
 			}]
-			x: -0.5d
+			x: 3.5d
 			y: -2.5d
 		}
 		{
@@ -96,7 +96,7 @@
 				title: "总线/仓"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 7.5d
 			y: -2.5d
 		}
 		{
@@ -135,8 +135,8 @@
 				title: "并行"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -163,7 +163,7 @@
 				type: "checkmark"
 			}]
 			x: 5.5d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			description: [
@@ -191,8 +191,33 @@
 				title: "其他"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: -2.5d
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"机器UI左下角可开启批处理模式，开启后会让配方时长尽可能达到gtlcore配置文件内指定的数值"
+				""
+				"批处理在大部分情况下不影响机器的工作效率，但开启后可以有效缓解性能压力"
+				""
+				"批处理不能在发电机以及跨配方并行的机器上启用"
+				""
+				"可在gtlcore配置文件中切换新机器默认开启/关闭批处理模式"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "518692429D15516B"
+			rewards: [{
+				id: "2C3F176B6959398C"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "68C7BAA24FDE4220"
+				title: "批处理"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -0.5d
 		}
 	]
 	title: "机器"

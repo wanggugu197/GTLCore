@@ -22,18 +22,24 @@
 					item: "expatternprovider:fishbig"
 				}
 			}
-			weight: 1.2f
+			weight: 2.0f
 		}
-		{ count: 8, item: "gtceu:overworld_marker", random_bonus: 8, weight: 5.0f }
-		{ count: 8, item: "gtceu:the_nether_marker", random_bonus: 8, weight: 5.0f }
-		{ count: 8, item: "gtceu:the_end_marker", random_bonus: 8, weight: 5.0f }
-		{ item: "gtlcore:brevibacterium_petri_dish", weight: 2.0f }
-		{ item: "gtlcore:bifidobacteriumm_petri_dish", weight: 2.0f }
-		{ item: "gtlcore:eschericia_petri_dish", weight: 2.0f }
-		{ item: "gtlcore:streptococcus_petri_dish", weight: 2.0f }
-		{ item: "gtlcore:cupriavidus_petri_dish", weight: 2.0f }
-		{ item: "gtlcore:shewanella_petri_dish", weight: 2.0f }
-		{ item: "ae2:not_so_mysterious_cube", weight: 10.0f }
+		{ item: "gtceu:overworld_marker" }
+		{ item: "gtceu:the_nether_marker" }
+		{ item: "gtceu:the_end_marker" }
+		{ item: "gtlcore:brevibacterium_petri_dish" }
+		{ item: "gtlcore:bifidobacteriumm_petri_dish" }
+		{ item: "gtlcore:eschericia_petri_dish" }
+		{ item: "gtlcore:streptococcus_petri_dish" }
+		{ item: "gtlcore:cupriavidus_petri_dish" }
+		{ item: "gtlcore:shewanella_petri_dish" }
+		{ item: "ae2:not_so_mysterious_cube" }
+		{ item: "ad_astra:glacio_globe" }
+		{ item: "ad_astra:moon_globe" }
+		{ item: "ad_astra:mars_globe" }
+		{ item: "ad_astra:mercury_globe" }
+		{ item: "ad_astra:venus_globe" }
+		{ item: "ad_astra:earth_globe" }
 	]
 	title: "抽奖"
 }
