@@ -220,11 +220,19 @@
 			description: ["聚酰亚胺是一种特种工程材料，广泛应用在航空、航天、微电子、纳米、液晶、分离膜、激光等领域"]
 			icon: "gtceu:polyimide_bucket"
 			id: "24B011E770B7DF3F"
-			tasks: [{
-				id: "62A6274CE1A1FF7A"
-				title: "聚酰亚胺"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "62A6274CE1A1FF7A"
+					title: "聚酰亚胺"
+					type: "checkmark"
+				}
+				{
+					id: "03C3ED6C4F34B9F5"
+					item: "gtceu:polyimide_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 10.0d
 		}
@@ -387,10 +395,12 @@
 				"可以用&dME库存总线/成&r给多台采集模块共用"
 				""
 				"有了注魔金粉后，记得升级动力模块MK2！"
+				""
+				"副标题里的数字代表对应的电路"
 			]
 			id: "6D83BAAC7DB34D51"
 			shape: "pentagon"
-			subtitle: "异星藻类，注魔金，凯金化合物，富集硅岩，碲，钨，钛，铷，陨石，远古残骸，铟"
+			subtitle: "陨石(6)，铷(7)，异星藻类(14)，远古残骸(17)，注魔金(20)，钛(21)，碲(23)，钨(23)，凯金化合物(24)，富集硅岩(24)，铟(24)"
 			tasks: [{
 				id: "54ED6D9B82E6A10E"
 				item: "kubejs:space_drone_mk1"
@@ -607,11 +617,19 @@
 			icon: "gtceu:unknowwater_bucket"
 			id: "333B741B06E49CE8"
 			subtitle: "未知的液体，可以培养出新生命"
-			tasks: [{
-				id: "51F32C7FCCFA73A7"
-				title: "不明液体"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "51F32C7FCCFA73A7"
+					title: "不明液体"
+					type: "checkmark"
+				}
+				{
+					id: "5602A4B4CB885EC9"
+					item: "gtceu:unknowwater_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 6.0d
 		}
@@ -637,10 +655,18 @@
 			icon: "gtceu:antimatter_bucket"
 			id: "24585C3114095227"
 			subtitle: "UEV才会有用"
-			tasks: [{
-				id: "32D1AAAFAE4E6E8D"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "32D1AAAFAE4E6E8D"
+					type: "checkmark"
+				}
+				{
+					id: "102EF1894B691977"
+					item: "gtceu:antimatter_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "离散反物质"
 			x: 6.0d
 			y: 2.0d
@@ -720,10 +746,18 @@
 			dependencies: ["11B90D1FD2508092"]
 			icon: "gtceu:mutated_living_solder_bucket"
 			id: "4F87B7DA47087F97"
-			tasks: [{
-				id: "2B9CE70914717C3A"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2B9CE70914717C3A"
+					type: "checkmark"
+				}
+				{
+					id: "7D8FFDC47FF188C9"
+					item: "gtceu:mutated_living_solder_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "突变活性焊剂"
 			x: 10.0d
 			y: 12.0d
@@ -774,10 +808,18 @@
 			icon: "gtceu:grade_8_purified_water_bucket"
 			id: "4EA64DC5DA2F0F8C"
 			subtitle: "可以开始准备了"
-			tasks: [{
-				id: "53B625F402EEFC80"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "53B625F402EEFC80"
+					type: "checkmark"
+				}
+				{
+					id: "128EB32FE77B1AFF"
+					item: "gtceu:grade_8_purified_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "8级净化水"
 			x: 12.0d
 			y: 8.0d
@@ -899,11 +941,19 @@
 			description: ["高性能生物亲和工程塑料"]
 			icon: "gtceu:polyetheretherketone_bucket"
 			id: "7C9AC873CB7209D9"
-			tasks: [{
-				id: "39D039C317D64FD9"
-				title: "聚醚醚酮"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "39D039C317D64FD9"
+					title: "聚醚醚酮"
+					type: "checkmark"
+				}
+				{
+					id: "530E2541D49C1FD2"
+					item: "gtceu:polyetheretherketone_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 7.0d
 			y: 11.0d
 		}

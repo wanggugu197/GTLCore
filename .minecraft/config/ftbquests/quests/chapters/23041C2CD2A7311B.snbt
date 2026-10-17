@@ -261,11 +261,19 @@
 			dependencies: ["1433920A4DDCE2B5"]
 			icon: "gtceu:free_proton_gas_bucket"
 			id: "55458BD1EFC248C8"
-			tasks: [{
-				id: "34A01704D8875A2F"
-				title: "自由质子"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "34A01704D8875A2F"
+					title: "气态高密度自由质子气"
+					type: "checkmark"
+				}
+				{
+					id: "1061196DD01A6436"
+					item: "gtceu:free_proton_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 2.0d
 		}
@@ -284,11 +292,19 @@
 			dependencies: ["41B4A5048EBCE287"]
 			icon: "gtceu:liquid_starlight_bucket"
 			id: "6FF53B92BA6D2370"
-			tasks: [{
-				id: "3A5F5C774EE47FD2"
-				title: "星能液"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3A5F5C774EE47FD2"
+					title: "星能液"
+					type: "checkmark"
+				}
+				{
+					id: "0586A88638CB9B54"
+					item: "gtceu:liquid_starlight_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.0d
 		}
@@ -442,11 +458,19 @@
 			icon: "gtceu:radox_bucket"
 			id: "437E5E4108228333"
 			subtitle: "有点混乱"
-			tasks: [{
-				id: "60C93B3E6EDB5E0B"
-				title: "拉多X"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "60C93B3E6EDB5E0B"
+					title: "拉多X"
+					type: "checkmark"
+				}
+				{
+					id: "5E50FA8F3AF64239"
+					item: "gtceu:radox_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 2.0d
 		}
@@ -771,11 +795,11 @@
 				"6C6A3B91957A0B7B"
 				"17F6AFC430A15CDA"
 			]
-			description: ["最后的无人机，注意黑白矮星需要64个无人机进行采集"]
+			description: ["最后的太空无人机，注意黑白矮星需要64个无人机进行采集"]
 			hide_dependent_lines: true
 			id: "760D2FA10E6907DD"
 			shape: "pentagon"
-			subtitle: "黑白矮星，星辉"
+			subtitle: "黑白矮星(29/30)，星辉(32)"
 			tasks: [{
 				id: "002EC33D0813520C"
 				item: "kubejs:space_drone_mk6"

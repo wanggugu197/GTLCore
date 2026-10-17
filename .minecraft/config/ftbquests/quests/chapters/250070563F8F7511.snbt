@@ -94,6 +94,10 @@
 				""
 				"如果联机时显示GregTech版本不匹配，请确保服务端和客户端的config文件保持一致"
 				""
+				"默认开启方块泛光功能，可在gtlcore的配置文件中更改"
+				""
+				"更多的功能可在配置文件中更改"
+				""
 				"更多的提示可在&d提示与技巧章节组&r查看"
 			]
 			hide_dependent_lines: true
@@ -1392,7 +1396,7 @@
 				title: "更快的挖矿"
 				type: "checkmark"
 			}]
-			x: -1.8d
+			x: -2.0d
 			y: -1.0d
 		}
 		{
@@ -2513,6 +2517,7 @@
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "4E24326430CE5947"
 					item: "gtceu:cupronickel_credit"
 					type: "item"

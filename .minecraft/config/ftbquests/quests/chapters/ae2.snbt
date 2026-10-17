@@ -90,6 +90,8 @@
 		{
 			description: [
 				"无限水/圆石元件的容量增强至&d9.22P/E&r"
+				""
+				"高速无限盘的显示上限提高至&dint128&r（即92,233,720,368,547,758,079,223,372,036,854,775,807）"
 				"{@pagebreak}"
 				"创造磁盘也一样被增强了"
 			]
@@ -205,7 +207,9 @@
 			description: [
 				"单次下单数量从int提升到long"
 				""
-				"合成计算默认开启&6ULTRA FAST模式&r，可在gtlcore的配置文件中调整（MAX_FAST模式计算能力更强，但仍在测试中）"
+				"合成计算默认开启&6MAX FAST模式&r，可在gtlcore的配置文件中调整"
+				""
+				"同时添加支持&6下单循环/自增产&r的订单的计算模式，可在gtlcore的配置文件中的AE合成引擎中开启"
 				""
 				"样板供应器可开启智能翻倍（见样板总成的描述）"
 				""
@@ -234,6 +238,31 @@
 			description: ["当背包中存在无线终端时，JEI和Jade会显示被指向的物品/流体/方块在无线终端对应的网络中的数量"]
 			icon: {
 				Count: 1
+				id: "ae2:memory_card"
+				tag: { }
+			}
+			id: "1C946343173C3305"
+			rewards: [{
+				id: "175C056C2B366EB9"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AAC20666177441"
+				type: "checkmark"
+			}]
+			title: "JEI和Jade显示"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"打开终端界面时，可以对着jei里的物品/流体按f将所指的物品/流体的名称填充到搜索栏中"
+				""
+				"当背包中存在无线终端时，可以对着jei里的物品/流体按住潜行左键从而取出所指的物品/流体，最多一组；中键显示&a可合成&r的物品/流体则可以进入下单界面"
+			]
+			icon: {
+				Count: 1
 				id: "ae2wtlib:wireless_universal_terminal"
 				tag: {
 					accessPoint: {
@@ -245,71 +274,42 @@
 						]
 					}
 					blankPattern: [{
-						Count: 54b
+						Count: 24b
 						Slot: 0
 						id: "ae2:blank_pattern"
 					}]
 					craft_if_missing: 1b
 					crafting: 1b
-					craftingGrid: [
+					currentTerminal: "pattern_encoding"
+					emitter_manager: 1b
+					encodedInputs: [
 						{
-							Count: 1b
-							Slot: 1
-							id: "ae2:cable_anchor"
+							"#": 2L
+							"#c": "ae2:i"
+							id: "gtceu:copper_single_cable"
 						}
 						{
-							Count: 1b
-							Slot: 3
-							id: "ae2:cable_anchor"
+							"#": 3L
+							"#c": "ae2:i"
+							id: "gtceu:battery_alloy_plate"
 						}
 						{
-							Count: 1b
-							Slot: 4
-							id: "minecraft:white_concrete"
-						}
-						{
-							Count: 1b
-							Slot: 5
-							id: "ae2:cable_anchor"
-						}
-						{
-							Count: 1b
-							Slot: 7
-							id: "ae2:cable_anchor"
+							"#": 432L
+							"#c": "ae2:f"
+							id: "gtceu:polyethylene"
 						}
 					]
-					currentTerminal: "pattern_encoding"
-					encodedInputs: [{
-						"#": 10L
-						"#c": "ae2:i"
-						id: "gtceu:mv_robot_arm"
-					}]
 					encodedOutputs: [{
 						"#": 1L
 						"#c": "ae2:i"
-						id: "gtlcore:ultimate_terminal"
-						tag: {
-							AEMode: 1b
-							BoundAE: {
-								X: 19
-								Y: 67
-								Z: 7
-								dim: "minecraft:overworld"
-							}
-							DismantleMode: 0b
-							IsFlipped: 0b
-							NoHatchMode: 1b
-							RepeatCount: 0
-							ReplaceMode: 1b
-							Tier: 16
-							blocks: "coil"
-						}
+						id: "gtceu:mv_battery_hull"
 					}]
 					ex_pattern_access: 1b
 					filter_type: "ALL"
-					internalCurrentPower: 4800000.0d
-					internalMaxPower: 4800000.0d
+					internalCurrentPower: 0
+					internalMaxPower: 1.92E7d
 					magnet_settings: 0b
+					me_chamber_manager: 1b
 					mode: "PROCESSING"
 					pattern_encoding: 1b
 					pick_block: 1b
@@ -325,9 +325,10 @@
 					}]
 					sort_by: "AMOUNT"
 					sort_direction: "DESCENDING"
-					stonecuttingRecipeId: "minecraft:cobblestone_stairs_from_cobblestone_stonecutting"
+					stonecuttingRecipeId: "ae2:block_cutter/walls/smooth_sky_stone_wall"
 					substitute: 0b
 					substituteFluids: 1b
+					throughput_monitor: 1b
 					upgrades: [
 						{
 							Count: 1b
@@ -339,23 +340,82 @@
 							Slot: 1
 							id: "ae2wtlib:magnet_card"
 						}
+						{
+							Count: 1b
+							Slot: 2
+							id: "ae2:energy_card"
+						}
+						{
+							Count: 1b
+							Slot: 3
+							id: "ae2:energy_card"
+						}
+						{
+							Count: 1b
+							Slot: 4
+							id: "ae2:energy_card"
+						}
+						{
+							Count: 1b
+							Slot: 5
+							id: "ae2:energy_card"
+						}
+						{
+							Count: 1b
+							Slot: 6
+							id: "ae2:energy_card"
+						}
+						{
+							Count: 1b
+							Slot: 7
+							id: "ae2:energy_card"
+						}
 					]
 					view_mode: "ALL"
+					viewcells: [{
+						Count: 1b
+						Slot: 0
+						id: "ae2:view_cell"
+						tag: {
+							list: [
+								{
+									"#": 0L
+									"#c": "ae2:f"
+									id: "gtceu:grade_1_purified_water"
+								}
+								{
+									"#": 0L
+									"#c": "ae2:f"
+									id: "gtceu:grade_2_purified_water"
+								}
+								{
+									"#": 0L
+									"#c": "ae2:f"
+									id: "gtceu:grade_3_purified_water"
+								}
+							]
+							upgrades: [{
+								Count: 1b
+								Slot: 0
+								id: "ae2:inverter_card"
+							}]
+						}
+					}]
 				}
 			}
-			id: "1C946343173C3305"
+			id: "3075A0CA139250ED"
 			rewards: [{
-				id: "175C056C2B366EB9"
+				id: "2F3A75BD1FB5B0D6"
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
 			tasks: [{
-				id: "09AAC20666177441"
+				id: "3AF0650B2BDA3B30"
+				title: "终端相关"
 				type: "checkmark"
 			}]
-			title: "JEI和Jade显示"
-			x: -3.0d
-			y: -1.5d
+			x: -1.0d
+			y: 0.0d
 		}
 	]
 	title: "AE2调整"

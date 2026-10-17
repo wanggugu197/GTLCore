@@ -962,7 +962,7 @@
 			description: [
 				"0.2x用于加速机器，1.2x用于节省燃料，某些情况可以使发电机获得额外超频次数进而增加发电功率"
 				""
-				"默认以0.01的倍率调整，按住shift为0.1，按住crtl为1"
+				"默认以0.01的倍率调整，按住shift为0.1，按住ctrl为1"
 				""
 				"{ \"text\": \"配置复制工具可以复制黏贴处理耗时设置\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
 				""

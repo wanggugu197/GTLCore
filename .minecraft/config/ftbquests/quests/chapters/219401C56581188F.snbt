@@ -478,8 +478,8 @@
 				}
 			]
 			title: "幽匿循环"
-			x: 12.0d
-			y: -4.0d
+			x: 11.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -578,11 +578,19 @@
 			icon: "gtceu:euv_photoresist_bucket"
 			id: "606C81F449ABCE5B"
 			subtitle: "有点复杂"
-			tasks: [{
-				id: "011EBE67C0D8E442"
-				title: "EUV光刻胶"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "011EBE67C0D8E442"
+					title: "EUV光刻胶"
+					type: "checkmark"
+				}
+				{
+					id: "56338B68129F709B"
+					item: "gtceu:euv_photoresist_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 8.0d
 			y: 6.0d
 		}
@@ -591,11 +599,19 @@
 			description: ["丁烷可以循环利用"]
 			icon: "gtceu:californium_cyclopentadienide_bucket"
 			id: "281B6C20538A3CBA"
-			tasks: [{
-				id: "0B10159A50C58ACF"
-				title: "环戊二烯化锎"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "0B10159A50C58ACF"
+					title: "环戊二烯化锎"
+					type: "checkmark"
+				}
+				{
+					id: "16970E29A0D1EF31"
+					item: "gtceu:californium_cyclopentadienide_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 8.0d
 		}
@@ -665,7 +681,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 12.0d
 			y: -4.0d
 		}
 		{
@@ -896,7 +912,7 @@
 			hide_dependent_lines: true
 			id: "670D8EB2CE915FD5"
 			shape: "pentagon"
-			subtitle: " 地火混沌魔晶，精金化合物，稀土金属，山铜，秘银"
+			subtitle: "精金化合物(28)，稀土金属(28)， 地火混沌魔晶(29)，山铜(29)，秘银(29)"
 			tasks: [{
 				id: "293848195AF04862"
 				item: "kubejs:space_drone_mk4"
@@ -946,7 +962,7 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["稀土离心机的激光版本，同时可以安装并行控制仓"]
+			description: ["稀土离心机的激光版本"]
 			icon_scale: 2.0d
 			id: "4EED4298235AB11F"
 			optional: true
@@ -1011,8 +1027,8 @@
 				type: "checkmark"
 			}]
 			title: "如果你懒得跑图"
-			x: 10.5d
-			y: -3.5d
+			x: 10.0d
+			y: -3.25d
 		}
 		{
 			dependencies: [
@@ -1038,6 +1054,27 @@
 			}]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2F2BD994E5E06A91"
+				"6EE4B6DDE0A660B3"
+				"2858C1A89BAF2624"
+				"281B6C20538A3CBA"
+			]
+			description: ["将库存ME样板总成和通配符ME样板总成结合在一起的产物"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "1AC3CE494E4734BC"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "7720E1F719B99375"
+				item: "gtceu:me_stocking_wildcard_pattern_buffer"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.0d
 		}
 	]
 	subtitle: ["Tier10-UEV"]

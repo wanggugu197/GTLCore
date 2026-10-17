@@ -34,7 +34,7 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["无菌超净间可以&6向下兼容&r超净间配方，绝对洁净同理"]
+			description: ["无菌维护仓可以&6向下兼容&r超净间配方，绝对洁净同理"]
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
@@ -266,7 +266,7 @@
 				"5C4B11CEA53D5B78"
 			]
 			dependency_requirement: "one_completed"
-			description: ["实际上没有必要使用网络交换机"]
+			description: ["由于算力供应比没修改前翻了两倍，所以实际上没有必要使用网络交换机"]
 			icon_scale: 2.0d
 			id: "0A2D46609F5C3CAB"
 			min_required_dependencies: 2
@@ -853,10 +853,7 @@
 			y: 6.0d
 		}
 		{
-			dependencies: [
-				"38D23D186C444492"
-				"58936CEB6176A18B"
-			]
+			dependencies: ["38D23D186C444492"]
 			description: [
 				"使用电力直接聚爆，不再需要炸药，还能安装并行控制仓！"
 				""
