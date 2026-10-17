@@ -1129,8 +1129,6 @@
 				""
 				"无线电网模式可以&6绕过动力仓&r"
 				"{ \"text\": \"直接将能量导入无线电网\", \"italic\":\"true\",\"underlined\":\"true\",\"color\":\"ff00ff\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D4874CA93B567A3\" } }"
-				""
-				"无线电网模式下建议动力仓容量至少为一台发电机的基础功率，且有自动消耗动力仓内缓存电力的途径，以免发电阵列因动力仓电力缓存满了导致停机"
 			]
 			hide_dependency_lines: true
 			id: "1486FC9F82B2E56E"
@@ -1288,7 +1286,11 @@
 		}
 		{
 			dependencies: ["1FA24513965B09A8"]
-			description: ["无线能量接口可以将接收到的电力导入无线电网"]
+			description: [
+				"无线能量接口可以将接收到的电力导入无线电网"
+				""
+				"监控屏组件同方向放置5x5时即可显示数据"
+			]
 			icon: "gtmthings:wireless_energy_monitor"
 			icon_scale: 2.0d
 			id: "2658C31A89CF5B24"
@@ -1309,6 +1311,12 @@
 				{
 					id: "6D00B8C9524FE833"
 					item: "gtmthings:wireless_energy_interface"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0378CC236619BDF3"
+					item: "gtlcore:wireless_grid_energy_monitor"
 					optional_task: true
 					type: "item"
 				}
@@ -1362,14 +1370,11 @@
 		}
 		{
 			dependencies: ["12FE2B59FA86381C"]
-			description: [
-				"荧石的来源可以是屠宰场或者闪电处理机"
-				""
-				"{ \"text\": \"还有33个无限编程电路元件，使用16K ME存储元件制作\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"51A6B6CDC90D7E76\" } }"
-			]
+			description: ["荧石的来源可以是屠宰场或者闪电处理机"]
 			hide_dependency_lines: true
 			id: "26FF330CEEDDDDF1"
 			rewards: [{
+				count: 2
 				id: "74B9300C4B54B01E"
 				item: "gtceu:gold_credit"
 				type: "item"
@@ -1404,8 +1409,13 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0E268C3D0E06BCA7"
+					item: "gtlcore:circuit_infinity_cell"
+					type: "item"
+				}
 			]
-			title: "无限水/圆石元件"
+			title: "无限水/圆石/编程电路元件"
 			x: 14.0d
 			y: 4.0d
 		}
@@ -1519,26 +1529,6 @@
 		}
 		{
 			dependencies: ["6E69F45AEA66D5ED"]
-			description: [
-				"使用扳手类工具右键该贴片可在访问端和供应端直接切换"
-				""
-				"访问端和供应端分别位于两个网络并相贴时，访问端网络可在下单时使用供应端网络内的可用样板，处理过程在供应端网络执行，产物会在完成处理时从供应端网络直接返回访问端网络"
-				""
-				"供应端网络应有存储部分"
-			]
-			id: "0718D5CEDE1587D1"
-			optional: true
-			subtitle: "跨网络下单"
-			tasks: [{
-				id: "5E160A041A8AB2A8"
-				item: { Count: 4, id: "gtlcore:me_pattern_relay" }
-				type: "item"
-			}]
-			x: 16.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6E69F45AEA66D5ED"]
 			description: ["用于管理整个ME网络中的发信器的终端"]
 			id: "1418669678C84529"
 			optional: true
@@ -1553,7 +1543,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 0.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Tier1-LV"]

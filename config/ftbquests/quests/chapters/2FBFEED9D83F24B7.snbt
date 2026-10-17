@@ -156,10 +156,18 @@
 			description: ["由简单粒子组成的物质，易分离"]
 			icon: "gtceu:uu_matter_bucket"
 			id: "6640D51725374A8F"
-			tasks: [{
-				id: "59F8112EDED3F87C"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "59F8112EDED3F87C"
+					type: "checkmark"
+				}
+				{
+					id: "3C55A41EFEEF56FA"
+					item: "gtceu:uu_matter_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "UU物质"
 			x: -6.0d
 			y: 4.0d
@@ -201,11 +209,19 @@
 			dependencies: ["74D84A4928FA0A35"]
 			icon: "gtceu:heavy_lepton_mixture_bucket"
 			id: "2F82F4BCC261723A"
-			tasks: [{
-				id: "57C4DF5E13A94315"
-				title: "重轻子"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "57C4DF5E13A94315"
+					title: "气态重轻子混合物"
+					type: "checkmark"
+				}
+				{
+					id: "3AA10A4C0DF11A34"
+					item: "gtceu:heavy_lepton_mixture_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 6.0d
 		}
@@ -300,11 +316,19 @@
 			dependencies: ["1F1FCB0CA5696FF1"]
 			icon: "gtceu:quark_gluon_plasma_bucket"
 			id: "068D3872684D8A29"
-			tasks: [{
-				id: "61DE5E270458D306"
-				title: "夸克-胶子等离子体"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "61DE5E270458D306"
+					title: "夸克-胶子等离子体"
+					type: "checkmark"
+				}
+				{
+					id: "2BCB8A57FBAA4421"
+					item: "gtceu:quark_gluon_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 4.0d
 		}
@@ -313,11 +337,19 @@
 			description: ["镱-178唯一的用途是衰变成铪"]
 			icon: "gtceu:quasifissioning_plasma_bucket"
 			id: "1D7B6172DE330E6F"
-			tasks: [{
-				id: "4F2652F998CE9815"
-				title: "拟裂变等离子体"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4F2652F998CE9815"
+					title: "拟裂变等离子体"
+					type: "checkmark"
+				}
+				{
+					id: "12412F8E655B97E5"
+					item: "gtceu:quasifissioning_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.0d
 		}
@@ -445,11 +477,19 @@
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
 			subtitle: "看起来很复杂"
-			tasks: [{
-				id: "4613BA0853F254C1"
-				title: "光聚合物溶液"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4613BA0853F254C1"
+					title: "光聚合物溶液"
+					type: "checkmark"
+				}
+				{
+					id: "5AEAABBEB210709D"
+					item: "gtceu:photopolymer_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 2.0d
 		}
@@ -471,14 +511,22 @@
 				"1C4D5D7786F64485"
 				"38B80C3DD1E55532"
 			]
-			description: ["看起来很复杂"]
 			icon: "gtceu:cosmic_superconductor_bucket"
 			id: "7C796A0CDAB038C9"
-			tasks: [{
-				id: "68D95C8EDB412DD5"
-				title: "寰宇超导液"
-				type: "checkmark"
-			}]
+			subtitle: "看起来很复杂"
+			tasks: [
+				{
+					id: "68D95C8EDB412DD5"
+					title: "寰宇超导液"
+					type: "checkmark"
+				}
+				{
+					id: "66E6714B7401ABEF"
+					item: "gtceu:cosmic_superconductor_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 6.0d
 		}
@@ -533,11 +581,19 @@
 			icon: "gtceu:gamma_rays_photoresist_bucket"
 			id: "0D4ACF1CF1489C8D"
 			subtitle: "超高精度"
-			tasks: [{
-				id: "3CB6DA1C42F67095"
-				title: "γ射线光刻胶"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3CB6DA1C42F67095"
+					title: "γ射线光刻胶"
+					type: "checkmark"
+				}
+				{
+					id: "17A716C94AD7C881"
+					item: "gtceu:gamma_rays_photoresist_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: 6.0d
 		}
@@ -568,10 +624,18 @@
 			icon: "gtceu:grade_16_purified_water_bucket"
 			id: "6FE5409DB7A22427"
 			subtitle: "用于更高级的晶圆切割"
-			tasks: [{
-				id: "55FFB0F929D12E7F"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "55FFB0F929D12E7F"
+					type: "checkmark"
+				}
+				{
+					id: "448F238891857C3B"
+					item: "gtceu:grade_16_purified_water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "16级净化水"
 			x: -2.0d
 			y: 8.0d
@@ -602,7 +666,7 @@
 			description: ["有了熔火之石粉后，记得升级动力模块MK5！"]
 			id: "0855401586D73395"
 			shape: "pentagon"
-			subtitle: "熔火之石，末影，振金"
+			subtitle: "末影(30)，熔火之石(31)，振金(31)"
 			tasks: [{
 				id: "6902E2DE8A1F90F0"
 				item: "kubejs:space_drone_mk5"
@@ -648,7 +712,7 @@
 				item: "gtceu:advanced_neutron_activator"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 10.0d
 			y: 2.0d
 		}
 		{
@@ -659,7 +723,7 @@
 				item: "kubejs:wyvern_core"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.0d
 			y: 2.0d
 		}
 		{
@@ -699,10 +763,18 @@
 			hide_dependent_lines: true
 			icon: "gtceu:free_alpha_gas_bucket"
 			id: "38B80C3DD1E55532"
-			tasks: [{
-				id: "730606E2ADFAB845"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "730606E2ADFAB845"
+					type: "checkmark"
+				}
+				{
+					id: "267D99AA384978C4"
+					item: "gtceu:free_alpha_gas_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "气态高密度自由α粒子气"
 			x: -6.0d
 			y: 6.0d
@@ -736,6 +808,29 @@
 			}]
 			x: 0.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3F242A785D049ADC"
+				"7C796A0CDAB038C9"
+				"421A0242817F164C"
+				"106303E7A3296E76"
+				"0855401586D73395"
+				"559836CC234447C0"
+			]
+			description: ["可生成机器模式对应的所有配方样板且支持过滤的样板总成"]
+			hide_dependency_lines: true
+			icon_scale: 1.5d
+			id: "01B0AC3397B954FD"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "696FD26904387FDC"
+				item: "gtceu:me_recipe_pattern_buffer"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.0d
 		}
 	]
 	subtitle: ["Tier11-UIV"]

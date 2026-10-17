@@ -448,17 +448,20 @@
 		{
 			dependencies: ["027197A71E630966"]
 			description: ["可以从液态空气中获得氦气和氩气，这些都是烧制更高级金属的保护气"]
+			icon: "gtceu:liquid_air_bucket"
 			id: "2610283E00EC04E4"
-			rewards: [{
-				id: "31410A08F07C9CC3"
-				item: "gtceu:gold_credit"
-				type: "item"
-			}]
-			tasks: [{
-				id: "438ED371C645C82D"
-				item: "gtceu:liquid_air_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "438ED371C645C82D"
+					item: "gtceu:liquid_air_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49D3D19A77E39D63"
+					type: "checkmark"
+				}
+			]
 			title: "液态空气"
 			x: 10.0d
 			y: 6.0d
@@ -515,7 +518,7 @@
 				item: "gtceu:hv_cutter"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 6.0d
 		}
 		{
@@ -551,8 +554,8 @@
 				item: "gtceu:lpic_wafer"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4967FCD7B2675E94"]
@@ -624,8 +627,8 @@
 				}
 			]
 			title: "贴片"
-			x: -2.0d
-			y: 8.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -732,10 +735,18 @@
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
 			subtitle: "还可以用于增产塑料"
-			tasks: [{
-				id: "2B5DDF34950566F1"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2B5DDF34950566F1"
+					type: "checkmark"
+				}
+				{
+					id: "46C9C3CB79590D63"
+					item: "gtceu:titanium_tetrachloride_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "四氯化钛"
 			x: 14.0d
 			y: 4.0d
@@ -808,8 +819,8 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["实际上可以瞬间填满LV巨型输入仓（2.1MB/t）"]
 			id: "05360F828860DB6F"
+			optional: true
 			rewards: [{
 				id: "700022A87BC01B7D"
 				item: "gtceu:gold_credit"
@@ -846,8 +857,8 @@
 				item: "gtceu:implosion_compressor"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
@@ -908,6 +919,52 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["74D9136DE32F9129"]
+			description: [
+				"使用扳手类工具右键该贴片可在访问端和供应端直接切换"
+				""
+				"访问端和供应端分别位于两个网络并相贴时，访问端网络可在下单时使用供应端网络内的可用样板，处理过程在供应端网络执行，产物会在完成处理时从供应端网络直接返回访问端网络"
+				""
+				"供应端网络应有存储部分"
+			]
+			hide_dependency_lines: true
+			id: "0718D5CEDE1587D1"
+			optional: true
+			subtitle: "跨网络下单"
+			tasks: [{
+				id: "5E160A041A8AB2A8"
+				item: { Count: 4, id: "gtlcore:me_pattern_relay" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"1E7344C133C99565"
+				"05360F828860DB6F"
+			]
+			icon_scale: 1.5d
+			id: "027ACFF98884B940"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "741FA711FCA8F6C2"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "仓室无限水"
+			tasks: [{
+				id: "74C7245A3F1FC2FC"
+				item: "gtceu:reservoir_hatch"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["Tier3-HV"]

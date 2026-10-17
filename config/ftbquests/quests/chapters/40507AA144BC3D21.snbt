@@ -50,10 +50,18 @@
 			icon: "gtceu:spacetime_bucket"
 			id: "365548266DF60F91"
 			subtitle: "你的第一桶时空"
-			tasks: [{
-				id: "67732B6ADBF691E3"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "67732B6ADBF691E3"
+					type: "checkmark"
+				}
+				{
+					id: "34126949ADBCDA20"
+					item: "gtceu:spacetime_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "时空"
 			x: -7.0d
 			y: -3.0d
@@ -81,11 +89,19 @@
 			icon: "gtceu:raw_star_matter_plasma_bucket"
 			id: "165C5D3656C33A89"
 			subtitle: "你还可以使用另一种配方制作混沌物质了"
-			tasks: [{
-				id: "36EAA11DF2D78C96"
-				title: "原始恒星物质"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "36EAA11DF2D78C96"
+					title: "原始恒星混合物等离子体"
+					type: "checkmark"
+				}
+				{
+					id: "33779B264B6B12E3"
+					item: "gtceu:raw_star_matter_plasma_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -7.0d
 		}
@@ -262,11 +278,19 @@
 			icon: "gtceu:magnetohydrodynamicallyconstrainedstarmatter_bucket"
 			id: "30AEBB08CE6C88BA"
 			subtitle: "蓝框岩浆"
-			tasks: [{
-				id: "51AE436C94A547DC"
-				title: "磁流体约束恒星物质"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "51AE436C94A547DC"
+					title: "液态磁流体约束恒星物质"
+					type: "checkmark"
+				}
+				{
+					id: "6A1163DF4EFC33E7"
+					item: "gtceu:magnetohydrodynamicallyconstrainedstarmatter_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: -9.0d
 		}
@@ -369,11 +393,19 @@
 			dependencies: ["77CADF4536151255"]
 			icon: "gtceu:cosmic_element_bucket"
 			id: "6EEB0B79543E2948"
-			tasks: [{
-				id: "35F42293D17D0715"
-				title: "宇宙素"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "35F42293D17D0715"
+					title: "宇宙素"
+					type: "checkmark"
+				}
+				{
+					id: "20970D7814117E3E"
+					item: "gtceu:cosmic_element_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -11.0d
 			y: -3.0d
 		}
@@ -386,11 +418,19 @@
 			hide_dependent_lines: true
 			icon: "gtceu:primordialmatter_bucket"
 			id: "34609EBF66099F47"
-			tasks: [{
-				id: "7BDA9A31E7DB3847"
-				title: "流体本源物质"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7BDA9A31E7DB3847"
+					title: "流体本源物质"
+					type: "checkmark"
+				}
+				{
+					id: "6272A59121AF57A7"
+					item: "gtceu:primordialmatter_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: -5.0d
 		}
@@ -399,10 +439,18 @@
 			icon: "gtceu:dimensionallytranscendentstellarcatalyst_bucket"
 			id: "3FBFE193579C28E3"
 			subtitle: "需要很多等离子体"
-			tasks: [{
-				id: "62B4B3F8B621B8B6"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "62B4B3F8B621B8B6"
+					type: "checkmark"
+				}
+				{
+					id: "2DB57C35FA14A6F0"
+					item: "gtceu:dimensionallytranscendentstellarcatalyst_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "恒星超维度催化剂"
 			x: -7.0d
 			y: -9.0d
@@ -518,10 +566,18 @@
 			icon: "gtceu:exciteddtsc_bucket"
 			id: "53598E77317EAEB6"
 			subtitle: "除了等离子体还有浓缩混合超能燃料"
-			tasks: [{
-				id: "3AC5007EE51C1247"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3AC5007EE51C1247"
+					type: "checkmark"
+				}
+				{
+					id: "755A98778F87C825"
+					item: "gtceu:exciteddtsc_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "激发的恒星超维度催化剂"
 			x: -2.0d
 			y: -9.0d
@@ -548,10 +604,18 @@
 			icon: "gtceu:exciteddtec_bucket"
 			id: "6477FF81781A9FC7"
 			subtitle: "需要很多等离子体"
-			tasks: [{
-				id: "4B6BEEAAADADE3E4"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4B6BEEAAADADE3E4"
+					type: "checkmark"
+				}
+				{
+					id: "09B8AAE59BAFDEB0"
+					item: "gtceu:exciteddtec_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "激发的异星超维度催化剂"
 			x: 0.0d
 			y: -3.0d
@@ -724,11 +788,25 @@
 			hide_dependent_lines: true
 			icon: "gtceu:temporalfluid_bucket"
 			id: "5710AA21B19B608F"
-			tasks: [{
-				id: "77B4CEF886D4B0B9"
-				title: "扩大化空间流体和富快子时间流体"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "77B4CEF886D4B0B9"
+					title: "扩大化空间流体和富快子时间流体"
+					type: "checkmark"
+				}
+				{
+					id: "2E98CBEB793633B3"
+					item: "gtceu:spatialfluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40B6AC62A256C6F4"
+					item: "gtceu:temporalfluid_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -1.0d
 		}

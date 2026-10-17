@@ -368,7 +368,7 @@
 			]
 			id: "7370721CB75472C1"
 			shape: "pentagon"
-			subtitle: "碧玉，不明液体"
+			subtitle: "碧玉(20)，不明液体(13)"
 			tasks: [{
 				id: "532AAB28A3CC8CD1"
 				item: "kubejs:space_drone_mk2"
@@ -385,13 +385,13 @@
 				"32A49A2CBFC934C8"
 			]
 			description: [
-				"同时可以采集轻重燃油、石脑油、炼油气，因此，如果你没保留旧的石化产线，可以考虑用电梯直接采集中间产物"
+				"同时可以采集轻重燃油(22/23)、石脑油(24)、炼油气(25)，因此，如果你没保留旧的石化产线，可以考虑用电梯直接采集中间产物"
 				""
-				"还可以采集溴"
+				"还可以采集溴(27)"
 			]
 			id: "1FE5F8D737ADB1B8"
 			shape: "pentagon"
-			subtitle: "血石，乌鲁，力量，巴纳德C空气"
+			subtitle: "乌鲁(26)，力量(26)，血石(27)，巴纳德C空气(28)"
 			tasks: [{
 				id: "1D082DFC064E38EA"
 				item: "kubejs:space_drone_mk3"
@@ -776,10 +776,18 @@
 			dependencies: ["27A9D4E765101CB9"]
 			icon: "gtceu:photoresist_bucket"
 			id: "7EAED8E6D66C24D2"
-			tasks: [{
-				id: "2D83BC942ADF6D92"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2D83BC942ADF6D92"
+					type: "checkmark"
+				}
+				{
+					id: "46E7E4F2717A3B61"
+					item: "gtceu:photoresist_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "光刻胶"
 			x: 2.0d
 			y: 0.0d
@@ -943,10 +951,18 @@
 			dependencies: ["0B32BFB8B18E72D4"]
 			icon: "gtceu:cycloparaphenylene_bucket"
 			id: "2B45F7E3AC7574C8"
-			tasks: [{
-				id: "3119CE0BEFC0F5FE"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "3119CE0BEFC0F5FE"
+					type: "checkmark"
+				}
+				{
+					id: "08BA53B884F520C9"
+					item: "gtceu:cycloparaphenylene_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "环对苯撑"
 			x: 6.0d
 			y: -2.0d

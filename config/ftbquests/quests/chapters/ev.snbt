@@ -270,10 +270,18 @@
 			]
 			icon: "gtceu:radon_bucket"
 			id: "2CAC63F25BAF50B3"
-			tasks: [{
-				id: "4A84D4958CB1471E"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "4A84D4958CB1471E"
+					type: "checkmark"
+				}
+				{
+					id: "71C80E8ECD1BAAEF"
+					item: "gtceu:radon_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "气态氡"
 			x: 2.0d
 			y: 4.0d
@@ -473,7 +481,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5B65662B72C369E7"]
+			dependencies: [
+				"5B65662B72C369E7"
+				"58936CEB6176A18B"
+			]
 			description: ["此钢块非彼钢块"]
 			icon: {
 				Count: 1
@@ -1329,6 +1340,12 @@
 					id: "4C18965AD00E7A3F"
 					item: "gtlcore:wireless_network_bookmark"
 					type: "item"
+				}
+				{
+					id: "6634F8DBDB655835"
+					item: "gtlcore:wireless_network_binding_tool"
+					type: "item"
+					weak_nbt_match: true
 				}
 			]
 			title: "无线ME网络"
