@@ -34,12 +34,12 @@
 				"38D23D186C444492"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["无菌维护仓可以&6向下兼容&r超净间配方，绝对洁净同理"]
+			description: ["{gtlcore.quest.gtl.quest.04b1d03a3fe114f1.description.0000}"]
 			icon: "gtceu:sterilizing_filter_casing"
 			icon_scale: 2.0d
 			id: "04B1D03A3FE114F1"
 			shape: "rsquare"
-			subtitle: "适合做生物研究"
+			subtitle: "{gtlcore.quest.gtl.quest.04b1d03a3fe114f1.subtitle}"
 			tasks: [
 				{
 					id: "42A2A3DE0D71F79C"
@@ -67,7 +67,7 @@
 			id: "77759D1FE48F958B"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "更进一步"
+			subtitle: "{gtlcore.quest.gtl.quest.77759d1fe48f958b.subtitle}"
 			tasks: [{
 				id: "00D112DFCD012D77"
 				item: "gtceu:zpm_fusion_reactor"
@@ -81,7 +81,7 @@
 				"77759D1FE48F958B"
 				"6A59FA11D10C648A"
 			]
-			description: ["&c别去找&r&e木卫三&r钛铁矿石和&e木卫三&r钛矿石"]
+			description: ["{gtlcore.quest.gtl.quest.38d23d186c444492.description.0000}"]
 			id: "38D23D186C444492"
 			tasks: [{
 				id: "33183645B439CFDB"
@@ -93,7 +93,7 @@
 		}
 		{
 			dependencies: ["503C03C654730F65"]
-			description: ["制作方式不再是化反了"]
+			description: ["{gtlcore.quest.gtl.quest.051792ed136c96d0.description.0000}"]
 			id: "051792ED136C96D0"
 			tasks: [{
 				id: "7DFA913411D706CB"
@@ -106,11 +106,11 @@
 		{
 			dependencies: ["04B1D03A3FE114F1"]
 			description: [
-				"这个时候你也可以直接做大的"
+				"{gtlcore.quest.gtl.quest.503c03c654730f65.description.0000}"
 				""
-				"实际上多方块结构中的过滤器机械方块可以只使用最低级的，没有必要升级"
+				"{gtlcore.quest.gtl.quest.503c03c654730f65.description.0002}"
 				""
-				"{ \"text\": \"除了去找远古守卫者要，你还可以用聚己内酰胺做海绵\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0389442E831EC0\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5D0389442E831EC0\"},\"translate\":\"gtlcore.quest.gtl.quest.503c03c654730f65.description.0004.text.0000\"}"
 			]
 			icon: "gtceu:large_incubator"
 			id: "503C03C654730F65"
@@ -127,7 +127,7 @@
 					type: "item"
 				}
 			]
-			title: "培养缸"
+			title: "{gtlcore.quest.gtl.quest.503c03c654730f65.title}"
 			x: 6.0d
 			y: 4.0d
 		}
@@ -163,7 +163,7 @@
 		}
 		{
 			dependencies: ["46855799A4471E34"]
-			description: ["使用有机培养的干细胞与电子刺激相互作用，快速执行大规模计算。"]
+			description: ["{gtlcore.quest.gtl.quest.425d7cd010b9c90e.description.0000}"]
 			icon_scale: 2.0d
 			id: "425D7CD010B9C90E"
 			tasks: [{
@@ -243,13 +243,13 @@
 				item: "gtceu:tritanium_coil_block"
 				type: "item"
 			}]
-			title: "三钛线圈"
+			title: "{gtlcore.quest.gtl.quest.59ca7b4a4a417b53.title}"
 			x: 4.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["59CA7B4A4A417B53"]
-			description: ["&3UV&r超导体"]
+			description: ["{gtlcore.quest.gtl.quest.62d2b830a98424bb.description.0000}"]
 			id: "62D2B830A98424BB"
 			tasks: [{
 				id: "188D424E2FE3A663"
@@ -266,7 +266,7 @@
 				"5C4B11CEA53D5B78"
 			]
 			dependency_requirement: "one_completed"
-			description: ["由于算力供应比没修改前翻了两倍，所以实际上没有必要使用网络交换机"]
+			description: ["{gtlcore.quest.gtl.quest.0a2d46609f5c3cab.description.0000}"]
 			icon_scale: 2.0d
 			id: "0A2D46609F5C3CAB"
 			min_required_dependencies: 2
@@ -289,7 +289,7 @@
 				"7C23CC6ADDC33EA0"
 				"5C4B11CEA53D5B78"
 			]
-			description: ["在后面的阶段还会有用"]
+			description: ["{gtlcore.quest.gtl.quest.5d4131c48f9bae46.description.0000}"]
 			icon_scale: 2.0d
 			id: "5D4131C48F9BAE46"
 			shape: "rsquare"
@@ -320,15 +320,15 @@
 		{
 			dependencies: ["62D2B830A98424BB"]
 			description: [
-				"一台计算机提供的算力可能不够，如果要合并算力就必须使用这台机器"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0000}"
 				""
-				"在使用前确保计算机上安装了&b&l桥接组件"
-				"&r"
-				"交换机界面显示的算力只是所有连接的计算机理论最大算力的总和，&c&l不是实际算力&r"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0002}"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0003}"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0004}"
 				""
-				"网络交换机正常运行时，每一个算力仓都会持续耗能&e 7,680 &rEU/t（0.9375A &9IV&r)，&4如果供电不足则有部分算力仓失效"
-				"&r"
-				"交换机间可以串联（交换机可以接受其他交换机的算力）"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0006}"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0007}"
+				"{gtlcore.quest.gtl.quest.5e86110bbaea92ba.description.0008}"
 			]
 			icon_scale: 1.3d
 			id: "5E86110BBAEA92BA"
@@ -349,15 +349,15 @@
 				"37C5E7628A4B826C"
 			]
 			description: [
-				"产出部分超铀元素和反物质系列"
+				"{gtlcore.quest.gtl.quest.2802e34a99ce1d79.description.0000}"
 				""
-				"可以使用双能源仓+单激光仓的架构，配方等级和功率两手抓"
+				"{gtlcore.quest.gtl.quest.2802e34a99ce1d79.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "2802E34A99CE1D79"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "紫色甜甜圈"
+			subtitle: "{gtlcore.quest.gtl.quest.2802e34a99ce1d79.subtitle}"
 			tasks: [{
 				id: "30BC4BA2F6A606D5"
 				item: "gtceu:super_particle_collider"
@@ -371,7 +371,7 @@
 				"0507FDF7BECE29AF"
 				"52DF531AFB3A07CE"
 			]
-			description: ["你可以制作计算机的桥接组件了，不过这个阶段你可能也用不上它"]
+			description: ["{gtlcore.quest.gtl.quest.5e9e2f25ae1ec731.description.0000}"]
 			id: "5E9E2F25AE1EC731"
 			rewards: [{
 				id: "2D31F3080985F641"
@@ -391,7 +391,7 @@
 				"0B89B3108EB4A01F"
 				"5E9E2F25AE1EC731"
 			]
-			description: ["你可以给你的计算机换上高级计算组件了"]
+			description: ["{gtlcore.quest.gtl.quest.7c4c11e7c931c01b.description.0000}"]
 			hide_dependent_lines: true
 			id: "7C4C11E7C931C01B"
 			rewards: [{
@@ -410,15 +410,15 @@
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
 			description: [
-				"也叫小OP （Ore Processor）"
+				"{gtlcore.quest.gtl.quest.35c61ef7c0fbd32f.description.0000}"
 				""
-				"只能使用&eZPM&r消声仓"
+				"{gtlcore.quest.gtl.quest.35c61ef7c0fbd32f.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "35C61EF7C0FBD32F"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "一步到位"
+			subtitle: "{gtlcore.quest.gtl.quest.35c61ef7c0fbd32f.subtitle}"
 			tasks: [{
 				id: "64C7755B5517C918"
 				item: "gtceu:integrated_ore_processor"
@@ -430,17 +430,17 @@
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
 			description: [
-				"输入油和蒸汽，输出产物"
+				"{gtlcore.quest.gtl.quest.61838e13426b2b88.description.0000}"
 				""
-				"线圈只影响能耗"
+				"{gtlcore.quest.gtl.quest.61838e13426b2b88.description.0002}"
 				""
-				"石化工厂不会产出中间产物，你可以选择保留旧有石化产线或者到后面用太空电梯直接采集中间产物"
+				"{gtlcore.quest.gtl.quest.61838e13426b2b88.description.0004}"
 			]
 			icon_scale: 2.0d
 			id: "61838E13426B2B88"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "一步到位"
+			subtitle: "{gtlcore.quest.gtl.quest.61838e13426b2b88.subtitle}"
 			tasks: [{
 				id: "6FEB78AB1D5BDDCA"
 				item: "gtceu:petrochemical_plant"
@@ -454,7 +454,7 @@
 				"7C4C11E7C931C01B"
 				"04B1D03A3FE114F1"
 			]
-			description: ["前往太阳系之外"]
+			description: ["{gtlcore.quest.gtl.quest.7fd1d1d8ed72d40c.description.0000}"]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_7_rocket"
@@ -507,9 +507,9 @@
 		{
 			dependencies: ["7FD1D1D8ED72D40C"]
 			description: [
-				"{ \"text\": \"使用培养缸循环增产\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"35D158AD5036923D\" } }"
+				"{\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"35D158AD5036923D\"},\"translate\":\"gtlcore.quest.gtl.quest.079fea1875012a69.description.0000.text.0000\"}"
 				""
-				"概率消耗的材料数量也会影响并行数"
+				"{gtlcore.quest.gtl.quest.079fea1875012a69.description.0002}"
 			]
 			id: "079FEA1875012A69"
 			tasks: [{
@@ -518,13 +518,13 @@
 				item: { Count: 4, id: "kubejs:glacio_spirit" }
 				type: "item"
 			}]
-			title: "霜原碎片"
+			title: "{gtlcore.quest.gtl.quest.079fea1875012a69.title}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["64EAB77978C87CE9"]
-			description: ["纳米机器人集群"]
+			description: ["{gtlcore.quest.gtl.quest.02f523e003e1c93d.description.0000}"]
 			id: "02F523E003E1C93D"
 			tasks: [{
 				id: "50ACEB6385D60F9C"
@@ -537,11 +537,11 @@
 		{
 			dependencies: ["02F523E003E1C93D"]
 			description: [
-				"纳米锻炉系列都只能使用激光仓"
+				"{gtlcore.quest.gtl.quest.3b098ea4601a7827.description.0000}"
 				""
-				"所谓“放入对应的纳米蜂群才能工作”指1阶纳米锻炉需放入&6碳纳米蜂群&r，每一阶的纳米锻炉对应一种纳米蜂群"
+				"{gtlcore.quest.gtl.quest.3b098ea4601a7827.description.0002}"
 				""
-				"记得优化碳纳米蜂群的配方"
+				"{gtlcore.quest.gtl.quest.3b098ea4601a7827.description.0004}"
 			]
 			icon_scale: 2.0d
 			id: "3B098EA4601A7827"
@@ -551,7 +551,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "大批量纳米蜂群生产"
+			subtitle: "{gtlcore.quest.gtl.quest.3b098ea4601a7827.subtitle}"
 			tasks: [{
 				id: "429C36800C493E79"
 				item: "gtceu:nano_forge_1"
@@ -562,11 +562,11 @@
 		}
 		{
 			dependencies: ["5E9E2F25AE1EC731"]
-			description: ["使用&d闪存&r进行绑定"]
+			description: ["{gtlcore.quest.gtl.quest.6c24e5ba18fe8cf5.description.0000}"]
 			icon_scale: 2.0d
 			id: "6C24E5BA18FE8CF5"
 			shape: "rsquare"
-			subtitle: "不用铺设光缆了"
+			subtitle: "{gtlcore.quest.gtl.quest.6c24e5ba18fe8cf5.subtitle}"
 			tasks: [
 				{
 					id: "230E8001CE426D4F"
@@ -579,7 +579,7 @@
 					type: "item"
 				}
 			]
-			title: "无线算力数据仓"
+			title: "{gtlcore.quest.gtl.quest.6c24e5ba18fe8cf5.title}"
 			x: 4.0d
 			y: 0.0d
 		}
@@ -601,7 +601,7 @@
 		{
 			can_repeat: false
 			dependencies: ["051792ED136C96D0"]
-			description: ["当然这个还是要用化反做"]
+			description: ["{gtlcore.quest.gtl.quest.7efc2c7ff6fff1f7.description.0000}"]
 			id: "7EFC2C7FF6FFF1F7"
 			tasks: [{
 				id: "1BB25071E7E00C66"
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["7EFC2C7FF6FFF1F7"]
-			description: ["只能放入&6成型的数据库&r的&b数据访问仓&r中"]
+			description: ["{gtlcore.quest.gtl.quest.5c4b11cea53d5b78.description.0000}"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "5C4B11CEA53D5B78"
@@ -631,12 +631,12 @@
 		}
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
-			description: ["不是必须的，太空电梯也可以挖到所有大型虚空采矿厂产出的无法采掘的矿物"]
+			description: ["{gtlcore.quest.gtl.quest.6dde77c23fc5d067.description.0000}"]
 			icon_scale: 2.0d
 			id: "6DDE77C23FC5D067"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "含有无法挖掘的矿物"
+			subtitle: "{gtlcore.quest.gtl.quest.6dde77c23fc5d067.subtitle}"
 			tasks: [{
 				id: "0F730F8E535FA432"
 				item: "gtceu:large_void_miner"
@@ -648,15 +648,15 @@
 		{
 			dependencies: ["5C4B11CEA53D5B78"]
 			description: [
-				"效率更高"
+				"{gtlcore.quest.gtl.quest.52980d117ab477b2.description.0000}"
 				""
-				"只能采集主世界的六种流体和熔岩"
+				"{gtlcore.quest.gtl.quest.52980d117ab477b2.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "52980D117AB477B2"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "来自虚空"
+			subtitle: "{gtlcore.quest.gtl.quest.52980d117ab477b2.subtitle}"
 			tasks: [{
 				id: "2E8C86DE512279CC"
 				item: "gtceu:void_fluid_drilling_rig"
@@ -671,9 +671,9 @@
 				"042A0E98DC1084B3"
 			]
 			description: [
-				"可以用于制作只需贴片且产量较大的磁共振电路，你会喜欢的 "
+				"{gtlcore.quest.gtl.quest.0dc5bfacb3d4bc95.description.0000}"
 				""
-				"同时也是后面必用的材料"
+				"{gtlcore.quest.gtl.quest.0dc5bfacb3d4bc95.description.0002}"
 			]
 			id: "0DC5BFACB3D4BC95"
 			rewards: [{
@@ -682,7 +682,7 @@
 				table_id: 6225023274141477362L
 				type: "loot"
 			}]
-			subtitle: "磁共振电路！启动！"
+			subtitle: "{gtlcore.quest.gtl.quest.0dc5bfacb3d4bc95.subtitle}"
 			tasks: [{
 				id: "4A9623D2D33B88B9"
 				item: "gtceu:magneto_resonatic_dust"
@@ -698,9 +698,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ \"text\": \"锆在木卫三\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"71E844874F97530A\" } }"
+				"{\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"71E844874F97530A\"},\"translate\":\"gtlcore.quest.gtl.quest.042a0e98dc1084b3.description.0000.text.0000\"}"
 				""
-				"碲则只能通过虚空采矿或者太空采矿获得"
+				"{gtlcore.quest.gtl.quest.042a0e98dc1084b3.description.0002}"
 			]
 			id: "042A0E98DC1084B3"
 			tasks: [
@@ -715,7 +715,7 @@
 					type: "item"
 				}
 			]
-			title: "锆与碲"
+			title: "{gtlcore.quest.gtl.quest.042a0e98dc1084b3.title}"
 			x: 14.0d
 			y: 2.5d
 		}
@@ -726,33 +726,33 @@
 				"46BFDB71190C1F49"
 			]
 			description: [
-				"需要用一个输入总线&b输入一号电路以维持机器工作"
-				"&r"
-				"这个时候你也可以直接做大型的"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0000}"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0001}"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0002}"
 				""
-				"方块放在多方块结构内部即可转换"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0004}"
 				""
-				"方块总线本质上是一个箱子，自动化需要通过机械臂/传送带或者AE的输入/输出总线等主动存取手段互动"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0006}"
 				""
-				"在安装模拟卡的前提下，在&6方块总线&r内的方块也可以被转换（&c输入总线里的不会被转换&r）"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0008}"
 				""
-				"如果放入模拟卡不工作，请拆掉主机再放回去"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0010}"
 				""
-				"在下一页查看具体转换“配方”"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0012}"
 				"{@pagebreak}"
-				"草方块→苔藓块"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0014}"
 				""
-				"苔藓块→幽匿块"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0016}"
 				""
-				"橡木原木→绯红菌柄"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0018}"
 				""
-				"白桦原木→诡异菌柄"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0020}"
 				""
-				"钙块→骨块"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0022}"
 				""
-				"骨块→精华方块"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0024}"
 				""
-				"注入龙力的黑曜石→充能龙块"
+				"{gtlcore.quest.gtl.quest.41201c74cc5f7b90.description.0026}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:block_conversion_room"
@@ -789,7 +789,7 @@
 		}
 		{
 			dependencies: ["41201C74CC5F7B90"]
-			description: ["研磨精华方块"]
+			description: ["{gtlcore.quest.gtl.quest.35d158ad5036923d.description.0000}"]
 			id: "35D158AD5036923D"
 			tasks: [{
 				id: "7A39828F0956F250"
@@ -802,15 +802,15 @@
 		{
 			dependencies: ["35D158AD5036923D"]
 			description: [
-				"各种矿脉精华不仅用于大型虚空采矿场的精准模式，还是后续必需物品的材料之一"
+				"{gtlcore.quest.gtl.quest.68d3e6670941a3f5.description.0000}"
 				""
-				"精华只能使用&9GregTech&r的牛奶制作，牛奶又怎么来呢，舀一桶牛奶之后放到提取机里面，然后合成牛刷怪蛋无限提取"
+				"{gtlcore.quest.gtl.quest.68d3e6670941a3f5.description.0002}"
 			]
 			icon: "kubejs:space_essence"
 			id: "68D3E6670941A3F5"
 			tasks: [{
 				id: "158FBB1423A51456"
-				title: "各种矿脉精华"
+				title: "{gtlcore.quest.gtl.task.158fbb1423a51456.title}"
 				type: "checkmark"
 			}]
 			x: 10.0d
@@ -821,7 +821,7 @@
 				"62D2B830A98424BB"
 				"7C23CC6ADDC33EA0"
 			]
-			description: ["更大，更强，还能运行合金冶炼配方"]
+			description: ["{gtlcore.quest.gtl.quest.41c7a298c421c65d.description.0000}"]
 			icon_scale: 2.0d
 			id: "41C7A298C421C65D"
 			shape: "rsquare"
@@ -835,7 +835,7 @@
 		}
 		{
 			dependencies: ["0A2D46609F5C3CAB"]
-			description: ["在同一个CPU中&c不要和其他合成存储器混用&r（包括另一个MAX），否则CPU会处于&e不可调用状态&r"]
+			description: ["{gtlcore.quest.gtl.quest.31a1eca11ac31a29.description.0000}"]
 			id: "31A1ECA11AC31A29"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -843,7 +843,7 @@
 				table_id: 6225023274141477362L
 				type: "random"
 			}]
-			subtitle: "9.22E的容量"
+			subtitle: "{gtlcore.quest.gtl.quest.31a1eca11ac31a29.subtitle}"
 			tasks: [{
 				id: "22A5A0569A6E914F"
 				item: "gtlcore:max_storage"
@@ -855,11 +855,11 @@
 		{
 			dependencies: ["38D23D186C444492"]
 			description: [
-				"使用电力直接聚爆，不再需要炸药，还能安装并行控制仓！"
+				"{gtlcore.quest.gtl.quest.6a6895119cecf238.description.0000}"
 				""
-				"只能使用&eLuV&r消声仓"
+				"{gtlcore.quest.gtl.quest.6a6895119cecf238.description.0002}"
 				""
-				"你现在可以制作终极工作台了，但几乎没有用处"
+				"{gtlcore.quest.gtl.quest.6a6895119cecf238.description.0004}"
 			]
 			icon_scale: 2.0d
 			id: "6A6895119CECF238"
@@ -875,7 +875,7 @@
 		}
 		{
 			dependencies: ["62D2B830A98424BB"]
-			description: ["更大，更强"]
+			description: ["{gtlcore.quest.gtl.quest.71c7130610e0294d.description.0000}"]
 			icon_scale: 2.0d
 			id: "71C7130610E0294D"
 			shape: "rsquare"
@@ -888,6 +888,6 @@
 			y: 7.0d
 		}
 	]
-	subtitle: ["Tier7-ZPM"]
-	title: "零点压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.12538b9410f2dec5.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.12538b9410f2dec5.title}"
 }

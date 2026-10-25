@@ -10,5 +10,5 @@
 		{ count: 32, item: "minecraft:pufferfish_bucket" }
 		{ count: 2, item: "minecraft:axolotl_bucket" }
 	]
-	title: "海鲜市场"
+	title: "{gtlcore.quest.gtl.reward_table.01778f6baf0ad6fd.title}"
 }

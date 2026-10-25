@@ -8,5 +8,5 @@
 		{ count: 8, item: "gtmthings:advanced_wireless_item_transfer_cover" }
 		{ count: 8, item: "gtmthings:advanced_wireless_fluid_transfer_cover" }
 	]
-	title: "覆盖板"
+	title: "{gtlcore.quest.gtl.reward_table.74b17f539246a931.title}"
 }

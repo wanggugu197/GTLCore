@@ -20,12 +20,12 @@
 				"39F73A63746EE6E8"
 				"1C4D5D7786F64485"
 			]
-			description: ["最多能装载16个能源仓，还拥有无损超频"]
+			description: ["{gtlcore.quest.gtl.quest.67588b6f4c26cf4c.description.0000}"]
 			icon_scale: 2.0d
 			id: "67588B6F4C26CF4C"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "高能机器"
+			subtitle: "{gtlcore.quest.gtl.quest.67588b6f4c26cf4c.subtitle}"
 			tasks: [{
 				id: "2C5036E0D2E99E39"
 				item: "gtceu:mass_fabricator"
@@ -85,7 +85,7 @@
 		}
 		{
 			dependencies: ["28E91E5A98E3A8DD"]
-			description: ["在物理定律的极限下执行计算。"]
+			description: ["{gtlcore.quest.gtl.quest.596e4662227f4e38.description.0000}"]
 			icon_scale: 2.0d
 			id: "596E4662227F4E38"
 			tasks: [{
@@ -118,7 +118,7 @@
 			]
 			icon_scale: 2.0d
 			id: "37C0845F870CC835"
-			subtitle: "做完这个就可以把激光蚀刻工厂拆了"
+			subtitle: "{gtlcore.quest.gtl.quest.37c0845f870cc835.subtitle}"
 			tasks: [{
 				id: "57129B74F6D1DE2E"
 				item: "kubejs:cosmic_computer"
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
-			description: ["由简单粒子组成的物质，易分离"]
+			description: ["{gtlcore.quest.gtl.quest.6640d51725374a8f.description.0000}"]
 			icon: "gtceu:uu_matter_bucket"
 			id: "6640D51725374A8F"
 			tasks: [
@@ -168,7 +168,7 @@
 					type: "item"
 				}
 			]
-			title: "UU物质"
+			title: "{gtlcore.quest.gtl.quest.6640d51725374a8f.title}"
 			x: -6.0d
 			y: 4.0d
 		}
@@ -180,16 +180,16 @@
 				"39F73A63746EE6E8"
 			]
 			description: [
-				"算力需求较大"
+				"{gtlcore.quest.gtl.quest.74d84a4928fa0a35.description.0000}"
 				""
-				"最高处的&e黑钛合金框架&r上方不能有方块遮挡，否则机器不会工作"
+				"{gtlcore.quest.gtl.quest.74d84a4928fa0a35.description.0002}"
 			]
 			icon: "gtceu:space_probe_surface_reception"
 			icon_scale: 1.3d
 			id: "74D84A4928FA0A35"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "锅盖"
+			subtitle: "{gtlcore.quest.gtl.quest.74d84a4928fa0a35.subtitle}"
 			tasks: [
 				{
 					id: "2C8FACD2B8237591"
@@ -212,7 +212,7 @@
 			tasks: [
 				{
 					id: "57C4DF5E13A94315"
-					title: "气态重轻子混合物"
+					title: "{gtlcore.quest.gtl.task.57c4df5e13a94315.title}"
 					type: "checkmark"
 				}
 				{
@@ -231,16 +231,16 @@
 				"02401278940CE1F3"
 			]
 			description: [
-				"可以代替恒星炎炀锻炉（&6恒星热能熔炼&r模式&4只能&r使用&e超级热容线圈&r，可无视恒星热容等级运行该模式的&b所有配方&r）"
+				"{gtlcore.quest.gtl.quest.2880531af7540b24.description.0000}"
 				""
-				"你一定记得锻造锤右键机器主机可以静音机器的，对吧？"
+				"{gtlcore.quest.gtl.quest.2880531af7540b24.description.0002}"
 			]
 			icon: "gtceu:dimensionally_transcendent_plasma_forge"
 			icon_scale: 1.3d
 			id: "2880531AF7540B24"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "有点吵"
+			subtitle: "{gtlcore.quest.gtl.quest.2880531af7540b24.subtitle}"
 			tasks: [
 				{
 					id: "2CA90B99536E4896"
@@ -303,7 +303,7 @@
 			hide_dependent_lines: true
 			id: "6D6BE75CB79C7901"
 			size: 1.0d
-			subtitle: "夸克物质"
+			subtitle: "{gtlcore.quest.gtl.quest.6d6be75cb79c7901.subtitle}"
 			tasks: [{
 				id: "06F08AF642746072"
 				item: "gtceu:heavy_quark_degenerate_matter_ingot"
@@ -319,7 +319,7 @@
 			tasks: [
 				{
 					id: "61DE5E270458D306"
-					title: "夸克-胶子等离子体"
+					title: "{gtlcore.quest.gtl.task.61de5e270458d306.title}"
 					type: "checkmark"
 				}
 				{
@@ -334,13 +334,13 @@
 		}
 		{
 			dependencies: ["67588B6F4C26CF4C"]
-			description: ["镱-178唯一的用途是衰变成铪"]
+			description: ["{gtlcore.quest.gtl.quest.1d7b6172de330e6f.description.0000}"]
 			icon: "gtceu:quasifissioning_plasma_bucket"
 			id: "1D7B6172DE330E6F"
 			tasks: [
 				{
 					id: "4F2652F998CE9815"
-					title: "拟裂变等离子体"
+					title: "{gtlcore.quest.gtl.task.4f2652f998ce9815.title}"
 					type: "checkmark"
 				}
 				{
@@ -370,7 +370,7 @@
 		}
 		{
 			dependencies: ["6D6BE75CB79C7901"]
-			description: ["搅拌机的激光版本，拥有无损超频，还有另一种重要用途"]
+			description: ["{gtlcore.quest.gtl.quest.29a581c935a339dd.description.0000}"]
 			icon_scale: 2.0d
 			id: "29A581C935A339DD"
 			shape: "rsquare"
@@ -402,7 +402,7 @@
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
 			id: "5FC4E86486278172"
-			subtitle: "有点复杂"
+			subtitle: "{gtlcore.quest.gtl.quest.5fc4e86486278172.subtitle}"
 			tasks: [{
 				id: "54DD3B46DB85E738"
 				item: "kubejs:scintillator_crystal"
@@ -476,11 +476,11 @@
 			dependencies: ["27A9D4E765101CB9"]
 			icon: "gtceu:photopolymer_bucket"
 			id: "208FB88A70036325"
-			subtitle: "看起来很复杂"
+			subtitle: "{gtlcore.quest.gtl.quest.208fb88a70036325.subtitle}"
 			tasks: [
 				{
 					id: "4613BA0853F254C1"
-					title: "光聚合物溶液"
+					title: "{gtlcore.quest.gtl.task.4613ba0853f254c1.title}"
 					type: "checkmark"
 				}
 				{
@@ -496,7 +496,7 @@
 		{
 			dependencies: ["27A9D4E765101CB9"]
 			id: "5450D08C31AB23EF"
-			subtitle: "比较复杂"
+			subtitle: "{gtlcore.quest.gtl.quest.5450d08c31ab23ef.subtitle}"
 			tasks: [{
 				id: "6282ECFD03A81811"
 				item: "kubejs:insulation_wire_assembly"
@@ -513,11 +513,11 @@
 			]
 			icon: "gtceu:cosmic_superconductor_bucket"
 			id: "7C796A0CDAB038C9"
-			subtitle: "看起来很复杂"
+			subtitle: "{gtlcore.quest.gtl.quest.7c796a0cdab038c9.subtitle}"
 			tasks: [
 				{
 					id: "68D95C8EDB412DD5"
-					title: "寰宇超导液"
+					title: "{gtlcore.quest.gtl.task.68d95c8edb412dd5.title}"
 					type: "checkmark"
 				}
 				{
@@ -532,7 +532,7 @@
 		}
 		{
 			dependencies: ["29A581C935A339DD"]
-			description: ["还有非金属、稀有气体、贫金属、类金属、碱金属、碱土金属、锕系元素混合物"]
+			description: ["{gtlcore.quest.gtl.quest.02401278940ce1f3.description.0000}"]
 			id: "02401278940CE1F3"
 			tasks: [
 				{
@@ -546,7 +546,7 @@
 					type: "item"
 				}
 			]
-			title: "稀土和过渡元素合金锭"
+			title: "{gtlcore.quest.gtl.quest.02401278940ce1f3.title}"
 			x: 14.0d
 			y: 2.0d
 		}
@@ -556,10 +556,10 @@
 				"579E0E5C2F043B13"
 				"56B7D65D914595DF"
 			]
-			description: ["錭錤錶锭未包含的部分"]
+			description: ["{gtlcore.quest.gtl.quest.53af03b663577cb0.description.0000}"]
 			hide_dependency_lines: true
 			id: "53AF03B663577CB0"
-			subtitle: "这里的轻重只是原子序数的大小区别"
+			subtitle: "{gtlcore.quest.gtl.quest.53af03b663577cb0.subtitle}"
 			tasks: [
 				{
 					id: "1686AE5912E983B9"
@@ -572,7 +572,7 @@
 					type: "item"
 				}
 			]
-			title: "超重元素合金锭"
+			title: "{gtlcore.quest.gtl.quest.53af03b663577cb0.title}"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -580,11 +580,11 @@
 			dependencies: ["606C81F449ABCE5B"]
 			icon: "gtceu:gamma_rays_photoresist_bucket"
 			id: "0D4ACF1CF1489C8D"
-			subtitle: "超高精度"
+			subtitle: "{gtlcore.quest.gtl.quest.0d4acf1cf1489c8d.subtitle}"
 			tasks: [
 				{
 					id: "3CB6DA1C42F67095"
-					title: "γ射线光刻胶"
+					title: "{gtlcore.quest.gtl.task.3cb6da1c42f67095.title}"
 					type: "checkmark"
 				}
 				{
@@ -600,15 +600,15 @@
 		{
 			dependencies: ["2F82F4BCC261723A"]
 			description: [
-				"&eUXV&r超导体"
+				"{gtlcore.quest.gtl.quest.559836cc234447c0.description.0000}"
 				""
-				"你可以制作&6绝对洁净可配置维护仓&r和最高级的&d可配置重力绝对洁净维护仓&r了"
+				"{gtlcore.quest.gtl.quest.559836cc234447c0.description.0002}"
 			]
 			hide_dependent_lines: true
 			id: "559836CC234447C0"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "非常传奇"
+			subtitle: "{gtlcore.quest.gtl.quest.559836cc234447c0.subtitle}"
 			tasks: [{
 				id: "300AEC5CB1F10137"
 				item: "gtceu:legendarium_ingot"
@@ -619,11 +619,11 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["也许你可以考虑使用巨构来解决蒸发塔和等离子冷凝器速度过慢的问题"]
+			description: ["{gtlcore.quest.gtl.quest.6fe5409db7a22427.description.0000}"]
 			hide_dependent_lines: true
 			icon: "gtceu:grade_16_purified_water_bucket"
 			id: "6FE5409DB7A22427"
-			subtitle: "用于更高级的晶圆切割"
+			subtitle: "{gtlcore.quest.gtl.quest.6fe5409db7a22427.subtitle}"
 			tasks: [
 				{
 					id: "55FFB0F929D12E7F"
@@ -636,7 +636,7 @@
 					type: "item"
 				}
 			]
-			title: "16级净化水"
+			title: "{gtlcore.quest.gtl.quest.6fe5409db7a22427.title}"
 			x: -2.0d
 			y: 8.0d
 		}
@@ -645,7 +645,7 @@
 				"0855401586D73395"
 				"559836CC234447C0"
 			]
-			description: ["记得优化反物质的样板"]
+			description: ["{gtlcore.quest.gtl.quest.515737db7910465c.description.0000}"]
 			icon_scale: 1.3d
 			id: "515737DB7910465C"
 			shape: "hexagon"
@@ -663,10 +663,10 @@
 				"39F73A63746EE6E8"
 				"670D8EB2CE915FD5"
 			]
-			description: ["有了熔火之石粉后，记得升级动力模块MK5！"]
+			description: ["{gtlcore.quest.gtl.quest.0855401586d73395.description.0000}"]
 			id: "0855401586D73395"
 			shape: "pentagon"
-			subtitle: "末影(30)，熔火之石(31)，振金(31)"
+			subtitle: "{gtlcore.quest.gtl.quest.0855401586d73395.subtitle}"
 			tasks: [{
 				id: "6902E2DE8A1F90F0"
 				item: "kubejs:space_drone_mk5"
@@ -682,7 +682,7 @@
 				"17F6AFC430A15CDA"
 			]
 			id: "67673D8789AC1781"
-			subtitle: "需要UXV能源仓"
+			subtitle: "{gtlcore.quest.gtl.quest.67673d8789ac1781.subtitle}"
 			tasks: [{
 				id: "2268BE3EB165A96B"
 				item: "kubejs:proto_matter"
@@ -698,9 +698,9 @@
 				"6D6BE75CB79C7901"
 			]
 			description: [
-				"中子活化器的激光版本，虽然效率有所降低，但是免去了很多麻烦"
+				"{gtlcore.quest.gtl.quest.664d8255a1960e9e.description.0000}"
 				""
-				"中子漩涡的运行时间只受维护仓影响（16777216并行和2并行速度一样）"
+				"{gtlcore.quest.gtl.quest.664d8255a1960e9e.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "664D8255A1960E9E"
@@ -749,7 +749,7 @@
 			hide_dependency_lines: true
 			id: "591D9F11000A7DD2"
 			optional: true
-			subtitle: "更快，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.591d9f11000a7dd2.subtitle}"
 			tasks: [{
 				id: "345DB347B68E57F3"
 				item: "gtlcore:fast_conversion_simulate_card"
@@ -775,7 +775,7 @@
 					type: "item"
 				}
 			]
-			title: "气态高密度自由α粒子气"
+			title: "{gtlcore.quest.gtl.quest.38b80c3dd1e55532.title}"
 			x: -6.0d
 			y: 6.0d
 		}
@@ -795,12 +795,12 @@
 		}
 		{
 			dependencies: ["2AA6041AC73CD47E"]
-			description: ["在1阶的基础上升级"]
+			description: ["{gtlcore.quest.gtl.quest.1c4d5d7786f64485.description.0000}"]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "1C4D5D7786F64485"
 			shape: "rsquare"
-			subtitle: "需放入中子素纳米蜂群"
+			subtitle: "{gtlcore.quest.gtl.quest.1c4d5d7786f64485.subtitle}"
 			tasks: [{
 				id: "2EA2C34D0708CF9A"
 				item: "gtceu:nano_forge_2"
@@ -818,7 +818,7 @@
 				"0855401586D73395"
 				"559836CC234447C0"
 			]
-			description: ["可生成机器模式对应的所有配方样板且支持过滤的样板总成"]
+			description: ["{gtlcore.quest.gtl.quest.01b0ac3397b954fd.description.0000}"]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "01B0AC3397B954FD"
@@ -833,6 +833,6 @@
 			y: 8.0d
 		}
 	]
-	subtitle: ["Tier11-UIV"]
-	title: "极巨压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.2fbfeed9d83f24b7.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.2fbfeed9d83f24b7.title}"
 }

@@ -20,5 +20,5 @@
 		{ count: 64, item: "minecraft:magenta_dye" }
 		{ count: 64, item: "minecraft:pink_dye" }
 	]
-	title: "多彩世界"
+	title: "{gtlcore.quest.gtl.reward_table.2ec56857e6ddd0f5.title}"
 }

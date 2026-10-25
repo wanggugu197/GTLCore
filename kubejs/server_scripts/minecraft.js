@@ -77,6 +77,7 @@ ServerEvents.recipes((event) => {
         .EUt(480)
 
     gtr.lightning_processor("kubejs:echobone")
+        .circuit(2)
         .itemInputs("minecraft:bone")
         .inputFluids("gtceu:echo_shard 144")
         .itemOutputs("kubejs:echobone")

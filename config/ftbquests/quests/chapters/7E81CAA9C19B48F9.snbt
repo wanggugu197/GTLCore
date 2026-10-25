@@ -32,12 +32,12 @@
 				"638C3C9A1CED8C4D"
 			]
 			id: "6318135AD6CF15D9"
-			subtitle: "比较复杂的合成"
+			subtitle: "{gtlcore.quest.gtl.quest.6318135ad6cf15d9.subtitle}"
 			tasks: [{
 				id: "437D817157736685"
 				type: "checkmark"
 			}]
-			title: "66粉/六硝基六氮杂异伍兹烷"
+			title: "{gtlcore.quest.gtl.quest.6318135ad6cf15d9.title}"
 			x: -1.5d
 			y: 7.5d
 		}
@@ -101,7 +101,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硅胶基质"
+			title: "{gtlcore.quest.gtl.quest.1009667f6846d21e.title}"
 			x: 10.5d
 			y: 10.5d
 		}
@@ -149,7 +149,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙二胺和钯粉"
+			title: "{gtlcore.quest.gtl.quest.3b56eeed118de578.title}"
 			x: 9.0d
 			y: 9.0d
 		}
@@ -169,7 +169,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙醇胺"
+			title: "{gtlcore.quest.gtl.quest.72a3b183a70fa405.title}"
 			x: 9.0d
 			y: 10.5d
 		}
@@ -189,7 +189,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "环氧乙烷"
+			title: "{gtlcore.quest.gtl.quest.2fa41eee671defed.title}"
 			x: 9.0d
 			y: 12.0d
 		}
@@ -250,7 +250,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟化硼"
+			title: "{gtlcore.quest.gtl.quest.50f6f9945899ea0f.title}"
 			x: 4.5d
 			y: 7.5d
 		}
@@ -289,7 +289,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硼酸"
+			title: "{gtlcore.quest.gtl.quest.7b4bba465287cf9f.title}"
 			x: 1.5d
 			y: 7.5d
 		}
@@ -356,7 +356,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二芐基四乙酰六氮杂异伍兹烷粉和氢溴酸"
+			title: "{gtlcore.quest.gtl.quest.7d5c0fb3217866b2.title}"
 			x: 7.5d
 			y: 10.5d
 		}
@@ -421,7 +421,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙酸酐"
+			title: "{gtlcore.quest.gtl.quest.098d2e1017cdacdd.title}"
 			x: 4.5d
 			y: 10.5d
 		}
@@ -463,7 +463,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙烯酮"
+			title: "{gtlcore.quest.gtl.quest.4785a145dbf5cbe4.title}"
 			x: 1.5d
 			y: 10.5d
 		}
@@ -486,7 +486,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "盐酸羟胺"
+			title: "{gtlcore.quest.gtl.quest.47be820e7218d279.title}"
 			x: 6.0d
 			y: 13.5d
 		}
@@ -588,7 +588,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "亚硝酸"
+			title: "{gtlcore.quest.gtl.quest.6bc49f4f219eb5f7.title}"
 			x: 1.5d
 			y: 13.5d
 		}
@@ -652,7 +652,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "亚硝酸钠粉和Co/AC-AB催化剂粉"
+			title: "{gtlcore.quest.gtl.quest.771456fb19b77e4f.title}"
 			x: 0.0d
 			y: 13.5d
 		}
@@ -672,7 +672,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸钠溶液"
+			title: "{gtlcore.quest.gtl.quest.333d26a7e46ff85c.title}"
 			x: 0.0d
 			y: 12.0d
 		}
@@ -717,7 +717,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "琥珀酸粉和镀铑钯粉"
+			title: "{gtlcore.quest.gtl.quest.6baa9af61ec423cd.title}"
 			x: 3.0d
 			y: 12.0d
 		}
@@ -743,7 +743,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "顺丁烯二酸酐和铋粉"
+			title: "{gtlcore.quest.gtl.quest.419097d3522c589f.title}"
 			x: 1.5d
 			y: 12.0d
 		}
@@ -763,7 +763,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙二醛"
+			title: "{gtlcore.quest.gtl.quest.44fc82d2bed9c347.title}"
 			x: 7.5d
 			y: 15.0d
 		}
@@ -805,7 +805,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "苄胺"
+			title: "{gtlcore.quest.gtl.quest.2b5a9ce9d87cfa3d.title}"
 			x: 9.0d
 			y: 13.5d
 		}
@@ -850,7 +850,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化苄和黑光灯"
+			title: "{gtlcore.quest.gtl.quest.51536979fa28d703.title}"
 			x: 10.5d
 			y: 15.0d
 		}
@@ -861,12 +861,12 @@
 				"638C3C9A1CED8C4D"
 			]
 			id: "0E926F9B91EECD78"
-			subtitle: "有点长"
+			subtitle: "{gtlcore.quest.gtl.quest.0e926f9b91eecd78.subtitle}"
 			tasks: [{
 				id: "76185AEA8700EB09"
 				type: "checkmark"
 			}]
-			title: "钫处理/凯金化合物处理"
+			title: "{gtlcore.quest.gtl.quest.0e926f9b91eecd78.title}"
 			x: -18.0d
 			y: -6.0d
 		}
@@ -898,7 +898,7 @@
 			dependencies: ["1D0D7293B070CF3D"]
 			icon: "gtceu:actinium_radium_nitrate_solution_bucket"
 			id: "7C316F056D8355F7"
-			subtitle: "可以完全回收锕粉和镭粉，同时有镤粉和额外的镭粉产出"
+			subtitle: "{gtlcore.quest.gtl.quest.7c316f056d8355f7.subtitle}"
 			tasks: [
 				{
 					id: "79408963E3720F7B"
@@ -911,7 +911,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸锕镭溶液"
+			title: "{gtlcore.quest.gtl.quest.7c316f056d8355f7.title}"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -923,7 +923,7 @@
 			]
 			icon: "gtceu:trifluoroacetic_phosphate_ester_dust"
 			id: "489CD0F35D53FA81"
-			subtitle: "催化剂"
+			subtitle: "{gtlcore.quest.gtl.quest.489cd0f35d53fa81.subtitle}"
 			tasks: [
 				{
 					id: "40880E6AE97F2D2F"
@@ -978,7 +978,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "2-乙酰噻吩"
+			title: "{gtlcore.quest.gtl.quest.0287e9a4c1ac8306.title}"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -998,7 +998,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三氟乙酸乙酯"
+			title: "{gtlcore.quest.gtl.quest.5d91dbee7a88c468.title}"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -1018,7 +1018,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙酰氯"
+			title: "{gtlcore.quest.gtl.quest.6f98a5f9240aa5d3.title}"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1038,7 +1038,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙烯酮"
+			title: "{gtlcore.quest.gtl.quest.1503a7fa4645a82b.title}"
 			x: 6.0d
 			y: 1.5d
 		}
@@ -1061,7 +1061,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "琥珀醛"
+			title: "{gtlcore.quest.gtl.quest.4b9b2fc3db2c23ea.title}"
 			x: 7.5d
 			y: 1.5d
 		}
@@ -1103,7 +1103,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氢氧化锕镭溶液"
+			title: "{gtlcore.quest.gtl.quest.1d0d7293b070cf3d.title}"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -1116,7 +1116,7 @@
 			]
 			icon: "gtlcore:protonated_fullerene_sieving_matrix"
 			id: "5307680107A0D67B"
-			subtitle: "循环利用"
+			subtitle: "{gtlcore.quest.gtl.quest.5307680107a0d67b.subtitle}"
 			tasks: [
 				{
 					id: "292F3DA5966B5A22"
@@ -1170,7 +1170,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "全氟苯"
+			title: "{gtlcore.quest.gtl.quest.3d119892bd46b8d4.title}"
 			x: -3.0d
 			y: -4.5d
 		}
@@ -1181,10 +1181,10 @@
 				"3ACE24C4CD948728"
 			]
 			dependency_requirement: "one_completed"
-			description: ["极端酸性物质"]
+			description: ["{gtlcore.quest.gtl.quest.0d33e584f073edac.description.0000}"]
 			icon: "gtceu:fluorocarborane_dust"
 			id: "0D33E584F073EDAC"
-			subtitle: "可以回收三甲基硅烷，氧化银和铯粉"
+			subtitle: "{gtlcore.quest.gtl.quest.0d33e584f073edac.subtitle}"
 			tasks: [
 				{
 					id: "3F50B8E3AF302EFA"
@@ -1262,7 +1262,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三甲基硅烷"
+			title: "{gtlcore.quest.gtl.quest.3ace24c4cd948728.title}"
 			x: -9.0d
 			y: -3.0d
 		}
@@ -1302,7 +1302,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三甲基氯硅烷"
+			title: "{gtlcore.quest.gtl.quest.42dff6c974a34781.title}"
 			x: -9.0d
 			y: -4.5d
 		}
@@ -1322,7 +1322,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二甲基二氯硅烷"
+			title: "{gtlcore.quest.gtl.quest.5bfb7f134b0df490.title}"
 			x: -10.5d
 			y: -6.0d
 		}
@@ -1345,7 +1345,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硼烷二甲基硫醚"
+			title: "{gtlcore.quest.gtl.quest.3061dc56393fe8a3.title}"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -1356,7 +1356,7 @@
 			]
 			icon: "gtceu:tetrahydrofuran_bucket"
 			id: "2CF90ED1A9A8873B"
-			subtitle: "催化剂"
+			subtitle: "{gtlcore.quest.gtl.quest.2cf90ed1a9a8873b.subtitle}"
 			tasks: [
 				{
 					id: "276BE99918778BC6"
@@ -1369,7 +1369,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氢呋喃"
+			title: "{gtlcore.quest.gtl.quest.2cf90ed1a9a8873b.title}"
 			x: -7.5d
 			y: 1.5d
 		}
@@ -1389,7 +1389,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲醛"
+			title: "{gtlcore.quest.gtl.quest.237088f52f8a233a.title}"
 			x: -7.5d
 			y: 3.0d
 		}
@@ -1409,7 +1409,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙炔"
+			title: "{gtlcore.quest.gtl.quest.462b86be9f0ca87c.title}"
 			x: -9.0d
 			y: 1.5d
 		}
@@ -1514,7 +1514,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "过氧化氢"
+			title: "{gtlcore.quest.gtl.quest.7045a5746b618d01.title}"
 			x: -4.5d
 			y: -6.0d
 		}
@@ -1534,7 +1534,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化钠"
+			title: "{gtlcore.quest.gtl.quest.3b0232933bbe3383.title}"
 			x: -12.0d
 			y: -1.5d
 		}
@@ -1560,7 +1560,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化氢和铂粉"
+			title: "{gtlcore.quest.gtl.quest.2cfc5003a10312e3.title}"
 			x: -13.5d
 			y: -1.5d
 		}
@@ -1605,7 +1605,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三氟化硼乙酸酯"
+			title: "{gtlcore.quest.gtl.quest.4669e40cc06ed5e3.title}"
 			x: -12.0d
 			y: -3.0d
 		}
@@ -1625,7 +1625,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硼酸"
+			title: "{gtlcore.quest.gtl.quest.36bc738a5d774057.title}"
 			x: -15.0d
 			y: -4.5d
 		}
@@ -1664,7 +1664,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯甲烷"
+			title: "{gtlcore.quest.gtl.quest.379783bb61405372.title}"
 			x: -12.0d
 			y: -6.0d
 		}
@@ -1702,7 +1702,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氟化氪"
+			title: "{gtlcore.quest.gtl.quest.79d625c4cc5ffdeb.title}"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -1722,7 +1722,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟锑酸"
+			title: "{gtlcore.quest.gtl.quest.1e48a22af50dfa22.title}"
 			x: -1.5d
 			y: 0.0d
 		}
@@ -1730,7 +1730,7 @@
 			dependencies: ["64166D3B9F4A817F"]
 			icon: "gtceu:antimony_trifluoride_dust"
 			id: "296EC483F90323C3"
-			subtitle: "可以在循环中回收"
+			subtitle: "{gtlcore.quest.gtl.quest.296ec483f90323c3.subtitle}"
 			tasks: [
 				{
 					id: "645AD8E66B3E9722"
@@ -1771,14 +1771,14 @@
 				"79D625C4CC5FFDEB"
 				"1E48A22AF50DFA22"
 			]
-			description: ["{ \"text\": \"还能获得凯金\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"37A99CF028273351\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"37A99CF028273351\"},\"translate\":\"gtlcore.quest.gtl.quest.76fbe49efa4545df.description.0000.text.0000\"}"]
 			id: "76FBE49EFA4545DF"
-			subtitle: "三氟化锑，全氟苯，氟硼烷，氪"
+			subtitle: "{gtlcore.quest.gtl.quest.76fbe49efa4545df.subtitle}"
 			tasks: [{
 				id: "16306AD6F5FF58CB"
 				type: "checkmark"
 			}]
-			title: "回收原料"
+			title: "{gtlcore.quest.gtl.quest.76fbe49efa4545df.title}"
 			x: -1.5d
 			y: -1.5d
 		}
@@ -1804,7 +1804,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟化钾粉和铼粉"
+			title: "{gtlcore.quest.gtl.quest.045541dbaca0e553.title}"
 			x: -3.0d
 			y: -6.0d
 		}
@@ -1824,7 +1824,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二乙醚"
+			title: "{gtlcore.quest.gtl.quest.48d469a13d6bb882.title}"
 			x: -13.5d
 			y: -3.0d
 		}
@@ -1845,7 +1845,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟化硼"
+			title: "{gtlcore.quest.gtl.quest.39772b7c72986ed7.title}"
 			x: -15.0d
 			y: -1.5d
 		}
@@ -1884,7 +1884,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二甲硫醚"
+			title: "{gtlcore.quest.gtl.quest.605b74e5199950f2.title}"
 			x: -6.0d
 			y: 0.0d
 		}
@@ -1907,7 +1907,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙硼烷"
+			title: "{gtlcore.quest.gtl.quest.5de7fbf8976120f7.title}"
 			x: -4.5d
 			y: -1.5d
 		}
@@ -2014,7 +2014,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝化凯金化合物溶液"
+			title: "{gtlcore.quest.gtl.quest.67be653a0913ac76.title}"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -2113,13 +2113,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "发烟硝酸"
+			title: "{gtlcore.quest.gtl.quest.67a9fd093d7801e6.title}"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2F2926770C85FB36"]
-			description: ["先进的材料"]
+			description: ["{gtlcore.quest.gtl.quest.1d6792f905d97277.description.0000}"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "1D6792F905D97277"
@@ -2163,7 +2163,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "环对苯撑"
+			title: "{gtlcore.quest.gtl.quest.45a65e116a9b31e4.title}"
 			x: 7.5d
 			y: 6.0d
 		}
@@ -2172,7 +2172,7 @@
 			icon: "gtceu:fine_carbon_nanotubes_wire"
 			id: "52282B1EEA498EA4"
 			shape: "pentagon"
-			subtitle: "不能回收"
+			subtitle: "{gtlcore.quest.gtl.quest.52282b1eea498ea4.subtitle}"
 			tasks: [
 				{
 					id: "3E9F46A212EF7FD5"
@@ -2192,7 +2192,7 @@
 			dependencies: ["21E6C6F69E0960DB"]
 			icon: "gtceu:unfolded_fullerene_dust"
 			id: "2F2926770C85FB36"
-			subtitle: "后续还有别的用途"
+			subtitle: "{gtlcore.quest.gtl.quest.2f2926770c85fb36.subtitle}"
 			tasks: [
 				{
 					id: "44F63BA86D6D129F"
@@ -2246,7 +2246,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "苯并菲乙腈粉、钛粉、铝粉和气态氯"
+			title: "{gtlcore.quest.gtl.quest.21e6c6f69e0960db.title}"
 			x: -10.5d
 			y: 6.0d
 		}
@@ -2329,7 +2329,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲酰胺"
+			title: "{gtlcore.quest.gtl.quest.5fbf233b5423f8ed.title}"
 			x: -12.0d
 			y: 7.5d
 		}
@@ -2349,7 +2349,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲酸铵"
+			title: "{gtlcore.quest.gtl.quest.29eb323166147c15.title}"
 			x: -13.5d
 			y: 7.5d
 		}
@@ -2369,7 +2369,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲酸"
+			title: "{gtlcore.quest.gtl.quest.0ef85135c419d50c.title}"
 			x: -15.0d
 			y: 7.5d
 		}
@@ -2389,7 +2389,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲酸钠"
+			title: "{gtlcore.quest.gtl.quest.1cc1e51865080429.title}"
 			x: -16.5d
 			y: 7.5d
 		}
@@ -2435,7 +2435,7 @@
 			dependencies: ["247E4E8498CA8A37"]
 			icon: "gtceu:succinimide_dust"
 			id: "06EAF19B016937D9"
-			subtitle: "相当于催化剂"
+			subtitle: "{gtlcore.quest.gtl.quest.06eaf19b016937d9.subtitle}"
 			tasks: [
 				{
 					id: "39F16E3B9061885F"
@@ -2452,11 +2452,11 @@
 			y: 6.0d
 		}
 		{
-			description: ["太空无人机MKIII"]
+			description: ["{gtlcore.quest.gtl.quest.2a47c39959bbc6f5.description.0000}"]
 			icon: "gtceu:bromine_bucket"
 			id: "2A47C39959BBC6F5"
 			shape: "pentagon"
-			subtitle: "直接通过电梯采集"
+			subtitle: "{gtlcore.quest.gtl.quest.2a47c39959bbc6f5.subtitle}"
 			tasks: [
 				{
 					id: "33D84D63F9597918"
@@ -2469,7 +2469,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "溴"
+			title: "{gtlcore.quest.gtl.quest.2a47c39959bbc6f5.title}"
 			x: -13.5d
 			y: 4.5d
 		}
@@ -2489,7 +2489,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲醛"
+			title: "{gtlcore.quest.gtl.quest.07956b6a28b9bea6.title}"
 			x: -12.0d
 			y: 4.5d
 		}
@@ -2547,7 +2547,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氟硼酸银"
+			title: "{gtlcore.quest.gtl.quest.328626afd1d3a24f.title}"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -2567,7 +2567,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三甲基氯化锡"
+			title: "{gtlcore.quest.gtl.quest.484618407b76b410.title}"
 			x: 9.0d
 			y: 6.0d
 		}
@@ -2593,7 +2593,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "联苯粉和黑光灯"
+			title: "{gtlcore.quest.gtl.quest.1ebf4e9f9d33f922.title}"
 			x: 9.0d
 			y: 4.5d
 		}
@@ -2613,7 +2613,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "环辛二烯"
+			title: "{gtlcore.quest.gtl.quest.231ffd3f1c64bf5d.title}"
 			x: 4.5d
 			y: 4.5d
 		}
@@ -2627,7 +2627,7 @@
 				id: "665743DA2FCF47AA"
 				type: "checkmark"
 			}]
-			title: "富勒烯"
+			title: "{gtlcore.quest.gtl.quest.1b462f1dbfc5f77b.title}"
 			x: -18.0d
 			y: 4.5d
 		}
@@ -2641,7 +2641,7 @@
 				id: "711EE572E46AE190"
 				type: "checkmark"
 			}]
-			title: "环对苯撑"
+			title: "{gtlcore.quest.gtl.quest.0b32bfb8b18e72d4.title}"
 			x: -1.5d
 			y: 4.5d
 		}
@@ -2655,7 +2655,7 @@
 				id: "362AE23AF864D18D"
 				type: "checkmark"
 			}]
-			title: "聚氨酯树脂-凯夫拉"
+			title: "{gtlcore.quest.gtl.quest.47ec3a53e944e87b.title}"
 			x: -18.0d
 			y: 9.0d
 		}
@@ -2689,7 +2689,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液晶凯夫拉"
+			title: "{gtlcore.quest.gtl.quest.351519cef1dfc684.title}"
 			x: -4.5d
 			y: 12.0d
 		}
@@ -2717,7 +2717,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "聚氨酯树脂"
+			title: "{gtlcore.quest.gtl.quest.5428007961f407db.title}"
 			x: -15.0d
 			y: 12.0d
 		}
@@ -2800,7 +2800,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "N-甲基吡咯烷酮"
+			title: "{gtlcore.quest.gtl.quest.5c20cfa301259438.title}"
 			x: -4.5d
 			y: 13.5d
 		}
@@ -2820,7 +2820,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化亚砜"
+			title: "{gtlcore.quest.gtl.quest.42419faf75a89201.title}"
 			x: -6.0d
 			y: 9.0d
 		}
@@ -2840,7 +2840,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "对苯二甲酸"
+			title: "{gtlcore.quest.gtl.quest.480e979b741cb6f9.title}"
 			x: -9.0d
 			y: 9.0d
 		}
@@ -2860,7 +2860,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三氧化硫"
+			title: "{gtlcore.quest.gtl.quest.36f3325595e29676.title}"
 			x: -7.5d
 			y: 9.0d
 		}
@@ -2898,7 +2898,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "邻苯二甲酸、硫酸、镉粉和硫酸氢钠粉"
+			title: "{gtlcore.quest.gtl.quest.39b2241a9f0a269d.title}"
 			x: -10.5d
 			y: 9.0d
 		}
@@ -2918,7 +2918,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "对苯二甲酸二甲酯"
+			title: "{gtlcore.quest.gtl.quest.1801e0d00a1a18be.title}"
 			x: -7.5d
 			y: 10.5d
 		}
@@ -2948,7 +2948,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "对硝基苯胺"
+			title: "{gtlcore.quest.gtl.quest.2ae09a7e41df9e4d.title}"
 			x: -7.5d
 			y: 12.0d
 		}
@@ -2968,7 +2968,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸混酸"
+			title: "{gtlcore.quest.gtl.quest.39fcedfd190d38ed.title}"
 			x: -9.0d
 			y: 10.5d
 		}
@@ -2988,7 +2988,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙酸酐"
+			title: "{gtlcore.quest.gtl.quest.66df38deecebd5e0.title}"
 			x: -9.0d
 			y: 12.0d
 		}
@@ -3008,7 +3008,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "苯胺"
+			title: "{gtlcore.quest.gtl.quest.5cb47eebc0f0d007.title}"
 			x: -9.0d
 			y: 13.5d
 		}
@@ -3034,7 +3034,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基苯和锌粉"
+			title: "{gtlcore.quest.gtl.quest.592c0264659cc4f9.title}"
 			x: -10.5d
 			y: 12.0d
 		}
@@ -3054,7 +3054,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲胺"
+			title: "{gtlcore.quest.gtl.quest.777eec728d2f9f26.title}"
 			x: -4.5d
 			y: 15.0d
 		}
@@ -3074,7 +3074,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "1,4-丁内酯"
+			title: "{gtlcore.quest.gtl.quest.4943427f26262fdd.title}"
 			x: -6.0d
 			y: 15.0d
 		}
@@ -3103,7 +3103,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "1,4-丁二醇和铜粉"
+			title: "{gtlcore.quest.gtl.quest.3e9ba411902e95ad.title}"
 			x: -7.5d
 			y: 15.0d
 		}
@@ -3165,7 +3165,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "季戊四醇"
+			title: "{gtlcore.quest.gtl.quest.5699812ee4e39fd6.title}"
 			x: -13.5d
 			y: 12.0d
 		}
@@ -3204,7 +3204,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙二醇"
+			title: "{gtlcore.quest.gtl.quest.20ac007d9abaabc4.title}"
 			x: -15.0d
 			y: 10.5d
 		}
@@ -3227,7 +3227,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硅油"
+			title: "{gtlcore.quest.gtl.quest.2f58d3eb6585630b.title}"
 			x: -16.5d
 			y: 12.0d
 		}
@@ -3246,7 +3246,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲醛"
+			title: "{gtlcore.quest.gtl.quest.3368ecc0af9aa5f3.title}"
 			x: -12.0d
 			y: 12.0d
 		}
@@ -3266,7 +3266,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙醛"
+			title: "{gtlcore.quest.gtl.quest.24a3be95e8422e87.title}"
 			x: -13.5d
 			y: 10.5d
 		}
@@ -3292,7 +3292,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丙酮和四氧化锇"
+			title: "{gtlcore.quest.gtl.quest.6d57e3ea38886cd1.title}"
 			x: -13.5d
 			y: 9.0d
 		}
@@ -3312,7 +3312,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "环氧乙烷"
+			title: "{gtlcore.quest.gtl.quest.7e99a9d66824673e.title}"
 			x: -16.5d
 			y: 10.5d
 		}
@@ -3332,7 +3332,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二甲基二氯硅烷"
+			title: "{gtlcore.quest.gtl.quest.7b9b357d62e0602a.title}"
 			x: -16.5d
 			y: 13.5d
 		}
@@ -3355,7 +3355,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二苯基甲烷二异氰酸酯混合物"
+			title: "{gtlcore.quest.gtl.quest.240d8f1c0c8037c8.title}"
 			x: -13.5d
 			y: 13.5d
 		}
@@ -3375,7 +3375,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "碳酰氯"
+			title: "{gtlcore.quest.gtl.quest.4a3fedf12c097f29.title}"
 			x: -13.5d
 			y: 15.0d
 		}
@@ -3398,7 +3398,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氨基二苯甲烷混合物"
+			title: "{gtlcore.quest.gtl.quest.3d515a28c76978a4.title}"
 			x: -12.0d
 			y: 13.5d
 		}
@@ -3455,7 +3455,7 @@
 			id: "65FDECC0F69ECD2A"
 			tasks: [{
 				id: "30E46EB70302498A"
-				title: "两种药片"
+				title: "{gtlcore.quest.gtl.task.30e46eb70302498a.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -3466,7 +3466,7 @@
 			id: "51B2B531E6FC0055"
 			tasks: [{
 				id: "63E62085E33B5504"
-				title: "细菌产线"
+				title: "{gtlcore.quest.gtl.task.63e62085e33b5504.title}"
 				type: "checkmark"
 			}]
 			x: -18.0d
@@ -3480,10 +3480,10 @@
 			id: "11B90D1FD2508092"
 			tasks: [{
 				id: "69AD2D6C96709DEE"
-				title: "生物产线"
+				title: "{gtlcore.quest.gtl.task.69ad2d6c96709dee.title}"
 				type: "checkmark"
 			}]
-			title: "生物细胞-突变活性焊剂"
+			title: "{gtlcore.quest.gtl.quest.11b90d1fd2508092.title}"
 			x: -1.5d
 			y: -12.0d
 		}
@@ -3493,7 +3493,7 @@
 			id: "63FEF796CFF5E8DF"
 			min_required_dependencies: 1
 			shape: "pentagon"
-			subtitle: "蒸馏室三号电路"
+			subtitle: "{gtlcore.quest.gtl.quest.63fef796cff5e8df.subtitle}"
 			tasks: [
 				{
 					id: "014038349888FC2A"
@@ -3506,7 +3506,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "含硫石脑油"
+			title: "{gtlcore.quest.gtl.quest.63fef796cff5e8df.title}"
 			x: -30.0d
 			y: -9.0d
 		}
@@ -3518,7 +3518,7 @@
 			]
 			icon: "gtceu:naphtha_bucket"
 			id: "071C1482A33D97FB"
-			subtitle: "含硫石脑油加氢气"
+			subtitle: "{gtlcore.quest.gtl.quest.071c1482a33d97fb.subtitle}"
 			tasks: [
 				{
 					id: "5487A28C3E9B45E0"
@@ -3531,7 +3531,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "石脑油"
+			title: "{gtlcore.quest.gtl.quest.071c1482a33d97fb.title}"
 			x: -28.5d
 			y: -9.0d
 		}
@@ -3542,7 +3542,7 @@
 			]
 			icon: "gtceu:severely_steam_cracked_naphtha_bucket"
 			id: "70E703942B61C86C"
-			subtitle: "化学反应釜加蒸汽三号电路"
+			subtitle: "{gtlcore.quest.gtl.quest.70e703942b61c86c.subtitle}"
 			tasks: [
 				{
 					id: "43A2C8C1FC309DE4"
@@ -3555,7 +3555,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "重度蒸汽裂化石脑油"
+			title: "{gtlcore.quest.gtl.quest.70e703942b61c86c.title}"
 			x: -27.0d
 			y: -9.0d
 		}
@@ -3563,7 +3563,7 @@
 			dependencies: ["70E703942B61C86C"]
 			icon: "gtceu:ethylene_bucket"
 			id: "0C5B23E443F1A5D5"
-			subtitle: "蒸馏室十号电路"
+			subtitle: "{gtlcore.quest.gtl.quest.0c5b23e443f1a5d5.subtitle}"
 			tasks: [
 				{
 					id: "4AE736F84D6F23E1"
@@ -3576,7 +3576,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙烯"
+			title: "{gtlcore.quest.gtl.quest.0c5b23e443f1a5d5.title}"
 			x: -25.5d
 			y: -10.5d
 		}
@@ -3584,10 +3584,10 @@
 			dependencies: ["63FEF796CFF5E8DF"]
 			icon: "gtceu:hydrogen_sulfide_bucket"
 			id: "751BF4CAEE613BBA"
-			subtitle: "将硫化氢电解以进行氢的循环"
+			subtitle: "{gtlcore.quest.gtl.quest.751bf4caee613bba.subtitle}"
 			tasks: [{
 				id: "58FAC5989D41DC20"
-				title: "硫化氢"
+				title: "{gtlcore.quest.gtl.task.58fac5989d41dc20.title}"
 				type: "checkmark"
 			}]
 			x: -30.0d
@@ -3609,7 +3609,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "气态氢"
+			title: "{gtlcore.quest.gtl.quest.045d76184bfbd4d6.title}"
 			x: -28.5d
 			y: -10.5d
 		}
@@ -3619,7 +3619,7 @@
 			id: "1B27E863E90AB90E"
 			tasks: [{
 				id: "47E3DB83C132B814"
-				title: "两种选择"
+				title: "{gtlcore.quest.gtl.task.47e3db83c132b814.title}"
 				type: "checkmark"
 			}]
 			x: -24.0d
@@ -3627,7 +3627,7 @@
 		}
 		{
 			dependencies: ["1B27E863E90AB90E"]
-			description: ["{ \"text\": \"氯的来源见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2CDB693780B9BE2E\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CDB693780B9BE2E\"},\"translate\":\"gtlcore.quest.gtl.quest.17dde8cc39438a32.description.0000.text.0000\"}"]
 			icon: "gtceu:polyvinyl_chloride_bucket"
 			id: "17DDE8CC39438A32"
 			tasks: [
@@ -3642,7 +3642,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态聚氯乙烯"
+			title: "{gtlcore.quest.gtl.quest.17dde8cc39438a32.title}"
 			x: -22.5d
 			y: -9.0d
 		}
@@ -3662,7 +3662,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态聚乙烯"
+			title: "{gtlcore.quest.gtl.quest.2a312c620f9b58f9.title}"
 			x: -22.5d
 			y: -10.5d
 		}
@@ -3736,7 +3736,7 @@
 			]
 			icon: "gtceu:tetrafluoroethylene_bucket"
 			id: "66CFEE6DC6A4CF34"
-			subtitle: "到EV之后可以用甲烷+氢氟酸+气态氯一步出"
+			subtitle: "{gtlcore.quest.gtl.quest.66cfee6dc6a4cf34.subtitle}"
 			tasks: [
 				{
 					id: "5F3B5D69F11A578D"
@@ -3749,7 +3749,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氟乙烯"
+			title: "{gtlcore.quest.gtl.quest.66cfee6dc6a4cf34.title}"
 			x: -28.5d
 			y: -7.5d
 		}
@@ -3769,12 +3769,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "氢氟酸"
+			title: "{gtlcore.quest.gtl.quest.45ee0ac3d5680b1f.title}"
 			x: -30.0d
 			y: -6.0d
 		}
 		{
-			description: ["气态甲烷前期可来源于离心橡胶原木，氯可以来源于电解盐或岩盐或盐水"]
+			description: ["{gtlcore.quest.gtl.quest.6277f42774893aa3.description.0000}"]
 			icon: "gtceu:chloroform_bucket"
 			id: "6277F42774893AA3"
 			shape: "pentagon"
@@ -3790,7 +3790,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯仿"
+			title: "{gtlcore.quest.gtl.quest.6277f42774893aa3.title}"
 			x: -30.0d
 			y: -7.5d
 		}
@@ -3810,7 +3810,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丙烯"
+			title: "{gtlcore.quest.gtl.quest.0ad5ee4a003844c3.title}"
 			x: -28.5d
 			y: -3.0d
 		}
@@ -3865,7 +3865,7 @@
 			]
 			icon: "gtceu:epoxy_bucket"
 			id: "7D19A74F09F44223"
-			subtitle: "你也可以用丙酮+盐酸"
+			subtitle: "{gtlcore.quest.gtl.quest.7d19a74f09f44223.subtitle}"
 			tasks: [
 				{
 					id: "33285654A89E7E64"
@@ -3878,7 +3878,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态环氧树脂"
+			title: "{gtlcore.quest.gtl.quest.7d19a74f09f44223.title}"
 			x: -25.5d
 			y: -4.5d
 		}
@@ -3888,10 +3888,10 @@
 				"5D9B209D891690FD"
 			]
 			dependency_requirement: "one_completed"
-			description: ["其实还有个烯丙基氯"]
+			description: ["{gtlcore.quest.gtl.quest.64738dfd97250f17.description.0000}"]
 			icon: "gtceu:epichlorohydrin_bucket"
 			id: "64738DFD97250F17"
-			subtitle: "你也可以不用甘油，换成气态氯+水+氢氧化钠粉"
+			subtitle: "{gtlcore.quest.gtl.quest.64738dfd97250f17.subtitle}"
 			tasks: [
 				{
 					id: "44D32E889163EA5C"
@@ -3904,7 +3904,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "环氧氯丙烷"
+			title: "{gtlcore.quest.gtl.quest.64738dfd97250f17.title}"
 			x: -28.5d
 			y: -4.5d
 		}
@@ -3924,7 +3924,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "双酚A"
+			title: "{gtlcore.quest.gtl.quest.71f30e4d75b64953.title}"
 			x: -27.0d
 			y: -3.0d
 		}
@@ -3944,7 +3944,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甘油"
+			title: "{gtlcore.quest.gtl.quest.5d9b209d891690fd.title}"
 			x: -30.0d
 			y: -4.5d
 		}
@@ -3964,7 +3964,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丙烯"
+			title: "{gtlcore.quest.gtl.quest.3ae2c22b1c52cc15.title}"
 			x: -25.5d
 			y: -9.0d
 		}
@@ -4038,7 +4038,7 @@
 			]
 			icon: "gtceu:raw_styrene_butadiene_rubber_dust"
 			id: "6BAC2A8A96690442"
-			subtitle: "用气态氧单位产量更高"
+			subtitle: "{gtlcore.quest.gtl.quest.6bac2a8a96690442.subtitle}"
 			tasks: [
 				{
 					id: "7143FB067D05D6D2"
@@ -4070,7 +4070,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丁二烯"
+			title: "{gtlcore.quest.gtl.quest.6e68f9920b8de90b.title}"
 			x: -30.0d
 			y: -1.5d
 		}
@@ -4090,7 +4090,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "苯乙烯"
+			title: "{gtlcore.quest.gtl.quest.20e57648d7692834.title}"
 			x: -30.0d
 			y: 0.0d
 		}
@@ -4134,7 +4134,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丁醛"
+			title: "{gtlcore.quest.gtl.quest.0c199af8612bc6b8.title}"
 			x: -24.0d
 			y: 1.5d
 		}
@@ -4154,7 +4154,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "聚乙酸乙烯酯"
+			title: "{gtlcore.quest.gtl.quest.092cc48dcee3c012.title}"
 			x: -22.5d
 			y: 3.0d
 		}
@@ -4174,7 +4174,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙酸乙烯酯"
+			title: "{gtlcore.quest.gtl.quest.7e8537fadf9e76ce.title}"
 			x: -24.0d
 			y: 3.0d
 		}
@@ -4219,7 +4219,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氨基联苯胺"
+			title: "{gtlcore.quest.gtl.quest.4f2dff7391377bae.title}"
 			x: -25.5d
 			y: 4.5d
 		}
@@ -4239,7 +4239,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "间苯二甲酸二苯酯"
+			title: "{gtlcore.quest.gtl.quest.23c7020c07c7e2e9.title}"
 			x: -25.5d
 			y: 6.0d
 		}
@@ -4259,7 +4259,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯苯"
+			title: "{gtlcore.quest.gtl.quest.21c233810f7423c7.title}"
 			x: -30.0d
 			y: 4.5d
 		}
@@ -4279,7 +4279,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基氯苯"
+			title: "{gtlcore.quest.gtl.quest.7f22c88335cd5843.title}"
 			x: -28.5d
 			y: 4.5d
 		}
@@ -4299,7 +4299,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氯联苯胺"
+			title: "{gtlcore.quest.gtl.quest.6873048beb5c2652.title}"
 			x: -27.0d
 			y: 4.5d
 		}
@@ -4311,7 +4311,7 @@
 			dependency_requirement: "one_completed"
 			icon: "gtceu:phthalic_acid_bucket"
 			id: "1A8712D336215C23"
-			subtitle: "二甲苯和萘二选一即可"
+			subtitle: "{gtlcore.quest.gtl.quest.1a8712d336215c23.subtitle}"
 			tasks: [
 				{
 					id: "68A396C0AC2E2FE3"
@@ -4324,7 +4324,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "邻苯二甲酸"
+			title: "{gtlcore.quest.gtl.quest.1a8712d336215c23.title}"
 			x: -27.0d
 			y: 6.0d
 		}
@@ -4350,7 +4350,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二甲苯和重铬酸钾粉"
+			title: "{gtlcore.quest.gtl.quest.0562ffc391118d18.title}"
 			x: -28.5d
 			y: 6.0d
 		}
@@ -4370,7 +4370,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "萘"
+			title: "{gtlcore.quest.gtl.quest.27a7f19c69eb2d70.title}"
 			x: -28.5d
 			y: 7.5d
 		}
@@ -4384,7 +4384,7 @@
 			id: "1D235570F7FF1BF1"
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "用气态氧单位产量更高"
+			subtitle: "{gtlcore.quest.gtl.quest.1d235570f7ff1bf1.subtitle}"
 			tasks: [
 				{
 					id: "6C5EBD40B693B972"
@@ -4435,24 +4435,24 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氯苯"
+			title: "{gtlcore.quest.gtl.quest.25fff408fc4fe14f.title}"
 			x: -30.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2EAAF5A6510D0EFE"]
-			description: ["{ \"text\": \"石化生化的产出见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B3E2F27FE938277\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4B3E2F27FE938277\"},\"translate\":\"gtlcore.quest.gtl.quest.77881c054bc89696.description.0000.text.0000\"}"]
 			id: "77881C054BC89696"
 			tasks: [{
 				id: "66DE4C6B60F7BFAA"
-				title: "这是化工"
+				title: "{gtlcore.quest.gtl.task.66de4c6b60f7bfaa.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
 			y: -12.0d
 		}
 		{
-			description: ["{ \"text\": \"碘的来源见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"507C5D3A6F000A45\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"507C5D3A6F000A45\"},\"translate\":\"gtlcore.quest.gtl.quest.37a2908c38979911.description.0000.text.0000\"}"]
 			icon: "gtceu:potassium_iodide_dust"
 			id: "37A2908C38979911"
 			shape: "pentagon"
@@ -4544,7 +4544,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化铁"
+			title: "{gtlcore.quest.gtl.quest.0614ae8ee22c0fe8.title}"
 			x: -28.5d
 			y: 9.0d
 		}
@@ -4589,7 +4589,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化亚铁"
+			title: "{gtlcore.quest.gtl.quest.2f5cc6715ccf49e8.title}"
 			x: -28.5d
 			y: 10.5d
 		}
@@ -4609,7 +4609,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化氢"
+			title: "{gtlcore.quest.gtl.quest.2051bfa31e99a2d2.title}"
 			x: -28.5d
 			y: 12.0d
 		}
@@ -4629,7 +4629,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯苯"
+			title: "{gtlcore.quest.gtl.quest.63a50f5f028d35e0.title}"
 			x: -30.0d
 			y: 10.5d
 		}
@@ -4652,7 +4652,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二乙烯三胺五乙腈"
+			title: "{gtlcore.quest.gtl.quest.2a3cf9dabbefb85e.title}"
 			x: -22.5d
 			y: 13.5d
 		}
@@ -4672,7 +4672,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二乙烯三胺"
+			title: "{gtlcore.quest.gtl.quest.7b8a17d7f7f94689.title}"
 			x: -24.0d
 			y: 12.0d
 		}
@@ -4695,7 +4695,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙腈"
+			title: "{gtlcore.quest.gtl.quest.7b5b44f2cd45d972.title}"
 			x: -27.0d
 			y: 13.5d
 		}
@@ -4715,7 +4715,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲醛"
+			title: "{gtlcore.quest.gtl.quest.29757726ef871de6.title}"
 			x: -30.0d
 			y: 13.5d
 		}
@@ -4735,7 +4735,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氯乙烷"
+			title: "{gtlcore.quest.gtl.quest.2c3c0cd6f2e50308.title}"
 			x: -25.5d
 			y: 12.0d
 		}
@@ -4755,7 +4755,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙酸酐"
+			title: "{gtlcore.quest.gtl.quest.392ad67a87918874.title}"
 			x: -28.5d
 			y: 15.0d
 		}
@@ -4775,7 +4775,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氨基苯酚"
+			title: "{gtlcore.quest.gtl.quest.3e31d094c592d799.title}"
 			x: -25.5d
 			y: 15.0d
 		}
@@ -4795,7 +4795,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙烯酮"
+			title: "{gtlcore.quest.gtl.quest.306a8d50acb4192c.title}"
 			x: -30.0d
 			y: 15.0d
 		}
@@ -4821,7 +4821,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸混酸和铁粉"
+			title: "{gtlcore.quest.gtl.quest.69cfb4808039a984.title}"
 			x: -24.0d
 			y: 15.0d
 		}
@@ -4842,7 +4842,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "还能回收部分细菌浆液"
+			subtitle: "{gtlcore.quest.gtl.quest.4be78b22a7cfbba9.subtitle}"
 			tasks: [{
 				id: "1061E5AF8859623C"
 				item: "gtceu:stem_cells"
@@ -4886,7 +4886,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "无菌培养基"
+			title: "{gtlcore.quest.gtl.quest.02fb675c76544394.title}"
 			x: -6.0d
 			y: -10.5d
 		}
@@ -4909,7 +4909,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "细菌浆液"
+			title: "{gtlcore.quest.gtl.quest.236c246f76b9a184.title}"
 			x: -12.0d
 			y: -10.5d
 		}
@@ -4932,7 +4932,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "培养基原液"
+			title: "{gtlcore.quest.gtl.quest.74434dc5b2e730d0.title}"
 			x: -7.5d
 			y: -10.5d
 		}
@@ -4952,7 +4952,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "诱变剂"
+			title: "{gtlcore.quest.gtl.quest.14c78683ed195532.title}"
 			x: -9.0d
 			y: -10.5d
 		}
@@ -4991,7 +4991,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "琼脂水溶液"
+			title: "{gtlcore.quest.gtl.quest.604278e8adb8de1d.title}"
 			x: -12.0d
 			y: -9.0d
 		}
@@ -5033,7 +5033,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "明胶混合物"
+			title: "{gtlcore.quest.gtl.quest.0f5151f94e839ddc.title}"
 			x: -15.0d
 			y: -9.0d
 		}
@@ -5072,7 +5072,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "磷酸"
+			title: "{gtlcore.quest.gtl.quest.45637bcb86d71f5d.title}"
 			x: -15.0d
 			y: -10.5d
 		}
@@ -5099,7 +5099,7 @@
 			dependencies: ["236C246F76B9A184"]
 			icon: "gtceu:enriched_bacterial_sludge_bucket"
 			id: "3FA6B4C0BBDAF426"
-			subtitle: "效率排序（从低到高）：铀-238，铀-235，超能硅岩"
+			subtitle: "{gtlcore.quest.gtl.quest.3fa6b4c0bbdaf426.subtitle}"
 			tasks: [
 				{
 					id: "05A34F183CE7B166"
@@ -5112,7 +5112,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "富集细菌浆液"
+			title: "{gtlcore.quest.gtl.quest.3fa6b4c0bbdaf426.title}"
 			x: -10.5d
 			y: -10.5d
 		}
@@ -5132,7 +5132,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "细菌"
+			title: "{gtlcore.quest.gtl.quest.6f98799fb5d80ef7.title}"
 			x: -12.0d
 			y: -12.0d
 		}
@@ -5152,7 +5152,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "生物质"
+			title: "{gtlcore.quest.gtl.quest.7f3aba4a43e1437b.title}"
 			x: -13.5d
 			y: -10.5d
 		}
@@ -5290,7 +5290,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "海藻基质"
+			title: "{gtlcore.quest.gtl.quest.1a51b828c96b9875.title}"
 			x: 1.5d
 			y: -12.0d
 		}
@@ -5315,7 +5315,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "未知营养琼脂"
+			title: "{gtlcore.quest.gtl.quest.33df4a7346e83469.title}"
 			x: 1.5d
 			y: -10.5d
 		}
@@ -5355,7 +5355,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "邻苯二甲酸"
+			title: "{gtlcore.quest.gtl.quest.235b60b7da59f6fa.title}"
 			x: 0.0d
 			y: -10.5d
 		}
@@ -5395,7 +5395,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "不明液体"
+			title: "{gtlcore.quest.gtl.quest.54c5b12827232219.title}"
 			x: 1.5d
 			y: -9.0d
 		}
@@ -5438,7 +5438,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "生物培养基原液"
+			title: "{gtlcore.quest.gtl.quest.2262ee10b4d3f821.title}"
 			x: 6.0d
 			y: -10.5d
 		}
@@ -5458,7 +5458,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "灭菌生物培养基原液"
+			title: "{gtlcore.quest.gtl.quest.7326e9544954ab63.title}"
 			x: 7.5d
 			y: -12.0d
 		}
@@ -5478,7 +5478,7 @@
 				type: "random"
 			}]
 			shape: "diamond"
-			subtitle: "可以制取生物培养基原液达到循环增产"
+			subtitle: "{gtlcore.quest.gtl.quest.394693172d53841e.subtitle}"
 			tasks: [{
 				id: "62429A30D4A7B808"
 				item: "kubejs:biological_cells"
@@ -5504,7 +5504,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "诱变剂"
+			title: "{gtlcore.quest.gtl.quest.4ad4f3858f313b3c.title}"
 			x: 7.5d
 			y: -10.5d
 		}
@@ -5529,7 +5529,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "突变活性焊剂"
+			title: "{gtlcore.quest.gtl.quest.18eb095790ec52b8.title}"
 			x: 10.5d
 			y: -10.5d
 		}
@@ -5554,7 +5554,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "量子之星和重力之星"
+			title: "{gtlcore.quest.gtl.quest.3312e11648b7c955.title}"
 			x: 10.5d
 			y: -9.0d
 		}
@@ -5580,7 +5580,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氧氦等离子体"
+			title: "{gtlcore.quest.gtl.quest.14ab13d5965c5a4d.title}"
 			x: 10.5d
 			y: -12.0d
 		}
@@ -5591,7 +5591,7 @@
 				id: "1E05C6B85E20CEF1"
 				type: "checkmark"
 			}]
-			title: "这是光学相关产线"
+			title: "{gtlcore.quest.gtl.quest.638c3c9a1ced8c4d.title}"
 			x: -19.5d
 			y: -7.5d
 		}
@@ -5600,7 +5600,7 @@
 			id: "4786A4C8A643EA4A"
 			tasks: [{
 				id: "1CD2FAE8BF8570BB"
-				title: "绝对乙醇"
+				title: "{gtlcore.quest.gtl.task.1cd2fae8bf8570bb.title}"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -5624,7 +5624,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "绝对乙醇"
+			title: "{gtlcore.quest.gtl.quest.7e9ecd7724f5a0af.title}"
 			x: 27.0d
 			y: -10.5d
 		}
@@ -5632,7 +5632,7 @@
 			dependencies: ["3ECB695B36A2871E"]
 			icon: "gtceu:zeolite_sieving_pellets_dust"
 			id: "3D7729F7ACFF9F91"
-			subtitle: "后续可以完全回收"
+			subtitle: "{gtlcore.quest.gtl.quest.3d7729f7acff9f91.subtitle}"
 			tasks: [
 				{
 					id: "0393353338C185E2"
@@ -5652,7 +5652,7 @@
 			dependencies: ["3D7729F7ACFF9F91"]
 			icon: "gtceu:wet_zeolite_sieving_pellets_dust"
 			id: "23BECF228C26D654"
-			subtitle: "脱水回收"
+			subtitle: "{gtlcore.quest.gtl.quest.23becf228c26d654.subtitle}"
 			tasks: [
 				{
 					id: "76044EA365D77F29"
@@ -5725,7 +5725,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硅胶基质"
+			title: "{gtlcore.quest.gtl.quest.12d051388942929b.title}"
 			x: 22.5d
 			y: -9.0d
 		}
@@ -5793,7 +5793,7 @@
 			dependencies: ["77FF5B7D5B69287E"]
 			icon: "gtceu:lithium_fluoride_dust"
 			id: "1D5D8284CF88DDB1"
-			subtitle: "电解回收锂和氟"
+			subtitle: "{gtlcore.quest.gtl.quest.1d5d8284cf88ddb1.subtitle}"
 			tasks: [
 				{
 					id: "08DAE585B4F2C922"
@@ -5825,7 +5825,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟化硼"
+			title: "{gtlcore.quest.gtl.quest.16c5023e2e7d1643.title}"
 			x: 19.5d
 			y: -9.0d
 		}
@@ -5864,7 +5864,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硼酸"
+			title: "{gtlcore.quest.gtl.quest.327f0fd5aaf9f3f4.title}"
 			x: 16.5d
 			y: -9.0d
 		}
@@ -5993,7 +5993,7 @@
 			id: "53C037F408736E4B"
 			tasks: [{
 				id: "1CD698552747791A"
-				title: "这是生物相关产线"
+				title: "{gtlcore.quest.gtl.task.1cd698552747791a.title}"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -6004,7 +6004,7 @@
 			id: "2928C640C522E0A5"
 			tasks: [{
 				id: "4006167C7176F682"
-				title: "聚酰亚胺"
+				title: "{gtlcore.quest.gtl.task.4006167c7176f682.title}"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -6028,7 +6028,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "聚酰亚胺"
+			title: "{gtlcore.quest.gtl.quest.5d75939c1f316d78.title}"
 			x: 22.5d
 			y: -3.0d
 		}
@@ -6051,7 +6051,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "PAA"
+			title: "{gtlcore.quest.gtl.quest.31d01eb9e8d13626.title}"
 			x: 21.0d
 			y: -3.0d
 		}
@@ -6090,7 +6090,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氨基二苯醚"
+			title: "{gtlcore.quest.gtl.quest.77862bb6261a9413.title}"
 			x: 19.5d
 			y: -3.0d
 		}
@@ -6129,7 +6129,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯甲烷"
+			title: "{gtlcore.quest.gtl.quest.70f2bfa6adef7dbd.title}"
 			x: 18.0d
 			y: -1.5d
 		}
@@ -6155,7 +6155,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "苯胺和锡粉"
+			title: "{gtlcore.quest.gtl.quest.07577f847b2ec1cb.title}"
 			x: 18.0d
 			y: -3.0d
 		}
@@ -6181,7 +6181,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基苯和锌粉"
+			title: "{gtlcore.quest.gtl.quest.37da039b1e0e1eaf.title}"
 			x: 16.5d
 			y: -3.0d
 		}
@@ -6201,7 +6201,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸混酸"
+			title: "{gtlcore.quest.gtl.quest.1ac67c54c04862e9.title}"
 			x: 15.0d
 			y: -3.0d
 		}
@@ -6211,7 +6211,7 @@
 			icon: "gtceu:fullerene_dust"
 			id: "4ADAB324562A0D04"
 			shape: "pentagon"
-			subtitle: "不能回收"
+			subtitle: "{gtlcore.quest.gtl.quest.4adab324562a0d04.subtitle}"
 			tasks: [
 				{
 					id: "416F0D089F50BA96"
@@ -6331,7 +6331,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "顺丁烯二酸酐和铋粉"
+			title: "{gtlcore.quest.gtl.quest.380488f868fc2130.title}"
 			x: 6.0d
 			y: 3.0d
 		}
@@ -6357,7 +6357,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "顺丁烯二酸酐和铋粉"
+			title: "{gtlcore.quest.gtl.quest.39ce7da6cff9d34e.title}"
 			x: -16.5d
 			y: 6.0d
 		}
@@ -6402,7 +6402,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟化硼"
+			title: "{gtlcore.quest.gtl.quest.68884a11211d1e32.title}"
 			x: 4.5d
 			y: 6.0d
 		}
@@ -6460,7 +6460,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硼酸"
+			title: "{gtlcore.quest.gtl.quest.26813c7b002705cf.title}"
 			x: 1.5d
 			y: 6.0d
 		}
@@ -6480,7 +6480,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯甲烷"
+			title: "{gtlcore.quest.gtl.quest.7809a6d315189131.title}"
 			x: -16.5d
 			y: 15.0d
 		}
@@ -6519,7 +6519,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态氟石"
+			title: "{gtlcore.quest.gtl.quest.783f4b74aa2d1792.title}"
 			x: 4.5d
 			y: -6.0d
 		}
@@ -6539,7 +6539,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "熔融钙盐"
+			title: "{gtlcore.quest.gtl.quest.3a56fe84b0e3039e.title}"
 			x: 6.0d
 			y: -6.0d
 		}
@@ -6590,7 +6590,7 @@
 			id: "19D008698197459E"
 			tasks: [{
 				id: "0375BD4FDB96632A"
-				title: "聚醚醚酮"
+				title: "{gtlcore.quest.gtl.task.0375bd4fdb96632a.title}"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -6617,7 +6617,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态聚醚醚酮"
+			title: "{gtlcore.quest.gtl.quest.3996236913b6c491.title}"
 			x: 25.5d
 			y: -7.5d
 		}
@@ -6637,7 +6637,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "对苯二酚"
+			title: "{gtlcore.quest.gtl.quest.0570b92678efeccf.title}"
 			x: 25.5d
 			y: -6.0d
 		}
@@ -6667,7 +6667,7 @@
 			icon: "gtceu:znfealcl_catalyst_dust"
 			id: "0B0C63989B2AE468"
 			shape: "pentagon"
-			subtitle: "催化剂"
+			subtitle: "{gtlcore.quest.gtl.quest.0b0c63989b2ae468.subtitle}"
 			tasks: [
 				{
 					id: "358E20D35094D370"
@@ -6702,7 +6702,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟甲苯"
+			title: "{gtlcore.quest.gtl.quest.63f0bf44807eabb1.title}"
 			x: 22.5d
 			y: -7.5d
 		}
@@ -6722,7 +6722,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟苯"
+			title: "{gtlcore.quest.gtl.quest.0cf81f1030756ab2.title}"
 			x: 21.0d
 			y: -7.5d
 		}
@@ -6748,7 +6748,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟锑酸和黑光灯"
+			title: "{gtlcore.quest.gtl.quest.08dfd996717265d2.title}"
 			x: 22.5d
 			y: -6.0d
 		}
@@ -6771,7 +6771,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氟硼酸重氮苯"
+			title: "{gtlcore.quest.gtl.quest.4a0749cf8299fb4c.title}"
 			x: 19.5d
 			y: -7.5d
 		}
@@ -6810,7 +6810,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸钠溶液"
+			title: "{gtlcore.quest.gtl.quest.69a0d247f6bb0ccd.title}"
 			x: 16.5d
 			y: -7.5d
 		}
@@ -6849,7 +6849,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟硼酸"
+			title: "{gtlcore.quest.gtl.quest.4caeab744af0e5ef.title}"
 			x: 19.5d
 			y: -6.0d
 		}
@@ -6869,7 +6869,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硼酸"
+			title: "{gtlcore.quest.gtl.quest.2c0ee344564dce5e.title}"
 			x: 18.0d
 			y: -6.0d
 		}
@@ -6934,7 +6934,7 @@
 			id: "5785F2E43E76E624"
 			tasks: [{
 				id: "0D6827F6800FA11C"
-				title: "聚乙烯-聚氯乙烯"
+				title: "{gtlcore.quest.gtl.task.0d6827f6800fa11c.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -6944,7 +6944,7 @@
 			id: "01F143E991488E7C"
 			tasks: [{
 				id: "716F82BB3C944BF4"
-				title: "聚四氟乙烯"
+				title: "{gtlcore.quest.gtl.task.716f82bb3c944bf4.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -6954,7 +6954,7 @@
 			id: "58CA7CA601F675BA"
 			tasks: [{
 				id: "4D2E0A0CF6F0D08F"
-				title: "环氧树脂-强化环氧树脂"
+				title: "{gtlcore.quest.gtl.task.4d2e0a0cf6f0d08f.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -6964,7 +6964,7 @@
 			id: "4550151D68AE07A2"
 			tasks: [{
 				id: "4EB9C78788214724"
-				title: "丁苯橡胶"
+				title: "{gtlcore.quest.gtl.task.4eb9c78788214724.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -6974,7 +6974,7 @@
 			id: "69E208F71C5EB4B3"
 			tasks: [{
 				id: "205811D31A85566A"
-				title: "聚苯并咪唑"
+				title: "{gtlcore.quest.gtl.task.205811d31a85566a.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -6984,7 +6984,7 @@
 			id: "013D893E798ABA99"
 			tasks: [{
 				id: "0EAA78F55293756E"
-				title: "硅橡胶"
+				title: "{gtlcore.quest.gtl.task.0eaa78f55293756e.title}"
 				type: "checkmark"
 			}]
 			x: -25.5d
@@ -6994,7 +6994,7 @@
 			id: "7DE4799C4F88801B"
 			tasks: [{
 				id: "070CD085E8BCDD87"
-				title: "聚乙烯醇缩丁醛"
+				title: "{gtlcore.quest.gtl.task.070cd085e8bcdd87.title}"
 				type: "checkmark"
 			}]
 			x: -25.5d
@@ -7004,7 +7004,7 @@
 			id: "1960A97628A48901"
 			tasks: [{
 				id: "481A0D0E21A91289"
-				title: "聚苯硫醚"
+				title: "{gtlcore.quest.gtl.task.481a0d0e21a91289.title}"
 				type: "checkmark"
 			}]
 			x: -31.5d
@@ -7026,7 +7026,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "亚硝酰氯"
+			title: "{gtlcore.quest.gtl.quest.3bcc01481da8f994.title}"
 			x: -24.0d
 			y: -6.0d
 		}
@@ -7046,7 +7046,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "环己烷"
+			title: "{gtlcore.quest.gtl.quest.79a2f160afc832eb.title}"
 			x: -24.0d
 			y: -7.5d
 		}
@@ -7093,7 +7093,7 @@
 		}
 		{
 			dependencies: ["261A240EF97C8266"]
-			description: ["可以用来制作线和海绵，也是寰宇贴片电容的材料"]
+			description: ["{gtlcore.quest.gtl.quest.1b81408a4eb93412.description.0000}"]
 			icon: "gtceu:polycaprolactam_ingot"
 			icon_scale: 2.0d
 			id: "1B81408A4EB93412"
@@ -7117,7 +7117,7 @@
 			id: "5D0389442E831EC0"
 			tasks: [{
 				id: "0812F27CF89323D3"
-				title: "聚己内酰胺"
+				title: "{gtlcore.quest.gtl.task.0812f27cf89323d3.title}"
 				type: "checkmark"
 			}]
 			x: -25.5d
@@ -7159,10 +7159,10 @@
 					type: "checkmark"
 				}
 			]
-			title: "乙烯酮"
+			title: "{gtlcore.quest.gtl.quest.5a08033ad8d3ce92.title}"
 			x: -10.5d
 			y: 10.5d
 		}
 	]
-	title: "材料制备"
+	title: "{gtlcore.quest.gtl.chapter.7e81caa9c19b48f9.title}"
 }

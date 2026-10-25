@@ -41,5 +41,5 @@
 		{ item: "ad_astra:venus_globe" }
 		{ item: "ad_astra:earth_globe" }
 	]
-	title: "抽奖"
+	title: "{gtlcore.quest.gtl.reward_table.5663b9afadbde9f2.title}"
 }

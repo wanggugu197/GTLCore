@@ -616,7 +616,7 @@
 				"7ADB50ACF5AE1D13"
 				"34D6F0DF329B1877"
 			]
-			description: ["安装在超维度等离子锻炉上才能发挥作用"]
+			description: ["{gtlcore.quest.gtl.quest.11d8044bd0401e53.description.0000}"]
 			icon_scale: 2.0d
 			id: "11D8044BD0401E53"
 			rewards: [{
@@ -630,7 +630,7 @@
 				item: "kubejs:uruium_coil_block"
 				type: "item"
 			}]
-			title: "超级热容线圈"
+			title: "{gtlcore.quest.gtl.quest.11d8044bd0401e53.title}"
 			x: -9.0d
 			y: 23.0d
 		}
@@ -780,7 +780,7 @@
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
-			description: ["这些只是现实存在的元素"]
+			description: ["{gtlcore.quest.gtl.quest.58cccff70575b019.description.0000}"]
 			icon: "gtceu:nan_certificate"
 			id: "58CCCFF70575B019"
 			rewards: [{
@@ -850,7 +850,7 @@
 					type: "item"
 				}
 			]
-			title: "全元素收集"
+			title: "{gtlcore.quest.gtl.quest.58cccff70575b019.title}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -1323,5 +1323,5 @@
 			y: 0.5d
 		}
 	]
-	title: "进度"
+	title: "{gtlcore.quest.gtl.chapter.508ee47aa8d412fc.title}"
 }

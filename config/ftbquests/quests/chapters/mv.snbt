@@ -24,7 +24,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "0A5103D6EA070927"
-				title: "中压MV"
+				title: "{gtlcore.quest.gtl.task.0a5103d6ea070927.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -35,7 +35,7 @@
 				"66DC60EABAAE0619"
 				"32960AFE43AFF989"
 			]
-			description: ["建议用装有&e大型蒸汽输入仓&r的&b大型蒸汽电路组装机&r制作，比MV电路组装机快得多"]
+			description: ["{gtlcore.quest.gtl.quest.242afa510ec14878.description.0000}"]
 			icon_scale: 2.0d
 			id: "242AFA510EC14878"
 			rewards: [
@@ -88,7 +88,7 @@
 				"27C18D37D5E19043"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["再来一次双仓升压，这次是MV"]
+			description: ["{gtlcore.quest.gtl.quest.17e9ab180ba36353.description.0000}"]
 			id: "17E9AB180BA36353"
 			rewards: [{
 				id: "3A4DBEDE4E62E01E"
@@ -167,9 +167,9 @@
 		{
 			dependencies: ["541275BC83188F74"]
 			description: [
-				"{ \"text\": \"铬粉来自于红宝石\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2E5A71CED4B01657\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2E5A71CED4B01657\"},\"translate\":\"gtlcore.quest.gtl.quest.37e3699028b55610.description.0000.text.0000\"}"
 				""
-				"{ \"text\": \"这里则是锰的来源\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C75A50B17AA9AF1\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2C75A50B17AA9AF1\"},\"translate\":\"gtlcore.quest.gtl.quest.37e3699028b55610.description.0002.text.0000\"}"
 			]
 			id: "37E3699028B55610"
 			rewards: [{
@@ -189,7 +189,7 @@
 					type: "item"
 				}
 			]
-			title: "铬粉与锰粉"
+			title: "{gtlcore.quest.gtl.quest.37e3699028b55610.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -233,7 +233,7 @@
 					type: "item"
 				}
 			]
-			title: "经典五件套"
+			title: "{gtlcore.quest.gtl.quest.4c2ad408bab73087.title}"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -274,7 +274,7 @@
 				"46035DDD3D8A4966"
 				"535D45580FBDE02B"
 			]
-			description: ["你现在只能用&b蓝宝石&r透镜"]
+			description: ["{gtlcore.quest.gtl.quest.4691baff9456938a.description.0000}"]
 			id: "4691BAFF9456938A"
 			rewards: [{
 				id: "0225BA7394A8AD51"
@@ -310,7 +310,7 @@
 		}
 		{
 			dependencies: ["541275BC83188F74"]
-			description: ["不幸的是，这个没有保护气配方"]
+			description: ["{gtlcore.quest.gtl.quest.402c76093ca517f1.description.0000}"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "402C76093CA517F1"
@@ -319,7 +319,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "有点慢"
+			subtitle: "{gtlcore.quest.gtl.quest.402c76093ca517f1.subtitle}"
 			tasks: [{
 				id: "6FB8A19B895A786C"
 				item: "gtceu:silicon_boule"
@@ -333,7 +333,7 @@
 				"46035DDD3D8A4966"
 				"535D45580FBDE02B"
 			]
-			description: ["你现在只能用&b红宝石&r和&b绿宝石&r透镜"]
+			description: ["{gtlcore.quest.gtl.quest.35687fc065db2f00.description.0000}"]
 			id: "35687FC065DB2F00"
 			rewards: [{
 				id: "44E37B56496F1319"
@@ -352,7 +352,7 @@
 					type: "item"
 				}
 			]
-			title: "RAM和ILC晶圆"
+			title: "{gtlcore.quest.gtl.quest.35687fc065db2f00.title}"
 			x: 9.0d
 			y: 5.0d
 		}
@@ -377,7 +377,7 @@
 					type: "item"
 				}
 			]
-			title: "RAM和IC芯片"
+			title: "{gtlcore.quest.gtl.quest.124d7427dc8e501e.title}"
 			x: 10.0d
 			y: 6.0d
 		}
@@ -431,7 +431,7 @@
 		}
 		{
 			dependencies: ["750D2CE269C7068D"]
-			description: ["升级到HV版本之后还可以将低品质宝石蚀刻成高品质宝石"]
+			description: ["{gtlcore.quest.gtl.quest.535d45580fbde02b.description.0000}"]
 			hide_dependent_lines: true
 			id: "535D45580FBDE02B"
 			rewards: [{
@@ -467,13 +467,13 @@
 					type: "item"
 				}
 			]
-			title: "MV传感器与发射器"
+			title: "{gtlcore.quest.gtl.quest.750d2ce269c7068d.title}"
 			x: 4.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["1F2E7A99C7F1E199"]
-			description: ["后面可以用聚爆压缩机制作"]
+			description: ["{gtlcore.quest.gtl.quest.3b47fc6d8d2065f3.description.0000}"]
 			id: "3B47FC6D8D2065F3"
 			rewards: [{
 				id: "62695C43C2C4F027"
@@ -507,9 +507,9 @@
 		{
 			dependencies: ["4C2AD408BAB73087"]
 			description: [
-				"大部分的矿物在MV都可以进行电解"
+				"{gtlcore.quest.gtl.quest.541275bc83188f74.description.0000}"
 				""
-				"你现在可以通过电解黏土粉获得铝粉和硅粉，闪长岩富含黏土"
+				"{gtlcore.quest.gtl.quest.541275bc83188f74.description.0002}"
 			]
 			id: "541275BC83188F74"
 			rewards: [{
@@ -527,7 +527,7 @@
 		}
 		{
 			dependencies: ["06B0D98F33A4AEB1"]
-			description: ["{ \"text\": \"钒通过处理钒磁铁矿获得\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260E516A219825A2\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"260E516A219825A2\"},\"translate\":\"gtlcore.quest.gtl.quest.5f77b034ec3fa6d3.description.0000.text.0000\"}"]
 			id: "5F77B034EC3FA6D3"
 			rewards: [{
 				id: "7951D7376F89BAF0"
@@ -547,7 +547,7 @@
 				"554D9DF1365F857C"
 				"55AB003495D2CCE9"
 			]
-			description: ["后面换成更便宜的终极控制电路"]
+			description: ["{gtlcore.quest.gtl.quest.66dc60eabaae0619.description.0000}"]
 			icon_scale: 2.0d
 			id: "66DC60EABAAE0619"
 			rewards: [{
@@ -599,7 +599,7 @@
 		}
 		{
 			dependencies: ["1648F829649D4300"]
-			description: ["{ \"text\": \"你还需要聚乙烯\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4D82F79414331554\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4D82F79414331554\"},\"translate\":\"gtlcore.quest.gtl.quest.55ab003495d2cce9.description.0000.text.0000\"}"]
 			id: "55AB003495D2CCE9"
 			rewards: [{
 				id: "5CABF4A4FC60EA72"
@@ -616,14 +616,14 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["用水给热锭降温"]
+			description: ["{gtlcore.quest.gtl.quest.65b89b0b9aefde00.description.0000}"]
 			id: "65B89B0B9AEFDE00"
 			rewards: [{
 				id: "4F6074DD52C4EF52"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "热锭烫手，小心别被烫死"
+			subtitle: "{gtlcore.quest.gtl.quest.65b89b0b9aefde00.subtitle}"
 			tasks: [{
 				id: "54BF488BF5529328"
 				item: "gtceu:mv_chemical_bath"
@@ -654,7 +654,7 @@
 				"0C8149BB0F901A88"
 				"58B03CD99B6C3A8B"
 			]
-			description: ["再来一次双仓升压，这次是MV"]
+			description: ["{gtlcore.quest.gtl.quest.3e2f61b1a26ad378.description.0000}"]
 			id: "3E2F61B1A26AD378"
 			rewards: [{
 				id: "4C5A07460B528E86"
@@ -685,13 +685,13 @@
 				item: "gtceu:kanthal_coil_block"
 				type: "item"
 			}]
-			title: "坎塔尔合金线圈"
+			title: "{gtlcore.quest.gtl.quest.79ae49c5de7900ff.title}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["79AE49C5DE7900FF"]
-			description: ["{ \"text\": \"二氧化硅烧的快一点，不过要多消耗一点碳粉\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"379B4B02D157C824\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"379B4B02D157C824\"},\"translate\":\"gtlcore.quest.gtl.quest.1648f829649d4300.description.0000.text.0000\"}"]
 			id: "1648F829649D4300"
 			rewards: [{
 				id: "1F448D23874F2FE8"
@@ -708,14 +708,14 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["生化线的起点"]
+			description: ["{gtlcore.quest.gtl.quest.66060c8bb69f1ad9.description.0000}"]
 			id: "66060C8BB69F1AD9"
 			rewards: [{
 				id: "59A610D0DBED02E1"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "植物工厂"
+			subtitle: "{gtlcore.quest.gtl.quest.66060c8bb69f1ad9.subtitle}"
 			tasks: [{
 				id: "653A8C3A0132C035"
 				item: "gtceu:greenhouse"
@@ -726,7 +726,7 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["{ \"text\": \"生化线会有一些杂七杂八的东西\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1EBBA5A10A8A48DB\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1EBBA5A10A8A48DB\"},\"translate\":\"gtlcore.quest.gtl.quest.06d1abe453f52df1.description.0000.text.0000\"}"]
 			id: "06D1ABE453F52DF1"
 			rewards: [{
 				id: "0FB4E8525644D620"
@@ -744,15 +744,15 @@
 		{
 			dependencies: ["128671E4DC47EF55"]
 			description: [
-				"利用这个东西从虚空流体矿脉中采流体"
+				"{gtlcore.quest.gtl.quest.4af1d57be5c49b3e.description.0000}"
 				""
-				"后面还有升级版"
+				"{gtlcore.quest.gtl.quest.4af1d57be5c49b3e.description.0002}"
 				""
-				"探矿仪潜行右键可以切换为流体矿脉模式"
+				"{gtlcore.quest.gtl.quest.4af1d57be5c49b3e.description.0004}"
 				""
-				"损耗率的数值代表着每次执行配方会减少虚空流体矿脉的储量的速度"
+				"{gtlcore.quest.gtl.quest.4af1d57be5c49b3e.description.0006}"
 				""
-				"即使探矿仪显示虚空流体矿脉为0，在此区块钻取仍然会有极少量流体产出"
+				"{gtlcore.quest.gtl.quest.4af1d57be5c49b3e.description.0008}"
 			]
 			icon_scale: 1.5d
 			id: "4AF1D57BE5C49B3E"
@@ -773,17 +773,17 @@
 		{
 			dependencies: ["128671E4DC47EF55"]
 			description: [
-				"高效的生产机器，放入多个输入仓/总线/总成并开启隔离可以一台机器执行多个电路或者模具的配方"
+				"{gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0000}"
 				""
-				"需要在工厂GUI中放入&b工作模式对应的单方块机器&r（只能放一台）"
+				"{gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0002}"
 				""
-				"&o&c放入的单方块机器等级必须准确匹配工厂的&n&l配方电压&r&o&c！&r"
-				"&o&c放入的单方块机器等级必须准确匹配工厂的&n&l配方电压&r&o&c！&r"
-				"&o&c放入的单方块机器等级必须准确匹配工厂的&n&l配方电压&r&o&c！&r"
+				"{gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0004}"
+				"{gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0005}"
+				"{gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0006}"
 				""
-				"这台机器可以&6双仓升压&r！！！"
+				"{gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0008}"
 				""
-				"{ \"text\": \"关于并行，可以在这里查看具体设定\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6F503441C24ABD5B\"},\"translate\":\"gtlcore.quest.gtl.quest.2f5cb842110a5db2.description.0010.text.0000\"}"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
@@ -795,7 +795,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "九合一？"
+			subtitle: "{gtlcore.quest.gtl.quest.2f5cb842110a5db2.subtitle}"
 			tasks: [
 				{
 					id: "7390800A5A8E273A"
@@ -818,16 +818,16 @@
 					type: "item"
 				}
 			]
-			title: "通用工厂"
+			title: "{gtlcore.quest.gtl.quest.2f5cb842110a5db2.title}"
 			x: 14.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["17E9AB180BA36353"]
 			description: [
-				"这个仓室将蒸汽大机器升压至可运行&bMV&r配方"
+				"{gtlcore.quest.gtl.quest.32960afe43aff989.description.0000}"
 				""
-				"还可以进行超频：每超频一次，蒸汽消耗量乘以3，耗时减半，最多超频4次"
+				"{gtlcore.quest.gtl.quest.32960afe43aff989.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "32960AFE43AFF989"
@@ -854,14 +854,14 @@
 		}
 		{
 			dependencies: ["4C2AD408BAB73087"]
-			description: ["用的是&b模&l&o头&r不是&e模&l&o具&r"]
+			description: ["{gtlcore.quest.gtl.quest.6b09f1b78a5fcf7d.description.0000}"]
 			id: "6B09F1B78A5FCF7D"
 			rewards: [{
 				id: "53478885AF4B4433"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "必备"
+			subtitle: "{gtlcore.quest.gtl.quest.6b09f1b78a5fcf7d.subtitle}"
 			tasks: [{
 				id: "22DE2B728BF46F3E"
 				item: "gtceu:mv_extruder"
@@ -873,13 +873,13 @@
 		{
 			dependencies: ["66DC685BEC00E4A6"]
 			description: [
-				"可穿墙，CD为2t（相当于没有，也可以在gtlcore的配置文件中修改）"
+				"{gtlcore.quest.gtl.quest.0bb44c475666b862.description.0000}"
 				""
-				"旅行锚上方不能有方块阻挡，否则将无法传送"
+				"{gtlcore.quest.gtl.quest.0bb44c475666b862.description.0002}"
 				""
-				"木棍右键可以解锁旅行锚"
+				"{gtlcore.quest.gtl.quest.0bb44c475666b862.description.0004}"
 				""
-				"主手什么都不拿，副手拿方块，对着未锁定的旅行锚右键可以将其伪装成副手方块的样子"
+				"{gtlcore.quest.gtl.quest.0bb44c475666b862.description.0006}"
 			]
 			hide_dependency_lines: true
 			id: "0BB44C475666B862"
@@ -923,7 +923,7 @@
 				"79AE49C5DE7900FF"
 				"56EA21AD61D2ACB1"
 			]
-			description: ["蚀刻产量是普通单晶硅的4倍，有了&6HV&r激光蚀刻机后才能使用"]
+			description: ["{gtlcore.quest.gtl.quest.506dfa831febd175.description.0000}"]
 			hide_dependency_lines: true
 			id: "506DFA831FEBD175"
 			rewards: [{
@@ -942,9 +942,9 @@
 		{
 			dependencies: ["56EA21AD61D2ACB1"]
 			description: [
-				"2个普通能源仓有4A功率，但会将配方等级提升，从而导致如通用工厂机器需要更高级的小机器来运行"
+				"{gtlcore.quest.gtl.quest.58723da3e76316e6.description.0000}"
 				""
-				"但如果只放一个4A能源仓，那么机器将只会提升功率而不提升配方等级，可以让通用工厂用MV机器跑出HV的速度，如果你放2个4A，那么机器也会提升配方等级，和普通的相比多了1倍功率，如果机器可以并行，那么将会比普通仓获得更多并行"
+				"{gtlcore.quest.gtl.quest.58723da3e76316e6.description.0002}"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -966,9 +966,9 @@
 		{
 			dependencies: ["7296C57805F5DC96"]
 			description: [
-				"{ \"text\": \"这个导线也能买\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"2C67C2689302087C\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2C67C2689302087C\"},\"translate\":\"gtlcore.quest.gtl.quest.13b7ed783efdb8cb.description.0000.text.0000\"}"
 				""
-				"正经&bMV&r超导要到&6HV&r才能做（二硼化镁）"
+				"{gtlcore.quest.gtl.quest.13b7ed783efdb8cb.description.0002}"
 			]
 			id: "13B7ED783EFDB8CB"
 			rewards: [{
@@ -976,7 +976,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "MV的便宜超导"
+			subtitle: "{gtlcore.quest.gtl.quest.13b7ed783efdb8cb.subtitle}"
 			tasks: [{
 				id: "412AE134485FD3CC"
 				item: "gtceu:energetic_alloy_ingot"
@@ -988,11 +988,11 @@
 		{
 			dependencies: ["033DE57F0D91698C"]
 			description: [
-				"后面会有用的"
+				"{gtlcore.quest.gtl.quest.527e9200ecb4a732.description.0000}"
 				""
-				"样板修改器在GUI左上角切换模式，分别为乘数模式（翻/除倍样板），替换模式（替换/插入/删除样板里面的特定物品），复制模式（字面意思）"
+				"{gtlcore.quest.gtl.quest.527e9200ecb4a732.description.0002}"
 				""
-				"供应器版只有乘数模式，也可以用于&b样板总成&r"
+				"{gtlcore.quest.gtl.quest.527e9200ecb4a732.description.0004}"
 			]
 			id: "527E9200ECB4A732"
 			rewards: [
@@ -1007,7 +1007,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "批量修改样板"
+			subtitle: "{gtlcore.quest.gtl.quest.527e9200ecb4a732.subtitle}"
 			tasks: [
 				{
 					id: "15AB32BC4D595275"
@@ -1025,7 +1025,7 @@
 		}
 		{
 			dependencies: ["77A1011F608079C9"]
-			description: ["样板包装箱的容量大小可在gtlcore的配置文件中修改，1页36格"]
+			description: ["{gtlcore.quest.gtl.quest.3740de62d42a4d0d.description.0000}"]
 			hide_dependency_lines: true
 			id: "3740DE62D42A4D0D"
 			rewards: [{
@@ -1054,13 +1054,13 @@
 					type: "item"
 				}
 			]
-			title: "配置复制工具和样板包装箱"
+			title: "{gtlcore.quest.gtl.quest.3740de62d42a4d0d.title}"
 			x: 14.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["56EA21AD61D2ACB1"]
-			description: ["正如4A的特性一样，这可以让机器跑到EV的速度"]
+			description: ["{gtlcore.quest.gtl.quest.7e2e022b7b7c46b1.description.0000}"]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "7E2E022B7B7C46B1"
@@ -1081,11 +1081,11 @@
 		{
 			dependencies: ["242AFA510EC14878"]
 			description: [
-				"{ \"text\": \"可能是你的第一台跨配方并行机器\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6F503441C24ABD5B\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6F503441C24ABD5B\"},\"translate\":\"gtlcore.quest.gtl.quest.099798b0fda4463b.description.0000.text.0000\"}"
 				""
-				"后期比较强力（当使用超能硅岩-塔兰线圈时并行数超过超维度蒸汽熔炉）"
+				"{gtlcore.quest.gtl.quest.099798b0fda4463b.description.0002}"
 				""
-				"可以使用激光仓，支持跨配方并行，使用温度并行机制，温度每提升900K，并行数×2"
+				"{gtlcore.quest.gtl.quest.099798b0fda4463b.description.0004}"
 			]
 			icon_scale: 1.4d
 			id: "099798B0FDA4463B"
@@ -1105,6 +1105,6 @@
 			y: 0.0d
 		}
 	]
-	subtitle: ["Tier2-MV"]
-	title: "中压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.6ae49aaf3bdc94c1.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.6ae49aaf3bdc94c1.title}"
 }

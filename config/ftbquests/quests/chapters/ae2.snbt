@@ -9,7 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["请求数量上限增强至&d15位数&r"]
+			description: ["{gtlcore.quest.gtl.quest.225fc6f6f3626c53.description.0000}"]
 			icon: "merequester:requester"
 			id: "225FC6F6F3626C53"
 			rewards: [{
@@ -19,7 +19,7 @@
 			}]
 			tasks: [{
 				id: "0C01B0FEAADE8281"
-				title: "ME请求器"
+				title: "{gtlcore.quest.gtl.task.0c01b0feaade8281.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -27,9 +27,9 @@
 		}
 		{
 			description: [
-				"在这里默认&d无限频道&r，出于性能考虑&e移除了ME控制器的合成配方&r"
+				"{gtlcore.quest.gtl.quest.0259eeeae6f3c3cb.description.0000}"
 				"{@pagebreak}"
-				"&m其实做出鱼大会给你一个控制器&r"
+				"{gtlcore.quest.gtl.quest.0259eeeae6f3c3cb.description.0002}"
 			]
 			icon: "ae2:fluix_glass_cable"
 			id: "0259EEEAE6F3C3CB"
@@ -38,17 +38,17 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			subtitle: "ME控制器怎么合成不了？"
+			subtitle: "{gtlcore.quest.gtl.quest.0259eeeae6f3c3cb.subtitle}"
 			tasks: [{
 				id: "777CFBC4F54FBCE9"
-				title: "频道"
+				title: "{gtlcore.quest.gtl.task.777cfbc4f54fbce9.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
 			y: -3.0d
 		}
 		{
-			description: ["基础传输速度加强至&b64*int量级&r"]
+			description: ["{gtlcore.quest.gtl.quest.4e1e59dd41aeec17.description.0000}"]
 			icon: "expatternprovider:ex_io_port"
 			id: "4E1E59DD41AEEC17"
 			rewards: [{
@@ -58,7 +58,7 @@
 			}]
 			tasks: [{
 				id: "2CF437FD2CAA4A4C"
-				title: "扩展IO端口"
+				title: "{gtlcore.quest.gtl.task.2cf437fd2caa4a4c.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -66,11 +66,11 @@
 		}
 		{
 			description: [
-				"&8ULV中期&r解锁AE存储和物流"
-				"&bMV初&r解锁下单和（基础）升级卡"
-				"&bMV末&r解锁（高级）升级卡"
-				"&6HV末&r解锁无线AE"
-				"&dEV初&r解锁创造能源元件和装配矩阵"
+				"{gtlcore.quest.gtl.quest.5ab25b6a1a96fff1.description.0000}"
+				"{gtlcore.quest.gtl.quest.5ab25b6a1a96fff1.description.0001}"
+				"{gtlcore.quest.gtl.quest.5ab25b6a1a96fff1.description.0002}"
+				"{gtlcore.quest.gtl.quest.5ab25b6a1a96fff1.description.0003}"
+				"{gtlcore.quest.gtl.quest.5ab25b6a1a96fff1.description.0004}"
 			]
 			icon: "ae2:controller"
 			id: "5AB25B6A1A96FFF1"
@@ -81,7 +81,7 @@
 			}]
 			tasks: [{
 				id: "50E327F3A46D8F21"
-				title: "关于对应阶段"
+				title: "{gtlcore.quest.gtl.task.50e327f3a46d8f21.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -89,22 +89,13 @@
 		}
 		{
 			description: [
-				"无限水/圆石元件的容量增强至&d9.22P/E&r"
+				"{gtlcore.quest.gtl.quest.324f420032fb9112.description.0000}"
 				""
-				"高速无限盘的显示上限提高至&dint128&r（即92,233,720,368,547,758,079,223,372,036,854,775,807）"
+				"{gtlcore.quest.gtl.quest.324f420032fb9112.description.0002}"
 				"{@pagebreak}"
-				"创造磁盘也一样被增强了"
+				"{gtlcore.quest.gtl.quest.324f420032fb9112.description.0004}"
 			]
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
+			icon: "expatternprovider:infinity_cell"
 			id: "324F420032FB9112"
 			rewards: [{
 				id: "0063B8E8FAFA7D3F"
@@ -113,7 +104,7 @@
 			}]
 			tasks: [{
 				id: "2B2777F734BD4F5C"
-				title: "无限元件"
+				title: "{gtlcore.quest.gtl.task.2b2777f734bd4f5c.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -121,9 +112,9 @@
 		}
 		{
 			description: [
-				"存储类型为默认的&d4倍&r，可在gltcore的配置文件中调整"
+				"{gtlcore.quest.gtl.quest.772e4bc43e9c3a09.description.0000}"
 				""
-				"同时可在gtlcore的配置文件中调整AE的库存更新间隔"
+				"{gtlcore.quest.gtl.quest.772e4bc43e9c3a09.description.0002}"
 			]
 			icon: {
 				Count: 1
@@ -138,14 +129,14 @@
 			}]
 			tasks: [{
 				id: "550042261D7CDFD8"
-				title: "磁盘"
+				title: "{gtlcore.quest.gtl.task.550042261d7cdfd8.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
 			y: 1.5d
 		}
 		{
-			description: ["在&6gtlcore的配置文件&r中可以调整&b扩展样板供应器的槽位数量&r以及&b放置后是否自动开启智能翻倍&r"]
+			description: ["{gtlcore.quest.gtl.quest.6b5fd34433f96957.description.0000}"]
 			icon: "expatternprovider:ex_pattern_provider"
 			id: "6B5FD34433F96957"
 			rewards: [{
@@ -155,14 +146,14 @@
 			}]
 			tasks: [{
 				id: "5E27D16F8CFDACB4"
-				title: "样板供应器"
+				title: "{gtlcore.quest.gtl.task.5e27d16f8cfdacb4.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 1.5d
 		}
 		{
-			description: ["每格基础容量增强至&bint级&r"]
+			description: ["{gtlcore.quest.gtl.quest.3d2e392fd1c7a858.description.0000}"]
 			icon: "ae2:interface"
 			id: "3D2E392FD1C7A858"
 			rewards: [{
@@ -172,7 +163,7 @@
 			}]
 			tasks: [{
 				id: "042A7D3DB05154B7"
-				title: "ME接口"
+				title: "{gtlcore.quest.gtl.task.042a7d3db05154b7.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -180,13 +171,13 @@
 		}
 		{
 			description: [
-				"可以直接在编码时进行翻倍了（仅限处理样板）"
+				"{gtlcore.quest.gtl.quest.5bf2ff86a30ef30c.description.0000}"
 				""
-				"编码时输入上限调整为&b9.22E/P"
+				"{gtlcore.quest.gtl.quest.5bf2ff86a30ef30c.description.0002}"
 				""
-				"在空白样板耗尽时会&6自动调用&rME网络内的空白样板填充"
+				"{gtlcore.quest.gtl.quest.5bf2ff86a30ef30c.description.0004}"
 				""
-				"编写多方块结构的样板时，可以&b自动过滤某些方块&r（具体在gtlcore的配置中查看和修改，根据方块id是否包含列表中的字符串判定是否过滤），下单后会&6自动取消&r该特定订单（即产物为&d成书&r的订单）"
+				"{gtlcore.quest.gtl.quest.5bf2ff86a30ef30c.description.0006}"
 			]
 			icon: "ae2:pattern_encoding_terminal"
 			id: "5BF2FF86A30EF30C"
@@ -199,25 +190,25 @@
 				id: "11AFFE5DA6C9DF13"
 				type: "checkmark"
 			}]
-			title: "样板编码相关"
+			title: "{gtlcore.quest.gtl.quest.5bf2ff86a30ef30c.title}"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
 			description: [
-				"单次下单数量从int提升到long"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0000}"
 				""
-				"合成计算默认开启&6MAX FAST模式&r，可在gtlcore的配置文件中调整"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0002}"
 				""
-				"同时添加支持&6下单循环/自增产&r的订单的计算模式，可在gtlcore的配置文件中的AE合成引擎中开启"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0004}"
 				""
-				"样板供应器可开启智能翻倍（见样板总成的描述）"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0006}"
 				""
-				"同时可在gtlcore的配置文件中调整AE的合成更新间隔"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0008}"
 				""
-				"合成确认界面添加收藏缺失按钮，合成轮数（发配次数）以及使用物品占库存百分比"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0010}"
 				""
-				"合成状态界面添加暂停按钮，可暂停发配；同时还添加了对所有CPU操作的全部暂停和全部取消按钮；添加可根据CPU名称和最终产物名称搜索CPU的搜索框"
+				"{gtlcore.quest.gtl.quest.60d25fee107a7a63.description.0012}"
 			]
 			icon: "ae2:1k_crafting_storage"
 			id: "60D25FEE107A7A63"
@@ -230,12 +221,12 @@
 				id: "0E2E7DAA9A528870"
 				type: "checkmark"
 			}]
-			title: "下单合成相关"
+			title: "{gtlcore.quest.gtl.quest.60d25fee107a7a63.title}"
 			x: 1.0d
 			y: 0.0d
 		}
 		{
-			description: ["当背包中存在无线终端时，JEI和Jade会显示被指向的物品/流体/方块在无线终端对应的网络中的数量"]
+			description: ["{gtlcore.quest.gtl.quest.1c946343173c3305.description.0000}"]
 			icon: {
 				Count: 1
 				id: "ae2:memory_card"
@@ -251,15 +242,15 @@
 				id: "09AAC20666177441"
 				type: "checkmark"
 			}]
-			title: "JEI和Jade显示"
+			title: "{gtlcore.quest.gtl.quest.1c946343173c3305.title}"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"打开终端界面时，可以对着jei里的物品/流体按f将所指的物品/流体的名称填充到搜索栏中"
+				"{gtlcore.quest.gtl.quest.3075a0ca139250ed.description.0000}"
 				""
-				"当背包中存在无线终端时，可以对着jei里的物品/流体按住潜行左键从而取出所指的物品/流体，最多一组；中键显示&a可合成&r的物品/流体则可以进入下单界面"
+				"{gtlcore.quest.gtl.quest.3075a0ca139250ed.description.0002}"
 			]
 			icon: {
 				Count: 1
@@ -411,12 +402,12 @@
 			}]
 			tasks: [{
 				id: "3AF0650B2BDA3B30"
-				title: "终端相关"
+				title: "{gtlcore.quest.gtl.task.3af0650b2bda3b30.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
 			y: 0.0d
 		}
 	]
-	title: "AE2调整"
+	title: "{gtlcore.quest.gtl.chapter.6980669c5265da02.title}"
 }

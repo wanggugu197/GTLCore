@@ -37,9 +37,9 @@
 				"2719D88ECD353F24"
 			]
 			description: [
-				"由于UV无线能源仓需要中子素，试试将现有最大无线能源覆盖板贴到刚做的机器外壳上，然后把机器外壳对准聚变堆上的能源仓（红对绿）"
+				"{gtlcore.quest.gtl.quest.6c4f1c87f08f38ac.description.0000}"
 				""
-				"也可以用有源变压器，动力仓和能源仓紧贴也能传电"
+				"{gtlcore.quest.gtl.quest.6c4f1c87f08f38ac.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "6C4F1C87F08F38AC"
@@ -55,11 +55,11 @@
 		}
 		{
 			dependencies: ["6C4F1C87F08F38AC"]
-			description: ["UHV的基础材料"]
+			description: ["{gtlcore.quest.gtl.quest.035c470213e8b4db.description.0000}"]
 			id: "035C470213E8B4DB"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "需求量有点大"
+			subtitle: "{gtlcore.quest.gtl.quest.035c470213e8b4db.subtitle}"
 			tasks: [{
 				id: "39B8A1A88BE55729"
 				item: "gtceu:neutronium_ingot"
@@ -70,7 +70,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["更高级的单晶硅"]
+			description: ["{gtlcore.quest.gtl.quest.264ea49453e188c4.description.0000}"]
 			icon_scale: 2.0d
 			id: "264EA49453E188C4"
 			tasks: [{
@@ -94,7 +94,7 @@
 		}
 		{
 			dependencies: ["24B011E770B7DF3F"]
-			description: ["后面的电路每种都有对应的贴片"]
+			description: ["{gtlcore.quest.gtl.quest.2810ced22a6ad31a.description.0000}"]
 			id: "2810CED22A6AD31A"
 			tasks: [
 				{
@@ -123,7 +123,7 @@
 					type: "item"
 				}
 			]
-			title: "生物活性贴片"
+			title: "{gtlcore.quest.gtl.quest.2810ced22a6ad31a.title}"
 			x: 5.0d
 			y: 11.0d
 		}
@@ -133,7 +133,7 @@
 				"43A7282802A06626"
 				"4F87B7DA47087F97"
 			]
-			description: ["它使用微型生态系统模拟计算，并将结果转化为综合解决方案。是高速、高吞吐量的计算设备。"]
+			description: ["{gtlcore.quest.gtl.quest.5e7f20c5f8530e1e.description.0000}"]
 			icon_scale: 2.0d
 			id: "5E7F20C5F8530E1E"
 			size: 1.0d
@@ -185,7 +185,7 @@
 				"1DFC7DC123A3D830"
 				"09537D159735D297"
 			]
-			description: ["{ \"text\": \"UHV需要大量的下界合金\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"39380262677612A9\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"39380262677612A9\"},\"translate\":\"gtlcore.quest.gtl.quest.7204f1b6bcc74f1c.description.0000.text.0000\"}"]
 			icon_scale: 2.0d
 			id: "7204F1B6BCC74F1C"
 			rewards: [{
@@ -205,7 +205,7 @@
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
-			description: ["&4UHV&r超导体"]
+			description: ["{gtlcore.quest.gtl.quest.1dfc7dc123a3d830.description.0000}"]
 			id: "1DFC7DC123A3D830"
 			tasks: [{
 				id: "396FE1151A63CF4A"
@@ -217,13 +217,13 @@
 		}
 		{
 			dependencies: ["2928C640C522E0A5"]
-			description: ["聚酰亚胺是一种特种工程材料，广泛应用在航空、航天、微电子、纳米、液晶、分离膜、激光等领域"]
+			description: ["{gtlcore.quest.gtl.quest.24b011e770b7df3f.description.0000}"]
 			icon: "gtceu:polyimide_bucket"
 			id: "24B011E770B7DF3F"
 			tasks: [
 				{
 					id: "62A6274CE1A1FF7A"
-					title: "聚酰亚胺"
+					title: "{gtlcore.quest.gtl.task.62a6274ce1a1ff7a.title}"
 					type: "checkmark"
 				}
 				{
@@ -257,11 +257,11 @@
 				"3B098EA4601A7827"
 			]
 			description: [
-				"输入总线&e&l必须&r放入一个机器人作为&o&c催化剂&r使用，机器人等级越高配方耗时越短，此处机器人数量不影响并行"
+				"{gtlcore.quest.gtl.quest.53eb6e99f976af31.description.0000}"
 				""
-				"在主机放入与输入总线中相同的机器人可获得更高的并行数，最多64个机器人（128并行）"
+				"{gtlcore.quest.gtl.quest.53eb6e99f976af31.description.0002}"
 				""
-				"不同于装配线，电路装配线可以使用&bULV巨型输入总线&r以及&bEV巨型输入仓&r，但是&c不能使用样板总成&r"
+				"{gtlcore.quest.gtl.quest.53eb6e99f976af31.description.0004}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:circuit_assembly_line"
@@ -269,7 +269,7 @@
 			id: "53EB6E99F976AF31"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "真不是什么多方块电路组装机！"
+			subtitle: "{gtlcore.quest.gtl.quest.53eb6e99f976af31.subtitle}"
 			tasks: [
 				{
 					id: "2E802CA66A25BB20"
@@ -290,12 +290,12 @@
 				"7204F1B6BCC74F1C"
 				"39380262677612A9"
 			]
-			description: ["第二台可以冷凝等离子体的机器"]
+			description: ["{gtlcore.quest.gtl.quest.71d029b59c690121.description.0000}"]
 			icon_scale: 1.3d
 			id: "71D029B59C690121"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "必备"
+			subtitle: "{gtlcore.quest.gtl.quest.71d029b59c690121.subtitle}"
 			tasks: [{
 				id: "50C209A33583AD73"
 				item: "gtceu:plasma_condenser"
@@ -328,7 +328,7 @@
 				"333B741B06E49CE8"
 				"11B90D1FD2508092"
 			]
-			description: ["可以回收一半的生物细胞"]
+			description: ["{gtlcore.quest.gtl.quest.21cf5be902e89b8a.description.0000}"]
 			icon_scale: 2.0d
 			id: "21CF5BE902E89B8A"
 			tasks: [{
@@ -346,15 +346,15 @@
 				"5E86110BBAEA92BA"
 			]
 			description: [
-				"耗时倍数：0.8^（电梯本体电压等级-8）"
-				"最大并行数：4^（电梯本体动力模块等级-1）"
+				"{gtlcore.quest.gtl.quest.31ede3d976de5a33.description.0000}"
+				"{gtlcore.quest.gtl.quest.31ede3d976de5a33.description.0001}"
 				""
-				"确保模块的&6太空电梯模块基座&r以及&6太空电梯模块连接器&r与太空电梯自带的完全重叠即可完成安装"
+				"{gtlcore.quest.gtl.quest.31ede3d976de5a33.description.0003}"
 			]
 			icon_scale: 2.0d
 			id: "31EDE3D976DE5A33"
 			shape: "rsquare"
-			subtitle: "这不是装配线"
+			subtitle: "{gtlcore.quest.gtl.quest.31ede3d976de5a33.subtitle}"
 			tasks: [{
 				id: "194425B2D808120E"
 				item: "gtceu:assembler_module"
@@ -370,17 +370,17 @@
 				"5E86110BBAEA92BA"
 			]
 			description: [
-				"耗时倍数：0.8^（电梯本体电压等级-8）"
-				"最大并行数：4^（电梯本体动力模块等级-1）"
+				"{gtlcore.quest.gtl.quest.7adb50acf5ae1d13.description.0000}"
+				"{gtlcore.quest.gtl.quest.7adb50acf5ae1d13.description.0001}"
 				""
-				"随着高级无人机的解锁，你可以跳过各种产线直接获得资源"
+				"{gtlcore.quest.gtl.quest.7adb50acf5ae1d13.description.0003}"
 				""
-				"确保模块的&6太空电梯模块基座&r以及&6太空电梯模块连接器&r与太空电梯自带的完全重叠即可完成安装"
+				"{gtlcore.quest.gtl.quest.7adb50acf5ae1d13.description.0005}"
 			]
 			icon_scale: 2.0d
 			id: "7ADB50ACF5AE1D13"
 			shape: "rsquare"
-			subtitle: "绿色的燃料和采集模块很搭"
+			subtitle: "{gtlcore.quest.gtl.quest.7adb50acf5ae1d13.subtitle}"
 			tasks: [{
 				id: "3F389DDC4C0810B4"
 				item: "gtceu:resource_collection"
@@ -392,15 +392,15 @@
 		{
 			dependencies: ["31EDE3D976DE5A33"]
 			description: [
-				"可以用&dME库存总线/成&r给多台采集模块共用"
+				"{gtlcore.quest.gtl.quest.6d83baac7db34d51.description.0000}"
 				""
-				"有了注魔金粉后，记得升级动力模块MK2！"
+				"{gtlcore.quest.gtl.quest.6d83baac7db34d51.description.0002}"
 				""
-				"副标题里的数字代表对应的电路"
+				"{gtlcore.quest.gtl.quest.6d83baac7db34d51.description.0004}"
 			]
 			id: "6D83BAAC7DB34D51"
 			shape: "pentagon"
-			subtitle: "陨石(6)，铷(7)，异星藻类(14)，远古残骸(17)，注魔金(20)，钛(21)，碲(23)，钨(23)，凯金化合物(24)，富集硅岩(24)，铟(24)"
+			subtitle: "{gtlcore.quest.gtl.quest.6d83baac7db34d51.subtitle}"
 			tasks: [{
 				id: "54ED6D9B82E6A10E"
 				item: "kubejs:space_drone_mk1"
@@ -415,7 +415,7 @@
 				"1278152299FBED54"
 				"61A202B234E64B8C"
 			]
-			description: ["去巴纳德C用&b小型集气室&r搜集巴纳德C空气"]
+			description: ["{gtlcore.quest.gtl.quest.12f8275fc06fcfee.description.0000}"]
 			id: "12F8275FC06FCFEE"
 			tasks: [{
 				id: "3B3096FCBB8D2FE6"
@@ -441,7 +441,7 @@
 				item: "kubejs:abyssalalloy_coil_block"
 				type: "item"
 			}]
-			title: "渊狱合金线圈"
+			title: "{gtlcore.quest.gtl.quest.3ea935a712fa0ebe.title}"
 			x: 1.0d
 			y: 12.0d
 		}
@@ -450,7 +450,7 @@
 				"6C4F1C87F08F38AC"
 				"2802E34A99CE1D79"
 			]
-			description: ["新的魔幻金属"]
+			description: ["{gtlcore.quest.gtl.quest.776563c5ba327495.description.0000}"]
 			id: "776563C5BA327495"
 			tasks: [
 				{
@@ -464,7 +464,7 @@
 					type: "item"
 				}
 			]
-			title: "山铜与秘银"
+			title: "{gtlcore.quest.gtl.quest.776563c5ba327495.title}"
 			x: 3.0d
 			y: 5.0d
 		}
@@ -474,9 +474,9 @@
 				"6D83BAAC7DB34D51"
 				"07A5A5AD37710056"
 			]
-			description: ["不存在自然强重力环境，你得用&b重力控制仓&r"]
+			description: ["{gtlcore.quest.gtl.quest.1b548589c6044a63.description.0000}"]
 			id: "1B548589C6044A63"
-			subtitle: "外星生命"
+			subtitle: "{gtlcore.quest.gtl.quest.1b548589c6044a63.subtitle}"
 			tasks: [{
 				id: "74AD31D4642ED7CF"
 				item: "kubejs:tcetieseaweedextract"
@@ -494,16 +494,16 @@
 				"2A0269009ABF1414"
 			]
 			description: [
-				"这是T8火箭，解锁巴纳德C，点击主机GUI内的&e启程&r去往（也可以去其他星球）"
+				"{gtlcore.quest.gtl.quest.7a7c73d046390488.description.0000}"
 				""
-				"需要&b用输入总线输入一号电路&r，并持续提供128算力，电梯正常工作时运行时长会&6在6~13s之间循环"
-				"因此，&c&l&o不要使用可配置维护仓修改配方耗时"
+				"{gtlcore.quest.gtl.quest.7a7c73d046390488.description.0002}"
+				"{gtlcore.quest.gtl.quest.7a7c73d046390488.description.0003}"
 				""
-				"只有太空电梯主体正常工作时（即动力模块和主机亮起）扩展模块才会显示已连接和正常工作"
+				"{gtlcore.quest.gtl.quest.7a7c73d046390488.description.0005}"
 				""
-				"太空电梯主体的电压越高，扩展模块的耗时减免越多；动力模块等级越高，扩展模块的并行数越大"
+				"{gtlcore.quest.gtl.quest.7a7c73d046390488.description.0007}"
 				""
-				"在jei中的多方块结构预览界面点击“M”可以查看&e安装所有模块&r后的多方块结构"
+				"{gtlcore.quest.gtl.quest.7a7c73d046390488.description.0009}"
 			]
 			hide_dependent_lines: true
 			icon_scale: 1.3d
@@ -546,7 +546,7 @@
 				"4A058FA1859A00D1"
 				"4786A4C8A643EA4A"
 			]
-			description: ["和湿件很像"]
+			description: ["{gtlcore.quest.gtl.quest.583079ad88755662.description.0000}"]
 			id: "583079AD88755662"
 			tasks: [{
 				id: "6B65C07BCA6CC667"
@@ -569,7 +569,7 @@
 		}
 		{
 			dependencies: ["1DFC7DC123A3D830"]
-			description: ["更大，更强"]
+			description: ["{gtlcore.quest.gtl.quest.4500ac22ee5c09f0.description.0000}"]
 			icon_scale: 2.0d
 			id: "4500AC22EE5C09F0"
 			shape: "rsquare"
@@ -589,20 +589,20 @@
 				"71C7130610E0294D"
 			]
 			description: [
-				"合金冶炼炉，合金冶炼，电力高炉的激光版本，拥有跨配方并行"
+				"{gtlcore.quest.gtl.quest.1fcd63f77e978107.description.0000}"
 				""
-				"合金冶炼炉和合金冶炼&6并不是同一个模式&r，前者输出&b液态/熔融金属&r和&b二硫化碳&r，后者产出&a锭形式的合金&r和其他&a物品"
+				"{gtlcore.quest.gtl.quest.1fcd63f77e978107.description.0002}"
 				""
-				"&c&n&l合金冶炼炉产出流体，合金冶炼产出物品，不要看错了！！！"
-				"&c&n&l合金冶炼炉产出流体，合金冶炼产出物品，不要看错了！！！"
-				"&c&n&l合金冶炼炉产出流体，合金冶炼产出物品，不要看错了！！！"
+				"{gtlcore.quest.gtl.quest.1fcd63f77e978107.description.0004}"
+				"{gtlcore.quest.gtl.quest.1fcd63f77e978107.description.0005}"
+				"{gtlcore.quest.gtl.quest.1fcd63f77e978107.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "1FCD63F77E978107"
 			min_width: 250
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "有些贵，但物有所值"
+			subtitle: "{gtlcore.quest.gtl.quest.1fcd63f77e978107.subtitle}"
 			tasks: [{
 				id: "67242CD537B6FEC1"
 				item: "gtceu:super_blast_smelter"
@@ -613,14 +613,14 @@
 		}
 		{
 			dependencies: ["7A7C73D046390488"]
-			description: ["先去巴纳德C开采，后面可以用电梯直接采集"]
+			description: ["{gtlcore.quest.gtl.quest.333b741b06e49ce8.description.0000}"]
 			icon: "gtceu:unknowwater_bucket"
 			id: "333B741B06E49CE8"
-			subtitle: "未知的液体，可以培养出新生命"
+			subtitle: "{gtlcore.quest.gtl.quest.333b741b06e49ce8.subtitle}"
 			tasks: [
 				{
 					id: "51F32C7FCCFA73A7"
-					title: "不明液体"
+					title: "{gtlcore.quest.gtl.task.51f32c7fccfa73a7.title}"
 					type: "checkmark"
 				}
 				{
@@ -654,7 +654,7 @@
 			]
 			icon: "gtceu:antimatter_bucket"
 			id: "24585C3114095227"
-			subtitle: "UEV才会有用"
+			subtitle: "{gtlcore.quest.gtl.quest.24585c3114095227.subtitle}"
 			tasks: [
 				{
 					id: "32D1AAAFAE4E6E8D"
@@ -667,24 +667,24 @@
 					type: "item"
 				}
 			]
-			title: "离散反物质"
+			title: "{gtlcore.quest.gtl.quest.24585c3114095227.title}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["035C470213E8B4DB"]
 			description: [
-				"0是无重力，1~99是普通重力，100是强重力"
+				"{gtlcore.quest.gtl.quest.07a5a5ad37710056.description.0000}"
 				""
-				"{ \"text\": \"配置复制工具可以复制黏贴重力设置，后续的可配置自动重力维护仓则可以同时复制黏贴处理耗时设置和重力设置\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
+				"{\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3740DE62D42A4D0D\"},\"translate\":\"gtlcore.quest.gtl.quest.07a5a5ad37710056.description.0002.text.0000\"}"
 				"{@pagebreak}"
-				"冷知识：如果在无重力环境里使用强重力配置的重力控制仓，多方块机器会同时拥有无重力和强重力环境的判定"
+				"{gtlcore.quest.gtl.quest.07a5a5ad37710056.description.0004}"
 			]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "07A5A5AD37710056"
 			shape: "rsquare"
-			subtitle: "虽然名字里不带自动，但也可以自动维护"
+			subtitle: "{gtlcore.quest.gtl.quest.07a5a5ad37710056.subtitle}"
 			tasks: [{
 				id: "7039AA556E4A462A"
 				item: "gtceu:gravity_hatch"
@@ -698,7 +698,7 @@
 			icon_scale: 2.0d
 			id: "7597D3F42E7E8515"
 			shape: "rsquare"
-			subtitle: "没有损耗"
+			subtitle: "{gtlcore.quest.gtl.quest.7597d3f42e7e8515.subtitle}"
 			tasks: [{
 				id: "798CD0CCB2B791EF"
 				item: "gtceu:zpm_fluid_drilling_rig"
@@ -713,16 +713,16 @@
 				"035C470213E8B4DB"
 			]
 			description: [
-				"只能使用激光仓（可以放两个），可用位置位于底层正中央和顶层正中央"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0000}"
 				""
-				"可以优化的产线有（颜色代表电压阶段）："
-				"&3铂系金属处理 聚苯硫醚 环氧树脂 硅橡胶 诱变剂&r "
-				"&3丁苯橡胶 聚四氟乙烯 聚乙烯醇缩丁醛 聚苯并咪唑&r "
-				"&3酸性富集/超能硅岩溶液&r "
-				"&4聚酰亚胺 干细胞 硅岩处理 聚氯乙烯&r  "
-				"&a聚氨酯树脂 光刻胶 液晶凯夫拉 未折叠富勒烯 环对苯撑 锆石处理 生物细胞 聚醚醚酮 &r"
-				"&e柴隆纤维 EUV光刻胶 光聚合物 六硝基六氮杂异伍兹烷 &r"
-				"&e寰宇超导液&r"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0002}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0003}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0004}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0005}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0006}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0007}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0008}"
+				"{gtlcore.quest.gtl.quest.16c93f76f74cb8db.description.0009}"
 			]
 			icon_scale: 2.0d
 			id: "16C93F76F74CB8DB"
@@ -733,7 +733,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "大幅度优化你的产线"
+			subtitle: "{gtlcore.quest.gtl.quest.16c93f76f74cb8db.subtitle}"
 			tasks: [{
 				id: "42B8B94BB1B32E83"
 				item: "gtceu:chemical_distort"
@@ -758,7 +758,7 @@
 					type: "item"
 				}
 			]
-			title: "突变活性焊剂"
+			title: "{gtlcore.quest.gtl.quest.4f87b7da47087f97.title}"
 			x: 10.0d
 			y: 12.0d
 		}
@@ -768,16 +768,16 @@
 				"0A2D46609F5C3CAB"
 			]
 			description: [
-				"最高1A  MAX输出，非常强力"
+				"{gtlcore.quest.gtl.quest.09e013c97e05c052.description.0000}"
 				""
-				"从大硅岩开始，所有发电机都可以使用&l&c激光源仓&r&r来输出能量"
+				"{gtlcore.quest.gtl.quest.09e013c97e05c052.description.0002}"
 				""
-				"同时拥有超频机制："
-				"{ \"text\": \"具体机制见无损超频的定义\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5535934109A12B5D\" } }"
-				"将&b4x配方速度&r换为&60.25x配方时间&r（包括可配置维护仓的乘算），&b电力消耗&r换为&6发电功率&r，&b总能量成本&r换为&6总发电量&r即为发电机的超频机制"
-				"发电机会根据&d动力仓/激光源仓大小&r&e自动超频&r至可超频上限，运行时间最短会缩短至1~3刻"
+				"{gtlcore.quest.gtl.quest.09e013c97e05c052.description.0004}"
+				"{\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5535934109A12B5D\"},\"translate\":\"gtlcore.quest.gtl.quest.09e013c97e05c052.description.0005.text.0000\"}"
+				"{gtlcore.quest.gtl.quest.09e013c97e05c052.description.0006}"
+				"{gtlcore.quest.gtl.quest.09e013c97e05c052.description.0007}"
 				""
-				"描述中带有&b&l超频不会损失能效&r字样的发电机都拥有超频机制"
+				"{gtlcore.quest.gtl.quest.09e013c97e05c052.description.0009}"
 			]
 			icon_scale: 2.0d
 			id: "09E013C97E05C052"
@@ -788,7 +788,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "大硅岩~~狠狠发电~~"
+			subtitle: "{gtlcore.quest.gtl.quest.09e013c97e05c052.subtitle}"
 			tasks: [{
 				id: "6D5ADEFDD6695856"
 				item: "gtceu:large_naquadah_reactor"
@@ -800,14 +800,14 @@
 		{
 			dependencies: ["035C470213E8B4DB"]
 			description: [
-				"{ \"text\": \"蒸发塔的搭建注意事项见此\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"224B850538D346D3\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"},\"translate\":\"gtlcore.quest.gtl.quest.4ea64dc5da2f0f8c.description.0000.text.0000\"}"
 				""
-				"净化水线实际上非常线性好做，唯一需要注意的是你的氮（活性炭）和蒸发塔的速度"
+				"{gtlcore.quest.gtl.quest.4ea64dc5da2f0f8c.description.0002}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:grade_8_purified_water_bucket"
 			id: "4EA64DC5DA2F0F8C"
-			subtitle: "可以开始准备了"
+			subtitle: "{gtlcore.quest.gtl.quest.4ea64dc5da2f0f8c.subtitle}"
 			tasks: [
 				{
 					id: "53B625F402EEFC80"
@@ -820,7 +820,7 @@
 					type: "item"
 				}
 			]
-			title: "8级净化水"
+			title: "{gtlcore.quest.gtl.quest.4ea64dc5da2f0f8c.title}"
 			x: 12.0d
 			y: 8.0d
 		}
@@ -829,7 +829,7 @@
 				"7204F1B6BCC74F1C"
 				"31A1ECA11AC31A29"
 			]
-			description: ["高速无限盘是物品流体二合一，且性能更好"]
+			description: ["{gtlcore.quest.gtl.quest.2da05e5baeafb88e.description.0000}"]
 			id: "2DA05E5BAEAFB88E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -837,7 +837,7 @@
 				table_id: 6225023274141477362L
 				type: "random"
 			}]
-			subtitle: "无限的容量"
+			subtitle: "{gtlcore.quest.gtl.quest.2da05e5baeafb88e.subtitle}"
 			tasks: [
 				{
 					id: "105A19D975EC4EAA"
@@ -855,7 +855,7 @@
 					type: "item"
 				}
 			]
-			title: "无限磁盘"
+			title: "{gtlcore.quest.gtl.quest.2da05e5baeafb88e.title}"
 			x: 12.0d
 			y: 6.0d
 		}
@@ -865,16 +865,16 @@
 				"39380262677612A9"
 			]
 			description: [
-				"你现在可以高效制作部件8件套了（&o节省&d25%&r&o的材料&r），还能&b省去数据库槽位&r"
+				"{gtlcore.quest.gtl.quest.36a2af68ae67c70a.description.0000}"
 				""
-				"装配线外壳的等级需要大于等于配方等级（&6可向下兼容&r）"
+				"{gtlcore.quest.gtl.quest.36a2af68ae67c70a.description.0002}"
 				""
-				"主机正下方的八个方块都可以替换为输入总成和样板总成（包括&b钨钢框架&r）"
+				"{gtlcore.quest.gtl.quest.36a2af68ae67c70a.description.0004}"
 				""
-				"能源/激光仓的位置见下，图示仅供参考，实际最多同时放置两个能源仓和一个激光仓"
-				"（正面）"
+				"{gtlcore.quest.gtl.quest.36a2af68ae67c70a.description.0006}"
+				"{gtlcore.quest.gtl.quest.36a2af68ae67c70a.description.0007}"
 				"{image:ftbquests:textures/picture/003.png width:200 height:100 align:center}"
-				"（背面）"
+				"{gtlcore.quest.gtl.quest.36a2af68ae67c70a.description.0009}"
 				"{image:ftbquests:textures/picture/006.png width:200 height:100 align:center}"
 			]
 			icon_scale: 2.0d
@@ -901,7 +901,7 @@
 				"37C5E7628A4B826C"
 				"5D4131C48F9BAE46"
 			]
-			description: ["不要去找矿石，去&b衰变&r&6镭"]
+			description: ["{gtlcore.quest.gtl.quest.53dee1a65051e06f.description.0000}"]
 			id: "53DEE1A65051E06F"
 			tasks: [{
 				id: "7A9EEB0C236E8FE7"
@@ -917,17 +917,17 @@
 				"0A2D46609F5C3CAB"
 			]
 			description: [
-				"先用&d闪存&r右键样板总成，然后右键镜像将镜像绑定至先前的样板总成"
+				"{gtlcore.quest.gtl.quest.536de86ad2109f58.description.0000}"
 				""
-				"镜像会显示绑定的样板总成的坐标"
+				"{gtlcore.quest.gtl.quest.536de86ad2109f58.description.0002}"
 				""
-				"右键镜像能直接与绑定的样板总成互动"
+				"{gtlcore.quest.gtl.quest.536de86ad2109f58.description.0004}"
 			]
 			icon_scale: 2.0d
 			id: "536DE86AD2109F58"
 			optional: true
 			shape: "rsquare"
-			subtitle: "让工厂集群蓬勃发展"
+			subtitle: "{gtlcore.quest.gtl.quest.536de86ad2109f58.subtitle}"
 			tasks: [{
 				id: "0B7BBAEB89C27FF0"
 				item: "gtceu:me_pattern_buffer_proxy"
@@ -938,13 +938,13 @@
 		}
 		{
 			dependencies: ["19D008698197459E"]
-			description: ["高性能生物亲和工程塑料"]
+			description: ["{gtlcore.quest.gtl.quest.7c9ac873cb7209d9.description.0000}"]
 			icon: "gtceu:polyetheretherketone_bucket"
 			id: "7C9AC873CB7209D9"
 			tasks: [
 				{
 					id: "39D039C317D64FD9"
-					title: "聚醚醚酮"
+					title: "{gtlcore.quest.gtl.task.39d039c317d64fd9.title}"
 					type: "checkmark"
 				}
 				{
@@ -964,15 +964,15 @@
 				"5F0A175D6704A8D0"
 			]
 			description: [
-				"更长，更快，可安装并行控制仓，还能使用&b巨型输入总成&r甚至&b样板总成&r！"
+				"{gtlcore.quest.gtl.quest.172fc2f2b20cd187.description.0000}"
 				""
-				"输入仓可以替换为巨型输入总成和样板总成，而输入总线并不能替换"
+				"{gtlcore.quest.gtl.quest.172fc2f2b20cd187.description.0002}"
 				""
-				"并行仓可用位置在输入总线旁边"
+				"{gtlcore.quest.gtl.quest.172fc2f2b20cd187.description.0004}"
 				""
-				"只能使用&e(无线)光学数据靶仓&r提供数据"
+				"{gtlcore.quest.gtl.quest.172fc2f2b20cd187.description.0006}"
 				""
-				"最长65格，耗时倍数最小可到达0.35"
+				"{gtlcore.quest.gtl.quest.172fc2f2b20cd187.description.0008}"
 			]
 			icon_scale: 2.0d
 			id: "172FC2F2B20CD187"
@@ -1001,15 +1001,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"支持设置输出过滤、优先级（数值越大输出优先级越高）与单次&blong&r级物品输出"
+				"{gtlcore.quest.gtl.quest.02bee3dc9e98af15.description.0000}"
 				""
-				"可以用&d闪存&r复制输出过滤设置"
+				"{gtlcore.quest.gtl.quest.02bee3dc9e98af15.description.0002}"
 				""
-				"输出优先级&6始终高于&r扩展/终极ME样板总成/ME样板总成镜像"
+				"{gtlcore.quest.gtl.quest.02bee3dc9e98af15.description.0004}"
 				""
-				"异步版更适合用于跨并机器，但是不能设置输出过滤，其他性质一致"
+				"{gtlcore.quest.gtl.quest.02bee3dc9e98af15.description.0006}"
 				""
-				"异步和普通版的优先级在同一参考系内"
+				"{gtlcore.quest.gtl.quest.02bee3dc9e98af15.description.0008}"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
@@ -1029,26 +1029,26 @@
 					type: "item"
 				}
 			]
-			title: "增广输出总成"
+			title: "{gtlcore.quest.gtl.quest.02bee3dc9e98af15.title}"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["702EFE9BA62A8CDA"]
 			description: [
-				"拥有36格槽位"
+				"{gtlcore.quest.gtl.quest.21a1a4db4ba35b42.description.0000}"
 				""
-				"扩展/终极及其绑定的镜像支持直接返回产物至ME网络（优先级高于一般的输出仓室）"
+				"{gtlcore.quest.gtl.quest.21a1a4db4ba35b42.description.0002}"
 				""
-				"可以在gtlcore的配置文件中自行设置最小输出间隔和最大输出间隔"
+				"{gtlcore.quest.gtl.quest.21a1a4db4ba35b42.description.0004}"
 				""
-				"注意：在多方块结构中扩展/终极及其绑定的镜像会被同时判定为输入仓室和输出仓室"
+				"{gtlcore.quest.gtl.quest.21a1a4db4ba35b42.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "21A1A4DB4BA35B42"
 			optional: true
 			shape: "rsquare"
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.21a1a4db4ba35b42.subtitle}"
 			tasks: [{
 				id: "50A279F563E3B266"
 				item: "gtceu:me_extend_pattern_buffer"
@@ -1066,13 +1066,13 @@
 				"4F87B7DA47087F97"
 			]
 			description: [
-				"GT版超级分子装配室，无需消耗EU，拥有跨配方并行，通过矩阵端口与ME网络互动"
+				"{gtlcore.quest.gtl.quest.47a332d8c189a51b.description.0000}"
 				""
-				"&6五个&r速度核心即可达到最小耗时（1tick）"
+				"{gtlcore.quest.gtl.quest.47a332d8c189a51b.description.0002}"
 				""
-				"核心能且仅能替换中心结构内的&b分子机械方块"
-				"&r"
-				"矩阵端口&c无法&r使用样板总成合成"
+				"{gtlcore.quest.gtl.quest.47a332d8c189a51b.description.0004}"
+				"{gtlcore.quest.gtl.quest.47a332d8c189a51b.description.0005}"
+				"{gtlcore.quest.gtl.quest.47a332d8c189a51b.description.0006}"
 			]
 			hide_dependency_lines: true
 			icon: "gtceu:molecular_assembler_matrix"
@@ -1080,7 +1080,7 @@
 			id: "47A332D8C189A51B"
 			optional: true
 			shape: "rsquare"
-			subtitle: "终极分子装配室"
+			subtitle: "{gtlcore.quest.gtl.quest.47a332d8c189a51b.subtitle}"
 			tasks: [
 				{
 					id: "412C806531848D9A"
@@ -1108,11 +1108,11 @@
 					type: "item"
 				}
 			]
-			title: "分子操纵者"
+			title: "{gtlcore.quest.gtl.quest.47a332d8c189a51b.title}"
 			x: 12.5d
 			y: 12.0d
 		}
 	]
-	subtitle: ["Tier8-UV"]
-	title: "极限压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.2366beb7a81c122d.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.2366beb7a81c122d.title}"
 }

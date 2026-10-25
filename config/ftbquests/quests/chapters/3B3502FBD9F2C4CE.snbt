@@ -16,7 +16,7 @@
 	quests: [
 		{
 			dependencies: ["148A5C927A0DCED1"]
-			description: ["可能是最后一种小搅拌机"]
+			description: ["{gtlcore.quest.gtl.quest.0526b4ac0caf99a5.description.0000}"]
 			hide_dependent_lines: true
 			id: "0526B4AC0CAF99A5"
 			tasks: [{
@@ -29,7 +29,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["来了一堆锭"]
+			description: ["{gtlcore.quest.gtl.quest.4058d1416d94babb.description.0000}"]
 			id: "4058D1416D94BABB"
 			tasks: [
 				{
@@ -58,18 +58,18 @@
 					type: "item"
 				}
 			]
-			title: "各种锭"
+			title: "{gtlcore.quest.gtl.quest.4058d1416d94babb.title}"
 			x: 2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4058D1416D94BABB"]
 			description: [
-				"合金冶炼炉会产出流体（对应产物可通过搅拌机-电力高炉制取或者是二硫化碳）和熔融流体。熔融流体需要用真空冷冻机进行冷却"
+				"{gtlcore.quest.gtl.quest.1f0956c3bd4745a1.description.0000}"
 				""
-				"不要被长时间的熔炼时间吓到，这是将搅拌机的配方直接融入熔炼配方中的结果，实际上比搅拌后在高炉中熔炼粉要省时（比如不锈钢）。"
+				"{gtlcore.quest.gtl.quest.1f0956c3bd4745a1.description.0002}"
 				""
-				"几乎每种合金材料都可以在这台机器中生产，因此，如果你在查找合金配方时遇到麻烦，请寻找&b&l熔融流体&r！"
+				"{gtlcore.quest.gtl.quest.1f0956c3bd4745a1.description.0004}"
 			]
 			icon: "gtceu:alloy_blast_smelter"
 			icon_scale: 1.3d
@@ -98,15 +98,15 @@
 				"27BA6EBA81622516"
 			]
 			description: [
-				"现在可以制作单方块机器的大型版本，能更好的升压超频，以及获得更高的并行"
+				"{gtlcore.quest.gtl.quest.1facfecb6c5962e3.description.0000}"
 				""
-				"在描述中带有&e通过并行控制仓让机器同时处理多个相同配方&r的机器可以安装并行控制仓"
+				"{gtlcore.quest.gtl.quest.1facfecb6c5962e3.description.0002}"
 				""
-				"别忘了给之前的机器装上并行控制仓（脱硫机，渔场，大型温室等）"
+				"{gtlcore.quest.gtl.quest.1facfecb6c5962e3.description.0004}"
 				""
-				"并行仓可以&b共用"
+				"{gtlcore.quest.gtl.quest.1facfecb6c5962e3.description.0006}"
 				""
-				"{ \"text\": \"可以到这里查看总共有多少种单方块机器大型版本\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1443E064A0AB0B8B\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1443E064A0AB0B8B\"},\"translate\":\"gtlcore.quest.gtl.quest.1facfecb6c5962e3.description.0008.text.0000\"}"
 			]
 			icon: "gtceu:large_material_press"
 			icon_scale: 1.3d
@@ -116,7 +116,7 @@
 			tasks: [
 				{
 					id: "2F1127262F7ACA6C"
-					title: "大型机器"
+					title: "{gtlcore.quest.gtl.task.2f1127262f7aca6c.title}"
 					type: "checkmark"
 				}
 				{
@@ -131,12 +131,12 @@
 		}
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
-			description: ["你可以用IV搅拌机做，也可以用合金冶炼炉做"]
+			description: ["{gtlcore.quest.gtl.quest.4bfa114e12bcb163.description.0000}"]
 			hide_dependent_lines: true
 			id: "4BFA114E12BCB163"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "LuV阶段主要材料"
+			subtitle: "{gtlcore.quest.gtl.quest.4bfa114e12bcb163.subtitle}"
 			tasks: [{
 				id: "121BAC69F16DF2AF"
 				item: "gtceu:rhodium_plated_palladium_ingot"
@@ -147,7 +147,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["可以用磷化铟，也可以用量子之眼"]
+			description: ["{gtlcore.quest.gtl.quest.68a3d32bff9bf7f3.description.0000}"]
 			icon_scale: 2.0d
 			id: "68A3D32BFF9BF7F3"
 			tasks: [{
@@ -160,7 +160,7 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["高速钢(HSS)是更耐磨的钢合金"]
+			description: ["{gtlcore.quest.gtl.quest.62b67704211a105d.description.0000}"]
 			id: "62B67704211A105D"
 			tasks: [{
 				id: "75763C7F36454825"
@@ -191,7 +191,7 @@
 				item: "gtceu:hssg_coil_block"
 				type: "item"
 			}]
-			title: "高速钢-G线圈"
+			title: "{gtlcore.quest.gtl.quest.7dca0b7c9f3c3acf.title}"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -200,7 +200,7 @@
 				"7DCA0B7C9F3C3ACF"
 				"3CB16B36A5AA2A10"
 			]
-			description: ["你可以用IV搅拌机做，也可以用合金冶炼炉"]
+			description: ["{gtlcore.quest.gtl.quest.2a81ea75e3dd41a3.description.0000}"]
 			id: "2A81EA75E3DD41A3"
 			tasks: [
 				{
@@ -214,7 +214,7 @@
 					type: "item"
 				}
 			]
-			title: "高速钢-E和S"
+			title: "{gtlcore.quest.gtl.quest.2a81ea75e3dd41a3.title}"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -223,9 +223,9 @@
 				"2A81EA75E3DD41A3"
 				"7531D52AF313CEEB"
 			]
-			description: ["IV阶段的电路可以不用"]
+			description: ["{gtlcore.quest.gtl.quest.4604207a60f04214.description.0000}"]
 			id: "4604207A60F04214"
-			subtitle: "更进一步"
+			subtitle: "{gtlcore.quest.gtl.quest.4604207a60f04214.subtitle}"
 			tasks: [
 				{
 					id: "54EBA1E915CCDDAC"
@@ -253,13 +253,13 @@
 					type: "item"
 				}
 			]
-			title: "高级贴片"
+			title: "{gtlcore.quest.gtl.quest.4604207a60f04214.title}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["可能是最后一种小组装机"]
+			description: ["{gtlcore.quest.gtl.quest.079cd9fd65cb2ed2.description.0000}"]
 			hide_dependent_lines: true
 			id: "079CD9FD65CB2ED2"
 			tasks: [{
@@ -276,16 +276,16 @@
 				"69E208F71C5EB4B3"
 				"29450DC426C4E2D6"
 			]
-			description: ["比较麻烦,且后期需求量很大"]
+			description: ["{gtlcore.quest.gtl.quest.7531d52af313ceeb.description.0000}"]
 			hide_dependent_lines: true
 			id: "7531D52AF313CEEB"
-			subtitle: "PBI"
+			subtitle: "{gtlcore.quest.gtl.quest.7531d52af313ceeb.subtitle}"
 			tasks: [{
 				id: "647AACA023F507D1"
 				item: "gtceu:polybenzimidazole_plate"
 				type: "item"
 			}]
-			title: "新的塑料"
+			title: "{gtlcore.quest.gtl.quest.7531d52af313ceeb.title}"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -295,7 +295,7 @@
 				"027B25761BD830C8"
 				"22795A09A3BD7344"
 			]
-			description: ["量子处理器是使用量子位作为信息的基本单位，能够同时处于0和1的叠加状态，使得量子计算机能够执行复杂的计算任务。"]
+			description: ["{gtlcore.quest.gtl.quest.31ac84cbd7c26566.description.0000}"]
 			icon_scale: 2.0d
 			id: "31AC84CBD7C26566"
 			tasks: [{
@@ -363,7 +363,7 @@
 				"2CAC63F25BAF50B3"
 			]
 			id: "0FCA3B71669C8122"
-			subtitle: "依旧要去空间站"
+			subtitle: "{gtlcore.quest.gtl.quest.0fca3b71669c8122.subtitle}"
 			tasks: [{
 				id: "431CBC4C1A32BCEC"
 				item: "gtceu:quantum_star"
@@ -391,7 +391,7 @@
 					type: "item"
 				}
 			]
-			title: "IV传感器与发射器"
+			title: "{gtlcore.quest.gtl.quest.27ba6eba81622516.title}"
 			x: 10.0d
 			y: 2.0d
 		}
@@ -402,15 +402,15 @@
 				"2CE5738B7A8225A6"
 			]
 			description: [
-				"最长可达17格，长度不影响工作效率"
+				"{gtlcore.quest.gtl.quest.7f8c2ecc7ce2bf20.description.0000}"
 				""
-				"大部分配方在运行的同时需要&6配方数据&r来运行，配方数据可看作某种&b催化剂&r。"
+				"{gtlcore.quest.gtl.quest.7f8c2ecc7ce2bf20.description.0002}"
 				""
-				"只能使用&e&oULV输入总线&r，输入仓则可以使用小型/四重/九重输入仓。"
+				"{gtlcore.quest.gtl.quest.7f8c2ecc7ce2bf20.description.0004}"
 				""
-				"物品和流体&b无需有序输入&r，进阶装配线、电路装配线、超时空装配线、超时空装配线扩展模块、聚合装置同理"
+				"{gtlcore.quest.gtl.quest.7f8c2ecc7ce2bf20.description.0006}"
 				""
-				"编写装配线类样板时会&d自动忽略&r&6装有研究数据的闪存&r、&6数据球&r和&6数据模块"
+				"{gtlcore.quest.gtl.quest.7f8c2ecc7ce2bf20.description.0008}"
 			]
 			icon_scale: 1.3d
 			id: "7F8C2ECC7CE2BF20"
@@ -422,7 +422,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "很贵，但IV之后必备。"
+			subtitle: "{gtlcore.quest.gtl.quest.7f8c2ecc7ce2bf20.subtitle}"
 			tasks: [{
 				id: "07456C679DEEEE04"
 				item: "gtceu:assembly_line"
@@ -436,7 +436,7 @@
 				"27BA6EBA81622516"
 				"25F272243EB904D5"
 			]
-			description: ["可能是最后一种小电路组装机"]
+			description: ["{gtlcore.quest.gtl.quest.027b25761bd830c8.description.0000}"]
 			id: "027B25761BD830C8"
 			tasks: [{
 				id: "57AB73EF21D31E54"
@@ -448,7 +448,7 @@
 		}
 		{
 			dependencies: ["027B25761BD830C8"]
-			description: ["&c不能&r双仓升压"]
+			description: ["{gtlcore.quest.gtl.quest.30a0d221474fb44a.description.0000}"]
 			icon_scale: 2.0d
 			id: "30A0D221474FB44A"
 			rewards: [{
@@ -486,7 +486,7 @@
 				"079CD9FD65CB2ED2"
 				"3461BF0D74E5E8DF"
 			]
-			description: ["升压"]
+			description: ["{gtlcore.quest.gtl.quest.15580c25ff239402.description.0000}"]
 			hide_dependent_lines: true
 			icon_scale: 1.3d
 			id: "15580C25FF239402"
@@ -506,9 +506,9 @@
 				"3ECA33037D940EAB"
 			]
 			description: [
-				"&9IV&r超导体"
+				"{gtlcore.quest.gtl.quest.02d426be0947f123.description.0000}"
 				""
-				"你可以用IV搅拌机做，也可以用合金冶炼炉做"
+				"{gtlcore.quest.gtl.quest.02d426be0947f123.description.0002}"
 			]
 			id: "02D426BE0947F123"
 			tasks: [{
@@ -532,7 +532,7 @@
 		}
 		{
 			dependencies: ["7A4A5E773AC5C003"]
-			description: ["将扫描过后的闪存/数据球放入数据访问仓中以让装配线读取配方数据"]
+			description: ["{gtlcore.quest.gtl.quest.2ce5738b7a8225a6.description.0000}"]
 			id: "2CE5738B7A8225A6"
 			tasks: [{
 				id: "67F4026A97AD2839"
@@ -544,7 +544,7 @@
 		}
 		{
 			dependencies: ["148A5C927A0DCED1"]
-			description: ["可能是最后一种小切割机"]
+			description: ["{gtlcore.quest.gtl.quest.3b79a329196883ef.description.0000}"]
 			id: "3B79A329196883EF"
 			tasks: [{
 				id: "3F7925F1D16C107A"
@@ -559,14 +559,14 @@
 				"38480A52A13DA157"
 				"7DE4799C4F88801B"
 			]
-			description: ["{ \"text\": \"又是一条小产线\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7DE4799C4F88801B\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7DE4799C4F88801B\"},\"translate\":\"gtlcore.quest.gtl.quest.148a5c927a0dced1.description.0000.text.0000\"}"]
 			id: "148A5C927A0DCED1"
 			tasks: [{
 				id: "62F5055E01F9396B"
 				item: "gtceu:laminated_glass"
 				type: "item"
 			}]
-			title: "新的玻璃"
+			title: "{gtlcore.quest.gtl.quest.148a5c927a0dced1.title}"
 			x: 12.0d
 			y: 0.0d
 		}
@@ -583,7 +583,7 @@
 		}
 		{
 			dependencies: ["0F22A8CE63F369CA"]
-			description: ["64并行电力高炉"]
+			description: ["{gtlcore.quest.gtl.quest.52070757274dc2b4.description.0000}"]
 			icon_scale: 1.3d
 			id: "52070757274DC2B4"
 			rewards: [{
@@ -594,7 +594,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "别忘了提供液态烈焰"
+			subtitle: "{gtlcore.quest.gtl.quest.52070757274dc2b4.subtitle}"
 			tasks: [{
 				id: "2C69C2E860BDFB1B"
 				item: "gtceu:blaze_blast_furnace"
@@ -606,9 +606,9 @@
 		{
 			dependencies: ["38480A52A13DA157"]
 			description: [
-				"可以作为裂变堆之前的过渡蒸汽生产机器"
+				"{gtlcore.quest.gtl.quest.5744f6172d4e112b.description.0000}"
 				""
-				"压缩钻石块是耐烧王二号"
+				"{gtlcore.quest.gtl.quest.5744f6172d4e112b.description.0002}"
 			]
 			icon_scale: 1.5d
 			id: "5744F6172D4E112B"
@@ -634,7 +634,7 @@
 				"02D426BE0947F123"
 				"5010011959CF5337"
 			]
-			description: ["{ \"text\": \"挖一点就够了\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"19F11B0FD7A04A57\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"19F11B0FD7A04A57\"},\"translate\":\"gtlcore.quest.gtl.quest.00e7cb7cd9296b1a.description.0000.text.0000\"}"]
 			id: "00E7CB7CD9296B1A"
 			tasks: [{
 				id: "2FB73F086EA348D8"
@@ -649,7 +649,7 @@
 				"0F22A8CE63F369CA"
 				"00E7CB7CD9296B1A"
 			]
-			description: ["{ \"text\": \"你可以着手使用硅岩发电了\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5FDD8771824E57CF\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5FDD8771824E57CF\"},\"translate\":\"gtlcore.quest.gtl.quest.36f5a40d3976e512.description.0000.text.0000\"}"]
 			icon: {
 				Count: 1
 				id: "ad_astra_rocketed:tier_5_rocket"
@@ -699,21 +699,21 @@
 		{
 			dependencies: ["1F0956C3BD4745A1"]
 			description: [
-				"必备，不要忘了放能源仓"
+				"{gtlcore.quest.gtl.quest.365298db6520227a.description.0000}"
 				""
-				"高温发电量更高，低温主要用于生产资源"
+				"{gtlcore.quest.gtl.quest.365298db6520227a.description.0002}"
 				""
-				"请仔细阅读主机文字描述"
+				"{gtlcore.quest.gtl.quest.365298db6520227a.description.0004}"
 				""
-				"如果裂变堆损坏达到100%，会产生一次范围为11区块*11区块的爆炸"
+				"{gtlcore.quest.gtl.quest.365298db6520227a.description.0006}"
 				""
-				"默认配置下已声明的区块不会被裂变堆爆炸所影响，若裂变堆位于声明区块内，则爆炸时只有主机会消失"
+				"{gtlcore.quest.gtl.quest.365298db6520227a.description.0008}"
 			]
 			icon_scale: 1.3d
 			id: "365298DB6520227A"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "核电，轻而易举啊！"
+			subtitle: "{gtlcore.quest.gtl.quest.365298db6520227a.subtitle}"
 			tasks: [{
 				id: "2599970FD2D9C38B"
 				item: "gtceu:fission_reactor"
@@ -725,23 +725,23 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"简单来说就是让机器直接从ME网络拿物品来用"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0000}"
 				""
-				"用&d闪存&r左键保存仓室配置，右键应用配置"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0002}"
 				""
-				"可以开启&6自动拉取模式&r，自动拉取网络中的库存物品/流体（&b标签总线可设置拉取排序模式&r）"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0004}"
 				""
-				"用&d剪线钳&r右键ME仓室可以让ME仓室在从正面联网和从任意面联网之间切换"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0006}"
 				""
-				"可在仓室gui左下角调整&6拉取间隔&r，默认显示0tick为不改变拉取间隔，&b最低1tick&r（影响从ME网络拉取的速度）"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0008}"
 				""
-				"可在gtlcore的配置文件中开启&d极限拉取模式&r，让&6ME库存输入总成&r拉取不再有延迟（影响并行计算），但可能会对TPS有一定的影响"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0010}"
 				""
-				"标签库存总线/仓使用方式与标签存储总线相同"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0012}"
 				""
-				"注意：1.由于在进入存档时AE需要重新组网，库存仓室会在一段很短的时间内断网进而导致无法使机器获得输入"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0014}"
 				""
-				"2.在同一个多方块结构中的多个库存输入仓/总线不能标记相同的内容物"
+				"{gtlcore.quest.gtl.quest.5608182772e855ec.description.0016}"
 			]
 			icon_scale: 2.0d
 			id: "5608182772E855EC"
@@ -753,7 +753,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "同步ME网络库存"
+			subtitle: "{gtlcore.quest.gtl.quest.5608182772e855ec.subtitle}"
 			tasks: [
 				{
 					id: "5165B2AF5BB3CD54"
@@ -781,7 +781,7 @@
 					type: "item"
 				}
 			]
-			title: "ME库存仓室"
+			title: "{gtlcore.quest.gtl.quest.5608182772e855ec.title}"
 			x: 12.0d
 			y: 4.0d
 		}
@@ -801,7 +801,7 @@
 				"0526B4AC0CAF99A5"
 				"3CB16B36A5AA2A10"
 			]
-			description: ["不幸的是，这个合金不能用合金冶炼炉直接制作"]
+			description: ["{gtlcore.quest.gtl.quest.7d8241e627194099.description.0000}"]
 			id: "7D8241E627194099"
 			tasks: [{
 				id: "21095623F1E9DBD4"
@@ -829,13 +829,13 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"将JEI中显示的物品与一个闪存一起放置在扫描仪中进行扫描，这将消耗该物品并将对应数据存入闪存中。"
+				"{gtlcore.quest.gtl.quest.7a4a5e773ac5c003.description.0000}"
 				""
-				"后面的配方将需要不同的数据存储物品（数据球和数据模块）进行扫描，更后面则是使用研究站进行研究"
+				"{gtlcore.quest.gtl.quest.7a4a5e773ac5c003.description.0002}"
 				""
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
+				"{gtlcore.quest.gtl.quest.7a4a5e773ac5c003.description.0004}"
+				"{gtlcore.quest.gtl.quest.7a4a5e773ac5c003.description.0005}"
+				"{gtlcore.quest.gtl.quest.7a4a5e773ac5c003.description.0006}"
 			]
 			id: "7A4A5E773AC5C003"
 			min_width: 270
@@ -852,7 +852,7 @@
 				"42129A63D97DDF28"
 				"4C43D30FD9B89965"
 			]
-			description: ["这个阶段推荐在做出来大机器之后沉淀一下，重构你的产线，以及选择一种新的发电方式"]
+			description: ["{gtlcore.quest.gtl.quest.38480a52a13da157.description.0000}"]
 			hide_dependent_lines: true
 			icon: "kubejs:iv_universal_circuit"
 			id: "38480A52A13DA157"
@@ -860,7 +860,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "01068F963A96E633"
-				title: "强导压IV"
+				title: "{gtlcore.quest.gtl.task.01068f963a96e633.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -869,9 +869,9 @@
 		{
 			dependencies: ["27BA6EBA81622516"]
 			description: [
-				"64并行真空冷冻机"
+				"{gtlcore.quest.gtl.quest.4c4081c79d227d1f.description.0000}"
 				""
-				"&m我知道液态冰听起来很荒诞，但就是注册了这个东西&r"
+				"{gtlcore.quest.gtl.quest.4c4081c79d227d1f.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "4C4081C79D227D1F"
@@ -883,7 +883,7 @@
 			}]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "别忘了提供液态冰"
+			subtitle: "{gtlcore.quest.gtl.quest.4c4081c79d227d1f.subtitle}"
 			tasks: [{
 				id: "7066CF4FFEA3FD14"
 				item: "gtceu:cold_ice_freezer"
@@ -897,7 +897,7 @@
 				"1223D839C224777B"
 				"29D4D49428BF7FF4"
 			]
-			description: ["{ \"text\": \"钐的产线可能很长，也可能很短\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1223D839C224777B\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1223D839C224777B\"},\"translate\":\"gtlcore.quest.gtl.quest.3eca33037d940eab.description.0000.text.0000\"}"]
 			id: "3ECA33037D940EAB"
 			tasks: [{
 				id: "7778FF7D320A8783"
@@ -909,7 +909,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["溶解罐输入的&b流体&r比例若与配方比例不同则会&e一直吞材料不输出产物&r"]
+			description: ["{gtlcore.quest.gtl.quest.29d4d49428bf7ff4.description.0000}"]
 			icon_scale: 1.5d
 			id: "29D4D49428BF7FF4"
 			shape: "rsquare"
@@ -925,26 +925,26 @@
 					type: "item"
 				}
 			]
-			title: "镧系两件套"
+			title: "{gtlcore.quest.gtl.quest.29d4d49428bf7ff4.title}"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["365298DB6520227A"]
 			description: [
-				"可以通过热钠钾合金获得远超于超维度锅炉产出的蒸汽量"
+				"{gtlcore.quest.gtl.quest.24ce67689dd540b7.description.0000}"
 				""
-				"也可以用超临界钠钾合金获得超临界蒸汽，用于给超临界蒸汽涡轮发电"
+				"{gtlcore.quest.gtl.quest.24ce67689dd540b7.description.0002}"
 				""
-				"除了热钠钾合金的配方，热交换机并不受可配置维护仓的影响"
+				"{gtlcore.quest.gtl.quest.24ce67689dd540b7.description.0004}"
 				""
-				"热钠钾合金来自低温(≤825K)裂变堆，超临界钠钾合金来自高温(>825K)裂变堆"
+				"{gtlcore.quest.gtl.quest.24ce67689dd540b7.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "24CE67689DD540B7"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "请确保冷却剂过量"
+			subtitle: "{gtlcore.quest.gtl.quest.24ce67689dd540b7.subtitle}"
 			tasks: [{
 				id: "4B207AC62685A5B5"
 				item: "gtceu:heat_exchanger"
@@ -960,13 +960,13 @@
 				"15580C25FF239402"
 			]
 			description: [
-				"0.2x用于加速机器，1.2x用于节省燃料，某些情况可以使发电机获得额外超频次数进而增加发电功率"
+				"{gtlcore.quest.gtl.quest.585580afdfacddb8.description.0000}"
 				""
-				"默认以0.01的倍率调整，按住shift为0.1，按住ctrl为1"
+				"{gtlcore.quest.gtl.quest.585580afdfacddb8.description.0002}"
 				""
-				"{ \"text\": \"配置复制工具可以复制黏贴处理耗时设置\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3740DE62D42A4D0D\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3740DE62D42A4D0D\"},\"translate\":\"gtlcore.quest.gtl.quest.585580afdfacddb8.description.0004.text.0000\"}"
 				""
-				"你同时可以制作&6可配置超净维护仓&r了"
+				"{gtlcore.quest.gtl.quest.585580afdfacddb8.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "585580AFDFACDDB8"
@@ -977,13 +977,13 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "甚至无条件"
+			subtitle: "{gtlcore.quest.gtl.quest.585580afdfacddb8.subtitle}"
 			tasks: [{
 				id: "7D699FD179C16EB0"
 				item: "gtceu:auto_configuration_maintenance_hatch"
 				type: "item"
 			}]
-			title: "五倍速！！"
+			title: "{gtlcore.quest.gtl.quest.585580afdfacddb8.title}"
 			x: 18.0d
 			y: 6.0d
 		}
@@ -995,11 +995,11 @@
 				"1960A97628A48901"
 			]
 			description: [
-				"你的线缆得开始用更高级的橡胶和树脂了"
+				"{gtlcore.quest.gtl.quest.7794be986c48c92d.description.0000}"
 				""
-				"建议线缆统一使用同一种高级橡胶"
+				"{gtlcore.quest.gtl.quest.7794be986c48c92d.description.0002}"
 				""
-				"注意两种高级橡胶在后续都有专属配方，普通橡胶也是"
+				"{gtlcore.quest.gtl.quest.7794be986c48c92d.description.0004}"
 			]
 			id: "7794BE986C48C92D"
 			tasks: [
@@ -1019,13 +1019,13 @@
 					type: "item"
 				}
 			]
-			title: "新的橡胶与树脂"
+			title: "{gtlcore.quest.gtl.quest.7794be986c48c92d.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0F22A8CE63F369CA"]
-			description: ["更大，更强，会一直陪着你"]
+			description: ["{gtlcore.quest.gtl.quest.3068ff40afc77779.description.0000}"]
 			icon_scale: 2.0d
 			id: "3068FF40AFC77779"
 			shape: "rsquare"
@@ -1039,17 +1039,17 @@
 		}
 		{
 			dependencies: ["38480A52A13DA157"]
-			description: ["裂变-蒸汽/超临界蒸汽，硅岩反应堆，化学能吞噬者……"]
+			description: ["{gtlcore.quest.gtl.quest.0da85dfcdf063cfb.description.0000}"]
 			id: "0DA85DFCDF063CFB"
 			tasks: [{
 				id: "3E9DA664071D01DB"
-				title: "新的发电方式"
+				title: "{gtlcore.quest.gtl.task.3e9da664071d01db.title}"
 				type: "checkmark"
 			}]
 			x: 2.0d
 			y: 8.0d
 		}
 	]
-	subtitle: ["Tier5-IV"]
-	title: "强导压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.3b3502fbd9f2c4ce.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.3b3502fbd9f2c4ce.title}"
 }
