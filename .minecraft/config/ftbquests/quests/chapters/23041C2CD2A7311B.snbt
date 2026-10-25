@@ -66,9 +66,9 @@
 				"55458BD1EFC248C8"
 				"687FA1A8A6443436"
 			]
-			description: ["先靠锻炉出的等离子态星辉冷凝获得，后面可以用电力高炉直接烧制"]
+			description: ["{gtlcore.quest.gtl.quest.7b46e8de77d0be8f.description.0000}"]
 			id: "7B46E8DE77D0BE8F"
-			subtitle: "星辰之力"
+			subtitle: "{gtlcore.quest.gtl.quest.7b46e8de77d0be8f.subtitle}"
 			tasks: [{
 				id: "73B1CA578DA24E93"
 				item: "gtceu:starmetal_ingot"
@@ -82,7 +82,7 @@
 				"7B46E8DE77D0BE8F"
 				"49ED5C32664DDF6C"
 			]
-			description: ["常规线圈并行数等价于&bMAX并行控制仓"]
+			description: ["{gtlcore.quest.gtl.quest.6e3f07b3e9ab5882.description.0000}"]
 			icon_scale: 2.0d
 			id: "6E3F07B3E9AB5882"
 			rewards: [{
@@ -97,7 +97,7 @@
 				item: "kubejs:starmetal_coil_block"
 				type: "item"
 			}]
-			title: "星辉线圈"
+			title: "{gtlcore.quest.gtl.quest.6e3f07b3e9ab5882.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -107,9 +107,9 @@
 				"4A1F4AAAABC1DE23"
 				"1C4D5D7786F64485"
 			]
-			description: ["龙血可以循环"]
+			description: ["{gtlcore.quest.gtl.quest.6a1f7d407be033a9.description.0000}"]
 			id: "6A1F7D407BE033A9"
-			subtitle: "高纯龙素"
+			subtitle: "{gtlcore.quest.gtl.quest.6a1f7d407be033a9.subtitle}"
 			tasks: [{
 				id: "65FF8A6173E91F9E"
 				item: "gtceu:draconium_dust"
@@ -123,9 +123,9 @@
 				"6A1F7D407BE033A9"
 				"6E3F07B3E9AB5882"
 			]
-			description: ["需要汽油/高十六/高辛烷作为保护气"]
+			description: ["{gtlcore.quest.gtl.quest.108792b10fdec848.description.0000}"]
 			id: "108792B10FDEC848"
-			subtitle: "龙之力量"
+			subtitle: "{gtlcore.quest.gtl.quest.108792b10fdec848.subtitle}"
 			tasks: [{
 				id: "73F908E584D4518A"
 				item: "gtceu:draconium_ingot"
@@ -191,13 +191,13 @@
 					type: "item"
 				}
 			]
-			title: "引力子换能器和拓扑控制操纵单元"
+			title: "{gtlcore.quest.gtl.quest.5a4208d724465b97.title}"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["5EEF654D4CD2168F"]
-			description: ["记得回头优化精金产线"]
+			description: ["{gtlcore.quest.gtl.quest.1e2191e5e31dc8b0.description.0000}"]
 			id: "1E2191E5E31DC8B0"
 			tasks: [{
 				id: "4B942195EDD70FD6"
@@ -229,7 +229,7 @@
 				"7843B0B9DF3F6FB3"
 				"1BA07BC3DBFFF3E6"
 			]
-			description: ["利用虫洞，准确地在问题提出的时刻开始计算，以便在问题被问出时得到答案。"]
+			description: ["{gtlcore.quest.gtl.quest.2895fbb66750c0df.description.0000}"]
 			icon_scale: 2.0d
 			id: "2895FBB66750C0DF"
 			tasks: [{
@@ -264,7 +264,7 @@
 			tasks: [
 				{
 					id: "34A01704D8875A2F"
-					title: "气态高密度自由质子气"
+					title: "{gtlcore.quest.gtl.task.34a01704d8875a2f.title}"
 					type: "checkmark"
 				}
 				{
@@ -295,7 +295,7 @@
 			tasks: [
 				{
 					id: "3A5F5C774EE47FD2"
-					title: "星能液"
+					title: "{gtlcore.quest.gtl.task.3a5f5c774ee47fd2.title}"
 					type: "checkmark"
 				}
 				{
@@ -310,7 +310,7 @@
 		}
 		{
 			dependencies: ["6FF53B92BA6D2370"]
-			description: ["需要很多冰"]
+			description: ["{gtlcore.quest.gtl.quest.687fa1a8a6443436.description.0000}"]
 			id: "687FA1A8A6443436"
 			tasks: [{
 				id: "0FCC5549E1E17DF9"
@@ -329,7 +329,7 @@
 			id: "74186877DB7DBE4D"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "最后一种爆弹"
+			subtitle: "{gtlcore.quest.gtl.quest.74186877db7dbe4d.subtitle}"
 			tasks: [{
 				id: "68FDD4F89178DC73"
 				item: "kubejs:quantum_chromodynamic_charge"
@@ -431,9 +431,9 @@
 		{
 			dependencies: ["559836CC234447C0"]
 			description: [
-				"只能使用&eUEV&r消声仓"
+				"{gtlcore.quest.gtl.quest.4a1f4aaaabc1de23.description.0000}"
 				""
-				"你也许可以考虑用龙蛋复制机+中子漩涡直接制作龙尘……"
+				"{gtlcore.quest.gtl.quest.4a1f4aaaabc1de23.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "4A1F4AAAABC1DE23"
@@ -451,17 +451,17 @@
 		{
 			dependencies: ["2A29DA4239E6BA44"]
 			description: [
-				"需要很多种氧化物"
+				"{gtlcore.quest.gtl.quest.437e5e4108228333.description.0000}"
 				""
-				"你可以用富集异氙增产拉多X"
+				"{gtlcore.quest.gtl.quest.437e5e4108228333.description.0002}"
 			]
 			icon: "gtceu:radox_bucket"
 			id: "437E5E4108228333"
-			subtitle: "有点混乱"
+			subtitle: "{gtlcore.quest.gtl.quest.437e5e4108228333.subtitle}"
 			tasks: [
 				{
 					id: "60C93B3E6EDB5E0B"
-					title: "拉多X"
+					title: "{gtlcore.quest.gtl.task.60c93b3e6edb5e0b.title}"
 					type: "checkmark"
 				}
 				{
@@ -481,15 +481,15 @@
 				"43CEF1808795ECAD"
 			]
 			description: [
-				"还可以优化如下产线（颜色代表电压阶段）："
-				"&e8/16级净化水 富勒烯聚合体基体末 塔兰&r"
-				"&1扩大化空间流体 拉多X气&r"
+				"{gtlcore.quest.gtl.quest.2a29da4239e6ba44.description.0000}"
+				"{gtlcore.quest.gtl.quest.2a29da4239e6ba44.description.0001}"
+				"{gtlcore.quest.gtl.quest.2a29da4239e6ba44.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "2A29DA4239E6BA44"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "很贵的机器"
+			subtitle: "{gtlcore.quest.gtl.quest.2a29da4239e6ba44.subtitle}"
 			tasks: [{
 				id: "08A25F44515BD5D7"
 				item: "gtceu:qft"
@@ -552,7 +552,7 @@
 				"1291AD37204E4960"
 				"38FFB6D2003C7EB4"
 			]
-			description: ["超因果系列仅建议使用这个电路"]
+			description: ["{gtlcore.quest.gtl.quest.32186eff7020d432.description.0000}"]
 			icon_scale: 2.0d
 			id: "32186EFF7020D432"
 			rewards: [{
@@ -563,7 +563,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "电路的顶点"
+			subtitle: "{gtlcore.quest.gtl.quest.32186eff7020d432.subtitle}"
 			tasks: [{
 				id: "27BE9064DAF5CCF3"
 				item: "kubejs:supracausal_mainframe"
@@ -634,15 +634,15 @@
 				"49ED5C32664DDF6C"
 			]
 			description: [
-				"不要看终极工作台的配方，你用不了"
+				"{gtlcore.quest.gtl.quest.00a227f06d7f109e.description.0000}"
 				""
-				"&cM&r&aA&r&9X&r&e超&r&5导&r&b体&r"
+				"{gtlcore.quest.gtl.quest.00a227f06d7f109e.description.0002}"
 			]
 			hide_dependency_lines: true
 			id: "00A227F06D7F109E"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "彩虹铁"
+			subtitle: "{gtlcore.quest.gtl.quest.00a227f06d7f109e.subtitle}"
 			tasks: [{
 				id: "4551291536D7C6FC"
 				item: "avaritia:infinity_ingot"
@@ -658,10 +658,10 @@
 				"06795792E774476F"
 				"2880531AF7540B24"
 			]
-			description: ["记得优化宇宙中子素，水晶矩阵，致密中子素的配方"]
+			description: ["{gtlcore.quest.gtl.quest.77a53faac098f859.description.0000}"]
 			icon_scale: 2.0d
 			id: "77A53FAAC098F859"
-			subtitle: "看超维度等离子锻炉的配方"
+			subtitle: "{gtlcore.quest.gtl.quest.77a53faac098f859.subtitle}"
 			tasks: [{
 				id: "4ED6698376CC0B5A"
 				item: "avaritia:infinity_catalyst"
@@ -676,8 +676,8 @@
 				"74186877DB7DBE4D"
 			]
 			description: [
-				"被&6高耐久等离子体容器&r弄的头疼？"
-				"也许你该试试&d库存ME样板总成&r"
+				"{gtlcore.quest.gtl.quest.5a61abb6e4917c6c.description.0000}"
+				"{gtlcore.quest.gtl.quest.5a61abb6e4917c6c.description.0001}"
 			]
 			hide_dependency_lines: true
 			id: "5A61ABB6E4917C6C"
@@ -691,9 +691,9 @@
 		}
 		{
 			dependencies: ["02401278940CE1F3"]
-			description: ["并没有包含整个周期表"]
+			description: ["{gtlcore.quest.gtl.quest.01ee0f4156f0578b.description.0000}"]
 			id: "01EE0F4156F0578B"
-			subtitle: "diāo jī biǎo"
+			subtitle: "{gtlcore.quest.gtl.quest.01ee0f4156f0578b.subtitle}"
 			tasks: [{
 				id: "1CF19DFA270D37F3"
 				item: "gtceu:periodicium_ingot"
@@ -719,7 +719,7 @@
 				"17F6AFC430A15CDA"
 				"6C1AB68CC57D8670"
 			]
-			description: ["需要&b橡胶片&r，希望你没拆掉之前的橡胶产线"]
+			description: ["{gtlcore.quest.gtl.quest.38ffb6d2003c7eb4.description.0000}"]
 			id: "38FFB6D2003C7EB4"
 			tasks: [{
 				id: "0B788414AD9CB8B4"
@@ -746,7 +746,7 @@
 		}
 		{
 			dependencies: ["43CEF1808795ECAD"]
-			description: ["&1OpV&r超导体"]
+			description: ["{gtlcore.quest.gtl.quest.375dd76caead2ce1.description.0000}"]
 			hide_dependency_lines: true
 			id: "375DD76CAEAD2CE1"
 			tasks: [{
@@ -774,13 +774,13 @@
 		}
 		{
 			dependencies: ["01EE0F4156F0578B"]
-			description: ["可以用来复制比较稀缺或者制取麻烦的元素和同位素"]
+			description: ["{gtlcore.quest.gtl.quest.46c33cc4a1420a10.description.0000}"]
 			icon_scale: 1.5d
 			id: "46C33CC4A1420A10"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "复制整个周期表和世界碎片"
+			subtitle: "{gtlcore.quest.gtl.quest.46c33cc4a1420a10.subtitle}"
 			tasks: [{
 				id: "3B815CD546D80CF0"
 				item: "gtceu:element_copying"
@@ -795,11 +795,11 @@
 				"6C6A3B91957A0B7B"
 				"17F6AFC430A15CDA"
 			]
-			description: ["最后的太空无人机，注意黑白矮星需要64个无人机进行采集"]
+			description: ["{gtlcore.quest.gtl.quest.760d2fa10e6907dd.description.0000}"]
 			hide_dependent_lines: true
 			id: "760D2FA10E6907DD"
 			shape: "pentagon"
-			subtitle: "黑白矮星(29/30)，星辉(32)"
+			subtitle: "{gtlcore.quest.gtl.quest.760d2fa10e6907dd.subtitle}"
 			tasks: [{
 				id: "002EC33D0813520C"
 				item: "kubejs:space_drone_mk6"
@@ -814,15 +814,15 @@
 				"64441B6414C20A57"
 			]
 			description: [
-				"质量发生器的激光版本"
+				"{gtlcore.quest.gtl.quest.6c84dcf091d31f16.description.0000}"
 				""
-				"只能使用&e泰坦钢线圈方块&r"
+				"{gtlcore.quest.gtl.quest.6c84dcf091d31f16.description.0002}"
 			]
 			icon_scale: 1.5d
 			id: "6C84DCF091D31F16"
 			optional: true
 			shape: "rsquare"
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.6c84dcf091d31f16.subtitle}"
 			tasks: [{
 				id: "03E32FDEE4E177BB"
 				item: "gtceu:a_mass_fabricator"
@@ -833,12 +833,12 @@
 		}
 		{
 			dependencies: ["4C667361F07F4243"]
-			description: ["在2阶的基础上升级，记得将&e装配线外壳&r更换为&b进阶装配线外壳&r"]
+			description: ["{gtlcore.quest.gtl.quest.6c1ab68cc57d8670.description.0000}"]
 			hide_dependent_lines: true
 			icon_scale: 1.5d
 			id: "6C1AB68CC57D8670"
 			shape: "rsquare"
-			subtitle: "需放入龙纳米蜂群"
+			subtitle: "{gtlcore.quest.gtl.quest.6c1ab68cc57d8670.subtitle}"
 			tasks: [{
 				id: "37C6A37E62975D44"
 				item: "gtceu:nano_forge_3"
@@ -853,13 +853,13 @@
 				"233C152024BACC4E"
 				"622395061792FB5E"
 			]
-			description: ["拥有无损超频，耗时倍数0.05"]
+			description: ["{gtlcore.quest.gtl.quest.1e220c2f02e65ffc.description.0000}"]
 			icon_scale: 1.5d
 			id: "1E220C2F02E65FFC"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.1e220c2f02e65ffc.subtitle}"
 			tasks: [{
 				id: "7AC30167CA6E2D12"
 				item: "gtceu:nano_core"
@@ -869,6 +869,6 @@
 			y: 4.0d
 		}
 	]
-	subtitle: ["Tier12-UXV"]
-	title: "极顶压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.23041c2cd2a7311b.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.23041c2cd2a7311b.title}"
 }

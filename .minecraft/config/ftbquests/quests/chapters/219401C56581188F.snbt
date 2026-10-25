@@ -29,12 +29,12 @@
 				"783379F3A7557CEE"
 			]
 			description: [
-				"使用一种特殊的仪式消耗能量来收集周围的魔力"
-				"这里的魔力相当于一种原材料"
+				"{gtlcore.quest.gtl.quest.22053b1292ee07c9.description.0000}"
+				"{gtlcore.quest.gtl.quest.22053b1292ee07c9.description.0001}"
 				""
-				"蜡烛可以先用石油制作黑色的，然后染色成品红色的"
+				"{gtlcore.quest.gtl.quest.22053b1292ee07c9.description.0003}"
 				""
-				"龙蛋可以用鸡蛋制作"
+				"{gtlcore.quest.gtl.quest.22053b1292ee07c9.description.0005}"
 			]
 			icon_scale: 1.3d
 			id: "22053B1292EE07C9"
@@ -62,15 +62,15 @@
 				"22053B1292EE07C9"
 			]
 			description: [
-				"强化深板岩挖掘后不会掉落，只能合成得到"
+				"{gtlcore.quest.gtl.quest.7523fb4aab1f89c3.description.0000}"
 				""
-				"破坏小帮手，魔能双生之镐（比世界崩解之镐的普通模式快），世界崩解之镐的范围模式，ME破坏面板均可快速破坏强化深板岩"
+				"{gtlcore.quest.gtl.quest.7523fb4aab1f89c3.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "7523FB4AAB1F89C3"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "该阶段的核心机器"
+			subtitle: "{gtlcore.quest.gtl.quest.7523fb4aab1f89c3.subtitle}"
 			tasks: [{
 				id: "244F8871BA1B7E34"
 				item: "gtceu:sps_crafting"
@@ -81,7 +81,7 @@
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
-			description: ["你需要64朵紫颂花"]
+			description: ["{gtlcore.quest.gtl.quest.34d6f0df329b1877.description.0000}"]
 			hide_dependent_lines: true
 			id: "34D6F0DF329B1877"
 			tasks: [{
@@ -127,7 +127,7 @@
 		}
 		{
 			dependencies: ["6DB1B7A9173E2C78"]
-			description: ["记得之前的艾萨线吗"]
+			description: ["{gtlcore.quest.gtl.quest.61b5cbfaace6010d.description.0000}"]
 			icon: "gtceu:naquadah_contain_rare_earth_dust"
 			id: "61B5CBFAACE6010D"
 			tasks: [
@@ -142,13 +142,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "含硅岩的稀土粉"
+			title: "{gtlcore.quest.gtl.quest.61b5cbfaace6010d.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["78350872B1ACF525"]
-			description: ["大型裂化机、热解炉和石化工厂的线圈加成到这就已经是最大值了"]
+			description: ["{gtlcore.quest.gtl.quest.1aa874c1351e4a0d.description.0000}"]
 			icon_scale: 2.0d
 			id: "1AA874C1351E4A0D"
 			rewards: [{
@@ -163,13 +163,13 @@
 				item: "kubejs:adamantine_coil_block"
 				type: "item"
 			}]
-			title: "精金线圈"
+			title: "{gtlcore.quest.gtl.quest.1aa874c1351e4a0d.title}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["792A351AAA2A4F2B"]
-			description: ["直接操纵里德堡原子的波函数来进行计算 "]
+			description: ["{gtlcore.quest.gtl.quest.48e77454d1cd87cd.description.0000}"]
 			icon_scale: 2.0d
 			id: "48E77454D1CD87CD"
 			tasks: [{
@@ -232,7 +232,7 @@
 		}
 		{
 			dependencies: ["7523FB4AAB1F89C3"]
-			description: ["需要一点石头粉做启动资金"]
+			description: ["{gtlcore.quest.gtl.quest.61f8c5aa6deb30d6.description.0000}"]
 			id: "61F8C5AA6DEB30D6"
 			tasks: [{
 				id: "78A6560A02FCD3E9"
@@ -262,9 +262,9 @@
 				"1AA874C1351E4A0D"
 			]
 			description: [
-				"记得升级动力模块MK4！"
+				"{gtlcore.quest.gtl.quest.6bb5ed6ecc43e30c.description.0000}"
 				""
-				"你还可以制作&6可配置重力无菌维护仓&r了"
+				"{gtlcore.quest.gtl.quest.6bb5ed6ecc43e30c.description.0002}"
 			]
 			id: "6BB5ED6ECC43E30C"
 			tasks: [{
@@ -278,9 +278,9 @@
 		{
 			dependencies: ["3968C254B6AC9B9D"]
 			description: [
-				"比较长的产线"
+				"{gtlcore.quest.gtl.quest.4f0f175acff363f0.description.0000}"
 				""
-				"会有很多副产物，其中最有价值的是&6铊粉&r（氧化残留溶液-重氧化残渣粉-重金属残渣粉-重顺磁残渣粉）"
+				"{gtlcore.quest.gtl.quest.4f0f175acff363f0.description.0002}"
 			]
 			icon: "gtceu:metal_residue_dust"
 			id: "4F0F175ACFF363F0"
@@ -288,7 +288,7 @@
 				id: "49024352D46F755A"
 				type: "checkmark"
 			}]
-			title: "金属残渣"
+			title: "{gtlcore.quest.gtl.quest.4f0f175acff363f0.title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -297,9 +297,9 @@
 				"7523FB4AAB1F89C3"
 				"34D6F0DF329B1877"
 			]
-			description: ["&2UIV&r超导体"]
+			description: ["{gtlcore.quest.gtl.quest.2641cc6bc33f6a31.description.0000}"]
 			id: "2641CC6BC33F6A31"
-			subtitle: "很坚硬"
+			subtitle: "{gtlcore.quest.gtl.quest.2641cc6bc33f6a31.subtitle}"
 			tasks: [{
 				id: "2F9E606799202DC9"
 				item: "gtceu:echoite_ingot"
@@ -311,9 +311,9 @@
 		{
 			dependencies: ["075D368E91231337"]
 			description: [
-				"可以使用催发体循环，但是效率不如右边的那个"
+				"{gtlcore.quest.gtl.quest.42a3f72d88e25018.description.0000}"
 				""
-				"古城只会固定在y=-52的深暗之域生成，深暗之域通常会在地势较高的生物群系的地下生成（比如积雪山坡和风蚀恶地）"
+				"{gtlcore.quest.gtl.quest.42a3f72d88e25018.description.0002}"
 			]
 			icon: "minecraft:echo_shard"
 			id: "42A3F72D88E25018"
@@ -345,7 +345,7 @@
 				"4EA64DC5DA2F0F8C"
 			]
 			id: "1F5B121C6647E2CA"
-			subtitle: "需要8级净化水"
+			subtitle: "{gtlcore.quest.gtl.quest.1f5b121c6647e2ca.subtitle}"
 			tasks: [{
 				id: "02C4C3897AB62269"
 				item: "kubejs:exotic_chip"
@@ -406,13 +406,13 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["超临界合成机的激光版本，同时可以安装并行控制仓"]
+			description: ["{gtlcore.quest.gtl.quest.33390417e8a0ab88.description.0000}"]
 			icon_scale: 2.0d
 			id: "33390417E8A0AB88"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.33390417e8a0ab88.subtitle}"
 			tasks: [{
 				id: "7AB2A11AD97054E2"
 				item: "gtceu:advanced_sps_crafting"
@@ -426,10 +426,10 @@
 				"77BE1524AABF6003"
 				"78F0147BABE80DDD"
 			]
-			description: ["你可以用魔金等离子制作，也可以用超临界合成机制作"]
+			description: ["{gtlcore.quest.gtl.quest.369dcd1e26334632.description.0000}"]
 			hide_dependent_lines: true
 			id: "369DCD1E26334632"
-			subtitle: "UIV部件材料"
+			subtitle: "{gtlcore.quest.gtl.quest.369dcd1e26334632.subtitle}"
 			tasks: [{
 				id: "1758AC8CF4E9EC2B"
 				item: "gtceu:attuned_tengam_ingot"
@@ -445,7 +445,7 @@
 			]
 			hide_dependent_lines: true
 			id: "348787ECA57EA11C"
-			subtitle: "有点复杂"
+			subtitle: "{gtlcore.quest.gtl.quest.348787eca57ea11c.subtitle}"
 			tasks: [{
 				id: "1C064C1F74BB23C2"
 				item: "gtceu:fullerene_polymer_matrix_pulp_dust"
@@ -456,10 +456,10 @@
 		}
 		{
 			dependencies: ["42A3F72D88E25018"]
-			description: ["培养缸中使用幽匿脉络高效率生产回响"]
+			description: ["{gtlcore.quest.gtl.quest.127b8396034c0f34.description.0000}"]
 			icon: "minecraft:sculk_vein"
 			id: "127B8396034C0F34"
-			subtitle: "更加高效"
+			subtitle: "{gtlcore.quest.gtl.quest.127b8396034c0f34.subtitle}"
 			tasks: [
 				{
 					id: "669890BC5869D144"
@@ -477,7 +477,7 @@
 					type: "item"
 				}
 			]
-			title: "幽匿循环"
+			title: "{gtlcore.quest.gtl.quest.127b8396034c0f34.title}"
 			x: 11.0d
 			y: -3.0d
 		}
@@ -515,15 +515,15 @@
 				"369DCD1E26334632"
 			]
 			description: [
-				"最多可装载32个能源仓"
+				"{gtlcore.quest.gtl.quest.30c1d7defb3b18bd.description.0000}"
 				""
-				"只能使用&eULV输入总线&r"
+				"{gtlcore.quest.gtl.quest.30c1d7defb3b18bd.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "30C1D7DEFB3B18BD"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "装配线，但是没有流体输入"
+			subtitle: "{gtlcore.quest.gtl.quest.30c1d7defb3b18bd.subtitle}"
 			tasks: [{
 				id: "185FF9B96D2E6DA0"
 				item: "gtceu:aggregation_device"
@@ -534,7 +534,7 @@
 		}
 		{
 			dependencies: ["2E05225ADF4D7D31"]
-			description: ["可以通过注入龙力的黑曜石循环增产"]
+			description: ["{gtlcore.quest.gtl.quest.192b626cf217fdbc.description.0000}"]
 			hide_dependent_lines: true
 			id: "192B626CF217FDBC"
 			tasks: [{
@@ -548,9 +548,9 @@
 		{
 			dependencies: ["7370721CB75472C1"]
 			description: [
-				"你现在只能使用小堆粉进行磁化"
+				"{gtlcore.quest.gtl.quest.77be1524aabf6003.description.0000}"
 				""
-				"电磁选矿洁净碧玉粉获得生镃粉"
+				"{gtlcore.quest.gtl.quest.77be1524aabf6003.description.0002}"
 			]
 			id: "77BE1524AABF6003"
 			tasks: [{
@@ -577,11 +577,11 @@
 			hide_dependency_lines: true
 			icon: "gtceu:euv_photoresist_bucket"
 			id: "606C81F449ABCE5B"
-			subtitle: "有点复杂"
+			subtitle: "{gtlcore.quest.gtl.quest.606c81f449abce5b.subtitle}"
 			tasks: [
 				{
 					id: "011EBE67C0D8E442"
-					title: "EUV光刻胶"
+					title: "{gtlcore.quest.gtl.task.011ebe67c0d8e442.title}"
 					type: "checkmark"
 				}
 				{
@@ -596,13 +596,13 @@
 		}
 		{
 			dependencies: ["7C23CC6ADDC33EA0"]
-			description: ["丁烷可以循环利用"]
+			description: ["{gtlcore.quest.gtl.quest.281b6c20538a3cba.description.0000}"]
 			icon: "gtceu:californium_cyclopentadienide_bucket"
 			id: "281B6C20538A3CBA"
 			tasks: [
 				{
 					id: "0B10159A50C58ACF"
-					title: "环戊二烯化锎"
+					title: "{gtlcore.quest.gtl.task.0b10159a50c58acf.title}"
 					type: "checkmark"
 				}
 				{
@@ -621,20 +621,20 @@
 				"7523FB4AAB1F89C3"
 			]
 			description: [
-				"更换高级电路主机和升级更高电压等级的能源仓以获得更高的算力"
+				"{gtlcore.quest.gtl.quest.181a1b6f5ad15f52.description.0000}"
 				""
-				"自带桥接功能"
+				"{gtlcore.quest.gtl.quest.181a1b6f5ad15f52.description.0002}"
 				""
-				"电路主机可以像无人机一样共用"
+				"{gtlcore.quest.gtl.quest.181a1b6f5ad15f52.description.0004}"
 				""
-				"复制小帮手也可以复制流体"
+				"{gtlcore.quest.gtl.quest.181a1b6f5ad15f52.description.0006}"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "181A1B6F5AD15F52"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "不用堆大量计算机了"
+			subtitle: "{gtlcore.quest.gtl.quest.181a1b6f5ad15f52.subtitle}"
 			tasks: [{
 				id: "5EBD9582ED477D88"
 				item: "gtceu:super_computation"
@@ -645,7 +645,7 @@
 		}
 		{
 			dependencies: ["6BB5ED6ECC43E30C"]
-			description: ["最后的常规单晶硅"]
+			description: ["{gtlcore.quest.gtl.quest.678e707f85cd2071.description.0000}"]
 			icon_scale: 2.0d
 			id: "678E707F85CD2071"
 			size: 1.0d
@@ -662,7 +662,7 @@
 				"713FF88279AD9A31"
 				"32A49A2CBFC934C8"
 			]
-			description: ["绝对干净"]
+			description: ["{gtlcore.quest.gtl.quest.67d93082da7185cc.description.0000}"]
 			hide_dependency_lines: true
 			icon: "gtlcore:law_filter_casing"
 			icon_scale: 2.0d
@@ -697,7 +697,7 @@
 		}
 		{
 			dependencies: ["59CA7B4A4A417B53"]
-			description: ["高性能纤维"]
+			description: ["{gtlcore.quest.gtl.quest.68fbe0346d15916b.description.0000}"]
 			id: "68FBE0346D15916B"
 			tasks: [{
 				id: "296E4F77EC25E3C2"
@@ -740,14 +740,14 @@
 				"63F90FA0F85804B8"
 				"61F8C5AA6DEB30D6"
 			]
-			description: ["成型面板的放置速度比主动成型面板快"]
+			description: ["{gtlcore.quest.gtl.quest.3968c254b6ac9b9d.description.0000}"]
 			hide_dependent_lines: true
 			icon: "gtceu:bedrock_drilling_rig"
 			icon_scale: 2.0d
 			id: "3968C254B6AC9B9D"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "高效率生产基岩粉"
+			subtitle: "{gtlcore.quest.gtl.quest.3968c254b6ac9b9d.subtitle}"
 			tasks: [{
 				id: "0F05C8DA47EB7768"
 				item: "gtceu:bedrock_drilling_rig"
@@ -775,7 +775,7 @@
 		}
 		{
 			dependencies: ["588C2C0BED069F41"]
-			description: ["最后的聚变"]
+			description: ["{gtlcore.quest.gtl.quest.0ed237b0ce3ddf59.description.0000}"]
 			icon_scale: 1.3d
 			id: "0ED237B0CE3DDF59"
 			shape: "hexagon"
@@ -794,12 +794,12 @@
 				"192B626CF217FDBC"
 				"369DCD1E26334632"
 			]
-			description: ["还可以优化旧的燃料产线"]
+			description: ["{gtlcore.quest.gtl.quest.3a89c534a7ae9e33.description.0000}"]
 			icon_scale: 2.0d
 			id: "3A89C534A7AE9E33"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "燃料工厂"
+			subtitle: "{gtlcore.quest.gtl.quest.3a89c534a7ae9e33.subtitle}"
 			tasks: [{
 				id: "0AC875BF67775760"
 				item: "gtceu:atomic_energy_excitation_plant"
@@ -811,24 +811,24 @@
 		{
 			dependencies: ["63F90FA0F85804B8"]
 			description: [
-				"这台机器的耗能有点大，建议上大点的激光仓"
+				"{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.description.0000}"
 				""
-				"流体抽取范围为以主机所在区块为中心的5x5区块范围，如果包含不同流体则都会抽取"
+				"{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.description.0002}"
 				""
-				"当温度超过临界值后钻头并不会立刻融毁，且损坏值在温度降到临界值以下后会清零"
+				"{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.description.0004}"
 				""
-				"线圈提供的温度为临界值/最高效率温度"
+				"{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.description.0006}"
 				""
-				"高速模式用于快速提升温度，并不会影响最终效率"
+				"{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.description.0008}"
 				""
-				"温度传感器的安装/替换位置位于主机正下方的超能核心"
+				"{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.description.0010}"
 			]
 			icon: "gtceu:advanced_infinite_driller"
 			icon_scale: 2.0d
 			id: "6AAC6E7C8721EBD7"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.6aac6e7c8721ebd7.subtitle}"
 			tasks: [
 				{
 					id: "41DA2385E5010CB7"
@@ -858,7 +858,7 @@
 		}
 		{
 			dependencies: ["31AA3CEE0C967212"]
-			description: ["常规线圈并行数超过超维度蒸汽熔炉"]
+			description: ["{gtlcore.quest.gtl.quest.35c982d71c6154fa.description.0000}"]
 			icon_scale: 2.0d
 			id: "35C982D71C6154FA"
 			rewards: [{
@@ -873,7 +873,7 @@
 				item: "kubejs:naquadriatictaranium_coil_block"
 				type: "item"
 			}]
-			title: "超能硅岩-塔兰线圈"
+			title: "{gtlcore.quest.gtl.quest.35c982d71c6154fa.title}"
 			x: 13.0d
 			y: 5.0d
 		}
@@ -883,15 +883,15 @@
 				"369DCD1E26334632"
 			]
 			description: [
-				"小OP的激光版本，自带&d21亿跨配方并行&r，非常强力"
+				"{gtlcore.quest.gtl.quest.0991031579c4caa7.description.0000}"
 				""
-				"注意你的蒸馏水储量"
+				"{gtlcore.quest.gtl.quest.0991031579c4caa7.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "0991031579C4CAA7"
 			optional: true
 			shape: "rsquare"
-			subtitle: "大OP"
+			subtitle: "{gtlcore.quest.gtl.quest.0991031579c4caa7.subtitle}"
 			tasks: [{
 				id: "335FA9C6613E28F5"
 				item: "gtceu:advanced_integrated_ore_processor"
@@ -908,11 +908,11 @@
 				"588C2C0BED069F41"
 				"369DCD1E26334632"
 			]
-			description: ["别把山铜秘银的聚变配方扔了，后面有用"]
+			description: ["{gtlcore.quest.gtl.quest.670d8eb2ce915fd5.description.0000}"]
 			hide_dependent_lines: true
 			id: "670D8EB2CE915FD5"
 			shape: "pentagon"
-			subtitle: "精金化合物(28)，稀土金属(28)， 地火混沌魔晶(29)，山铜(29)，秘银(29)"
+			subtitle: "{gtlcore.quest.gtl.quest.670d8eb2ce915fd5.subtitle}"
 			tasks: [{
 				id: "293848195AF04862"
 				item: "kubejs:space_drone_mk4"
@@ -923,13 +923,13 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["流体加热器的激光版本，使用温度并行机制，温度每提升900K，并行数×2，拥有跨配方并行"]
+			description: ["{gtlcore.quest.gtl.quest.3f99f904b7b94324.description.0000}"]
 			icon_scale: 2.0d
 			id: "3F99F904B7B94324"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "热得快"
+			subtitle: "{gtlcore.quest.gtl.quest.3f99f904b7b94324.subtitle}"
 			tasks: [{
 				id: "2AC154F76B64844E"
 				item: "gtceu:mega_fluid_heater"
@@ -946,12 +946,12 @@
 				"2E05225ADF4D7D31"
 				"4059A907154E2865"
 			]
-			description: ["拥有72格槽位"]
+			description: ["{gtlcore.quest.gtl.quest.421a0242817f164c.description.0000}"]
 			icon_scale: 1.5d
 			id: "421A0242817F164C"
 			optional: true
 			shape: "rsquare"
-			subtitle: "更进一步"
+			subtitle: "{gtlcore.quest.gtl.quest.421a0242817f164c.subtitle}"
 			tasks: [{
 				id: "05A4D8FFF0B087D3"
 				item: "gtceu:me_final_pattern_buffer"
@@ -962,12 +962,12 @@
 		}
 		{
 			dependencies: ["39F73A63746EE6E8"]
-			description: ["稀土离心机的激光版本"]
+			description: ["{gtlcore.quest.gtl.quest.4eed4298235ab11f.description.0000}"]
 			icon_scale: 2.0d
 			id: "4EED4298235AB11F"
 			optional: true
 			shape: "rsquare"
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.4eed4298235ab11f.subtitle}"
 			tasks: [{
 				id: "188C66643FA0075F"
 				item: "gtceu:advanced_rare_earth_centrifugal"
@@ -998,7 +998,7 @@
 				"783379F3A7557CEE"
 				"369DCD1E26334632"
 			]
-			description: ["你现在可以直接磁化谐镃粉了"]
+			description: ["{gtlcore.quest.gtl.quest.31aa3cee0c967212.description.0000}"]
 			hide_dependency_lines: true
 			id: "31AA3CEE0C967212"
 			tasks: [{
@@ -1018,7 +1018,7 @@
 				elevate_perms: true
 				icon: "minecraft:warden_spawn_egg"
 				id: "38C944D8B95E71FE"
-				title: "快速定位古城"
+				title: "{gtlcore.quest.gtl.reward.38c944d8b95e71fe.title}"
 				type: "command"
 			}]
 			size: 0.5d
@@ -1026,7 +1026,7 @@
 				id: "6A524513170EB8B1"
 				type: "checkmark"
 			}]
-			title: "如果你懒得跑图"
+			title: "{gtlcore.quest.gtl.quest.788621675279ac20.title}"
 			x: 10.0d
 			y: -3.25d
 		}
@@ -1037,16 +1037,16 @@
 				"26607B94D873E07A"
 			]
 			description: [
-				"培养缸，酿造室和发酵槽的激光版本，拥有无损超频"
+				"{gtlcore.quest.gtl.quest.1840382adb062735.description.0000}"
 				""
-				"只能使用&e除菌过滤器机械方块"
+				"{gtlcore.quest.gtl.quest.1840382adb062735.description.0002}"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1840382ADB062735"
 			optional: true
 			shape: "rsquare"
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.1840382adb062735.subtitle}"
 			tasks: [{
 				id: "50B72C92EADBD68B"
 				item: "gtceu:huge_incubator"
@@ -1062,7 +1062,7 @@
 				"2858C1A89BAF2624"
 				"281B6C20538A3CBA"
 			]
-			description: ["将库存ME样板总成和通配符ME样板总成结合在一起的产物"]
+			description: ["{gtlcore.quest.gtl.quest.1ac3ce494e4734bc.description.0000}"]
 			hide_dependency_lines: true
 			icon_scale: 1.5d
 			id: "1AC3CE494E4734BC"
@@ -1077,6 +1077,6 @@
 			y: -4.0d
 		}
 	]
-	subtitle: ["Tier10-UEV"]
-	title: "极超压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.219401c56581188f.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.219401c56581188f.title}"
 }

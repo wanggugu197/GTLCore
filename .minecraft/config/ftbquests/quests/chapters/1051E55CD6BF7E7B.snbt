@@ -25,7 +25,7 @@
 				}
 			}
 			id: "67A81E3F7E247521"
-			subtitle: "借助了命令方块的力量"
+			subtitle: "{gtlcore.quest.gtl.quest.67a81e3f7e247521.subtitle}"
 			tasks: [
 				{
 					id: "15D75BB0BB713D68"
@@ -72,40 +72,40 @@
 					type: "item"
 				}
 			]
-			title: "星体套"
+			title: "{gtlcore.quest.gtl.quest.67a81e3f7e247521.title}"
 			x: 5.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["67A81E3F7E247521"]
 			description: [
-				"穿戴&d星体套&r进入&6正常工作的创造之门&r中的&b紫色粒子团&r以进入创造维度"
+				"{gtlcore.quest.gtl.quest.1416eae88c9030c8.description.0000}"
 				""
-				"若在创造维度脱下星体套或不穿星体套直接传送进入创造维度，你会先被踢出创造维度然后受到一次来自/kill的即死伤害"
+				"{gtlcore.quest.gtl.quest.1416eae88c9030c8.description.0002}"
 			]
 			id: "1416EAE88C9030C8"
-			subtitle: "未知之地"
+			subtitle: "{gtlcore.quest.gtl.quest.1416eae88c9030c8.subtitle}"
 			tasks: [{
 				dimension: "kubejs:create"
 				id: "533527A60F7C2024"
-				title: "访问创造维度"
+				title: "{gtlcore.quest.gtl.task.533527a60f7c2024.title}"
 				type: "dimension"
 			}]
-			title: "前往创造维度"
+			title: "{gtlcore.quest.gtl.quest.1416eae88c9030c8.title}"
 			x: 7.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["296DE95F3BE7DC54"]
 			description: [
-				"把&m蓝框岩浆&r磁流体约束恒星物质块扔进正常工作的创造之门的粒子效果里转换获得"
+				"{gtlcore.quest.gtl.quest.470ddccd8e017a4f.description.0000}"
 				""
-				"磁物质块则是扔64个磁物质锭&m虽然磁物质块没啥用&r"
+				"{gtlcore.quest.gtl.quest.470ddccd8e017a4f.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "470DDCCD8E017A4F"
 			shape: "rsquare"
-			subtitle: "交易获得的物品，但不知道如何使用"
+			subtitle: "{gtlcore.quest.gtl.quest.470ddccd8e017a4f.subtitle}"
 			tasks: [{
 				id: "6C1581BB60019E84"
 				item: "minecraft:command_block"
@@ -117,7 +117,7 @@
 		{
 			dependencies: ["2C3C46AC660CC54E"]
 			id: "5AFEAD001EDA612D"
-			subtitle: "包含多维空间的所有能量"
+			subtitle: "{gtlcore.quest.gtl.quest.5afead001eda612d.subtitle}"
 			tasks: [{
 				id: "318A4B7F9925680F"
 				item: "kubejs:create_ultimate_battery"
@@ -133,7 +133,7 @@
 				"4CF8E0618D65DD65"
 			]
 			id: "1EB9F1815EB656B0"
-			subtitle: "二维展开"
+			subtitle: "{gtlcore.quest.gtl.quest.1eb9f1815eb656b0.subtitle}"
 			tasks: [{
 				id: "453883277EF4A1B6"
 				item: "kubejs:two_way_foil"
@@ -147,9 +147,9 @@
 				"470DDCCD8E017A4F"
 				"1EB9F1815EB656B0"
 			]
-			description: ["合成材料里还有&b二向箔&r"]
+			description: ["{gtlcore.quest.gtl.quest.48925ecbcc5d268d.description.0000}"]
 			id: "48925ECBCC5D268D"
-			subtitle: "打破命令方块后获得的物品"
+			subtitle: "{gtlcore.quest.gtl.quest.48925ecbcc5d268d.subtitle}"
 			tasks: [{
 				id: "3DFC2C88970DA844"
 				item: "kubejs:command_block_core"
@@ -161,13 +161,13 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
-				"主手手持命令权杖，副手手持命令方块可以将命令方块放置在创造稳定核心上"
+				"{gtlcore.quest.gtl.quest.34db07a64cd1439c.description.0000}"
 				""
-				"手持命令权杖潜行右键来打破命令方块"
+				"{gtlcore.quest.gtl.quest.34db07a64cd1439c.description.0002}"
 			]
 			hide_dependent_lines: true
 			id: "34DB07A64CD1439C"
-			subtitle: "你可以放下和打破命令方块了，但还是不知道如何使用"
+			subtitle: "{gtlcore.quest.gtl.quest.34db07a64cd1439c.subtitle}"
 			tasks: [{
 				id: "7BD60E6DCA58004A"
 				item: "kubejs:command_wand"
@@ -179,7 +179,7 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			id: "338F629A694C7556"
-			subtitle: "有点慢"
+			subtitle: "{gtlcore.quest.gtl.quest.338f629a694c7556.subtitle}"
 			tasks: [{
 				id: "16C8AA0E8A7E6784"
 				item: "gtlcore:create_casing"
@@ -197,7 +197,7 @@
 			icon_scale: 2.0d
 			id: "7C4AD33299386B47"
 			shape: "rsquare"
-			subtitle: "操纵引力实现聚爆"
+			subtitle: "{gtlcore.quest.gtl.quest.7c4ad33299386b47.subtitle}"
 			tasks: [{
 				id: "29CE180A8857179D"
 				item: "gtceu:gravitation_shockburst"
@@ -221,18 +221,18 @@
 		{
 			dependencies: ["48925ECBCC5D268D"]
 			description: [
-				"至少需要&e64&r&cA&r &cM&r&aA&r&9X&r供能"
+				"{gtlcore.quest.gtl.quest.30907d7231913acb.description.0000}"
 				""
-				"自带桥接功能，如果接入网络交换机，请确保网络交换机只有创造计算机的输入，否则网络交换机不会工作"
+				"{gtlcore.quest.gtl.quest.30907d7231913acb.description.0002}"
 				""
-				"小提示：无线算力仓室并不能跨维度传输算力"
+				"{gtlcore.quest.gtl.quest.30907d7231913acb.description.0004}"
 				""
-				"&m不会有人到现在都不知道分子装配室可以运行锻造台配方吧&r"
+				"{gtlcore.quest.gtl.quest.30907d7231913acb.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "30907D7231913ACB"
 			shape: "rsquare"
-			subtitle: "无穷的算力"
+			subtitle: "{gtlcore.quest.gtl.quest.30907d7231913acb.subtitle}"
 			tasks: [{
 				id: "46A19A3E3D3CF4A9"
 				item: "gtceu:create_computation"
@@ -259,18 +259,18 @@
 				"30907D7231913ACB"
 			]
 			description: [
-				"耗能固定为16A MAX"
+				"{gtlcore.quest.gtl.quest.2f9392ef05db11ef.description.0000}"
 				""
-				"需要&b用输入总线输入一号电路&r"
+				"{gtlcore.quest.gtl.quest.2f9392ef05db11ef.description.0002}"
 				""
-				"有点像方块转换室，在&6创造稳定核心&r之间放置&b即将打破的命令方块&r，然后在&6输入总线&r放入&b命令方块核心&r以进行转换"
+				"{gtlcore.quest.gtl.quest.2f9392ef05db11ef.description.0004}"
 				""
-				"建议先放置命令方块然后再放入核心，否则可能会吞核心"
+				"{gtlcore.quest.gtl.quest.2f9392ef05db11ef.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "2F9392EF05DB11EF"
 			shape: "rsquare"
-			subtitle: "只能在创造维度工作"
+			subtitle: "{gtlcore.quest.gtl.quest.2f9392ef05db11ef.subtitle}"
 			tasks: [{
 				id: "7AB830407E68C7F1"
 				item: "gtceu:create_aggregation"
@@ -346,12 +346,12 @@
 		}
 		{
 			dependencies: ["75CE99CD1614FB64"]
-			description: ["放入数据库中以获得所有研究数据"]
+			description: ["{gtlcore.quest.gtl.quest.31b4b834d5dd87db.description.0000}"]
 			icon_scale: 2.0d
 			id: "31B4B834D5DD87DB"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "毕业了"
+			subtitle: "{gtlcore.quest.gtl.quest.31b4b834d5dd87db.subtitle}"
 			tasks: [{
 				id: "6D68D65E443AE5FE"
 				item: "gtceu:creative_data_access_hatch"
@@ -366,19 +366,19 @@
 				"2D1F2793A396B322"
 			]
 			description: [
-				"{ \"text\": \"两种创造电源都可以放入有源变压器中以让无线电网获得无穷的电力\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3B18900343C2F4E3\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3B18900343C2F4E3\"},\"translate\":\"gtlcore.quest.gtl.quest.5f145d9019c4bc48.description.0000.text.0000\"}"
 				""
-				"还可以将创造电源放入机器中，使机器获得远超于4194304A MAX的功率，最高可达&cM&r&aA&r&9X&r&e+&r&c16&r"
+				"{gtlcore.quest.gtl.quest.5f145d9019c4bc48.description.0002}"
 				""
-				"创造电源放置时功率默认设置为&cM&r&aA&r&9X&r&e+&r&c16&r"
+				"{gtlcore.quest.gtl.quest.5f145d9019c4bc48.description.0004}"
 				""
-				"创造模式能源仓可以被多方块结构共用，创造模式激光靶仓则不能"
+				"{gtlcore.quest.gtl.quest.5f145d9019c4bc48.description.0006}"
 			]
 			icon_scale: 2.0d
 			id: "5F145D9019C4BC48"
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "毕业了"
+			subtitle: "{gtlcore.quest.gtl.quest.5f145d9019c4bc48.subtitle}"
 			tasks: [
 				{
 					id: "02CCDE9B8302A71A"
@@ -391,7 +391,7 @@
 					type: "item"
 				}
 			]
-			title: "创造模式电源"
+			title: "{gtlcore.quest.gtl.quest.5f145d9019c4bc48.title}"
 			x: 13.0d
 			y: 3.5d
 		}
@@ -400,7 +400,7 @@
 				"5F145D9019C4BC48"
 				"31B4B834D5DD87DB"
 			]
-			description: ["你看着它好像看到了好多个银河年前泛银河格雷科技销售部货架上的那个大胡子玩偶"]
+			description: ["{gtlcore.quest.gtl.quest.516498830339a0a9.description.0000}"]
 			id: "516498830339A0A9"
 			rewards: [{
 				id: "561786F8A1EF94F6"
@@ -409,26 +409,26 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "附加题"
+			subtitle: "{gtlcore.quest.gtl.quest.516498830339a0a9.subtitle}"
 			tasks: [{
 				id: "74404EE9AEC393D4"
 				item: "expatternprovider:fishbig"
 				type: "item"
 			}]
-			title: "我会永远陪着你的"
+			title: "{gtlcore.quest.gtl.quest.516498830339a0a9.title}"
 			x: 15.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["516498830339A0A9"]
 			description: [
-				"恭喜你完成了这个游戏，感谢你的游玩。"
+				"{gtlcore.quest.gtl.quest.503a37c31e60684b.description.0000}"
 				""
-				"据说真正到达这里的人寥寥无几。"
+				"{gtlcore.quest.gtl.quest.503a37c31e60684b.description.0002}"
 				"{@pagebreak}"
-				"其实还有其他手段获得茶和棉花糖，也是和鱼大有关"
+				"{gtlcore.quest.gtl.quest.503a37c31e60684b.description.0004}"
 				"{@pagebreak}"
-				"有传言称创造储罐和创造箱子是鱼大吃饱喝足后随手制作的"
+				"{gtlcore.quest.gtl.quest.503a37c31e60684b.description.0006}"
 			]
 			hide_dependency_lines: true
 			icon: "gtlcore:ultimate_tea"
@@ -447,13 +447,13 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "休息一下吧"
+			subtitle: "{gtlcore.quest.gtl.quest.503a37c31e60684b.subtitle}"
 			tasks: [{
 				id: "334CC982B1A39C03"
 				item: "expatternprovider:fishbig"
 				type: "item"
 			}]
-			title: "终于，结束了"
+			title: "{gtlcore.quest.gtl.quest.503a37c31e60684b.title}"
 			x: 17.5d
 			y: 2.5d
 		}
@@ -483,6 +483,6 @@
 			y: -0.5d
 		}
 	]
-	subtitle: ["Tier14-MAX"]
-	title: "上限压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.1051e55cd6bf7e7b.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.1051e55cd6bf7e7b.title}"
 }

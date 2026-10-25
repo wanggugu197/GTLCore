@@ -195,7 +195,7 @@
 			id: "0BFF08842D22B72C"
 			tasks: [{
 				id: "327415F83D02B65E"
-				title: "打好根基才能健步如飞"
+				title: "{gtlcore.quest.gtl.task.327415f83d02b65e.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -206,7 +206,7 @@
 			id: "68765386EA084EC0"
 			tasks: [{
 				id: "3F8107D325CEA1B4"
-				title: "一开始你只能手挖，之后有很多机器"
+				title: "{gtlcore.quest.gtl.task.3f8107d325cea1b4.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -217,7 +217,7 @@
 				"68765386EA084EC0"
 				"40C39645B1DE2488"
 			]
-			description: ["自动挖掘矿物"]
+			description: ["{gtlcore.quest.gtl.quest.6693a00751424e19.description.0000}"]
 			id: "6693A00751424E19"
 			optional: true
 			tasks: [
@@ -245,7 +245,7 @@
 				"411628D717089480"
 				"4DDFAAF4A8E0622A"
 			]
-			description: ["从虚空中挖掘矿物"]
+			description: ["{gtlcore.quest.gtl.quest.1999b90b73bab11f.description.0000}"]
 			id: "1999B90B73BAB11F"
 			optional: true
 			tasks: [{
@@ -261,7 +261,7 @@
 				"68765386EA084EC0"
 				"51B9A72C19F84F0E"
 			]
-			description: ["抽取流体"]
+			description: ["{gtlcore.quest.gtl.quest.1e1e0437e8e241ab.description.0000}"]
 			id: "1E1E0437E8E241AB"
 			optional: true
 			tasks: [
@@ -286,7 +286,7 @@
 					type: "item"
 				}
 			]
-			title: "泵"
+			title: "{gtlcore.quest.gtl.quest.1e1e0437e8e241ab.title}"
 			x: 3.0d
 			y: 0.0d
 		}
@@ -295,7 +295,7 @@
 				"68765386EA084EC0"
 				"7296C57805F5DC96"
 			]
-			description: ["从基岩之下抽取流体"]
+			description: ["{gtlcore.quest.gtl.quest.1809019dac0e3c2a.description.0000}"]
 			id: "1809019DAC0E3C2A"
 			optional: true
 			tasks: [
@@ -315,7 +315,7 @@
 					type: "item"
 				}
 			]
-			title: "流体钻机"
+			title: "{gtlcore.quest.gtl.quest.1809019dac0e3c2a.title}"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -324,7 +324,7 @@
 				"1809019DAC0E3C2A"
 				"52DF531AFB3A07CE"
 			]
-			description: ["从虚空中抽取流体"]
+			description: ["{gtlcore.quest.gtl.quest.7fc5f639f89c2c22.description.0000}"]
 			id: "7FC5F639F89C2C22"
 			optional: true
 			tasks: [{
@@ -340,7 +340,7 @@
 				"1809019DAC0E3C2A"
 				"035C470213E8B4DB"
 			]
-			description: ["从基岩之下抽取流体"]
+			description: ["{gtlcore.quest.gtl.quest.1d4903b520e37bfe.description.0000}"]
 			id: "1D4903B520E37BFE"
 			optional: true
 			tasks: [{
@@ -356,7 +356,7 @@
 				"1E7344C133C99565"
 				"411628D717089480"
 			]
-			description: ["大面积自动挖掘矿物"]
+			description: ["{gtlcore.quest.gtl.quest.74d0577ca2f540f1.description.0000}"]
 			id: "74D0577CA2F540F1"
 			optional: true
 			tasks: [
@@ -376,7 +376,7 @@
 					type: "item"
 				}
 			]
-			title: "大型采矿机"
+			title: "{gtlcore.quest.gtl.quest.74d0577ca2f540f1.title}"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -386,7 +386,7 @@
 				"233CA36D529EC3FB"
 				"1999B90B73BAB11F"
 			]
-			description: ["从虚空中挖掘矿物"]
+			description: ["{gtlcore.quest.gtl.quest.214b86b97ed9c962.description.0000}"]
 			id: "214B86B97ED9C962"
 			optional: true
 			tasks: [{
@@ -403,7 +403,7 @@
 				"68765386EA084EC0"
 				"7296C57805F5DC96"
 			]
-			description: ["高效作物种植"]
+			description: ["{gtlcore.quest.gtl.quest.17c967508ddcbb87.description.0000}"]
 			id: "17C967508DDCBB87"
 			optional: true
 			tasks: [
@@ -426,7 +426,7 @@
 				"68765386EA084EC0"
 				"1A48D2DB936FF632"
 			]
-			description: ["高效钓鱼机"]
+			description: ["{gtlcore.quest.gtl.quest.04a1d335d69e9779.description.0000}"]
 			id: "04A1D335D69E9779"
 			optional: true
 			tasks: [{
@@ -442,7 +442,7 @@
 				"68765386EA084EC0"
 				"51B9A72C19F84F0E"
 			]
-			description: ["高效自动刷怪塔"]
+			description: ["{gtlcore.quest.gtl.quest.57886739347d6809.description.0000}"]
 			id: "57886739347D6809"
 			optional: true
 			tasks: [{
@@ -458,7 +458,7 @@
 				"0375D068023B13D7"
 				"68765386EA084EC0"
 			]
-			description: ["大规模吸取大气"]
+			description: ["{gtlcore.quest.gtl.quest.6e9e740aaeb580e0.description.0000}"]
 			id: "6E9E740AAEB580E0"
 			optional: true
 			tasks: [{
@@ -471,12 +471,12 @@
 		}
 		{
 			dependencies: ["7E436D979AF67921"]
-			description: ["如果想查看某个物品的标签，除了F3+H之外还可以把那个东西拿在手上然后输入/kubejs hand查看标签"]
+			description: ["{gtlcore.quest.gtl.quest.7979c5acf9a0c8d2.description.0000}"]
 			id: "7979C5ACF9A0C8D2"
-			subtitle: "副标题为对应的标签"
+			subtitle: "{gtlcore.quest.gtl.quest.7979c5acf9a0c8d2.subtitle}"
 			tasks: [{
 				id: "54A100B30D3F4C53"
-				title: "怎么处理呢"
+				title: "{gtlcore.quest.gtl.task.54a100b30d3f4c53.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -484,14 +484,14 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			description: ["开挖"]
+			description: ["{gtlcore.quest.gtl.quest.7db63df889dddef4.description.0000}"]
 			icon: "minecraft:raw_iron"
 			id: "7DB63DF889DDDEF4"
-			subtitle: "forge:raw_materials"
+			subtitle: "{gtlcore.quest.gtl.quest.7db63df889dddef4.subtitle}"
 			tasks: [
 				{
 					id: "12386DFE17521548"
-					title: "粗矿"
+					title: "{gtlcore.quest.gtl.task.12386dfe17521548.title}"
 					type: "checkmark"
 				}
 				{
@@ -506,14 +506,14 @@
 		}
 		{
 			dependencies: ["7979C5ACF9A0C8D2"]
-			description: ["如果你有精准采集"]
+			description: ["{gtlcore.quest.gtl.quest.703eeb941f0c745c.description.0000}"]
 			icon: "gtceu:iron_ore"
 			id: "703EEB941F0C745C"
-			subtitle: "forge:ores"
+			subtitle: "{gtlcore.quest.gtl.quest.703eeb941f0c745c.subtitle}"
 			tasks: [
 				{
 					id: "0CE5AC66DD215BE1"
-					title: "矿石"
+					title: "{gtlcore.quest.gtl.task.0ce5ac66dd215be1.title}"
 					type: "checkmark"
 				}
 				{
@@ -532,15 +532,15 @@
 				"703EEB941F0C745C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["把原矿和矿石塞进研磨机狠狠粉碎"]
+			description: ["{gtlcore.quest.gtl.quest.6596611dd4cb5a60.description.0000}"]
 			icon: "gtceu:crushed_iron_ore"
 			id: "6596611DD4CB5A60"
 			min_required_dependencies: 1
-			subtitle: "forge:crushed_ores"
+			subtitle: "{gtlcore.quest.gtl.quest.6596611dd4cb5a60.subtitle}"
 			tasks: [
 				{
 					id: "45B29F9F7327A305"
-					title: "粉碎矿石"
+					title: "{gtlcore.quest.gtl.task.45b29f9f7327a305.title}"
 					type: "checkmark"
 				}
 				{
@@ -555,14 +555,14 @@
 		}
 		{
 			dependencies: ["6596611DD4CB5A60"]
-			description: ["粉碎矿石——锻造/研磨"]
+			description: ["{gtlcore.quest.gtl.quest.05046054f7d65653.description.0000}"]
 			icon: "gtceu:impure_iron_dust"
 			id: "05046054F7D65653"
-			subtitle: "forge:impure_dusts"
+			subtitle: "{gtlcore.quest.gtl.quest.05046054f7d65653.subtitle}"
 			tasks: [
 				{
 					id: "0624FA85DAAB27B4"
-					title: "含杂粉"
+					title: "{gtlcore.quest.gtl.task.0624fa85daab27b4.title}"
 					type: "checkmark"
 				}
 				{
@@ -578,17 +578,17 @@
 		{
 			dependencies: ["6596611DD4CB5A60"]
 			description: [
-				"粉碎矿石——洗矿/浸洗"
+				"{gtlcore.quest.gtl.quest.14ee67044597e62a.description.0000}"
 				""
-				"可筛选的纯净矿石有特殊标签&o&bforge:siftables&r，相对应的原矿和粗矿有特殊标签&o&bforge:siftable&r"
+				"{gtlcore.quest.gtl.quest.14ee67044597e62a.description.0002}"
 			]
 			icon: "gtceu:purified_iron_ore"
 			id: "14EE67044597E62A"
-			subtitle: "forge:purified_ores"
+			subtitle: "{gtlcore.quest.gtl.quest.14ee67044597e62a.subtitle}"
 			tasks: [
 				{
 					id: "512D19B265445F64"
-					title: "纯净矿石"
+					title: "{gtlcore.quest.gtl.task.512d19b265445f64.title}"
 					type: "checkmark"
 				}
 				{
@@ -607,14 +607,14 @@
 				"14EE67044597E62A"
 			]
 			dependency_requirement: "one_completed"
-			description: ["纯净矿石/粉碎矿石——热离"]
+			description: ["{gtlcore.quest.gtl.quest.56c020b4f1f7d8d1.description.0000}"]
 			icon: "gtceu:refined_iron_ore"
 			id: "56C020B4F1F7D8D1"
-			subtitle: "forge:refined_ores"
+			subtitle: "{gtlcore.quest.gtl.quest.56c020b4f1f7d8d1.subtitle}"
 			tasks: [
 				{
 					id: "5822D0C2DAE09A76"
-					title: "精炼矿石"
+					title: "{gtlcore.quest.gtl.task.5822d0c2dae09a76.title}"
 					type: "checkmark"
 				}
 				{
@@ -636,18 +636,18 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"含杂粉/洁净粉——离心/洗矿"
-				"精炼矿石——粉碎"
+				"{gtlcore.quest.gtl.quest.5aee74dd9b0d511c.description.0000}"
+				"{gtlcore.quest.gtl.quest.5aee74dd9b0d511c.description.0001}"
 				""
-				"部分洁净粉——磁选"
+				"{gtlcore.quest.gtl.quest.5aee74dd9b0d511c.description.0003}"
 			]
 			icon: "gtceu:iron_dust"
 			id: "5AEE74DD9B0D511C"
-			subtitle: "forge:dusts"
+			subtitle: "{gtlcore.quest.gtl.quest.5aee74dd9b0d511c.subtitle}"
 			tasks: [
 				{
 					id: "7D58F9B03FA71A1D"
-					title: "粉"
+					title: "{gtlcore.quest.gtl.task.7d58f9b03fa71a1d.title}"
 					type: "checkmark"
 				}
 				{
@@ -662,14 +662,14 @@
 		}
 		{
 			dependencies: ["14EE67044597E62A"]
-			description: ["纯净矿石——锻造/研磨"]
+			description: ["{gtlcore.quest.gtl.quest.79b98f942f1d8edc.description.0000}"]
 			icon: "gtceu:pure_iron_dust"
 			id: "79B98F942F1D8EDC"
-			subtitle: "forge:pure_dusts"
+			subtitle: "{gtlcore.quest.gtl.quest.79b98f942f1d8edc.subtitle}"
 			tasks: [
 				{
 					id: "0ACEBC9DEDFB3044"
-					title: "纯净粉"
+					title: "{gtlcore.quest.gtl.task.0acebc9dedfb3044.title}"
 					type: "checkmark"
 				}
 				{
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			title: "洁净粉"
+			title: "{gtlcore.quest.gtl.quest.79b98f942f1d8edc.title}"
 			x: 11.5d
 			y: 4.0d
 		}
@@ -688,14 +688,14 @@
 				"7DB63DF889DDDEF4"
 				"703EEB941F0C745C"
 			]
-			description: ["艾萨线的东西"]
+			description: ["{gtlcore.quest.gtl.quest.3c2b4b80e425a9ad.description.0000}"]
 			icon: "gtceu:milled_pyrope"
 			id: "3C2B4B80E425A9AD"
-			subtitle: "forge:milled"
+			subtitle: "{gtlcore.quest.gtl.quest.3c2b4b80e425a9ad.subtitle}"
 			tasks: [
 				{
 					id: "3DF923CA2FF25E4D"
-					title: "碾磨"
+					title: "{gtlcore.quest.gtl.task.3df923ca2ff25e4d.title}"
 					type: "checkmark"
 				}
 				{
@@ -705,7 +705,7 @@
 					type: "item"
 				}
 			]
-			title: "湿法研磨"
+			title: "{gtlcore.quest.gtl.quest.3c2b4b80e425a9ad.title}"
 			x: 9.5d
 			y: 7.0d
 		}
@@ -713,11 +713,11 @@
 			dependencies: ["3C2B4B80E425A9AD"]
 			icon: "gtceu:pyrope_front_bucket"
 			id: "0FAFE44EBD813FBA"
-			subtitle: "gtceu:*_front"
+			subtitle: "{gtlcore.quest.gtl.quest.0fafe44ebd813fba.subtitle}"
 			tasks: [
 				{
 					id: "4C799DC47F6C6B79"
-					title: "矿物泡沫"
+					title: "{gtlcore.quest.gtl.task.4c799dc47f6c6b79.title}"
 					type: "checkmark"
 				}
 				{
@@ -735,7 +735,7 @@
 				"68765386EA084EC0"
 				"1FA9E56114BFABF5"
 			]
-			description: ["通过无人机挖掘遥远星球的矿物和流体"]
+			description: ["{gtlcore.quest.gtl.quest.7da6da0780f3dda3.description.0000}"]
 			id: "7DA6DA0780F3DDA3"
 			optional: true
 			tasks: [
@@ -755,14 +755,14 @@
 		}
 		{
 			dependencies: ["14EE67044597E62A"]
-			description: ["纯净矿石——筛选"]
+			description: ["{gtlcore.quest.gtl.quest.621c664a94b042c0.description.0000}"]
 			icon: "gtceu:flawless_emerald_gem"
 			id: "621C664A94B042C0"
-			subtitle: "forge:*_gems"
+			subtitle: "{gtlcore.quest.gtl.quest.621c664a94b042c0.subtitle}"
 			tasks: [
 				{
 					id: "7059009E6175E5EC"
-					title: "宝石"
+					title: "{gtlcore.quest.gtl.task.7059009e6175e5ec.title}"
 					type: "checkmark"
 				}
 				{
@@ -780,7 +780,7 @@
 			id: "2C1986BE10F10708"
 			tasks: [{
 				id: "58C28BBB64C73B88"
-				title: "可能用到的机器"
+				title: "{gtlcore.quest.gtl.task.58c28bbb64c73b88.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -791,7 +791,7 @@
 			id: "45D1E65DFC2DEF6F"
 			tasks: [{
 				id: "3B3DCF9C88A9F45F"
-				title: "流程选择"
+				title: "{gtlcore.quest.gtl.task.3b3dcf9c88a9f45f.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -799,14 +799,14 @@
 		}
 		{
 			dependencies: ["45D1E65DFC2DEF6F"]
-			description: ["绝大多数的特色副产都会出现在热离中"]
+			description: ["{gtlcore.quest.gtl.quest.184ce47d10a10c84.description.0000}"]
 			id: "184CE47D10A10C84"
 			tasks: [{
 				id: "27CDD5B1DB6728DF"
-				title: "绝大多数矿"
+				title: "{gtlcore.quest.gtl.task.27cdd5b1db6728df.title}"
 				type: "checkmark"
 			}]
-			title: "绝大多数矿都是：研磨-洗矿/研磨-热离-研磨"
+			title: "{gtlcore.quest.gtl.quest.184ce47d10a10c84.title}"
 			x: 5.5d
 			y: 15.0d
 		}
@@ -815,7 +815,7 @@
 			id: "41B15E107F6501C9"
 			tasks: [{
 				id: "5B924FE02BA17DB0"
-				title: "处理流程"
+				title: "{gtlcore.quest.gtl.task.5b924fe02ba17db0.title}"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -826,7 +826,7 @@
 			id: "7E436D979AF67921"
 			tasks: [{
 				id: "417B3C624E888811"
-				title: "这是矿物"
+				title: "{gtlcore.quest.gtl.task.417b3c624e888811.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -835,15 +835,15 @@
 		{
 			dependencies: ["5AEE74DD9B0D511C"]
 			description: [
-				"电解/离心"
+				"{gtlcore.quest.gtl.quest.192a144adac186ba.description.0000}"
 				""
-				"部分矿物有着更加深入复杂的处理流程，"
-				"比如钛，钨，铀，铂系，稀土，硅岩....."
+				"{gtlcore.quest.gtl.quest.192a144adac186ba.description.0002}"
+				"{gtlcore.quest.gtl.quest.192a144adac186ba.description.0003}"
 			]
 			id: "192A144ADAC186BA"
 			tasks: [{
 				id: "389CC682DEEC0AE7"
-				title: "接着处理"
+				title: "{gtlcore.quest.gtl.task.389cc682deec0ae7.title}"
 				type: "checkmark"
 			}]
 			x: 15.5d
@@ -908,12 +908,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "从热解炉流出来的东西"
+			title: "{gtlcore.quest.gtl.quest.1ebba5a10a8a48db.title}"
 			x: 48.0d
 			y: 4.0d
 		}
 		{
-			description: ["LV时期可选的获得石油的手段，你也可以自己用桶装"]
+			description: ["{gtlcore.quest.gtl.quest.6deaa19092fbcf99.description.0000}"]
 			hide_dependency_lines: true
 			icon: "gtceu:lv_pump"
 			id: "6DEAA19092FBCF99"
@@ -947,7 +947,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "原油"
+			title: "{gtlcore.quest.gtl.quest.2451d79084562c67.title}"
 			x: 45.0d
 			y: 4.0d
 		}
@@ -998,7 +998,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "T0可以采到的"
+			title: "{gtlcore.quest.gtl.quest.445fa314f08b0f0c.title}"
 			x: 48.0d
 			y: 3.0d
 		}
@@ -1007,7 +1007,7 @@
 			icon: "gtceu:oil_heavy_bucket"
 			icon_scale: 2.0d
 			id: "5CECDCDB3DFFDF6B"
-			subtitle: "产量很高"
+			subtitle: "{gtlcore.quest.gtl.quest.5cecdcdb3dffdf6b.subtitle}"
 			tasks: [
 				{
 					id: "7F52AE8148CC8670"
@@ -1020,7 +1020,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "重油"
+			title: "{gtlcore.quest.gtl.quest.5cecdcdb3dffdf6b.title}"
 			x: 45.0d
 			y: 3.0d
 		}
@@ -1039,21 +1039,21 @@
 					type: "checkmark"
 				}
 			]
-			title: "这是油砂矿"
+			title: "{gtlcore.quest.gtl.quest.3940a3fa8cd3c04d.title}"
 			x: 43.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["184CE47D10A10C84"]
 			description: [
-				"比如铂处的谢尔顿，土法制铟的方铅和闪锌等等"
+				"{gtlcore.quest.gtl.quest.0a24f26d2efe2822.description.0000}"
 				""
-				"可以在需要的时候再做，矿就别屯着了"
+				"{gtlcore.quest.gtl.quest.0a24f26d2efe2822.description.0002}"
 			]
 			id: "0A24F26D2EFE2822"
 			tasks: [{
 				id: "3FDED6E55897AD8D"
-				title: "部分矿处理为纯净矿后会到化反进行其他的处理流程"
+				title: "{gtlcore.quest.gtl.task.3fded6e55897ad8d.title}"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -1061,11 +1061,11 @@
 		}
 		{
 			dependencies: ["0A24F26D2EFE2822"]
-			description: ["比如锆石粉，辉钼矿粉等"]
+			description: ["{gtlcore.quest.gtl.quest.726a61cd2c9d9495.description.0000}"]
 			id: "726A61CD2C9D9495"
 			tasks: [{
 				id: "3767ADB65635488D"
-				title: "还有极小部分矿有着更特殊的处理流程"
+				title: "{gtlcore.quest.gtl.task.3767adb65635488d.title}"
 				type: "checkmark"
 			}]
 			x: 10.5d
@@ -1078,22 +1078,22 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"铂系处理的流程线性清晰非常好做"
-				"你可以做全被动，全靠下单也不是不行"
+				"{gtlcore.quest.gtl.quest.3cb16b36a5aa2a10.description.0000}"
+				"{gtlcore.quest.gtl.quest.3cb16b36a5aa2a10.description.0001}"
 				""
-				"往后的很多产物都建议保持一定的库存数量"
+				"{gtlcore.quest.gtl.quest.3cb16b36a5aa2a10.description.0003}"
 				""
-				"推荐使用合成卡/请求器/（发信器+触发总线/机器控制覆盖板）保持数量"
+				"{gtlcore.quest.gtl.quest.3cb16b36a5aa2a10.description.0005}"
 				""
-				"在做出IV大机器后建议使用大机器优化产线"
+				"{gtlcore.quest.gtl.quest.3cb16b36a5aa2a10.description.0007}"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3CB16B36A5AA2A10"
-			subtitle: "这是你接触的第一个大型矿物处理流程"
+			subtitle: "{gtlcore.quest.gtl.quest.3cb16b36a5aa2a10.subtitle}"
 			tasks: [{
 				id: "61B56D54AB271C8A"
-				title: "铂系金属处理"
+				title: "{gtlcore.quest.gtl.task.61b56d54ab271c8a.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1104,7 +1104,7 @@
 				"1D247D35BFB55469"
 				"0AE7E19DC4FD17B2"
 			]
-			description: ["铂系金属包括铂、钯、铑、钌、铱和锇。这些金属都具有良好的耐腐蚀性、高的熔点和优良的催化性能。"]
+			description: ["{gtlcore.quest.gtl.quest.01a1a06a3963d3be.description.0000}"]
 			hide_dependent_lines: true
 			icon: "gtceu:platinum_group_sludge_dust"
 			id: "01A1A06A3963D3BE"
@@ -1164,7 +1164,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "粗钯粉和粗铂粉"
+			title: "{gtlcore.quest.gtl.quest.41a9e381a0326997.title}"
 			x: 4.5d
 			y: 21.0d
 		}
@@ -1172,7 +1172,7 @@
 			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:platinum_sludge_residue_dust"
 			id: "4BD741311E61665C"
-			subtitle: "离心获得二氧化硅和金粉"
+			subtitle: "{gtlcore.quest.gtl.quest.4bd741311e61665c.subtitle}"
 			tasks: [
 				{
 					id: "17772738EAECA5DD"
@@ -1192,7 +1192,7 @@
 			dependencies: ["01A1A06A3963D3BE"]
 			icon: "gtceu:inert_metal_mixture_dust"
 			id: "46435121E3AE44EF"
-			subtitle: "打包小撮混合物"
+			subtitle: "{gtlcore.quest.gtl.quest.46435121e3ae44ef.subtitle}"
 			tasks: [
 				{
 					id: "077A2ADE5E3735A3"
@@ -1218,7 +1218,7 @@
 			icon: "gtceu:rarest_metal_mixture_dust"
 			id: "56105EBA9D073902"
 			min_required_dependencies: 2
-			subtitle: "还可以打包小撮混合物"
+			subtitle: "{gtlcore.quest.gtl.quest.56105eba9d073902.subtitle}"
 			tasks: [
 				{
 					id: "4727481B8F45C4E1"
@@ -1260,7 +1260,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硫酸铑和气态硫酸铑"
+			title: "{gtlcore.quest.gtl.quest.447948acbdaf1d5a.title}"
 			x: 9.0d
 			y: 18.5d
 		}
@@ -1353,7 +1353,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "酸性锇溶液"
+			title: "{gtlcore.quest.gtl.quest.1e69fcb460019502.title}"
 			x: 9.0d
 			y: 21.5d
 		}
@@ -1401,7 +1401,7 @@
 			dependencies: ["1E69FCB460019502"]
 			icon: "gtceu:osmium_tetroxide_dust"
 			id: "7B57E5FA2FD62C15"
-			subtitle: "记得留几个，这东西还是后续化工的催化剂"
+			subtitle: "{gtlcore.quest.gtl.quest.7b57e5fa2fd62c15.subtitle}"
 			tasks: [
 				{
 					id: "630A0AD9877F9200"
@@ -1492,7 +1492,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "铑盐溶液"
+			title: "{gtlcore.quest.gtl.quest.737542a27f32418f.title}"
 			x: 12.0d
 			y: 18.5d
 		}
@@ -1553,7 +1553,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "铑滤饼溶液"
+			title: "{gtlcore.quest.gtl.quest.73399771638fd112.title}"
 			x: 15.0d
 			y: 18.5d
 		}
@@ -1585,7 +1585,7 @@
 			icon_scale: 2.0d
 			id: "51AA4887F2DC9747"
 			shape: "diamond"
-			subtitle: "这步会产出氯化铵"
+			subtitle: "{gtlcore.quest.gtl.quest.51aa4887f2dc9747.subtitle}"
 			tasks: [
 				{
 					id: "1530C7BBA1C03A74"
@@ -1626,7 +1626,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "铂粉和钯粉"
+			title: "{gtlcore.quest.gtl.quest.2cd7d8b5f38a50f5.title}"
 			x: 5.5d
 			y: 21.5d
 		}
@@ -1646,7 +1646,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态四氧化钌"
+			title: "{gtlcore.quest.gtl.quest.5c12f24d7c0db328.title}"
 			x: 10.0d
 			y: 19.5d
 		}
@@ -1666,7 +1666,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "热四氧化钌"
+			title: "{gtlcore.quest.gtl.quest.277e11d01f736c89.title}"
 			x: 12.0d
 			y: 19.5d
 		}
@@ -1686,7 +1686,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氧化钌溶液"
+			title: "{gtlcore.quest.gtl.quest.1378ed1ec657a5d8.title}"
 			x: 14.0d
 			y: 19.5d
 		}
@@ -1752,7 +1752,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "酸性铱"
+			title: "{gtlcore.quest.gtl.quest.353ce5b960b508fe.title}"
 			x: 13.0d
 			y: 20.5d
 		}
@@ -1780,7 +1780,7 @@
 		}
 		{
 			dependencies: ["1E4CFA4ED7E43E80"]
-			description: ["核废料和红花岗岩也会产出铀-238"]
+			description: ["{gtlcore.quest.gtl.quest.5268cba4ab789bda.description.0000}"]
 			icon: "gtceu:uranium_dust"
 			icon_scale: 2.0d
 			id: "5268CBA4AB789BDA"
@@ -1790,7 +1790,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "从EV开始用"
+			subtitle: "{gtlcore.quest.gtl.quest.5268cba4ab789bda.subtitle}"
 			tasks: [
 				{
 					id: "1F2EDCFFB9BEB463"
@@ -1803,7 +1803,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "铀-238粉"
+			title: "{gtlcore.quest.gtl.quest.5268cba4ab789bda.title}"
 			x: 7.5d
 			y: 24.5d
 		}
@@ -1820,7 +1820,7 @@
 			}]
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "UIV还会用到"
+			subtitle: "{gtlcore.quest.gtl.quest.7405af5f9ffa0c50.subtitle}"
 			tasks: [
 				{
 					id: "54393C32AFFEA91A"
@@ -1857,7 +1857,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "枯竭六氟化铀"
+			title: "{gtlcore.quest.gtl.quest.1e4cfa4ed7e43e80.title}"
 			x: 6.0d
 			y: 24.5d
 		}
@@ -1882,7 +1882,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "富集六氟化铀"
+			title: "{gtlcore.quest.gtl.quest.33d3301f5f0f855a.title}"
 			x: 7.5d
 			y: 23.5d
 		}
@@ -1907,7 +1907,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "六氟化铀"
+			title: "{gtlcore.quest.gtl.quest.4288a0eff13d1f93.title}"
 			x: 6.0d
 			y: 23.5d
 		}
@@ -1964,7 +1964,7 @@
 			icon_scale: 2.0d
 			id: "3F5618A925DFA300"
 			shape: "diamond"
-			subtitle: "UV才会用到"
+			subtitle: "{gtlcore.quest.gtl.quest.3f5618a925dfa300.subtitle}"
 			tasks: [
 				{
 					id: "5F7B3AED2B6CAEC6"
@@ -2030,7 +2030,7 @@
 			icon: "gtceu:thorium_dust"
 			id: "2A3874F7C50BAF1A"
 			shape: "pentagon"
-			subtitle: "便宜的好东西"
+			subtitle: "{gtlcore.quest.gtl.quest.2a3874f7c50baf1a.subtitle}"
 			tasks: [
 				{
 					id: "5F50B16A87609772"
@@ -2063,7 +2063,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "钚-239粉"
+			title: "{gtlcore.quest.gtl.quest.6b8e242fd397d8b4.title}"
 			x: 4.5d
 			y: 25.5d
 		}
@@ -2092,7 +2092,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["凯金化合物处理也会产出镤粉"]
+			description: ["{gtlcore.quest.gtl.quest.35897d7a428fced0.description.0000}"]
 			icon: "gtceu:protactinium_dust"
 			icon_scale: 2.0d
 			id: "35897D7A428FCED0"
@@ -2120,7 +2120,7 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["一直到元素复制机都只能用核废料产出镎&6粉&r"]
+			description: ["{gtlcore.quest.gtl.quest.37b172aa6c7dd6bb.description.0000}"]
 			icon: "gtceu:neptunium_dust"
 			icon_scale: 2.0d
 			id: "37B172AA6C7DD6BB"
@@ -2148,13 +2148,13 @@
 		}
 		{
 			dependencies: ["6D650AE5A76585B3"]
-			description: ["离心核废料得到小搓钋"]
+			description: ["{gtlcore.quest.gtl.quest.7b412e455e2c321b.description.0000}"]
 			hide_dependent_lines: true
 			icon: "gtceu:polonium_dust"
 			icon_scale: 2.0d
 			id: "7B412E455E2C321B"
 			shape: "diamond"
-			subtitle: "看小搓粉的配方"
+			subtitle: "{gtlcore.quest.gtl.quest.7b412e455e2c321b.subtitle}"
 			tasks: [
 				{
 					id: "146DB1101ED83C52"
@@ -2179,9 +2179,9 @@
 		{
 			dependencies: ["150F3113E9012C2F"]
 			description: [
-				"现在先通过铟富集溶液获取"
+				"{gtlcore.quest.gtl.quest.3eac914aa2073b05.description.0000}"
 				""
-				"{ \"text\": \"后面可以在富集硅岩处理的过程中获得\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1534BC8521461BC8\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1534BC8521461BC8\"},\"translate\":\"gtlcore.quest.gtl.quest.3eac914aa2073b05.description.0002.text.0000\"}"
 			]
 			icon: "gtceu:indium_dust"
 			icon_scale: 2.0d
@@ -2207,7 +2207,7 @@
 			icon: "gtceu:indium_concentrate_bucket"
 			id: "150F3113E9012C2F"
 			shape: "pentagon"
-			subtitle: "土法制铟"
+			subtitle: "{gtlcore.quest.gtl.quest.150f3113e9012c2f.subtitle}"
 			tasks: [
 				{
 					id: "1FB16AD12252A875"
@@ -2232,7 +2232,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "铟富集溶液"
+			title: "{gtlcore.quest.gtl.quest.150f3113e9012c2f.title}"
 			x: 36.5d
 			y: 13.0d
 		}
@@ -2269,7 +2269,7 @@
 			id: "37C5E7628A4B826C"
 			tasks: [{
 				id: "0416DFD37DE6C2A4"
-				title: "放射性物质处理"
+				title: "{gtlcore.quest.gtl.task.0416dfd37de6c2a4.title}"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -2291,13 +2291,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "稀土氢氧化物"
+			title: "{gtlcore.quest.gtl.quest.4cf6c5a8940b4ddf.title}"
 			x: 21.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["4CF6C5A8940B4DDF"]
-			description: ["{ \"text\": \"你也可以通过赤泥获得稀土氯化物\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"605B973142727552\" } } "]
+			description: ["{\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"605B973142727552\"},\"translate\":\"gtlcore.quest.gtl.quest.5465659ad5eee7e3.description.0000.text.0000\"}"]
 			icon: "gtceu:rare_earth_chlorides_bucket"
 			id: "5465659AD5EEE7E3"
 			tasks: [
@@ -2312,7 +2312,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "稀土氯化物"
+			title: "{gtlcore.quest.gtl.quest.5465659ad5eee7e3.title}"
 			x: 23.0d
 			y: 13.0d
 		}
@@ -2351,18 +2351,18 @@
 					type: "item"
 				}
 			]
-			title: "磁力离心"
+			title: "{gtlcore.quest.gtl.quest.0e6b85a8e9ce4ca6.title}"
 			x: 24.5d
 			y: 13.0d
 		}
 		{
 			dependencies: ["0E6B85A8E9CE4CA6"]
 			description: [
-				"这里有ⅢB族的21号钪 39号钇 镧系除了61号钷的十四种元素"
+				"{gtlcore.quest.gtl.quest.4a86402c581abb27.description.0000}"
 				""
-				"总共16种"
+				"{gtlcore.quest.gtl.quest.4a86402c581abb27.description.0002}"
 				""
-				"钷是稀土离心机才能出"
+				"{gtlcore.quest.gtl.quest.4a86402c581abb27.description.0004}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:samarium_oxide_dust"
@@ -2449,12 +2449,12 @@
 					type: "item"
 				}
 			]
-			subtitle: "有十六种"
+			subtitle: "{gtlcore.quest.gtl.quest.4a86402c581abb27.subtitle}"
 			tasks: [{
 				id: "77BE8A33D3451252"
 				type: "checkmark"
 			}]
-			title: "氧化X粉"
+			title: "{gtlcore.quest.gtl.quest.4a86402c581abb27.title}"
 			x: 26.0d
 			y: 13.0d
 		}
@@ -2481,10 +2481,10 @@
 				"275854E3F1E59652"
 				"4059A907154E2865"
 			]
-			description: ["{ \"text\": \"有了无人机MKIV就能挖了\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"670D8EB2CE915FD5\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"670D8EB2CE915FD5\"},\"translate\":\"gtlcore.quest.gtl.quest.7570243ede6f35b1.description.0000.text.0000\"}"]
 			icon: "gtceu:rare_earth_metal_dust"
 			id: "7570243EDE6F35B1"
-			subtitle: "后期还能直接挖"
+			subtitle: "{gtlcore.quest.gtl.quest.7570243ede6f35b1.subtitle}"
 			tasks: [
 				{
 					id: "6BCA75161304244F"
@@ -2503,11 +2503,11 @@
 		{
 			dependencies: ["7570243EDE6F35B1"]
 			dependency_requirement: "one_completed"
-			description: ["{ \"text\": \"这个时候纳米树脂萃取线也会产出钷粉\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"72DFAC3212692136\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"72DFAC3212692136\"},\"translate\":\"gtlcore.quest.gtl.quest.5e03d3f795bd0f55.description.0000.text.0000\"}"]
 			icon: "gtceu:promethium_dust"
 			id: "5E03D3F795BD0F55"
 			min_required_dependencies: 1
-			subtitle: "用来炖成UEV的基础材料之一"
+			subtitle: "{gtlcore.quest.gtl.quest.5e03d3f795bd0f55.subtitle}"
 			tasks: [
 				{
 					id: "5107DC687C7A012F"
@@ -2528,13 +2528,13 @@
 				"7979C5ACF9A0C8D2"
 				"29D4D49428BF7FF4"
 			]
-			description: ["会用到硝酸、盐酸、氢氟酸……"]
+			description: ["{gtlcore.quest.gtl.quest.1223d839c224777b.description.0000}"]
 			hide_dependent_lines: true
 			id: "1223D839C224777B"
-			subtitle: "超大份镧系处理"
+			subtitle: "{gtlcore.quest.gtl.quest.1223d839c224777b.subtitle}"
 			tasks: [{
 				id: "00F08CD4279B1525"
-				title: "ⅢB族（不含锕系）处理"
+				title: "{gtlcore.quest.gtl.task.00f08cd4279b1525.title}"
 				type: "checkmark"
 			}]
 			x: 18.5d
@@ -2543,13 +2543,13 @@
 		{
 			dependencies: ["01A1A06A3963D3BE"]
 			id: "46031C6722259C54"
-			subtitle: "盐，硫酸钾，一氧化碳，氯化钙，稀盐酸"
+			subtitle: "{gtlcore.quest.gtl.quest.46031c6722259c54.subtitle}"
 			tasks: [{
 				id: "2EBFC43E7D201657"
-				title: "回收"
+				title: "{gtlcore.quest.gtl.task.2ebfc43e7d201657.title}"
 				type: "checkmark"
 			}]
-			title: "回收那些无用的副产物"
+			title: "{gtlcore.quest.gtl.quest.46031c6722259c54.title}"
 			x: 13.0d
 			y: 17.0d
 		}
@@ -2559,7 +2559,7 @@
 			icon_scale: 2.0d
 			id: "1534BC8521461BC8"
 			shape: "diamond"
-			subtitle: "获取铟的另一种途径"
+			subtitle: "{gtlcore.quest.gtl.quest.1534bc8521461bc8.subtitle}"
 			tasks: [
 				{
 					id: "7FEE777235FA0998"
@@ -2579,7 +2579,7 @@
 			icon: "gtceu:samarium_refined_powder_dust"
 			id: "2ED005FB3DC2EAB2"
 			shape: "pentagon"
-			subtitle: "钕的副产"
+			subtitle: "{gtlcore.quest.gtl.quest.2ed005fb3dc2eab2.subtitle}"
 			tasks: [
 				{
 					id: "772489A2AC0DA9B6"
@@ -2597,11 +2597,11 @@
 		}
 		{
 			dependencies: ["00AA7D62FCE4B40E"]
-			description: ["也可以试试把独居石粉放到提取机里面"]
+			description: ["{gtlcore.quest.gtl.quest.71c977a601f879ae.description.0000}"]
 			icon: "gtceu:monazite_dust"
 			id: "71C977A601F879AE"
 			shape: "pentagon"
-			subtitle: "群居石"
+			subtitle: "{gtlcore.quest.gtl.quest.71c977a601f879ae.subtitle}"
 			tasks: [
 				{
 					id: "222E9D1D4F6F71F9"
@@ -2650,7 +2650,7 @@
 			]
 			icon: "gtceu:monazite_rare_earth_turbid_liquid_bucket"
 			id: "218DF03160595A6F"
-			subtitle: "立刻回收小部分独居石"
+			subtitle: "{gtlcore.quest.gtl.quest.218df03160595a6f.subtitle}"
 			tasks: [
 				{
 					id: "0F421B066A2BAB87"
@@ -2663,7 +2663,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "独居石稀土混浊液"
+			title: "{gtlcore.quest.gtl.quest.218df03160595a6f.title}"
 			x: 21.0d
 			y: 4.0d
 		}
@@ -2683,7 +2683,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "稀释独居石稀土泥浆"
+			title: "{gtlcore.quest.gtl.quest.75ff3ea9cf248da8.title}"
 			x: 22.0d
 			y: 4.0d
 		}
@@ -2722,7 +2722,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "稀释硫酸独居石溶液"
+			title: "{gtlcore.quest.gtl.quest.14c20fe222033e2d.title}"
 			x: 24.0d
 			y: 4.0d
 		}
@@ -2789,10 +2789,10 @@
 		{
 			can_repeat: false
 			dependencies: ["6C248CBD3C3C6A60"]
-			description: ["也可以从钐精粉处获得"]
+			description: ["{gtlcore.quest.gtl.quest.7aca4ed39a1119fd.description.0000}"]
 			icon: "gtceu:thorium_phosphate_refined_powder_dust"
 			id: "7ACA4ED39A1119FD"
-			subtitle: "回收独居石"
+			subtitle: "{gtlcore.quest.gtl.quest.7aca4ed39a1119fd.subtitle}"
 			tasks: [
 				{
 					id: "14AB746C12D36A98"
@@ -2857,7 +2857,7 @@
 			hide_dependent_lines: true
 			icon: "gtceu:neutralized_uranium_filter_residue_powder_dust"
 			id: "05496BBB8ABFAA30"
-			subtitle: "获取铀-235的另一种手段"
+			subtitle: "{gtlcore.quest.gtl.quest.05496bbb8abfaa30.subtitle}"
 			tasks: [
 				{
 					id: "41D403E0EC536840"
@@ -2930,7 +2930,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "浓缩氮化独居石稀土溶液"
+			title: "{gtlcore.quest.gtl.quest.455d715bc4934cbb.title}"
 			x: 30.0d
 			y: 4.0d
 		}
@@ -2955,7 +2955,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸独居石浸出混合物"
+			title: "{gtlcore.quest.gtl.quest.08be4f17331aa62a.title}"
 			x: 31.0d
 			y: 4.0d
 		}
@@ -2982,7 +2982,7 @@
 			dependencies: ["2FD681A788D189E9"]
 			icon: "gtceu:cerium_chloride_powder_dust"
 			id: "00F19A725DCE5F96"
-			subtitle: "还能获得独居石粉"
+			subtitle: "{gtlcore.quest.gtl.quest.00f19a725dce5f96.subtitle}"
 			tasks: [
 				{
 					id: "1E25AAE13565A29B"
@@ -3015,7 +3015,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化铈浓缩液"
+			title: "{gtlcore.quest.gtl.quest.5858e81a332ce35e.title}"
 			x: 25.0d
 			y: 9.0d
 		}
@@ -3035,7 +3035,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "浓缩硝酸独居石浸出溶液"
+			title: "{gtlcore.quest.gtl.quest.2276c8a9f2cda798.title}"
 			x: 32.0d
 			y: 4.0d
 		}
@@ -3125,7 +3125,7 @@
 			icon: "gtceu:saturated_monazite_rare_earth_powder_dust"
 			id: "317B25B778FAF317"
 			min_required_dependencies: 2
-			subtitle: "产出稀土"
+			subtitle: "{gtlcore.quest.gtl.quest.317b25b778faf317.subtitle}"
 			tasks: [
 				{
 					id: "38FE2CDD66FB661A"
@@ -3179,7 +3179,7 @@
 			id: "2EB12E9509B5DEC0"
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.2eb12e9509b5dec0.subtitle}"
 			tasks: [
 				{
 					id: "5DB0FAB49EE7B7BE"
@@ -3206,7 +3206,7 @@
 			id: "5C1DD02C486DE5B8"
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.5c1dd02c486de5b8.subtitle}"
 			tasks: [
 				{
 					id: "712A70214E470FB6"
@@ -3239,7 +3239,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化钐浓缩液"
+			title: "{gtlcore.quest.gtl.quest.69c8b1423c6d98f8.title}"
 			x: 29.0d
 			y: 8.0d
 		}
@@ -3259,7 +3259,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "钐稀土浊液"
+			title: "{gtlcore.quest.gtl.quest.2bb0ddc08a816cd8.title}"
 			x: 29.0d
 			y: 7.0d
 		}
@@ -3300,7 +3300,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "钐稀土泥浆"
+			title: "{gtlcore.quest.gtl.quest.1f4b0a4bf43eac50.title}"
 			x: 30.0d
 			y: 7.0d
 		}
@@ -3344,7 +3344,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "钐稀土稀释液"
+			title: "{gtlcore.quest.gtl.quest.14e622727b18979e.title}"
 			x: 31.0d
 			y: 7.0d
 		}
@@ -3483,7 +3483,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态含杂氯化钐"
+			title: "{gtlcore.quest.gtl.quest.00e4396df297b6a3.title}"
 			x: 34.0d
 			y: 8.0d
 		}
@@ -3503,7 +3503,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态钐"
+			title: "{gtlcore.quest.gtl.quest.701925bc9731ec86.title}"
 			x: 35.0d
 			y: 7.0d
 		}
@@ -3511,7 +3511,7 @@
 			dependencies: ["00E4396DF297B6A3"]
 			icon: "gtceu:lanthanum_chloride_with_impurities_dust"
 			id: "14986844B71C83AC"
-			subtitle: "需要镧粉"
+			subtitle: "{gtlcore.quest.gtl.quest.14986844b71c83ac.subtitle}"
 			tasks: [
 				{
 					id: "15463A7478CDAE4E"
@@ -3565,7 +3565,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟碳镧铈稀土浊溶液"
+			title: "{gtlcore.quest.gtl.quest.355ff18bc5aecbbf.title}"
 			x: 21.0d
 			y: 11.0d
 		}
@@ -3585,7 +3585,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "蒸汽裂化氟碳镧铈泥浆"
+			title: "{gtlcore.quest.gtl.quest.3967de6e4384b756.title}"
 			x: 22.0d
 			y: 11.0d
 		}
@@ -3608,7 +3608,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "调制氟碳镧铈泥浆"
+			title: "{gtlcore.quest.gtl.quest.7fd4ea18599a4c80.title}"
 			x: 23.0d
 			y: 11.0d
 		}
@@ -3628,7 +3628,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "稀释氟碳镧铈泥浆"
+			title: "{gtlcore.quest.gtl.quest.68012c0c6c072430.title}"
 			x: 24.0d
 			y: 11.0d
 		}
@@ -3648,7 +3648,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "过滤氟碳镧铈泥浆"
+			title: "{gtlcore.quest.gtl.quest.16f2dab7d5ddcf72.title}"
 			x: 25.0d
 			y: 11.0d
 		}
@@ -3813,7 +3813,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氮化氟碳镧铈罕土氧化物"
+			title: "{gtlcore.quest.gtl.quest.53c9c8f22787ffa2.title}"
 			x: 32.0d
 			y: 11.0d
 		}
@@ -3824,7 +3824,7 @@
 			]
 			icon: "gtceu:fluoro_carbon_lanthanide_cerium_rare_earth_suspension_bucket"
 			id: "15A2F5EFFBB91EDA"
-			subtitle: "处理这个液体的时候可以回收部分丙酮"
+			subtitle: "{gtlcore.quest.gtl.quest.15a2f5effbb91eda.subtitle}"
 			tasks: [
 				{
 					id: "7A625C923290EEA2"
@@ -3837,7 +3837,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟碳镧铈罕土氧化物悬浊液"
+			title: "{gtlcore.quest.gtl.quest.15a2f5effbb91eda.title}"
 			x: 33.0d
 			y: 11.0d
 		}
@@ -3845,7 +3845,7 @@
 			dependencies: ["15A2F5EFFBB91EDA"]
 			icon: "gtceu:samarium_rare_earth_concentrate_powder_dust"
 			id: "0611E972C84FDC4B"
-			subtitle: "产出稀土"
+			subtitle: "{gtlcore.quest.gtl.quest.0611e972c84fdc4b.subtitle}"
 			tasks: [
 				{
 					id: "09012F5B518D32A5"
@@ -3895,7 +3895,7 @@
 			min_required_dependencies: 1
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.32b28c8978a03681.subtitle}"
 			tasks: [
 				{
 					id: "26E350E1FF39814B"
@@ -4016,7 +4016,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化稀土浓缩液"
+			title: "{gtlcore.quest.gtl.quest.67111a7c89e5baa7.title}"
 			x: 31.0d
 			y: 13.0d
 		}
@@ -4036,7 +4036,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化稀土富集液"
+			title: "{gtlcore.quest.gtl.quest.3eb2d0ca54b2de40.title}"
 			x: 32.0d
 			y: 13.0d
 		}
@@ -4056,16 +4056,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化稀土稀释液"
+			title: "{gtlcore.quest.gtl.quest.5d2c28357ab7d76a.title}"
 			x: 33.0d
 			y: 13.0d
 		}
 		{
-			description: ["如果特别缺某一种稀土元素，可以试试萃取"]
+			description: ["{gtlcore.quest.gtl.quest.72dfac3212692136.description.0000}"]
 			icon: "gtceu:p507_bucket"
 			id: "72DFAC3212692136"
 			shape: "pentagon"
-			subtitle: "纳米树脂萃取稀土元素线"
+			subtitle: "{gtlcore.quest.gtl.quest.72dfac3212692136.subtitle}"
 			tasks: [
 				{
 					id: "64516808A90E9FB3"
@@ -4078,7 +4078,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "P-507"
+			title: "{gtlcore.quest.gtl.quest.72dfac3212692136.title}"
 			x: 29.0d
 			y: 13.0d
 		}
@@ -4087,11 +4087,11 @@
 				"72DFAC3212692136"
 				"02F523E003E1C93D"
 			]
-			description: ["萃取树脂可循环利用"]
+			description: ["{gtlcore.quest.gtl.quest.45b6ab3615ff2228.description.0000}"]
 			id: "45B6AB3615FF2228"
 			tasks: [{
 				id: "435E547C20569366"
-				title: "17种纳米萃取树脂"
+				title: "{gtlcore.quest.gtl.task.435e547c20569366.title}"
 				type: "checkmark"
 			}]
 			x: 30.0d
@@ -4102,7 +4102,7 @@
 			id: "5FE4742B6A5FFABA"
 			tasks: [{
 				id: "5A310F6717B18752"
-				title: "17种溢满的纳米萃取树脂"
+				title: "{gtlcore.quest.gtl.task.5a310f6717b18752.title}"
 				type: "checkmark"
 			}]
 			x: 34.0d
@@ -4111,15 +4111,15 @@
 		{
 			dependencies: ["4B3E2F27FE938277"]
 			description: [
-				"甲烷，乙烷，丙烷，丁烷，辛烷"
-				"乙烯，丙烯，丁烯，丁二烯"
-				"苯，甲苯"
-				"氦"
+				"{gtlcore.quest.gtl.quest.7db48a5766bd91e6.description.0000}"
+				"{gtlcore.quest.gtl.quest.7db48a5766bd91e6.description.0001}"
+				"{gtlcore.quest.gtl.quest.7db48a5766bd91e6.description.0002}"
+				"{gtlcore.quest.gtl.quest.7db48a5766bd91e6.description.0003}"
 			]
 			id: "7DB48A5766BD91E6"
 			tasks: [{
 				id: "5DE3CE19B98A1D05"
-				title: "石化的产出有这些"
+				title: "{gtlcore.quest.gtl.task.5de3ce19b98a1d05.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -4128,30 +4128,30 @@
 		{
 			dependencies: ["4B3E2F27FE938277"]
 			description: [
-				"生物质与发酵生物质："
-				"甲醇，乙醇，乙酸，氨，"
-				"二氧化碳，甲烷，木浆，肥料"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0000}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0001}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0002}"
 				""
-				"煤气和煤焦油："
-				"氨，乙苯，二氧化碳，焦煤粉，"
-				"萘，硫化氢，苯酚，杂酚油"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0004}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0005}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0006}"
 				""
-				"木炭副产："
-				"木炭粉，杂酚油，"
-				"苯，甲苯，苯酚，二甲苯，"
-				"甲醇，乙醇，乙酸，乙酸甲酯，"
-				"丙酮，二氧化碳，一氧化碳，甲烷，乙烯"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0008}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0009}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0010}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0011}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0012}"
 				""
-				"其他的东西："
-				"鱼油，种子油"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0014}"
+				"{gtlcore.quest.gtl.quest.2fa83022cc8a0928.description.0015}"
 			]
 			id: "2FA83022CC8A0928"
 			tasks: [{
 				id: "6E95953C40968751"
-				title: "生物质的产出"
+				title: "{gtlcore.quest.gtl.task.6e95953c40968751.title}"
 				type: "checkmark"
 			}]
-			title: "生化线的产出"
+			title: "{gtlcore.quest.gtl.quest.2fa83022cc8a0928.title}"
 			x: 40.5d
 			y: 4.0d
 		}
@@ -4162,7 +4162,7 @@
 			id: "38091E7431B96FF6"
 			tasks: [{
 				id: "73C4EE18E31D6F42"
-				title: "硅岩处理"
+				title: "{gtlcore.quest.gtl.task.73c4ee18e31d6f42.title}"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -4173,7 +4173,7 @@
 			icon: "gtceu:raw_naquadah"
 			id: "5D1037E8365CC910"
 			shape: "pentagon"
-			subtitle: "开挖"
+			subtitle: "{gtlcore.quest.gtl.quest.5d1037e8365cc910.subtitle}"
 			tasks: [
 				{
 					id: "11D65D25476CBE44"
@@ -4210,7 +4210,7 @@
 		}
 		{
 			dependencies: ["5D1037E8365CC910"]
-			description: ["精炼硅岩矿研磨或者洁净硅岩粉电磁选矿"]
+			description: ["{gtlcore.quest.gtl.quest.36e8964cd1be7569.description.0000}"]
 			icon: "gtceu:enriched_naquadah_dust"
 			id: "36E8964CD1BE7569"
 			tasks: [
@@ -4237,7 +4237,7 @@
 			icon: "gtceu:enriched_naquadah_ore"
 			id: "0255D733668E3BF7"
 			shape: "pentagon"
-			subtitle: "虚空采矿或者太空采矿"
+			subtitle: "{gtlcore.quest.gtl.quest.0255d733668e3bf7.subtitle}"
 			tasks: [
 				{
 					id: "21B669A650122204"
@@ -4266,15 +4266,15 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"{ \"text\": \"长长的产线\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0E926F9B91EECD78\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0E926F9B91EECD78\"},\"translate\":\"gtlcore.quest.gtl.quest.67ecdd5601dbbb5b.description.0000.text.0000\"}"
 				""
-				"当你有UEV能源仓之后可以直接电解获得凯金粉"
+				"{gtlcore.quest.gtl.quest.67ecdd5601dbbb5b.description.0002}"
 			]
 			hide_dependent_lines: true
 			icon: "gtceu:trinium_compound_ore"
 			id: "67ECDD5601DBBB5B"
 			shape: "pentagon"
-			subtitle: "虚空采矿或者太空采矿"
+			subtitle: "{gtlcore.quest.gtl.quest.67ecdd5601dbbb5b.subtitle}"
 			tasks: [
 				{
 					id: "1DB0385AC5D4B2A6"
@@ -4316,7 +4316,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "含杂富集硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.3703156457bd35fd.title}"
 			x: 24.5d
 			y: 20.0d
 		}
@@ -4336,7 +4336,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "六氟化富集硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.59b5170e8a1265e4.title}"
 			x: 26.0d
 			y: 20.0d
 		}
@@ -4356,7 +4356,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "六氟氙酸富集硅岩"
+			title: "{gtlcore.quest.gtl.quest.57dbbe2f51bb822e.title}"
 			x: 27.5d
 			y: 20.0d
 		}
@@ -4372,7 +4372,7 @@
 				item: "gtceu:enriched_naquadah_solution_bucket"
 				type: "item"
 			}]
-			title: "富集硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.76a2d869a0d5c41e.title}"
 			x: 29.0d
 			y: 20.0d
 		}
@@ -4392,7 +4392,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "酸性富集硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.36fb56bd8b6415d7.title}"
 			x: 30.5d
 			y: 21.0d
 		}
@@ -4400,7 +4400,7 @@
 			dependencies: ["36FB56BD8B6415D7"]
 			icon: "gtceu:enriched_naquadah_sulfate_dust"
 			id: "1CD2A15A1C5B1395"
-			subtitle: "实际上处理硅岩矿石就会产出富集硅岩"
+			subtitle: "{gtlcore.quest.gtl.quest.1cd2a15a1c5b1395.subtitle}"
 			tasks: [
 				{
 					id: "4838581B78418606"
@@ -4420,7 +4420,7 @@
 			dependencies: ["36FB56BD8B6415D7"]
 			icon: "gtceu:enriched_naquadah_waste_bucket"
 			id: "3868B8E8021CC035"
-			subtitle: "可以蒸馏获得富集硅岩和超能硅岩溶液"
+			subtitle: "{gtlcore.quest.gtl.quest.3868b8e8021cc035.subtitle}"
 			tasks: [
 				{
 					id: "5062B0E2FE1808C7"
@@ -4433,7 +4433,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "富集硅岩废液"
+			title: "{gtlcore.quest.gtl.quest.3868b8e8021cc035.title}"
 			x: 32.0d
 			y: 22.0d
 		}
@@ -4457,7 +4457,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "含杂超能硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.2f4e165431b56059.title}"
 			x: 24.5d
 			y: 23.0d
 		}
@@ -4477,7 +4477,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "六氟化超能硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.147d445b1e2e2bdb.title}"
 			x: 27.5d
 			y: 23.0d
 		}
@@ -4500,7 +4500,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "八氟超能硅岩酸氡"
+			title: "{gtlcore.quest.gtl.quest.2c6ef38a0be22028.title}"
 			x: 29.0d
 			y: 24.0d
 		}
@@ -4523,7 +4523,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "九氟氙酸超能硅岩铯"
+			title: "{gtlcore.quest.gtl.quest.7dc037ba0e0a18da.title}"
 			x: 30.5d
 			y: 24.0d
 		}
@@ -4546,7 +4546,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氟超能硅岩酸铯"
+			title: "{gtlcore.quest.gtl.quest.2405fed0fd07e879.title}"
 			x: 32.0d
 			y: 24.0d
 		}
@@ -4566,7 +4566,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硫酸二氟超能硅岩酸铯"
+			title: "{gtlcore.quest.gtl.quest.4eddd95d554b8643.title}"
 			x: 33.5d
 			y: 24.0d
 		}
@@ -4586,7 +4586,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "超能硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.14c55ce8ea930227.title}"
 			x: 32.0d
 			y: 23.0d
 		}
@@ -4606,7 +4606,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "酸性超能硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.3f165f658b061fb8.title}"
 			x: 33.5d
 			y: 23.0d
 		}
@@ -4621,7 +4621,7 @@
 			id: "30D6A973D89212B9"
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "超能硅岩的来源"
+			subtitle: "{gtlcore.quest.gtl.quest.30d6a973d89212b9.subtitle}"
 			tasks: [
 				{
 					id: "4199544AE7A66761"
@@ -4647,7 +4647,7 @@
 			dependencies: ["3F165F658B061FB8"]
 			icon: "gtceu:naquadria_waste_bucket"
 			id: "6E2187ECE4FD9684"
-			subtitle: "还可以获得富集硅岩和超能硅岩溶液"
+			subtitle: "{gtlcore.quest.gtl.quest.6e2187ece4fd9684.subtitle}"
 			tasks: [
 				{
 					id: "0BA49C7857B6C915"
@@ -4660,7 +4660,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "超能硅岩废液"
+			title: "{gtlcore.quest.gtl.quest.6e2187ece4fd9684.title}"
 			x: 35.0d
 			y: 23.0d
 		}
@@ -4675,7 +4675,7 @@
 			id: "7C45390524D47942"
 			shape: "diamond"
 			size: 1.0d
-			subtitle: "凯金的来源"
+			subtitle: "{gtlcore.quest.gtl.quest.7c45390524d47942.subtitle}"
 			tasks: [
 				{
 					id: "30DEB628EC345633"
@@ -4695,7 +4695,7 @@
 			dependencies: ["76A2D869A0D5C41E"]
 			icon: "gtceu:radon_cracked_enriched_aquadah_bucket"
 			id: "40823ABFBBE43496"
-			subtitle: "要UHV电压"
+			subtitle: "{gtlcore.quest.gtl.quest.40823abfbbe43496.subtitle}"
 			tasks: [
 				{
 					id: "3985EEFFFEEAF1BC"
@@ -4708,13 +4708,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "加氡裂化富集硅岩"
+			title: "{gtlcore.quest.gtl.quest.40823abfbbe43496.title}"
 			x: 30.5d
 			y: 20.0d
 		}
 		{
 			dependencies: ["40823ABFBBE43496"]
-			description: ["还有少量的超能硅岩废液产出"]
+			description: ["{gtlcore.quest.gtl.quest.7248ec9288c91a33.description.0000}"]
 			icon: "gtceu:enriched_naquadah_fuel_bucket"
 			id: "7248EC9288C91A33"
 			tasks: [
@@ -4729,7 +4729,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "富集硅岩燃料"
+			title: "{gtlcore.quest.gtl.quest.7248ec9288c91a33.title}"
 			x: 32.0d
 			y: 20.0d
 		}
@@ -4752,7 +4752,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硅岩溶液"
+			title: "{gtlcore.quest.gtl.quest.1ee19e725dc91553.title}"
 			x: 24.5d
 			y: 17.0d
 		}
@@ -4760,7 +4760,7 @@
 			dependencies: ["1EE19E725DC91553"]
 			icon: "gtceu:fluorine_cracked_aquadah_bucket"
 			id: "7D1E1EB10A6FFE98"
-			subtitle: "要UV电压"
+			subtitle: "{gtlcore.quest.gtl.quest.7d1e1eb10a6ffe98.subtitle}"
 			tasks: [
 				{
 					id: "144F9B3C76BDFECA"
@@ -4773,16 +4773,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "加氟裂化硅岩"
+			title: "{gtlcore.quest.gtl.quest.7d1e1eb10a6ffe98.title}"
 			x: 28.0d
 			y: 17.0d
 		}
 		{
 			dependencies: ["7D1E1EB10A6FFE98"]
-			description: ["还有少量的富集硅岩废液产出"]
+			description: ["{gtlcore.quest.gtl.quest.75d953244e729fec.description.0000}"]
 			icon: "gtceu:naquadah_fuel_bucket"
 			id: "75D953244E729FEC"
-			subtitle: "可以回收20%的硝酸铵和氟"
+			subtitle: "{gtlcore.quest.gtl.quest.75d953244e729fec.subtitle}"
 			tasks: [
 				{
 					id: "5EE6707C631C948A"
@@ -4795,7 +4795,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硅岩燃料"
+			title: "{gtlcore.quest.gtl.quest.75d953244e729fec.title}"
 			x: 32.0d
 			y: 17.0d
 		}
@@ -4805,7 +4805,7 @@
 				"7248EC9288C91A33"
 				"14C55CE8EA930227"
 			]
-			description: ["在&4UHV&r这种燃料才会发挥作用"]
+			description: ["{gtlcore.quest.gtl.quest.0d53712aa7f733a8.description.0000}"]
 			icon: "gtceu:hyper_fuel_1_bucket"
 			id: "0D53712AA7F733A8"
 			tasks: [
@@ -4820,7 +4820,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "超能燃料 I"
+			title: "{gtlcore.quest.gtl.quest.0d53712aa7f733a8.title}"
 			x: 35.0d
 			y: 20.0d
 		}
@@ -4853,7 +4853,7 @@
 			]
 			icon: "gtceu:enriched_naquadah_front_bucket"
 			id: "6A5AB82C3E14D091"
-			subtitle: "制作精金的材料"
+			subtitle: "{gtlcore.quest.gtl.quest.6a5ab82c3e14d091.subtitle}"
 			tasks: [
 				{
 					id: "4666200C2877EED6"
@@ -4866,20 +4866,20 @@
 					type: "checkmark"
 				}
 			]
-			title: "富集硅岩矿石泡沫"
+			title: "{gtlcore.quest.gtl.quest.6a5ab82c3e14d091.title}"
 			x: 24.5d
 			y: 26.0d
 		}
 		{
-			description: ["其实这里只有到UHV的部分内容"]
+			description: ["{gtlcore.quest.gtl.quest.430303070695d7d3.description.0000}"]
 			icon: "minecraft:totem_of_undying"
 			id: "430303070695D7D3"
 			shape: "gear"
 			size: 2.0d
-			subtitle: "你需要自己查看JEI以知道你需要什么"
+			subtitle: "{gtlcore.quest.gtl.quest.430303070695d7d3.subtitle}"
 			tasks: [{
 				id: "19CF50A809E4A437"
-				title: "你已经是一个成熟的员工了"
+				title: "{gtlcore.quest.gtl.task.19cf50a809e4a437.title}"
 				type: "checkmark"
 			}]
 			x: 48.0d
@@ -4890,7 +4890,7 @@
 			hide_dependency_lines: true
 			icon: "gtceu:uranium_sulfate_waste_solution_bucket"
 			id: "2AA1609DA42EA84F"
-			subtitle: "晶质铀矿处理"
+			subtitle: "{gtlcore.quest.gtl.quest.2aa1609da42ea84f.subtitle}"
 			tasks: [
 				{
 					id: "0C75C7BABA17EE50"
@@ -4903,22 +4903,22 @@
 					type: "checkmark"
 				}
 			]
-			title: "硫酸铀废液"
+			title: "{gtlcore.quest.gtl.quest.2aa1609da42ea84f.title}"
 			x: 10.5d
 			y: 27.5d
 		}
 		{
 			dependencies: ["2AA1609DA42EA84F"]
 			description: [
-				"看小撮镭粉的配方"
+				"{gtlcore.quest.gtl.quest.65ba1075b4ba1c0a.description.0000}"
 				""
-				"后面的凯金化合物处理也会产出镭粉"
+				"{gtlcore.quest.gtl.quest.65ba1075b4ba1c0a.description.0002}"
 			]
 			icon: "gtceu:radium_dust"
 			icon_scale: 2.0d
 			id: "65BA1075B4BA1C0A"
 			shape: "diamond"
-			subtitle: "UV开始有用"
+			subtitle: "{gtlcore.quest.gtl.quest.65ba1075b4ba1c0a.subtitle}"
 			tasks: [
 				{
 					id: "7BC139E963716816"
@@ -4969,7 +4969,7 @@
 			icon_scale: 2.0d
 			id: "2A7BB94047BD42E9"
 			shape: "diamond"
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.2a7bb94047bd42e9.subtitle}"
 			tasks: [
 				{
 					id: "17F4452862287597"
@@ -4996,7 +4996,7 @@
 			icon_scale: 2.0d
 			id: "5CC02A5F67A676F6"
 			shape: "diamond"
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.5cc02a5f67a676f6.subtitle}"
 			tasks: [
 				{
 					id: "69CCA25F4CA41F6C"
@@ -5022,7 +5022,7 @@
 			icon_scale: 2.0d
 			id: "337AEE190971194A"
 			shape: "diamond"
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.337aee190971194a.subtitle}"
 			tasks: [
 				{
 					id: "2531D9E3E2F3B5B2"
@@ -5044,12 +5044,12 @@
 				"4A86402C581ABB27"
 			]
 			dependency_requirement: "one_completed"
-			description: ["普通的矿物处理流程也会大量产出钕"]
+			description: ["{gtlcore.quest.gtl.quest.40819b02d619cc50.description.0000}"]
 			icon: "gtceu:neodymium_dust"
 			icon_scale: 2.0d
 			id: "40819B02D619CC50"
 			shape: "diamond"
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.40819b02d619cc50.subtitle}"
 			tasks: [
 				{
 					id: "04A4A48B18A019BC"
@@ -5075,7 +5075,7 @@
 			icon_scale: 2.0d
 			id: "3B7425C576EB10C2"
 			shape: "diamond"
-			subtitle: "稀土处理也能产出"
+			subtitle: "{gtlcore.quest.gtl.quest.3b7425c576eb10c2.subtitle}"
 			tasks: [
 				{
 					id: "75EC27FBF3F8C250"
@@ -5096,7 +5096,7 @@
 			id: "6784066D68451295"
 			tasks: [{
 				id: "6E36C1A398EA5670"
-				title: "其他东西"
+				title: "{gtlcore.quest.gtl.task.6e36c1a398ea5670.title}"
 				type: "checkmark"
 			}]
 			x: 43.5d
@@ -5108,20 +5108,20 @@
 			id: "4B3E2F27FE938277"
 			tasks: [{
 				id: "48D82E87760BFCFF"
-				title: "石化生化"
+				title: "{gtlcore.quest.gtl.task.48d82e87760bfcff.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
 			y: 2.0d
 		}
 		{
-			description: ["{ \"text\": \"蒸发塔的搭建注意事项见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"224B850538D346D3\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"224B850538D346D3\"},\"translate\":\"gtlcore.quest.gtl.quest.3ab780c51f3f021a.description.0000.text.0000\"}"]
 			id: "3AB780C51F3F021A"
 			tasks: [{
 				id: "6B75C2EA75F998A8"
 				type: "checkmark"
 			}]
-			title: "盐水提溴/碘"
+			title: "{gtlcore.quest.gtl.quest.3ab780c51f3f021a.title}"
 			x: 40.5d
 			y: 8.0d
 		}
@@ -5129,7 +5129,7 @@
 			id: "507C5D3A6F000A45"
 			tasks: [{
 				id: "38EF2F5FCB289A8C"
-				title: "海带提碘"
+				title: "{gtlcore.quest.gtl.task.38ef2f5fcb289a8c.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -5145,7 +5145,7 @@
 			icon_scale: 2.0d
 			id: "3E12F92D695A7CF8"
 			shape: "diamond"
-			subtitle: "用海带提取更简单"
+			subtitle: "{gtlcore.quest.gtl.quest.3e12f92d695a7cf8.subtitle}"
 			tasks: [
 				{
 					id: "64D41D2845646560"
@@ -5163,7 +5163,7 @@
 		}
 		{
 			dependencies: ["6730821C43B619C5"]
-			description: ["{ \"text\": \"后面可以用太空电梯直接采集\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1FE5F8D737ADB1B8\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"1FE5F8D737ADB1B8\"},\"translate\":\"gtlcore.quest.gtl.quest.4a7883f69f6490c5.description.0000.text.0000\"}"]
 			icon: "gtceu:bromine_bucket"
 			icon_scale: 2.0d
 			id: "4A7883F69F6490C5"
@@ -5180,7 +5180,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "溴"
+			title: "{gtlcore.quest.gtl.quest.4a7883f69f6490c5.title}"
 			x: 48.0d
 			y: 8.0d
 		}
@@ -5200,7 +5200,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "盐水"
+			title: "{gtlcore.quest.gtl.quest.56d717659a69161f.title}"
 			x: 40.5d
 			y: 9.0d
 		}
@@ -5220,7 +5220,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "粗卤水"
+			title: "{gtlcore.quest.gtl.quest.228ebcb0e3778d76.title}"
 			x: 42.0d
 			y: 9.0d
 		}
@@ -5240,7 +5240,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "热卤水"
+			title: "{gtlcore.quest.gtl.quest.7f83f74ab862ffc5.title}"
 			x: 43.5d
 			y: 10.0d
 		}
@@ -5260,7 +5260,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "碘化氢"
+			title: "{gtlcore.quest.gtl.quest.540616f05f35ad13.title}"
 			x: 45.0d
 			y: 11.0d
 		}
@@ -5284,16 +5284,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "热碱性脱溴卤水"
+			title: "{gtlcore.quest.gtl.quest.3684fed87ff9c6ef.title}"
 			x: 45.0d
 			y: 10.0d
 		}
 		{
 			dependencies: ["3684FED87FF9C6EF"]
-			description: ["脱溴卤水没有任何用途"]
+			description: ["{gtlcore.quest.gtl.quest.3d95f917f5899b44.description.0000}"]
 			icon: "gtceu:hot_debrominated_brine_bucket"
 			id: "3D95F917F5899B44"
-			subtitle: "和粗卤水反应回收部分热卤水"
+			subtitle: "{gtlcore.quest.gtl.quest.3d95f917f5899b44.subtitle}"
 			tasks: [
 				{
 					id: "15A375BF317C6676"
@@ -5306,7 +5306,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "热脱溴卤水"
+			title: "{gtlcore.quest.gtl.quest.3d95f917f5899b44.title}"
 			x: 46.5d
 			y: 10.0d
 		}
@@ -5326,7 +5326,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "热氯化溴卤水"
+			title: "{gtlcore.quest.gtl.quest.41c3b9a9845b579c.title}"
 			x: 43.5d
 			y: 9.0d
 		}
@@ -5346,7 +5346,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "溴化氯蒸汽"
+			title: "{gtlcore.quest.gtl.quest.44df921a86bf4ffb.title}"
 			x: 43.5d
 			y: 8.0d
 		}
@@ -5366,7 +5366,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "酸性溴溶液"
+			title: "{gtlcore.quest.gtl.quest.4c10197d6155bc5e.title}"
 			x: 45.0d
 			y: 8.0d
 		}
@@ -5375,7 +5375,7 @@
 			description: [""]
 			icon: "gtceu:concentrated_bromine_solution_bucket"
 			id: "6730821C43B619C5"
-			subtitle: "还能回收部分气态氯"
+			subtitle: "{gtlcore.quest.gtl.quest.6730821c43b619c5.subtitle}"
 			tasks: [
 				{
 					id: "3E1AF2B3DF402882"
@@ -5388,7 +5388,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "浓溴溶液"
+			title: "{gtlcore.quest.gtl.quest.6730821c43b619c5.title}"
 			x: 46.5d
 			y: 8.0d
 		}
@@ -5396,7 +5396,7 @@
 			dependencies: ["4C10197D6155BC5E"]
 			icon: "gtceu:acidic_bromine_exhaust_bucket"
 			id: "2E03A7381EACF886"
-			subtitle: "和热卤水反应回收部分热氯化溴卤水"
+			subtitle: "{gtlcore.quest.gtl.quest.2e03a7381eacf886.subtitle}"
 			tasks: [
 				{
 					id: "3DEFD1508F5F68BD"
@@ -5409,7 +5409,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "酸性溴废气"
+			title: "{gtlcore.quest.gtl.quest.2e03a7381eacf886.title}"
 			x: 46.5d
 			y: 9.0d
 		}
@@ -5467,7 +5467,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "海带浆液"
+			title: "{gtlcore.quest.gtl.quest.01fe8a98578af2c3.title}"
 			x: 43.5d
 			y: 12.0d
 		}
@@ -5487,13 +5487,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "富集碘化钾浆液"
+			title: "{gtlcore.quest.gtl.quest.5228ead34af13835.title}"
 			x: 45.0d
 			y: 12.0d
 		}
 		{
 			dependencies: ["5228EAD34AF13835"]
-			description: ["电解岩盐回收氯气"]
+			description: ["{gtlcore.quest.gtl.quest.5b0dc99796fe65df.description.0000}"]
 			icon: "gtceu:iodine_containing_slurry_bucket"
 			id: "5B0DC99796FE65DF"
 			tasks: [
@@ -5508,7 +5508,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "含碘溶液"
+			title: "{gtlcore.quest.gtl.quest.5b0dc99796fe65df.title}"
 			x: 46.5d
 			y: 12.0d
 		}
@@ -5518,7 +5518,7 @@
 			icon_scale: 2.0d
 			id: "4440E4317E21101C"
 			shape: "diamond"
-			subtitle: "在UV会用到"
+			subtitle: "{gtlcore.quest.gtl.quest.4440e4317e21101c.subtitle}"
 			tasks: [
 				{
 					id: "4C27A37CC08EBE15"
@@ -5569,7 +5569,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氯化锗"
+			title: "{gtlcore.quest.gtl.quest.05aba04e8e9e01d1.title}"
 			x: 45.0d
 			y: 16.0d
 		}
@@ -5630,7 +5630,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "灰烬浸出液"
+			title: "{gtlcore.quest.gtl.quest.358e53e79232de08.title}"
 			x: 42.0d
 			y: 15.0d
 		}
@@ -5650,7 +5650,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丹宁"
+			title: "{gtlcore.quest.gtl.quest.450ddc84a3ed9e67.title}"
 			x: 42.0d
 			y: 17.0d
 		}
@@ -5697,7 +5697,7 @@
 			id: "1278152299FBED54"
 			tasks: [{
 				id: "5B9C945576034637"
-				title: "灰烬提锗"
+				title: "{gtlcore.quest.gtl.task.5b9c945576034637.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -5707,7 +5707,7 @@
 			id: "61A202B234E64B8C"
 			tasks: [{
 				id: "7F413725CD381E13"
-				title: "锆石处理"
+				title: "{gtlcore.quest.gtl.task.7f413725cd381e13.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -5719,7 +5719,7 @@
 			icon_scale: 2.0d
 			id: "5589EA34A58E2A32"
 			shape: "diamond"
-			subtitle: "在UV会用到"
+			subtitle: "{gtlcore.quest.gtl.quest.5589ea34a58e2a32.subtitle}"
 			tasks: [
 				{
 					id: "3808BC0372BAF686"
@@ -5741,7 +5741,7 @@
 			icon_scale: 2.0d
 			id: "38128ABFF4C30595"
 			shape: "diamond"
-			subtitle: "在UV会用到"
+			subtitle: "{gtlcore.quest.gtl.quest.38128abff4c30595.subtitle}"
 			tasks: [
 				{
 					id: "52A3AEC0EE82A6F0"
@@ -5778,7 +5778,7 @@
 		}
 		{
 			dependencies: ["64706BF0EC96AB4F"]
-			description: ["电解获得硅粉，还能回收部分气态氯"]
+			description: ["{gtlcore.quest.gtl.quest.7a96027096126976.description.0000}"]
 			icon: "gtceu:zircon_chlorinating_residue_bucket"
 			id: "7A96027096126976"
 			tasks: [
@@ -5793,7 +5793,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "锆氯化反应残渣"
+			title: "{gtlcore.quest.gtl.quest.7a96027096126976.title}"
 			x: 42.0d
 			y: 21.0d
 		}
@@ -5813,7 +5813,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "锆-铪氯化物"
+			title: "{gtlcore.quest.gtl.quest.5012177f0fb6bc2c.title}"
 			x: 42.0d
 			y: 20.0d
 		}
@@ -5833,7 +5833,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "锆-铪氯氧化物"
+			title: "{gtlcore.quest.gtl.quest.3e6b2e4fcd5a6e90.title}"
 			x: 43.5d
 			y: 20.0d
 		}
@@ -5934,7 +5934,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "其它材料"
+			title: "{gtlcore.quest.gtl.quest.68a781120a98b0fb.title}"
 			x: 43.5d
 			y: 21.0d
 		}
@@ -5944,7 +5944,7 @@
 			icon_scale: 2.0d
 			id: "4D0ABB8BAB575DDC"
 			shape: "diamond"
-			subtitle: "在UEV会用到"
+			subtitle: "{gtlcore.quest.gtl.quest.4d0abb8bab575ddc.subtitle}"
 			tasks: [
 				{
 					id: "2AA0689645DCE9D2"
@@ -5964,7 +5964,7 @@
 			id: "78C7EC57A93783BE"
 			tasks: [{
 				id: "6A2450E473D02995"
-				title: "辉钼提铼"
+				title: "{gtlcore.quest.gtl.task.6a2450e473d02995.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -5974,7 +5974,7 @@
 			dependencies: ["0989A526E0188F2A"]
 			icon: "gtceu:ammonium_perrhenate_bucket"
 			id: "094804D1F190858B"
-			subtitle: "还有别的用途"
+			subtitle: "{gtlcore.quest.gtl.quest.094804d1f190858b.subtitle}"
 			tasks: [
 				{
 					id: "3496FF05E7C21A9E"
@@ -5987,7 +5987,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "高铼酸铵"
+			title: "{gtlcore.quest.gtl.quest.094804d1f190858b.title}"
 			x: 46.5d
 			y: 24.5d
 		}
@@ -6007,7 +6007,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "铼硫酸溶液"
+			title: "{gtlcore.quest.gtl.quest.0989a526e0188f2a.title}"
 			x: 45.0d
 			y: 24.5d
 		}
@@ -6027,7 +6027,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "钼烟气"
+			title: "{gtlcore.quest.gtl.quest.2052cbf18afb6a9f.title}"
 			x: 43.5d
 			y: 24.5d
 		}
@@ -6107,7 +6107,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化钠"
+			title: "{gtlcore.quest.gtl.quest.57f8807d5e9777eb.title}"
 			x: 40.5d
 			y: 24.5d
 		}
@@ -6115,7 +6115,7 @@
 			dependencies: ["20AF1DB9161AF24F"]
 			icon: "gtceu:gold_cyanide_bucket"
 			id: "51A893594B30F3F1"
-			subtitle: "用于回收氰化钠，还能提取金粉"
+			subtitle: "{gtlcore.quest.gtl.quest.51a893594b30f3f1.subtitle}"
 			tasks: [
 				{
 					id: "062655E09CFDD3DE"
@@ -6128,7 +6128,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化金"
+			title: "{gtlcore.quest.gtl.quest.51a893594b30f3f1.title}"
 			x: 43.5d
 			y: 25.5d
 		}
@@ -6148,7 +6148,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氰化氢"
+			title: "{gtlcore.quest.gtl.quest.36f60d47583e34f2.title}"
 			x: 40.5d
 			y: 25.5d
 		}
@@ -6156,7 +6156,7 @@
 			dependencies: ["2AB3893648555B8C"]
 			icon: "gtceu:molybdenum_trioxide_dust"
 			id: "23A05AC4EADC9FDA"
-			subtitle: "以后另有用处"
+			subtitle: "{gtlcore.quest.gtl.quest.23a05ac4eadc9fda.subtitle}"
 			tasks: [
 				{
 					id: "473700F9AB008A98"
@@ -6174,11 +6174,11 @@
 		}
 		{
 			dependencies: ["7DB48A5766BD91E6"]
-			description: ["前者是特殊化工原料，后者用于艾萨线"]
+			description: ["{gtlcore.quest.gtl.quest.4402c84cf27479a9.description.0000}"]
 			icon: "gtceu:cyclopentadiene_bucket"
 			icon_scale: 2.0d
 			id: "4402C84CF27479A9"
-			subtitle: "环戊二烯和松油"
+			subtitle: "{gtlcore.quest.gtl.quest.4402c84cf27479a9.subtitle}"
 			tasks: [
 				{
 					id: "4232D42BA6387D5A"
@@ -6197,15 +6197,15 @@
 					type: "checkmark"
 				}
 			]
-			title: "石脑油的特殊产物"
+			title: "{gtlcore.quest.gtl.quest.4402c84cf27479a9.title}"
 			x: 42.0d
 			y: 3.0d
 		}
 		{
 			description: [
-				"氢氧化钾-钾电解循环在前期的效率高于电解水"
+				"{gtlcore.quest.gtl.quest.6b7aa3abf8d020b5.description.0000}"
 				""
-				"氢氧化钙和氢氧化钾的效率一样，氢氧化钠的效率低一点"
+				"{gtlcore.quest.gtl.quest.6b7aa3abf8d020b5.description.0002}"
 			]
 			icon: "gtceu:hydrogen_bucket"
 			icon_scale: 2.0d
@@ -6223,12 +6223,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "气态氢"
+			title: "{gtlcore.quest.gtl.quest.6b7aa3abf8d020b5.title}"
 			x: 42.0d
 			y: 6.0d
 		}
 		{
-			description: ["电解盐水，也可以电解盐或者岩盐"]
+			description: ["{gtlcore.quest.gtl.quest.2cdb693780b9be2e.description.0000}"]
 			icon: "gtceu:chlorine_bucket"
 			icon_scale: 2.0d
 			id: "2CDB693780B9BE2E"
@@ -6245,15 +6245,15 @@
 					type: "checkmark"
 				}
 			]
-			title: "气态氯"
+			title: "{gtlcore.quest.gtl.quest.2cdb693780b9be2e.title}"
 			x: 46.5d
 			y: 6.0d
 		}
 		{
 			description: [
-				"氟前期来源于电解黄玉类或者云母类粉"
+				"{gtlcore.quest.gtl.quest.3530ef128290387a.description.0000}"
 				""
-				"深板岩粉可以离心得到黑云母粉"
+				"{gtlcore.quest.gtl.quest.3530ef128290387a.description.0002}"
 			]
 			icon: "gtceu:fluorine_bucket"
 			icon_scale: 2.0d
@@ -6271,12 +6271,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "气态氟"
+			title: "{gtlcore.quest.gtl.quest.3530ef128290387a.title}"
 			x: 45.0d
 			y: 6.0d
 		}
 		{
-			description: ["和气态氢一致"]
+			description: ["{gtlcore.quest.gtl.quest.1d45d9cfb1fe7b47.description.0000}"]
 			icon: "gtceu:oxygen_bucket"
 			icon_scale: 2.0d
 			id: "1D45D9CFB1FE7B47"
@@ -6293,12 +6293,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "气态氧"
+			title: "{gtlcore.quest.gtl.quest.1d45d9cfb1fe7b47.title}"
 			x: 43.5d
 			y: 6.0d
 		}
 		{
-			description: ["离心空气或者电解硝石"]
+			description: ["{gtlcore.quest.gtl.quest.072df7ac0e91d955.description.0000}"]
 			icon: "gtceu:nitrogen_bucket"
 			icon_scale: 2.0d
 			id: "072DF7AC0E91D955"
@@ -6315,7 +6315,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "气态氮"
+			title: "{gtlcore.quest.gtl.quest.072df7ac0e91d955.title}"
 			x: 48.0d
 			y: 6.0d
 		}
@@ -6323,7 +6323,7 @@
 			id: "5C85BA8F26EAEF6B"
 			tasks: [{
 				id: "1BD55B8B514F6837"
-				title: "一些常用气体"
+				title: "{gtlcore.quest.gtl.task.1bd55b8b514f6837.title}"
 				type: "checkmark"
 			}]
 			x: 40.5d
@@ -6331,7 +6331,7 @@
 		}
 		{
 			dependencies: ["68765386EA084EC0"]
-			description: ["自动挖掘矿物"]
+			description: ["{gtlcore.quest.gtl.quest.411628d717089480.description.0000}"]
 			id: "411628D717089480"
 			optional: true
 			tasks: [
@@ -6356,7 +6356,7 @@
 					type: "item"
 				}
 			]
-			title: "采矿机"
+			title: "{gtlcore.quest.gtl.quest.411628d717089480.title}"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -6376,7 +6376,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氟化氡"
+			title: "{gtlcore.quest.gtl.quest.5ed340bdf18d3d7b.title}"
 			x: 27.5d
 			y: 24.0d
 		}
@@ -6399,7 +6399,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "二氟三氧氙酸铯"
+			title: "{gtlcore.quest.gtl.quest.37038abc92527c87.title}"
 			x: 29.0d
 			y: 25.0d
 		}
@@ -6419,7 +6419,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "三氧化氙"
+			title: "{gtlcore.quest.gtl.quest.43f49b949d085df8.title}"
 			x: 27.5d
 			y: 25.0d
 		}
@@ -6439,7 +6439,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟化铯"
+			title: "{gtlcore.quest.gtl.quest.0d3b890089d80412.title}"
 			x: 27.5d
 			y: 26.0d
 		}
@@ -6459,7 +6459,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酰氟"
+			title: "{gtlcore.quest.gtl.quest.44ba755cd566eb42.title}"
 			x: 30.5d
 			y: 25.0d
 		}
@@ -6480,7 +6480,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氟锑酸"
+			title: "{gtlcore.quest.gtl.quest.55233e02b6c95444.title}"
 			x: 24.5d
 			y: 21.5d
 		}
@@ -6491,7 +6491,7 @@
 			]
 			icon: "gtceu:gold_trifluoride_dust"
 			id: "05B41A85F662F218"
-			subtitle: "溴可以100%回收"
+			subtitle: "{gtlcore.quest.gtl.quest.05b41a85f662f218.subtitle}"
 			tasks: [
 				{
 					id: "05E92B2FD4A5CA01"
@@ -6523,12 +6523,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化金"
+			title: "{gtlcore.quest.gtl.quest.328058cbcc254aec.title}"
 			x: 27.5d
 			y: 21.0d
 		}
 		{
-			description: ["{ \"text\": \"溴的来源\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3AB780C51F3F021A\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3AB780C51F3F021A\"},\"translate\":\"gtlcore.quest.gtl.quest.5abe1c11479a0229.description.0000.text.0000\"}"]
 			icon: "gtceu:bromine_trifluoride_bucket"
 			id: "5ABE1C11479A0229"
 			shape: "pentagon"
@@ -6544,26 +6544,26 @@
 					type: "checkmark"
 				}
 			]
-			title: "三氟化溴"
+			title: "{gtlcore.quest.gtl.quest.5abe1c11479a0229.title}"
 			x: 29.0d
 			y: 22.0d
 		}
 		{
 			dependencies: ["38091E7431B96FF6"]
 			id: "40B8E6C5B9FEA5D4"
-			subtitle: "氟锑酸二氙，三氧化氡，八氟氙酸亚硝酰，硫酸钠，硫化钡......"
+			subtitle: "{gtlcore.quest.gtl.quest.40b8e6c5b9fea5d4.subtitle}"
 			tasks: [{
 				id: "68E93738BB4FE9A1"
-				title: "回收"
+				title: "{gtlcore.quest.gtl.task.68e93738bb4fe9a1.title}"
 				type: "checkmark"
 			}]
-			title: "回收那些无用的副产物"
+			title: "{gtlcore.quest.gtl.quest.40b8e6c5b9fea5d4.title}"
 			x: 21.5d
 			y: 17.0d
 		}
 		{
 			dependencies: ["6B8E242FD397D8B4"]
-			description: ["先通过离心钚239获得，后面可以用聚变稳定产出"]
+			description: ["{gtlcore.quest.gtl.quest.3885639c66eb8e84.description.0000}"]
 			hide_dependency_lines: true
 			icon: "gtceu:plutonium_241_dust"
 			icon_scale: 2.0d
@@ -6590,7 +6590,7 @@
 			id: "18CB66D8EABD5132"
 			tasks: [{
 				id: "059C6D910694FC36"
-				title: "稀土处理"
+				title: "{gtlcore.quest.gtl.task.059c6d910694fc36.title}"
 				type: "checkmark"
 			}]
 			x: 18.5d
@@ -6605,7 +6605,7 @@
 			id: "6DB1B7A9173E2C78"
 			tasks: [{
 				id: "182BB2FF62D525C5"
-				title: "富集硅岩处理（艾萨）"
+				title: "{gtlcore.quest.gtl.task.182bb2ff62d525c5.title}"
 				type: "checkmark"
 			}]
 			x: 20.0d
@@ -6613,15 +6613,15 @@
 		}
 		{
 			description: [
-				"非实体生成模式："
-				"1号电路：铁锭、皮革、竹子、羽毛、线、虞美人、生猪排、生牛肉、生兔肉、生羊肉、骨头、生鳕鱼、生鲑鱼、兔子皮"
+				"{gtlcore.quest.gtl.quest.19d339f25e824a2c.description.0000}"
+				"{gtlcore.quest.gtl.quest.19d339f25e824a2c.description.0001}"
 				""
-				"2号电路：恶魂之泪、木棍、&d末影珍珠&r、火药、煤炭、玻璃瓶、&d荧石&r、腐肉、线、骨头、金粒、蜘蛛眼、箭、糖、红石"
+				"{gtlcore.quest.gtl.quest.19d339f25e824a2c.description.0003}"
 				""
-				"实体生成模式的额外产出："
-				"1号电路：各种染色羊毛、绿宝石、小麦、兔子脚、鸡蛋"
+				"{gtlcore.quest.gtl.quest.19d339f25e824a2c.description.0005}"
+				"{gtlcore.quest.gtl.quest.19d339f25e824a2c.description.0006}"
 				""
-				"2号电路：各种武器和护甲、&d烈焰棒&r、不详旗帜、金锭、铁锭、铜锭、胡萝卜、马铃薯、&d凋零骷髅头颅&r、粘液球、鹦鹉螺壳"
+				"{gtlcore.quest.gtl.quest.19d339f25e824a2c.description.0008}"
 			]
 			icon: "gtceu:slaughterhouse"
 			id: "19D339F25E824A2C"
@@ -6632,7 +6632,7 @@
 			}]
 			tasks: [{
 				id: "6A3DC88D5B9616B4"
-				title: "屠宰场的产出"
+				title: "{gtlcore.quest.gtl.task.6a3dc88d5b9616b4.title}"
 				type: "checkmark"
 			}]
 			x: 49.5d
@@ -6642,10 +6642,10 @@
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:molten_stainless_steel_bucket"
 			id: "2A1FD2014EA69CFD"
-			subtitle: "forge:molten"
+			subtitle: "{gtlcore.quest.gtl.quest.2a1fd2014ea69cfd.subtitle}"
 			tasks: [{
 				id: "3F3605BFBBA3D0C7"
-				title: "熔融XX"
+				title: "{gtlcore.quest.gtl.task.3f3605bfbba3d0c7.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -6655,10 +6655,10 @@
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:hot_vibrant_alloy_ingot"
 			id: "22C01BA26841FDCC"
-			subtitle: "forge:hot_ingots"
+			subtitle: "{gtlcore.quest.gtl.quest.22c01ba26841fdcc.subtitle}"
 			tasks: [{
 				id: "7377537FC932F3A3"
-				title: "热锭"
+				title: "{gtlcore.quest.gtl.task.7377537fc932f3a3.title}"
 				type: "checkmark"
 			}]
 			x: 5.5d
@@ -6669,7 +6669,7 @@
 			id: "7CBD79CE32AF8E30"
 			tasks: [{
 				id: "7F7A6D5BDCF43234"
-				title: "一些别的可能用到的标签"
+				title: "{gtlcore.quest.gtl.task.7f7a6d5bdcf43234.title}"
 				type: "checkmark"
 			}]
 			x: 4.0d
@@ -6679,10 +6679,10 @@
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:orichalcum_plasma_bucket"
 			id: "4AD5D24C2C018D79"
-			subtitle: "forge:plasmas"
+			subtitle: "{gtlcore.quest.gtl.quest.4ad5d24c2c018d79.subtitle}"
 			tasks: [{
 				id: "755D300470DEE06F"
-				title: "状态：等离子态"
+				title: "{gtlcore.quest.gtl.task.755d300470dee06f.title}"
 				type: "checkmark"
 			}]
 			x: 9.5d
@@ -6694,7 +6694,7 @@
 			id: "39380262677612A9"
 			tasks: [{
 				id: "1B85421BB1F7B489"
-				title: "下界合金"
+				title: "{gtlcore.quest.gtl.task.1b85421bb1f7b489.title}"
 				type: "checkmark"
 			}]
 			x: 32.0d
@@ -6773,7 +6773,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "下界空气"
+			title: "{gtlcore.quest.gtl.quest.5dfa4e55cf2b2f8e.title}"
 			x: 36.5d
 			y: 16.0d
 		}
@@ -6829,7 +6829,7 @@
 			icon_scale: 2.0d
 			id: "6C963FE46ADB8248"
 			shape: "diamond"
-			subtitle: "UHV会大量用到"
+			subtitle: "{gtlcore.quest.gtl.quest.6c963fe46adb8248.subtitle}"
 			tasks: [
 				{
 					id: "10B94E07D196E75E"
@@ -6847,7 +6847,7 @@
 		}
 		{
 			dependencies: ["68765386EA084EC0"]
-			description: ["无中生有"]
+			description: ["{gtlcore.quest.gtl.quest.5bc3d0488341f862.description.0000}"]
 			id: "5BC3D0488341F862"
 			optional: true
 			tasks: [
@@ -6932,7 +6932,7 @@
 					type: "item"
 				}
 			]
-			title: "碎岩机"
+			title: "{gtlcore.quest.gtl.quest.5bc3d0488341f862.title}"
 			x: 4.5d
 			y: -1.0d
 		}
@@ -6975,7 +6975,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "碎岩机"
+			title: "{gtlcore.quest.gtl.quest.076e96e5eb3e44e5.title}"
 			x: 15.0d
 			y: 15.0d
 		}
@@ -6985,7 +6985,7 @@
 			icon_scale: 1.3d
 			id: "4215A91343202A6B"
 			shape: "hexagon"
-			subtitle: "HV"
+			subtitle: "{gtlcore.quest.gtl.quest.4215a91343202a6b.subtitle}"
 			tasks: [
 				{
 					id: "071D3417FD960E28"
@@ -7016,7 +7016,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "玄武岩"
+			title: "{gtlcore.quest.gtl.quest.4215a91343202a6b.title}"
 			x: 15.0d
 			y: 16.0d
 		}
@@ -7026,7 +7026,7 @@
 			icon_scale: 1.3d
 			id: "345BC85E25F99D40"
 			shape: "hexagon"
-			subtitle: "MV"
+			subtitle: "{gtlcore.quest.gtl.quest.345bc85e25f99d40.subtitle}"
 			tasks: [
 				{
 					id: "60A29AA5C8FA0516"
@@ -7045,7 +7045,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "安山岩"
+			title: "{gtlcore.quest.gtl.quest.345bc85e25f99d40.title}"
 			x: 14.0d
 			y: 14.0d
 		}
@@ -7055,7 +7055,7 @@
 			icon_scale: 1.3d
 			id: "6A48668B229F78CA"
 			shape: "hexagon"
-			subtitle: "EV"
+			subtitle: "{gtlcore.quest.gtl.quest.6a48668b229f78ca.subtitle}"
 			tasks: [
 				{
 					id: "40978FA3DFEA0B7D"
@@ -7080,7 +7080,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "红花岗岩"
+			title: "{gtlcore.quest.gtl.quest.6a48668b229f78ca.title}"
 			x: 14.0d
 			y: 16.0d
 		}
@@ -7090,7 +7090,7 @@
 			icon_scale: 1.3d
 			id: "0D9308DCD09B474E"
 			shape: "hexagon"
-			subtitle: "MV"
+			subtitle: "{gtlcore.quest.gtl.quest.0d9308dcd09b474e.subtitle}"
 			tasks: [
 				{
 					id: "6071AFDD8B759A8F"
@@ -7109,7 +7109,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "花岗岩"
+			title: "{gtlcore.quest.gtl.quest.0d9308dcd09b474e.title}"
 			x: 16.0d
 			y: 14.0d
 		}
@@ -7119,7 +7119,7 @@
 			icon_scale: 1.3d
 			id: "7179DFEE938964BA"
 			shape: "hexagon"
-			subtitle: "ULV"
+			subtitle: "{gtlcore.quest.gtl.quest.7179dfee938964ba.subtitle}"
 			tasks: [
 				{
 					id: "5389CEF002749982"
@@ -7162,7 +7162,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "石头"
+			title: "{gtlcore.quest.gtl.quest.7179dfee938964ba.title}"
 			x: 15.0d
 			y: 14.0d
 		}
@@ -7172,7 +7172,7 @@
 			icon_scale: 1.3d
 			id: "4A5C14B5973D3023"
 			shape: "hexagon"
-			subtitle: "HV"
+			subtitle: "{gtlcore.quest.gtl.quest.4a5c14b5973d3023.subtitle}"
 			tasks: [
 				{
 					id: "368685543329F956"
@@ -7191,7 +7191,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "大理岩"
+			title: "{gtlcore.quest.gtl.quest.4a5c14b5973d3023.title}"
 			x: 16.0d
 			y: 15.0d
 		}
@@ -7201,7 +7201,7 @@
 			icon_scale: 1.3d
 			id: "211E2CF1BEE6D504"
 			shape: "hexagon"
-			subtitle: "EV"
+			subtitle: "{gtlcore.quest.gtl.quest.211e2cf1bee6d504.subtitle}"
 			tasks: [
 				{
 					id: "74266AE3CA591DF0"
@@ -7226,7 +7226,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "深板岩"
+			title: "{gtlcore.quest.gtl.quest.211e2cf1bee6d504.title}"
 			x: 16.0d
 			y: 16.0d
 		}
@@ -7236,7 +7236,7 @@
 			icon_scale: 1.3d
 			id: "2628AD721D2CCE91"
 			shape: "hexagon"
-			subtitle: "HV"
+			subtitle: "{gtlcore.quest.gtl.quest.2628ad721d2cce91.subtitle}"
 			tasks: [
 				{
 					id: "54408E88165249FE"
@@ -7267,7 +7267,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "黑曜石"
+			title: "{gtlcore.quest.gtl.quest.2628ad721d2cce91.title}"
 			x: 14.0d
 			y: 15.0d
 		}
@@ -7278,7 +7278,7 @@
 			]
 			icon: "gtceu:thorite_powder_dust"
 			id: "5DECAB3C913C31FE"
-			subtitle: "产出钍粉"
+			subtitle: "{gtlcore.quest.gtl.quest.5decab3c913c31fe.subtitle}"
 			tasks: [
 				{
 					id: "4AB9A987C16B775E"
@@ -7299,7 +7299,7 @@
 			id: "324D979A0D38E7D1"
 			tasks: [{
 				id: "31F6875681F15099"
-				title: "石头们也有产出"
+				title: "{gtlcore.quest.gtl.task.31f6875681f15099.title}"
 				type: "checkmark"
 			}]
 			x: 12.5d
@@ -7403,12 +7403,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "还有一些杂七杂八的粉"
+			title: "{gtlcore.quest.gtl.quest.51a4ef883d0f293c.title}"
 			x: 22.0d
 			y: 8.0d
 		}
 		{
-			description: ["你会在主世界看到很多种喷出的油，其中海上喷出的Ad Astra的石油毫无用处"]
+			description: ["{gtlcore.quest.gtl.quest.113d8ae67948f32e.description.0000}"]
 			icon: "ad_astra:oil_bucket"
 			id: "113D8AE67948F32E"
 			optional: true
@@ -7416,12 +7416,12 @@
 				id: "685DD7E3D6ECAE89"
 				type: "checkmark"
 			}]
-			title: "石油"
+			title: "{gtlcore.quest.gtl.quest.113d8ae67948f32e.title}"
 			x: 45.0d
 			y: 2.0d
 		}
 		{
-			description: ["和石油一样，Ad Astra的燃油也是没有任何用途"]
+			description: ["{gtlcore.quest.gtl.quest.29c1f160ecaa561a.description.0000}"]
 			icon: "ad_astra:fuel_bucket"
 			id: "29C1F160ECAA561A"
 			optional: true
@@ -7434,17 +7434,17 @@
 				id: "7927D04D69656205"
 				type: "checkmark"
 			}]
-			title: "燃油"
+			title: "{gtlcore.quest.gtl.quest.29c1f160ecaa561a.title}"
 			x: 46.5d
 			y: 2.0d
 		}
 		{
 			description: [
-				"月球的结构中可能会有包含戴斯的箱子以及戴斯原矿"
+				"{gtlcore.quest.gtl.quest.3ab939b4878750a7.description.0000}"
 				""
-				"金星的结构里面可能有下界岩和远古残骸"
+				"{gtlcore.quest.gtl.quest.3ab939b4878750a7.description.0002}"
 				""
-				"火星的神庙结构里面固定带有一个紫金块"
+				"{gtlcore.quest.gtl.quest.3ab939b4878750a7.description.0004}"
 			]
 			icon: "ad_astra:moon_cheese_ore"
 			id: "3AB939B4878750A7"
@@ -7458,7 +7458,7 @@
 				id: "266B8FD89AAB2C20"
 				type: "checkmark"
 			}]
-			title: "结构生成"
+			title: "{gtlcore.quest.gtl.quest.3ab939b4878750a7.title}"
 			x: 48.0d
 			y: 2.0d
 		}
@@ -7479,7 +7479,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸铵溶液"
+			title: "{gtlcore.quest.gtl.quest.1cc46f9d14ab0c07.title}"
 			x: 20.0d
 			y: 5.5d
 		}
@@ -7500,7 +7500,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "丙酮"
+			title: "{gtlcore.quest.gtl.quest.22aee3f4f698d455.title}"
 			x: 20.0d
 			y: 6.5d
 		}
@@ -7540,7 +7540,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "草酸"
+			title: "{gtlcore.quest.gtl.quest.4ae8888208f4fde9.title}"
 			x: 20.0d
 			y: 7.5d
 		}
@@ -7561,7 +7561,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸"
+			title: "{gtlcore.quest.gtl.quest.3de17f205e0ffcd2.title}"
 			x: 20.0d
 			y: 8.5d
 		}
@@ -7582,7 +7582,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氢氟酸"
+			title: "{gtlcore.quest.gtl.quest.3826d52a9d851e44.title}"
 			x: 20.0d
 			y: 9.5d
 		}
@@ -7602,7 +7602,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "盐酸"
+			title: "{gtlcore.quest.gtl.quest.115a8f4a3ff514d8.title}"
 			x: 26.0d
 			y: 10.0d
 		}
@@ -7623,7 +7623,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "盐酸"
+			title: "{gtlcore.quest.gtl.quest.1cd8b448677a18f1.title}"
 			x: 8.5d
 			y: 17.0d
 		}
@@ -7722,7 +7722,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "王水"
+			title: "{gtlcore.quest.gtl.quest.0ae7e19dc4fd17b2.title}"
 			x: 7.5d
 			y: 17.0d
 		}
@@ -7742,7 +7742,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲酸"
+			title: "{gtlcore.quest.gtl.quest.043ef736c9e6b3fb.title}"
 			x: 4.5d
 			y: 22.0d
 		}
@@ -7768,7 +7768,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "还有两种燃料棒"
+			title: "{gtlcore.quest.gtl.quest.536f166366a79ca8.title}"
 			x: 7.5d
 			y: 26.5d
 		}
@@ -7788,7 +7788,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸铵溶液"
+			title: "{gtlcore.quest.gtl.quest.1f017eda47785d38.title}"
 			x: 23.0d
 			y: 17.0d
 		}
@@ -7796,25 +7796,25 @@
 			dependencies: ["7CBD79CE32AF8E30"]
 			icon: "gtceu:argon_bucket"
 			id: "73CAB219B444F14D"
-			subtitle: "forge:gases"
+			subtitle: "{gtlcore.quest.gtl.quest.73cab219b444f14d.subtitle}"
 			tasks: [{
 				id: "71EDCBA7450E2BA3"
-				title: "状态：气态"
+				title: "{gtlcore.quest.gtl.task.71edcba7450e2ba3.title}"
 				type: "checkmark"
 			}]
-			title: "状态：气态"
+			title: "{gtlcore.quest.gtl.quest.73cab219b444f14d.title}"
 			x: 11.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["7CBD79CE32AF8E30"]
-			description: ["不包括熔融XX"]
+			description: ["{gtlcore.quest.gtl.quest.5f6743f253daa00e.description.0000}"]
 			icon: "gtceu:chaos_bucket"
 			id: "5F6743F253DAA00E"
-			subtitle: "forge:liquids"
+			subtitle: "{gtlcore.quest.gtl.quest.5f6743f253daa00e.subtitle}"
 			tasks: [{
 				id: "531281C4D12E64E1"
-				title: "状态：液态"
+				title: "{gtlcore.quest.gtl.task.531281c4d12e64e1.title}"
 				type: "checkmark"
 			}]
 			x: 13.5d
@@ -7827,7 +7827,7 @@
 			]
 			icon: "gtceu:red_mud_bucket"
 			id: "6A97D3F6B0CE2C42"
-			subtitle: "艾萨线和稀土离心机也会产出"
+			subtitle: "{gtlcore.quest.gtl.quest.6a97d3f6b0ce2c42.subtitle}"
 			tasks: [
 				{
 					id: "5C43373EB7CD8621"
@@ -7840,7 +7840,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "赤泥"
+			title: "{gtlcore.quest.gtl.quest.6a97d3f6b0ce2c42.title}"
 			x: 43.5d
 			y: -1.0d
 		}
@@ -7860,7 +7860,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "中和赤泥"
+			title: "{gtlcore.quest.gtl.quest.10da22dcf8269ebe.title}"
 			x: 45.0d
 			y: -1.0d
 		}
@@ -7880,7 +7880,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "赤泥浆液"
+			title: "{gtlcore.quest.gtl.quest.7b36af4885ef0ce8.title}"
 			x: 46.5d
 			y: -1.0d
 		}
@@ -7900,7 +7900,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "含稀土氯化铁"
+			title: "{gtlcore.quest.gtl.quest.090b5ecf1e1446d0.title}"
 			x: 45.0d
 			y: 0.0d
 		}
@@ -7920,7 +7920,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硫酸钛酯"
+			title: "{gtlcore.quest.gtl.quest.6506b06ad3678111.title}"
 			x: 48.0d
 			y: -1.0d
 		}
@@ -7942,7 +7942,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氯化钛"
+			title: "{gtlcore.quest.gtl.quest.2169cc60a6cd56b1.title}"
 			x: 49.5d
 			y: -1.0d
 		}
@@ -7964,7 +7964,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "稀土氯化物"
+			title: "{gtlcore.quest.gtl.quest.0774ef5dc443a072.title}"
 			x: 46.5d
 			y: 0.0d
 		}
@@ -7984,7 +7984,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氯化铁"
+			title: "{gtlcore.quest.gtl.quest.0c9c6415d9dee550.title}"
 			x: 45.0d
 			y: 1.0d
 		}
@@ -8003,7 +8003,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氢氧化钠溶液"
+			title: "{gtlcore.quest.gtl.quest.19f3e6426c5c7fcd.title}"
 			x: 43.5d
 			y: 0.0d
 		}
@@ -8011,7 +8011,7 @@
 			dependencies: ["6F7ECACBB30F2E15"]
 			icon: "gtceu:stone_dust_residue_dust"
 			id: "4CD8D717657730DF"
-			subtitle: "下一步产出的精良残渣粉是塔兰的相关物品"
+			subtitle: "{gtlcore.quest.gtl.quest.4cd8d717657730df.subtitle}"
 			tasks: [
 				{
 					id: "1539BCE6AE619FDC"
@@ -8043,7 +8043,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "污浊的六氟硅酸"
+			title: "{gtlcore.quest.gtl.quest.6f7ecacbb30f2e15.title}"
 			x: 40.5d
 			y: -1.0d
 		}
@@ -8051,7 +8051,7 @@
 			id: "605B973142727552"
 			tasks: [{
 				id: "3A16890A86764715"
-				title: "赤泥"
+				title: "{gtlcore.quest.gtl.task.3a16890a86764715.title}"
 				type: "checkmark"
 			}]
 			x: 39.0d
@@ -8076,7 +8076,7 @@
 			y: -1.0d
 		}
 		{
-			description: ["熔岩的来源可以是熔岩炉或者虚空流体钻机"]
+			description: ["{gtlcore.quest.gtl.quest.6589ff5d2a68b509.description.0000}"]
 			icon: "minecraft:lava_bucket"
 			id: "6589FF5D2A68B509"
 			tasks: [
@@ -8121,7 +8121,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "熔岩的产出"
+			title: "{gtlcore.quest.gtl.quest.6589ff5d2a68b509.title}"
 			x: 49.5d
 			y: 4.0d
 		}
@@ -8130,7 +8130,7 @@
 			id: "5DF5B7470FF81C80"
 			tasks: [{
 				id: "5A8293F9BBF582C1"
-				title: "三种宝石浆液"
+				title: "{gtlcore.quest.gtl.task.5a8293f9bbf582c1.title}"
 				type: "checkmark"
 			}]
 			x: 16.0d
@@ -8176,7 +8176,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "红宝石浆液"
+			title: "{gtlcore.quest.gtl.quest.0b4b79cc02e2ff3e.title}"
 			x: 16.0d
 			y: 23.5d
 		}
@@ -8215,7 +8215,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "蓝宝石浆液"
+			title: "{gtlcore.quest.gtl.quest.36b91bd999443b6a.title}"
 			x: 17.0d
 			y: 25.0d
 		}
@@ -8259,7 +8259,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "绿色蓝宝石浆液"
+			title: "{gtlcore.quest.gtl.quest.49aa718b9cabf90e.title}"
 			x: 15.0d
 			y: 25.0d
 		}
@@ -8267,7 +8267,7 @@
 			dependencies: ["3A1B2DE425269339"]
 			icon: "minecraft:gravel"
 			id: "0BFC95A048BA34FF"
-			subtitle: "锻造锤"
+			subtitle: "{gtlcore.quest.gtl.quest.0bfc95a048ba34ff.subtitle}"
 			tasks: [
 				{
 					id: "6B28DACF192D2D0A"
@@ -8305,7 +8305,7 @@
 			dependencies: ["0BFC95A048BA34FF"]
 			icon: "minecraft:sand"
 			id: "314AFD72A3AE2A13"
-			subtitle: "还是锻造锤"
+			subtitle: "{gtlcore.quest.gtl.quest.314afd72a3ae2a13.subtitle}"
 			tasks: [
 				{
 					id: "3B4F398B48EF7AA3"
@@ -8325,7 +8325,7 @@
 			dependencies: ["314AFD72A3AE2A13"]
 			icon: "minecraft:glass"
 			id: "38960F5028500D2C"
-			subtitle: "熔炉"
+			subtitle: "{gtlcore.quest.gtl.quest.38960f5028500d2c.subtitle}"
 			tasks: [
 				{
 					id: "605927AC8EB703FB"
@@ -8345,7 +8345,7 @@
 			dependencies: ["38960F5028500D2C"]
 			icon: "gtceu:glass_dust"
 			id: "710DAA152D6FFCA2"
-			subtitle: "研磨"
+			subtitle: "{gtlcore.quest.gtl.quest.710daa152d6ffca2.subtitle}"
 			tasks: [
 				{
 					id: "5B9681EB0DBFF167"
@@ -8363,12 +8363,12 @@
 		}
 		{
 			dependencies: ["710DAA152D6FFCA2"]
-			description: ["可以直接用于电力高炉烧取硅锭，也可以电解获得氧气和硅粉"]
+			description: ["{gtlcore.quest.gtl.quest.2eed5b75dee9b11a.description.0000}"]
 			icon: "gtceu:silicon_dioxide_dust"
 			icon_scale: 2.0d
 			id: "2EED5B75DEE9B11A"
 			shape: "diamond"
-			subtitle: "离心机"
+			subtitle: "{gtlcore.quest.gtl.quest.2eed5b75dee9b11a.subtitle}"
 			tasks: [
 				{
 					id: "497E915C86EF6DD6"
@@ -8388,12 +8388,12 @@
 			id: "379B4B02D157C824"
 			tasks: [{
 				id: "1B072339BCBE0852"
-				title: "硅氧线"
+				title: "{gtlcore.quest.gtl.task.1b072339bcbe0852.title}"
 				type: "checkmark"
 			}]
 			x: 28.5d
 			y: -2.0d
 		}
 	]
-	title: "原料提取"
+	title: "{gtlcore.quest.gtl.chapter.0ef94fa5d02096d9.title}"
 }

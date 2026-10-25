@@ -12,5 +12,5 @@
 		{ item: "gtceu:silver_quadruple_cable" }
 		{ item: "gtceu:silver_octal_cable", weight: 0.4f }
 	]
-	title: "MV-HV线缆包"
+	title: "{gtlcore.quest.gtl.reward_table.3aa667fb8b86a288.title}"
 }

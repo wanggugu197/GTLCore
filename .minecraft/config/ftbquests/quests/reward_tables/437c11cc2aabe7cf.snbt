@@ -8,5 +8,5 @@
 		{ count: 16, item: "gtceu:fluid_filter" }
 		{ count: 16, item: "gtceu:fluid_tag_filter" }
 	]
-	title: "过滤卡"
+	title: "{gtlcore.quest.gtl.reward_table.437c11cc2aabe7cf.title}"
 }

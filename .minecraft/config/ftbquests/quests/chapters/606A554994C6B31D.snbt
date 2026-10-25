@@ -12,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["可以在丛林神庙中寻得，也可以在渔场钓出"]
+			description: ["{gtlcore.quest.gtl.quest.369ba1002418f097.description.0000}"]
 			id: "369BA1002418F097"
 			tasks: [{
 				consume_items: false
@@ -20,7 +20,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "上古宝物"
+			title: "{gtlcore.quest.gtl.quest.369ba1002418f097.title}"
 			x: -7.5d
 			y: -7.0d
 		}
@@ -28,15 +28,15 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"使用这个神奇的瓶子对着工作中的GT机器潜行右键可以加速机器工作"
-				"当然，使用如此强大的物品会消耗你的饥饿值，且加速能力随机器等级的提升而减弱"
-				"机制："
-				"每次使用消耗1使用次数，使用次数每秒回复1，存储的使用次数上限为20"
-				"从蒸汽机器到HV机器的机器等级为0-3级，大于HV级无效"
-				"机器配方运行时间大于20秒时时间减少(4-机器等级)x2秒"
-				"机器配方运行时间大于10秒时时间减少(4-机器等级)秒"
-				"机器配方运行时间大于2秒时时间减少(4-机器等级)x0.5秒"
-				"土高炉为固定减少5秒"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0000}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0001}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0002}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0003}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0004}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0005}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0006}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0007}"
+				"{gtlcore.quest.gtl.quest.15a4420d900fede6.description.0008}"
 			]
 			icon: {
 				Count: 1
@@ -59,6 +59,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "{gtlcore.quest.gtl.quest.15a4420d900fede6.subtitle}"
 			tasks: [
 				{
 					consume_items: true
@@ -73,14 +74,14 @@
 					type: "item"
 				}
 			]
-			title: "时间之瓶"
+			title: "{gtlcore.quest.gtl.quest.15a4420d900fede6.title}"
 			x: -6.0d
 			y: -7.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
-			description: ["右键范围秒杀一切敌对生物"]
+			description: ["{gtlcore.quest.gtl.quest.59e9131bd015b4f5.description.0000}"]
 			icon: "avaritia:infinity_sword"
 			id: "59E9131BD015B4F5"
 			optional: true
@@ -103,20 +104,20 @@
 					type: "item"
 				}
 			]
-			title: "寰宇支配之剑"
+			title: "{gtlcore.quest.gtl.quest.59e9131bd015b4f5.title}"
 			x: -4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"带有夜视、饱和和创造飞行，X键可加速飞行，最高4倍，潜行加X可以重制飞行速度，无需能量的同时没有空中挖掘惩罚"
+				"{gtlcore.quest.gtl.quest.204d5882d7f5cf64.description.0000}"
 				""
-				"Z键开关夜视；默认\"；\"键切换穿墙"
+				"{gtlcore.quest.gtl.quest.204d5882d7f5cf64.description.0002}"
 				""
-				"{ \"text\": \"可使用宇航服升级为抵抗宇宙危险的航天版本，无需氧气\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"79AEF94C9E242133\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"79AEF94C9E242133\"},\"translate\":\"gtlcore.quest.gtl.quest.204d5882d7f5cf64.description.0004.text.0000\"}"
 				""
-				"无尽套和星体套的操作方法与镄套装一致"
+				"{gtlcore.quest.gtl.quest.204d5882d7f5cf64.description.0006}"
 			]
 			icon: {
 				Count: 1
@@ -195,14 +196,14 @@
 					type: "item"
 				}
 			]
-			title: "镄套装"
+			title: "{gtlcore.quest.gtl.quest.204d5882d7f5cf64.title}"
 			x: 1.5d
 			y: -7.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
-			description: ["单纯用来打破基岩，并不会掉落基岩"]
+			description: ["{gtlcore.quest.gtl.quest.3a0e2c1b07649b81.description.0000}"]
 			icon: {
 				Count: 1
 				id: "kubejs:bedrock_destroyer"
@@ -256,14 +257,14 @@
 					weak_nbt_match: true
 				}
 			]
-			title: "基岩破坏者"
+			title: "{gtlcore.quest.gtl.quest.3a0e2c1b07649b81.title}"
 			x: -1.5d
 			y: -7.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["0BB44C475666B862"]
-			description: ["将附魔书敲在工具上可使工具具有旅行权杖的右键传送功能（会与其他有右键功能的工具冲突）"]
+			description: ["{gtlcore.quest.gtl.quest.0a5739f8e482b47e.description.0000}"]
 			disable_toast: true
 			icon: "travelanchors:travel_staff"
 			id: "0A5739F8E482B47E"
@@ -297,7 +298,7 @@
 					type: "item"
 				}
 			]
-			title: "省一个格子"
+			title: "{gtlcore.quest.gtl.quest.0a5739f8e482b47e.title}"
 			x: -6.0d
 			y: -4.0d
 		}
@@ -305,13 +306,13 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"高速挖掘，默认按&bJ&r可调节速度，潜行加快调节速度，超过1000会重置到初始数值"
+				"{gtlcore.quest.gtl.quest.57097b0bba1cf850.description.0000}"
 				""
-				"潜行左键可以开关磁力吸引"
+				"{gtlcore.quest.gtl.quest.57097b0bba1cf850.description.0002}"
 				""
-				"金刚杵作为GT工具有扳手和剪线钳的功能"
+				"{gtlcore.quest.gtl.quest.57097b0bba1cf850.description.0004}"
 				""
-				"不消耗耐久和电量"
+				"{gtlcore.quest.gtl.quest.57097b0bba1cf850.description.0006}"
 			]
 			icon: {
 				Count: 1
@@ -425,7 +426,7 @@
 					type: "item"
 				}
 			]
-			title: "金钢杵"
+			title: "{gtlcore.quest.gtl.quest.57097b0bba1cf850.title}"
 			x: 0.0d
 			y: -7.0d
 		}
@@ -457,7 +458,7 @@
 					type: "item"
 				}
 			]
-			title: "蒸汽机械方块"
+			title: "{gtlcore.quest.gtl.quest.3e6bc2f76ed6f531.title}"
 			x: 0.0d
 			y: -5.5d
 		}
@@ -480,7 +481,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "奸商"
+			title: "{gtlcore.quest.gtl.quest.2d03768503c09d2d.title}"
 			x: -4.5d
 			y: -2.5d
 		}
@@ -504,7 +505,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "黑心老板"
+			title: "{gtlcore.quest.gtl.quest.1f3806972b21488e.title}"
 			x: -3.0d
 			y: -2.5d
 		}
@@ -528,22 +529,22 @@
 				item: { Count: 100, id: "gtceu:ancient_gold_coin" }
 				type: "item"
 			}]
-			title: "资本家"
+			title: "{gtlcore.quest.gtl.quest.5d20fdb89b25fb89.title}"
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["423E927A2EE3A956"]
 			description: [
-				"无线终端两两之间可以合成为通用终端（通用终端之间同理）"
+				"{gtlcore.quest.gtl.quest.30787b18066763db.description.0000}"
 				""
-				"把奇点和末影粉一起丢在地上用爆炸物（TNT、炸药桶等）炸可获得量子缠绕态奇点"
+				"{gtlcore.quest.gtl.quest.30787b18066763db.description.0002}"
 				""
-				"装载&d量子桥卡&r的前提下将一对量子缠绕态奇点分别放置在量子环和无线终端中可以让无线终端&b跨纬度无限距离&r与ME网络互动，且能让终端无线充电"
+				"{gtlcore.quest.gtl.quest.30787b18066763db.description.0004}"
 				""
-				"磁卡可以将掉落物直接吸入ME网络（通用终端才能装载磁卡；样板编码和管理界面无法配置磁卡，合成界面才可以）"
+				"{gtlcore.quest.gtl.quest.30787b18066763db.description.0006}"
 				""
-				"带有无线终端时默认中键从ME网络内选取方块"
+				"{gtlcore.quest.gtl.quest.30787b18066763db.description.0008}"
 			]
 			disable_toast: true
 			icon: "ae2:wireless_receiver"
@@ -633,7 +634,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			title: "无线大礼包"
+			title: "{gtlcore.quest.gtl.quest.30787b18066763db.title}"
 			x: 3.0d
 			y: -7.0d
 		}
@@ -657,13 +658,13 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "AE线缆"
+			title: "{gtlcore.quest.gtl.quest.74d4aa7ca6a67f59.title}"
 			x: -1.5d
 			y: -5.5d
 		}
 		{
 			can_repeat: true
-			description: ["实际上染料可以通过消耗盐和硫酸实现自我增殖"]
+			description: ["{gtlcore.quest.gtl.quest.7b72a96fc0a31033.description.0000}"]
 			icon: "minecraft:yellow_dye"
 			id: "7B72A96FC0A31033"
 			optional: true
@@ -679,7 +680,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "多彩世界"
+			title: "{gtlcore.quest.gtl.quest.7b72a96fc0a31033.title}"
 			x: -7.5d
 			y: -5.5d
 		}
@@ -691,7 +692,7 @@
 			optional: true
 			tasks: [{
 				id: "01ED6237660732C1"
-				title: "空岛"
+				title: "{gtlcore.quest.gtl.task.01ed6237660732c1.title}"
 				type: "checkmark"
 			}]
 			x: -7.5d
@@ -713,14 +714,14 @@
 				item: "gtceu:ulv_fragment_world_collection_machine"
 				type: "item"
 			}]
-			subtitle: "再来一台"
+			subtitle: "{gtlcore.quest.gtl.quest.16a27768544cdacb.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "30DBCFC58F070BB5"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "碎片世界采集器"
+			title: "{gtlcore.quest.gtl.quest.16a27768544cdacb.title}"
 			x: -6.0d
 			y: -1.0d
 		}
@@ -755,13 +756,13 @@
 					type: "item"
 				}
 			]
-			title: "蒸汽机械方块*10"
+			title: "{gtlcore.quest.gtl.quest.5c28b39c5a5b7999.title}"
 			x: -0.5d
 			y: -5.0d
 		}
 		{
 			can_repeat: true
-			description: ["可以用目标显示器快速提交"]
+			description: ["{gtlcore.quest.gtl.quest.3d3257c9f9c151f1.description.0000}"]
 			disable_toast: true
 			icon: "gtceu:portable_debug_scanner"
 			id: "3D3257C9F9C151F1"
@@ -833,7 +834,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "抽奖"
+			title: "{gtlcore.quest.gtl.quest.3d3257c9f9c151f1.title}"
 			x: 0.0d
 			y: -2.5d
 		}
@@ -857,7 +858,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "奇异植物"
+			title: "{gtlcore.quest.gtl.quest.15d2c4d62f746f8e.title}"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -880,14 +881,14 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "菌丝体"
+			title: "{gtlcore.quest.gtl.quest.4567aa9d7b0d3cc0.title}"
 			x: 1.5d
 			y: -1.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["74D9136DE32F9129"]
-			description: ["hub可以和另外的hub连接，从而无限嵌套"]
+			description: ["{gtlcore.quest.gtl.quest.288f75626178a5e5.description.0000}"]
 			disable_toast: true
 			icon: "expatternprovider:wireless_connect"
 			id: "288F75626178A5E5"
@@ -914,7 +915,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "无线连接器"
+			title: "{gtlcore.quest.gtl.quest.288f75626178a5e5.title}"
 			x: 1.5d
 			y: -5.5d
 		}
@@ -940,7 +941,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "AE线缆*10"
+			title: "{gtlcore.quest.gtl.quest.73580f0c930cf62d.title}"
 			x: -2.0d
 			y: -5.0d
 		}
@@ -1006,7 +1007,7 @@
 				item: "gtceu:cupronickel_credit"
 				type: "item"
 			}]
-			title: "树苗大礼包"
+			title: "{gtlcore.quest.gtl.quest.0afaba150764064d.title}"
 			x: -6.0d
 			y: -5.5d
 		}
@@ -1022,14 +1023,14 @@
 				item: "avaritia:star_fuel"
 				type: "item"
 			}]
-			subtitle: "比钻石耐烧"
+			subtitle: "{gtlcore.quest.gtl.quest.7ee5da5164bd22a3.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "27368E8BA5B2D852"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "恒星燃料"
+			title: "{gtlcore.quest.gtl.quest.7ee5da5164bd22a3.title}"
 			x: -4.5d
 			y: -5.5d
 		}
@@ -1049,7 +1050,7 @@
 				item: "gtceu:ulv_fragment_world_collection_machine"
 				type: "item"
 			}]
-			subtitle: "再来一台"
+			subtitle: "{gtlcore.quest.gtl.quest.5c9016400cb5ce94.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -1057,7 +1058,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "碎片世界采集器"
+			title: "{gtlcore.quest.gtl.quest.5c9016400cb5ce94.title}"
 			x: -4.5d
 			y: -1.0d
 		}
@@ -1076,7 +1077,7 @@
 				item: "gtceu:ulv_fragment_world_collection_machine"
 				type: "item"
 			}]
-			subtitle: "再来一台"
+			subtitle: "{gtlcore.quest.gtl.quest.49fcf7722ffb15e0.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 64L
@@ -1084,7 +1085,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "碎片世界采集器"
+			title: "{gtlcore.quest.gtl.quest.49fcf7722ffb15e0.title}"
 			x: -3.0d
 			y: -1.0d
 		}
@@ -1105,7 +1106,7 @@
 				item: "gtceu:copper_credit"
 				type: "item"
 			}]
-			title: "如果实在找不到橡胶树"
+			title: "{gtlcore.quest.gtl.quest.5054fd991d1d0b95.title}"
 			x: -6.5d
 			y: -5.0d
 		}
@@ -1113,9 +1114,9 @@
 			can_repeat: true
 			dependencies: ["369BA1002418F097"]
 			description: [
-				"可以将ME接口，ME样板供应器和ME驱动器为封装包裹，保留内部一切设置，手持包裹右键方块可以放置封装设备"
+				"{gtlcore.quest.gtl.quest.7dab120908cdfa34.description.0000}"
 				""
-				"注意：放置包裹后设备有极大可能不与ME网络连接（离线），需要与其互动使其能够连网"
+				"{gtlcore.quest.gtl.quest.7dab120908cdfa34.description.0002}"
 			]
 			icon: {
 				Count: 1
@@ -1143,7 +1144,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "无法破坏的ME封装胶带"
+			title: "{gtlcore.quest.gtl.quest.7dab120908cdfa34.title}"
 			x: -3.0d
 			y: -7.0d
 		}
@@ -1165,7 +1166,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "无线覆盖板"
+			title: "{gtlcore.quest.gtl.quest.25f7bda5ce06de15.title}"
 			x: 1.5d
 			y: -4.0d
 		}
@@ -1283,7 +1284,7 @@
 					type: "item"
 				}
 			]
-			title: "炫彩透镜"
+			title: "{gtlcore.quest.gtl.quest.4574a92031339d1f.title}"
 			x: -7.5d
 			y: -4.0d
 		}
@@ -1307,7 +1308,7 @@
 				item: "gtceu:ancient_gold_coin"
 				type: "item"
 			}]
-			title: "海洋世界"
+			title: "{gtlcore.quest.gtl.quest.7967aaa100851b87.title}"
 			x: 3.0d
 			y: -1.0d
 		}
@@ -1329,7 +1330,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "LV超导"
+			title: "{gtlcore.quest.gtl.quest.3af2865f9c88cbfd.title}"
 			x: -3.0d
 			y: -4.0d
 		}
@@ -1352,7 +1353,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "MV超导"
+			title: "{gtlcore.quest.gtl.quest.2c67c2689302087c.title}"
 			x: -1.5d
 			y: -4.0d
 		}
@@ -1369,14 +1370,14 @@
 				item: "ad_astra:fluid_pipe_duct"
 				type: "item"
 			}]
-			subtitle: "如果你不想去挖戴斯"
+			subtitle: "{gtlcore.quest.gtl.quest.76ccf73a5bae819c.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "1A1A4D7DE1FE849B"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "高速管道的材料"
+			title: "{gtlcore.quest.gtl.quest.76ccf73a5bae819c.title}"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -1384,16 +1385,7 @@
 			can_repeat: true
 			dependencies: ["07AC1B02299EF734"]
 			disable_toast: true
-			icon: {
-				Count: 1
-				id: "expatternprovider:infinity_cell"
-				tag: {
-					record: {
-						"#c": "ae2:f"
-						id: "minecraft:water"
-					}
-				}
-			}
+			icon: "expatternprovider:infinity_cell"
 			id: "2213666AEE156B16"
 			optional: true
 			rewards: [{
@@ -1402,14 +1394,14 @@
 				table_id: 235539005227150062L
 				type: "choice"
 			}]
-			subtitle: "来点无限混凝土元件"
+			subtitle: "{gtlcore.quest.gtl.quest.2213666aee156b16.subtitle}"
 			tasks: [{
 				consume_items: true
 				id: "07A79C463A75BD17"
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "如果你觉得潜影箱麻烦"
+			title: "{gtlcore.quest.gtl.quest.2213666aee156b16.title}"
 			x: -3.0d
 			y: -5.5d
 		}
@@ -1429,7 +1421,7 @@
 				item: "gtceu:ulv_fragment_world_collection_machine"
 				type: "item"
 			}]
-			subtitle: "再来一台"
+			subtitle: "{gtlcore.quest.gtl.quest.6cb995a1e0a04d71.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 128L
@@ -1437,7 +1429,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "碎片世界采集器"
+			title: "{gtlcore.quest.gtl.quest.6cb995a1e0a04d71.title}"
 			x: -1.5d
 			y: -1.0d
 		}
@@ -1459,7 +1451,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			title: "巨企"
+			title: "{gtlcore.quest.gtl.quest.07cbd674009e9f7b.title}"
 			x: -7.5d
 			y: -2.5d
 		}
@@ -1481,7 +1473,7 @@
 				item: "gtceu:doge_coin"
 				type: "item"
 			}]
-			title: "寰宇公司"
+			title: "{gtlcore.quest.gtl.quest.6eae19ec8243b019.title}"
 			x: -6.0d
 			y: -2.5d
 		}
@@ -1496,7 +1488,7 @@
 				table_id: 691790651274624478L
 				type: "random"
 			}]
-			subtitle: "不要沉迷"
+			subtitle: "{gtlcore.quest.gtl.quest.7ed9a979a4f27c00.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 32L
@@ -1504,14 +1496,14 @@
 				item: { Count: 32, id: "gtceu:copper_credit" }
 				type: "item"
 			}]
-			title: "试试手气"
+			title: "{gtlcore.quest.gtl.quest.7ed9a979a4f27c00.title}"
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
-			description: ["超大号物品抽屉"]
+			description: ["{gtlcore.quest.gtl.quest.082cfc6624aefd15.description.0000}"]
 			icon: "gtceu:uiv_quantum_chest"
 			id: "082CFC6624AEFD15"
 			optional: true
@@ -1521,7 +1513,7 @@
 				item: "gtceu:uiv_quantum_chest"
 				type: "item"
 			}]
-			subtitle: "比储物抽屉好"
+			subtitle: "{gtlcore.quest.gtl.quest.082cfc6624aefd15.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -1529,14 +1521,14 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "量子箱"
+			title: "{gtlcore.quest.gtl.quest.082cfc6624aefd15.title}"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["4B6F43302E963F5E"]
-			description: ["超大号流体抽屉"]
+			description: ["{gtlcore.quest.gtl.quest.735e838ff2e58283.description.0000}"]
 			icon: "gtceu:uiv_quantum_chest"
 			id: "735E838FF2E58283"
 			optional: true
@@ -1546,7 +1538,7 @@
 				item: "gtceu:uiv_quantum_tank"
 				type: "item"
 			}]
-			subtitle: "小小身体，大大肚量"
+			subtitle: "{gtlcore.quest.gtl.quest.735e838ff2e58283.subtitle}"
 			tasks: [{
 				consume_items: true
 				count: 8L
@@ -1554,7 +1546,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			title: "量子缸"
+			title: "{gtlcore.quest.gtl.quest.735e838ff2e58283.title}"
 			x: 3.0d
 			y: -2.5d
 		}
@@ -1575,7 +1567,7 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "旅行锚"
+			title: "{gtlcore.quest.gtl.quest.72071e20edfe5c1f.title}"
 			x: -4.5d
 			y: -4.0d
 		}
@@ -1596,10 +1588,10 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			title: "农贸市场"
+			title: "{gtlcore.quest.gtl.quest.4850ec4b20555b06.title}"
 			x: 3.0d
 			y: -5.5d
 		}
 	]
-	title: "小市场"
+	title: "{gtlcore.quest.gtl.chapter.606a554994c6b31d.title}"
 }

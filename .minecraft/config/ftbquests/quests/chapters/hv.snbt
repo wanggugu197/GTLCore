@@ -25,10 +25,10 @@
 			size: 2.0d
 			tasks: [{
 				id: "2F52039C169285CF"
-				title: "HV"
+				title: "{gtlcore.quest.gtl.task.2f52039c169285cf.title}"
 				type: "checkmark"
 			}]
-			title: "高压HV"
+			title: "{gtlcore.quest.gtl.quest.1a48d2db936ff632.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -53,7 +53,7 @@
 		}
 		{
 			dependencies: ["1C320B245EAC8D14"]
-			description: ["这个系列的最后一个电路"]
+			description: ["{gtlcore.quest.gtl.quest.7940cfd732610594.description.0000}"]
 			icon_scale: 2.0d
 			id: "7940CFD732610594"
 			rewards: [{
@@ -91,7 +91,7 @@
 					type: "item"
 				}
 			]
-			title: "HV传感器与发射器"
+			title: "{gtlcore.quest.gtl.quest.26fa6e064ef9ff5b.title}"
 			x: 6.0d
 			y: 2.0d
 		}
@@ -116,7 +116,7 @@
 		}
 		{
 			dependencies: ["61049DA87C6DEFC6"]
-			description: ["可以从屠宰场获得烈焰棒，记得打开实体模式"]
+			description: ["{gtlcore.quest.gtl.quest.3e9c078c4babae3b.description.0000}"]
 			id: "3E9C078C4BABAE3B"
 			rewards: [{
 				id: "45A95ECC52A47B8B"
@@ -151,9 +151,9 @@
 			dependencies: ["0243CEA5EE705EB0"]
 			dependency_requirement: "one_started"
 			description: [
-				"从微型到湿件系列的处理器（狭义）后续均可使用SoC芯片简化配方高效制作，简称soc电路"
+				"{gtlcore.quest.gtl.quest.3fcf807491579b94.description.0000}"
 				""
-				"SoC系列里面还有NAND芯片（ULV）和微芯片处理器（LV）"
+				"{gtlcore.quest.gtl.quest.3fcf807491579b94.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "3FCF807491579B94"
@@ -192,7 +192,7 @@
 				"18CA398800CC2E1B"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["没有超净间的情况下你得把电路组装机放在&6通用组装厂&r里面，然后给通用组装厂装上&b超净维护仓&r"]
+			description: ["{gtlcore.quest.gtl.quest.1c320b245eac8d14.description.0000}"]
 			icon_scale: 2.0d
 			id: "1C320B245EAC8D14"
 			rewards: [{
@@ -222,7 +222,7 @@
 				item: "gtceu:osmium_credit"
 				type: "item"
 			}]
-			subtitle: "必做"
+			subtitle: "{gtlcore.quest.gtl.quest.3461bf0d74e5e8df.subtitle}"
 			tasks: [{
 				id: "4C4E9514C39EE1F0"
 				item: "gtceu:micro_processor_mainframe"
@@ -236,7 +236,7 @@
 				"314E6600CD806FA0"
 				"26FA6E064EF9FF5B"
 			]
-			description: [" 放在多方块结构中使多方块获得&d超净间环境&r"]
+			description: ["{gtlcore.quest.gtl.quest.5e9ea7e22be663af.description.0000}"]
 			icon_scale: 2.0d
 			id: "5E9EA7E22BE663AF"
 			rewards: [{
@@ -245,7 +245,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "还能自动维护"
+			subtitle: "{gtlcore.quest.gtl.quest.5e9ea7e22be663af.subtitle}"
 			tasks: [{
 				id: "0106634910539280"
 				item: "gtceu:cleaning_maintenance_hatch"
@@ -257,9 +257,9 @@
 		{
 			dependencies: ["1A48D2DB936FF632"]
 			description: [
-				"可配置维护仓可以调整机器耗时倍数，但是更容易坏"
+				"{gtlcore.quest.gtl.quest.314e6600cd806fa0.description.0000}"
 				""
-				"自动维护仓永远都不需要手动维护"
+				"{gtlcore.quest.gtl.quest.314e6600cd806fa0.description.0002}"
 			]
 			id: "314E6600CD806FA0"
 			rewards: [{
@@ -280,7 +280,7 @@
 					type: "item"
 				}
 			]
-			title: "两种进阶维护仓"
+			title: "{gtlcore.quest.gtl.quest.314e6600cd806fa0.title}"
 			x: 6.0d
 			y: 6.0d
 		}
@@ -303,7 +303,7 @@
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["{ \"text\": \"前往探索世界章节了解更多\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"18A773A6B710C658\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"18A773A6B710C658\"},\"translate\":\"gtlcore.quest.gtl.quest.0931ecbaad9252c7.description.0000.text.0000\"}"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_1_rocket"
@@ -363,11 +363,11 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"渔场可以获得一些有用的资源，不要忘记造了"
+				"{gtlcore.quest.gtl.quest.6f85ab2294da3310.description.0000}"
 				""
-				"零点模块是ZPM等级的&d电池&r，也只能放进ZPM等级的电池箱"
+				"{gtlcore.quest.gtl.quest.6f85ab2294da3310.description.0002}"
 				""
-				"可以使用多个总线、巨型总线、库存总线等方法输入64根鱼竿"
+				"{gtlcore.quest.gtl.quest.6f85ab2294da3310.description.0004}"
 			]
 			icon_scale: 1.5d
 			id: "6F85AB2294DA3310"
@@ -388,12 +388,12 @@
 		{
 			dependencies: ["7940CFD732610594"]
 			description: [
-				"在EV的时候你就需要大量的奇奇怪怪的化工原料，现在不把石化生化联合产线搭好，后面EV会非常坐牢"
+				"{gtlcore.quest.gtl.quest.2eaaf5a6510d0efe.description.0000}"
 				""
-				"蒸馏塔除底层外每层&o&6仅能且必须&r放置一个&b小型&r输出仓，每个输出仓对应一种产物（可以自行叠高，高度无任何附加加成）"
-				"有且仅有&6底层&r可以使用&b输出总成&r，能够减少高度，如果使用&dME输出总成&r甚至可以只造三层"
+				"{gtlcore.quest.gtl.quest.2eaaf5a6510d0efe.description.0002}"
+				"{gtlcore.quest.gtl.quest.2eaaf5a6510d0efe.description.0003}"
 				""
-				"热解炉的速度加成上限为&a500%&r，裂化机的耗能加成下限为&a10%&r"
+				"{gtlcore.quest.gtl.quest.2eaaf5a6510d0efe.description.0005}"
 			]
 			icon_scale: 1.3d
 			id: "2EAAF5A6510D0EFE"
@@ -421,13 +421,13 @@
 					type: "item"
 				}
 			]
-			title: "石化生化产线"
+			title: "{gtlcore.quest.gtl.quest.2eaaf5a6510d0efe.title}"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["后面的热锭都需要用这台机器冷却，不能用化学浸洗机了"]
+			description: ["{gtlcore.quest.gtl.quest.027197a71e630966.description.0000}"]
 			icon_scale: 1.3d
 			id: "027197A71E630966"
 			rewards: [{
@@ -447,7 +447,7 @@
 		}
 		{
 			dependencies: ["027197A71E630966"]
-			description: ["可以从液态空气中获得氦气和氩气，这些都是烧制更高级金属的保护气"]
+			description: ["{gtlcore.quest.gtl.quest.2610283e00ec04e4.description.0000}"]
 			icon: "gtceu:liquid_air_bucket"
 			id: "2610283E00EC04E4"
 			tasks: [
@@ -462,7 +462,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态空气"
+			title: "{gtlcore.quest.gtl.quest.2610283e00ec04e4.title}"
 			x: 10.0d
 			y: 6.0d
 		}
@@ -526,7 +526,7 @@
 				"0A8178183C888BE0"
 				"5E9EA7E22BE663AF"
 			]
-			description: ["没有超净间的情况下你得把切割机放进&6通用加工厂&r里面，然后给通用加工厂装上&b超净维护仓"]
+			description: ["{gtlcore.quest.gtl.quest.676d1982102f4e79.description.0000}"]
 			id: "676D1982102F4E79"
 			rewards: [{
 				id: "73D294571F48A5E9"
@@ -591,14 +591,14 @@
 		}
 		{
 			dependencies: ["06F68B574AC84B7B"]
-			description: ["铂可以靠汞浸洗或者研磨镍矿提前获得。"]
+			description: ["{gtlcore.quest.gtl.quest.157a951da379c259.description.0000}"]
 			id: "157A951DA379C259"
 			rewards: [{
 				id: "22590F01A2B5B20C"
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "更加高效"
+			subtitle: "{gtlcore.quest.gtl.quest.157a951da379c259.subtitle}"
 			tasks: [
 				{
 					id: "00D5736963F13047"
@@ -626,7 +626,7 @@
 					type: "item"
 				}
 			]
-			title: "贴片"
+			title: "{gtlcore.quest.gtl.quest.157a951da379c259.title}"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -636,7 +636,7 @@
 				"01F143E991488E7C"
 			]
 			dependency_requirement: "one_completed"
-			description: ["聚四氟乙烯，简称PTFE是一种独特的塑料材料，具有卓越的化学稳定性、耐热性、低摩擦系数和非粘性表面，用作化学加工设备的零件、电子绝缘材料、泵和阀门的密封件。"]
+			description: ["{gtlcore.quest.gtl.quest.11186961491b1773.description.0000}"]
 			id: "11186961491B1773"
 			rewards: [{
 				id: "50D9BD8E2FED65CF"
@@ -654,9 +654,9 @@
 		{
 			dependencies: ["11186961491B1773"]
 			description: [
-				"拥有&b无损超频&r，且拥有&6专属高级配方&r（神奇的24号电路），比通用混合厂强大"
+				"{gtlcore.quest.gtl.quest.29450dc426c4e2d6.description.0000}"
 				""
-				"只能使用&e白铜线圈"
+				"{gtlcore.quest.gtl.quest.29450dc426c4e2d6.description.0002}"
 			]
 			icon_scale: 1.3d
 			id: "29450DC426C4E2D6"
@@ -677,7 +677,7 @@
 		}
 		{
 			dependencies: ["027197A71E630966"]
-			description: ["这种合金具有优异的耐腐蚀性、耐高温性和机械性能，常用于制造耐热、耐腐蚀的设备和部件。"]
+			description: ["{gtlcore.quest.gtl.quest.6843ab3573f42310.description.0000}"]
 			id: "6843AB3573F42310"
 			rewards: [{
 				id: "4521C94E7C8BF69B"
@@ -708,13 +708,13 @@
 				item: "gtceu:nichrome_coil_block"
 				type: "item"
 			}]
-			title: "镍铬合金线圈"
+			title: "{gtlcore.quest.gtl.quest.42e88fc72902fc0b.title}"
 			x: 12.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["0931ECBAAD9252C7"]
-			description: ["{ \"text\": \"挖钛的时候还能直接挖到铝\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4EDEAD01ABA4A16F\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4EDEAD01ABA4A16F\"},\"translate\":\"gtlcore.quest.gtl.quest.360787fe602fbf66.description.0000.text.0000\"}"]
 			id: "360787FE602FBF66"
 			rewards: [{
 				id: "2E4680FA75010FFB"
@@ -731,10 +731,10 @@
 		}
 		{
 			dependencies: ["360787FE602FBF66"]
-			description: ["{ \"text\": \"你也可以不上天就弄到四氯化钛\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"605B973142727552\" } } "]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"605B973142727552\"},\"translate\":\"gtlcore.quest.gtl.quest.1ac5a3b5522f78d9.description.0000.text.0000\"}"]
 			icon: "gtceu:titanium_tetrachloride_bucket"
 			id: "1AC5A3B5522F78D9"
-			subtitle: "还可以用于增产塑料"
+			subtitle: "{gtlcore.quest.gtl.quest.1ac5a3b5522f78d9.subtitle}"
 			tasks: [
 				{
 					id: "2B5DDF34950566F1"
@@ -747,7 +747,7 @@
 					type: "item"
 				}
 			]
-			title: "四氯化钛"
+			title: "{gtlcore.quest.gtl.quest.1ac5a3b5522f78d9.title}"
 			x: 14.0d
 			y: 4.0d
 		}
@@ -757,8 +757,8 @@
 				"027197A71E630966"
 			]
 			description: [
-				"如果你看到了这个粉是可以从矿物中获取的，请不要去寻找"
-				"这种矿物是后面通过大型虚空采矿机或者太空电梯获取的"
+				"{gtlcore.quest.gtl.quest.74d9136de32f9129.description.0000}"
+				"{gtlcore.quest.gtl.quest.74d9136de32f9129.description.0001}"
 			]
 			id: "74D9136DE32F9129"
 			rewards: [{
@@ -786,7 +786,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "终于可以获得研磨的副产物了"
+			subtitle: "{gtlcore.quest.gtl.quest.24a12d2f592dc50d.subtitle}"
 			tasks: [{
 				id: "68B4BAC1D648029B"
 				item: "gtceu:hv_macerator"
@@ -798,9 +798,9 @@
 		{
 			dependencies: ["027197A71E630966"]
 			description: [
-				"这个系列的最后一个，你可能也用不到了"
+				"{gtlcore.quest.gtl.quest.46bfdb71190c1f49.description.0000}"
 				""
-				"HV的正经超导是汞钡钙铜氧化物"
+				"{gtlcore.quest.gtl.quest.46bfdb71190c1f49.description.0002}"
 			]
 			id: "46BFDB71190C1F49"
 			rewards: [{
@@ -808,7 +808,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "HV的便宜超导"
+			subtitle: "{gtlcore.quest.gtl.quest.46bfdb71190c1f49.subtitle}"
 			tasks: [{
 				id: "7DDB9B944116C1C1"
 				item: "gtceu:vibrant_alloy_ingot"
@@ -826,7 +826,7 @@
 				item: "gtceu:gold_credit"
 				type: "item"
 			}]
-			subtitle: "贴片无限水"
+			subtitle: "{gtlcore.quest.gtl.quest.05360f828860db6f.subtitle}"
 			tasks: [{
 				id: "3743494D34E98762"
 				item: "gtceu:infinite_water_cover"
@@ -838,11 +838,11 @@
 		{
 			dependencies: ["1A48D2DB936FF632"]
 			description: [
-				"可以将宝石粉变为宝石"
+				"{gtlcore.quest.gtl.quest.58936ceb6176a18b.description.0000}"
 				""
-				"觉得吓人？用&b锻造锤&r右键让其安静下来"
+				"{gtlcore.quest.gtl.quest.58936ceb6176a18b.description.0002}"
 				""
-				"压缩箱子会造成奇怪的nbt识别问题，谨慎使用"
+				"{gtlcore.quest.gtl.quest.58936ceb6176a18b.description.0004}"
 			]
 			icon_scale: 1.5d
 			id: "58936CEB6176A18B"
@@ -862,7 +862,7 @@
 		}
 		{
 			dependencies: ["1A48D2DB936FF632"]
-			description: ["{ \"text\": \"超净间不值得建造 ，超净维护仓更加强大便捷\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5E9EA7E22BE663AF\" } }"]
+			description: ["{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5E9EA7E22BE663AF\"},\"translate\":\"gtlcore.quest.gtl.quest.46c791b2130a833b.description.0000.text.0000\"}"]
 			icon: "gtceu:cleanroom"
 			id: "46C791B2130A833B"
 			optional: true
@@ -871,22 +871,22 @@
 				item: "gtceu:silver_credit"
 				type: "item"
 			}]
-			subtitle: "有bug，不建议使用"
+			subtitle: "{gtlcore.quest.gtl.quest.46c791b2130a833b.subtitle}"
 			tasks: [{
 				id: "495F1F2B39DC8C3A"
 				type: "checkmark"
 			}]
-			title: "超净间"
+			title: "{gtlcore.quest.gtl.quest.46c791b2130a833b.title}"
 			x: -2.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["7940CFD732610594"]
-			description: ["只能使用&e坎塔尔合金线圈&r"]
+			description: ["{gtlcore.quest.gtl.quest.0752a7f2c67cdf76.description.0000}"]
 			icon_scale: 1.5d
 			id: "0752A7F2C67CDF76"
 			shape: "rsquare"
-			subtitle: "一步脱硫"
+			subtitle: "{gtlcore.quest.gtl.quest.0752a7f2c67cdf76.subtitle}"
 			tasks: [{
 				id: "44035FCFBB02978D"
 				item: "gtceu:desulfurizer"
@@ -897,7 +897,7 @@
 		}
 		{
 			dependencies: ["26FA6E064EF9FF5B"]
-			description: ["可以制作无线能源/动力仓了"]
+			description: ["{gtlcore.quest.gtl.quest.529cfb9da52d4930.description.0000}"]
 			icon: "gtceu:advanced_energy_detector_cover"
 			id: "529CFB9DA52D4930"
 			rewards: [
@@ -923,16 +923,16 @@
 		{
 			dependencies: ["74D9136DE32F9129"]
 			description: [
-				"使用扳手类工具右键该贴片可在访问端和供应端直接切换"
+				"{gtlcore.quest.gtl.quest.0718d5cede1587d1.description.0000}"
 				""
-				"访问端和供应端分别位于两个网络并相贴时，访问端网络可在下单时使用供应端网络内的可用样板，处理过程在供应端网络执行，产物会在完成处理时从供应端网络直接返回访问端网络"
+				"{gtlcore.quest.gtl.quest.0718d5cede1587d1.description.0002}"
 				""
-				"供应端网络应有存储部分"
+				"{gtlcore.quest.gtl.quest.0718d5cede1587d1.description.0004}"
 			]
 			hide_dependency_lines: true
 			id: "0718D5CEDE1587D1"
 			optional: true
-			subtitle: "跨网络下单"
+			subtitle: "{gtlcore.quest.gtl.quest.0718d5cede1587d1.subtitle}"
 			tasks: [{
 				id: "5E160A041A8AB2A8"
 				item: { Count: 4, id: "gtlcore:me_pattern_relay" }
@@ -957,7 +957,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "仓室无限水"
+			subtitle: "{gtlcore.quest.gtl.quest.027acff98884b940.subtitle}"
 			tasks: [{
 				id: "74C7245A3F1FC2FC"
 				item: "gtceu:reservoir_hatch"
@@ -967,6 +967,6 @@
 			y: 6.0d
 		}
 	]
-	subtitle: ["Tier3-HV"]
-	title: "高压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.3ffa6f604319d492.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.3ffa6f604319d492.title}"
 }

@@ -46,7 +46,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "0FE962C1CB148B15"
-				title: "超高压EV"
+				title: "{gtlcore.quest.gtl.task.0fe962c1cb148b15.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -55,9 +55,9 @@
 		{
 			dependencies: ["58CA7CA601F675BA"]
 			description: [
-				"环氧树脂是一种高分子化合物，具有环氧基团（-O-）的结构特征。它通常是由环氧单体与固化剂反应而成的高性能热固性塑料。环氧树脂具有良好的机械性能、电气绝缘性能、化学稳定性和粘接性能，广泛应用于涂料、胶粘剂、电子封装、建筑加固、复合材料等领域。"
+				"{gtlcore.quest.gtl.quest.10cd26cbac242280.description.0000}"
 				""
-				"推荐重度蒸汽裂化石脑油获得丙烯（当然如果你石化产线完全建好了就最好了）"
+				"{gtlcore.quest.gtl.quest.10cd26cbac242280.description.0002}"
 			]
 			id: "10CD26CBAC242280"
 			rewards: [{
@@ -155,9 +155,9 @@
 		{
 			dependencies: ["0037D6BA6A4ABB72"]
 			description: [
-				"你需要高压釜"
+				"{gtlcore.quest.gtl.quest.1d96227373b962a2.description.0000}"
 				""
-				"使用的塑料越高级效率越高"
+				"{gtlcore.quest.gtl.quest.1d96227373b962a2.description.0002}"
 			]
 			id: "1D96227373B962A2"
 			rewards: [{
@@ -195,7 +195,7 @@
 				"5F11D5C61F8897B9"
 				"3461BF0D74E5E8DF"
 			]
-			description: ["可以塞进通用组装厂（这个可以双仓升压的）"]
+			description: ["{gtlcore.quest.gtl.quest.413b25f5ba2ba39d.description.0000}"]
 			id: "413B25F5BA2BA39D"
 			rewards: [{
 				id: "00E2A12C21199267"
@@ -233,7 +233,7 @@
 					type: "item"
 				}
 			]
-			title: "EV传感器与发射器"
+			title: "{gtlcore.quest.gtl.quest.5f11d5c61f8897b9.title}"
 			x: 4.0d
 			y: 6.0d
 		}
@@ -264,9 +264,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"你可以用铀-238和钚-239反应得到"
+				"{gtlcore.quest.gtl.quest.2cac63f25baf50b3.description.0000}"
 				""
-				"{ \"text\": \"你也可以在火星直接采到\",  \"italic\":\"true\",\"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"457BA0CCBA39709A\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"457BA0CCBA39709A\"},\"translate\":\"gtlcore.quest.gtl.quest.2cac63f25baf50b3.description.0002.text.0000\"}"
 			]
 			icon: "gtceu:radon_bucket"
 			id: "2CAC63F25BAF50B3"
@@ -282,7 +282,7 @@
 					type: "item"
 				}
 			]
-			title: "气态氡"
+			title: "{gtlcore.quest.gtl.quest.2cac63f25baf50b3.title}"
 			x: 2.0d
 			y: 4.0d
 		}
@@ -294,7 +294,7 @@
 				item: "gtceu:platinum_credit"
 				type: "item"
 			}]
-			subtitle: "你在月球挖到的，还记得吗"
+			subtitle: "{gtlcore.quest.gtl.quest.7c8c2a0e5791e884.subtitle}"
 			tasks: [{
 				id: "74CC5D9E1BD475A8"
 				item: "gtceu:plutonium_ingot"
@@ -358,7 +358,7 @@
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
-			description: ["也许可以考虑宝石浆液来产出某种资源"]
+			description: ["{gtlcore.quest.gtl.quest.4fd556b867463d30.description.0000}"]
 			id: "4FD556B867463D30"
 			rewards: [{
 				id: "1FF9DBDFDD2696F0"
@@ -375,7 +375,7 @@
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
-			description: ["{ \"text\": \"去火星挖\", \"underlined\": \"true\", \"italic\":\"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5D0FE695E1E46BC4\" } }"]
+			description: ["{\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5D0FE695E1E46BC4\"},\"translate\":\"gtlcore.quest.gtl.quest.7deeb07d0598019a.description.0000.text.0000\"}"]
 			icon: "gtceu:raw_scheelite"
 			id: "7DEEB07D0598019A"
 			tasks: [
@@ -396,7 +396,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "钨矿"
+			title: "{gtlcore.quest.gtl.quest.7deeb07d0598019a.title}"
 			x: 4.0d
 			y: 2.0d
 		}
@@ -407,7 +407,7 @@
 			]
 			icon: "gtceu:tungstic_acid_dust"
 			id: "128C3126D5B5DCF3"
-			subtitle: "电解氯化物以回收氯气"
+			subtitle: "{gtlcore.quest.gtl.quest.128c3126d5b5dcf3.subtitle}"
 			tasks: [
 				{
 					id: "2E65F7BAF19E2FB1"
@@ -426,8 +426,8 @@
 		{
 			dependencies: ["759F26B57097602E"]
 			description: [
-				"如果你看到了这个粉是可以从矿物中获取的，请不要去寻找"
-				"这种矿物是后面通过大型虚空采矿机或者太空电梯获取的"
+				"{gtlcore.quest.gtl.quest.3a8a37094c997bf8.description.0000}"
+				"{gtlcore.quest.gtl.quest.3a8a37094c997bf8.description.0001}"
 			]
 			id: "3A8A37094C997BF8"
 			rewards: [{
@@ -485,7 +485,7 @@
 				"5B65662B72C369E7"
 				"58936CEB6176A18B"
 			]
-			description: ["此钢块非彼钢块"]
+			description: ["{gtlcore.quest.gtl.quest.14d60df010ff0396.description.0000}"]
 			icon: {
 				Count: 1
 				id: "ad_astra:tier_3_rocket"
@@ -561,13 +561,13 @@
 					type: "item"
 				}
 			]
-			title: "三阶火箭"
+			title: "{gtlcore.quest.gtl.quest.14d60df010ff0396.title}"
 			x: 12.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
-			description: ["这两种元素有对应的单质矿石，不用进行额外处理"]
+			description: ["{gtlcore.quest.gtl.quest.04fd2a25cac86cab.description.0000}"]
 			id: "04FD2A25CAC86CAB"
 			rewards: [{
 				id: "29A595C203E1C556"
@@ -586,7 +586,7 @@
 					type: "item"
 				}
 			]
-			title: "铂与钯"
+			title: "{gtlcore.quest.gtl.quest.04fd2a25cac86cab.title}"
 			x: 4.0d
 			y: 4.0d
 		}
@@ -647,7 +647,7 @@
 				item: "gtceu:rtm_alloy_coil_block"
 				type: "item"
 			}]
-			title: "钌钨钼合金线圈"
+			title: "{gtlcore.quest.gtl.quest.1ea6ba3cbf4be5db.title}"
 			x: 16.0d
 			y: 4.0d
 		}
@@ -746,7 +746,7 @@
 				"00ACD41B8ABD498C"
 				"14D60DF010FF0396"
 			]
-			description: ["{ \"text\": \"去金星挖\", \"underlined\": \"true\",  \"italic\":\"true\",\"clickEvent\": { \"action\": \"change_page\", \"value\": \"7F0C57F9551D8FFA\" } }"]
+			description: ["{\"underlined\":\"true\",\"italic\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7F0C57F9551D8FFA\"},\"translate\":\"gtlcore.quest.gtl.quest.7aec0d308494c0f8.description.0000.text.0000\"}"]
 			id: "7AEC0D308494C0F8"
 			rewards: [{
 				id: "079C2ECD4F827B41"
@@ -795,15 +795,15 @@
 					type: "item"
 				}
 			]
-			title: "四阶火箭"
+			title: "{gtlcore.quest.gtl.quest.0889db18e2c68d67.title}"
 			x: 16.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4DDFAAF4A8E0622A"]
 			description: [
-				"非常好用的虚采，效率很高，但是需要做宝石浆液产线，可以大幅减少你下矿的时间（有超级连锁其实下矿时间不多）"
-				"你可以拖到下个电压甚至更后面"
+				"{gtlcore.quest.gtl.quest.5ccd191a904b528a.description.0000}"
+				"{gtlcore.quest.gtl.quest.5ccd191a904b528a.description.0001}"
 			]
 			icon_scale: 1.3d
 			id: "5CCD191A904B528A"
@@ -828,9 +828,9 @@
 				"37C5E7628A4B826C"
 			]
 			description: [
-				"&5EV&r超导体"
+				"{gtlcore.quest.gtl.quest.7852e4465b3caf80.description.0000}"
 				""
-				"{ \"text\": \"铀-238的来源见此\", \"italic\":\"true\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"5268CBA4AB789BDA\" } }"
+				"{\"italic\":\"true\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5268CBA4AB789BDA\"},\"translate\":\"gtlcore.quest.gtl.quest.7852e4465b3caf80.description.0002.text.0000\"}"
 			]
 			id: "7852E4465B3CAF80"
 			rewards: [{
@@ -871,9 +871,9 @@
 				"25F272243EB904D5"
 			]
 			description: [
-				"通过数据模拟制造对应的气体而不是吸收维度中的气体"
+				"{gtlcore.quest.gtl.quest.650980ab3d2a6af6.description.0000}"
 				""
-				"还可以在输入总线/成放入真空冷冻机直接获得液态空气"
+				"{gtlcore.quest.gtl.quest.650980ab3d2a6af6.description.0002}"
 			]
 			icon: "gtceu:large_gas_collector"
 			icon_scale: 2.0d
@@ -884,7 +884,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.650980ab3d2a6af6.subtitle}"
 			tasks: [{
 				id: "7D1205F365E0C204"
 				item: "gtceu:large_gas_collector"
@@ -895,10 +895,10 @@
 		}
 		{
 			dependencies: ["5CE474BD971D9A4B"]
-			description: ["你一定没有全部处理成粉吧，对吧？"]
+			description: ["{gtlcore.quest.gtl.quest.1d247d35bfb55469.description.0000}"]
 			icon: "gtceu:raw_cooperite"
 			id: "1D247D35BFB55469"
-			subtitle: "并不是用于做铂和钯"
+			subtitle: "{gtlcore.quest.gtl.quest.1d247d35bfb55469.subtitle}"
 			tasks: [
 				{
 					id: "2516A6D15A1040C4"
@@ -917,13 +917,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "铂系金属处理原矿"
+			title: "{gtlcore.quest.gtl.quest.1d247d35bfb55469.title}"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4C43D30FD9B89965"]
-			description: ["你可以开始制作64A能源仓了"]
+			description: ["{gtlcore.quest.gtl.quest.31c3d49708342998.description.0000}"]
 			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "31C3D49708342998"
@@ -933,7 +933,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "更高的功率"
+			subtitle: "{gtlcore.quest.gtl.quest.31c3d49708342998.subtitle}"
 			tasks: [{
 				id: "149DD4976B28F863"
 				item: "gtmthings:ev_64a_wireless_energy_input_hatch"
@@ -983,11 +983,11 @@
 		{
 			dependencies: ["0931ECBAAD9252C7"]
 			description: [
-				"从现在开始你的部分东西需要无重力条件，&6空间站&r是&b天然的无重力环境&r，所以你需要把一些机器放到空间站。"
+				"{gtlcore.quest.gtl.quest.7dd918c8416c6c63.description.0000}"
 				""
-				"地球空间站是一个好选择"
+				"{gtlcore.quest.gtl.quest.7dd918c8416c6c63.description.0002}"
 				""
-				"制造空间站的材料为1个钢引擎，16个&e微型处理器超级计算机&r，16个航天级铁板和64个钢锭"
+				"{gtlcore.quest.gtl.quest.7dd918c8416c6c63.description.0004}"
 			]
 			icon: {
 				Count: 1
@@ -999,7 +999,7 @@
 			id: "7DD918C8416C6C63"
 			tasks: [{
 				id: "58D4A11DCEC97B63"
-				title: "无重力条件"
+				title: "{gtlcore.quest.gtl.task.58d4a11dcec97b63.title}"
 				type: "checkmark"
 			}]
 			x: 0.0d
@@ -1007,7 +1007,7 @@
 		}
 		{
 			dependencies: ["4DDFAAF4A8E0622A"]
-			description: ["你不用为怎么给AE供电发愁了"]
+			description: ["{gtlcore.quest.gtl.quest.423e927a2ee3a956.description.0000}"]
 			icon_scale: 2.0d
 			id: "423E927A2EE3A956"
 			rewards: [{
@@ -1016,7 +1016,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "看工作台配方"
+			subtitle: "{gtlcore.quest.gtl.quest.423e927a2ee3a956.subtitle}"
 			tasks: [{
 				id: "419403958F14AB71"
 				item: "ae2:creative_energy_cell"
@@ -1028,9 +1028,9 @@
 		{
 			dependencies: ["3CB16B36A5AA2A10"]
 			description: [
-				"你可以用凋零骷髅头和灵魂沙组装（没去下界之前去坚守者老家找几个灵魂沙）"
+				"{gtlcore.quest.gtl.quest.631707e722744406.description.0000}"
 				""
-				"不过主要还是得靠闪电处理-聚爆"
+				"{gtlcore.quest.gtl.quest.631707e722744406.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "631707E722744406"
@@ -1090,10 +1090,10 @@
 		}
 		{
 			dependencies: ["27A9D4E765101CB9"]
-			description: ["实际上还有磷酸和氢氟酸"]
+			description: ["{gtlcore.quest.gtl.quest.4d14c432e11ec9ab.description.0000}"]
 			icon: "gtceu:hydrochloric_acid_bucket"
 			id: "4D14C432E11EC9AB"
-			subtitle: "盐酸、硫酸、硝酸、王水、硝酸混酸"
+			subtitle: "{gtlcore.quest.gtl.quest.4d14c432e11ec9ab.subtitle}"
 			tasks: [
 				{
 					id: "2675ED7FFC241CC6"
@@ -1130,7 +1130,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "五种重要化工原料"
+			title: "{gtlcore.quest.gtl.quest.4d14c432e11ec9ab.title}"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -1165,18 +1165,18 @@
 					type: "item"
 				}
 			]
-			title: "宇航镄套装"
+			title: "{gtlcore.quest.gtl.quest.79aef94c9e242133.title}"
 			x: 15.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: [
-				"推荐把各种常用电路打包为通用电路板，方便以后修改样板"
+				"{gtlcore.quest.gtl.quest.5cc41e8e3f814de9.description.0000}"
 				""
-				"在编写样板时会&6优先&r将&b通用电路板&r写入样板"
+				"{gtlcore.quest.gtl.quest.5cc41e8e3f814de9.description.0002}"
 				""
-				"由于AE的NBT识别问题，合成材料中带有&6通用电路板&r的&a合成样板&r&4不要开启可替换模式&r，否则会出现卡合成的问题"
+				"{gtlcore.quest.gtl.quest.5cc41e8e3f814de9.description.0004}"
 			]
 			icon_scale: 1.5d
 			id: "5CC41E8E3F814DE9"
@@ -1200,21 +1200,21 @@
 		{
 			dependencies: ["1E7344C133C99565"]
 			description: [
-				"简单来说就是仓室从ME网络抽物品到它自己的内部储存，然后再让机器使用它的内部储存物品（其实就是ME接口）"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0000}"
 				""
-				"ME输入总线/仓的&6拉取上限&r加强至&b9.2E/P"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0002}"
 				""
-				"用&d闪存&r左键保存仓室配置，右键应用配置"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0004}"
 				""
-				"用&d剪线钳&r右键ME仓室可以让ME仓室在从正面联网和从任意面联网之间切换"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0006}"
 				""
-				"可在仓室gui左下角调整&6拉取间隔&r，默认显示0tick为不改变拉取间隔，&b最低1tick&r（影响从ME网络拉取的速度）"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0008}"
 				""
-				"三种ME输出仓室均拥有long级别的容量和无限的格子（每秒输出一次，单次接受机器输出量上限为&bint&r）"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0010}"
 				""
-				"ME输出总成经过了优化，性能更佳，且可以&6手动&r将滞留在总成内的物品/流体弹出至ME网络"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0012}"
 				""
-				"ME仓室管理终端，顾名思义用于管理网络中所有的非样板总成的ME仓室"
+				"{gtlcore.quest.gtl.quest.733741c26c6bf5c3.description.0014}"
 			]
 			icon_scale: 1.5d
 			id: "733741C26C6BF5C3"
@@ -1227,7 +1227,7 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "直接从ME网络抽取"
+			subtitle: "{gtlcore.quest.gtl.quest.733741c26c6bf5c3.subtitle}"
 			tasks: [
 				{
 					id: "734003F060FF3ACE"
@@ -1266,18 +1266,18 @@
 					type: "item"
 				}
 			]
-			title: "ME仓室"
+			title: "{gtlcore.quest.gtl.quest.733741c26c6bf5c3.title}"
 			x: 8.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["25F272243EB904D5"]
-			description: ["更大，更强"]
+			description: ["{gtlcore.quest.gtl.quest.42cef4f4dfbeaa3d.description.0000}"]
 			icon_scale: 2.0d
 			id: "42CEF4F4DFBEAA3D"
 			optional: true
 			shape: "rsquare"
-			subtitle: "内置模拟太阳光照"
+			subtitle: "{gtlcore.quest.gtl.quest.42cef4f4dfbeaa3d.subtitle}"
 			tasks: [{
 				id: "6CD8E0DD0FCF56B5"
 				item: "gtceu:large_greenhouse"
@@ -1289,9 +1289,9 @@
 		{
 			dependencies: ["750D2CE269C7068D"]
 			description: [
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
-				"&l&c&n扫描仪是扫描仪，世界信息扫描仪是世界信息扫描仪，不要看错了！！！"
+				"{gtlcore.quest.gtl.quest.1fecf89b2ee569b5.description.0000}"
+				"{gtlcore.quest.gtl.quest.1fecf89b2ee569b5.description.0001}"
+				"{gtlcore.quest.gtl.quest.1fecf89b2ee569b5.description.0002}"
 			]
 			id: "1FECF89B2EE569B5"
 			min_width: 270
@@ -1309,15 +1309,15 @@
 				"25F272243EB904D5"
 			]
 			description: [
-				"将无线ME网络核心连接至ME网络后便可使所有的&dME仓室&r&b无线连接&r至该方块对应的ME网络"
+				"{gtlcore.quest.gtl.quest.1a00c09ecee31233.description.0000}"
 				""
-				"使用无线ME网络收藏器收藏一个无线ME网络后可以在&b蹲下放置&rME仓室时直接让这个仓室连接至收藏的网络"
+				"{gtlcore.quest.gtl.quest.1a00c09ecee31233.description.0002}"
 				""
-				"收藏器并不用连接到任何ME网络中，单独放出来就可以"
+				"{gtlcore.quest.gtl.quest.1a00c09ecee31233.description.0004}"
 				""
-				"再次点击已收藏的无线ME网络可取消收藏"
+				"{gtlcore.quest.gtl.quest.1a00c09ecee31233.description.0006}"
 				""
-				"注意：如果一个ME仓室通过线缆连接进入一个网络且这个网络有另外一个ME仓室连入了无线ME网络或者有一个无线ME网络核心，则前者会一直在无线连接的UI中显示后者连接/设置的网络且无法断开"
+				"{gtlcore.quest.gtl.quest.1a00c09ecee31233.description.0008}"
 			]
 			icon_scale: 1.5d
 			id: "1A00C09ECEE31233"
@@ -1329,7 +1329,7 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "甚至可以跨维度"
+			subtitle: "{gtlcore.quest.gtl.quest.1a00c09ecee31233.subtitle}"
 			tasks: [
 				{
 					id: "5133618EF9AA4326"
@@ -1348,11 +1348,11 @@
 					weak_nbt_match: true
 				}
 			]
-			title: "无线ME网络"
+			title: "{gtlcore.quest.gtl.quest.1a00c09ecee31233.title}"
 			x: 18.0d
 			y: 0.0d
 		}
 	]
-	subtitle: ["Tier4-EV"]
-	title: "超高压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.68d3f02d34deaf83.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.68d3f02d34deaf83.title}"
 }

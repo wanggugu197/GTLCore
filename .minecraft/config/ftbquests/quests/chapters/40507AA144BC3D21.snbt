@@ -23,19 +23,19 @@
 				"06795792E774476F"
 			]
 			description: [
-				"不超频时平均耗电量为1024A MAX、运行周期为120s"
-				"超频一二三次分别对应的运行周期为60、30、15s"
-				"对应平均耗电量为16384、262144、4194304A MAX"
+				"{gtlcore.quest.gtl.quest.3e5ebc2b23a503c1.description.0000}"
+				"{gtlcore.quest.gtl.quest.3e5ebc2b23a503c1.description.0001}"
+				"{gtlcore.quest.gtl.quest.3e5ebc2b23a503c1.description.0002}"
 				""
-				"JEI中的耗时为超频一次的结果"
+				"{gtlcore.quest.gtl.quest.3e5ebc2b23a503c1.description.0004}"
 				""
-				"注意：氢氦存储没有上限，小心你的氢氦库存"
+				"{gtlcore.quest.gtl.quest.3e5ebc2b23a503c1.description.0006}"
 			]
 			icon_scale: 1.3d
 			id: "3E5EBC2B23A503C1"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "记得放量子爆弹"
+			subtitle: "{gtlcore.quest.gtl.quest.3e5ebc2b23a503c1.subtitle}"
 			tasks: [{
 				id: "75AE43EB6B5AC68F"
 				item: "gtceu:eye_of_harmony"
@@ -46,10 +46,10 @@
 		}
 		{
 			dependencies: ["3E5EBC2B23A503C1"]
-			description: ["后续时空的主要来源是超维度等离子锻炉（不要指望鸿蒙之眼出大量时空）"]
+			description: ["{gtlcore.quest.gtl.quest.365548266df60f91.description.0000}"]
 			icon: "gtceu:spacetime_bucket"
 			id: "365548266DF60F91"
-			subtitle: "你的第一桶时空"
+			subtitle: "{gtlcore.quest.gtl.quest.365548266df60f91.subtitle}"
 			tasks: [
 				{
 					id: "67732B6ADBF691E3"
@@ -62,7 +62,7 @@
 					type: "item"
 				}
 			]
-			title: "时空"
+			title: "{gtlcore.quest.gtl.quest.365548266df60f91.title}"
 			x: -7.0d
 			y: -3.0d
 		}
@@ -71,11 +71,11 @@
 				"365548266DF60F91"
 				"77A53FAAC098F859"
 			]
-			description: ["别忘了优化无尽配方"]
+			description: ["{gtlcore.quest.gtl.quest.45c3486a3f0ee7fb.description.0000}"]
 			hide_dependent_lines: true
 			icon_scale: 2.0d
 			id: "45C3486A3F0EE7FB"
-			subtitle: "批量时空生产"
+			subtitle: "{gtlcore.quest.gtl.quest.45c3486a3f0ee7fb.subtitle}"
 			tasks: [{
 				id: "5B7BBBB311822D83"
 				item: "kubejs:spacetime_catalyst"
@@ -88,11 +88,11 @@
 			dependencies: ["3E5EBC2B23A503C1"]
 			icon: "gtceu:raw_star_matter_plasma_bucket"
 			id: "165C5D3656C33A89"
-			subtitle: "你还可以使用另一种配方制作混沌物质了"
+			subtitle: "{gtlcore.quest.gtl.quest.165c5d3656c33a89.subtitle}"
 			tasks: [
 				{
 					id: "36EAA11DF2D78C96"
-					title: "原始恒星混合物等离子体"
+					title: "{gtlcore.quest.gtl.task.36eaa11df2d78c96.title}"
 					type: "checkmark"
 				}
 				{
@@ -128,7 +128,7 @@
 				"5A61ABB6E4917C6C"
 				"6477FF81781A9FC7"
 			]
-			description: ["第二个超立方体配方涉及超立方-超时空金属循环和超立方-富快子时间/扩大化空间循环，自行斟酌使用"]
+			description: ["{gtlcore.quest.gtl.quest.11a7ccfceab722f3.description.0000}"]
 			icon_scale: 2.0d
 			id: "11A7CCFCEAB722F3"
 			tasks: [{
@@ -145,7 +145,7 @@
 				"17F6AFC430A15CDA"
 				"6C1AB68CC57D8670"
 			]
-			description: ["这样的外观阻力更小，因其内部可以存储大量能量，所以可以设计成这样，无需太阳帆"]
+			description: ["{gtlcore.quest.gtl.quest.77cadf4536151255.description.0000}"]
 			id: "77CADF4536151255"
 			tasks: [{
 				id: "53C4E2DE954FFFFC"
@@ -176,13 +176,13 @@
 				"6AC9C2DEDE46A99D"
 			]
 			description: [
-				"建议刚做出来时仅替换UXV及以后的电路"
+				"{gtlcore.quest.gtl.quest.414f9c645c799fae.description.0000}"
 				""
-				"你可以制作MAX并行控制仓了"
+				"{gtlcore.quest.gtl.quest.414f9c645c799fae.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "414F9C645C799FAE"
-			subtitle: "可大批量生产"
+			subtitle: "{gtlcore.quest.gtl.quest.414f9c645c799fae.subtitle}"
 			tasks: [{
 				id: "47061FC3050F2DB2"
 				item: "kubejs:suprachronal_max"
@@ -221,7 +221,7 @@
 			dependencies: ["04420B8E0278D7AD"]
 			icon_scale: 2.0d
 			id: "2AFCDC0CA3205903"
-			subtitle: "记得优化液态永恒和永恒奇点的配方"
+			subtitle: "{gtlcore.quest.gtl.quest.2afcdc0ca3205903.subtitle}"
 			tasks: [{
 				id: "470C4F62160DE7DA"
 				item: "kubejs:eternity_catalyst"
@@ -236,7 +236,7 @@
 				"437E5E4108228333"
 				"06795792E774476F"
 			]
-			description: ["常规线圈并行达到&d2147483647&r，更高级的线圈并行数也是这么多"]
+			description: ["{gtlcore.quest.gtl.quest.622395061792fb5e.description.0000}"]
 			icon_scale: 2.0d
 			id: "622395061792FB5E"
 			rewards: [{
@@ -246,19 +246,19 @@
 				type: "random"
 			}]
 			shape: "rsquare"
-			subtitle: "2112"
+			subtitle: "{gtlcore.quest.gtl.quest.622395061792fb5e.subtitle}"
 			tasks: [{
 				id: "049F132CCC5B262C"
 				item: "kubejs:infinity_coil_block"
 				type: "item"
 			}]
-			title: "无尽线圈"
+			title: "{gtlcore.quest.gtl.quest.622395061792fb5e.title}"
 			x: -5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["414F9C645C799FAE"]
-			description: ["你还留着那些主机吗？"]
+			description: ["{gtlcore.quest.gtl.quest.2c3c46ac660cc54e.description.0000}"]
 			icon_scale: 2.0d
 			id: "2C3C46AC660CC54E"
 			tasks: [{
@@ -277,11 +277,11 @@
 			]
 			icon: "gtceu:magnetohydrodynamicallyconstrainedstarmatter_bucket"
 			id: "30AEBB08CE6C88BA"
-			subtitle: "蓝框岩浆"
+			subtitle: "{gtlcore.quest.gtl.quest.30aebb08ce6c88ba.subtitle}"
 			tasks: [
 				{
 					id: "51AE436C94A547DC"
-					title: "液态磁流体约束恒星物质"
+					title: "{gtlcore.quest.gtl.task.51ae436c94a547dc.title}"
 					type: "checkmark"
 				}
 				{
@@ -300,16 +300,16 @@
 				"375DD76CAEAD2CE1"
 			]
 			description: [
-				"最高67108864A MAX输出"
+				"{gtlcore.quest.gtl.quest.0610cd9378d8b0ad.description.0000}"
 				""
-				"仓室能且仅能替换&b&l高能机器外壳&r（除了主机两边，底座上的四个角落也有）"
+				"{gtlcore.quest.gtl.quest.0610cd9378d8b0ad.description.0002}"
 			]
 			hide_dependency_lines: true
 			icon_scale: 1.3d
 			id: "0610CD9378D8B0AD"
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "小太阳"
+			subtitle: "{gtlcore.quest.gtl.quest.0610cd9378d8b0ad.subtitle}"
 			tasks: [{
 				id: "50D76B27937DC429"
 				item: "gtceu:annihilate_generator"
@@ -324,11 +324,11 @@
 				"3F2335911E21E042"
 			]
 			description: [
-				"耗能固定为4A MAX"
+				"{gtlcore.quest.gtl.quest.296de95f3be7dc54.description.0000}"
 				""
-				"位于主世界且配方耗时为&6&l一秒&r时才能正常运作"
+				"{gtlcore.quest.gtl.quest.296de95f3be7dc54.description.0002}"
 				""
-				"需要&b用输入总线输入一号电路&r"
+				"{gtlcore.quest.gtl.quest.296de95f3be7dc54.description.0004}"
 			]
 			icon: "gtceu:door_of_create"
 			icon_scale: 1.3d
@@ -348,7 +348,7 @@
 				"04420B8E0278D7AD"
 				"72B80ADFE77198DD"
 			]
-			description: ["需要所有的世界加速器"]
+			description: ["{gtlcore.quest.gtl.quest.3f2335911e21e042.description.0000}"]
 			hide_dependency_lines: true
 			id: "3F2335911E21E042"
 			tasks: [{
@@ -396,7 +396,7 @@
 			tasks: [
 				{
 					id: "35F42293D17D0715"
-					title: "宇宙素"
+					title: "{gtlcore.quest.gtl.task.35f42293d17d0715.title}"
 					type: "checkmark"
 				}
 				{
@@ -421,7 +421,7 @@
 			tasks: [
 				{
 					id: "7BDA9A31E7DB3847"
-					title: "流体本源物质"
+					title: "{gtlcore.quest.gtl.task.7bda9a31e7db3847.title}"
 					type: "checkmark"
 				}
 				{
@@ -438,7 +438,7 @@
 			dependencies: ["165C5D3656C33A89"]
 			icon: "gtceu:dimensionallytranscendentstellarcatalyst_bucket"
 			id: "3FBFE193579C28E3"
-			subtitle: "需要很多等离子体"
+			subtitle: "{gtlcore.quest.gtl.quest.3fbfe193579c28e3.subtitle}"
 			tasks: [
 				{
 					id: "62B4B3F8B621B8B6"
@@ -451,7 +451,7 @@
 					type: "item"
 				}
 			]
-			title: "恒星超维度催化剂"
+			title: "{gtlcore.quest.gtl.quest.3fbfe193579c28e3.title}"
 			x: -7.0d
 			y: -9.0d
 		}
@@ -464,7 +464,7 @@
 			]
 			icon_scale: 2.0d
 			id: "67EF7F1C6AE2A6C9"
-			subtitle: "非常贵"
+			subtitle: "{gtlcore.quest.gtl.quest.67ef7f1c6ae2a6c9.subtitle}"
 			tasks: [{
 				id: "0E0235D9CF0EAA5F"
 				item: "kubejs:draconic_energy_core"
@@ -475,7 +475,7 @@
 		}
 		{
 			dependencies: ["63998161D9D731E7"]
-			description: ["海珀珍也是&cM&r&aA&r&9X&r&e超&r&5导&r&b体&r"]
+			description: ["{gtlcore.quest.gtl.quest.3ce5e9f78c13e1cd.description.0000}"]
 			icon_scale: 2.0d
 			id: "3CE5E9F78C13E1CD"
 			rewards: [{
@@ -486,13 +486,13 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "2112"
+			subtitle: "{gtlcore.quest.gtl.quest.3ce5e9f78c13e1cd.subtitle}"
 			tasks: [{
 				id: "2B00AFF1F91085A4"
 				item: "kubejs:hypogen_coil_block"
 				type: "item"
 			}]
-			title: "海珀珍线圈"
+			title: "{gtlcore.quest.gtl.quest.3ce5e9f78c13e1cd.title}"
 			x: -5.0d
 			y: -3.0d
 		}
@@ -508,13 +508,13 @@
 			}]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "2112+780"
+			subtitle: "{gtlcore.quest.gtl.quest.355ab57ee5123594.subtitle}"
 			tasks: [{
 				id: "1B5C7A84F6A238FA"
 				item: "kubejs:eternity_coil_block"
 				type: "item"
 			}]
-			title: "永恒线圈"
+			title: "{gtlcore.quest.gtl.quest.355ab57ee5123594.title}"
 			x: 1.0d
 			y: -7.0d
 		}
@@ -534,13 +534,13 @@
 					type: "item"
 				}
 			]
-			title: "调律源金粉和宇宙奇点"
+			title: "{gtlcore.quest.gtl.quest.1a37218d0f8be570.title}"
 			x: 5.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["1A37218D0F8BE570"]
-			description: ["宇宙奇点&4不是&r催化剂"]
+			description: ["{gtlcore.quest.gtl.quest.63ee8aa3fc07b820.description.0000}"]
 			id: "63EE8AA3FC07B820"
 			tasks: [
 				{
@@ -554,7 +554,7 @@
 					type: "item"
 				}
 			]
-			title: "调律源金锭和宇宙锭"
+			title: "{gtlcore.quest.gtl.quest.63ee8aa3fc07b820.title}"
 			x: 5.0d
 			y: -7.0d
 		}
@@ -565,7 +565,7 @@
 			]
 			icon: "gtceu:exciteddtsc_bucket"
 			id: "53598E77317EAEB6"
-			subtitle: "除了等离子体还有浓缩混合超能燃料"
+			subtitle: "{gtlcore.quest.gtl.quest.53598e77317eaeb6.subtitle}"
 			tasks: [
 				{
 					id: "3AC5007EE51C1247"
@@ -578,7 +578,7 @@
 					type: "item"
 				}
 			]
-			title: "激发的恒星超维度催化剂"
+			title: "{gtlcore.quest.gtl.quest.53598e77317eaeb6.title}"
 			x: -2.0d
 			y: -9.0d
 		}
@@ -603,7 +603,7 @@
 			]
 			icon: "gtceu:exciteddtec_bucket"
 			id: "6477FF81781A9FC7"
-			subtitle: "需要很多等离子体"
+			subtitle: "{gtlcore.quest.gtl.quest.6477ff81781a9fc7.subtitle}"
 			tasks: [
 				{
 					id: "4B6BEEAAADADE3E4"
@@ -616,7 +616,7 @@
 					type: "item"
 				}
 			]
-			title: "激发的异星超维度催化剂"
+			title: "{gtlcore.quest.gtl.quest.6477ff81781a9fc7.title}"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -626,10 +626,10 @@
 				"63998161D9D731E7"
 				"32186EFF7020D432"
 			]
-			description: ["时空导线也是&cM&r&aA&r&9X&r&e超&r&5导&r"]
+			description: ["{gtlcore.quest.gtl.quest.6ac9c2dede46a99d.description.0000}"]
 			hide_dependency_lines: true
 			id: "6AC9C2DEDE46A99D"
-			subtitle: "建议被动自动化生产"
+			subtitle: "{gtlcore.quest.gtl.quest.6ac9c2dede46a99d.subtitle}"
 			tasks: [{
 				id: "007430593E92A4B7"
 				item: "kubejs:timepiece"
@@ -641,12 +641,12 @@
 		{
 			dependencies: ["6477FF81781A9FC7"]
 			description: [
-				"龙纳米蜂群&4不是&r催化剂"
+				"{gtlcore.quest.gtl.quest.39a97d124b756814.description.0000}"
 				""
-				"可以用量子反常启动超时空金属和超立方体间的循环配方，节省一些激发的异星超维度催化剂"
+				"{gtlcore.quest.gtl.quest.39a97d124b756814.description.0002}"
 			]
 			id: "39A97D124B756814"
-			subtitle: "记得优化扩大化空间流体的配方"
+			subtitle: "{gtlcore.quest.gtl.quest.39a97d124b756814.subtitle}"
 			tasks: [{
 				id: "35D892D8BCDC5ECC"
 				item: "kubejs:quantum_anomaly"
@@ -663,9 +663,9 @@
 				"329AB9E8F4CAED2A"
 			]
 			description: [
-				"&b无尽贪婪&r的中子态素压缩机可以被世界加速器（方块实体模式）加速"
+				"{gtlcore.quest.gtl.quest.07ea8922673dfc93.description.0000}"
 				""
-				"世界加速器的工作耗能需求为6A/加速器电压等级"
+				"{gtlcore.quest.gtl.quest.07ea8922673dfc93.description.0002}"
 			]
 			id: "07EA8922673DFC93"
 			rewards: [
@@ -680,7 +680,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "时空锭和压缩机任一即可"
+			subtitle: "{gtlcore.quest.gtl.quest.07ea8922673dfc93.subtitle}"
 			tasks: [
 				{
 					id: "769221D2A808F3DA"
@@ -693,7 +693,7 @@
 					type: "item"
 				}
 			]
-			title: "时空锭和中子态素压缩机"
+			title: "{gtlcore.quest.gtl.quest.07ea8922673dfc93.title}"
 			x: -5.0d
 			y: -5.0d
 		}
@@ -703,7 +703,7 @@
 				"2AFCDC0CA3205903"
 			]
 			id: "009F0B69806C67CB"
-			subtitle: "记得优化永恒奇点的配方，再一次"
+			subtitle: "{gtlcore.quest.gtl.quest.009f0b69806c67cb.subtitle}"
 			tasks: [{
 				id: "6C0096B7CBBEF0F5"
 				item: "gtceu:eternity_nanoswarm"
@@ -715,16 +715,16 @@
 		{
 			dependencies: ["32186EFF7020D432"]
 			description: [
-				"宇宙探测器地面接收单元的激光版本，可以安装并行控制仓，单位产物算力需求更少"
+				"{gtlcore.quest.gtl.quest.63d47ffccd8ce12e.description.0000}"
 				""
-				"最高处的&e振金框架&r上方不能有方块遮挡，否则机器不会工作"
+				"{gtlcore.quest.gtl.quest.63d47ffccd8ce12e.description.0002}"
 			]
 			icon_scale: 1.5d
 			id: "63D47FFCCD8CE12E"
 			optional: true
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "更大，更强"
+			subtitle: "{gtlcore.quest.gtl.quest.63d47ffccd8ce12e.subtitle}"
 			tasks: [{
 				id: "3F6031BC74736161"
 				item: "gtceu:space_cosmic_probe_receivers"
@@ -753,7 +753,7 @@
 				"0BF48314F3323108"
 				"32186EFF7020D432"
 			]
-			description: ["最终的普通能源仓"]
+			description: ["{gtlcore.quest.gtl.quest.1da72a668d70950e.description.0000}"]
 			id: "1DA72A668D70950E"
 			tasks: [{
 				id: "5E1B0842C979799E"
@@ -768,10 +768,10 @@
 				"5710AA21B19B608F"
 				"3FBFE193579C28E3"
 			]
-			description: ["磁物质粉可用于回收利用"]
+			description: ["{gtlcore.quest.gtl.quest.329ab9e8f4caed2a.description.0000}"]
 			icon: "gtceu:magmatter_ingot"
 			id: "329AB9E8F4CAED2A"
-			subtitle: "MAX部件的材料之一"
+			subtitle: "{gtlcore.quest.gtl.quest.329ab9e8f4caed2a.subtitle}"
 			tasks: [{
 				id: "7446B0D52F25C175"
 				item: "gtceu:magmatter_ingot"
@@ -791,7 +791,7 @@
 			tasks: [
 				{
 					id: "77B4CEF886D4B0B9"
-					title: "扩大化空间流体和富快子时间流体"
+					title: "{gtlcore.quest.gtl.task.77b4cef886d4b0b9.title}"
 					type: "checkmark"
 				}
 				{
@@ -811,6 +811,6 @@
 			y: -1.0d
 		}
 	]
-	subtitle: ["Tier13-OpV"]
-	title: "过载压"
+	subtitle: ["{gtlcore.quest.gtl.chapter.40507aa144bc3d21.subtitle.0000}"]
+	title: "{gtlcore.quest.gtl.chapter.40507aa144bc3d21.title}"
 }

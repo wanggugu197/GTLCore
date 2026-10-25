@@ -10,5 +10,5 @@
 		{ count: 32, item: "gtceu:copper_credit", weight: 10.0f }
 		{ count: 16, item: "gtceu:copper_credit", weight: 20.0f }
 	]
-	title: "不要沉迷"
+	title: "{gtlcore.quest.gtl.reward_table.0999bbee9c28fdde.title}"
 }

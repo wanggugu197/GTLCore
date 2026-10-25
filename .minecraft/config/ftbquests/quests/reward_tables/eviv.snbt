@@ -12,5 +12,5 @@
 		{ item: "gtceu:platinum_quadruple_cable" }
 		{ item: "gtceu:platinum_octal_cable", weight: 0.4f }
 	]
-	title: "EV-IV线缆包"
+	title: "{gtlcore.quest.gtl.reward_table.2f9450f98d3cf18c.title}"
 }

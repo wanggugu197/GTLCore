@@ -109,9 +109,9 @@
 				"0D865B38481F3106"
 			]
 			description: [
-				"只能在主世界升空"
+				"{gtlcore.quest.gtl.quest.18a773a6b710c658.description.0000}"
 				""
-				"在降落的时候按空格缓冲，还可以在降落途中直接按E打开着陆器的内部存储空间把火箭拿出来"
+				"{gtlcore.quest.gtl.quest.18a773a6b710c658.description.0002}"
 			]
 			icon_scale: 2.0d
 			id: "18A773A6B710C658"
@@ -132,7 +132,7 @@
 		{
 			can_repeat: false
 			dependencies: ["009E71EC51F5B0EF"]
-			description: ["只能使用&e终极控制电路&r"]
+			description: ["{gtlcore.quest.gtl.quest.71dfd2ef1b03bdaa.description.0000}"]
 			icon: "ad_astra:rocket_nose_cone"
 			id: "71DFD2EF1B03BDAA"
 			tasks: [
@@ -174,7 +174,7 @@
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
-			description: ["总共需要3个，2个用来做火箭，1个用来做钢引擎"]
+			description: ["{gtlcore.quest.gtl.quest.079ccdaee4ad2447.description.0000}"]
 			icon: "ad_astra:steel_tank"
 			id: "079CCDAEE4AD2447"
 			tasks: [
@@ -216,7 +216,7 @@
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
-			description: ["总共需要14个，6个用来做火箭，8个用来做火箭尾翼"]
+			description: ["{gtlcore.quest.gtl.quest.6cc32f9550d73065.description.0000}"]
 			icon: "ad_astra:iron_plate"
 			id: "6CC32F9550D73065"
 			tasks: [
@@ -241,7 +241,7 @@
 			]
 			icon: "gtceu:rocket_fuel_bucket"
 			id: "347CD713F71D41D0"
-			subtitle: "你一共需要32桶"
+			subtitle: "{gtlcore.quest.gtl.quest.347cd713f71d41d0.subtitle}"
 			tasks: [
 				{
 					id: "1C2CBCEB171603A4"
@@ -254,13 +254,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "火箭燃料"
+			title: "{gtlcore.quest.gtl.quest.347cd713f71d41d0.title}"
 			x: 6.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["009E71EC51F5B0EF"]
-			description: ["航天服左键ME网络里面的气态氧可快速充气"]
+			description: ["{gtlcore.quest.gtl.quest.0d865b38481f3106.description.0000}"]
 			id: "0D865B38481F3106"
 			tasks: [
 				{
@@ -308,7 +308,7 @@
 					type: "item"
 				}
 			]
-			title: "宇航服"
+			title: "{gtlcore.quest.gtl.quest.0d865b38481f3106.title}"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -321,7 +321,7 @@
 			id: "009E71EC51F5B0EF"
 			tasks: [{
 				id: "18403D645ACF9211"
-				title: "准备前往T1"
+				title: "{gtlcore.quest.gtl.task.18403d645acf9211.title}"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -343,7 +343,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲醇"
+			title: "{gtlcore.quest.gtl.quest.5977502eb593eff4.title}"
 			x: 4.5d
 			y: 3.0d
 		}
@@ -363,7 +363,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "氨"
+			title: "{gtlcore.quest.gtl.quest.5246bc7d720ece4a.title}"
 			x: 4.5d
 			y: 4.0d
 		}
@@ -383,7 +383,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "次氯酸"
+			title: "{gtlcore.quest.gtl.quest.77308962ee9daa52.title}"
 			x: 4.5d
 			y: 5.0d
 		}
@@ -407,13 +407,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "二甲基肼"
+			title: "{gtlcore.quest.gtl.quest.6911b25aa0545e24.title}"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
-			description: ["&m你也可以不穿宇航服，用图腾撑着&r"]
+			description: ["{gtlcore.quest.gtl.quest.23c2f99fc949af0a.description.0000}"]
 			icon: "ad_astra:moon_stone"
 			icon_scale: 2.0d
 			id: "23C2F99FC949AF0A"
@@ -434,7 +434,7 @@
 				item: "ad_astra:moon_cobblestone"
 				type: "item"
 			}]
-			title: "月球"
+			title: "{gtlcore.quest.gtl.quest.23c2f99fc949af0a.title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -497,7 +497,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "火箭燃料 RP-1"
+			title: "{gtlcore.quest.gtl.quest.33bf09337b6a9e03.title}"
 			x: 15.0d
 			y: 2.0d
 		}
@@ -517,7 +517,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "RP-1混合燃料"
+			title: "{gtlcore.quest.gtl.quest.3fbdebfa58d0b01f.title}"
 			x: 15.0d
 			y: 4.0d
 		}
@@ -537,13 +537,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "液态氧"
+			title: "{gtlcore.quest.gtl.quest.509a4cee0c308165.title}"
 			x: 13.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["4E2549EFE6D9AA7B"]
-			description: ["只能用&e蒸馏室&r做"]
+			description: ["{gtlcore.quest.gtl.quest.36edab1e6f9e8618.description.0000}"]
 			icon: "gtceu:kerosene_bucket"
 			id: "36EDAB1E6F9E8618"
 			tasks: [
@@ -558,7 +558,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "煤油"
+			title: "{gtlcore.quest.gtl.quest.36edab1e6f9e8618.title}"
 			x: 14.0d
 			y: 4.0d
 		}
@@ -584,7 +584,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "煤焦油和焦煤粉"
+			title: "{gtlcore.quest.gtl.quest.4e2549efe6d9aa7b.title}"
 			x: 13.0d
 			y: 4.0d
 		}
@@ -604,7 +604,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "煤气"
+			title: "{gtlcore.quest.gtl.quest.34bed884f1a28343.title}"
 			x: 12.0d
 			y: 4.0d
 		}
@@ -614,7 +614,7 @@
 			id: "63C8DD19C6B76899"
 			tasks: [{
 				id: "384ACA3C35EF65EF"
-				title: "准备前往T2"
+				title: "{gtlcore.quest.gtl.task.384aca3c35ef65ef.title}"
 				type: "checkmark"
 			}]
 			x: 11.0d
@@ -630,7 +630,7 @@
 				item: "ad_astra:mars_cobblestone"
 				type: "item"
 			}]
-			title: "火星"
+			title: "{gtlcore.quest.gtl.quest.702471643821b0de.title}"
 			x: 17.0d
 			y: 0.0d
 		}
@@ -640,7 +640,7 @@
 			id: "123FD5A979F5750D"
 			tasks: [{
 				id: "510DE6C196A786EA"
-				title: "准备前往T3"
+				title: "{gtlcore.quest.gtl.task.510de6c196a786ea.title}"
 				type: "checkmark"
 			}]
 			x: 19.0d
@@ -669,7 +669,7 @@
 		}
 		{
 			dependencies: ["15EBA5EB9706DCD5"]
-			description: ["此钢块非彼钢块"]
+			description: ["{gtlcore.quest.gtl.quest.32e0200043820896.description.0000}"]
 			icon: "ad_astra:steel_block"
 			id: "32E0200043820896"
 			tasks: [
@@ -726,7 +726,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "浓缩混合肼"
+			title: "{gtlcore.quest.gtl.quest.1c5997ee2e91844a.title}"
 			x: 25.0d
 			y: 2.0d
 		}
@@ -746,7 +746,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "肼"
+			title: "{gtlcore.quest.gtl.quest.6a16d86a6b8963dc.title}"
 			x: 25.0d
 			y: 4.0d
 		}
@@ -769,7 +769,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "过氧化氢"
+			title: "{gtlcore.quest.gtl.quest.606199c34ad69974.title}"
 			x: 24.0d
 			y: 4.0d
 		}
@@ -789,7 +789,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "蒽"
+			title: "{gtlcore.quest.gtl.quest.50e554a0f172fef4.title}"
 			x: 24.0d
 			y: 3.0d
 		}
@@ -809,16 +809,16 @@
 					type: "checkmark"
 				}
 			]
-			title: "2-乙基蒽氢醌"
+			title: "{gtlcore.quest.gtl.quest.26490ed393a09c12.title}"
 			x: 23.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["589789F9FC81A557"]
-			description: ["在下个反应中会还给你的，不需要做很多"]
+			description: ["{gtlcore.quest.gtl.quest.357f8943b37e231d.description.0000}"]
 			icon: "gtceu:ethylanthraquinone_bucket"
 			id: "357F8943B37E231D"
-			subtitle: "催化剂"
+			subtitle: "{gtlcore.quest.gtl.quest.357f8943b37e231d.subtitle}"
 			tasks: [
 				{
 					id: "0C831FE92299304B"
@@ -831,7 +831,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "2-乙基蒽醌"
+			title: "{gtlcore.quest.gtl.quest.357f8943b37e231d.title}"
 			x: 22.0d
 			y: 4.0d
 		}
@@ -874,7 +874,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "邻苯二甲酸"
+			title: "{gtlcore.quest.gtl.quest.706b6132c6c42bae.title}"
 			x: 20.0d
 			y: 4.0d
 		}
@@ -894,7 +894,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "萘"
+			title: "{gtlcore.quest.gtl.quest.7b3d7412bea6862a.title}"
 			x: 20.0d
 			y: 5.0d
 		}
@@ -914,13 +914,13 @@
 					type: "checkmark"
 				}
 			]
-			title: "二甲苯"
+			title: "{gtlcore.quest.gtl.quest.6c689993c9bce006.title}"
 			x: 20.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5F482FD80B1E9CB3"]
-			description: ["小心酸雨和极端炎热"]
+			description: ["{gtlcore.quest.gtl.quest.602f48807d4a89a6.description.0000}"]
 			icon: "ad_astra:venus_stone"
 			icon_scale: 2.0d
 			id: "602F48807D4A89A6"
@@ -929,13 +929,13 @@
 				item: "ad_astra:venus_cobblestone"
 				type: "item"
 			}]
-			title: "金星"
+			title: "{gtlcore.quest.gtl.quest.602f48807d4a89a6.title}"
 			x: 27.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F482FD80B1E9CB3"]
-			description: ["小心到处都是的熔岩！"]
+			description: ["{gtlcore.quest.gtl.quest.240edc34562e580f.description.0000}"]
 			icon: "ad_astra:mercury_stone"
 			icon_scale: 2.0d
 			id: "240EDC34562E580F"
@@ -944,7 +944,7 @@
 				item: "ad_astra:mercury_cobblestone"
 				type: "item"
 			}]
-			title: "水星"
+			title: "{gtlcore.quest.gtl.quest.240edc34562e580f.title}"
 			x: 28.0d
 			y: 0.0d
 		}
@@ -955,7 +955,7 @@
 			id: "187BE1A67AF10798"
 			tasks: [{
 				id: "1F5143D93FEC05B0"
-				title: "准备前往T4"
+				title: "{gtlcore.quest.gtl.task.1f5143d93fec05b0.title}"
 				type: "checkmark"
 			}]
 			x: 31.0d
@@ -1078,7 +1078,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "火箭燃料（硝酸甲肼）"
+			title: "{gtlcore.quest.gtl.quest.3cb4691b75d15158.title}"
 			x: 37.5d
 			y: 2.0d
 		}
@@ -1099,7 +1099,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "甲肼"
+			title: "{gtlcore.quest.gtl.quest.48e9439abc35d129.title}"
 			x: 37.5d
 			y: 4.0d
 		}
@@ -1113,7 +1113,7 @@
 				item: "kubejs:ceresstone"
 				type: "item"
 			}]
-			title: "谷神星"
+			title: "{gtlcore.quest.gtl.quest.5010011959cf5337.title}"
 			x: 39.5d
 			y: 0.0d
 		}
@@ -1123,11 +1123,11 @@
 				"1FECF89B2EE569B5"
 			]
 			description: [
-				"如果AE无法识别自动合成出来的闪存，建议手动将样板中的闪存替换为网络中已经存在的闪存（数据球，数据模块同理）"
+				"{gtlcore.quest.gtl.quest.2bb52d1c09c418a9.description.0000}"
 				""
-				"世界数据&c并不能&r用扫描仪复制"
+				"{gtlcore.quest.gtl.quest.2bb52d1c09c418a9.description.0002}"
 				""
-				"用下界空气浸洗花岗岩获得下界岩，或者去金星和主世界找自然生产的下界岩"
+				"{gtlcore.quest.gtl.quest.2bb52d1c09c418a9.description.0004}"
 			]
 			icon_scale: 2.0d
 			id: "2BB52D1C09C418A9"
@@ -1141,7 +1141,7 @@
 				item: "kubejs:nether_data"
 				type: "item"
 			}]
-			title: "前往下界"
+			title: "{gtlcore.quest.gtl.quest.2bb52d1c09c418a9.title}"
 			x: 29.0d
 			y: 0.0d
 		}
@@ -1167,7 +1167,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "月球的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.2e189bb17587f157.title}"
 			x: 8.0d
 			y: 4.0d
 		}
@@ -1187,7 +1187,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "火星的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.457ba0ccba39709a.title}"
 			x: 17.0d
 			y: 4.0d
 		}
@@ -1207,7 +1207,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "金星的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.01ce2c1dc8a32201.title}"
 			x: 27.0d
 			y: 4.0d
 		}
@@ -1227,7 +1227,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "水星的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.4384e49fecf0451d.title}"
 			x: 28.0d
 			y: 4.0d
 		}
@@ -1265,7 +1265,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "谷神星的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.41bad19014e33cb2.title}"
 			x: 39.5d
 			y: 4.0d
 		}
@@ -1275,11 +1275,11 @@
 				"14D60DF010FF0396"
 			]
 			description: [
-				"终于可以去下界了"
+				"{gtlcore.quest.gtl.quest.778546543f6413e7.description.0000}"
 				""
-				"怎么去呢？将你之前做的远古世界传送门中的钻石块替换为绿宝石块，钢块替换为金块，然后手持下界数据右键"
+				"{gtlcore.quest.gtl.quest.778546543f6413e7.description.0002}"
 				""
-				"在下界干什么呢，挖点灵魂沙、远古残骸和下界疣"
+				"{gtlcore.quest.gtl.quest.778546543f6413e7.description.0004}"
 			]
 			icon: "minecraft:nether_wart"
 			icon_scale: 2.0d
@@ -1289,13 +1289,13 @@
 				item: "avaritia:neutron_horse_armor"
 				type: "item"
 			}]
-			subtitle: "打火石可不起作用"
+			subtitle: "{gtlcore.quest.gtl.quest.778546543f6413e7.subtitle}"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
 					id: "46F65CA6CFE50917"
 					optional_task: true
-					title: "下界"
+					title: "{gtlcore.quest.gtl.task.46f65ca6cfe50917.title}"
 					type: "dimension"
 				}
 				{
@@ -1304,7 +1304,7 @@
 					type: "item"
 				}
 			]
-			title: "下界"
+			title: "{gtlcore.quest.gtl.quest.778546543f6413e7.title}"
 			x: 29.0d
 			y: 2.0d
 		}
@@ -1424,7 +1424,7 @@
 			id: "5322AB6C014C301F"
 			tasks: [{
 				id: "5FAC15E60CEBC936"
-				title: "准备前往T5"
+				title: "{gtlcore.quest.gtl.task.5fac15e60cebc936.title}"
 				type: "checkmark"
 			}]
 			x: 4.5d
@@ -1435,10 +1435,10 @@
 				"5322AB6C014C301F"
 				"07B1E30147EC010F"
 			]
-			description: ["太空电梯的好搭档"]
+			description: ["{gtlcore.quest.gtl.quest.75a54472eeaf6bb0.description.0000}"]
 			icon: "gtceu:rocket_fuel_h8n4c2o4_bucket"
 			id: "75A54472EEAF6BB0"
-			subtitle: "超级好用"
+			subtitle: "{gtlcore.quest.gtl.quest.75a54472eeaf6bb0.subtitle}"
 			tasks: [
 				{
 					id: "33C81AA0CA99EAF5"
@@ -1451,7 +1451,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "火箭燃料（偏二甲肼-四氧化二氮）"
+			title: "{gtlcore.quest.gtl.quest.75a54472eeaf6bb0.title}"
 			x: 10.5d
 			y: 10.0d
 		}
@@ -1571,7 +1571,7 @@
 			id: "7EE091FC5E255C22"
 			tasks: [{
 				id: "7D768C7E49D71356"
-				title: "准备前往T6"
+				title: "{gtlcore.quest.gtl.task.7d768c7e49d71356.title}"
 				type: "checkmark"
 			}]
 			x: 15.5d
@@ -1584,7 +1584,7 @@
 				"2A5CA716CF0C561C"
 				"508246CF7DF93563"
 			]
-			description: ["后面还有别的用处"]
+			description: ["{gtlcore.quest.gtl.quest.191930a854469664.description.0000}"]
 			icon: "ad_astra:cryo_fuel_bucket"
 			id: "191930A854469664"
 			tasks: [
@@ -1599,7 +1599,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "凛冰燃料"
+			title: "{gtlcore.quest.gtl.quest.191930a854469664.title}"
 			x: 21.5d
 			y: 10.0d
 		}
@@ -1651,7 +1651,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "星能火箭燃料"
+			title: "{gtlcore.quest.gtl.quest.7b19818378510998.title}"
 			x: 31.0d
 			y: 10.0d
 		}
@@ -1662,7 +1662,7 @@
 			id: "72ED3FB127914FD7"
 			tasks: [{
 				id: "7224D725A4FDC289"
-				title: "准备前往T7"
+				title: "{gtlcore.quest.gtl.task.7224d725a4fdc289.title}"
 				type: "checkmark"
 			}]
 			x: 28.5d
@@ -1678,7 +1678,7 @@
 				item: "kubejs:iostone"
 				type: "item"
 			}]
-			title: "木卫一"
+			title: "{gtlcore.quest.gtl.quest.73613e3ebeffb326.title}"
 			x: 12.0d
 			y: 8.0d
 		}
@@ -1692,7 +1692,7 @@
 				item: "kubejs:ganymedestone"
 				type: "item"
 			}]
-			title: "木卫三"
+			title: "{gtlcore.quest.gtl.quest.761877fe2f5e2e2e.title}"
 			x: 13.0d
 			y: 8.0d
 		}
@@ -1712,7 +1712,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "木卫一的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.2a2ddcc3a347ccfc.title}"
 			x: 12.0d
 			y: 12.0d
 		}
@@ -1732,7 +1732,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "木卫三的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.20ad3c5f77d665fc.title}"
 			x: 13.0d
 			y: 12.0d
 		}
@@ -1746,7 +1746,7 @@
 				item: "kubejs:plutostone"
 				type: "item"
 			}]
-			title: "冥王星"
+			title: "{gtlcore.quest.gtl.quest.61140578961b01a9.title}"
 			x: 23.0d
 			y: 8.0d
 		}
@@ -1760,7 +1760,7 @@
 				item: "kubejs:enceladusstone"
 				type: "item"
 			}]
-			title: "土卫二"
+			title: "{gtlcore.quest.gtl.quest.22b38057b7705160.title}"
 			x: 24.0d
 			y: 8.0d
 		}
@@ -1774,7 +1774,7 @@
 				item: "kubejs:titanstone"
 				type: "item"
 			}]
-			title: "土卫六"
+			title: "{gtlcore.quest.gtl.quest.7e8d49d03b9cf783.title}"
 			x: 25.0d
 			y: 8.0d
 		}
@@ -1784,27 +1784,27 @@
 				"67784DEB22D18308"
 			]
 			description: [
-				"开门方式与原版差不多，只是需要副手手持末地数据（会消耗，所以记得带多几个），最后进入传送门即可去往末地"
+				"{gtlcore.quest.gtl.quest.2ae3de0bc3cd1d5b.description.0000}"
 				""
-				"这次你只能用末地空气浸洗安山岩来获得末地石"
+				"{gtlcore.quest.gtl.quest.2ae3de0bc3cd1d5b.description.0002}"
 			]
 			icon: "minecraft:end_portal_frame"
 			icon_scale: 2.0d
 			id: "2AE3DE0BC3CD1D5B"
 			shape: "rsquare"
-			subtitle: "去找末地传送门"
+			subtitle: "{gtlcore.quest.gtl.quest.2ae3de0bc3cd1d5b.subtitle}"
 			tasks: [{
 				id: "0F4C07DD6A1BB112"
 				item: "kubejs:end_data"
 				type: "item"
 			}]
-			title: "前往末地"
+			title: "{gtlcore.quest.gtl.quest.2ae3de0bc3cd1d5b.title}"
 			x: 26.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["2AE3DE0BC3CD1D5B"]
-			description: ["在末地干什么呢，搞点龙息、紫颂花和龙蛋"]
+			description: ["{gtlcore.quest.gtl.quest.5e3eda6c94cec3c4.description.0000}"]
 			icon: "minecraft:dragon_head"
 			icon_scale: 2.0d
 			id: "5E3EDA6C94CEC3C4"
@@ -1819,7 +1819,7 @@
 				item: "minecraft:dragon_head"
 				type: "item"
 			}]
-			title: "末地"
+			title: "{gtlcore.quest.gtl.quest.5e3eda6c94cec3c4.title}"
 			x: 26.0d
 			y: 10.0d
 		}
@@ -1839,7 +1839,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "冥王星的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.72053827d58ef156.title}"
 			x: 23.0d
 			y: 10.0d
 		}
@@ -1865,7 +1865,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "土卫二的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.55918dad44a0c882.title}"
 			x: 24.0d
 			y: 10.0d
 		}
@@ -1897,7 +1897,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "土卫六的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.68e3e08df18cc2c5.title}"
 			x: 25.0d
 			y: 10.0d
 		}
@@ -1911,16 +1911,16 @@
 				item: "ad_astra:glacio_cobblestone"
 				type: "item"
 			}]
-			title: "霜原星"
+			title: "{gtlcore.quest.gtl.quest.25aa088531768f81.title}"
 			x: 33.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["25AA088531768F81"]
 			description: [
-				"击杀霜原羊掉落"
+				"{gtlcore.quest.gtl.quest.76ea305beb66fa42.description.0000}"
 				""
-				"“冷”知识：霜原羊其实能榨出来&m羊奶&r牛奶"
+				"{gtlcore.quest.gtl.quest.76ea305beb66fa42.description.0002}"
 			]
 			icon: "kubejs:glacio_spirit"
 			icon_scale: 2.0d
@@ -1930,7 +1930,7 @@
 				item: "kubejs:glacio_spirit"
 				type: "item"
 			}]
-			title: "霜原星特产"
+			title: "{gtlcore.quest.gtl.quest.76ea305beb66fa42.title}"
 			x: 33.0d
 			y: 10.0d
 		}
@@ -1941,7 +1941,7 @@
 			id: "5A185A4065DD7FCF"
 			tasks: [{
 				id: "7A40F8D4992B0D2A"
-				title: "准备前往T8"
+				title: "{gtlcore.quest.gtl.task.7a40f8d4992b0d2a.title}"
 				type: "checkmark"
 			}]
 			x: 35.0d
@@ -1950,16 +1950,16 @@
 		{
 			dependencies: ["5A185A4065DD7FCF"]
 			description: [
-				"这是T8火箭，解锁巴纳德C，点击主机GUI内的&e启程&r去往（也可以去其他星球）"
+				"{gtlcore.quest.gtl.quest.60fa18c7093410f8.description.0000}"
 				""
-				"需要&b用输入总线输入一号电路&r，并持续提供128算力，电梯正常工作时运行时长会&6在6~13s之间循环"
-				"因此，&c&l&o不要使用可配置维护仓修改配方耗时"
+				"{gtlcore.quest.gtl.quest.60fa18c7093410f8.description.0002}"
+				"{gtlcore.quest.gtl.quest.60fa18c7093410f8.description.0003}"
 				""
-				"只有太空电梯主体正常工作时（即动力模块和主机亮起）扩展模块才会显示已连接和正常工作"
+				"{gtlcore.quest.gtl.quest.60fa18c7093410f8.description.0005}"
 				""
-				"太空电梯主体的电压越高，扩展模块的耗时减免越多；动力模块等级越高，扩展模块的并行数越大"
+				"{gtlcore.quest.gtl.quest.60fa18c7093410f8.description.0007}"
 				""
-				"在jei中的多方块结构预览界面点击“M”可以查看&e安装所有模块&r后的多方块结构"
+				"{gtlcore.quest.gtl.quest.60fa18c7093410f8.description.0009}"
 			]
 			icon_scale: 2.0d
 			id: "60FA18C7093410F8"
@@ -1975,7 +1975,7 @@
 		}
 		{
 			dependencies: ["60FA18C7093410F8"]
-			description: ["在巴纳德C干什么呢，收集巴纳德C树叶、巴纳德C空气和不明液体"]
+			description: ["{gtlcore.quest.gtl.quest.7796b2ae8f20c564.description.0000}"]
 			icon: "kubejs:barnarda_log"
 			icon_scale: 2.0d
 			id: "7796B2AE8F20C564"
@@ -1984,7 +1984,7 @@
 				item: "kubejs:barnarda_log"
 				type: "item"
 			}]
-			title: "巴纳德C"
+			title: "{gtlcore.quest.gtl.quest.7796b2ae8f20c564.title}"
 			x: 39.5d
 			y: 8.0d
 		}
@@ -2004,14 +2004,14 @@
 					type: "checkmark"
 				}
 			]
-			title: "巴纳德C的流体矿脉"
+			title: "{gtlcore.quest.gtl.quest.34b06a20d5b71cc9.title}"
 			x: 39.5d
 			y: 10.0d
 		}
 		{
 			can_repeat: true
 			dependencies: ["23C2F99FC949AF0A"]
-			description: ["每个星球飞一次就够了"]
+			description: ["{gtlcore.quest.gtl.quest.21d8a596f5be438e.description.0000}"]
 			disable_toast: true
 			icon: {
 				Count: 1
@@ -2028,12 +2028,12 @@
 				command: "/execute in ad_astra:moon run tp 0 120 0"
 				elevate_perms: true
 				id: "68C04E0EA66271B7"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.68c04e0ea66271b7.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "2412EE7E9063BDA3"
-				title: "去月球"
+				title: "{gtlcore.quest.gtl.task.2412ee7e9063bda3.title}"
 				type: "checkmark"
 			}]
 			x: 8.0d
@@ -2058,12 +2058,12 @@
 				command: "/execute in ad_astra:mars run tp 0 120 0"
 				elevate_perms: true
 				id: "515FE430072534D3"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.515fe430072534d3.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "66C8190979BFB1CA"
-				title: "去火星"
+				title: "{gtlcore.quest.gtl.task.66c8190979bfb1ca.title}"
 				type: "checkmark"
 			}]
 			x: 17.0d
@@ -2088,12 +2088,12 @@
 				command: "/execute in ad_astra:venus run tp 0 120 0"
 				elevate_perms: true
 				id: "4947CE478EC8131D"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.4947ce478ec8131d.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "4D5EAA5BD05BC8EE"
-				title: "去金星"
+				title: "{gtlcore.quest.gtl.task.4d5eaa5bd05bc8ee.title}"
 				type: "checkmark"
 			}]
 			x: 27.0d
@@ -2118,12 +2118,12 @@
 				command: "/execute in ad_astra:mercury run tp 0 120 0"
 				elevate_perms: true
 				id: "109555A7B7DC83BA"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.109555a7b7dc83ba.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "65E12B4243187B9D"
-				title: "去水星"
+				title: "{gtlcore.quest.gtl.task.65e12b4243187b9d.title}"
 				type: "checkmark"
 			}]
 			x: 28.0d
@@ -2148,12 +2148,12 @@
 				command: "/execute in kubejs:ceres run tp 0 120 0"
 				elevate_perms: true
 				id: "5DABDE58E85A1554"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.5dabde58e85a1554.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "424BF1AD5819C169"
-				title: "去谷神星"
+				title: "{gtlcore.quest.gtl.task.424bf1ad5819c169.title}"
 				type: "checkmark"
 			}]
 			x: 39.5d
@@ -2178,12 +2178,12 @@
 				command: "/execute in kubejs:io run tp 0 120 0"
 				elevate_perms: true
 				id: "1B9F96DC71464F25"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.1b9f96dc71464f25.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "02714C21C6345C06"
-				title: "去木卫一"
+				title: "{gtlcore.quest.gtl.task.02714c21c6345c06.title}"
 				type: "checkmark"
 			}]
 			x: 12.0d
@@ -2208,12 +2208,12 @@
 				command: "/execute in kubejs:ganymede run tp 0 120 0"
 				elevate_perms: true
 				id: "1D27BEFA544DC7B3"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.1d27befa544dc7b3.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "3FE00886E723F536"
-				title: "去木卫三"
+				title: "{gtlcore.quest.gtl.task.3fe00886e723f536.title}"
 				type: "checkmark"
 			}]
 			x: 13.0d
@@ -2238,12 +2238,12 @@
 				command: "/execute in kubejs:pluto run tp 0 120 0"
 				elevate_perms: true
 				id: "66072C4B76BF5F96"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.66072c4b76bf5f96.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "3BACCC11A97FD667"
-				title: "去冥王星"
+				title: "{gtlcore.quest.gtl.task.3baccc11a97fd667.title}"
 				type: "checkmark"
 			}]
 			x: 23.0d
@@ -2268,12 +2268,12 @@
 				command: "/execute in kubejs:enceladus run tp 0 120 0"
 				elevate_perms: true
 				id: "06FD20BA0DFAD74B"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.06fd20ba0dfad74b.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "40D2A94D63372038"
-				title: "去土卫二"
+				title: "{gtlcore.quest.gtl.task.40d2a94d63372038.title}"
 				type: "checkmark"
 			}]
 			x: 24.0d
@@ -2298,12 +2298,12 @@
 				command: "/execute in kubejs:titan run tp 0 120 0"
 				elevate_perms: true
 				id: "5B3F450A220D031D"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.5b3f450a220d031d.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "026940E80D77F49F"
-				title: "去土卫六"
+				title: "{gtlcore.quest.gtl.task.026940e80d77f49f.title}"
 				type: "checkmark"
 			}]
 			x: 25.0d
@@ -2328,12 +2328,12 @@
 				command: "/execute in kubejs:barnarda run tp 0 120 0"
 				elevate_perms: true
 				id: "088F8105E0E97885"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.088f8105e0e97885.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "4809719A86B423CA"
-				title: "去巴纳德C"
+				title: "{gtlcore.quest.gtl.task.4809719a86b423ca.title}"
 				type: "checkmark"
 			}]
 			x: 39.5d
@@ -2358,12 +2358,12 @@
 				command: "/execute in ad_astra:glacio run tp 0 120 0"
 				elevate_perms: true
 				id: "23A2A64020DAD06D"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.23a2a64020dad06d.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "3358381CBFE3BCD9"
-				title: "去霜原星"
+				title: "{gtlcore.quest.gtl.task.3358381cbfe3bcd9.title}"
 				type: "checkmark"
 			}]
 			x: 33.0d
@@ -2391,13 +2391,13 @@
 				command: "/execute in kubejs:ancient_world run tp 0 100 0"
 				elevate_perms: true
 				id: "22B3FCAD4E46DCCA"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.22b3fcad4e46dcca.title}"
 				type: "command"
 			}]
-			subtitle: "让你方便一点"
+			subtitle: "{gtlcore.quest.gtl.quest.2a7dcd5c4bed8e3d.subtitle}"
 			tasks: [{
 				id: "3E0B96E6350FED35"
-				title: "去远古世界"
+				title: "{gtlcore.quest.gtl.task.3e0b96e6350fed35.title}"
 				type: "checkmark"
 			}]
 			x: -3.0d
@@ -2414,12 +2414,12 @@
 				command: "/execute in minecraft:the_nether run tp 0 100 0"
 				elevate_perms: true
 				id: "4CEB0A83900FB9A9"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.4ceb0a83900fb9a9.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "5EFD4C3F8B5176EB"
-				title: "去地狱"
+				title: "{gtlcore.quest.gtl.task.5efd4c3f8b5176eb.title}"
 				type: "checkmark"
 			}]
 			x: 29.0d
@@ -2436,12 +2436,12 @@
 				command: "/execute in minecraft:the_end run tp 0 120 0"
 				elevate_perms: true
 				id: "7FA690EB17C46096"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.7fa690eb17c46096.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "68B276212C9C1722"
-				title: "去末地"
+				title: "{gtlcore.quest.gtl.task.68b276212c9c1722.title}"
 				type: "checkmark"
 			}]
 			x: 26.0d
@@ -2449,11 +2449,11 @@
 		}
 		{
 			dependencies: ["18A773A6B710C658"]
-			description: ["制造空间站的材料为1个钢引擎，16个&e微型处理器超级计算机&r，16个航天级铁板和64个钢锭"]
+			description: ["{gtlcore.quest.gtl.quest.3a48f268fb265977.description.0000}"]
 			icon: "gtceu:quantum_eye"
 			icon_scale: 2.0d
 			id: "3A48F268FB265977"
-			subtitle: "这里有着无重力环境"
+			subtitle: "{gtlcore.quest.gtl.quest.3a48f268fb265977.subtitle}"
 			tasks: [{
 				id: "2DC081A5022B8300"
 				item: "gtceu:quantum_eye"
@@ -2479,12 +2479,12 @@
 				command: "/execute in ad_astra:earth_orbit run tp 0 100 0"
 				elevate_perms: true
 				id: "628ADDAA3706986F"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.628addaa3706986f.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "5E4E4C0BADB6CC44"
-				title: "去地球空间站"
+				title: "{gtlcore.quest.gtl.task.5e4e4c0badb6cc44.title}"
 				type: "checkmark"
 			}]
 			x: 9.0d
@@ -2501,13 +2501,13 @@
 				command: "/execute in minecraft:overworld run tp 0 200 0"
 				elevate_perms: true
 				id: "5C977ABA2F4861A9"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.5c977aba2f4861a9.title}"
 				type: "command"
 			}]
-			subtitle: "小心点，别摔死了"
+			subtitle: "{gtlcore.quest.gtl.quest.4bcbb3270d825f0e.subtitle}"
 			tasks: [{
 				id: "6261241DFF0B95E0"
-				title: "主世界"
+				title: "{gtlcore.quest.gtl.task.6261241dff0b95e0.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -2524,12 +2524,12 @@
 				command: "/execute in kubejs:void run tp 0 100 0"
 				elevate_perms: true
 				id: "00F92862B4E43B96"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.00f92862b4e43b96.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "548E54E5917FD172"
-				title: "去虚空"
+				title: "{gtlcore.quest.gtl.task.548e54e5917fd172.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -2546,12 +2546,12 @@
 				command: "/execute in kubejs:flat run tp 0 66 0"
 				elevate_perms: true
 				id: "7079B3B19424F543"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.7079b3b19424f543.title}"
 				type: "command"
 			}]
 			tasks: [{
 				id: "035EE78EC2A979E2"
-				title: "去超平坦"
+				title: "{gtlcore.quest.gtl.task.035ee78ec2a979e2.title}"
 				type: "checkmark"
 			}]
 			x: -5.0d
@@ -2568,13 +2568,13 @@
 				command: "/execute in kubejs:create run tp 0 2 0"
 				elevate_perms: true
 				id: "65F858A0F5D54D13"
-				title: "一键传送"
+				title: "{gtlcore.quest.gtl.reward.65f858a0f5d54d13.title}"
 				type: "command"
 			}]
-			subtitle: "记得穿星体套"
+			subtitle: "{gtlcore.quest.gtl.quest.26c2c4b2977a4dbf.subtitle}"
 			tasks: [{
 				id: "78547A53869D8709"
-				title: "去创造维度"
+				title: "{gtlcore.quest.gtl.task.78547a53869d8709.title}"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -2586,7 +2586,7 @@
 			id: "5E59E7938F004FBE"
 			tasks: [{
 				id: "02D288B6053EFD3C"
-				title: "T0"
+				title: "{gtlcore.quest.gtl.task.02d288b6053efd3c.title}"
 				type: "checkmark"
 			}]
 			x: -7.0d
@@ -2607,12 +2607,12 @@
 					type: "checkmark"
 				}
 			]
-			title: "四氧化二氮"
+			title: "{gtlcore.quest.gtl.quest.07b1e30147ec010f.title}"
 			x: 10.5d
 			y: 12.0d
 		}
 		{
-			description: ["闪电处理蓝冰，别去找矿石"]
+			description: ["{gtlcore.quest.gtl.quest.3f3019efe6ca0097.description.0000}"]
 			icon: "ad_astra:ice_shard"
 			id: "3F3019EFE6CA0097"
 			tasks: [
@@ -2636,7 +2636,7 @@
 				"1473484C230B4EA1"
 				"4ECACC2A6159D332"
 			]
-			description: ["火焰弹只能使用&e煤炭粉&r合成"]
+			description: ["{gtlcore.quest.gtl.quest.2a5ca716cf0c561c.description.0000}"]
 			icon: "gtceu:explosivehydrazine_bucket"
 			id: "2A5CA716CF0C561C"
 			tasks: [
@@ -2651,7 +2651,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "爆炸性肼燃料混合物"
+			title: "{gtlcore.quest.gtl.quest.2a5ca716cf0c561c.title}"
 			x: 20.5d
 			y: 11.0d
 		}
@@ -2674,7 +2674,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "高十六烷值柴油"
+			title: "{gtlcore.quest.gtl.quest.508246cf7df93563.title}"
 			x: 19.5d
 			y: 10.0d
 		}
@@ -2693,7 +2693,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝基苯"
+			title: "{gtlcore.quest.gtl.quest.7a4785a7719e6a86.title}"
 			x: 29.0d
 			y: 10.0d
 		}
@@ -2713,7 +2713,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "HMX"
+			title: "{gtlcore.quest.gtl.quest.1ff9873283e84371.title}"
 			x: 31.0d
 			y: 12.0d
 		}
@@ -2750,7 +2750,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "四硝基甲烷"
+			title: "{gtlcore.quest.gtl.quest.30739f879ad7cf83.title}"
 			x: 18.5d
 			y: 10.0d
 		}
@@ -2775,7 +2775,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "柴油/生物柴油"
+			title: "{gtlcore.quest.gtl.quest.5521edee663846d2.title}"
 			x: 18.5d
 			y: 11.0d
 		}
@@ -2794,7 +2794,7 @@
 					type: "checkmark"
 				}
 			]
-			title: "硝酸甘油"
+			title: "{gtlcore.quest.gtl.quest.6225f1b77313973c.title}"
 			x: 19.5d
 			y: 12.0d
 		}
@@ -2833,10 +2833,10 @@
 				item: "minecraft:netherite_block"
 				type: "item"
 			}]
-			title: "如果你懒得找"
+			title: "{gtlcore.quest.gtl.quest.422cd2204ecc7895.title}"
 			x: 27.0d
 			y: 9.0d
 		}
 	]
-	title: "探索世界"
+	title: "{gtlcore.quest.gtl.chapter.6c61a50ca7cb2d5c.title}"
 }

@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"提供给多方块结构的EU/t大于配方的EU/t了吗？"
-				"维护仓维护了吗？"
-				"满足可能有的特殊要求了吗？"
-				"物品和流体都正确输入到总线/仓/成中了吗？"
-				"输出空间足够大吗？"
-				"消声仓对着空气方块了吗？"
-				"也许多方块结构已经形成，但你忘记了一个仓。"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0000}"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0001}"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0002}"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0003}"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0004}"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0005}"
+				"{gtlcore.quest.gtl.quest.498cb29fa7447c46.description.0006}"
 			]
 			icon: "gtceu:maintenance_hatch"
 			id: "498CB29FA7447C46"
@@ -27,7 +27,7 @@
 			}]
 			tasks: [{
 				id: "44CA2F43F475CFD9"
-				title: "不工作的原因"
+				title: "{gtlcore.quest.gtl.task.44ca2f43f475cfd9.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -35,9 +35,9 @@
 		}
 		{
 			description: [
-				"电力高炉以一定的温度熔炼物品，有什么影响？每个电力高炉配方都有一个特定的基础温度，例如，铝在1700K熔炼，如果温度不够高，配方就不会执行，如果温度足够高，耗时还会减少。"
+				"{gtlcore.quest.gtl.quest.2205c5f410b9c4db.description.0000}"
 				""
-				"温度主要取决于所使用的线圈等级 ，但除此之外从HV开始，每个电压等级都会增加100K的温度。这意味着在某些时候可以用低一级的线圈加上足够高的电压来运行某些看似只能用更高一级的线圈的配方。"
+				"{gtlcore.quest.gtl.quest.2205c5f410b9c4db.description.0002}"
 			]
 			icon: "kubejs:uruium_coil_block"
 			id: "2205C5F410B9C4DB"
@@ -48,7 +48,7 @@
 			}]
 			tasks: [{
 				id: "50F636D9BF4F6025"
-				title: "线圈"
+				title: "{gtlcore.quest.gtl.task.50f636d9bf4f6025.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -56,12 +56,12 @@
 		}
 		{
 			description: [
-				"多方块结构在工作前时会检查是否提供了足够的电力。"
+				"{gtlcore.quest.gtl.quest.0badecf30ac0bac4.description.0000}"
 				""
-				"多方块可消耗的电力是所有能源仓的和。"
+				"{gtlcore.quest.gtl.quest.0badecf30ac0bac4.description.0002}"
 				""
-				"比如电力需要至少120EU/t的电力输入来运行其配方，这可以通过两个LV能源仓实现，每个仓需要2安培的LV，所以总共需要4安培的LV来达到最大128EU/t的电力。即&b双仓升压&r。"
-				"这样可以实现低电压等级处理高电压等级配方，注意这只能在相邻电压中实现，即&6只能升压一次&r，且必须使用&b两个&r能源仓。"
+				"{gtlcore.quest.gtl.quest.0badecf30ac0bac4.description.0004}"
+				"{gtlcore.quest.gtl.quest.0badecf30ac0bac4.description.0005}"
 			]
 			icon: "gtceu:lv_energy_input_hatch"
 			id: "0BADECF30AC0BAC4"
@@ -72,7 +72,7 @@
 			}]
 			tasks: [{
 				id: "23E71635D04A5A77"
-				title: "供电"
+				title: "{gtlcore.quest.gtl.task.23e71635d04a5a77.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -80,9 +80,9 @@
 		}
 		{
 			description: [
-				"这是多方块结构输入输出的关键，更高级的总线/仓/总成会提供更大的空间。"
+				"{gtlcore.quest.gtl.quest.5db8be71b3733c36.description.0000}"
 				""
-				"总线/仓/总成还自带&d自动输入输出&r功能，可以通过开关控制。"
+				"{gtlcore.quest.gtl.quest.5db8be71b3733c36.description.0002}"
 			]
 			icon: "gtceu:lv_input_bus"
 			id: "5DB8BE71B3733C36"
@@ -93,7 +93,7 @@
 			}]
 			tasks: [{
 				id: "35761A42191E549C"
-				title: "总线/仓"
+				title: "{gtlcore.quest.gtl.task.35761a42191e549c.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -101,25 +101,25 @@
 		}
 		{
 			description: [
-				"将16台LV机器同时运行，功率与一台HV机器相等，但是速度是一台HV机器的四倍。这是因为16台LV机器没有发生有损超频带来的损失。导致它以更低的速度做得更快。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0000}"
 				""
-				"多方块结构的并行便是这么一种类似的概念。简单来说，并行就是一种另类的无损超频。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0002}"
 				"{@pagebreak}"
-				"次刻并行（1toc），是部分多方块结构处理单个配方时用时小于 1 游戏刻时会触发的机制。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0004}"
 				""
-				"所有单方块机器以及跨配方并行机器都不会触发1toc。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0006}"
 				""
-				"例 1：某 LuV 电压等级的多方块机器在处理 IV 电压等级时用时恰好为 1 游戏刻的配方时，该机器会每游戏刻处理 2 个配方，如果该机器电压等级再高一级（达到 ZPM 等级）则会每游戏刻处理 4 个配方；如果该机器有无损超频机制（如大型化学反应釜）则分别在 LuV 和 ZPM 等级并行处理 4 个和 16 个配方。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0008}"
 				""
-				"例 2：对于用时为 3 游戏刻的配方时且该配方为无损超频（每超一级用时减少为原来的 1/4，总能耗不变），超频一级后会同时处理 4 个配方，但用时仍然为 3 游戏刻。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0010}"
 				"{@pagebreak}"
-				"跨配方并行是部分多方块机器专属的机制，可以使机器同时执行在同一个机器模式下的多个不同配方。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0012}"
 				""
-				"对应的，跨配方并行机器的运行时间下限是1秒"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0014}"
 				""
-				"例：神圣分离者可以同时制作银杆和铁杆，但是不能同时离心空气和制作铁杆。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0016}"
 				""
-				"“线程”为拥有跨配方并行的机器的特有属性（都是64线程数）。跨配方并行机器的总并行数为线程数乘以机器本身的并行数，线程数代表总并行数最多可以分配给多少个配方。注意：跨配方并行机器会尽可能将所有总并行数分配给一个配方。"
+				"{gtlcore.quest.gtl.quest.6f503441c24abd5b.description.0018}"
 			]
 			icon: "gtceu:iv_parallel_hatch"
 			id: "6F503441C24ABD5B"
@@ -130,7 +130,7 @@
 			}]
 			tasks: [{
 				id: "6B1CC517916931AB"
-				title: "并行"
+				title: "{gtlcore.quest.gtl.task.6b1cc517916931ab.title}"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -138,15 +138,15 @@
 		}
 		{
 			description: [
-				"&7正面&r应该是显而易见的，&9输出面&r是带有点或孔的那一面，默认情况下，这是你放置机器时的背面。"
+				"{gtlcore.quest.gtl.quest.2b1992e2158e63a2.description.0000}"
 				""
-				"机器可以通过它们的输出面进行&a自动输出&r，要启用自动输出，请在GUI中点击相应的按钮，流体和物品的自动输出是单独切换的，通过&d覆盖板&r可以进一步控制自动输出。"
+				"{gtlcore.quest.gtl.quest.2b1992e2158e63a2.description.0002}"
 				""
-				"使用&5扳手&r右击机器可以改变输出侧，而shift-右击可以改变正面。"
+				"{gtlcore.quest.gtl.quest.2b1992e2158e63a2.description.0004}"
 				""
-				"默认情况下，物品和流体不能通过输出侧插入，但可以使用&5螺丝刀&r进行切换，可以直接右击输出面，或者shift-右击与输出侧对应的网格。"
+				"{gtlcore.quest.gtl.quest.2b1992e2158e63a2.description.0006}"
 				""
-				"有一些独特的机器不处理配方，如&3泵&r，&3采矿机&r，&3钓鱼机&r，&3物品收集器&r等，这些机器将在它们的&7正面&r输出（仍然标记为点）。"
+				"{gtlcore.quest.gtl.quest.2b1992e2158e63a2.description.0008}"
 			]
 			icon: "minecraft:hopper"
 			id: "2B1992E2158E63A2"
@@ -157,7 +157,7 @@
 			}]
 			tasks: [{
 				id: "3A68620AD827B0E5"
-				title: "机器的物流"
+				title: "{gtlcore.quest.gtl.task.3a68620ad827b0e5.title}"
 				type: "checkmark"
 			}]
 			x: 5.5d
@@ -165,15 +165,15 @@
 		}
 		{
 			description: [
-				"在机器运行的时候切换机器模式，机器会尝试继续运行切换前的配方，只有重新成型或刷新输入材料才能让机器更换运行模式"
+				"{gtlcore.quest.gtl.quest.662fe1772cf9b5ed.description.0000}"
 				""
-				"例1：大型分馏蒸馏厂运行蒸馏塔模式的蒸馏水配方，切换至蒸馏室模式后仍然执行蒸馏塔配方"
+				"{gtlcore.quest.gtl.quest.662fe1772cf9b5ed.description.0002}"
 				""
-				"例2：大型酿造厂运行酿造室模式的马铃薯+水→生物质配方，切换至发酵槽模式后不会切换至马铃薯→毒马铃薯的配方"
+				"{gtlcore.quest.gtl.quest.662fe1772cf9b5ed.description.0004}"
 				""
-				"例3：太空电梯采集模块运行采矿配方时切换至采流体模式仍然采矿"
+				"{gtlcore.quest.gtl.quest.662fe1772cf9b5ed.description.0006}"
 				""
-				"同理，在机器运行一个配方时中途更改机器的运行环境（如耗时减免，并行等）后机器仍然会以开始运行这个配方时的配置继续运行这个配方，直到这次配方执行完后才会切换为新的运行环境"
+				"{gtlcore.quest.gtl.quest.662fe1772cf9b5ed.description.0008}"
 				"{@pagebreak}"
 			]
 			icon: "gtceu:large_assembler"
@@ -185,7 +185,7 @@
 			}]
 			tasks: [{
 				id: "4807FB6A36F025EC"
-				title: "其他"
+				title: "{gtlcore.quest.gtl.task.4807fb6a36f025ec.title}"
 				type: "checkmark"
 			}]
 			x: 7.5d
@@ -193,13 +193,13 @@
 		}
 		{
 			description: [
-				"机器UI左下角可开启批处理模式，开启后在机器触发会让配方时长尽可能达到gtlcore配置文件内指定的数值"
+				"{gtlcore.quest.gtl.quest.518692429d15516b.description.0000}"
 				""
-				"批处理在大部分情况下不影响机器的工作效率，但开启后可以有效缓解性能压力"
+				"{gtlcore.quest.gtl.quest.518692429d15516b.description.0002}"
 				""
-				"批处理不能在发电机以及跨配方并行的机器上启用"
+				"{gtlcore.quest.gtl.quest.518692429d15516b.description.0004}"
 				""
-				"可在gtlcore配置文件中切换新机器默认开启/关闭批处理模式"
+				"{gtlcore.quest.gtl.quest.518692429d15516b.description.0006}"
 			]
 			icon: "gtceu:electric_blast_furnace"
 			id: "518692429D15516B"
@@ -210,7 +210,7 @@
 			}]
 			tasks: [{
 				id: "68C7BAA24FDE4220"
-				title: "批处理"
+				title: "{gtlcore.quest.gtl.task.68c7baa24fde4220.title}"
 				type: "checkmark"
 			}]
 			x: 5.5d
@@ -218,9 +218,9 @@
 		}
 		{
 			description: [
-				"若运行概率配方的机器带有并行，则概率产出/消耗符合期望"
+				"{gtlcore.quest.gtl.quest.7ce50c6425020dd4.description.0000}"
 				""
-				"随电压变动的概率以机器的最大配方等级与JEI中的最低配方电压等级的差来计算，最大配方等级至MAX后不再变动概率，若概率超过100%则会增加产出/消耗"
+				"{gtlcore.quest.gtl.quest.7ce50c6425020dd4.description.0002}"
 			]
 			icon: "gtceu:research_station"
 			id: "7CE50C6425020DD4"
@@ -233,10 +233,10 @@
 				id: "04392C750C2B36C5"
 				type: "checkmark"
 			}]
-			title: "概率配方"
+			title: "{gtlcore.quest.gtl.quest.7ce50c6425020dd4.title}"
 			x: 5.5d
 			y: -2.5d
 		}
 	]
-	title: "机器"
+	title: "{gtlcore.quest.gtl.chapter.367d3e683d1387d0.title}"
 }

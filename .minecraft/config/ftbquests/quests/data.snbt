@@ -20,6 +20,6 @@
 	pause_game: false
 	progression_mode: "linear"
 	show_lock_icons: true
-	title: "格雷科技休闲版"
+	title: "{gtlcore.quest.gtl.book.root.title}"
 	version: 13
 }

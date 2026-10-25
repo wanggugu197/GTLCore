@@ -7,5 +7,5 @@
 		{ item: "minecraft:cocoa_beans" }
 		{ item: "minecraft:glow_berries" }
 	]
-	title: "奇异植物"
+	title: "{gtlcore.quest.gtl.reward_table.5fc539ec684af2b7.title}"
 }
